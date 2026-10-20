@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="OrthoServ — EMS DolorClast radial shock wave device. Scene 1 design preview.">
+  <meta name="theme-color" content="#F4F8FA">
+  <title>OrthoServ — EMS DolorClast / Scene 1</title>
+  <link rel="icon" href="assets/orthoserv-logo-symbol.png" type="image/png">
+  <link rel="preload" href="assets/ems-dolorclast-console-official.png" as="image" type="image/png" fetchpriority="high">
+  <link rel="preload" href="assets/fonts/ibm-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/layered.css">
+  <script src="js/vendor/gsap.min.js" defer></script>
+  <script src="js/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="js/layered.js" defer></script>
+<link rel="stylesheet" href="css/hero-embed.css"><script src="js/hero-embed.js" defer></script></head>
+<body>
+  <a class="skip-link" href="#main" data-copy="skipContent">انتقل إلى المحتوى</a>
+  <header class="site-header" id="header">
+    <div class="header-inner">
+      <a class="brand" href="#scene-1" aria-label="OrthoServ — Medical Supplies & Rehabilitation"><img class="brand-logo" src="assets/orthoserv-logo-full.png" width="263" height="87" alt="OrthoServ — Medical Supplies & Rehabilitation" fetchpriority="high"></a>
+      <nav aria-label="التنقل الرئيسي" id="navigation">
+        <a href="#shockwave-models" data-copy="products">المنتجات</a>
+        <button type="button" data-destination="services" data-copy="services">الخدمات</button>
+        <button type="button" data-destination="juzo" lang="en" dir="ltr">Juzo</button>
+        <button type="button" data-quote data-copy="business">حلول الأعمال</button>
+      </nav>
+      <div class="header-actions"><button type="button" class="language" id="language" aria-label="Switch to English"><span lang="ar">AR</span><span aria-hidden="true">/</span><span lang="en">EN</span></button><button type="button" class="button header-quote" data-quote data-copy="quote">اطلب عرض سعر</button></div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="scene" id="scene-1" aria-labelledby="heroTitle" data-scene="dolorclast">
+      <div class="scene-watermark" lang="en" dir="ltr" aria-hidden="true">RADIAL</div>
+      <div class="scene-topline"><span class="eyebrow" lang="en" dir="ltr">01 / RADIAL THERAPY</span><button class="skip-animation" id="skipAnimation" type="button" aria-pressed="false"><span class="pause-symbol" aria-hidden="true">Ⅱ</span><span id="skipLabel" data-copy="skipAnimation">تخطي الحركة</span></button></div>
+      <div class="hero-grid">
+        <div class="artwork" id="artwork">
+          <div class="device-glow" aria-hidden="true"></div>
+          <div class="orbit" id="orbit" aria-hidden="true"></div>
+          <canvas class="cable" id="cableCanvas" aria-hidden="true"></canvas>
+          <div class="console" id="consoleBox">
+            <div class="contact-shadow" aria-hidden="true"></div>
+            <div class="photo-cutout console-photo">
+              <picture><img id="consoleImage" src="assets/ems-dolorclast-console-official.png" width="1080" height="1080" loading="eager" fetchpriority="high" decoding="async" alt="وحدة EMS DolorClast Radial، منظر أمامي رسمي / Official EMS DolorClast Radial console, front view"></picture>
+            </div>
+          </div>
+          <div class="handpiece" id="handpieceBox"><div class="handpiece-motion" id="handpieceMotion"><div class="photo-cutout handpiece-photo"><picture><img id="handpieceImage" src="assets/ems-blue-handpiece-official.png" width="848" height="548" loading="eager" decoding="async" alt="هاندبيس EMS DolorClast Blue ووصلة الخرطوم الأصلية / EMS DolorClast Blue handpiece and original hose connection"></picture></div></div></div>
+          <canvas id="pulseCanvas" aria-hidden="true"></canvas>
+          <p class="art-caption" id="pulseCaption"><span class="caption-mark" aria-hidden="true"></span><span data-copy="pulseCaption">رسم توضيحي لنبضات الموجات</span></p>
+          <p class="debug-readout" id="debugReadout" lang="en" dir="ltr" hidden></p>
+        </div>
+
+        <div class="hero-copy" id="heroCopy">
+          <span class="eyebrow product-eyebrow" lang="en" dir="ltr">EMS · DOLORCLAST® RADIAL SHOCK WAVES</span>
+          <h1 id="heroTitle"><span data-copy="headline1">موجات الصدمة الإشعاعية.</span><span class="headline-second" data-copy="headline2">بدقة تناسب العيادة.</span></h1>
+          <div class="copy-support">
+          <p class="hero-description" data-copy="body">تقنية EMS للموجات الصدمية الإشعاعية، لعيادات العلاج الطبيعي ومراكز التأهيل.</p>
+          <div class="hero-actions"><button type="button" class="button" data-quote><span data-copy="quote">اطلب عرض سعر</span><span aria-hidden="true">↗</span></button><button type="button" class="text-link" data-details><span data-copy="explore">استكشف الجهاز</span><span aria-hidden="true">↗</span></button></div>
+          </div>
+        </div>
+      </div>
+      <div class="scene-bottom"><div class="scroll-hint"><span class="scroll-line" aria-hidden="true"></span><span id="scrollLabel" data-copy="scroll">مرّر لتصاعد النبضات</span></div><span class="scene-signature" lang="en" dir="ltr">RADIAL SHOCK WAVE TECHNOLOGY</span></div>
+    </section>
+
+    <section class="models-section" id="shockwave-models" aria-labelledby="modelsTitle">
+      <div class="models-intro"><span class="eyebrow" lang="en" dir="ltr">02 / THE SHOCK WAVE COLLECTION</span>
+      <h2 id="modelsTitle" data-copy="modelsTitle">أربع وحدات.<br>عالم واحد من الدقّة.</h2>
+      <p data-copy="modelsIntro">اكتشف موديلات الشوك ويف لدى أورثوسيرف، واختر الجهاز المناسب لتجهيز عيادتك.</p></div>
+      <div class="models-grid" id="modelsGrid"></div>
+      <p class="models-note" data-copy="modelsNote">التجهيزات والتوافر والضمان تُؤكَّد عند طلب عرض السعر.</p>
+    </section>
+  </main>
+
+  <footer><span lang="en" dir="ltr">ORTHOSERV / EMS DOLORCLAST</span><p lang="en" dir="ltr">DEMO ONLY: replace with brand-approved asset</p></footer>
+  <div class="mobile-quote"><button class="button" type="button" data-quote><span data-copy="quote">اطلب عرض سعر</span><span aria-hidden="true">↗</span></button></div>
+
+  <dialog id="infoDialog" aria-labelledby="dialogTitle"><div class="dialog-top"><span class="eyebrow" lang="en" dir="ltr">ORTHOSERV / SCENE 01</span><button type="button" class="close" id="closeDialog" aria-label="إغلاق">×</button></div><h2 id="dialogTitle"></h2><p id="dialogBody"></p><div id="deviceDetails" hidden><dl><div><dt data-copy="deviceName">الجهاز</dt><dd lang="en" dir="ltr">EMS DolorClast</dd></div><div><dt data-copy="specifications">المواصفات</dt><dd data-copy="unconfirmed">[تُؤكّد]</dd></div><div><dt lang="en" dir="ltr">SFDA / MDMA</dt><dd data-copy="unconfirmed">[تُؤكّد]</dd></div><div><dt data-copy="availability">التوافر في السعودية</dt><dd data-copy="unconfirmed">[تُؤكّد]</dd></div></dl></div><div class="trust-row" aria-label="بيانات بانتظار التأكيد" id="trustRow"><p data-copy="authorized">[الوكيل المعتمد: يُؤكّد]</p><p data-copy="registration">[رقم SFDA/MDMA: يُؤكّد]</p><p data-copy="warranty">[شمول الضمان والخدمة: يُؤكّد]</p></div><p class="demo-note" data-copy="demoNote">المشهد للتوضيح البصري فقط، وليس محاكاة علاجية.</p><p class="dialog-note" data-copy="noSubmission">معاينة للمشهد فقط؛ لا يُرسل أي طلب ولا تُجمع بيانات.</p><button type="button" class="button" id="returnButton" data-copy="return">العودة للمشهد</button></dialog>
+  <noscript>JavaScript مطلوب للحركة فقط. النص وصورة الجهاز متاحان بدون تشغيل الحركة. JavaScript is required for animation only.</noscript>
+</body>
+</html>

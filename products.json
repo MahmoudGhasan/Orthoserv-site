@@ -1,0 +1,1474 @@
+{
+  "currency": "SAR",
+  "catalogueNote": "بيانات الشيت مقدمة من العميل، الأسعار والتوفر غير محددين. أسعار DEMO تجريبية فقط.",
+  "products": [
+    {
+      "id": "highcare-hc19065",
+      "name": "HIGHCARE Skin Closure Strips · 6 × 75 mm",
+      "titleAr": "شرائط إغلاق الجروح · 6 × 75 مم",
+      "brand": "HIGHCARE",
+      "model": "HC19065",
+      "category": "consumables",
+      "group": "wound-care",
+      "description": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 6 × 75 مم؛ 3 شرائط في الظرف، و50 ظرفًا في العلبة (150 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
+      "price": 70,
+      "priceSource": "user-catalogue",
+      "priceUnit": "علبة · 50 ظرفًا",
+      "method": "buy",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "size": "6 × 75 mm",
+      "pouchCount": 50,
+      "stripsPerPouch": 3,
+      "source": {
+        "file": "User-supplied HIGHCARE catalogue and packaging photo",
+        "document": "assets/documents/highcare-skin-closure-catalogue.pdf",
+        "pages": [
+          2,
+          5
+        ],
+        "note": "Prices transcribed from current-offer column on page 5. Tax treatment and availability not specified."
+      },
+      "files": [
+        {
+          "file": "assets/products/consumables/highcare-pdf-range.jpg",
+          "width": 1492,
+          "height": 868,
+          "role": "product",
+          "alt": {
+            "ar": "مجموعة عبوات HIGHCARE، صورة المجموعة من الكتالوج",
+            "en": "HIGHCARE packaging range, supplied catalogue image"
+          }
+        }
+      ],
+      "imageNote": "صورة المجموعة من الكتالوج؛ المقاس المحدد موضح في اسم المنتج."
+    },
+    {
+      "id": "highcare-hc19067",
+      "name": "HIGHCARE Skin Closure Strips · 6 × 100 mm",
+      "titleAr": "شرائط إغلاق الجروح · 6 × 100 مم",
+      "brand": "HIGHCARE",
+      "model": "HC19067",
+      "category": "consumables",
+      "group": "wound-care",
+      "description": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 6 × 100 مم؛ 10 شرائط في الظرف، و50 ظرفًا في العلبة (500 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
+      "price": 80,
+      "priceSource": "user-catalogue",
+      "priceUnit": "علبة · 50 ظرفًا",
+      "method": "buy",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "size": "6 × 100 mm",
+      "pouchCount": 50,
+      "stripsPerPouch": 10,
+      "source": {
+        "file": "User-supplied HIGHCARE catalogue and packaging photo",
+        "document": "assets/documents/highcare-skin-closure-catalogue.pdf",
+        "pages": [
+          2,
+          5
+        ],
+        "note": "Prices transcribed from current-offer column on page 5. Tax treatment and availability not specified."
+      },
+      "files": [
+        {
+          "file": "assets/products/consumables/highcare-pdf-range.jpg",
+          "width": 1492,
+          "height": 868,
+          "role": "product",
+          "alt": {
+            "ar": "مجموعة عبوات HIGHCARE، صورة المجموعة من الكتالوج",
+            "en": "HIGHCARE packaging range, supplied catalogue image"
+          }
+        }
+      ],
+      "imageNote": "صورة المجموعة من الكتالوج؛ المقاس المحدد موضح في اسم المنتج."
+    },
+    {
+      "id": "highcare-hc19068",
+      "name": "HIGHCARE Skin Closure Strips · 13 × 100 mm",
+      "titleAr": "شرائط إغلاق الجروح · 13 × 100 مم",
+      "brand": "HIGHCARE",
+      "model": "HC19068",
+      "category": "consumables",
+      "group": "wound-care",
+      "description": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 13 × 100 مم؛ 6 شرائط في الظرف، و50 ظرفًا في العلبة (300 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
+      "price": 75,
+      "priceSource": "user-catalogue",
+      "priceUnit": "علبة · 50 ظرفًا",
+      "method": "buy",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "size": "13 × 100 mm",
+      "pouchCount": 50,
+      "stripsPerPouch": 6,
+      "source": {
+        "file": "User-supplied HIGHCARE catalogue and packaging photo",
+        "document": "assets/documents/highcare-skin-closure-catalogue.pdf",
+        "pages": [
+          2,
+          5
+        ],
+        "note": "Prices transcribed from current-offer column on page 5. Tax treatment and availability not specified."
+      },
+      "files": [
+        {
+          "file": "assets/products/consumables/highcare-pdf-front.jpg",
+          "width": 984,
+          "height": 968,
+          "role": "product",
+          "alt": {
+            "ar": "عبوة HIGHCARE مقاس 13 × 100 مم، من الكتالوج",
+            "en": "HIGHCARE 13 x 100 mm packaging, catalogue view"
+          }
+        },
+        {
+          "file": "assets/products/consumables/highcare-pdf-angle.jpg",
+          "width": 984,
+          "height": 968,
+          "role": "detail",
+          "alt": {
+            "ar": "عبوة HIGHCARE مقاس 13 × 100 مم، من الكتالوج",
+            "en": "HIGHCARE 13 x 100 mm packaging, catalogue view"
+          }
+        },
+        {
+          "file": "assets/products/consumables/highcare-pdf-side.jpg",
+          "width": 980,
+          "height": 968,
+          "role": "detail",
+          "alt": {
+            "ar": "عبوة HIGHCARE مقاس 13 × 100 مم، من الكتالوج",
+            "en": "HIGHCARE 13 x 100 mm packaging, catalogue view"
+          }
+        },
+        {
+          "file": "assets/products/consumables/highcare-pdf-pack.jpg",
+          "width": 984,
+          "height": 968,
+          "role": "detail",
+          "alt": {
+            "ar": "عبوة HIGHCARE مقاس 13 × 100 مم، من الكتالوج",
+            "en": "HIGHCARE 13 x 100 mm packaging, catalogue view"
+          }
+        },
+        {
+          "file": "assets/products/consumables/highcare-pdf-range.jpg",
+          "width": 1492,
+          "height": 868,
+          "role": "detail",
+          "alt": {
+            "ar": "مجموعة عبوات HIGHCARE، صورة المجموعة من الكتالوج",
+            "en": "HIGHCARE packaging range, supplied catalogue image"
+          }
+        }
+      ],
+      "imageNote": ""
+    },
+    {
+      "id": "highcare-hc19069",
+      "name": "HIGHCARE Skin Closure Strips · 25 × 100 mm",
+      "titleAr": "شرائط إغلاق الجروح · 25 × 100 مم",
+      "brand": "HIGHCARE",
+      "model": "HC19069",
+      "category": "consumables",
+      "group": "wound-care",
+      "description": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 25 × 100 مم؛ 4 شرائط في الظرف، و50 ظرفًا في العلبة (200 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
+      "price": 80,
+      "priceSource": "user-catalogue",
+      "priceUnit": "علبة · 50 ظرفًا",
+      "method": "buy",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "size": "25 × 100 mm",
+      "pouchCount": 50,
+      "stripsPerPouch": 4,
+      "source": {
+        "file": "User-supplied HIGHCARE catalogue and packaging photo",
+        "document": "assets/documents/highcare-skin-closure-catalogue.pdf",
+        "pages": [
+          2,
+          5
+        ],
+        "note": "Prices transcribed from current-offer column on page 5. Tax treatment and availability not specified."
+      },
+      "files": [
+        {
+          "file": "assets/products/consumables/highcare-pdf-range.jpg",
+          "width": 1492,
+          "height": 868,
+          "role": "product",
+          "alt": {
+            "ar": "مجموعة عبوات HIGHCARE، صورة المجموعة من الكتالوج",
+            "en": "HIGHCARE packaging range, supplied catalogue image"
+          }
+        }
+      ],
+      "imageNote": "صورة المجموعة من الكتالوج؛ المقاس المحدد موضح في اسم المنتج."
+    },
+    {
+      "id": "demo-3",
+      "name": "طقم أكواب علاجية تجريبي",
+      "titleAr": "طقم أكواب علاجية تجريبي",
+      "brand": "DEMO",
+      "model": "",
+      "category": "consumables",
+      "group": "accessories",
+      "description": "منتج تجريبي لعرض تجربة الشراء فقط. الاسم والسعر والخيارات أمثلة غير معتمدة.",
+      "price": 120,
+      "method": "buy",
+      "demo": true,
+      "options": [
+        "6 قطع",
+        "12 قطعة"
+      ],
+      "files": [],
+      "source": {
+        "file": "Demo data"
+      },
+      "availability": "demo",
+      "demoEligible": false
+    },
+    {
+      "id": "demo-2",
+      "name": "حزام تمارين تجريبي",
+      "titleAr": "حزام تمارين تجريبي",
+      "brand": "DEMO",
+      "model": "",
+      "category": "consumables",
+      "group": "accessories",
+      "description": "منتج تجريبي لعرض تجربة الشراء فقط. الاسم والسعر والخيارات أمثلة غير معتمدة.",
+      "price": 65,
+      "method": "buy",
+      "demo": true,
+      "options": [
+        "خفيف",
+        "متوسط",
+        "قوي"
+      ],
+      "files": [],
+      "source": {
+        "file": "Demo data"
+      },
+      "availability": "demo",
+      "demoEligible": false
+    },
+    {
+      "id": "demo-1",
+      "name": "جل توصيل تجريبي",
+      "titleAr": "جل توصيل تجريبي",
+      "brand": "DEMO",
+      "model": "",
+      "category": "consumables",
+      "group": "accessories",
+      "description": "منتج تجريبي لعرض تجربة الشراء فقط. الاسم والسعر والخيارات أمثلة غير معتمدة.",
+      "price": 35,
+      "method": "buy",
+      "demo": true,
+      "options": [
+        "250 مل",
+        "500 مل"
+      ],
+      "files": [],
+      "source": {
+        "file": "Demo data"
+      },
+      "availability": "demo",
+      "demoEligible": false
+    },
+    {
+      "id": "demo-0",
+      "name": "شريط كينيسيولوجي تجريبي",
+      "titleAr": "شريط كينيسيولوجي تجريبي",
+      "brand": "DEMO",
+      "model": "",
+      "category": "consumables",
+      "group": "accessories",
+      "description": "منتج تجريبي لعرض تجربة الشراء فقط. الاسم والسعر والخيارات أمثلة غير معتمدة.",
+      "price": 45,
+      "method": "buy",
+      "demo": true,
+      "options": [
+        "بيج",
+        "أزرق",
+        "أسود"
+      ],
+      "files": [],
+      "source": {
+        "file": "Demo data"
+      },
+      "availability": "demo",
+      "demoEligible": false
+    },
+    {
+      "id": "btl",
+      "name": "BTL-4000 Premium",
+      "titleAr": "",
+      "brand": "BTL",
+      "model": "BTL-4000 Premium",
+      "category": "rehab",
+      "group": "electro",
+      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "price": null,
+      "method": "quote",
+      "files": [],
+      "source": {
+        "file": "Previous approved image manifest"
+      },
+      "availability": "confirm",
+      "demoEligible": false
+    },
+    {
+      "id": "spirit",
+      "name": "Spirit Recumbent Bike",
+      "titleAr": "",
+      "brand": "Spirit",
+      "model": "Spirit Recumbent Bike",
+      "category": "gym",
+      "group": "mobility",
+      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/products/gym/spirit-recumbent-bike-01.webp",
+          "width": 628,
+          "height": 606,
+          "role": "product",
+          "alt": {
+            "en": "Spirit recumbent bike, side studio view",
+            "ar": "دراجة سبيريت ذات المقعد الخلفي، لقطة استوديو جانبية"
+          }
+        }
+      ],
+      "source": {
+        "file": "Previous approved image manifest"
+      },
+      "availability": "confirm",
+      "demoEligible": false
+    },
+    {
+      "id": "fms",
+      "name": "FMS magnetic stimulation system",
+      "titleAr": "",
+      "brand": "FMS",
+      "model": "FMS magnetic stimulation system",
+      "category": "rehab",
+      "group": "electro",
+      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/products/rehab/fms-01-unit.webp",
+          "width": 366,
+          "height": 536,
+          "role": "product",
+          "alt": {
+            "en": "FMS magnetic stimulation unit, front view — exact model unconfirmed",
+            "ar": "جهاز تحفيز مغناطيسي FMS، لقطة أمامية — الموديل يُؤكّد"
+          }
+        },
+        {
+          "file": "assets/products/rehab/fms-02-with-chair.webp",
+          "width": 687,
+          "height": 716,
+          "role": "product",
+          "alt": {
+            "en": "FMS, unit with red chair and footplate",
+            "ar": "جهاز FMS، الجهاز مع الكرسي الأحمر ومسند القدم"
+          }
+        }
+      ],
+      "source": {
+        "file": "Previous approved image manifest"
+      },
+      "availability": "confirm",
+      "demoEligible": false
+    },
+    {
+      "id": "rehamoto",
+      "name": "Longest LGT-5100P",
+      "titleAr": "",
+      "brand": "Longest",
+      "model": "Longest LGT-5100P",
+      "category": "rehab",
+      "group": "mobility",
+      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/products/rehab/longest-lgt5100p-main.webp",
+          "width": 1600,
+          "height": 2037,
+          "role": "product",
+          "alt": {
+            "en": "Longest LGT-5100P, full device studio view",
+            "ar": "جهاز لونجست LGT-5100P، لقطة استوديو للجهاز كاملًا"
+          }
+        },
+        {
+          "file": "assets/products/rehab/longest-lgt5100p-01-console.webp",
+          "width": 548,
+          "height": 424,
+          "role": "detail",
+          "alt": {
+            "en": "Longest LGT-5100P, console detail",
+            "ar": "Longest LGT-5100P، تفاصيل وحدة التحكم"
+          }
+        },
+        {
+          "file": "assets/products/rehab/longest-lgt5100p-02-in-use.webp",
+          "width": 607,
+          "height": 361,
+          "role": "lifestyle",
+          "alt": {
+            "en": "Longest LGT-5100P, in use",
+            "ar": "Longest LGT-5100P، أثناء الاستخدام"
+          }
+        }
+      ],
+      "source": {
+        "file": "Previous approved image manifest"
+      },
+      "availability": "confirm",
+      "demoEligible": true
+    },
+    {
+      "id": "lightforce",
+      "name": "LightForce XPi",
+      "titleAr": "",
+      "brand": "LightForce",
+      "model": "LightForce XPi",
+      "category": "rehab",
+      "group": "electro",
+      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/products/rehab/lightforce-xpi-studio.webp",
+          "width": 1600,
+          "height": 1600,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز لايت فورس XPi، لقطة أمامية",
+            "en": "LightForce XPi, front view"
+          },
+          "legal": "DEMO ONLY: replace with brand-approved asset",
+          "source_page": "https://www.enovis-medtech.at/CHATTANOOGA-LIGHTFORCE-XPi",
+          "source_image_url": "https://www.enovis-medtech.de/assets/1e32b3ac-fc0e-4c38-b36a-6e139786657e/web-neu/CHATTANOOGA_LightForce-Hochenergielaser_XPi_Produktbild.png",
+          "source_archive": null
+        },
+        {
+          "file": "assets/products/rehab/lightforce-01-in-use.webp",
+          "width": 672,
+          "height": 606,
+          "role": "lifestyle",
+          "alt": {
+            "en": "LightForce XPi, in use",
+            "ar": "LightForce XPi، أثناء الاستخدام"
+          }
+        }
+      ],
+      "source": {
+        "file": "Previous approved image manifest"
+      },
+      "availability": "confirm",
+      "demoEligible": true
+    },
+    {
+      "id": "winback",
+      "name": "Winback BACK4",
+      "titleAr": "",
+      "brand": "Winback",
+      "model": "Winback BACK4",
+      "category": "rehab",
+      "group": "electro",
+      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/products/rehab/winback-back4-front-transparent.webp",
+          "width": 1600,
+          "height": 1452,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز وينباك BACK4، لقطة أمامية",
+            "en": "Winback BACK4, front view"
+          },
+          "legal": "DEMO ONLY: replace with brand-approved asset",
+          "source_page": "https://winback.us/customer-resource-hub/",
+          "source_image_url": null,
+          "source_archive": "https://www.dropbox.com/scl/fo/gfk1flar3epnn4rbtz7td/AFeG7yN6sXav7IMfwBiyIsk?rlkey=l140r249uejdwl00dwt943l2o&dl=1"
+        },
+        {
+          "file": "assets/products/rehab/winback-01-trolley.webp",
+          "width": 319,
+          "height": 319,
+          "role": "product",
+          "alt": {
+            "en": "Winback BACK4, unit on trolley",
+            "ar": "Winback BACK4، الجهاز على العربة"
+          }
+        },
+        {
+          "file": "assets/products/rehab/winback-02-back4-closeup.webp",
+          "width": 317,
+          "height": 319,
+          "role": "detail",
+          "alt": {
+            "en": "Winback BACK4, control panel detail",
+            "ar": "Winback BACK4، تفاصيل لوحة التحكم"
+          }
+        },
+        {
+          "file": "assets/products/rehab/winback-03-in-use.webp",
+          "width": 311,
+          "height": 320,
+          "role": "lifestyle",
+          "alt": {
+            "en": "Winback BACK4, in use",
+            "ar": "Winback BACK4، أثناء الاستخدام"
+          }
+        }
+      ],
+      "source": {
+        "file": "Previous approved image manifest"
+      },
+      "availability": "confirm",
+      "demoEligible": true
+    },
+    {
+      "id": "portable",
+      "name": "Game Ready GRPro 2.1",
+      "titleAr": "",
+      "brand": "Game Ready",
+      "model": "Game Ready GRPro 2.1",
+      "category": "rehab",
+      "group": "electro",
+      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/products/rehab/game-ready-grpro21-angle.webp",
+          "width": 1440,
+          "height": 1440,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز جيم ريدي المحمول GRPro 2.1، لقطة أمامية جانبية",
+            "en": "Game Ready GRPro 2.1 portable unit, three-quarter front view"
+          },
+          "legal": "DEMO ONLY: replace with brand-approved asset",
+          "source_page": "https://gameready.com/shop/gr-pro-cold-therapy-unit/",
+          "source_image_url": "https://gameready.com/wp-content/uploads/2026/08/grpro21-cu-angle.jpg",
+          "source_archive": null
+        },
+        {
+          "file": "assets/products/rehab/game-ready-portable-01-unit.webp",
+          "width": 320,
+          "height": 320,
+          "role": "product",
+          "alt": {
+            "en": "Game Ready GRPro 2.1, front view",
+            "ar": "Game Ready GRPro 2.1، لقطة أمامية"
+          }
+        },
+        {
+          "file": "assets/products/rehab/game-ready-portable-02-with-wrap.webp",
+          "width": 447,
+          "height": 320,
+          "role": "product",
+          "alt": {
+            "en": "Game Ready GRPro 2.1, unit with wrap",
+            "ar": "Game Ready GRPro 2.1، الجهاز مع اللفافة"
+          }
+        },
+        {
+          "file": "assets/products/rehab/game-ready-portable-03-ice-fill.webp",
+          "width": 608,
+          "height": 592,
+          "role": "feature",
+          "alt": {
+            "en": "Game Ready GRPro 2.1, adding ice, feature view",
+            "ar": "Game Ready GRPro 2.1، إضافة الثلج، لقطة توضيحية"
+          }
+        }
+      ],
+      "source": {
+        "file": "Previous approved image manifest"
+      },
+      "availability": "confirm",
+      "demoEligible": false
+    },
+    {
+      "id": "dolorclast",
+      "name": "EMS DolorClast",
+      "titleAr": "",
+      "brand": "EMS",
+      "model": "EMS DolorClast",
+      "category": "rehab",
+      "group": "shockwave",
+      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/products/rehab/ems-dolorclast.webp",
+          "width": 884,
+          "height": 817,
+          "role": "product",
+          "alt": {
+            "en": "EMS DolorClast, full device studio view",
+            "ar": "جهاز EMS DolorClast، لقطة استوديو للجهاز كاملًا"
+          }
+        },
+        {
+          "file": "assets/products/rehab/ems-dolorclast-01-tabletop.webp",
+          "width": 320,
+          "height": 320,
+          "role": "product",
+          "alt": {
+            "en": "EMS DolorClast, tabletop view",
+            "ar": "EMS DolorClast، لقطة على الطاولة"
+          }
+        },
+        {
+          "file": "assets/products/rehab/ems-dolorclast-02-on-stand.webp",
+          "width": 320,
+          "height": 320,
+          "role": "product",
+          "alt": {
+            "en": "EMS DolorClast, on stand",
+            "ar": "EMS DolorClast، لقطة على الحامل"
+          }
+        }
+      ],
+      "source": {
+        "file": "Previous approved image manifest"
+      },
+      "availability": "confirm",
+      "demoEligible": true
+    },
+    {
+      "id": "med4",
+      "name": "Game Ready MED4 Elite",
+      "titleAr": "",
+      "brand": "Game Ready",
+      "model": "Game Ready MED4 Elite",
+      "category": "rehab",
+      "group": "electro",
+      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/products/rehab/game-ready-med4-elite.webp",
+          "width": 1165,
+          "height": 1043,
+          "role": "product",
+          "alt": {
+            "en": "Game Ready MED4 Elite, full device studio view",
+            "ar": "جهاز جيم ريدي MED4 Elite، لقطة استوديو للجهاز كاملًا"
+          }
+        }
+      ],
+      "source": {
+        "file": "Previous approved image manifest"
+      },
+      "availability": "confirm",
+      "demoEligible": true
+    },
+    {
+      "id": "sheet-1",
+      "name": "Hydrocollator M-4",
+      "titleAr": "وحدة كمادات ساخنة سعة 24 كمادة",
+      "brand": "DJO DJO - USA",
+      "model": "2506",
+      "category": "rehab",
+      "group": "thermal",
+      "description": "HYDROCOLLATOR MOBILE HEATING UNIT M-4 - 24\nThese durable stainless steel water tanks house the Hydrocollator Moist Heat HotPacs.\nThe units are thermostatically controlled to ensure the ideal therapeutic temperature for HotPacs.\nHydrocollator remains the benchmark heating unit against which all other units are judged.\nجهاز كمادات ساخنة متحرك على عجلات سعة 24  كمادة مرفقة بالجهاز مقاس استاندر \nWeight 60 kg\nDimensions 89 x 51 x 84 cm\nFrom# DJO DJO - USA \nModel# 2506\nCountry of origin: Mexico",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/catalog/image149.jpeg",
+          "width": 700,
+          "height": 700,
+          "role": "product",
+          "alt": {
+            "ar": "صورة المنتج المرفقة في الكتالوج",
+            "en": "Product image from supplied catalogue"
+          }
+        }
+      ],
+      "source": {
+        "file": "�� اجهزة علاج طبيعي �.xlsx",
+        "sheet": "Sheet1",
+        "cell": "B5"
+      },
+      "availability": "confirm",
+      "imageStatus": "user-supplied-reference",
+      "demoEligible": false
+    },
+    {
+      "id": "sheet-2",
+      "name": "Hydrocollator M-2",
+      "titleAr": "وحدة كمادات ساخنة سعة 12 كمادة",
+      "brand": "DJO Chattanooga - USA",
+      "model": "2407",
+      "category": "rehab",
+      "group": "thermal",
+      "description": "HYDROCOLLATOR MOBILE HEATING UNIT M-2 - 12 \nFull fiberglass insulation to prevent heat loss\nDependable, rugged stainless steel design\nSimple to fill with water.\nNo plumbing required\nConstant temperature of HotPacs is maintained\nMobile units are equipped with 8 cm swivel, rubber casters for friction free movement about the clinic\nجهاز كمادات ساخنة متحرك على عجلات سعة 12  كمادة مرفقة بالجهاز مقاس استاندر \nWeight 39 kg\nDimensions 67 x 40 x 84 cm\nFrom# DJO Chattanooga - USA \nModel# 2407\nCountry of origin: Mexico",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/products/rehab/hydrocollator-m2-candidate.webp",
+          "width": 1400,
+          "height": 1400,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز تشاتانوغا هيدروكولاتور M-2، لقطة أمامية جانبية",
+            "en": "Chattanooga Hydrocollator M-2, three-quarter front view"
+          },
+          "legal": "DEMO ONLY: replace with brand-approved asset",
+          "source_page": "https://www.chattanoogarehab.com/hydrocollator-mobile-heating-unit-m-2-2407-int",
+          "source_image_url": "https://www.chattanoogarehab.com/media/catalog/product/A/P/API_2407-INT_Hydrocollator_M2_1400x1400_1.jpg",
+          "source_archive": null
+        }
+      ],
+      "source": {
+        "file": "�� اجهزة علاج طبيعي �.xlsx",
+        "sheet": "Sheet1",
+        "cell": "B6"
+      },
+      "availability": "confirm",
+      "imageStatus": "user-supplied-reference",
+      "demoEligible": false
+    },
+    {
+      "id": "sheet-70",
+      "name": "ARTROMOT-K1 CPM",
+      "titleAr": "جهاز الحركة المستمرة للركبة",
+      "brand": "Artromot - Germany",
+      "model": "80.00.040",
+      "category": "rehab",
+      "group": "mobility",
+      "description": "ARTROMOT-K1 CPM For Knee\nArthrotomy and arthroscopy procedures in combination with synovectomy, arthrolysis Treatment following mobilization of joints in anesthetized patients\nSurgical treatment of fractures and pseudoarthrosis\nExercise-stable osteosynthesis\nOperations on soft tissue in the joint area\nPatellectomy\nCorrective osteotomy Meniscectomy\nTotal knee/hip replacement ACL/PCL reconstruction\nComplex knee surgery Articular cartilage surgery, e.g. autologous chondrocyte transplantation (ACT)\nRange of Motion Extension/Flexion\nKnee -10° / 0° / 120°    -         Hip 0° / 7° / 115\nPauses (extension and ﬂexion): 0 - 59 s / 1 - 59 min\nSpeed: 5% - 100 %\nKey lock function: To prevent accidental changes of the parameter settings\nARTROMOT-K1 Standard - features\nTimer 1 - 59 minutes / 1 - 24 hours / continuous operation\nPauses (extension and/or ﬂexion) 0 - 59 seconds / 1 - 59 minutes\nReverse on load in steps 1 - 25 / patient safety feature\nWarm up protocol: Gradual progression to the maximum range of motion\nTotal therapy time: Added sum of the therapy sessions\nNew patient: Activates the default settings for new patients\nTransport setting: Moves the carriage to the transport position\nSPECIFICATION\nDIMENSIONS 97 x 36 x 23 cm\nWEIGHT 11 kg (24.4 lb)\nModel# 80.00.040\nFrom: Artromot - Germany",
+      "price": null,
+      "method": "quote",
+      "files": [],
+      "source": {
+        "file": "�� اجهزة علاج طبيعي �.xlsx",
+        "sheet": "Sheet1",
+        "cell": "B74"
+      },
+      "availability": "confirm",
+      "imageStatus": "user-supplied-reference",
+      "demoEligible": false
+    },
+    {
+      "id": "sheet-112",
+      "name": "Rehabilitation Treadmill",
+      "titleAr": "مشاية لإعادة التأهيل",
+      "brand": "OrthoServ Catalogue",
+      "model": "XRU049+XRU017+XRU020+01622",
+      "category": "rehab",
+      "group": "mobility",
+      "description": "Treadmill for rehabilitation featured by walking deck of 154 x 54 cm and maximum workout speed of 25.0 km/h. This treadmill is suitable for patient with maximum body weight of 220 kg. Dimensions: 210 x 80 x 150 h cm; Weight: 180 kg.\nechnical Spec.\nDimensions:210 x 80 x 150 h cm\nWalking deck:154 x 54 cm\nWeight:180 kg\nMax user weight:220 kg\nMax workout speed:25.0 km/h\nConsole:Touchscreen 10”\nMin constant workout speed:0.1 km/h\nMax reverse motion speed:0 - 5 km/h\nSpeed increments:0.1 km/h\nIncline:From 0% to 25%\nEmergency stop:Button and pull-wire\nIncline and speed change:Electronic\nSelf-centering belt alignment system:Yes\nSelf-lubricating belt system:Yes\nIsolation transformer:1700 VA\nPower motor:3 HP\nInverter drive:Yes\nPower supply:220/240 V - 50-60 Hz - 12 Amp\nModel# XRU049+XRU017+XRU020+01622\nForm: Chinesport - Italy",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/catalog/image56.jpeg",
+          "width": 884,
+          "height": 493,
+          "role": "product",
+          "alt": {
+            "ar": "صورة المنتج المرفقة في الكتالوج",
+            "en": "Product image from supplied catalogue"
+          }
+        }
+      ],
+      "source": {
+        "file": "�� اجهزة علاج طبيعي �.xlsx",
+        "sheet": "Sheet1",
+        "cell": "B116"
+      },
+      "availability": "confirm",
+      "imageStatus": "user-supplied-reference",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-inflation-device-interventional-systems",
+      "name": "Inflation Device",
+      "titleAr": "جهاز نفخ البالون",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "dilators",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-inflation-device-interventional-systems.jpg",
+          "width": 694,
+          "height": 462,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز نفخ البالون، لقطة المنتج",
+            "en": "Inflation Device, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/inflation-device-interventional-systems/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2023/05/Inflation-Device.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/inflation-device-interventional-systems/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-ureteral-catheter-pediatrics",
+      "name": "Ureteral Catheter",
+      "titleAr": "قسطرة الحالب",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "catheters",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-ureteral-catheter-pediatrics.jpg",
+          "width": 694,
+          "height": 434,
+          "role": "product",
+          "alt": {
+            "ar": "قسطرة الحالب، لقطة المنتج",
+            "en": "Ureteral Catheter, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/ureteral-catheter-pediatrics/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2022/11/URETERAL-CATHETER.64.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/ureteral-catheter-pediatrics/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-fascial-dilators-set-pediatrics",
+      "name": "Fascial Dilators Set",
+      "titleAr": "طقم موسعات اللفافة",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "dilators",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-fascial-dilators-set-pediatrics.jpg",
+          "width": 694,
+          "height": 462,
+          "role": "product",
+          "alt": {
+            "ar": "طقم موسعات اللفافة، لقطة المنتج",
+            "en": "Fascial Dilators Set, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/fascial-dilators-set-pediatrics/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2023/05/FACIAL-DILATOR.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/fascial-dilators-set-pediatrics/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-prime-wire-interventional-systems",
+      "name": "Prime Wire®",
+      "titleAr": "سلك إرشادي Prime Wire",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "guidewires",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-prime-wire-interventional-systems.jpg",
+          "width": 546,
+          "height": 364,
+          "role": "product",
+          "alt": {
+            "ar": "سلك إرشادي Prime Wire، لقطة المنتج",
+            "en": "Prime Wire®, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/prime-wire-interventional-systems/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2022/11/Prime-Wire.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/prime-wire-interventional-systems/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-tracer-guidewire-interventional-systems",
+      "name": "Tracer® Guidewire",
+      "titleAr": "سلك إرشادي Tracer",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "guidewires",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-tracer-guidewire-interventional-systems.jpg",
+          "width": 546,
+          "height": 364,
+          "role": "product",
+          "alt": {
+            "ar": "سلك إرشادي Tracer، لقطة المنتج",
+            "en": "Tracer® Guidewire, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/tracer-guidewire-interventional-systems/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2022/11/Tracer-Guidewire.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/tracer-guidewire-interventional-systems/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-twister-guidewire-pediatrics",
+      "name": "Twister Guidewire",
+      "titleAr": "سلك إرشادي Twister",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "guidewires",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-twister-guidewire-pediatrics.jpg",
+          "width": 694,
+          "height": 462,
+          "role": "product",
+          "alt": {
+            "ar": "سلك إرشادي Twister، لقطة المنتج",
+            "en": "Twister Guidewire, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/twister-guidewire-pediatrics/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2022/11/Twister-Guidewire.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/twister-guidewire-pediatrics/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-ptfe-guidewire-interventionl-systems",
+      "name": "PTFE Guidewire",
+      "titleAr": "سلك إرشادي PTFE",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "guidewires",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-ptfe-guidewire-interventionl-systems.jpg",
+          "width": 694,
+          "height": 462,
+          "role": "product",
+          "alt": {
+            "ar": "سلك إرشادي PTFE، لقطة المنتج",
+            "en": "PTFE Guidewire, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/ptfe-guidewire-interventionl-systems/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2022/11/PTFE-Guidewire.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/ptfe-guidewire-interventionl-systems/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-chiba-needle-interventional-systems",
+      "name": "Chiba Needle",
+      "titleAr": "إبرة Chiba",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "needles",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-chiba-needle-interventional-systems.jpg",
+          "width": 694,
+          "height": 462,
+          "role": "product",
+          "alt": {
+            "ar": "إبرة Chiba، لقطة المنتج",
+            "en": "Chiba Needle, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/chiba-needle-interventional-systems/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2022/11/CHIBA-NEEDLE.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/chiba-needle-interventional-systems/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-bluthane-ureteral-stent-pediatrics",
+      "name": "Bluthane® Ureteral Stent",
+      "titleAr": "دعامة الحالب Bluthane",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "stents",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-bluthane-ureteral-stent-pediatrics.jpg",
+          "width": 694,
+          "height": 462,
+          "role": "product",
+          "alt": {
+            "ar": "دعامة الحالب Bluthane، لقطة المنتج",
+            "en": "Bluthane® Ureteral Stent, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/bluthane-ureteral-stent-pediatrics/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2022/10/BLUTHANE-URETERAL-STENT.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/bluthane-ureteral-stent-pediatrics/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-p-flex-ureteral-stent-urology",
+      "name": "P Flex Ureteral Stent",
+      "titleAr": "دعامة الحالب P Flex",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "stents",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-p-flex-ureteral-stent-urology.jpg",
+          "width": 694,
+          "height": 462,
+          "role": "product",
+          "alt": {
+            "ar": "دعامة الحالب P Flex، لقطة المنتج",
+            "en": "P Flex Ureteral Stent, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/p-flex-ureteral-stent-urology/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2023/05/PFLEX-URETERAL-STENT.72.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/p-flex-ureteral-stent-urology/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-opticore-biopsy-gun-fully-automatic-interventional-systems",
+      "name": "Opticore Biopsy Gun – Fully Automatic",
+      "titleAr": "جهاز خزعة آلي Opticore",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "needles",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-opticore-biopsy-gun-fully-automatic-interventional-systems.jpg",
+          "width": 694,
+          "height": 462,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز خزعة آلي Opticore، لقطة المنتج",
+            "en": "Opticore Biopsy Gun – Fully Automatic, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/opticore-biopsy-gun-fully-automatic-interventional-systems/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2023/05/OPTICORE-BIOPSY-GUN-FULLY-AUTOMATIC.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/opticore-biopsy-gun-fully-automatic-interventional-systems/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-duraflex-t-stent",
+      "name": "Duraflex T Reinforced Tumor Stent",
+      "titleAr": "دعامة مقواة Duraflex T",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "stents",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-duraflex-t-stent.jpg",
+          "width": 694,
+          "height": 462,
+          "role": "product",
+          "alt": {
+            "ar": "دعامة مقواة Duraflex T، لقطة المنتج",
+            "en": "Duraflex T Reinforced Tumor Stent, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/duraflex-t-stent/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2023/05/DURAFLEX-T-STENT.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/duraflex-t-stent/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-primacore-biopsy-gun-semi-automatic",
+      "name": "Primacore™ Biopsy Gun-Semi Automatic",
+      "titleAr": "جهاز خزعة شبه آلي Primacore",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "needles",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-primacore-biopsy-gun-semi-automatic.jpg",
+          "width": 694,
+          "height": 462,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز خزعة شبه آلي Primacore، لقطة المنتج",
+            "en": "Primacore™ Biopsy Gun-Semi Automatic, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/primacore-biopsy-gun-semi-automatic/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2023/05/CYSTOSCOPIC-BIOPSY-GUN-SEMI-AUTOMATIC.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/primacore-biopsy-gun-semi-automatic/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-sure-puncture-initial-puncture-needle-three-part-interventional-systems",
+      "name": "Sure Puncture Needle (Initial Puncture Needle – Three Part)",
+      "titleAr": "إبرة وخز أولي — ثلاثة أجزاء",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "needles",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-sure-puncture-initial-puncture-needle-three-part-interventional-systems.jpg",
+          "width": 694,
+          "height": 462,
+          "role": "product",
+          "alt": {
+            "ar": "إبرة وخز أولي — ثلاثة أجزاء، لقطة المنتج",
+            "en": "Sure Puncture Needle (Initial Puncture Needle – Three Part), product view"
+          },
+          "source_page": "https://blueneem.com/products-list/sure-puncture-initial-puncture-needle-three-part-interventional-systems/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2023/04/SURE-PUNCTURE-NEEDLE-THREE-PART.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/sure-puncture-initial-puncture-needle-three-part-interventional-systems/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-initial-puncture-needle-two-part-urology",
+      "name": "Initial Puncture Needle – Two Part",
+      "titleAr": "إبرة وخز أولي — جزآن",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "needles",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-initial-puncture-needle-two-part-urology.jpg",
+          "width": 694,
+          "height": 462,
+          "role": "product",
+          "alt": {
+            "ar": "إبرة وخز أولي — جزآن، لقطة المنتج",
+            "en": "Initial Puncture Needle – Two Part, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/initial-puncture-needle-two-part-urology/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2022/11/Initial-Puncture-Needle-Two-Part.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/initial-puncture-needle-two-part-urology/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-amplatz-extra-stiff-guide-wire-urology",
+      "name": "Amplatz Extra Stiff Guidewire",
+      "titleAr": "سلك إرشادي Amplatz Extra Stiff",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "guidewires",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-amplatz-extra-stiff-guide-wire-urology.jpg",
+          "width": 694,
+          "height": 462,
+          "role": "product",
+          "alt": {
+            "ar": "سلك إرشادي Amplatz Extra Stiff، لقطة المنتج",
+            "en": "Amplatz Extra Stiff Guidewire, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/amplatz-extra-stiff-guide-wire-urology/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2022/11/Amplatz-Extra-Stiff-Guidewire.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/amplatz-extra-stiff-guide-wire-urology/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "blueneem-amplatz-ultra-stiff-guidewire-urology",
+      "name": "Amplatz Ultra Stiff® Guidewire",
+      "titleAr": "سلك إرشادي Amplatz Ultra Stiff",
+      "brand": "Blueneem",
+      "category": "medical",
+      "group": "guidewires",
+      "model": "",
+      "description": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/blueneem/blueneem-amplatz-ultra-stiff-guidewire-urology.jpg",
+          "width": 694,
+          "height": 462,
+          "role": "product",
+          "alt": {
+            "ar": "سلك إرشادي Amplatz Ultra Stiff، لقطة المنتج",
+            "en": "Amplatz Ultra Stiff® Guidewire, product view"
+          },
+          "source_page": "https://blueneem.com/products-list/amplatz-ultra-stiff-guidewire-urology/",
+          "source_image_url": "https://blueneem.com/wp-content/uploads/2022/11/Amplatz-Ulta-Stiff-Guidewire.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://blueneem.com/products-list/amplatz-ultra-stiff-guidewire-urology/",
+        "category": "https://blueneem.com/products/multi-speciality-products/"
+      },
+      "availability": "confirm",
+      "audience": "professional",
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "demoEligible": false
+    },
+    {
+      "id": "likawave-3i",
+      "name": "LiKAWAVE VARIO 3i",
+      "titleAr": "جهاز شوك ويف LiKAWAVE VARIO 3i",
+      "brand": "LiKAWAVE",
+      "model": "VARIO 3i",
+      "category": "rehab",
+      "group": "shockwave",
+      "description": "جهاز LiKAWAVE VARIO 3i من LiKAMED. يُؤكد التجهيز والسعر والتوفر مع فريق أورثو سيرف.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/identity/likawave-3i.webp",
+          "width": 800,
+          "height": 549,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز LiKAWAVE VARIO 3i، لقطة استوديو أمامية جانبية",
+            "en": "LiKAWAVE VARIO 3i, three-quarter studio view"
+          },
+          "source_page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/",
+          "source_image_url": "https://likamed.de/wp-content/uploads/2025/09/Likawave3i_Freisteller_mit_Schatten-1.webp",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/"
+      },
+      "availability": "confirm",
+      "demoEligible": false
+    },
+    {
+      "id": "likawave-2i",
+      "name": "LiKAWAVE VARIO 2i",
+      "titleAr": "جهاز شوك ويف LiKAWAVE VARIO 2i",
+      "brand": "LiKAWAVE",
+      "model": "VARIO 2i",
+      "category": "rehab",
+      "group": "shockwave",
+      "description": "جهاز LiKAWAVE VARIO 2i من LiKAMED. يُؤكد التجهيز والسعر والتوفر مع فريق أورثو سيرف.",
+      "price": null,
+      "method": "quote",
+      "files": [
+        {
+          "file": "assets/identity/likawave-2i.jpg",
+          "width": 1200,
+          "height": 831,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز LiKAWAVE VARIO 2i، لقطة استوديو أمامية جانبية",
+            "en": "LiKAWAVE VARIO 2i, three-quarter studio view"
+          },
+          "source_page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/",
+          "source_image_url": "https://likamed.de/wp-content/uploads/2025/01/2i-armed.jpg",
+          "legal": "DEMO ONLY: replace with brand-approved asset"
+        }
+      ],
+      "source": {
+        "page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/"
+      },
+      "availability": "confirm",
+      "demoEligible": false
+    }
+  ]
+}

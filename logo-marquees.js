@@ -1,0 +1,9 @@
+'use strict';
+(()=>{
+window.initTrustMarquees=()=>{
+window.trustMarqueeCleanup?.();const cleanups=[];
+document.querySelectorAll('.agency-logos,.partner-logos').forEach(rail=>{const partner=rail.classList.contains('partner-logos');rail.classList.add('logo-marquee',partner?'towards-left':'towards-right');const track=document.createElement('div'),group=document.createElement('div');track.className='logo-marquee-track';group.className='logo-marquee-group';while(rail.firstChild)group.appendChild(rail.firstChild);const copy=group.cloneNode(true);copy.setAttribute('aria-hidden','true');copy.querySelectorAll('a').forEach(a=>a.tabIndex=-1);track.append(group,copy);rail.append(track);const resize=new ResizeObserver(()=>{rail.style.setProperty('--logo-viewport',rail.clientWidth+'px');track.style.animationDuration=Math.max(60,group.scrollWidth/(partner?20:18))+'s'});resize.observe(rail);cleanups.push(()=>resize.disconnect());
+const heading=partner?rail.parentElement.querySelector('.partner-title'):rail.parentElement.querySelector('.trust-label');const button=document.createElement('button');button.type='button';button.className='logo-motion-toggle';button.innerHTML='<span aria-hidden="true">Ⅱ</span><span>إيقاف الحركة</span>';button.setAttribute('aria-label',partner?'إيقاف حركة شعارات الشركاء':'إيقاف حركة شعارات الوكالات');button.setAttribute('aria-pressed','false');heading.append(button);button.onclick=()=>{const paused=rail.classList.toggle('is-paused');button.innerHTML=`<span aria-hidden="true">${paused?'▷':'Ⅱ'}</span><span>${paused?'تشغيل الحركة':'إيقاف الحركة'}</span>`;button.setAttribute('aria-pressed',String(paused));button.setAttribute('aria-label',paused?'تشغيل حركة الشعارات':partner?'إيقاف حركة شعارات الشركاء':'إيقاف حركة شعارات الوكالات')};
+});window.trustMarqueeCleanup=()=>{cleanups.forEach(fn=>fn());window.trustMarqueeCleanup=null};
+};if(document.querySelector('.trust-section'))window.initTrustMarquees();
+})();

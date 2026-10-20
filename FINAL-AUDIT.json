@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "counts": {
+    "javascript": 14,
+    "json": 9,
+    "html": 4,
+    "css": 9,
+    "localReferences": 80,
+    "mediaReferences": 50
+  },
+  "products": 40,
+  "brands": 16,
+  "agencyPartnerLogos": 24,
+  "clientLogos": 13,
+  "demoEligible": [
+    "rehamoto",
+    "lightforce",
+    "winback",
+    "dolorclast",
+    "med4"
+  ],
+  "approvedShockwaveMotionUnchanged": true,
+  "issues": []
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "focused",
+    "name": "DolorClast® Focused",
+    "type": "FOCUSED",
+    "image": "assets/ems-focused-official.png",
+    "width": 810,
+    "height": 635,
+    "ar": "الموجات الصدمية المركّزة، مع واجهة تحكّم بشاشة لمس.",
+    "en": "Focused shock waves with a touchscreen interface.",
+    "role": "product",
+    "usage": "DEMO ONLY: replace with brand-approved asset"
+  },
+  {
+    "id": "radial",
+    "name": "DolorClast® Radial",
+    "type": "RADIAL",
+    "image": "assets/ems-dolorclast-console-official.png",
+    "width": 1080,
+    "height": 1080,
+    "ar": "الموجات الصدمية الإشعاعية، مع هاندبيس DolorClast Blue.",
+    "en": "Radial shock waves with the DolorClast Blue handpiece.",
+    "role": "product",
+    "usage": "DEMO ONLY: replace with brand-approved asset"
+  },
+  {
+    "id": "smart20",
+    "name": "Swiss DolorClast® Smart20",
+    "type": "RADIAL",
+    "image": "assets/ems-smart20-official.jpg",
+    "width": 2048,
+    "height": 1709,
+    "ar": "وحدة Smart20، بواجهة تشغيل مباشرة وتصميم مدمج.",
+    "en": "The compact Smart20 with a direct control interface.",
+    "role": "product",
+    "usage": "DEMO ONLY: replace with brand-approved asset"
+  },
+  {
+    "id": "classic",
+    "name": "Swiss DolorClast® Classic",
+    "type": "RADIAL",
+    "image": "assets/ems-classic-official.png",
+    "width": 1280,
+    "height": 742,
+    "ar": "موديل Classic، بشاشة رقمية وأزرار تحكّم مستقلة.",
+    "en": "The Classic model with digital display and separate controls.",
+    "role": "product",
+    "usage": "DEMO ONLY: replace with brand-approved asset"
+  }
+]

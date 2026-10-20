@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "smc",
+    "name": "SMC Hospitals",
+    "file": "assets/identity/smc.png",
+    "width": 200,
+    "height": 69,
+    "source_page": "https://smc.com.sa/Home/Index",
+    "source_image_url": "https://smc.com.sa/main/Images/logo/Logo.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset"
+  },
+  {
+    "slug": "dallah",
+    "name": "Dallah Hospitals",
+    "file": "assets/identity/dallah.jpg",
+    "width": 1200,
+    "height": 630,
+    "source_page": "https://www.dallahhealth.com/english/hospitals",
+    "source_image_url": "https://www.dallahhealth.com/images/ShareLogo-new.jpg",
+    "legal": "DEMO ONLY: replace with brand-approved asset"
+  },
+  {
+    "slug": "fakeeh",
+    "name": "Fakeeh Care",
+    "file": "assets/identity/fakeeh.svg",
+    "width": 388.0,
+    "height": 235.0,
+    "source_page": "https://en.fakeeh.care/",
+    "source_image_url": "https://cdn.prod.website-files.com/62f3e6d489b8b9be90c5b53e/6a049118d38dfac6974ae0e2_FCG-Global-Logo.svg",
+    "legal": "DEMO ONLY: replace with brand-approved asset"
+  },
+  {
+    "slug": "aster",
+    "name": "Aster Sanad Hospital",
+    "file": "assets/identity/aster.svg",
+    "width": 302.0,
+    "height": 105.0,
+    "source_page": "https://www.astersanad.sa/en/",
+    "source_image_url": "https://www.astersanad.sa/typo3conf/ext/asterhospital/Resources/Public/images/Aster_Sanad_Saudi.svg",
+    "legal": "DEMO ONLY: replace with brand-approved asset"
+  },
+  {
+    "slug": "gameready",
+    "name": "Game Ready",
+    "file": "assets/identity/gameready.png",
+    "width": 1000,
+    "height": 66,
+    "source_page": "https://gameready.com/",
+    "source_image_url": "https://gameready.com/wp-content/themes/gameready/images/game-ready-logo.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset"
+  },
+  {
+    "slug": "winback",
+    "name": "Winback",
+    "file": "assets/identity/winback.svg",
+    "width": 183.0,
+    "height": 103.0,
+    "source_page": "https://winback.com/",
+    "source_image_url": "https://cdn.sanity.io/images/qo3mgayk/attributeoptimization/1695b450962e7e6fce13ea802f459617c8a1a4a7-183x103.svg",
+    "legal": "DEMO ONLY: replace with brand-approved asset"
+  },
+  {
+    "slug": "blueneem",
+    "name": "Blueneem",
+    "file": "assets/identity/blueneem.svg",
+    "width": 168.0,
+    "height": 34.0,
+    "source_page": "https://blueneem.com/",
+    "source_image_url": "https://blueneem.com/wp-content/themes/blueneem/assets/img/header-logo-blue.svg",
+    "legal": "DEMO ONLY: replace with brand-approved asset"
+  },
+  {
+    "slug": "likawave",
+    "name": "LiKAWAVE",
+    "file": "assets/identity/likawave.png",
+    "width": 219,
+    "height": 155,
+    "source_page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/",
+    "source_image_url": "https://likamed.de/wp-content/uploads/2025/01/Logo_Likamed_Vario_rgb_72dpi-1.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset"
+  },
+  {
+    "slug": "likawave-3i",
+    "name": "LiKAWAVE VARIO 3i",
+    "file": "assets/identity/likawave-3i.webp",
+    "width": 800,
+    "height": 549,
+    "source_page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/",
+    "source_image_url": "https://likamed.de/wp-content/uploads/2025/09/Likawave3i_Freisteller_mit_Schatten-1.webp",
+    "legal": "DEMO ONLY: replace with brand-approved asset"
+  },
+  {
+    "slug": "likawave-2i",
+    "name": "LiKAWAVE VARIO 2i",
+    "file": "assets/identity/likawave-2i.jpg",
+    "width": 1200,
+    "height": 831,
+    "source_page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/",
+    "source_image_url": "https://likamed.de/wp-content/uploads/2025/01/2i-armed.jpg",
+    "legal": "DEMO ONLY: replace with brand-approved asset"
+  },
+  {
+    "slug": "hayat",
+    "name": "Hayat National Hospitals",
+    "file": "assets/identity/hayat.svg",
+    "width": 360.0,
+    "height": 68.12,
+    "source_page": "https://hayathealth.com/",
+    "source_image_url": "https://hayathealth.com/images/brand/logo.svg?v=2026.10",
+    "legal": "DEMO ONLY: replace with brand-approved asset"
+  }
+]

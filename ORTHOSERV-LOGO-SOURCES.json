@@ -1,0 +1,622 @@
+[
+  {
+    "id": "orthoserv-clients-01",
+    "group": "clients",
+    "name": "",
+    "file": "assets/identity/orthoserv-clients-01.png",
+    "width": 123,
+    "height": 124,
+    "sha256": "cebc38ad66b7ce2f3f54a27bec9bb2f3392021e288bd28faf99b0ddc05ea62df",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Clients",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/about-iconimage.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      14,
+      14,
+      109,
+      109
+    ],
+    "excludedReason": "Decorative icon (01) or duplicate legacy King Fahad Medical City identity (02)."
+  },
+  {
+    "id": "orthoserv-clients-02",
+    "group": "clients",
+    "name": "",
+    "file": "assets/identity/orthoserv-clients-02.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "90d602ae495abb5efe450ee1f31c6f74f6b5387ab9051cb9a79305a7fa052837",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Clients",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20397.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      438,
+      396,
+      754,
+      795
+    ],
+    "excludedReason": "Decorative icon (01) or duplicate legacy King Fahad Medical City identity (02)."
+  },
+  {
+    "id": "orthoserv-clients-03",
+    "group": "clients",
+    "name": "Armed Forces Medical Services",
+    "file": "assets/identity/orthoserv-clients-03.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "2a01460b5603d753bff64f6bc81160cdf68e7bbe1e86c84c1488d078f40c38c0",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Clients",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20398.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      318,
+      372,
+      882,
+      830
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-clients-04",
+    "group": "clients",
+    "name": "King Fahad Medical City",
+    "file": "assets/identity/orthoserv-clients-04.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "79ff529958f71030a0d7cfa0b39ef73f6eed852da88b50f38af3154df7e6e438",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Clients",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20399.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      321,
+      485,
+      882,
+      792
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-clients-05",
+    "group": "clients",
+    "name": "Dallah Hospital",
+    "file": "assets/identity/orthoserv-clients-05.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "1b0bf1d5119b4423d2aa0b706282977f1bed32584e29efe78e63c0c4c18ec815",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Clients",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20400.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      391,
+      429,
+      818,
+      818
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-clients-06",
+    "group": "clients",
+    "name": "Specialized Medical Center — SMC",
+    "file": "assets/identity/orthoserv-clients-06.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "dec8e9410cdb3a95a042a1b879f4fe5feb16bc845e319b68ff8b7c272b3a9b07",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Clients",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20401.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      151,
+      481,
+      1042,
+      714
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-clients-07",
+    "group": "clients",
+    "name": "Kingdom Hospital & Consulting Clinics",
+    "file": "assets/identity/orthoserv-clients-07.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "4a830ede4ac590a57e8f0518dac6c092f6f34f69c2fe93feddbdabc2215f20e0",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Clients",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20402.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      325,
+      372,
+      875,
+      830
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-clients-08",
+    "group": "clients",
+    "name": "King Saud University",
+    "file": "assets/identity/orthoserv-clients-08.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "69341e82f8084b599e9bc4d84ac6b9d27272d0e96f68da92a5a1ed814009e814",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Clients",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20403.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      148,
+      418,
+      1052,
+      784
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-clients-09",
+    "group": "clients",
+    "name": "Security Forces Hospital",
+    "file": "assets/identity/orthoserv-clients-09.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "c6e7e435213be2906a0acb5b5ac92c35448feeaf757a6e9a0bfe8d052e7ca9db",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Clients",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20404.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      302,
+      452,
+      1052,
+      750
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-clients-10",
+    "group": "clients",
+    "name": "Dr. Sulaiman Al Habib",
+    "file": "assets/identity/orthoserv-clients-10.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "2a80e72366ca528c002f3df0a4754b74e55e33498c4332a84f0e18f4cb9ce985",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Clients",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20405.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      148,
+      496,
+      1050,
+      706
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-clients-11",
+    "group": "clients",
+    "name": "Al Mishari Hospital",
+    "file": "assets/identity/orthoserv-clients-11.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "b993a091bcd49b5f1be7379a99d674d30f7bf5aabc72ac34c7783350733d4049",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Clients",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20406.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      371,
+      415,
+      818,
+      802
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-01",
+    "group": "partners",
+    "name": "Chinesport",
+    "file": "assets/identity/orthoserv-partners-01.png",
+    "width": 1200,
+    "height": 936,
+    "sha256": "ad39c1a48fee21e7ed72908e4a371fbe55d0ab21d67d944e6387cdfc76139fcc",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/orthoserv1%20%283%29.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      98,
+      63,
+      1116,
+      801
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-02",
+    "group": "partners",
+    "name": "DJO / LiteCure",
+    "file": "assets/identity/orthoserv-partners-02.png",
+    "width": 1200,
+    "height": 936,
+    "sha256": "cd54ba7ed866dc658c4dedd4ab3abee0dbba751d9f7f92d7743fbade24c77e1c",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/orthoserv2.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      251,
+      110,
+      965,
+      768
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-03",
+    "group": "partners",
+    "name": "Dixion",
+    "file": "assets/identity/orthoserv-partners-03.png",
+    "width": 284,
+    "height": 256,
+    "sha256": "df5985e84e9320378c6983e1ddda0fc30a75d932ce1357a1dafa0c80fa3e1c6a",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/907116Screenshot%202024-06-01%20at%203.55%203.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      10,
+      61,
+      275,
+      195
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-04",
+    "group": "partners",
+    "name": "Binary System Medical",
+    "file": "assets/identity/orthoserv-partners-04.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "aa35aefbf5cc44a99abccc2db55aff6e89ca3987b69f4f3358794e5bd2a6a05d",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/3ccd99877c1f48b44084631c3197d0e0.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      158,
+      372,
+      1024,
+      825
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-05",
+    "group": "partners",
+    "name": "SPAMA",
+    "file": "assets/identity/orthoserv-partners-05.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "7d24f54be747d4f7ba52146f0ae56d74d8bc3e0d3f68108919099282c2428561",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20381.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      152,
+      499,
+      1044,
+      703
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-06",
+    "group": "partners",
+    "name": "Unity Healthcare",
+    "file": "assets/identity/orthoserv-partners-06.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "f68bfc6b04b23b83a5e850f7b3e20aec1f2c4d98ea416e6311a2247dd477dd32",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20382.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      148,
+      475,
+      1052,
+      706
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-07",
+    "group": "partners",
+    "name": "EMS",
+    "file": "assets/identity/orthoserv-partners-07.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "16a694e939559a3173f900c501bae987581889bf6416c86996fa0dfdb9971db8",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20383.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      167,
+      483,
+      1033,
+      712
+    ],
+    "href": "#brand/ems"
+  },
+  {
+    "id": "orthoserv-partners-08",
+    "group": "partners",
+    "name": "LightForce",
+    "file": "assets/identity/orthoserv-partners-08.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "567007164ea09f303f5f34c76f95ce598ddf912d2ff46ed0302df24d431f1d9f",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20384.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      152,
+      515,
+      1040,
+      685
+    ],
+    "href": "#brand/lightforce"
+  },
+  {
+    "id": "orthoserv-partners-09",
+    "group": "partners",
+    "name": "Lifetime",
+    "file": "assets/identity/orthoserv-partners-09.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "5235c452c77450b11d8b69a765fbb93c5ff0fdef379d67fa94cc837f1ed40642",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20385.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      183,
+      490,
+      1031,
+      712
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-10",
+    "group": "partners",
+    "name": "4D Rubber",
+    "file": "assets/identity/orthoserv-partners-10.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "200379588d4bc6f286f2ab1a7098682ded861089f33113acd6a2ee0f14623ffe",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20386.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      424,
+      372,
+      776,
+      830
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-11",
+    "group": "partners",
+    "name": "Longest",
+    "file": "assets/identity/orthoserv-partners-11.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "6bd04272eeda0f0f2d301e861bfbc5df89a9af8489f476cf97ed8c516918a704",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20387.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      148,
+      480,
+      1052,
+      721
+    ],
+    "href": "#brand/longest"
+  },
+  {
+    "id": "orthoserv-partners-12",
+    "group": "partners",
+    "name": "BTL",
+    "file": "assets/identity/orthoserv-partners-12.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "bd9da8f4ec801b5b7a7dcbfe0af81e76924c323127ad17ae02fc9d4bda241efe",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20388.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      149,
+      384,
+      1051,
+      818
+    ],
+    "href": "#brand/btl"
+  },
+  {
+    "id": "orthoserv-partners-13",
+    "group": "partners",
+    "name": "TensCare",
+    "file": "assets/identity/orthoserv-partners-13.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "9af438877c6357b4562edcc8a16db8c48c17da1e81fcf2e95e6887e370270227",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20389.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      148,
+      503,
+      1052,
+      699
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-14",
+    "group": "partners",
+    "name": "Faylor",
+    "file": "assets/identity/orthoserv-partners-14.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "cb7c00915730f8e2454d6ab23eeeb3b404e3df4fb0c2f8120ddf0e17717494a7",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20390.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      315,
+      474,
+      884,
+      712
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-15",
+    "group": "partners",
+    "name": "CanDo",
+    "file": "assets/identity/orthoserv-partners-15.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "14206eba5372e4a584e86b492fac60cd3234a4d74c17b88dfb36a5de08e7f226",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20391.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      148,
+      544,
+      1050,
+      665
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-16",
+    "group": "partners",
+    "name": "Vitrosens",
+    "file": "assets/identity/orthoserv-partners-16.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "47bf98d0de05b0f872d657a7901bd9bc92b309f27437979877cff60a5b785e96",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20392.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      148,
+      542,
+      1052,
+      694
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-17",
+    "group": "partners",
+    "name": "Bioactiva Diagnostica",
+    "file": "assets/identity/orthoserv-partners-17.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "f5ae5c9411193ca35d95d8003407352402da9c6b950b268639ae155ac303ade1",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20393.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      163,
+      500,
+      1032,
+      727
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-18",
+    "group": "partners",
+    "name": "HUR",
+    "file": "assets/identity/orthoserv-partners-18.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "c97d00f9f9451197dd9f3136afc98f79f97dcb41115ffdf5f3fb66f47c0a03b3",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20394.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      154,
+      372,
+      1046,
+      830
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-19",
+    "group": "partners",
+    "name": "Avanos",
+    "file": "assets/identity/orthoserv-partners-19.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "db5df2e9d4242b0560b92e90e1dde55b38ed6ee98a7e3591edf7a80afe5ccb24",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20395.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      148,
+      519,
+      1052,
+      683
+    ],
+    "href": ""
+  },
+  {
+    "id": "orthoserv-partners-20",
+    "group": "partners",
+    "name": "Winback",
+    "file": "assets/identity/orthoserv-partners-20.png",
+    "width": 1200,
+    "height": 1200,
+    "sha256": "f47291c3827c70149945e1f7d002aa5c47a7a93f01abaf363f0e7577f85f69ae",
+    "source_page": "https://www.orthoserv.com/",
+    "source_section": "Our Partners",
+    "source_image_url": "https://www.orthoserv.com/uploads/images/Group%20396.png",
+    "legal": "DEMO ONLY: replace with brand-approved asset",
+    "displayBounds": [
+      148,
+      545,
+      1051,
+      657
+    ],
+    "href": "#brand/winback"
+  }
+]

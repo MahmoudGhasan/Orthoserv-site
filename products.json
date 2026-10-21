@@ -43,7 +43,11 @@
           }
         }
       ],
-      "imageNote": "صورة المجموعة من الكتالوج؛ المقاس المحدد موضح في اسم المنتج."
+      "imageNote": "صورة المجموعة من الكتالوج؛ المقاس المحدد موضح في اسم المنتج.",
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": ""
     },
     {
       "id": "highcare-hc19067",
@@ -86,7 +90,11 @@
           }
         }
       ],
-      "imageNote": "صورة المجموعة من الكتالوج؛ المقاس المحدد موضح في اسم المنتج."
+      "imageNote": "صورة المجموعة من الكتالوج؛ المقاس المحدد موضح في اسم المنتج.",
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": ""
     },
     {
       "id": "highcare-hc19068",
@@ -169,7 +177,11 @@
           }
         }
       ],
-      "imageNote": ""
+      "imageNote": "",
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": ""
     },
     {
       "id": "highcare-hc19069",
@@ -212,7 +224,11 @@
           }
         }
       ],
-      "imageNote": "صورة المجموعة من الكتالوج؛ المقاس المحدد موضح في اسم المنتج."
+      "imageNote": "صورة المجموعة من الكتالوج؛ المقاس المحدد موضح في اسم المنتج.",
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": ""
     },
     {
       "id": "demo-3",
@@ -235,7 +251,11 @@
         "file": "Demo data"
       },
       "availability": "demo",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": ""
     },
     {
       "id": "demo-2",
@@ -259,7 +279,11 @@
         "file": "Demo data"
       },
       "availability": "demo",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": ""
     },
     {
       "id": "demo-1",
@@ -282,7 +306,11 @@
         "file": "Demo data"
       },
       "availability": "demo",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": ""
     },
     {
       "id": "demo-0",
@@ -306,7 +334,11 @@
         "file": "Demo data"
       },
       "availability": "demo",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": ""
     },
     {
       "id": "btl",
@@ -324,7 +356,12 @@
         "file": "Previous approved image manifest"
       },
       "availability": "confirm",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "spirit",
@@ -353,7 +390,12 @@
         "file": "Previous approved image manifest"
       },
       "availability": "confirm",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "fms",
@@ -392,7 +434,12 @@
         "file": "Previous approved image manifest"
       },
       "availability": "confirm",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "rehamoto",
@@ -441,7 +488,12 @@
         "file": "Previous approved image manifest"
       },
       "availability": "confirm",
-      "demoEligible": true
+      "demoEligible": true,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "lightforce",
@@ -484,7 +536,12 @@
         "file": "Previous approved image manifest"
       },
       "availability": "confirm",
-      "demoEligible": true
+      "demoEligible": true,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "winback",
@@ -547,7 +604,12 @@
         "file": "Previous approved image manifest"
       },
       "availability": "confirm",
-      "demoEligible": true
+      "demoEligible": true,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "portable",
@@ -610,7 +672,12 @@
         "file": "Previous approved image manifest"
       },
       "availability": "confirm",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "dolorclast",
@@ -621,7 +688,7 @@
       "category": "rehab",
       "group": "shockwave",
       "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
-      "price": null,
+      "price": 1000.0,
       "method": "quote",
       "files": [
         {
@@ -659,7 +726,12 @@
         "file": "Previous approved image manifest"
       },
       "availability": "confirm",
-      "demoEligible": true
+      "demoEligible": true,
+      "visible": true,
+      "salePrice": 500,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "med4",
@@ -688,7 +760,12 @@
         "file": "Previous approved image manifest"
       },
       "availability": "confirm",
-      "demoEligible": true
+      "demoEligible": true,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "sheet-1",
@@ -720,7 +797,12 @@
       },
       "availability": "confirm",
       "imageStatus": "user-supplied-reference",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "sheet-2",
@@ -756,7 +838,12 @@
       },
       "availability": "confirm",
       "imageStatus": "user-supplied-reference",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "sheet-70",
@@ -777,7 +864,12 @@
       },
       "availability": "confirm",
       "imageStatus": "user-supplied-reference",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "sheet-112",
@@ -809,7 +901,12 @@
       },
       "availability": "confirm",
       "imageStatus": "user-supplied-reference",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-inflation-device-interventional-systems",
@@ -844,7 +941,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-ureteral-catheter-pediatrics",
@@ -879,7 +981,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-fascial-dilators-set-pediatrics",
@@ -914,7 +1021,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-prime-wire-interventional-systems",
@@ -949,7 +1061,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-tracer-guidewire-interventional-systems",
@@ -984,7 +1101,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-twister-guidewire-pediatrics",
@@ -1019,7 +1141,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-ptfe-guidewire-interventionl-systems",
@@ -1054,7 +1181,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-chiba-needle-interventional-systems",
@@ -1089,7 +1221,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-bluthane-ureteral-stent-pediatrics",
@@ -1124,7 +1261,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-p-flex-ureteral-stent-urology",
@@ -1159,7 +1301,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-opticore-biopsy-gun-fully-automatic-interventional-systems",
@@ -1194,7 +1341,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-duraflex-t-stent",
@@ -1229,7 +1381,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-primacore-biopsy-gun-semi-automatic",
@@ -1264,7 +1421,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-sure-puncture-initial-puncture-needle-three-part-interventional-systems",
@@ -1299,7 +1461,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-initial-puncture-needle-two-part-urology",
@@ -1334,7 +1501,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-amplatz-extra-stiff-guide-wire-urology",
@@ -1369,7 +1541,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "blueneem-amplatz-ultra-stiff-guidewire-urology",
@@ -1404,7 +1581,12 @@
       "availability": "confirm",
       "audience": "professional",
       "usage": "DEMO ONLY: replace with brand-approved asset",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "likawave-3i",
@@ -1436,7 +1618,12 @@
         "page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/"
       },
       "availability": "confirm",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     },
     {
       "id": "likawave-2i",
@@ -1468,7 +1655,12 @@
         "page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/"
       },
       "availability": "confirm",
-      "demoEligible": false
+      "demoEligible": false,
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "options": []
     }
   ]
 }

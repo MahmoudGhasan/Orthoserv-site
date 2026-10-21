@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "hero": {
+    "titleAr": "كل خطوة للأمام ترجعك للخلف",
+    "titleEn": "Every step forward starts with care.",
+    "descriptionAr": "أجهزة التأهيل، تجهيزات اللياقة، ومنتجات العناية اليومية. اختياراتك للحركة في مكان واحد.",
+    "descriptionEn": "Rehabilitation, fitness equipment and daily care. Your choices for movement, together.",
+    "buttonAr": "تسوّق المجموعة ←",
+    "buttonEn": "Shop the collection →",
+    "href": "#catalog",
+    "image": "assets/uploads/Screenshot-2026-08-03-124752-51ba2ac4.png",
+    "intervalMs": 7600,
+    "showJuzo": true,
+    "showShockwave": true
+  },
+  "featured": [
+    "med4",
+    "dolorclast",
+    "winback",
+    "lightforce",
+    "sheet-1",
+    "sheet-2",
+    "sheet-112",
+    "spirit"
+  ],
+  "suggestions": [
+    {
+      "name": "جوارب Juzo Soft",
+      "tag": "MEDICAL COMPRESSION",
+      "description": "راحة تناسب يومك",
+      "href": "experiences/juzo/#catalog",
+      "file": "experiences/juzo/assets/products/juzo-0.jpg",
+      "w": 367,
+      "h": 547,
+      "role": "lifestyle"
+    },
+    {
+      "name": "دراجة Spirit",
+      "tag": "FITNESS / CARDIO",
+      "description": "تمرين بإيقاعك",
+      "href": "#product/spirit",
+      "file": "assets/products/gym/spirit-recumbent-bike-01.webp",
+      "w": 628,
+      "h": 606,
+      "role": "product"
+    },
+    {
+      "name": "LiKAWAVE VARIO 3i",
+      "tag": "REHABILITATION",
+      "description": "تقنية الشوك ويف للعيادة",
+      "href": "#product/likawave-3i",
+      "file": "assets/identity/likawave-3i.webp",
+      "w": 800,
+      "h": 549,
+      "role": "product"
+    },
+    {
+      "name": "Game Ready المحمول",
+      "tag": "RECOVERY / COOLING",
+      "description": "التبريد والضغط في جهاز واحد",
+      "href": "#product/portable",
+      "file": "assets/products/rehab/game-ready-grpro21-angle.webp",
+      "w": 1440,
+      "h": 1440,
+      "role": "product"
+    }
+  ],
+  "sections": {
+    "selectedEquipment": true,
+    "recommendations": true,
+    "essentials": true,
+    "trust": true,
+    "business": true
+  },
+  "contact": {
+    "phone": "",
+    "email": "",
+    "whatsapp": "",
+    "legalName": "مؤسسة خدمة العظم للتجارة",
+    "address": "حي الروابي، طريق الأمير سعد بن عبد الرحمن الأول",
+    "building": "مبنى أثير التجاري · رقم المبنى 3464",
+    "registration": "1010251830",
+    "vat": "311590698500003",
+    "shortAddress": "RQWC3464",
+    "postalCode": "14215",
+    "footerText": "مساحة واحدة للتأهيل، والحركة، والعناية اليومية."
+  },
+  "appearance": {
+    "accent": "#194b9c",
+    "logo": "assets/orthoserv-logo-full.png"
+  },
+  "ad": {
+    "enabled": true
+  },
+  "categories": {
+    "all": "كل المنتجات",
+    "rehab": "العلاج الطبيعي والتأهيل",
+    "gym": "اللياقة والتمارين",
+    "compression": "الضغط الطبي",
+    "consumables": "المستهلكات",
+    "medical": "منتجات طبية متعددة التخصصات",
+    "saved": "المفضلة"
+  },
+  "groups": {
+    "shockwave": "الشوك ويف",
+    "electro": "الأجهزة العلاجية",
+    "thermal": "العلاج بالحرارة والبرودة",
+    "mobility": "الحركة والتمارين",
+    "accessories": "الأدوات والمستهلكات",
+    "wound-care": "العناية بالجروح",
+    "guidewires": "الأسلاك الإرشادية",
+    "stents": "الدعامات",
+    "needles": "الإبر وأجهزة الخزعة",
+    "catheters": "القساطر",
+    "dilators": "الموسعات وأجهزة النفخ"
+  },
+  "seo": {
+    "titleAr": "OrthoServ | متجر",
+    "titleEn": "OrthoServ | Movement & Rehabilitation",
+    "descriptionAr": "تجربة متجر أورثو سيرف للتأهيل والعلاج الطبيعي واللياقة والضغط الطبي.",
+    "descriptionEn": "OrthoServ rehabilitation, physiotherapy, fitness and medical compression."
+  },
+  "links": [
+    {
+      "name": "الشعار / الرئيسية",
+      "href": "#home",
+      "key": "header-logo-home"
+    },
+    {
+      "name": "حلول المراكز",
+      "href": "#business",
+      "key": "nav-business"
+    },
+    {
+      "name": "تواصل معنا",
+      "href": "#contact",
+      "key": "nav-contact"
+    },
+    {
+      "name": "استعرض كل المنتجات ←",
+      "href": "#catalog",
+      "key": "nav-catalog"
+    },
+    {
+      "name": "كل المنتجات ←",
+      "href": "#catalog",
+      "key": "shop-all-products"
+    },
+    {
+      "name": "01العلاج الطبيعي والتأهيلالأجهزة العلاجية وحلول الحركة←",
+      "href": "#catalog/rehab",
+      "key": "shop-catalog-rehab"
+    },
+    {
+      "name": "02اللياقة والتمارينتجهيزات التمرين وإعادة التأهيل←",
+      "href": "#catalog/gym",
+      "key": "shop-catalog-gym"
+    },
+    {
+      "name": "03الضغط الطبيالجوارب والأكمام والمقاسات↗",
+      "href": "experiences/juzo/",
+      "key": "shop-compression-juzo"
+    },
+    {
+      "name": "04المستهلكاتاحتياجات العناية اليومية←",
+      "href": "#catalog/consumables",
+      "key": "shop-catalog-consumables"
+    },
+    {
+      "name": "05منتجات طبية متعددة التخصصاتالقساطر والدعامات والأدوات الطبية←",
+      "href": "#catalog/medical",
+      "key": "shop-catalog-medical"
+    },
+    {
+      "name": "EMS Shockwaveاكتشف الأجهزة عن قرب ↗",
+      "href": "experiences/shockwave/",
+      "key": "shop-discover-shockwave"
+    },
+    {
+      "name": "Juzoاكتشف عالم الضغط الطبي ↗",
+      "href": "experiences/juzo/",
+      "key": "shop-discover-juzo"
+    },
+    {
+      "name": "Juzoالضغط الطبي ↗",
+      "href": "experiences/juzo/",
+      "key": "brands-juzo"
+    },
+    {
+      "name": "EMSالشوك ويف",
+      "href": "#brand/ems",
+      "key": "brands-ems"
+    },
+    {
+      "name": "Game Readyالتبريد والضغط",
+      "href": "#brand/game-ready",
+      "key": "brands-game-ready"
+    },
+    {
+      "name": "Winbackأجهزة TECAR",
+      "href": "#brand/winback",
+      "key": "brands-winback"
+    },
+    {
+      "name": "LightForceأجهزة الليزر",
+      "href": "#brand/lightforce",
+      "key": "brands-lightforce"
+    },
+    {
+      "name": "LiKAWAVEالشوك ويف · 3i / 2i",
+      "href": "#brand/likawave",
+      "key": "brands-likawave"
+    },
+    {
+      "name": "BTLالأجهزة العلاجية",
+      "href": "#brand/btl",
+      "key": "brands-btl"
+    },
+    {
+      "name": "Blueneemمنتجات متعددة التخصصات",
+      "href": "#brand/blueneem",
+      "key": "brands-blueneem"
+    },
+    {
+      "name": "Spiritاللياقة والتمارين",
+      "href": "#brand/spirit",
+      "key": "brands-spirit"
+    },
+    {
+      "name": "استعرض المجموعة ←",
+      "href": "#catalog",
+      "key": "brands-all-products"
+    },
+    {
+      "name": "الشعار / الرئيسية",
+      "href": "#home",
+      "key": "footer-logo-home"
+    },
+    {
+      "name": "العلاج الطبيعي",
+      "href": "#catalog/rehab",
+      "key": "footer-catalog-rehab"
+    },
+    {
+      "name": "اللياقة والتمارين",
+      "href": "#catalog/gym",
+      "key": "footer-catalog-gym"
+    },
+    {
+      "name": "المستهلكات",
+      "href": "#catalog/consumables",
+      "key": "footer-catalog-consumables"
+    },
+    {
+      "name": "العملاء والشركاء",
+      "href": "#partners",
+      "key": "footer-partners"
+    },
+    {
+      "name": "EMS Shockwave ↗",
+      "href": "experiences/shockwave/",
+      "key": "footer-shockwave"
+    },
+    {
+      "name": "عالم Juzo ↗",
+      "href": "experiences/juzo/",
+      "key": "footer-juzo"
+    },
+    {
+      "name": "تجهيز المراكز",
+      "href": "#business",
+      "key": "footer-business"
+    }
+  ],
+  "brandRoutes": [
+    {
+      "slug": "ems",
+      "label": "EMS"
+    },
+    {
+      "slug": "game-ready",
+      "label": "Game Ready"
+    },
+    {
+      "slug": "winback",
+      "label": "Winback"
+    },
+    {
+      "slug": "lightforce",
+      "label": "LightForce"
+    },
+    {
+      "slug": "likawave",
+      "label": "LiKAWAVE"
+    },
+    {
+      "slug": "longest",
+      "label": "Longest"
+    },
+    {
+      "slug": "btl",
+      "label": "BTL"
+    },
+    {
+      "slug": "blueneem",
+      "label": "Blueneem"
+    },
+    {
+      "slug": "spirit",
+      "label": "Spirit"
+    },
+    {
+      "slug": "highcare",
+      "label": "HIGHCARE"
+    }
+  ]
+}

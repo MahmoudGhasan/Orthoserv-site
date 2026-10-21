@@ -9,7 +9,8 @@
     "ar": "الموجات الصدمية المركّزة، مع واجهة تحكّم بشاشة لمس.",
     "en": "Focused shock waves with a touchscreen interface.",
     "role": "product",
-    "usage": "DEMO ONLY: replace with brand-approved asset"
+    "usage": "DEMO ONLY: replace with brand-approved asset",
+    "visible": true
   },
   {
     "id": "radial",
@@ -21,7 +22,8 @@
     "ar": "الموجات الصدمية الإشعاعية، مع هاندبيس DolorClast Blue.",
     "en": "Radial shock waves with the DolorClast Blue handpiece.",
     "role": "product",
-    "usage": "DEMO ONLY: replace with brand-approved asset"
+    "usage": "DEMO ONLY: replace with brand-approved asset",
+    "visible": true
   },
   {
     "id": "smart20",
@@ -33,7 +35,8 @@
     "ar": "وحدة Smart20، بواجهة تشغيل مباشرة وتصميم مدمج.",
     "en": "The compact Smart20 with a direct control interface.",
     "role": "product",
-    "usage": "DEMO ONLY: replace with brand-approved asset"
+    "usage": "DEMO ONLY: replace with brand-approved asset",
+    "visible": true
   },
   {
     "id": "classic",
@@ -45,6 +48,7 @@
     "ar": "موديل Classic، بشاشة رقمية وأزرار تحكّم مستقلة.",
     "en": "The Classic model with digital display and separate controls.",
     "role": "product",
-    "usage": "DEMO ONLY: replace with brand-approved asset"
+    "usage": "DEMO ONLY: replace with brand-approved asset",
+    "visible": true
   }
 ]

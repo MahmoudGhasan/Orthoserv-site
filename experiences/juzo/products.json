@@ -12,7 +12,8 @@
     "alt": "Juzo Soft below-knee stockings",
     "source": "https://www.juzo.com/_Resources/Persistent/d/5/8/3/d583e530bfc95a37567ae911849a4a70aadbefcc/juzo-soft-chaussettes-platine.jpg",
     "page": "https://www.juzo.com/en/products/compression-garments/venous-therapy/juzo-soft",
-    "usage": "DEMO ONLY: replace with brand-approved asset"
+    "usage": "DEMO ONLY: replace with brand-approved asset",
+    "visible": true
   },
   {
     "id": "soft-thigh",
@@ -27,7 +28,8 @@
     "alt": "Juzo Soft thigh stockings",
     "source": "https://www.juzo.com/_Resources/Persistent/0/c/e/b/0cebcc32dbe3237aa25d70d478a834ed410c2327/juzo-soft-oberschenkelstrumpf-hoch.jpg",
     "page": "https://www.juzo.com/en/products/compression-garments/venous-therapy/juzo-soft",
-    "usage": "DEMO ONLY: replace with brand-approved asset"
+    "usage": "DEMO ONLY: replace with brand-approved asset",
+    "visible": true
   },
   {
     "id": "soft-tights",
@@ -42,7 +44,8 @@
     "alt": "Juzo Soft pantyhose",
     "source": "https://www.juzo.com/_Resources/Persistent/5/f/0/7/5f07b5a1a40772da4e21592a8a63ac45fa686aad/juzo-soft-strumpfhose-hoch.jpg",
     "page": "https://www.juzo.com/en/products/compression-garments/venous-therapy/juzo-soft",
-    "usage": "DEMO ONLY: replace with brand-approved asset"
+    "usage": "DEMO ONLY: replace with brand-approved asset",
+    "visible": true
   },
   {
     "id": "soft-sleeve",
@@ -57,7 +60,8 @@
     "alt": "Juzo Soft sleeves",
     "source": "https://www.juzo.com/_Resources/Persistent/1/0/4/d/104d2bfe0e7f9c91b835bdf6b9caa82d466eff14/juzo-soft-aermel-hoch.jpg",
     "page": "https://www.juzo.com/en/products/compression-garments/venous-therapy/juzo-soft",
-    "usage": "DEMO ONLY: replace with brand-approved asset"
+    "usage": "DEMO ONLY: replace with brand-approved asset",
+    "visible": true
   },
   {
     "id": "wrap-calf",
@@ -72,7 +76,8 @@
     "alt": "Juzo Compression Wrap calf segment",
     "source": "https://www.juzo.com/_Resources/Persistent/3/2/6/e/326e3be576be0032dd727a91f79bad5aa14be849/compression-wrap-unterschenkel-1006x1006.jpg",
     "page": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-compression-wrap",
-    "usage": "DEMO ONLY: replace with brand-approved asset"
+    "usage": "DEMO ONLY: replace with brand-approved asset",
+    "visible": true
   },
   {
     "id": "wrap-foot",
@@ -87,6 +92,7 @@
     "alt": "Juzo Compression Wrap foot segment",
     "source": "https://www.juzo.com/_Resources/Persistent/f/f/0/6/ff069ffea453d21ea6e7384fbfc79509387540de/compression-wrap-fuss-818x818.jpg",
     "page": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-compression-wrap",
-    "usage": "DEMO ONLY: replace with brand-approved asset"
+    "usage": "DEMO ONLY: replace with brand-approved asset",
+    "visible": true
   }
 ]

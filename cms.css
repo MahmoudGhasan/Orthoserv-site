@@ -1,0 +1,6 @@
+[hidden]{display:none!important}
+.cms-contact-links{display:flex;gap:15px;flex-wrap:wrap;margin-top:16px}
+.cms-contact-links a{color:var(--cms-accent,#194b9c);text-decoration:underline;text-underline-offset:4px}
+button:disabled{opacity:.5;cursor:not-allowed}
+
+.cms-old-price{font-size:.72em;opacity:.6;margin-inline-end:5px}

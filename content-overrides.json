@@ -1,0 +1,2714 @@
+{
+  "overrides": [
+    {
+      "original": "العملاء والشركاء",
+      "ar": "العملاء والشركاء",
+      "en": "Clients & partners"
+    },
+    {
+      "original": "وكلاء وشركاء العلامات",
+      "ar": "وكلاء وشركاء العلامات",
+      "en": "Brand partners & distributors"
+    },
+    {
+      "original": "عملاؤنا وشركاء نعتز بثقتهم",
+      "ar": "عملاؤنا وشركاء نعتز بثقتهم",
+      "en": "Clients & healthcare partners"
+    },
+    {
+      "original": "إيقاف حركة شعارات الشركاء",
+      "ar": "إيقاف حركة شعارات الشركاء",
+      "en": "Pause partner logos"
+    },
+    {
+      "original": "إيقاف حركة شعارات الوكالات",
+      "ar": "إيقاف حركة شعارات الوكالات",
+      "en": "Pause distributor logos"
+    },
+    {
+      "original": "تشغيل حركة الشعارات",
+      "ar": "تشغيل حركة الشعارات",
+      "en": "Play logo animation"
+    },
+    {
+      "original": "تقنية الشوك ويف للعيادة",
+      "ar": "تقنية الشوك ويف للعيادة",
+      "en": "Shockwave technology for the clinic"
+    },
+    {
+      "original": "جهاز شوك ويف LiKAWAVE VARIO",
+      "ar": "جهاز شوك ويف LiKAWAVE VARIO",
+      "en": "LiKAWAVE VARIO shockwave device"
+    },
+    {
+      "original": "الشوك ويف · 3i / 2i",
+      "ar": "الشوك ويف · 3i / 2i",
+      "en": "Shockwave · 3i / 2i"
+    },
+    {
+      "original": "من LiKAMED. يُؤكد التجهيز والسعر والتوفر مع فريق أورثو سيرف.",
+      "ar": "من LiKAMED. يُؤكد التجهيز والسعر والتوفر مع فريق أورثو سيرف.",
+      "en": "by LiKAMED. Confirm configuration, pricing and availability with the OrthoServ team."
+    },
+    {
+      "original": "تجارب أورثو سيرف",
+      "ar": "تجارب أورثو سيرف",
+      "en": "OrthoServ experiences"
+    },
+    {
+      "original": "حركة أخف.",
+      "ar": "حركة أخف.",
+      "en": "Move with ease."
+    },
+    {
+      "original": "يوم أقرب لك.",
+      "ar": "يوم أقرب لك.",
+      "en": "Make the day yours."
+    },
+    {
+      "original": "اكتشف الجوارب والأكمام الطبية، واختَر ما يناسب يومك في تجربة Juzo.",
+      "ar": "اكتشف الجوارب والأكمام الطبية، واختَر ما يناسب يومك في تجربة Juzo.",
+      "en": "Explore medical stockings and sleeves, and find your everyday fit in the Juzo experience."
+    },
+    {
+      "original": "استعرض مجموعة Juzo",
+      "ar": "استعرض مجموعة Juzo",
+      "en": "Browse the Juzo collection"
+    },
+    {
+      "original": "تصور إعلاني للحركة",
+      "ar": "تصور إعلاني للحركة",
+      "en": "Illustrative motion concept"
+    },
+    {
+      "original": "تقنية تراها.",
+      "ar": "تقنية تراها.",
+      "en": "Technology in view."
+    },
+    {
+      "original": "تفاصيل تكتشفها.",
+      "ar": "تفاصيل تكتشفها.",
+      "en": "Details to discover."
+    },
+    {
+      "original": "جهاز الشوك ويف والهاندبيس في مشهد تفاعلي، للتعرف على مجموعة EMS عن قرب.",
+      "ar": "جهاز الشوك ويف والهاندبيس في مشهد تفاعلي، للتعرف على مجموعة EMS عن قرب.",
+      "en": "Discover the EMS collection through an interactive scene with the shockwave device, handpiece and hose."
+    },
+    {
+      "original": "استعرض موديلات EMS",
+      "ar": "استعرض موديلات EMS",
+      "en": "Browse EMS models"
+    },
+    {
+      "original": "حركة توضيحية، وليست محاكاة علاجية",
+      "ar": "حركة توضيحية، وليست محاكاة علاجية",
+      "en": "Illustrative motion, not a treatment simulation"
+    },
+    {
+      "original": "اختيار المشهد",
+      "ar": "اختيار المشهد",
+      "en": "Choose a scene"
+    },
+    {
+      "original": "عرض مشهد أورثو سيرف",
+      "ar": "عرض مشهد أورثو سيرف",
+      "en": "Show OrthoServ scene"
+    },
+    {
+      "original": "عرض مشهد Juzo",
+      "ar": "عرض مشهد Juzo",
+      "en": "Show Juzo scene"
+    },
+    {
+      "original": "عرض مشهد الشوك ويف",
+      "ar": "عرض مشهد الشوك ويف",
+      "en": "Show shockwave scene"
+    },
+    {
+      "original": "المشهد السابق",
+      "ar": "المشهد السابق",
+      "en": "Previous scene"
+    },
+    {
+      "original": "المشهد التالي",
+      "ar": "المشهد التالي",
+      "en": "Next scene"
+    },
+    {
+      "original": "إيقاف العرض التلقائي",
+      "ar": "إيقاف العرض التلقائي",
+      "en": "Pause slideshow"
+    },
+    {
+      "original": "تشغيل العرض التلقائي",
+      "ar": "تشغيل العرض التلقائي",
+      "en": "Play slideshow"
+    },
+    {
+      "original": "رجل بجورب ضغط رمادي تتحرك بخطوة خفيفة، تصور إعلاني",
+      "ar": "رجل بجورب ضغط رمادي تتحرك بخطوة خفيفة، تصور إعلاني",
+      "en": "Grey compression stocking on a moving leg, illustrative concept"
+    },
+    {
+      "original": "جهاز EMS DolorClast والهاندبيس بالكابل الأصلي، حركة توضيحية",
+      "ar": "جهاز EMS DolorClast والهاندبيس بالكابل الأصلي، حركة توضيحية",
+      "en": "EMS DolorClast device, handpiece and original hose, illustrative motion"
+    },
+    {
+      "original": "اكتشف أيضًا",
+      "ar": "اكتشف أيضًا",
+      "en": "Explore more"
+    },
+    {
+      "original": "اختيارات من عوالم أورثو",
+      "ar": "اختيارات من عوالم أورثو",
+      "en": "Discover more from OrthoServ"
+    },
+    {
+      "original": "العناية والتمرين والتأهيل، باختيارات أقرب لاحتياجك.",
+      "ar": "العناية والتمرين والتأهيل، باختيارات أقرب لاحتياجك.",
+      "en": "Care, exercise and rehabilitation, selected around your needs."
+    },
+    {
+      "original": "جوارب Juzo Soft",
+      "ar": "جوارب Juzo Soft",
+      "en": "Juzo Soft stockings"
+    },
+    {
+      "original": "راحة تناسب يومك",
+      "ar": "راحة تناسب يومك",
+      "en": "Everyday comfort"
+    },
+    {
+      "original": "دراجة Spirit",
+      "ar": "دراجة Spirit",
+      "en": "Spirit recumbent bike"
+    },
+    {
+      "original": "تمرين بإيقاعك",
+      "ar": "تمرين بإيقاعك",
+      "en": "Exercise at your own pace"
+    },
+    {
+      "original": "Game Ready المحمول",
+      "ar": "Game Ready المحمول",
+      "en": "Game Ready portable"
+    },
+    {
+      "original": "التبريد والضغط في جهاز واحد",
+      "ar": "التبريد والضغط في جهاز واحد",
+      "en": "Cooling and compression together"
+    },
+    {
+      "original": "تقنية TECAR للعيادة",
+      "ar": "تقنية TECAR للعيادة",
+      "en": "TECAR technology for the clinic"
+    },
+    {
+      "original": "اكتشف المجموعة",
+      "ar": "اكتشف المجموعة",
+      "en": "Discover the collection"
+    },
+    {
+      "original": "منذ 2009",
+      "ar": "منذ 2009",
+      "en": "Since 2009"
+    },
+    {
+      "original": "خبرة في السوق السعودي.",
+      "ar": "خبرة في السوق السعودي.",
+      "en": "Experience in Saudi Arabia."
+    },
+    {
+      "original": "منذ 2009، نخدم الأفراد والمراكز الطبية بحلول التأهيل والتجهيزات الطبية.",
+      "ar": "منذ 2009، نخدم الأفراد والمراكز الطبية بحلول التأهيل والتجهيزات الطبية.",
+      "en": "Serving people and healthcare facilities in Saudi Arabia with rehabilitation and medical equipment since 2009."
+    },
+    {
+      "original": "وكلاء في السعودية",
+      "ar": "وكلاء في السعودية",
+      "en": "Distributors in Saudi Arabia"
+    },
+    {
+      "original": "شركاء نعتز بثقتهم",
+      "ar": "شركاء نعتز بثقتهم",
+      "en": "Partners who trust us"
+    },
+    {
+      "original": "مستشفيات ومراكز طبية نعمل معها",
+      "ar": "مستشفيات ومراكز طبية نعمل معها",
+      "en": "Hospitals and medical centres we work with"
+    },
+    {
+      "original": "والمزيد من شركاء القطاع الصحي",
+      "ar": "والمزيد من شركاء القطاع الصحي",
+      "en": "And more healthcare partners"
+    },
+    {
+      "original": "مستشفيات الحياة",
+      "ar": "مستشفيات الحياة",
+      "en": "Al Hayat Hospitals"
+    },
+    {
+      "original": "بيانات المنشأة",
+      "ar": "بيانات المنشأة",
+      "en": "Company details"
+    },
+    {
+      "original": "حي الروابي، طريق الأمير سعد بن عبد الرحمن الأول",
+      "ar": "حي الروابي، طريق الأمير سعد بن عبد الرحمن الأول",
+      "en": "Al Rawabi district, Prince Saad bin Abdulrahman Al Awwal Road"
+    },
+    {
+      "original": "مبنى أثير التجاري · رقم المبنى",
+      "ar": "مبنى أثير التجاري · رقم المبنى",
+      "en": "Atheer Commercial Building · Building no."
+    },
+    {
+      "original": "السجل التجاري",
+      "ar": "السجل التجاري",
+      "en": "Commercial registration"
+    },
+    {
+      "original": "الرقم الضريبي",
+      "ar": "الرقم الضريبي",
+      "en": "VAT registration number"
+    },
+    {
+      "original": "العنوان المختصر",
+      "ar": "العنوان المختصر",
+      "en": "National address short code"
+    },
+    {
+      "original": "الرمز البريدي",
+      "ar": "الرمز البريدي",
+      "en": "Postal code"
+    },
+    {
+      "original": "احجز عرضًا للجهاز",
+      "ar": "احجز عرضًا للجهاز",
+      "en": "Request a demo"
+    },
+    {
+      "original": "عرض تجريبي للجهاز",
+      "ar": "عرض تجريبي للجهاز",
+      "en": "Equipment demo"
+    },
+    {
+      "original": "طلب عرض للجهاز",
+      "ar": "طلب عرض للجهاز",
+      "en": "Request an equipment demo"
+    },
+    {
+      "original": "نموذج تجريبي لحجز عرض الجهاز. لا يُرسل طلب فعلي.",
+      "ar": "نموذج تجريبي لحجز عرض الجهاز. لا يُرسل طلب فعلي.",
+      "en": "Demo booking preview. No real request will be sent."
+    },
+    {
+      "original": "طريقة العرض المفضلة",
+      "ar": "طريقة العرض المفضلة",
+      "en": "Preferred demo format"
+    },
+    {
+      "original": "عرض عن بُعد",
+      "ar": "عرض عن بُعد",
+      "en": "Online demonstration"
+    },
+    {
+      "original": "عرض حضوري — حسب التوفر",
+      "ar": "عرض حضوري — حسب التوفر",
+      "en": "In-person — subject to availability"
+    },
+    {
+      "original": "موعد مفضل (اختياري)",
+      "ar": "موعد مفضل (اختياري)",
+      "en": "Preferred date (optional)"
+    },
+    {
+      "original": "معاينة طلب العرض",
+      "ar": "معاينة طلب العرض",
+      "en": "Preview demo request"
+    },
+    {
+      "original": "طلب عرض الجهاز جاهز للمعاينة",
+      "ar": "طلب عرض الجهاز جاهز للمعاينة",
+      "en": "Your demo request preview is ready"
+    },
+    {
+      "original": "لم يتم إرسال طلب أو تأكيد موعد فعلي.",
+      "ar": "لم يتم إرسال طلب أو تأكيد موعد فعلي.",
+      "en": "No request was sent and no appointment was confirmed."
+    },
+    {
+      "original": "متجر الحركة والتأهيل",
+      "ar": "متجر الحركة والتأهيل",
+      "en": "Movement & rehabilitation store"
+    },
+    {
+      "original": "المتجر",
+      "ar": "المتجر",
+      "en": "Store"
+    },
+    {
+      "original": "عرض ",
+      "ar": "عرض ",
+      "en": "View "
+    },
+    {
+      "original": "التبديل إلى العربية",
+      "ar": "التبديل إلى العربية",
+      "en": "Switch to Arabic"
+    },
+    {
+      "original": "تُحدد المدن والرسوم ومواعيد التوصيل مع فريق أورثو سيرف قبل الإطلاق التجاري. لا توجد خدمة شحن فعلية في هذه المعاينة.",
+      "ar": "تُحدد المدن والرسوم ومواعيد التوصيل مع فريق أورثو سيرف قبل الإطلاق التجاري. لا توجد خدمة شحن فعلية في هذه المعاينة.",
+      "en": "Delivery areas, charges and lead times will be agreed with OrthoServ before commercial launch. This preview provides no actual delivery service."
+    },
+    {
+      "original": "سياسة الاستبدال والإرجاع تُضاف بعد اعتماد شروط المتجر. هذه المعاينة لا تُنشئ مشتريات فعلية.",
+      "ar": "سياسة الاستبدال والإرجاع تُضاف بعد اعتماد شروط المتجر. هذه المعاينة لا تُنشئ مشتريات فعلية.",
+      "en": "Returns and exchange terms will be added once approved. This preview does not create real purchases."
+    },
+    {
+      "original": "نموذج واجهة متجر OrthoServ — الخيار A. أسعار DEMO والخيارات تجريبية. الأجهزة الأخرى بطلب عرض سعر. الصور والبيانات تحتاج اعتماد العلامات والفريق قبل الاستخدام التجاري. الألوان في تجربة Juzo تسجّل الاختيار ولا تغيّر صورة المنتج.",
+      "ar": "نموذج واجهة متجر OrthoServ — الخيار A. أسعار DEMO والخيارات تجريبية. الأجهزة الأخرى بطلب عرض سعر. الصور والبيانات تحتاج اعتماد العلامات والفريق قبل الاستخدام التجاري. الألوان في تجربة Juzo تسجّل الاختيار ولا تغيّر صورة المنتج.",
+      "en": "OrthoServ storefront preview — Concept A. DEMO prices and options are illustrative. Equipment is available by quote request. Assets and product data require approval before commercial use. Juzo colours record a preference and do not recolour product photos."
+    },
+    {
+      "original": "انتقل للمحتوى",
+      "ar": "انتقل للمحتوى",
+      "en": "Skip to content"
+    },
+    {
+      "original": "أورثو سيرف الرئيسية",
+      "ar": "أورثو سيرف الرئيسية",
+      "en": "OrthoServ home"
+    },
+    {
+      "original": "أورثو سيرف",
+      "ar": "أورثو سيرف",
+      "en": "OrthoServ"
+    },
+    {
+      "original": "OrthoServ السعودية",
+      "ar": "OrthoServ السعودية",
+      "en": "OrthoServ Saudi Arabia"
+    },
+    {
+      "original": "معاينة المتجر · الطلب والدفع تجريبيان",
+      "ar": "معاينة المتجر · الطلب والدفع تجريبيان",
+      "en": "Store preview · Demo orders and checkout"
+    },
+    {
+      "original": "حلول المراكز والمستشفيات",
+      "ar": "حلول المراكز والمستشفيات",
+      "en": "Clinic & hospital solutions"
+    },
+    {
+      "original": "ابحث في المتجر",
+      "ar": "ابحث في المتجر",
+      "en": "Search the store"
+    },
+    {
+      "original": "ابحث عن جهاز، منتج أو علامة تجارية…",
+      "ar": "ابحث عن جهاز، منتج أو علامة تجارية…",
+      "en": "Search equipment, products or brands…"
+    },
+    {
+      "original": "بحث",
+      "ar": "بحث",
+      "en": "Search"
+    },
+    {
+      "original": "المفضلة",
+      "ar": "المفضلة",
+      "en": "Wishlist"
+    },
+    {
+      "original": "السلة",
+      "ar": "السلة",
+      "en": "Bag"
+    },
+    {
+      "original": "تسوّق المنتجات",
+      "ar": "تسوّق المنتجات",
+      "en": "Shop products"
+    },
+    {
+      "original": "العلامات التجارية",
+      "ar": "العلامات التجارية",
+      "en": "Brands"
+    },
+    {
+      "original": "حلول المراكز",
+      "ar": "حلول المراكز",
+      "en": "Professional solutions"
+    },
+    {
+      "original": "تواصل معنا",
+      "ar": "تواصل معنا",
+      "en": "Contact us"
+    },
+    {
+      "original": "استعرض كل المنتجات",
+      "ar": "استعرض كل المنتجات",
+      "en": "Browse all products"
+    },
+    {
+      "original": "كل المنتجات",
+      "ar": "كل المنتجات",
+      "en": "All products"
+    },
+    {
+      "original": "اختَر العلامة التي تبحث عنها",
+      "ar": "اختَر العلامة التي تبحث عنها",
+      "en": "Find your brand"
+    },
+    {
+      "original": "العلاج الطبيعي والتأهيل",
+      "ar": "العلاج الطبيعي والتأهيل",
+      "en": "Rehabilitation & physiotherapy"
+    },
+    {
+      "original": "الأجهزة العلاجية وحلول الحركة",
+      "ar": "الأجهزة العلاجية وحلول الحركة",
+      "en": "Therapy equipment & movement solutions"
+    },
+    {
+      "original": "اللياقة والتمارين",
+      "ar": "اللياقة والتمارين",
+      "en": "Fitness & exercise"
+    },
+    {
+      "original": "تجهيزات التمرين وإعادة التأهيل",
+      "ar": "تجهيزات التمرين وإعادة التأهيل",
+      "en": "Exercise & rehabilitation equipment"
+    },
+    {
+      "original": "الضغط الطبي",
+      "ar": "الضغط الطبي",
+      "en": "Medical compression"
+    },
+    {
+      "original": "الجوارب والأكمام والمقاسات",
+      "ar": "الجوارب والأكمام والمقاسات",
+      "en": "Stockings, sleeves & sizing"
+    },
+    {
+      "original": "المستهلكات",
+      "ar": "المستهلكات",
+      "en": "Consumables"
+    },
+    {
+      "original": "احتياجات العناية اليومية",
+      "ar": "احتياجات العناية اليومية",
+      "en": "Everyday care essentials"
+    },
+    {
+      "original": "منتجات طبية متعددة التخصصات",
+      "ar": "منتجات طبية متعددة التخصصات",
+      "en": "Multi-speciality medical products"
+    },
+    {
+      "original": "القساطر والدعامات والأدوات الطبية",
+      "ar": "القساطر والدعامات والأدوات الطبية",
+      "en": "Catheters, stents & medical instruments"
+    },
+    {
+      "original": "تعرّف على التفاصيل،",
+      "ar": "تعرّف على التفاصيل،",
+      "en": "Discover the details,"
+    },
+    {
+      "original": "بطريقتك.",
+      "ar": "بطريقتك.",
+      "en": "your way."
+    },
+    {
+      "original": "اكتشف الأجهزة عن قرب",
+      "ar": "اكتشف الأجهزة عن قرب",
+      "en": "Explore the equipment"
+    },
+    {
+      "original": "اكتشف عالم الضغط الطبي",
+      "ar": "اكتشف عالم الضغط الطبي",
+      "en": "Explore medical compression"
+    },
+    {
+      "original": "الشوك ويف",
+      "ar": "الشوك ويف",
+      "en": "Shockwave"
+    },
+    {
+      "original": "التبريد والضغط",
+      "ar": "التبريد والضغط",
+      "en": "Cooling & compression"
+    },
+    {
+      "original": "أجهزة TECAR",
+      "ar": "أجهزة TECAR",
+      "en": "TECAR systems"
+    },
+    {
+      "original": "أجهزة الليزر",
+      "ar": "أجهزة الليزر",
+      "en": "Laser systems"
+    },
+    {
+      "original": "الأجهزة العلاجية",
+      "ar": "الأجهزة العلاجية",
+      "en": "Therapy equipment"
+    },
+    {
+      "original": "منتجات متعددة التخصصات",
+      "ar": "منتجات متعددة التخصصات",
+      "en": "Multi-speciality products"
+    },
+    {
+      "original": "احتياج واحد.",
+      "ar": "احتياج واحد.",
+      "en": "One need."
+    },
+    {
+      "original": "اختيارات متعددة.",
+      "ar": "اختيارات متعددة.",
+      "en": "More possibilities."
+    },
+    {
+      "original": "استكشف كل المنتجات أو حدّد العلامة والقسم داخل الكتالوج.",
+      "ar": "استكشف كل المنتجات أو حدّد العلامة والقسم داخل الكتالوج.",
+      "en": "Explore all products or filter the catalogue by brand and category."
+    },
+    {
+      "original": "استعرض المجموعة",
+      "ar": "استعرض المجموعة",
+      "en": "Explore the collection"
+    },
+    {
+      "original": "تسوّق المجموعة",
+      "ar": "تسوّق المجموعة",
+      "en": "Shop the collection"
+    },
+    {
+      "original": "تجهيز المراكز",
+      "ar": "تجهيز المراكز",
+      "en": "Clinic equipment"
+    },
+    {
+      "original": "كل خطوة للأمام،",
+      "ar": "كل خطوة للأمام،",
+      "en": "Every step forward"
+    },
+    {
+      "original": "تبدأ",
+      "ar": "تبدأ",
+      "en": "starts with"
+    },
+    {
+      "original": "بعناية.",
+      "ar": "بعناية.",
+      "en": "care."
+    },
+    {
+      "original": "أجهزة التأهيل، تجهيزات اللياقة، ومنتجات العناية اليومية. اختياراتك للحركة في مكان واحد.",
+      "ar": "أجهزة التأهيل، تجهيزات اللياقة، ومنتجات العناية اليومية. اختياراتك للحركة في مكان واحد.",
+      "en": "Rehabilitation equipment, fitness essentials and everyday care. Everything for movement, in one place."
+    },
+    {
+      "original": "استكشف حسب احتياجك",
+      "ar": "استكشف حسب احتياجك",
+      "en": "Explore by need"
+    },
+    {
+      "original": "العلاج الطبيعي",
+      "ar": "العلاج الطبيعي",
+      "en": "Physiotherapy"
+    },
+    {
+      "original": "المستهلكات اليومية",
+      "ar": "المستهلكات اليومية",
+      "en": "Daily essentials"
+    },
+    {
+      "original": "شراء مباشر أو عرض سعر",
+      "ar": "شراء مباشر أو عرض سعر",
+      "en": "Shop or request a quote"
+    },
+    {
+      "original": "حسب طبيعة كل منتج",
+      "ar": "حسب طبيعة كل منتج",
+      "en": "A choice for every product"
+    },
+    {
+      "original": "للأفراد والمتخصصين",
+      "ar": "للأفراد والمتخصصين",
+      "en": "For people & professionals"
+    },
+    {
+      "original": "منتجات يومية وتجهيزات للمراكز",
+      "ar": "منتجات يومية وتجهيزات للمراكز",
+      "en": "Daily care and clinical equipment"
+    },
+    {
+      "original": "مساعدة في الاختيار",
+      "ar": "مساعدة في الاختيار",
+      "en": "Help with your selection"
+    },
+    {
+      "original": "التجهيز والمقاس والخدمات",
+      "ar": "التجهيز والمقاس والخدمات",
+      "en": "Configuration, sizing & services"
+    },
+    {
+      "original": "لكل احتياج، مساحته.",
+      "ar": "لكل احتياج، مساحته.",
+      "en": "A world for every need."
+    },
+    {
+      "original": "العلاج والتأهيل",
+      "ar": "العلاج والتأهيل",
+      "en": "Therapy & rehabilitation"
+    },
+    {
+      "original": "أجهزة وحلول للممارسة اليومية",
+      "ar": "أجهزة وحلول للممارسة اليومية",
+      "en": "Equipment for everyday practice"
+    },
+    {
+      "original": "ابدأ من الحركة",
+      "ar": "ابدأ من الحركة",
+      "en": "It starts with movement"
+    },
+    {
+      "original": "المنتجات الطبية",
+      "ar": "المنتجات الطبية",
+      "en": "Medical products"
+    },
+    {
+      "original": "القساطر والدعامات والأدوات",
+      "ar": "القساطر والدعامات والأدوات",
+      "en": "Catheters, stents & instruments"
+    },
+    {
+      "original": "أجهزة تستحق نظرة أقرب.",
+      "ar": "أجهزة تستحق نظرة أقرب.",
+      "en": "Equipment worth a closer look."
+    },
+    {
+      "original": "مجموعة مختارة للتأهيل وتجهيز المراكز.",
+      "ar": "مجموعة مختارة للتأهيل وتجهيز المراكز.",
+      "en": "A considered selection for rehabilitation and clinical spaces."
+    },
+    {
+      "original": "استعرض الأجهزة",
+      "ar": "استعرض الأجهزة",
+      "en": "Explore equipment"
+    },
+    {
+      "original": "حسب التجهيز",
+      "ar": "حسب التجهيز",
+      "en": "On request"
+    },
+    {
+      "original": "السعر والتوفر عند الطلب",
+      "ar": "السعر والتوفر عند الطلب",
+      "en": "Price & availability on enquiry"
+    },
+    {
+      "original": "سعر تجريبي شامل الضريبة",
+      "ar": "سعر تجريبي شامل الضريبة",
+      "en": "Illustrative price, tax included"
+    },
+    {
+      "original": "سعر تجريبي",
+      "ar": "سعر تجريبي",
+      "en": "Demo price"
+    },
+    {
+      "original": "أضف للسلة",
+      "ar": "أضف للسلة",
+      "en": "Add to bag"
+    },
+    {
+      "original": "عرض سعر",
+      "ar": "عرض سعر",
+      "en": "Get a quote"
+    },
+    {
+      "original": "صورة المنتج قريبًا",
+      "ar": "صورة المنتج قريبًا",
+      "en": "Product photo coming soon"
+    },
+    {
+      "original": "الحركة والتمارين",
+      "ar": "الحركة والتمارين",
+      "en": "Movement & exercise"
+    },
+    {
+      "original": "العلاج بالحرارة والبرودة",
+      "ar": "العلاج بالحرارة والبرودة",
+      "en": "Heat & cold therapy"
+    },
+    {
+      "original": "الأدوات والمستهلكات",
+      "ar": "الأدوات والمستهلكات",
+      "en": "Accessories & consumables"
+    },
+    {
+      "original": "الأسلاك الإرشادية",
+      "ar": "الأسلاك الإرشادية",
+      "en": "Guidewires"
+    },
+    {
+      "original": "الدعامات",
+      "ar": "الدعامات",
+      "en": "Stents"
+    },
+    {
+      "original": "الإبر وأجهزة الخزعة",
+      "ar": "الإبر وأجهزة الخزعة",
+      "en": "Needles & biopsy devices"
+    },
+    {
+      "original": "القساطر",
+      "ar": "القساطر",
+      "en": "Catheters"
+    },
+    {
+      "original": "الموسعات وأجهزة النفخ",
+      "ar": "الموسعات وأجهزة النفخ",
+      "en": "Dilators & inflation devices"
+    },
+    {
+      "original": "اكتشف الشوك ويف.",
+      "ar": "اكتشف الشوك ويف.",
+      "en": "Explore shockwave."
+    },
+    {
+      "original": "من زاوية أقرب.",
+      "ar": "من زاوية أقرب.",
+      "en": "See it up close."
+    },
+    {
+      "original": "تجربة تفاعلية للتعرف على أجهزة EMS وعائلة DolorClast.",
+      "ar": "تجربة تفاعلية للتعرف على أجهزة EMS وعائلة DolorClast.",
+      "en": "An interactive introduction to EMS equipment and the DolorClast family."
+    },
+    {
+      "original": "ادخل تجربة الشوك ويف",
+      "ar": "ادخل تجربة الشوك ويف",
+      "en": "Explore the shockwave experience"
+    },
+    {
+      "original": "حرية الحركة.",
+      "ar": "حرية الحركة.",
+      "en": "Freedom to move."
+    },
+    {
+      "original": "تفاصيل تليق بك.",
+      "ar": "تفاصيل تليق بك.",
+      "en": "Details made for you."
+    },
+    {
+      "original": "الجوارب والأكمام الطبية، في تجربة مستقلة للألوان والمقاسات.",
+      "ar": "الجوارب والأكمام الطبية، في تجربة مستقلة للألوان والمقاسات.",
+      "en": "Explore medical stockings, sleeves, colour choices and sizing in a dedicated experience."
+    },
+    {
+      "original": "اكتشف عالم Juzo",
+      "ar": "اكتشف عالم Juzo",
+      "en": "Explore the world of Juzo"
+    },
+    {
+      "original": "تفاصيل تكمل العناية.",
+      "ar": "تفاصيل تكمل العناية.",
+      "en": "Everyday care, considered."
+    },
+    {
+      "original": "أمثلة تجريبية لتجربة السلة والشراء.",
+      "ar": "أمثلة تجريبية لتجربة السلة والشراء.",
+      "en": "Illustrative products to explore the bag and checkout."
+    },
+    {
+      "original": "تسوّق المستهلكات",
+      "ar": "تسوّق المستهلكات",
+      "en": "Shop consumables"
+    },
+    {
+      "original": "من أول جهاز،",
+      "ar": "من أول جهاز،",
+      "en": "From your first device"
+    },
+    {
+      "original": "إلى تجهيز مركز كامل.",
+      "ar": "إلى تجهيز مركز كامل.",
+      "en": "to a complete clinical space."
+    },
+    {
+      "original": "اجمع احتياجات مركزك في طلب واحد، وحدد خدمات التركيب والتدريب المطلوبة. فريق أورثو سيرف يؤكد تفاصيل التجهيز والتكلفة.",
+      "ar": "اجمع احتياجات مركزك في طلب واحد، وحدد خدمات التركيب والتدريب المطلوبة. فريق أورثو سيرف يؤكد تفاصيل التجهيز والتكلفة.",
+      "en": "Bring your equipment needs together and request installation or training. The OrthoServ team confirms configuration and pricing."
+    },
+    {
+      "original": "ابدأ طلب تجهيز مركزك",
+      "ar": "ابدأ طلب تجهيز مركزك",
+      "en": "Plan your clinical space"
+    },
+    {
+      "original": "تجهيز يناسب احتياجك",
+      "ar": "تجهيز يناسب احتياجك",
+      "en": "Configured for your needs"
+    },
+    {
+      "original": "اختر الأجهزة والخدمات المطلوبة",
+      "ar": "اختر الأجهزة والخدمات المطلوبة",
+      "en": "Choose your equipment and services"
+    },
+    {
+      "original": "عرض سعر واضح",
+      "ar": "عرض سعر واضح",
+      "en": "A clear quotation"
+    },
+    {
+      "original": "الموديلات والكميات والتفاصيل الفنية",
+      "ar": "الموديلات والكميات والتفاصيل الفنية",
+      "en": "Models, quantities & technical details"
+    },
+    {
+      "original": "تركيب وتدريب حسب الاتفاق",
+      "ar": "تركيب وتدريب حسب الاتفاق",
+      "en": "Installation & training by agreement"
+    },
+    {
+      "original": "تُؤكد الخدمات مع الفريق قبل الشراء",
+      "ar": "تُؤكد الخدمات مع الفريق قبل الشراء",
+      "en": "Confirm services with the team before purchase"
+    },
+    {
+      "original": "مساحة واحدة للتأهيل، والحركة، والعناية اليومية.",
+      "ar": "مساحة واحدة للتأهيل، والحركة، والعناية اليومية.",
+      "en": "One destination for rehabilitation, movement and everyday care."
+    },
+    {
+      "original": "المملكة العربية السعودية",
+      "ar": "المملكة العربية السعودية",
+      "en": "Saudi Arabia"
+    },
+    {
+      "original": "تسوّق",
+      "ar": "تسوّق",
+      "en": "Shop"
+    },
+    {
+      "original": "اكتشف التجربة",
+      "ar": "اكتشف التجربة",
+      "en": "Discover"
+    },
+    {
+      "original": "مساعدة",
+      "ar": "مساعدة",
+      "en": "Help"
+    },
+    {
+      "original": "الشحن والتوصيل",
+      "ar": "الشحن والتوصيل",
+      "en": "Shipping & delivery"
+    },
+    {
+      "original": "الاستبدال والإرجاع",
+      "ar": "الاستبدال والإرجاع",
+      "en": "Returns & exchanges"
+    },
+    {
+      "original": "عن هذه المعاينة",
+      "ar": "عن هذه المعاينة",
+      "en": "About this preview"
+    },
+    {
+      "original": "أسعار DEMO أمثلة فقط. لا تُرسل طلبات ولا تُحصّل مدفوعات.",
+      "ar": "أسعار DEMO أمثلة فقط. لا تُرسل طلبات ولا تُحصّل مدفوعات.",
+      "en": "DEMO prices are illustrative. No orders are sent and no payments are collected."
+    },
+    {
+      "original": "تصفية المنتجات",
+      "ar": "تصفية المنتجات",
+      "en": "Filter products"
+    },
+    {
+      "original": "الأقسام",
+      "ar": "الأقسام",
+      "en": "Categories"
+    },
+    {
+      "original": "العلامة التجارية",
+      "ar": "العلامة التجارية",
+      "en": "Brand"
+    },
+    {
+      "original": "كل العلامات",
+      "ar": "كل العلامات",
+      "en": "All brands"
+    },
+    {
+      "original": "نوع المنتج",
+      "ar": "نوع المنتج",
+      "en": "Product type"
+    },
+    {
+      "original": "كل الأنواع",
+      "ar": "كل الأنواع",
+      "en": "All types"
+    },
+    {
+      "original": "طريقة الطلب",
+      "ar": "طريقة الطلب",
+      "en": "Order type"
+    },
+    {
+      "original": "شراء مباشر",
+      "ar": "شراء مباشر",
+      "en": "Buy online"
+    },
+    {
+      "original": "طلب عرض سعر",
+      "ar": "طلب عرض سعر",
+      "en": "Request a quote"
+    },
+    {
+      "original": "مسح الفلاتر",
+      "ar": "مسح الفلاتر",
+      "en": "Clear filters"
+    },
+    {
+      "original": "الفلاتر",
+      "ar": "الفلاتر",
+      "en": "Filters"
+    },
+    {
+      "original": "ترتيب المنتجات",
+      "ar": "ترتيب المنتجات",
+      "en": "Sort products"
+    },
+    {
+      "original": "المختارات أولًا",
+      "ar": "المختارات أولًا",
+      "en": "Featured first"
+    },
+    {
+      "original": "السعر: الأقل أولًا",
+      "ar": "السعر: الأقل أولًا",
+      "en": "Price: low to high"
+    },
+    {
+      "original": "السعر: الأعلى أولًا",
+      "ar": "السعر: الأعلى أولًا",
+      "en": "Price: high to low"
+    },
+    {
+      "original": "الاسم",
+      "ar": "الاسم",
+      "en": "Name"
+    },
+    {
+      "original": "نتائج البحث",
+      "ar": "نتائج البحث",
+      "en": "Search results"
+    },
+    {
+      "original": "نتائج البحث عن",
+      "ar": "نتائج البحث عن",
+      "en": "Results for"
+    },
+    {
+      "original": "منتج مطابق",
+      "ar": "منتج مطابق",
+      "en": "matching products"
+    },
+    {
+      "original": "منتج",
+      "ar": "منتج",
+      "en": "products"
+    },
+    {
+      "original": "مطابق",
+      "ar": "مطابق",
+      "en": "matching"
+    },
+    {
+      "original": "الرئيسية",
+      "ar": "الرئيسية",
+      "en": "Home"
+    },
+    {
+      "original": "اختيارات محددة، وتفاصيل تساعدك على اتخاذ الخطوة التالية.",
+      "ar": "اختيارات محددة، وتفاصيل تساعدك على اتخاذ الخطوة التالية.",
+      "en": "Considered choices and the details to help you take the next step."
+    },
+    {
+      "original": "تجهيزات للحركة والتمرين.",
+      "ar": "تجهيزات للحركة والتمرين.",
+      "en": "Equipment for movement and exercise."
+    },
+    {
+      "original": "مفضلتك في انتظار اختياراتك",
+      "ar": "مفضلتك في انتظار اختياراتك",
+      "en": "Your wishlist is waiting"
+    },
+    {
+      "original": "لا توجد منتجات مطابقة",
+      "ar": "لا توجد منتجات مطابقة",
+      "en": "No matching products"
+    },
+    {
+      "original": "جرّب قسمًا آخر أو امسح الفلاتر.",
+      "ar": "جرّب قسمًا آخر أو امسح الفلاتر.",
+      "en": "Try another category or clear your filters."
+    },
+    {
+      "original": "عرض كل المنتجات",
+      "ar": "عرض كل المنتجات",
+      "en": "View all products"
+    },
+    {
+      "original": "المنتج غير موجود",
+      "ar": "المنتج غير موجود",
+      "en": "Product not found"
+    },
+    {
+      "original": "العودة للمنتجات",
+      "ar": "العودة للمنتجات",
+      "en": "Back to products"
+    },
+    {
+      "original": "اطلب عرض سعر",
+      "ar": "اطلب عرض سعر",
+      "en": "Request a quote"
+    },
+    {
+      "original": "يُحدد حسب التجهيز والكمية والخدمات. التوفر يُؤكد مع الفريق.",
+      "ar": "يُحدد حسب التجهيز والكمية والخدمات. التوفر يُؤكد مع الفريق.",
+      "en": "Pricing depends on configuration, quantity and services. Availability is confirmed by the team."
+    },
+    {
+      "original": "سعر تجريبي شامل الضريبة، لا يمثل سعر بيع فعليًا.",
+      "ar": "سعر تجريبي شامل الضريبة، لا يمثل سعر بيع فعليًا.",
+      "en": "Illustrative tax-inclusive price. Not an actual selling price."
+    },
+    {
+      "original": "اختر المواصفة · خيارات تجريبية",
+      "ar": "اختر المواصفة · خيارات تجريبية",
+      "en": "Select an option · Demo options"
+    },
+    {
+      "original": "أضف إلى السلة",
+      "ar": "أضف إلى السلة",
+      "en": "Add to bag"
+    },
+    {
+      "original": "التركيب والتدريب: خدمات يمكن طلبها وتُؤكد حسب المنتج.",
+      "ar": "التركيب والتدريب: خدمات يمكن طلبها وتُؤكد حسب المنتج.",
+      "en": "Installation and training may be requested and are confirmed per product."
+    },
+    {
+      "original": "إضافة إلى سلة تجريبية محفوظة على جهازك فقط.",
+      "ar": "إضافة إلى سلة تجريبية محفوظة على جهازك فقط.",
+      "en": "Added to a demo bag stored on your device only."
+    },
+    {
+      "original": "لا توجد أسعار أو مواعيد توصيل معتمدة في هذه المعاينة.",
+      "ar": "لا توجد أسعار أو مواعيد توصيل معتمدة في هذه المعاينة.",
+      "en": "No confirmed prices or delivery dates are provided in this preview."
+    },
+    {
+      "original": "عن المنتج",
+      "ar": "عن المنتج",
+      "en": "About this product"
+    },
+    {
+      "original": "المواصفات وبيانات الكتالوج",
+      "ar": "المواصفات وبيانات الكتالوج",
+      "en": "Specifications & catalogue data"
+    },
+    {
+      "original": "المواصفات والتجهيز النهائي يُؤكدان مع الفريق.",
+      "ar": "المواصفات والتجهيز النهائي يُؤكدان مع الفريق.",
+      "en": "Confirm specifications and final configuration with the team."
+    },
+    {
+      "original": "تفاصيل المنتج على موقع المصنع",
+      "ar": "تفاصيل المنتج على موقع المصنع",
+      "en": "Product details on the manufacturer website"
+    },
+    {
+      "original": "الشحن والخدمات",
+      "ar": "الشحن والخدمات",
+      "en": "Delivery & services"
+    },
+    {
+      "original": "في هذه المعاينة لا تُحسب مواعيد أو رسوم شحن فعلية. يمكن تحديد المدينة وطلب التركيب أو التدريب ضمن طلب عرض السعر التجريبي.",
+      "ar": "في هذه المعاينة لا تُحسب مواعيد أو رسوم شحن فعلية. يمكن تحديد المدينة وطلب التركيب أو التدريب ضمن طلب عرض السعر التجريبي.",
+      "en": "This preview does not calculate actual shipping charges or delivery dates. Include your city and service requirements in the demo quote request."
+    },
+    {
+      "original": "قد يناسبك أيضًا",
+      "ar": "قد يناسبك أيضًا",
+      "en": "You may also like"
+    },
+    {
+      "original": "عرض القسم",
+      "ar": "عرض القسم",
+      "en": "Browse category"
+    },
+    {
+      "original": "منتج تجريبي لعرض تجربة الشراء فقط. الاسم والسعر والخيارات أمثلة غير معتمدة.",
+      "ar": "منتج تجريبي لعرض تجربة الشراء فقط. الاسم والسعر والخيارات أمثلة غير معتمدة.",
+      "en": "Illustrative product for exploring checkout. Name, price and options are not approved commercial data."
+    },
+    {
+      "original": "جهاز ضمن مجموعة أورثو سيرف. للاطلاع على المواصفات، افتح بيانات الكتالوج أدناه.",
+      "ar": "جهاز ضمن مجموعة أورثو سيرف. للاطلاع على المواصفات، افتح بيانات الكتالوج أدناه.",
+      "en": "Part of the OrthoServ selection. Open the catalogue details below for supplied specifications."
+    },
+    {
+      "original": "سلة التسوق",
+      "ar": "سلة التسوق",
+      "en": "Shopping bag"
+    },
+    {
+      "original": "تقليل الكمية",
+      "ar": "تقليل الكمية",
+      "en": "Decrease quantity"
+    },
+    {
+      "original": "زيادة الكمية",
+      "ar": "زيادة الكمية",
+      "en": "Increase quantity"
+    },
+    {
+      "original": "حذف",
+      "ar": "حذف",
+      "en": "Remove"
+    },
+    {
+      "original": "المنتجات (شامل الضريبة التجريبية)",
+      "ar": "المنتجات (شامل الضريبة التجريبية)",
+      "en": "Items (illustrative tax included)"
+    },
+    {
+      "original": "الشحن",
+      "ar": "الشحن",
+      "en": "Shipping"
+    },
+    {
+      "original": "لا يُحسب في المعاينة",
+      "ar": "لا يُحسب في المعاينة",
+      "en": "Not calculated in this preview"
+    },
+    {
+      "original": "الإجمالي التجريبي",
+      "ar": "الإجمالي التجريبي",
+      "en": "Demo total"
+    },
+    {
+      "original": "متابعة للدفع التجريبي",
+      "ar": "متابعة للدفع التجريبي",
+      "en": "Continue to demo checkout"
+    },
+    {
+      "original": "لا يتم تحصيل أموال أو إرسال أي طلب.",
+      "ar": "لا يتم تحصيل أموال أو إرسال أي طلب.",
+      "en": "No payment is collected and no order is sent."
+    },
+    {
+      "original": "سلتك لسه فاضية",
+      "ar": "سلتك لسه فاضية",
+      "en": "Your bag is empty"
+    },
+    {
+      "original": "ابدأ بالمستهلكات لتجربة الشراء.",
+      "ar": "ابدأ بالمستهلكات لتجربة الشراء.",
+      "en": "Browse consumables to try the checkout."
+    },
+    {
+      "original": "تصفّح المستهلكات",
+      "ar": "تصفّح المستهلكات",
+      "en": "Browse consumables"
+    },
+    {
+      "original": "الدفع التجريبي",
+      "ar": "الدفع التجريبي",
+      "en": "Demo checkout"
+    },
+    {
+      "original": "هذه تجربة فقط. استخدم بيانات افتراضية. لا نطلب بيانات بطاقة ولا نُحصّل أموالًا.",
+      "ar": "هذه تجربة فقط. استخدم بيانات افتراضية. لا نطلب بيانات بطاقة ولا نُحصّل أموالًا.",
+      "en": "Demo only. Please use fictional details. No card details are requested and no payment is collected."
+    },
+    {
+      "original": "الاسم التجريبي",
+      "ar": "الاسم التجريبي",
+      "en": "Demo name"
+    },
+    {
+      "original": "عميل تجريبي",
+      "ar": "عميل تجريبي",
+      "en": "Demo customer"
+    },
+    {
+      "original": "البريد التجريبي",
+      "ar": "البريد التجريبي",
+      "en": "Demo email"
+    },
+    {
+      "original": "المدينة",
+      "ar": "المدينة",
+      "en": "City"
+    },
+    {
+      "original": "الرياض",
+      "ar": "الرياض",
+      "en": "Riyadh"
+    },
+    {
+      "original": "طريقة الاستلام",
+      "ar": "طريقة الاستلام",
+      "en": "Delivery method"
+    },
+    {
+      "original": "توصيل تجريبي — بدون رسوم في المعاينة",
+      "ar": "توصيل تجريبي — بدون رسوم في المعاينة",
+      "en": "Demo delivery — no charge in this preview"
+    },
+    {
+      "original": "استلام تجريبي",
+      "ar": "استلام تجريبي",
+      "en": "Demo collection"
+    },
+    {
+      "original": "الأسعار شاملة الضريبة التجريبية. لا تُضاف رسوم شحن فعلية.",
+      "ar": "الأسعار شاملة الضريبة التجريبية. لا تُضاف رسوم شحن فعلية.",
+      "en": "Prices include illustrative tax. No actual shipping charges are added."
+    },
+    {
+      "original": "تأكيد الطلب التجريبي",
+      "ar": "تأكيد الطلب التجريبي",
+      "en": "Confirm demo order"
+    },
+    {
+      "original": "اكتملت تجربة الشراء",
+      "ar": "اكتملت تجربة الشراء",
+      "en": "Demo checkout complete"
+    },
+    {
+      "original": "لم يتم إنشاء طلب حقيقي أو تحصيل أي مبلغ. تم تفريغ السلة التجريبية.",
+      "ar": "لم يتم إنشاء طلب حقيقي أو تحصيل أي مبلغ. تم تفريغ السلة التجريبية.",
+      "en": "No real order was created and no payment was collected. Your demo bag has been cleared."
+    },
+    {
+      "original": "العودة للمتجر",
+      "ar": "العودة للمتجر",
+      "en": "Back to the store"
+    },
+    {
+      "original": "إغلاق",
+      "ar": "إغلاق",
+      "en": "Close"
+    },
+    {
+      "original": "نموذج تجريبي. بياناتك لا تُرسل ولا تُحفظ.",
+      "ar": "نموذج تجريبي. بياناتك لا تُرسل ولا تُحفظ.",
+      "en": "Demo form. Your contact details are not sent or stored."
+    },
+    {
+      "original": "رقم الجوال",
+      "ar": "رقم الجوال",
+      "en": "Mobile number"
+    },
+    {
+      "original": "الكمية",
+      "ar": "الكمية",
+      "en": "Quantity"
+    },
+    {
+      "original": "نوع المنشأة",
+      "ar": "نوع المنشأة",
+      "en": "Organisation type"
+    },
+    {
+      "original": "مركز علاج طبيعي",
+      "ar": "مركز علاج طبيعي",
+      "en": "Physiotherapy clinic"
+    },
+    {
+      "original": "مستشفى",
+      "ar": "مستشفى",
+      "en": "Hospital"
+    },
+    {
+      "original": "نادي أو مركز رياضي",
+      "ar": "نادي أو مركز رياضي",
+      "en": "Gym or sports centre"
+    },
+    {
+      "original": "أخرى",
+      "ar": "أخرى",
+      "en": "Other"
+    },
+    {
+      "original": "اسم المنشأة (اختياري)",
+      "ar": "اسم المنشأة (اختياري)",
+      "en": "Organisation name (optional)"
+    },
+    {
+      "original": "الخدمات المطلوبة",
+      "ar": "الخدمات المطلوبة",
+      "en": "Required services"
+    },
+    {
+      "original": "توريد وتركيب وتدريب",
+      "ar": "توريد وتركيب وتدريب",
+      "en": "Supply, installation & training"
+    },
+    {
+      "original": "توريد وتركيب",
+      "ar": "توريد وتركيب",
+      "en": "Supply & installation"
+    },
+    {
+      "original": "توريد المنتج",
+      "ar": "توريد المنتج",
+      "en": "Product supply"
+    },
+    {
+      "original": "ملاحظات",
+      "ar": "ملاحظات",
+      "en": "Notes"
+    },
+    {
+      "original": "الأجهزة والكميات المطلوبة",
+      "ar": "الأجهزة والكميات المطلوبة",
+      "en": "Equipment and quantities required"
+    },
+    {
+      "original": "معاينة تأكيد الطلب",
+      "ar": "معاينة تأكيد الطلب",
+      "en": "Preview request confirmation"
+    },
+    {
+      "original": "تمت المعاينة",
+      "ar": "تمت المعاينة",
+      "en": "Preview complete"
+    },
+    {
+      "original": "طلب عرض السعر جاهز كتجربة.",
+      "ar": "طلب عرض السعر جاهز كتجربة.",
+      "en": "Your demo quote request is ready."
+    },
+    {
+      "original": "لم يُرسل إلى أورثو سيرف ولم تُحفظ بيانات التواصل.",
+      "ar": "لم يُرسل إلى أورثو سيرف ولم تُحفظ بيانات التواصل.",
+      "en": "It was not sent to OrthoServ. Contact details were not stored."
+    },
+    {
+      "original": "متابعة التصفح",
+      "ar": "متابعة التصفح",
+      "en": "Continue browsing"
+    },
+    {
+      "original": "تجهيز مركز",
+      "ar": "تجهيز مركز",
+      "en": "Clinical space enquiry"
+    },
+    {
+      "original": "تواصل مع أورثو سيرف",
+      "ar": "تواصل مع أورثو سيرف",
+      "en": "Contact OrthoServ"
+    },
+    {
+      "original": "اترك استفسارك أو حدّد طلبك. النموذج تجريبي ولا يُرسل بيانات.",
+      "ar": "اترك استفسارك أو حدّد طلبك. النموذج تجريبي ولا يُرسل بيانات.",
+      "en": "Tell us what you need. This is a demo form and sends no data."
+    },
+    {
+      "original": "البريد الإلكتروني",
+      "ar": "البريد الإلكتروني",
+      "en": "Email address"
+    },
+    {
+      "original": "موضوع الرسالة",
+      "ar": "موضوع الرسالة",
+      "en": "Subject"
+    },
+    {
+      "original": "استفسار عن منتج",
+      "ar": "استفسار عن منتج",
+      "en": "Product enquiry"
+    },
+    {
+      "original": "رسالتك",
+      "ar": "رسالتك",
+      "en": "Your message"
+    },
+    {
+      "original": "معاينة الرسالة",
+      "ar": "معاينة الرسالة",
+      "en": "Preview message"
+    },
+    {
+      "original": "تمت معاينة رسالتك",
+      "ar": "تمت معاينة رسالتك",
+      "en": "Message preview complete"
+    },
+    {
+      "original": "لم تُرسل الرسالة ولم تُحفظ بياناتك.",
+      "ar": "لم تُرسل الرسالة ولم تُحفظ بياناتك.",
+      "en": "Your message was not sent and your details were not stored."
+    },
+    {
+      "original": "تمت الإضافة إلى السلة التجريبية",
+      "ar": "تمت الإضافة إلى السلة التجريبية",
+      "en": "Added to your demo bag"
+    },
+    {
+      "original": "تمت الإضافة للمفضلة",
+      "ar": "تمت الإضافة للمفضلة",
+      "en": "Added to wishlist"
+    },
+    {
+      "original": "تمت الإزالة من المفضلة",
+      "ar": "تمت الإزالة من المفضلة",
+      "en": "Removed from wishlist"
+    },
+    {
+      "original": "إضافة إلى المفضلة",
+      "ar": "إضافة إلى المفضلة",
+      "en": "Add to wishlist"
+    },
+    {
+      "original": "إزالة من المفضلة",
+      "ar": "إزالة من المفضلة",
+      "en": "Remove from wishlist"
+    },
+    {
+      "original": "إعلان تجربة Juzo",
+      "ar": "إعلان تجربة Juzo",
+      "en": "Juzo experience advertisement"
+    },
+    {
+      "original": "إغلاق إعلان Juzo",
+      "ar": "إغلاق إعلان Juzo",
+      "en": "Close Juzo advertisement"
+    },
+    {
+      "original": "اكتشف Juzo",
+      "ar": "اكتشف Juzo",
+      "en": "Discover Juzo"
+    },
+    {
+      "original": "اكتشف تجربة جوارب Juzo",
+      "ar": "اكتشف تجربة جوارب Juzo",
+      "en": "Explore Juzo compression stockings"
+    },
+    {
+      "original": "حركة تليق بيومك.",
+      "ar": "حركة تليق بيومك.",
+      "en": "Movement for your day."
+    },
+    {
+      "original": "اكتشف الجوارب والأكمام الطبية",
+      "ar": "اكتشف الجوارب والأكمام الطبية",
+      "en": "Discover medical stockings & sleeves"
+    },
+    {
+      "original": "ادخل عالم Juzo",
+      "ar": "ادخل عالم Juzo",
+      "en": "Step into Juzo"
+    },
+    {
+      "original": "إيقاف حركة الإعلان",
+      "ar": "إيقاف حركة الإعلان",
+      "en": "Pause ad animation"
+    },
+    {
+      "original": "تشغيل حركة الإعلان",
+      "ar": "تشغيل حركة الإعلان",
+      "en": "Play ad animation"
+    },
+    {
+      "original": "إيقاف الحركة",
+      "ar": "إيقاف الحركة",
+      "en": "Pause motion"
+    },
+    {
+      "original": "تشغيل الحركة",
+      "ar": "تشغيل الحركة",
+      "en": "Play motion"
+    },
+    {
+      "original": "شريط كينيسيولوجي تجريبي",
+      "ar": "شريط كينيسيولوجي تجريبي",
+      "en": "Kinesiology tape — demo"
+    },
+    {
+      "original": "جل توصيل تجريبي",
+      "ar": "جل توصيل تجريبي",
+      "en": "Conductive gel — demo"
+    },
+    {
+      "original": "حزام تمارين تجريبي",
+      "ar": "حزام تمارين تجريبي",
+      "en": "Exercise strap — demo"
+    },
+    {
+      "original": "طقم أكواب علاجية تجريبي",
+      "ar": "طقم أكواب علاجية تجريبي",
+      "en": "Cupping set — demo"
+    },
+    {
+      "original": "وحدة كمادات ساخنة سعة 24 كمادة",
+      "ar": "وحدة كمادات ساخنة سعة 24 كمادة",
+      "en": "Heating unit for 24 HotPacs"
+    },
+    {
+      "original": "وحدة كمادات ساخنة سعة 12 كمادة",
+      "ar": "وحدة كمادات ساخنة سعة 12 كمادة",
+      "en": "Heating unit for 12 HotPacs"
+    },
+    {
+      "original": "جهاز الحركة المستمرة للركبة",
+      "ar": "جهاز الحركة المستمرة للركبة",
+      "en": "Continuous passive motion for the knee"
+    },
+    {
+      "original": "مشاية لإعادة التأهيل",
+      "ar": "مشاية لإعادة التأهيل",
+      "en": "Rehabilitation treadmill"
+    },
+    {
+      "original": "بيج",
+      "ar": "بيج",
+      "en": "Beige"
+    },
+    {
+      "original": "أزرق",
+      "ar": "أزرق",
+      "en": "Blue"
+    },
+    {
+      "original": "أسود",
+      "ar": "أسود",
+      "en": "Black"
+    },
+    {
+      "original": "250 مل",
+      "ar": "250 مل",
+      "en": "250 ml"
+    },
+    {
+      "original": "500 مل",
+      "ar": "500 مل",
+      "en": "500 ml"
+    },
+    {
+      "original": "خفيف",
+      "ar": "خفيف",
+      "en": "Light"
+    },
+    {
+      "original": "متوسط",
+      "ar": "متوسط",
+      "en": "Medium"
+    },
+    {
+      "original": "قوي",
+      "ar": "قوي",
+      "en": "Strong"
+    },
+    {
+      "original": "6 قطع",
+      "ar": "6 قطع",
+      "en": "6 pieces"
+    },
+    {
+      "original": "12 قطعة",
+      "ar": "12 قطعة",
+      "en": "12 pieces"
+    },
+    {
+      "original": "جهاز التحفيز المغناطيسي FMS",
+      "ar": "جهاز التحفيز المغناطيسي FMS",
+      "en": "FMS magnetic stimulation system"
+    },
+    {
+      "original": "بلوينم",
+      "ar": "بلوينم",
+      "en": "Blueneem"
+    },
+    {
+      "original": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "ar": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "en": "From the OrthoServ preview collection. Confirm configuration, pricing and availability with the team."
+    },
+    {
+      "original": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "ar": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
+      "en": "Part of the Blueneem multi-speciality collection. Confirm sizes, product codes and configuration with the team. Refer to the manufacturer for approved technical details."
+    },
+    {
+      "original": "جهاز نفخ البالون",
+      "ar": "جهاز نفخ البالون",
+      "en": "Inflation device"
+    },
+    {
+      "original": "قسطرة الحالب",
+      "ar": "قسطرة الحالب",
+      "en": "Ureteral catheter"
+    },
+    {
+      "original": "طقم موسعات اللفافة",
+      "ar": "طقم موسعات اللفافة",
+      "en": "Fascial dilators set"
+    },
+    {
+      "original": "سلك إرشادي",
+      "ar": "سلك إرشادي",
+      "en": "Guidewire"
+    },
+    {
+      "original": "دعامة الحالب",
+      "ar": "دعامة الحالب",
+      "en": "Ureteral stent"
+    },
+    {
+      "original": "جهاز خزعة آلي",
+      "ar": "جهاز خزعة آلي",
+      "en": "Automatic biopsy device"
+    },
+    {
+      "original": "جهاز خزعة شبه آلي",
+      "ar": "جهاز خزعة شبه آلي",
+      "en": "Semi-automatic biopsy device"
+    },
+    {
+      "original": "دعامة مقواة",
+      "ar": "دعامة مقواة",
+      "en": "Reinforced stent"
+    },
+    {
+      "original": "إبرة وخز أولي — ثلاثة أجزاء",
+      "ar": "إبرة وخز أولي — ثلاثة أجزاء",
+      "en": "Initial puncture needle — three part"
+    },
+    {
+      "original": "إبرة وخز أولي — جزآن",
+      "ar": "إبرة وخز أولي — جزآن",
+      "en": "Initial puncture needle — two part"
+    },
+    {
+      "original": "إبرة",
+      "ar": "إبرة",
+      "en": "Needle"
+    },
+    {
+      "original": "منتج من مجموعة Blueneem الطبية",
+      "ar": "منتج من مجموعة Blueneem الطبية",
+      "en": "From the Blueneem medical collection"
+    },
+    {
+      "original": "ر.س",
+      "ar": "ر.س",
+      "en": "SAR"
+    },
+    {
+      "original": "صفحة",
+      "ar": "صفحة",
+      "en": "Page"
+    },
+    {
+      "original": "صورة المنتج المرفقة في الكتالوج",
+      "ar": "صورة المنتج المرفقة في الكتالوج",
+      "en": "Product image supplied in the catalogue"
+    },
+    {
+      "original": "لقطة المنتج",
+      "ar": "لقطة المنتج",
+      "en": "Product view"
+    },
+    {
+      "original": "الموديل / SKU",
+      "ar": "الموديل / SKU",
+      "en": "Model / SKU"
+    },
+    {
+      "original": "من شيت العميل، الخلية",
+      "ar": "من شيت العميل، الخلية",
+      "en": "From the supplied spreadsheet, cell"
+    },
+    {
+      "original": "تُراجع التفاصيل قبل النشر التجاري.",
+      "ar": "تُراجع التفاصيل قبل النشر التجاري.",
+      "en": "Review details before commercial publication."
+    },
+    {
+      "original": "العناية بالجروح",
+      "ar": "العناية بالجروح",
+      "en": "Wound care"
+    },
+    {
+      "original": "المقاس",
+      "ar": "المقاس",
+      "en": "Size"
+    },
+    {
+      "original": "علبة · 50 ظرفًا",
+      "ar": "علبة · 50 ظرفًا",
+      "en": "Box · 50 pouches"
+    },
+    {
+      "original": "شرائط / ظرف · 50 ظرفًا / علبة",
+      "ar": "شرائط / ظرف · 50 ظرفًا / علبة",
+      "en": "strips / pouch · 50 pouches / box"
+    },
+    {
+      "original": "شرائط إغلاق الجروح",
+      "ar": "شرائط إغلاق الجروح",
+      "en": "Skin closure strips"
+    },
+    {
+      "original": " مم",
+      "ar": " مم",
+      "en": " mm"
+    },
+    {
+      "original": "سعر العلبة حسب الكتالوج المرفق. التوفر والضريبة يُؤكدان عند الطلب.",
+      "ar": "سعر العلبة حسب الكتالوج المرفق. التوفر والضريبة يُؤكدان عند الطلب.",
+      "en": "Price per box from the supplied catalogue. Confirm availability and tax at enquiry."
+    },
+    {
+      "original": "عبوات مستهلكات طبية؛ يُراجع المقاس وعدد الأظرف قبل الطلب.",
+      "ar": "عبوات مستهلكات طبية؛ يُراجع المقاس وعدد الأظرف قبل الطلب.",
+      "en": "Medical consumables; check size and pouch count before ordering."
+    },
+    {
+      "original": "كتالوج المنتج المرفق PDF",
+      "ar": "كتالوج المنتج المرفق PDF",
+      "en": "Supplied product catalogue PDF"
+    },
+    {
+      "original": "مستهلكات يومية وشرائط HIGHCARE بأربعة مقاسات.",
+      "ar": "مستهلكات يومية وشرائط HIGHCARE بأربعة مقاسات.",
+      "en": "Daily consumables and HIGHCARE strips in four sizes."
+    },
+    {
+      "original": "المنتجات",
+      "ar": "المنتجات",
+      "en": "Items"
+    },
+    {
+      "original": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 6 × 75 مم؛ 3 شرائط في الظرف، و50 ظرفًا في العلبة (150 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
+      "ar": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 6 × 75 مم؛ 3 شرائط في الظرف، و50 ظرفًا في العلبة (150 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
+      "en": "HIGHCARE adhesive skin closure strips. Size 6 × 75 mm; 3 strips per pouch, 50 pouches per box (150 strips). Pack details are from the supplied photo; price per box is from the supplied catalogue. Selection and use follow the manufacturer's instructions and professional assessment."
+    },
+    {
+      "original": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 6 × 100 مم؛ 10 شرائط في الظرف، و50 ظرفًا في العلبة (500 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
+      "ar": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 6 × 100 مم؛ 10 شرائط في الظرف، و50 ظرفًا في العلبة (500 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
+      "en": "HIGHCARE adhesive skin closure strips. Size 6 × 100 mm; 10 strips per pouch, 50 pouches per box (500 strips). Pack details are from the supplied photo; price per box is from the supplied catalogue. Selection and use follow the manufacturer's instructions and professional assessment."
+    },
+    {
+      "original": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 13 × 100 مم؛ 6 شرائط في الظرف، و50 ظرفًا في العلبة (300 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
+      "ar": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 13 × 100 مم؛ 6 شرائط في الظرف، و50 ظرفًا في العلبة (300 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
+      "en": "HIGHCARE adhesive skin closure strips. Size 13 × 100 mm; 6 strips per pouch, 50 pouches per box (300 strips). Pack details are from the supplied photo; price per box is from the supplied catalogue. Selection and use follow the manufacturer's instructions and professional assessment."
+    },
+    {
+      "original": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 25 × 100 مم؛ 4 شرائط في الظرف، و50 ظرفًا في العلبة (200 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
+      "ar": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 25 × 100 مم؛ 4 شرائط في الظرف، و50 ظرفًا في العلبة (200 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
+      "en": "HIGHCARE adhesive skin closure strips. Size 25 × 100 mm; 4 strips per pouch, 50 pouches per box (200 strips). Pack details are from the supplied photo; price per box is from the supplied catalogue. Selection and use follow the manufacturer's instructions and professional assessment."
+    },
+    {
+      "original": "صورة المجموعة من الكتالوج؛ المقاس المحدد موضح في اسم المنتج.",
+      "ar": "صورة المجموعة من الكتالوج؛ المقاس المحدد موضح في اسم المنتج.",
+      "en": "Catalogue range image; selected size is shown in the product name."
+    },
+    {
+      "original": "وكلاء Game Ready · Winback · Blueneem · Juzo · LiKAWAVE",
+      "ar": "وكلاء Game Ready · Winback · Blueneem · Juzo · LiKAWAVE",
+      "en": "Representing Game Ready · Winback · Blueneem · Juzo · LiKAWAVE"
+    },
+    {
+      "original": "مراجعة المبلغ تجريبية. لا تُضاف رسوم شحن ولا يُحصّل أي مبلغ؛ ضريبة الأسعار المرفقة تُؤكد عند الطلب.",
+      "ar": "مراجعة المبلغ تجريبية. لا تُضاف رسوم شحن ولا يُحصّل أي مبلغ؛ ضريبة الأسعار المرفقة تُؤكد عند الطلب.",
+      "en": "Demo total review. No shipping charges or payment are collected; confirm tax on supplied catalogue prices at enquiry."
+    },
+    {
+      "original": "أسعار DEMO والخيارات تجريبية؛ أسعار HIGHCARE من الكتالوج المرفق. الأجهزة بطلب عرض سعر.",
+      "ar": "أسعار DEMO والخيارات تجريبية؛ أسعار HIGHCARE من الكتالوج المرفق. الأجهزة بطلب عرض سعر.",
+      "en": "DEMO prices and options are illustrative; HIGHCARE prices come from the supplied catalogue. Equipment is available by quotation."
+    },
+    {
+      "original": "OrthoServ | متجر الحركة والتأهيل",
+      "ar": "OrthoServ | متجر الحركة والتأهيل",
+      "en": "OrthoServ | متجر الحركة والتأهيل"
+    },
+    {
+      "original": "حلول المراكز والمستشفيات ↗",
+      "ar": "حلول المراكز والمستشفيات ↗",
+      "en": "حلول المراكز والمستشفيات ↗"
+    },
+    {
+      "original": "EN",
+      "ar": "EN",
+      "en": "EN"
+    },
+    {
+      "original": "استعرض كل المنتجات ←",
+      "ar": "استعرض كل المنتجات ←",
+      "en": "استعرض كل المنتجات ←"
+    },
+    {
+      "original": "SHOP BY CATEGORY",
+      "ar": "SHOP BY CATEGORY",
+      "en": "SHOP BY CATEGORY"
+    },
+    {
+      "original": "كل المنتجات ←",
+      "ar": "كل المنتجات ←",
+      "en": "كل المنتجات ←"
+    },
+    {
+      "original": "EXPLORE MORE",
+      "ar": "EXPLORE MORE",
+      "en": "EXPLORE MORE"
+    },
+    {
+      "original": "EMS Shockwave",
+      "ar": "EMS Shockwave",
+      "en": "EMS Shockwave"
+    },
+    {
+      "original": "اكتشف الأجهزة عن قرب ↗",
+      "ar": "اكتشف الأجهزة عن قرب ↗",
+      "en": "اكتشف الأجهزة عن قرب ↗"
+    },
+    {
+      "original": "Juzo",
+      "ar": "Juzo",
+      "en": "Juzo"
+    },
+    {
+      "original": "اكتشف عالم الضغط الطبي ↗",
+      "ar": "اكتشف عالم الضغط الطبي ↗",
+      "en": "اكتشف عالم الضغط الطبي ↗"
+    },
+    {
+      "original": "SHOP BY BRAND",
+      "ar": "SHOP BY BRAND",
+      "en": "SHOP BY BRAND"
+    },
+    {
+      "original": "الضغط الطبي ↗",
+      "ar": "الضغط الطبي ↗",
+      "en": "الضغط الطبي ↗"
+    },
+    {
+      "original": "EMS",
+      "ar": "EMS",
+      "en": "EMS"
+    },
+    {
+      "original": "Game Ready",
+      "ar": "Game Ready",
+      "en": "Game Ready"
+    },
+    {
+      "original": "Winback",
+      "ar": "Winback",
+      "en": "Winback"
+    },
+    {
+      "original": "LightForce",
+      "ar": "LightForce",
+      "en": "LightForce"
+    },
+    {
+      "original": "LiKAWAVE",
+      "ar": "LiKAWAVE",
+      "en": "LiKAWAVE"
+    },
+    {
+      "original": "BTL",
+      "ar": "BTL",
+      "en": "BTL"
+    },
+    {
+      "original": "Blueneem",
+      "ar": "Blueneem",
+      "en": "Blueneem"
+    },
+    {
+      "original": "Spirit",
+      "ar": "Spirit",
+      "en": "Spirit"
+    },
+    {
+      "original": "ORTHOSERV SELECTION",
+      "ar": "ORTHOSERV SELECTION",
+      "en": "ORTHOSERV SELECTION"
+    },
+    {
+      "original": "استعرض المجموعة ←",
+      "ar": "استعرض المجموعة ←",
+      "en": "استعرض المجموعة ←"
+    },
+    {
+      "original": "EMS Shockwave ↗",
+      "ar": "EMS Shockwave ↗",
+      "en": "EMS Shockwave ↗"
+    },
+    {
+      "original": "عالم Juzo ↗",
+      "ar": "عالم Juzo ↗",
+      "en": "عالم Juzo ↗"
+    },
+    {
+      "original": "COMPANY INFORMATION",
+      "ar": "COMPANY INFORMATION",
+      "en": "COMPANY INFORMATION"
+    },
+    {
+      "original": "مؤسسة خدمة العظم للتجارة",
+      "ar": "مؤسسة خدمة العظم للتجارة",
+      "en": "مؤسسة خدمة العظم للتجارة"
+    },
+    {
+      "original": "RQWC3464",
+      "ar": "RQWC3464",
+      "en": "RQWC3464"
+    },
+    {
+      "original": "© OrthoServ · Concept A / Phase 03",
+      "ar": "© OrthoServ · Concept A / Phase 03",
+      "en": "© OrthoServ · Concept A / Phase 03"
+    },
+    {
+      "original": "YOUR SELECTION",
+      "ar": "YOUR SELECTION",
+      "en": "YOUR SELECTION"
+    },
+    {
+      "original": "ادخل عالم Juzo ↗",
+      "ar": "ادخل عالم Juzo ↗",
+      "en": "ادخل عالم Juzo ↗"
+    },
+    {
+      "original": "إيقاف الحركة Ⅱ",
+      "ar": "إيقاف الحركة Ⅱ",
+      "en": "إيقاف الحركة Ⅱ"
+    },
+    {
+      "original": "DEMO · سعر تجريبي",
+      "ar": "DEMO · سعر تجريبي",
+      "en": "DEMO · سعر تجريبي"
+    },
+    {
+      "original": "حلول المراكز ↗",
+      "ar": "حلول المراكز ↗",
+      "en": "حلول المراكز ↗"
+    },
+    {
+      "original": "ابدأ طلب تجهيز مركزك ↗",
+      "ar": "ابدأ طلب تجهيز مركزك ↗",
+      "en": "ابدأ طلب تجهيز مركزك ↗"
+    },
+    {
+      "original": "تجهيز المراكز ↗",
+      "ar": "تجهيز المراكز ↗",
+      "en": "تجهيز المراكز ↗"
+    },
+    {
+      "original": "استعرض مجموعة Juzo ↗",
+      "ar": "استعرض مجموعة Juzo ↗",
+      "en": "استعرض مجموعة Juzo ↗"
+    },
+    {
+      "original": "استعرض الأجهزة ←",
+      "ar": "استعرض الأجهزة ←",
+      "en": "استعرض الأجهزة ←"
+    },
+    {
+      "original": "تسوّق المستهلكات ←",
+      "ar": "تسوّق المستهلكات ←",
+      "en": "تسوّق المستهلكات ←"
+    },
+    {
+      "original": "الفلاتر +",
+      "ar": "الفلاتر +",
+      "en": "الفلاتر +"
+    },
+    {
+      "original": "أضف إلى السلة +",
+      "ar": "أضف إلى السلة +",
+      "en": "أضف إلى السلة +"
+    },
+    {
+      "original": "اطلب عرض سعر ↗",
+      "ar": "اطلب عرض سعر ↗",
+      "en": "اطلب عرض سعر ↗"
+    },
+    {
+      "original": "كتالوج المنتج المرفق PDF ↗",
+      "ar": "كتالوج المنتج المرفق PDF ↗",
+      "en": "كتالوج المنتج المرفق PDF ↗"
+    },
+    {
+      "original": "تفاصيل المنتج على موقع المصنع ↗",
+      "ar": "تفاصيل المنتج على موقع المصنع ↗",
+      "en": "تفاصيل المنتج على موقع المصنع ↗"
+    },
+    {
+      "original": "عرض القسم ←",
+      "ar": "عرض القسم ←",
+      "en": "عرض القسم ←"
+    },
+    {
+      "original": "متابعة للدفع التجريبي ←",
+      "ar": "متابعة للدفع التجريبي ←",
+      "en": "متابعة للدفع التجريبي ←"
+    },
+    {
+      "original": "تصفّح المستهلكات ←",
+      "ar": "تصفّح المستهلكات ←",
+      "en": "تصفّح المستهلكات ←"
+    },
+    {
+      "original": "تمت المعاينة ✓",
+      "ar": "تمت المعاينة ✓",
+      "en": "تمت المعاينة ✓"
+    },
+    {
+      "original": "n+x.qty,0)} منتج · الإجمالي التجريبي",
+      "ar": "n+x.qty,0)} منتج · الإجمالي التجريبي",
+      "en": "n+x.qty,0)} منتج · الإجمالي التجريبي"
+    },
+    {
+      "original": "{el.classList.toggle('selected',el===b);el.setAttribute('aria-pressed',el===b)})}if(b.hasAttribute('data-detail-qty')){quantity=Math.max(1,Math.min(99,quantity+Number(b.dataset.detailQty)));$('#detailQty').textContent=quantity}if(b.hasAttribute('data-cart-qty')){const i=Number(b.dataset.cartQty);cart[i].qty=Math.max(1,Math.min(99,cart[i].qty+Number(b.dataset.step)));updateCounts();renderCart()}if(b.hasAttribute('data-remove')){cart.splice(Number(b.dataset.remove),1);updateCounts();renderCart()}if(b.hasAttribute('data-help')){const info={delivery:['الشحن والتوصيل','تُحدد المدن والرسوم ومواعيد التوصيل مع فريق أورثو سيرف قبل الإطلاق التجاري. لا توجد خدمة شحن فعلية في هذه المعاينة.'],returns:['الاستبدال والإرجاع','سياسة الاستبدال والإرجاع تُضاف بعد اعتماد شروط المتجر. هذه المعاينة لا تُنشئ مشتريات فعلية.'],demo:['عن هذه المعاينة','نموذج واجهة متجر OrthoServ — الخيار A. أسعار DEMO والخيارات تجريبية؛ أسعار HIGHCARE من الكتالوج المرفق. الأجهزة بطلب عرض سعر. الصور والبيانات تحتاج اعتماد العلامات والفريق قبل الاستخدام التجاري. الألوان في تجربة Juzo تسجّل الاختيار ولا تغيّر صورة المنتج.']};openForm(info[b.dataset.help][0],'",
+      "ar": "{el.classList.toggle('selected',el===b);el.setAttribute('aria-pressed',el===b)})}if(b.hasAttribute('data-detail-qty')){quantity=Math.max(1,Math.min(99,quantity+Number(b.dataset.detailQty)));$('#detailQty').textContent=quantity}if(b.hasAttribute('data-cart-qty')){const i=Number(b.dataset.cartQty);cart[i].qty=Math.max(1,Math.min(99,cart[i].qty+Number(b.dataset.step)));updateCounts();renderCart()}if(b.hasAttribute('data-remove')){cart.splice(Number(b.dataset.remove),1);updateCounts();renderCart()}if(b.hasAttribute('data-help')){const info={delivery:['الشحن والتوصيل','تُحدد المدن والرسوم ومواعيد التوصيل مع فريق أورثو سيرف قبل الإطلاق التجاري. لا توجد خدمة شحن فعلية في هذه المعاينة.'],returns:['الاستبدال والإرجاع','سياسة الاستبدال والإرجاع تُضاف بعد اعتماد شروط المتجر. هذه المعاينة لا تُنشئ مشتريات فعلية.'],demo:['عن هذه المعاينة','نموذج واجهة متجر OrthoServ — الخيار A. أسعار DEMO والخيارات تجريبية؛ أسعار HIGHCARE من الكتالوج المرفق. الأجهزة بطلب عرض سعر. الصور والبيانات تحتاج اعتماد العلامات والفريق قبل الاستخدام التجاري. الألوان في تجربة Juzo تسجّل الاختيار ولا تغيّر صورة المنتج.']};openForm(info[b.dataset.help][0],'",
+      "en": "{el.classList.toggle('selected',el===b);el.setAttribute('aria-pressed',el===b)})}if(b.hasAttribute('data-detail-qty')){quantity=Math.max(1,Math.min(99,quantity+Number(b.dataset.detailQty)));$('#detailQty').textContent=quantity}if(b.hasAttribute('data-cart-qty')){const i=Number(b.dataset.cartQty);cart[i].qty=Math.max(1,Math.min(99,cart[i].qty+Number(b.dataset.step)));updateCounts();renderCart()}if(b.hasAttribute('data-remove')){cart.splice(Number(b.dataset.remove),1);updateCounts();renderCart()}if(b.hasAttribute('data-help')){const info={delivery:['الشحن والتوصيل','تُحدد المدن والرسوم ومواعيد التوصيل مع فريق أورثو سيرف قبل الإطلاق التجاري. لا توجد خدمة شحن فعلية في هذه المعاينة.'],returns:['الاستبدال والإرجاع','سياسة الاستبدال والإرجاع تُضاف بعد اعتماد شروط المتجر. هذه المعاينة لا تُنشئ مشتريات فعلية.'],demo:['عن هذه المعاينة','نموذج واجهة متجر OrthoServ — الخيار A. أسعار DEMO والخيارات تجريبية؛ أسعار HIGHCARE من الكتالوج المرفق. الأجهزة بطلب عرض سعر. الصور والبيانات تحتاج اعتماد العلامات والفريق قبل الاستخدام التجاري. الألوان في تجربة Juzo تسجّل الاختيار ولا تغيّر صورة المنتج.']};openForm(info[b.dataset.help][0],'"
+    },
+    {
+      "original": "تعذّر تحميل المنتجات",
+      "ar": "تعذّر تحميل المنتجات",
+      "en": "تعذّر تحميل المنتجات"
+    },
+    {
+      "original": "أعد فتح المعاينة من رابط المتجر ثم حدّث الصفحة.",
+      "ar": "أعد فتح المعاينة من رابط المتجر ثم حدّث الصفحة.",
+      "en": "أعد فتح المعاينة من رابط المتجر ثم حدّث الصفحة."
+    },
+    {
+      "original": "حاول مرة أخرى",
+      "ar": "حاول مرة أخرى",
+      "en": "حاول مرة أخرى"
+    },
+    {
+      "original": "OrthoServ × Juzo | راحة في كل خطوة",
+      "ar": "OrthoServ × Juzo | راحة في كل خطوة",
+      "en": "OrthoServ × Juzo | راحة في كل خطوة",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "المنتجات",
+      "ar": "المنتجات",
+      "en": "المنتجات",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "المقاس والعناية",
+      "ar": "المقاس والعناية",
+      "en": "المقاس والعناية",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "عن Juzo",
+      "ar": "عن Juzo",
+      "en": "عن Juzo",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "شغّل المشهد ▷",
+      "ar": "شغّل المشهد ▷",
+      "en": "شغّل المشهد ▷",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "قائمتي",
+      "ar": "قائمتي",
+      "en": "قائمتي",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "تفاصيل تتحرّك معك",
+      "ar": "تفاصيل تتحرّك معك",
+      "en": "تفاصيل تتحرّك معك",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "COMPRESSION IN MOTION",
+      "ar": "COMPRESSION IN MOTION",
+      "en": "COMPRESSION IN MOTION",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "JUZO COMPRESSION GARMENTS",
+      "ar": "JUZO COMPRESSION GARMENTS",
+      "en": "JUZO COMPRESSION GARMENTS",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "راحة تشعر بها.",
+      "ar": "راحة تشعر بها.",
+      "en": "راحة تشعر بها.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "في كل خطوة.",
+      "ar": "في كل خطوة.",
+      "en": "في كل خطوة.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "اكتشف مجموعة Juzo للضغط الطبي،",
+      "ar": "اكتشف مجموعة Juzo للضغط الطبي،",
+      "en": "اكتشف مجموعة Juzo للضغط الطبي،",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "بتفاصيل تناسب حياتك اليومية.",
+      "ar": "بتفاصيل تناسب حياتك اليومية.",
+      "en": "بتفاصيل تناسب حياتك اليومية.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "اكتشف المنتجات",
+      "ar": "اكتشف المنتجات",
+      "en": "اكتشف المنتجات",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "FIND YOUR EVERYDAY FIT",
+      "ar": "FIND YOUR EVERYDAY FIT",
+      "en": "FIND YOUR EVERYDAY FIT",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "خطوتك التالية.",
+      "ar": "خطوتك التالية.",
+      "en": "خطوتك التالية.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "اختيار يناسبك.",
+      "ar": "اختيار يناسبك.",
+      "en": "اختيار يناسبك.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "هنا تبدأ رحلة استكشاف منتجات Juzo.",
+      "ar": "هنا تبدأ رحلة استكشاف منتجات Juzo.",
+      "en": "هنا تبدأ رحلة استكشاف منتجات Juzo.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "01 / LEGS",
+      "ar": "01 / LEGS",
+      "en": "01 / LEGS",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "الجوارب الطبية",
+      "ar": "الجوارب الطبية",
+      "en": "الجوارب الطبية",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "02 / ARMS",
+      "ar": "02 / ARMS",
+      "en": "02 / ARMS",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "الأكمام",
+      "ar": "الأكمام",
+      "en": "الأكمام",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "03 / YOUR FIT",
+      "ar": "03 / YOUR FIT",
+      "en": "03 / YOUR FIT",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "المقاس المناسب",
+      "ar": "المقاس المناسب",
+      "en": "المقاس المناسب",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "منتجات مختارة للتجربة؛ التوافر والتجهيزات المحلية تُؤكّد مع أورثوسيرف.",
+      "ar": "منتجات مختارة للتجربة؛ التوافر والتجهيزات المحلية تُؤكّد مع أورثوسيرف.",
+      "en": "منتجات مختارة للتجربة؛ التوافر والتجهيزات المحلية تُؤكّد مع أورثوسيرف.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "01 / بداية الخطوة",
+      "ar": "01 / بداية الخطوة",
+      "en": "01 / بداية الخطوة",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "إعادة ↺",
+      "ar": "إعادة ↺",
+      "en": "إعادة ↺",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "YOUR SELECTION / JUZO SOFT",
+      "ar": "YOUR SELECTION / JUZO SOFT",
+      "en": "YOUR SELECTION / JUZO SOFT",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "الجوارب",
+      "ar": "الجوارب",
+      "en": "الجوارب",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "THE JUZO COLLECTION",
+      "ar": "THE JUZO COLLECTION",
+      "en": "THE JUZO COLLECTION",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "اختر ما يناسب يومك.",
+      "ar": "اختر ما يناسب يومك.",
+      "en": "اختر ما يناسب يومك.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "جوارب، أكمام وحلول ضغط قابلة للضبط.",
+      "ar": "جوارب، أكمام وحلول ضغط قابلة للضبط.",
+      "en": "جوارب، أكمام وحلول ضغط قابلة للضبط.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "كتالوج تجريبي · التوافر يُؤكّد",
+      "ar": "كتالوج تجريبي · التوافر يُؤكّد",
+      "en": "كتالوج تجريبي · التوافر يُؤكّد",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "الكل",
+      "ar": "الكل",
+      "en": "الكل",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "القطع القابلة للضبط",
+      "ar": "القطع القابلة للضبط",
+      "en": "القطع القابلة للضبط",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "بحث",
+      "ar": "بحث",
+      "en": "بحث",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "لا توجد نتائج. جرّب اسمًا آخر أو اختر «الكل».",
+      "ar": "لا توجد نتائج. جرّب اسمًا آخر أو اختر «الكل».",
+      "en": "لا توجد نتائج. جرّب اسمًا آخر أو اختر «الكل».",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "A FIT THAT STARTS WITH YOU",
+      "ar": "A FIT THAT STARTS WITH YOU",
+      "en": "A FIT THAT STARTS WITH YOU",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "المقاس الصحيح،",
+      "ar": "المقاس الصحيح،",
+      "en": "المقاس الصحيح،",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "بداية الاختيار.",
+      "ar": "بداية الاختيار.",
+      "en": "بداية الاختيار.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "يعتمد الاختيار على نوع القطعة والقياسات المطلوبة لها. يساعدك فريق أورثوسيرف في مراجعة الخيارات المناسبة مع المختص.",
+      "ar": "يعتمد الاختيار على نوع القطعة والقياسات المطلوبة لها. يساعدك فريق أورثوسيرف في مراجعة الخيارات المناسبة مع المختص.",
+      "en": "يعتمد الاختيار على نوع القطعة والقياسات المطلوبة لها. يساعدك فريق أورثوسيرف في مراجعة الخيارات المناسبة مع المختص.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "ساعدني في المقاس",
+      "ar": "ساعدني في المقاس",
+      "en": "ساعدني في المقاس",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "حدّد نوع القطعة",
+      "ar": "حدّد نوع القطعة",
+      "en": "حدّد نوع القطعة",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "جورب، كمّ أو قطعة قابلة للضبط.",
+      "ar": "جورب، كمّ أو قطعة قابلة للضبط.",
+      "en": "جورب، كمّ أو قطعة قابلة للضبط.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "راجع دليل الموديل",
+      "ar": "راجع دليل الموديل",
+      "en": "راجع دليل الموديل",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "القياسات المطلوبة تختلف من منتج لآخر.",
+      "ar": "القياسات المطلوبة تختلف من منتج لآخر.",
+      "en": "القياسات المطلوبة تختلف من منتج لآخر.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "أكّد اختيارك",
+      "ar": "أكّد اختيارك",
+      "en": "أكّد اختيارك",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "درجة الضغط والمقاس يُراجعان مع المختص؛ لا يُحدَّدان تلقائيًا في هذه المعاينة.",
+      "ar": "درجة الضغط والمقاس يُراجعان مع المختص؛ لا يُحدَّدان تلقائيًا في هذه المعاينة.",
+      "en": "درجة الضغط والمقاس يُراجعان مع المختص؛ لا يُحدَّدان تلقائيًا في هذه المعاينة.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "LIFE IN JUZO SOFT",
+      "ar": "LIFE IN JUZO SOFT",
+      "en": "LIFE IN JUZO SOFT",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "تفاصيل من الحياة اليومية.",
+      "ar": "تفاصيل من الحياة اليومية.",
+      "en": "تفاصيل من الحياة اليومية.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "صور إلهامية رسمية لمجموعة Juzo Soft. التجهيز الظاهر قد يختلف عن المنتج المختار.",
+      "ar": "صور إلهامية رسمية لمجموعة Juzo Soft. التجهيز الظاهر قد يختلف عن المنتج المختار.",
+      "en": "صور إلهامية رسمية لمجموعة Juzo Soft. التجهيز الظاهر قد يختلف عن المنتج المختار.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "تفاصيل تدعم حرية الحركة.",
+      "ar": "تفاصيل تدعم حرية الحركة.",
+      "en": "تفاصيل تدعم حرية الحركة.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "تطوّر Juzo ملابس ضغط طبي بمقاسات قياسية وحلول حسب القياس. هنا نقرّب لك المجموعات وخياراتها، مع دعم أورثوسيرف لاختيار المنتج وتجهيز الطلب.",
+      "ar": "تطوّر Juzo ملابس ضغط طبي بمقاسات قياسية وحلول حسب القياس. هنا نقرّب لك المجموعات وخياراتها، مع دعم أورثوسيرف لاختيار المنتج وتجهيز الطلب.",
+      "en": "تطوّر Juzo ملابس ضغط طبي بمقاسات قياسية وحلول حسب القياس. هنا نقرّب لك المجموعات وخياراتها، مع دعم أورثوسيرف لاختيار المنتج وتجهيز الطلب.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "تعرّف على Juzo من الموقع الرسمي ↗",
+      "ar": "تعرّف على Juzo من الموقع الرسمي ↗",
+      "en": "تعرّف على Juzo من الموقع الرسمي ↗",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "← العودة إلى متجر OrthoServ / Back to store",
+      "ar": "← العودة إلى متجر OrthoServ / Back to store",
+      "en": "← العودة إلى متجر OrthoServ / Back to store",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "معاينة متجر تجريبية. لا دفع ولا إرسال طلبات فعلية. الصور الرسمية للعرض التجريبي وتحتاج اعتماد العلامة. صورة الساق المتحركة مولّدة للتصوّر.",
+      "ar": "معاينة متجر تجريبية. لا دفع ولا إرسال طلبات فعلية. الصور الرسمية للعرض التجريبي وتحتاج اعتماد العلامة. صورة الساق المتحركة مولّدة للتصوّر.",
+      "en": "معاينة متجر تجريبية. لا دفع ولا إرسال طلبات فعلية. الصور الرسمية للعرض التجريبي وتحتاج اعتماد العلامة. صورة الساق المتحركة مولّدة للتصوّر.",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "ORTHOSERV × JUZO / CONCEPT A",
+      "ar": "ORTHOSERV × JUZO / CONCEPT A",
+      "en": "ORTHOSERV × JUZO / CONCEPT A",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "قائمة الاستفسار",
+      "ar": "قائمة الاستفسار",
+      "en": "قائمة الاستفسار",
+      "scope": "experiences/juzo/"
+    },
+    {
+      "original": "OrthoServ — EMS DolorClast / Scene 1",
+      "ar": "OrthoServ — EMS DolorClast / Scene 1",
+      "en": "OrthoServ — EMS DolorClast / Scene 1",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "انتقل إلى المحتوى",
+      "ar": "انتقل إلى المحتوى",
+      "en": "انتقل إلى المحتوى",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "المنتجات",
+      "ar": "المنتجات",
+      "en": "المنتجات",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "الخدمات",
+      "ar": "الخدمات",
+      "en": "الخدمات",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "Juzo",
+      "ar": "Juzo",
+      "en": "Juzo",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "حلول الأعمال",
+      "ar": "حلول الأعمال",
+      "en": "حلول الأعمال",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "AR",
+      "ar": "AR",
+      "en": "AR",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "EN",
+      "ar": "EN",
+      "en": "EN",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "اطلب عرض سعر",
+      "ar": "اطلب عرض سعر",
+      "en": "اطلب عرض سعر",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "RADIAL",
+      "ar": "RADIAL",
+      "en": "RADIAL",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "01 / RADIAL THERAPY",
+      "ar": "01 / RADIAL THERAPY",
+      "en": "01 / RADIAL THERAPY",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "تخطي الحركة",
+      "ar": "تخطي الحركة",
+      "en": "تخطي الحركة",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "رسم توضيحي لنبضات الموجات",
+      "ar": "رسم توضيحي لنبضات الموجات",
+      "en": "رسم توضيحي لنبضات الموجات",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "EMS · DOLORCLAST® RADIAL SHOCK WAVES",
+      "ar": "EMS · DOLORCLAST® RADIAL SHOCK WAVES",
+      "en": "EMS · DOLORCLAST® RADIAL SHOCK WAVES",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "موجات الصدمة الإشعاعية.",
+      "ar": "موجات الصدمة الإشعاعية.",
+      "en": "موجات الصدمة الإشعاعية.",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "بدقة تناسب العيادة.",
+      "ar": "بدقة تناسب العيادة.",
+      "en": "بدقة تناسب العيادة.",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "تقنية EMS للموجات الصدمية الإشعاعية، لعيادات العلاج الطبيعي ومراكز التأهيل.",
+      "ar": "تقنية EMS للموجات الصدمية الإشعاعية، لعيادات العلاج الطبيعي ومراكز التأهيل.",
+      "en": "تقنية EMS للموجات الصدمية الإشعاعية، لعيادات العلاج الطبيعي ومراكز التأهيل.",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "استكشف الجهاز",
+      "ar": "استكشف الجهاز",
+      "en": "استكشف الجهاز",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "مرّر لتصاعد النبضات",
+      "ar": "مرّر لتصاعد النبضات",
+      "en": "مرّر لتصاعد النبضات",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "RADIAL SHOCK WAVE TECHNOLOGY",
+      "ar": "RADIAL SHOCK WAVE TECHNOLOGY",
+      "en": "RADIAL SHOCK WAVE TECHNOLOGY",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "02 / THE SHOCK WAVE COLLECTION",
+      "ar": "02 / THE SHOCK WAVE COLLECTION",
+      "en": "02 / THE SHOCK WAVE COLLECTION",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "أربع وحدات.",
+      "ar": "أربع وحدات.",
+      "en": "أربع وحدات.",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "عالم واحد من الدقّة.",
+      "ar": "عالم واحد من الدقّة.",
+      "en": "عالم واحد من الدقّة.",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "اكتشف موديلات الشوك ويف لدى أورثوسيرف، واختر الجهاز المناسب لتجهيز عيادتك.",
+      "ar": "اكتشف موديلات الشوك ويف لدى أورثوسيرف، واختر الجهاز المناسب لتجهيز عيادتك.",
+      "en": "اكتشف موديلات الشوك ويف لدى أورثوسيرف، واختر الجهاز المناسب لتجهيز عيادتك.",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "التجهيزات والتوافر والضمان تُؤكَّد عند طلب عرض السعر.",
+      "ar": "التجهيزات والتوافر والضمان تُؤكَّد عند طلب عرض السعر.",
+      "en": "التجهيزات والتوافر والضمان تُؤكَّد عند طلب عرض السعر.",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "← العودة إلى متجر OrthoServ / Back to store",
+      "ar": "← العودة إلى متجر OrthoServ / Back to store",
+      "en": "← العودة إلى متجر OrthoServ / Back to store",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "ORTHOSERV / EMS DOLORCLAST",
+      "ar": "ORTHOSERV / EMS DOLORCLAST",
+      "en": "ORTHOSERV / EMS DOLORCLAST",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "DEMO ONLY: replace with brand-approved asset",
+      "ar": "DEMO ONLY: replace with brand-approved asset",
+      "en": "DEMO ONLY: replace with brand-approved asset",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "ORTHOSERV / SCENE 01",
+      "ar": "ORTHOSERV / SCENE 01",
+      "en": "ORTHOSERV / SCENE 01",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "الجهاز",
+      "ar": "الجهاز",
+      "en": "الجهاز",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "EMS DolorClast",
+      "ar": "EMS DolorClast",
+      "en": "EMS DolorClast",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "المواصفات",
+      "ar": "المواصفات",
+      "en": "المواصفات",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "[تُؤكّد]",
+      "ar": "[تُؤكّد]",
+      "en": "[تُؤكّد]",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "SFDA / MDMA",
+      "ar": "SFDA / MDMA",
+      "en": "SFDA / MDMA",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "التوافر في السعودية",
+      "ar": "التوافر في السعودية",
+      "en": "التوافر في السعودية",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "[الوكيل المعتمد: يُؤكّد]",
+      "ar": "[الوكيل المعتمد: يُؤكّد]",
+      "en": "[الوكيل المعتمد: يُؤكّد]",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "[رقم SFDA/MDMA: يُؤكّد]",
+      "ar": "[رقم SFDA/MDMA: يُؤكّد]",
+      "en": "[رقم SFDA/MDMA: يُؤكّد]",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "[شمول الضمان والخدمة: يُؤكّد]",
+      "ar": "[شمول الضمان والخدمة: يُؤكّد]",
+      "en": "[شمول الضمان والخدمة: يُؤكّد]",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "المشهد للتوضيح البصري فقط، وليس محاكاة علاجية.",
+      "ar": "المشهد للتوضيح البصري فقط، وليس محاكاة علاجية.",
+      "en": "المشهد للتوضيح البصري فقط، وليس محاكاة علاجية.",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "معاينة للمشهد فقط؛ لا يُرسل أي طلب ولا تُجمع بيانات.",
+      "ar": "معاينة للمشهد فقط؛ لا يُرسل أي طلب ولا تُجمع بيانات.",
+      "en": "معاينة للمشهد فقط؛ لا يُرسل أي طلب ولا تُجمع بيانات.",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "العودة للمشهد",
+      "ar": "العودة للمشهد",
+      "en": "العودة للمشهد",
+      "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "JavaScript مطلوب للحركة فقط. النص وصورة الجهاز متاحان بدون تشغيل الحركة. JavaScript is required for animation only.",
+      "ar": "JavaScript مطلوب للحركة فقط. النص وصورة الجهاز متاحان بدون تشغيل الحركة. JavaScript is required for animation only.",
+      "en": "JavaScript مطلوب للحركة فقط. النص وصورة الجهاز متاحان بدون تشغيل الحركة. JavaScript is required for animation only.",
+      "scope": "experiences/shockwave/"
+    }
+  ]
+}

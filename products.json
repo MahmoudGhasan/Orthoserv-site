@@ -1017,7 +1017,18 @@
       "description": "ARTROMOT-K1 CPM For Knee\nArthrotomy and arthroscopy procedures in combination with synovectomy, arthrolysis Treatment following mobilization of joints in anesthetized patients\nSurgical treatment of fractures and pseudoarthrosis\nExercise-stable osteosynthesis\nOperations on soft tissue in the joint area\nPatellectomy\nCorrective osteotomy Meniscectomy\nTotal knee/hip replacement ACL/PCL reconstruction\nComplex knee surgery Articular cartilage surgery, e.g. autologous chondrocyte transplantation (ACT)\nRange of Motion Extension/Flexion\nKnee -10° / 0° / 120°    -         Hip 0° / 7° / 115\nPauses (extension and ﬂexion): 0 - 59 s / 1 - 59 min\nSpeed: 5% - 100 %\nKey lock function: To prevent accidental changes of the parameter settings\nARTROMOT-K1 Standard - features\nTimer 1 - 59 minutes / 1 - 24 hours / continuous operation\nPauses (extension and/or ﬂexion) 0 - 59 seconds / 1 - 59 minutes\nReverse on load in steps 1 - 25 / patient safety feature\nWarm up protocol: Gradual progression to the maximum range of motion\nTotal therapy time: Added sum of the therapy sessions\nNew patient: Activates the default settings for new patients\nTransport setting: Moves the carriage to the transport position\nSPECIFICATION\nDIMENSIONS 97 x 36 x 23 cm\nWEIGHT 11 kg (24.4 lb)\nModel# 80.00.040\nFrom: Artromot - Germany",
       "price": null,
       "method": "quote",
-      "files": [],
+      "files": [
+        {
+          "file": "assets/uploads/Screenshot-2026-10-22-233416-ff0b08b3.png",
+          "width": 500,
+          "height": 477,
+          "role": "product",
+          "alt": {
+            "ar": "",
+            "en": ""
+          }
+        }
+      ],
       "source": {
         "file": "�� اجهزة علاج طبيعي �.xlsx",
         "sheet": "Sheet1",
@@ -1030,7 +1041,67 @@
       "salePrice": null,
       "saleStart": "",
       "saleEnd": "",
-      "options": []
+      "options": [],
+      "commerce": {
+        "description": {
+          "ar": "\n\n<p>ARTROMOT-K1 CPM For Knee</p>\n<p>Arthrotomy and arthroscopy procedures in combination with synovectomy, arthrolysis Treatment following mobilization of joints in anesthetized patients</p>\n<p>Surgical treatment of fractures and pseudoarthrosis</p>\n<p>Exercise-stable osteosynthesis</p>\n<p>Operations on soft tissue in the joint area</p>\n<p>Patellectomy</p>\n<p>Corrective osteotomy Meniscectomy</p>\n<p>Total knee/hip replacement ACL/PCL reconstruction</p>\n<p>Complex knee surgery Articular cartilage surgery, e.g. autologous chondrocyte transplantation (ACT)</p>\n<p>Range of Motion Extension/Flexion</p>\n<p>Knee -10° / 0° / 120°    -         Hip 0° / 7° / 115</p>\n<p>Pauses (extension and ﬂexion): 0 - 59 s / 1 - 59 min</p>\n<p>Speed: 5% - 100 %</p>\n<p>Key lock function: To prevent accidental changes of the parameter settings</p>\n<p>ARTROMOT-K1 Standard - features</p>\n<p>Timer 1 - 59 minutes / 1 - 24 hours / continuous operation</p>\n<p>Pauses (extension and/or ﬂexion) 0 - 59 seconds / 1 - 59 minutes</p>\n<p>Reverse on load in steps 1 - 25 / patient safety feature</p>\n<p>Warm up protocol: Gradual progression to the maximum range of motion</p>\n<p>Total therapy time: Added sum of the therapy sessions</p>\n<p>New patient: Activates the default settings for new patients</p>\n<p>Transport setting: Moves the carriage to the transport position</p>\n<p>SPECIFICATION</p>\n<p>DIMENSIONS 97 x 36 x 23 cm</p>\n<p>WEIGHT 11 kg (24.4 lb)</p>\n<p>Model# 80.00.040</p>\n<p>From: Artromot - Germany</p>",
+          "en": "\n\n<p><br></p>"
+        },
+        "shortDescription": {
+          "ar": "",
+          "en": ""
+        },
+        "accessories": {
+          "ar": "",
+          "en": ""
+        },
+        "warranty": {
+          "ar": "",
+          "en": ""
+        },
+        "origin": {
+          "ar": "",
+          "en": ""
+        },
+        "certifications": {
+          "ar": "",
+          "en": ""
+        },
+        "applications": {
+          "ar": "",
+          "en": ""
+        },
+        "leadTime": {
+          "ar": "",
+          "en": ""
+        },
+        "metaTitle": {
+          "ar": "",
+          "en": ""
+        },
+        "metaDescription": {
+          "ar": "",
+          "en": ""
+        },
+        "features": {
+          "ar": [],
+          "en": []
+        },
+        "tags": {
+          "ar": [],
+          "en": []
+        },
+        "specifications": [],
+        "videoUrl": "",
+        "attachments": [],
+        "compareAt": null,
+        "quoteEnabled": true,
+        "vatIncluded": null,
+        "status": "published",
+        "sortOrder": null,
+        "related": [],
+        "updatedAt": "2026-10-22T20:34:30.570726+00:00"
+      }
     },
     {
       "id": "sheet-112",

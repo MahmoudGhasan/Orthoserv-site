@@ -1874,6 +1874,99 @@
       "salePrice": null,
       "saleStart": "",
       "saleEnd": ""
+    },
+    {
+      "id": "iv-needel-20g-02bfc7",
+      "name": "iv needel 20G",
+      "titleAr": "كانيولا 20 G",
+      "brand": "HIGHCARE",
+      "model": "",
+      "category": "consumables",
+      "group": "needles",
+      "description": "",
+      "price": 14.0,
+      "priceSource": "",
+      "method": "buy",
+      "demo": false,
+      "demoEligible": false,
+      "files": [
+        {
+          "file": "assets/uploads/Screenshot-2026-10-21-100114-49af96e7.png",
+          "width": 540,
+          "height": 499,
+          "role": "product",
+          "alt": {
+            "ar": "",
+            "en": ""
+          }
+        }
+      ],
+      "options": [],
+      "visible": false,
+      "availability": "available",
+      "commerce": {
+        "status": "draft",
+        "description": {
+          "ar": "\n\n<p><br></p>",
+          "en": "\n\n<p><br></p>"
+        },
+        "shortDescription": {
+          "ar": "كانويلا",
+          "en": "iv needles"
+        },
+        "accessories": {
+          "ar": "",
+          "en": ""
+        },
+        "warranty": {
+          "ar": "",
+          "en": ""
+        },
+        "origin": {
+          "ar": "",
+          "en": ""
+        },
+        "certifications": {
+          "ar": "",
+          "en": ""
+        },
+        "applications": {
+          "ar": "",
+          "en": ""
+        },
+        "leadTime": {
+          "ar": "",
+          "en": ""
+        },
+        "metaTitle": {
+          "ar": "",
+          "en": ""
+        },
+        "metaDescription": {
+          "ar": "",
+          "en": ""
+        },
+        "features": {
+          "ar": [],
+          "en": []
+        },
+        "tags": {
+          "ar": [],
+          "en": []
+        },
+        "specifications": [],
+        "videoUrl": "",
+        "attachments": [],
+        "compareAt": 15.0,
+        "quoteEnabled": true,
+        "vatIncluded": null,
+        "sortOrder": null,
+        "related": [],
+        "updatedAt": "2026-10-22T08:58:32.541159+00:00"
+      },
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": ""
     }
   ]
 }

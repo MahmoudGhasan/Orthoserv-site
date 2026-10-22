@@ -1831,7 +1831,7 @@
       "model": "",
       "category": "consumables",
       "group": "needles",
-      "description": "",
+      "description": "\n",
       "price": 15.0,
       "priceSource": "",
       "method": "buy",
@@ -1844,8 +1844,8 @@
           "height": 499,
           "role": "product",
           "alt": {
-            "ar": "",
-            "en": ""
+            "ar": "كانيولا",
+            "en": "ك"
           }
         }
       ],
@@ -1856,7 +1856,7 @@
         "status": "draft",
         "description": {
           "ar": "\n\n<p><br></p>",
-          "en": "\n\n<p><br></p>"
+          "en": "\n\n<p>needel 20G pink</p>"
         },
         "shortDescription": {
           "ar": "كانويلا طبيه",
@@ -1910,7 +1910,7 @@
         "vatIncluded": false,
         "sortOrder": null,
         "related": [],
-        "updatedAt": "2026-10-22T08:07:31.810266+00:00"
+        "updatedAt": "2026-10-22T20:32:17.918003+00:00"
       },
       "salePrice": null,
       "saleStart": "",

@@ -50,8 +50,8 @@
   append(parsed.body,target);
  }
  function offerCard(offer){
-  const card=element('article',null,'commerce-offer');card.style.cssText='padding:20px;border:1px solid #dce3eb;border-radius:12px;margin:16px 0';
-  if(safe(offer.banner)){const image=element('img');image.src=safe(offer.banner);image.alt=text(offer.name);image.style.cssText='max-width:100%;max-height:240px;object-fit:contain';card.append(image);}
+  const card=element('article',null,'commerce-offer');
+  if(safe(offer.banner)){const image=element('img');image.src=safe(offer.banner);image.alt=text(offer.name);card.append(image);}
   card.append(element('h2',text(offer.name)));
   card.append(element('p',text(offer.badge)));
   for(const id of offer.products){const p=raw.get(id);if(!p)continue;const a=element('a',lang()==='ar'?(p.titleAr||p.name):p.name);a.href='#product/'+encodeURIComponent(id);a.style.marginInlineEnd='18px';card.append(a);}
@@ -79,7 +79,7 @@
    const p=raw.get(decodeURIComponent(link.hash.slice(9)));const info=p?.commerce;if(!info)continue;
    const offer=info.appliedOffer||(typeof p.salePrice==='number'&&info.manualOffer?{start:p.saleStart,end:p.saleEnd,badge:info.manualOffer.badge,placements:['cards']}:null);const badge=active(offer)&&offer.placements?.includes('cards')?text(offer.badge,text(offer.name)):null;
    let node=card.querySelector('.commerce-badge');
-   if(badge){if(!node){node=element('span',null,'commerce-badge');node.style.cssText='display:inline-block;background:#ddf6ed;color:#08765a;padding:5px 9px;border-radius:8px';card.querySelector('.product-info')?.prepend(node);}if(node.textContent!==badge)node.textContent=badge;}else node?.remove();
+   if(badge){if(!node){node=element('span',null,'commerce-badge');card.querySelector('.product-info')?.prepend(node);}if(node.textContent!==badge)node.textContent=badge;}else node?.remove();
   }
   const id=location.hash.startsWith('#product/')?decodeURIComponent(location.hash.slice(9)):null,p=raw.get(id),info=p?.commerce;
   const extra=main.querySelector('.detail-extra');
@@ -120,7 +120,7 @@
  window.OrthoCommerce={syncCart,lineTotal,renderOffers};
  document.addEventListener('DOMContentLoaded',()=>{
   const main=document.getElementById('main');if(main)new MutationObserver(schedule).observe(main,{childList:true,subtree:true});
-  new MutationObserver(schedule).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});schedule();
+  const root=document.documentElement;if(root)new MutationObserver(schedule).observe(root,{attributes:true,attributeFilter:['lang']});schedule();
  });
  window.addEventListener('hashchange',schedule);
 })();

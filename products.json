@@ -11,7 +11,7 @@
       "category": "consumables",
       "group": "wound-care",
       "description": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 6 × 75 مم؛ 3 شرائط في الظرف، و50 ظرفًا في العلبة (150 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
-      "price": 70.0,
+      "price": 60.0,
       "priceSource": "user-catalogue",
       "priceUnit": "علبة · 50 ظرفًا",
       "method": "buy",
@@ -100,13 +100,13 @@
         "specifications": [],
         "videoUrl": "",
         "attachments": [],
-        "compareAt": null,
+        "compareAt": 70.0,
         "quoteEnabled": false,
         "vatIncluded": null,
         "status": "published",
         "sortOrder": null,
         "related": [],
-        "updatedAt": "2026-10-22T08:02:00.004553+00:00"
+        "updatedAt": "2026-10-22T20:08:28.266131+00:00"
       }
     },
     {

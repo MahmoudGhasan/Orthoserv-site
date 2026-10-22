@@ -1,10 +1,10 @@
-@font-face{font-family:Plex;src:url('../assets/fonts/ibm-400.woff2') format('woff2');font-weight:400;font-display:swap}
-@font-face{font-family:Plex;src:url('../assets/fonts/ibm-500.woff2') format('woff2');font-weight:500;font-display:swap}
-@font-face{font-family:Plex;src:url('../assets/fonts/ibm-600.woff2') format('woff2');font-weight:600;font-display:swap}
-@font-face{font-family:Plex;src:url('../assets/fonts/ibm-700.woff2') format('woff2');font-weight:700;font-display:swap}
-@font-face{font-family:Manrope;src:url('../assets/fonts/manrope-400.woff2') format('woff2');font-weight:400;font-display:swap}
-@font-face{font-family:Manrope;src:url('../assets/fonts/manrope-600.woff2') format('woff2');font-weight:600;font-display:swap}
-@font-face{font-family:Manrope;src:url('../assets/fonts/manrope-700.woff2') format('woff2');font-weight:700;font-display:swap}
+@font-face{font-family:Plex;src:url('../../../assets/fonts/ibm-400.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:Plex;src:url('../../../assets/fonts/ibm-500.ttf') format('truetype');font-weight:500;font-display:swap}
+@font-face{font-family:Plex;src:url('../../../assets/fonts/ibm-600.ttf') format('truetype');font-weight:600;font-display:swap}
+@font-face{font-family:Plex;src:url('../../../assets/fonts/ibm-700.ttf') format('truetype');font-weight:700;font-display:swap}
+@font-face{font-family:Manrope;src:url('../../../assets/fonts/manrope-400.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:Manrope;src:url('../../../assets/fonts/manrope-600.ttf') format('truetype');font-weight:600;font-display:swap}
+@font-face{font-family:Manrope;src:url('../../../assets/fonts/manrope-700.ttf') format('truetype');font-weight:700;font-display:swap}
 :root{--ink:#122a3c;--blue:#086da8;--cyan:#159ccd;--muted:#637680;--line:#d4e1e7;--font-ar:Plex,sans-serif;--font-en:Manrope,sans-serif;--font:var(--font-ar);--copy-dir:rtl;--header-size:92px;--gutter:clamp(22px,4.2vw,76px)}
 :root:lang(en){--font:var(--font-en);--copy-dir:ltr}
 *{box-sizing:border-box}html{scroll-padding-block-start:var(--header-size)}

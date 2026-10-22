@@ -31,9 +31,10 @@ window.OrthoCMSReady=Promise.all([fetch(new URL('site-settings.json',cmsBase)).t
 // The embedded experiences use their own layout and language controls.
 // Apply their editable copy without changing the layout or event handlers.
 window.OrthoCMSReady.then(()=>{
- if(document.getElementById('searchForm'))return;
+ const body=document.body,root=document.documentElement;if(!body||!root||document.getElementById('searchForm'))return;
  const cache=new WeakMap();
  const apply=()=>{
+  if(!document.body)return;
   const lang=document.documentElement.lang==='en'?'en':'ar';
   const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
   while(walker.nextNode()){
@@ -43,5 +44,5 @@ window.OrthoCMSReady.then(()=>{
    r.last=node.nodeValue;cache.set(node,r);
   }
  };
- apply();const observer=new MutationObserver(apply);observer.observe(document.body,{childList:true,subtree:true,characterData:true});observer.observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
+ apply();const observer=new MutationObserver(apply);observer.observe(body,{childList:true,subtree:true,characterData:true});observer.observe(root,{attributes:true,attributeFilter:['lang']});
 });

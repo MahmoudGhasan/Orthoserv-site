@@ -1901,7 +1901,7 @@
       "brand": "ANGIPLAST",
       "model": "",
       "category": "consumables",
-      "group": "needles",
+      "group": "shockwave",
       "description": "\n",
       "price": 15.0,
       "priceSource": "",
@@ -1981,7 +1981,7 @@
         "vatIncluded": false,
         "sortOrder": null,
         "related": [],
-        "updatedAt": "2026-10-22T20:32:17.918003+00:00"
+        "updatedAt": "2026-10-22T20:37:15.413931+00:00"
       },
       "salePrice": null,
       "saleStart": "",

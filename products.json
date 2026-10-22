@@ -11,7 +11,7 @@
       "category": "consumables",
       "group": "wound-care",
       "description": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 6 × 75 مم؛ 3 شرائط في الظرف، و50 ظرفًا في العلبة (150 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
-      "price": 70,
+      "price": 70.0,
       "priceSource": "user-catalogue",
       "priceUnit": "علبة · 50 ظرفًا",
       "method": "buy",
@@ -47,7 +47,67 @@
       "visible": true,
       "salePrice": null,
       "saleStart": "",
-      "saleEnd": ""
+      "saleEnd": "",
+      "commerce": {
+        "description": {
+          "ar": "\n\n<p>شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 6 × 75 مم؛ 3 شرائط في الظرف، و50 ظرفًا في العلبة (150 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.</p>",
+          "en": "\n\n<p><br></p>"
+        },
+        "shortDescription": {
+          "ar": "شرائط إغلاق الجروح · 6 × 75 مم",
+          "en": ""
+        },
+        "accessories": {
+          "ar": "",
+          "en": ""
+        },
+        "warranty": {
+          "ar": "",
+          "en": ""
+        },
+        "origin": {
+          "ar": "",
+          "en": ""
+        },
+        "certifications": {
+          "ar": "",
+          "en": ""
+        },
+        "applications": {
+          "ar": "",
+          "en": ""
+        },
+        "leadTime": {
+          "ar": "",
+          "en": ""
+        },
+        "metaTitle": {
+          "ar": "",
+          "en": ""
+        },
+        "metaDescription": {
+          "ar": "",
+          "en": ""
+        },
+        "features": {
+          "ar": [],
+          "en": []
+        },
+        "tags": {
+          "ar": [],
+          "en": []
+        },
+        "specifications": [],
+        "videoUrl": "",
+        "attachments": [],
+        "compareAt": null,
+        "quoteEnabled": false,
+        "vatIncluded": null,
+        "status": "published",
+        "sortOrder": null,
+        "related": [],
+        "updatedAt": "2026-10-22T08:02:00.004553+00:00"
+      }
     },
     {
       "id": "highcare-hc19067",
@@ -552,8 +612,8 @@
       "category": "rehab",
       "group": "electro",
       "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
-      "price": null,
-      "method": "quote",
+      "price": 1000.0,
+      "method": "buy",
       "files": [
         {
           "file": "assets/products/rehab/winback-back4-front-transparent.webp",
@@ -603,13 +663,73 @@
       "source": {
         "file": "Previous approved image manifest"
       },
-      "availability": "confirm",
+      "availability": "available",
       "demoEligible": true,
       "visible": true,
       "salePrice": null,
       "saleStart": "",
       "saleEnd": "",
-      "options": []
+      "options": [],
+      "commerce": {
+        "description": {
+          "ar": "\n\n<p>من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.</p>",
+          "en": "\n\n<p><br></p>"
+        },
+        "shortDescription": {
+          "ar": "",
+          "en": ""
+        },
+        "accessories": {
+          "ar": "",
+          "en": ""
+        },
+        "warranty": {
+          "ar": "",
+          "en": ""
+        },
+        "origin": {
+          "ar": "",
+          "en": ""
+        },
+        "certifications": {
+          "ar": "",
+          "en": ""
+        },
+        "applications": {
+          "ar": "",
+          "en": ""
+        },
+        "leadTime": {
+          "ar": "",
+          "en": ""
+        },
+        "metaTitle": {
+          "ar": "",
+          "en": ""
+        },
+        "metaDescription": {
+          "ar": "",
+          "en": ""
+        },
+        "features": {
+          "ar": [],
+          "en": []
+        },
+        "tags": {
+          "ar": [],
+          "en": []
+        },
+        "specifications": [],
+        "videoUrl": "",
+        "attachments": [],
+        "compareAt": null,
+        "quoteEnabled": true,
+        "vatIncluded": null,
+        "status": "published",
+        "sortOrder": null,
+        "related": [],
+        "updatedAt": "2026-10-21T20:47:36.198634+00:00"
+      }
     },
     {
       "id": "portable",
@@ -1661,6 +1781,99 @@
       "saleStart": "",
       "saleEnd": "",
       "options": []
+    },
+    {
+      "id": "iv-needel-20g",
+      "name": "IV needel 20G",
+      "titleAr": "كانيولا مقاس 20G",
+      "brand": "ANGIPLAST",
+      "model": "",
+      "category": "consumables",
+      "group": "needles",
+      "description": "",
+      "price": 15.0,
+      "priceSource": "",
+      "method": "buy",
+      "demo": false,
+      "demoEligible": false,
+      "files": [
+        {
+          "file": "assets/uploads/Screenshot-2026-10-21-100114-d8e6b96f.png",
+          "width": 540,
+          "height": 499,
+          "role": "product",
+          "alt": {
+            "ar": "",
+            "en": ""
+          }
+        }
+      ],
+      "options": [],
+      "visible": false,
+      "availability": "available",
+      "commerce": {
+        "status": "draft",
+        "description": {
+          "ar": "\n\n<p><br></p>",
+          "en": "\n\n<p><br></p>"
+        },
+        "shortDescription": {
+          "ar": "كانويلا طبيه",
+          "en": "needel 20G pink"
+        },
+        "accessories": {
+          "ar": "",
+          "en": ""
+        },
+        "warranty": {
+          "ar": "",
+          "en": ""
+        },
+        "origin": {
+          "ar": "",
+          "en": ""
+        },
+        "certifications": {
+          "ar": "",
+          "en": ""
+        },
+        "applications": {
+          "ar": "",
+          "en": ""
+        },
+        "leadTime": {
+          "ar": "",
+          "en": ""
+        },
+        "metaTitle": {
+          "ar": "",
+          "en": ""
+        },
+        "metaDescription": {
+          "ar": "",
+          "en": ""
+        },
+        "features": {
+          "ar": [],
+          "en": []
+        },
+        "tags": {
+          "ar": [],
+          "en": []
+        },
+        "specifications": [],
+        "videoUrl": "",
+        "attachments": [],
+        "compareAt": null,
+        "quoteEnabled": true,
+        "vatIncluded": false,
+        "sortOrder": null,
+        "related": [],
+        "updatedAt": "2026-10-22T08:07:31.810266+00:00"
+      },
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": ""
     }
   ]
 }

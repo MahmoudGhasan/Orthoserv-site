@@ -45,7 +45,7 @@
       ],
       "imageNote": "صورة المجموعة من الكتالوج؛ المقاس المحدد موضح في اسم المنتج.",
       "visible": true,
-      "salePrice": null,
+      "salePrice": 54.0,
       "saleStart": "",
       "saleEnd": "",
       "commerce": {
@@ -106,7 +106,48 @@
         "status": "published",
         "sortOrder": null,
         "related": [],
-        "updatedAt": "2026-10-22T20:08:28.266131+00:00"
+        "updatedAt": "2026-10-22T20:08:28.266131+00:00",
+        "offerBase": {
+          "salePrice": {
+            "present": true,
+            "value": null
+          },
+          "saleStart": {
+            "present": true,
+            "value": ""
+          },
+          "saleEnd": {
+            "present": true,
+            "value": ""
+          }
+        },
+        "appliedOffer": {
+          "accessory": "",
+          "autoExpire": true,
+          "badge": {
+            "ar": "",
+            "en": ""
+          },
+          "banner": "",
+          "end": "",
+          "id": "offer-4db3abc7b6e7",
+          "name": {
+            "ar": "خصم",
+            "en": "offer"
+          },
+          "paused": false,
+          "placements": [
+            "cards",
+            "home"
+          ],
+          "products": [
+            "highcare-hc19065"
+          ],
+          "start": "",
+          "type": "percentage",
+          "value": 10.0,
+          "updatedAt": "2026-10-22T20:11:53.923560+00:00"
+        }
       }
     },
     {
@@ -1967,6 +2008,35 @@
       "salePrice": null,
       "saleStart": "",
       "saleEnd": ""
+    }
+  ],
+  "offers": [
+    {
+      "accessory": "",
+      "autoExpire": true,
+      "badge": {
+        "ar": "",
+        "en": ""
+      },
+      "banner": "",
+      "end": "",
+      "id": "offer-4db3abc7b6e7",
+      "name": {
+        "ar": "خصم",
+        "en": "offer"
+      },
+      "paused": false,
+      "placements": [
+        "cards",
+        "home"
+      ],
+      "products": [
+        "highcare-hc19065"
+      ],
+      "start": "",
+      "type": "percentage",
+      "value": 10.0,
+      "updatedAt": "2026-10-22T20:11:53.923560+00:00"
     }
   ]
 }

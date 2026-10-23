@@ -1,11 +1,22 @@
 {
   "schemaVersion": 1,
-  "images": [],
+  "images": [
+    {
+      "key": "#main>section:3>div:1>img:1",
+      "route": "#home",
+      "src": "assets/uploads/ChatGPT-Image-Oct-24--2026--12_34_52-AM-317fb8a1.png"
+    }
+  ],
   "styles": [
     {
       "key": "#main>section:11>a:1>div:2>img:1",
       "route": "#home",
       "objectFit": "fill"
+    },
+    {
+      "key": "#main>section:3>div:1>img:1",
+      "route": "#home",
+      "objectFit": "scale-down"
     }
   ]
 }

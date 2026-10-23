@@ -1921,10 +1921,10 @@
         }
       ],
       "options": [],
-      "visible": false,
+      "visible": true,
       "availability": "available",
       "commerce": {
-        "status": "draft",
+        "status": "published",
         "description": {
           "ar": "\n\n<p><br></p>",
           "en": "\n\n<p>needel 20G pink</p>"
@@ -1981,7 +1981,7 @@
         "vatIncluded": false,
         "sortOrder": null,
         "related": [],
-        "updatedAt": "2026-10-22T20:37:53.958206+00:00"
+        "updatedAt": "2026-10-23T12:24:35.828646+00:00"
       },
       "salePrice": null,
       "saleStart": "",

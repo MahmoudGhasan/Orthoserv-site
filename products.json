@@ -452,7 +452,38 @@
       "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
       "price": null,
       "method": "quote",
-      "files": [],
+      "files": [
+        {
+          "file": "assets/uploads/20dd498763507d52f7bce908-3093f716.webp",
+          "width": 640,
+          "height": 640,
+          "role": "product",
+          "alt": {
+            "ar": "",
+            "en": ""
+          }
+        },
+        {
+          "file": "assets/uploads/278594d68ec4f8faf9119dcd-94a1a875.webp",
+          "width": 640,
+          "height": 640,
+          "role": "detail",
+          "alt": {
+            "ar": "",
+            "en": ""
+          }
+        },
+        {
+          "file": "assets/uploads/e22c36e58ba2fce207d0f312-b8af3837.png",
+          "width": 640,
+          "height": 640,
+          "role": "detail",
+          "alt": {
+            "ar": "",
+            "en": ""
+          }
+        }
+      ],
       "source": {
         "file": "Previous approved image manifest"
       },
@@ -462,7 +493,67 @@
       "salePrice": null,
       "saleStart": "",
       "saleEnd": "",
-      "options": []
+      "options": [],
+      "commerce": {
+        "description": {
+          "ar": "\n\n<p>من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.</p>",
+          "en": "\n\n<p><br></p>"
+        },
+        "shortDescription": {
+          "ar": "",
+          "en": ""
+        },
+        "accessories": {
+          "ar": "",
+          "en": ""
+        },
+        "warranty": {
+          "ar": "",
+          "en": ""
+        },
+        "origin": {
+          "ar": "",
+          "en": ""
+        },
+        "certifications": {
+          "ar": "",
+          "en": ""
+        },
+        "applications": {
+          "ar": "",
+          "en": ""
+        },
+        "leadTime": {
+          "ar": "",
+          "en": ""
+        },
+        "metaTitle": {
+          "ar": "",
+          "en": ""
+        },
+        "metaDescription": {
+          "ar": "",
+          "en": ""
+        },
+        "features": {
+          "ar": [],
+          "en": []
+        },
+        "tags": {
+          "ar": [],
+          "en": []
+        },
+        "specifications": [],
+        "videoUrl": "",
+        "attachments": [],
+        "compareAt": null,
+        "quoteEnabled": true,
+        "vatIncluded": null,
+        "status": "published",
+        "sortOrder": null,
+        "related": [],
+        "updatedAt": "2026-10-23T14:44:30.317765+00:00"
+      }
     },
     {
       "id": "spirit",

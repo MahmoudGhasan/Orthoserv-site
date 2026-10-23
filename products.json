@@ -1995,7 +1995,7 @@
       "model": "",
       "category": "consumables",
       "group": "needles",
-      "description": "",
+      "description": "\n",
       "price": 14.0,
       "priceSource": "",
       "method": "buy",
@@ -2014,10 +2014,10 @@
         }
       ],
       "options": [],
-      "visible": false,
+      "visible": true,
       "availability": "available",
       "commerce": {
-        "status": "draft",
+        "status": "published",
         "description": {
           "ar": "\n\n<p><br></p>",
           "en": "\n\n<p><br></p>"
@@ -2074,7 +2074,7 @@
         "vatIncluded": null,
         "sortOrder": null,
         "related": [],
-        "updatedAt": "2026-10-22T08:58:32.541159+00:00"
+        "updatedAt": "2026-10-23T12:25:01.738817+00:00"
       },
       "salePrice": null,
       "saleStart": "",

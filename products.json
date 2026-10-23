@@ -1978,10 +1978,10 @@
         "attachments": [],
         "compareAt": null,
         "quoteEnabled": true,
-        "vatIncluded": false,
+        "vatIncluded": true,
         "sortOrder": null,
         "related": [],
-        "updatedAt": "2026-10-23T12:24:35.828646+00:00"
+        "updatedAt": "2026-10-23T12:26:21.318936+00:00"
       },
       "salePrice": null,
       "saleStart": "",

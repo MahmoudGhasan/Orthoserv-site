@@ -16,6 +16,7 @@
     {
       "key": "#main>section:3>div:1>img:1",
       "route": "#home",
+      "height": "400px",
       "objectFit": "scale-down"
     }
   ]

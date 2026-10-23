@@ -5,7 +5,7 @@
     {
       "key": "#main>section:11>a:1>div:2>img:1",
       "route": "#home",
-      "objectFit": "cover"
+      "objectFit": "fill"
     }
   ]
 }

@@ -119,3 +119,15 @@ html[dir=ltr] .home-centre-card:after{background:linear-gradient(to right,#e8f2f
 html[lang=en] .home-centre-copy h2{font-size:35px;line-height:1.35;letter-spacing:normal}
 @media(max-width:1000px){.home-centre-copy{width:54%;padding:32px 26px}.home-centre-copy h2{font-size:32px}.home-centre-description{font-size:14px}.home-centre-actions{gap:10px}.home-centre-actions .button{font-size:13px;padding:11px 15px}}
 @media(max-width:650px){.home-centre-card{min-height:590px;display:block;padding-top:235px}.home-centre-image{height:275px;object-position:left center}.home-centre-card:after,html[dir=ltr] .home-centre-card:after{background:linear-gradient(to bottom,#e8f2fc00 155px,#e8f2fc 265px)}.home-centre-copy{width:100%;padding:20px 22px 26px}.home-centre-eyebrow{font-size:13px;margin-bottom:12px}.home-centre-copy h2,html[lang=en] .home-centre-copy h2{font-size:28px;line-height:1.4}.home-centre-description{font-size:14px;line-height:1.8}.home-centre-actions{margin-top:20px;align-items:stretch}.home-centre-actions .button{flex:1 1 100%;font-size:14px}.home-centre-categories{font-size:12px;margin-top:20px}}
+
+/* Top Offers is isolated from the existing category rows and purchasing settings. */
+.top-offers{padding-top:20px}
+.top-offers .eyebrow{font-size:11px;letter-spacing:1.7px;margin-bottom:6px;color:#526b8a}
+.top-offers .top-offer-label{display:inline-flex;align-self:flex-start;align-items:center;gap:5px;margin:0 0 10px;padding:4px 10px;background:#e8f6f1;color:#09604a;border-radius:5px;font-size:12px;line-height:1.6;font-weight:600}
+.top-offers .top-offer-caption{font-size:12px;line-height:1.7;color:#526780;margin:0 0 12px}
+.top-offers .top-offer-details{display:block;text-align:center}
+.top-offers .top-offers-empty{grid-column:1/-1;padding:30px 20px;border:1px dashed #d3dfec;border-radius:10px;background:#f7faff;color:#526780;font-size:14px;min-width:260px}
+
+.top-offers .product-grid.home-product-rail:has(.top-offers-empty){display:block}
+
+.top-offers .commerce-badge{display:none}

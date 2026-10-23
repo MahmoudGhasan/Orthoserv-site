@@ -850,7 +850,7 @@
       "group": "shockwave",
       "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
       "price": 1000.0,
-      "method": "quote",
+      "method": "buy",
       "files": [
         {
           "file": "assets/products/rehab/ems-dolorclast.webp",
@@ -889,10 +889,78 @@
       "availability": "confirm",
       "demoEligible": true,
       "visible": true,
-      "salePrice": 500,
+      "salePrice": 500.0,
       "saleStart": "",
       "saleEnd": "",
-      "options": []
+      "options": [],
+      "commerce": {
+        "description": {
+          "ar": "\n\n<p>من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.</p>",
+          "en": "\n\n<p><br></p>"
+        },
+        "shortDescription": {
+          "ar": "",
+          "en": ""
+        },
+        "accessories": {
+          "ar": "",
+          "en": ""
+        },
+        "warranty": {
+          "ar": "",
+          "en": ""
+        },
+        "origin": {
+          "ar": "",
+          "en": ""
+        },
+        "certifications": {
+          "ar": "",
+          "en": ""
+        },
+        "applications": {
+          "ar": "",
+          "en": ""
+        },
+        "leadTime": {
+          "ar": "",
+          "en": ""
+        },
+        "metaTitle": {
+          "ar": "",
+          "en": ""
+        },
+        "metaDescription": {
+          "ar": "",
+          "en": ""
+        },
+        "features": {
+          "ar": [],
+          "en": []
+        },
+        "tags": {
+          "ar": [],
+          "en": []
+        },
+        "specifications": [],
+        "videoUrl": "",
+        "attachments": [],
+        "compareAt": null,
+        "quoteEnabled": false,
+        "vatIncluded": null,
+        "status": "published",
+        "sortOrder": null,
+        "related": [],
+        "manualOffer": {
+          "type": "fixed",
+          "value": 500.0,
+          "badge": {
+            "ar": "",
+            "en": ""
+          }
+        },
+        "updatedAt": "2026-10-23T13:25:25.401828+00:00"
+      }
     },
     {
       "id": "med4",

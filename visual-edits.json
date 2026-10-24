@@ -34,12 +34,6 @@
       "objectFit": "cover"
     },
     {
-      "key": "#main>section:3>div:1>div:1>h2:1",
-      "route": "#home",
-      "width": "497px",
-      "height": "154px"
-    },
-    {
       "key": "#main>section:3>div:1>div:1>p:1",
       "route": "#home",
       "height": "41px"
@@ -51,11 +45,6 @@
       "height": "375px",
       "maxWidth": "none",
       "objectFit": "scale-down"
-    },
-    {
-      "key": "#main>section:3",
-      "route": "#home",
-      "width": "954px"
     },
     {
       "key": "#main>section:3>div:1>img:1",
@@ -74,13 +63,6 @@
       "device": "desktop"
     },
     {
-      "key": "#main>section:3>div:1",
-      "route": "#home",
-      "device": "mobile",
-      "width": "463px",
-      "height": "590px"
-    },
-    {
       "key": "#main>section:3>div:1>div:1",
       "route": "#home",
       "device": "mobile",
@@ -88,14 +70,60 @@
       "height": "102px"
     },
     {
+      "key": "#main>section:3",
+      "route": "#home",
+      "width": "954px",
+      "device": "desktop"
+    },
+    {
+      "key": "#main>section:3",
+      "route": "#home",
+      "device": "mobile",
+      "width": "951px",
+      "height": "607px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>div:1>button:1",
+      "route": "#home",
+      "device": "mobile",
+      "height": "48px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>div:1>a:1",
+      "route": "#home",
+      "device": "mobile",
+      "height": "48px"
+    },
+    {
       "key": "#main>section:3>div:1>img:1",
       "route": "#home",
       "device": "mobile",
       "width": "451px",
-      "height": "309px",
+      "height": "306px",
       "maxWidth": "none",
       "fontSize": "16px",
       "objectFit": "scale-down"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>h2:1",
+      "route": "#home",
+      "width": "497px",
+      "height": "154px",
+      "device": "desktop"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>h2:1",
+      "route": "#home",
+      "device": "mobile",
+      "width": "516px",
+      "height": "72px"
+    },
+    {
+      "key": "#main>section:3>div:1",
+      "route": "#home",
+      "device": "mobile",
+      "width": "464px",
+      "height": "590px"
     }
   ]
 }

@@ -34,15 +34,6 @@
       "objectFit": "cover"
     },
     {
-      "key": "#main>section:3>div:1>img:1",
-      "route": "#home",
-      "width": "1152px",
-      "height": "555px",
-      "maxWidth": "none",
-      "fontSize": "16px",
-      "objectFit": "scale-down"
-    },
-    {
       "key": "#main>section:3>div:1>div:1>h2:1",
       "route": "#home",
       "width": "497px",
@@ -60,6 +51,25 @@
       "height": "375px",
       "maxWidth": "none",
       "objectFit": "scale-down"
+    },
+    {
+      "key": "#main>section:3>div:1>img:1",
+      "route": "#home",
+      "width": "1182px",
+      "height": "479px",
+      "maxWidth": "none",
+      "fontSize": "16px",
+      "objectFit": "scale-down"
+    },
+    {
+      "key": "#main>section:3>div:1",
+      "route": "#home",
+      "width": "951px"
+    },
+    {
+      "key": "#main>section:3",
+      "route": "#home",
+      "width": "954px"
     }
   ]
 }

@@ -53,23 +53,49 @@
       "objectFit": "scale-down"
     },
     {
+      "key": "#main>section:3",
+      "route": "#home",
+      "width": "954px"
+    },
+    {
       "key": "#main>section:3>div:1>img:1",
       "route": "#home",
       "width": "1182px",
       "height": "479px",
       "maxWidth": "none",
       "fontSize": "16px",
-      "objectFit": "scale-down"
+      "objectFit": "scale-down",
+      "device": "desktop"
     },
     {
       "key": "#main>section:3>div:1",
       "route": "#home",
-      "width": "951px"
+      "width": "951px",
+      "device": "desktop"
     },
     {
-      "key": "#main>section:3",
+      "key": "#main>section:3>div:1",
       "route": "#home",
-      "width": "954px"
+      "device": "mobile",
+      "width": "463px",
+      "height": "590px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1",
+      "route": "#home",
+      "device": "mobile",
+      "width": "450px",
+      "height": "102px"
+    },
+    {
+      "key": "#main>section:3>div:1>img:1",
+      "route": "#home",
+      "device": "mobile",
+      "width": "451px",
+      "height": "309px",
+      "maxWidth": "none",
+      "fontSize": "16px",
+      "objectFit": "scale-down"
     }
   ]
 }

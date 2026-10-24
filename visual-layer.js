@@ -6,7 +6,17 @@
  const FIXED='header,footer,.topline,.store-navigation,.mega-panel';
  const CSS={width:'width',height:'height',maxWidth:'max-width',fontSize:'font-size',objectFit:'object-fit'};
  const base=new URL('.',document.currentScript?document.currentScript.src:location.href);
- let edits={images:[],styles:[]},frame=0;
+ let edits={images:[],styles:[]},frame=0,lastDevice='';
+ const device=()=>innerWidth<=599?'mobile':innerWidth<=1023?'tablet':'desktop';
+ const touched=new Map(); // element -> original inline values, so a screen-size change can undo what was applied
+ function setStyle(el,name,value){
+  let saved=touched.get(el);if(!saved){saved={};touched.set(el,saved);}
+  if(!(name in saved))saved[name]=[el.style.getPropertyValue(name),el.style.getPropertyPriority(name)];
+  el.style.setProperty(name,value,'important');
+ }
+ function undoStyles(){
+  for(const [el,saved] of touched){if(el.hasAttribute('data-ortho-live'))continue;for(const name of Object.keys(saved)){const [v,p]=saved[name];if(v)el.style.setProperty(name,v,p);else el.style.removeProperty(name);}touched.delete(el);}
+ }
  function route(){const h=(location.hash||'#home').split('?')[0].split('/')[0];return h&&h!=='#'?h:'#home';}
  function scopeFor(el){return el.closest(FIXED)?'*':route();}
  function keyFor(el){
@@ -33,9 +43,10 @@
   }
   return cur;
  }
- const inScope=entry=>!entry.route||entry.route==='*'||entry.route===route();
+ const inScope=entry=>(!entry.route||entry.route==='*'||entry.route===route())&&(!entry.device||entry.device===device());
  function apply(){
   frame=0;
+  if(lastDevice!==device()){lastDevice=device();undoStyles();}
   for(const entry of edits.images||[]){
    if(!inScope(entry))continue;
    const el=find(entry.key);
@@ -44,10 +55,10 @@
   for(const entry of edits.styles||[]){
    if(!inScope(entry))continue;
    const el=find(entry.key);if(!el||el.hasAttribute('data-ortho-live'))continue; // being dragged in the editor
-   for(const name of Object.keys(CSS))if(entry[name])el.style.setProperty(CSS[name],entry[name],'important');
+   for(const name of Object.keys(CSS))if(entry[name])setStyle(el,CSS[name],entry[name]);
    if(entry.hidden){
-    if(window.__orthoEditing){el.style.setProperty('opacity','.3','important');el.style.setProperty('outline','2px dashed #e11d48','important');}
-    else el.style.setProperty('display','none','important');
+    if(window.__orthoEditing){setStyle(el,'opacity','.3');setStyle(el,'outline','2px dashed #e11d48');}
+    else setStyle(el,'display','none');
    }
   }
  }
@@ -57,6 +68,6 @@
   if(!data)return;
   edits=data;apply();
   new MutationObserver(schedule).observe(document.documentElement,{childList:true,subtree:true});
-  window.addEventListener('hashchange',schedule);
+  window.addEventListener('hashchange',schedule);window.addEventListener('resize',schedule);
  }).catch(()=>{});
 })();

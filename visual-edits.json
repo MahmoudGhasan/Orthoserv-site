@@ -34,11 +34,6 @@
       "objectFit": "cover"
     },
     {
-      "key": "#main>section:3>div:1>div:1>p:1",
-      "route": "#home",
-      "height": "41px"
-    },
-    {
       "key": "#homeCarousel>div:1>div:1>div:1>div:2>img:1",
       "route": "#home",
       "width": "531px",
@@ -95,16 +90,6 @@
       "height": "48px"
     },
     {
-      "key": "#main>section:3>div:1>img:1",
-      "route": "#home",
-      "device": "mobile",
-      "width": "451px",
-      "height": "306px",
-      "maxWidth": "none",
-      "fontSize": "16px",
-      "objectFit": "scale-down"
-    },
-    {
       "key": "#main>section:3>div:1>div:1>h2:1",
       "route": "#home",
       "width": "497px",
@@ -122,8 +107,31 @@
       "key": "#main>section:3>div:1",
       "route": "#home",
       "device": "mobile",
-      "width": "464px",
+      "width": "525px",
       "height": "590px"
+    },
+    {
+      "key": "#main>section:3>div:1>img:1",
+      "route": "#home",
+      "device": "mobile",
+      "width": "527px",
+      "height": "351px",
+      "maxWidth": "none",
+      "fontSize": "16px",
+      "objectFit": "scale-down"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>p:1",
+      "route": "#home",
+      "height": "41px",
+      "device": "desktop"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>p:1",
+      "route": "#home",
+      "device": "mobile",
+      "width": "194px",
+      "height": "23px"
     }
   ]
 }

@@ -131,3 +131,11 @@ html[lang=en] .home-centre-copy h2{font-size:35px;line-height:1.35;letter-spacin
 .top-offers .product-grid.home-product-rail:has(.top-offers-empty){display:block}
 
 .top-offers .commerce-badge{display:none}
+
+/* Compact phone cards: long neighbouring products must not stretch every card. */
+@media(max-width:650px){
+  .home-product-section .product-grid.home-product-rail{align-items:start}
+  .home-product-rail>.product-card>.product-info{flex:0 0 auto}
+  .home-product-rail .card-bottom{margin-top:12px}
+  .product-card .product-info h3,.product-card .product-info .arabic-name{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;min-height:0}
+}

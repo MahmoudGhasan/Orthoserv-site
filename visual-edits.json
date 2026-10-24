@@ -111,28 +111,28 @@
       "height": "23px"
     },
     {
-      "key": "#main>section:3>div:1>img:1",
-      "route": "#home",
-      "device": "mobile",
-      "width": "361px",
-      "height": "351px",
-      "maxWidth": "none",
-      "fontSize": "16px",
-      "objectFit": "scale-down"
-    },
-    {
-      "key": "#main>section:3>div:1",
-      "route": "#home",
-      "device": "mobile",
-      "width": "374px",
-      "height": "590px"
-    },
-    {
       "key": "#main>section:3>div:1>div:1>div:1>button:1",
       "route": "#home",
       "device": "mobile",
       "width": "406px",
       "height": "48px"
+    },
+    {
+      "key": "#main>section:3>div:1",
+      "route": "#home",
+      "device": "mobile",
+      "width": "439px",
+      "height": "590px"
+    },
+    {
+      "key": "#main>section:3>div:1>img:1",
+      "route": "#home",
+      "device": "mobile",
+      "width": "442px",
+      "height": "351px",
+      "maxWidth": "none",
+      "fontSize": "16px",
+      "objectFit": "contain"
     }
   ]
 }

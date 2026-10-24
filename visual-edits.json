@@ -4,7 +4,7 @@
     {
       "key": "#main>section:3>div:1>img:1",
       "route": "#home",
-      "src": "assets/uploads/ChatGPT-Image-Oct-24--2026--12_34_52-AM-317fb8a1.png"
+      "src": "assets/uploads/Gemini_Generated_Image_jenq2jenq2jenq2j-0c64dc8c.jpg"
     }
   ],
   "styles": [
@@ -320,11 +320,11 @@
       "key": "#main>section:3>div:1>img:1",
       "route": "#home",
       "device": "desktop",
-      "width": "920px",
+      "width": "1294px",
       "height": "479px",
       "maxWidth": "none",
       "fontSize": "16px",
-      "moveX": "-75px",
+      "moveX": "19px",
       "moveY": "1px",
       "objectFit": "scale-down"
     }

@@ -9,3 +9,4 @@
 .account-panel{border:1px solid var(--line);border-radius:14px;padding:27px;margin-bottom:28px}
 .account-panel h2{font-size:19px;color:var(--navy);margin-bottom:20px}
 .account-heading h1{line-height:1.5}
+.account-demo-roles{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0}.account-demo-roles .button{min-height:44px;display:inline-flex;align-items:center;justify-content:center}.account-demo-roles [aria-current="page"]{outline:2px solid var(--blue);outline-offset:2px}

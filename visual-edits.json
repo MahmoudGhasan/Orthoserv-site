@@ -16,8 +16,26 @@
     {
       "key": "#main>section:3>div:1>img:1",
       "route": "#home",
-      "height": "400px",
+      "fontSize": "16px",
       "objectFit": "scale-down"
+    },
+    {
+      "key": "#home-row-rehab>article:4>div:1>a:1>h3:1",
+      "route": "#home",
+      "width": "auto",
+      "height": "auto"
+    },
+    {
+      "key": "#heroPause",
+      "route": "#home",
+      "width": "auto",
+      "height": "auto"
+    },
+    {
+      "key": "#homeCarousel>div:1>div:1>div:1>div:2>img:1",
+      "route": "#home",
+      "width": "748px",
+      "height": "655px"
     }
   ]
 }

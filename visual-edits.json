@@ -9,11 +9,6 @@
   ],
   "styles": [
     {
-      "key": "#main>section:11>a:1>div:2>img:1",
-      "route": "#home",
-      "objectFit": "fill"
-    },
-    {
       "key": "#main>section:3>div:1>img:1",
       "route": "#home",
       "fontSize": "16px",
@@ -41,6 +36,14 @@
       "key": "body:1>div:1",
       "route": "*",
       "hidden": true
+    },
+    {
+      "key": "#main>section:11>a:1>div:2>img:1",
+      "route": "#home",
+      "width": "186px",
+      "height": "167px",
+      "maxWidth": "none",
+      "objectFit": "cover"
     }
   ]
 }

@@ -36,6 +36,11 @@
       "route": "#home",
       "width": "748px",
       "height": "655px"
+    },
+    {
+      "key": "body:1>div:1",
+      "route": "*",
+      "hidden": true
     }
   ]
 }

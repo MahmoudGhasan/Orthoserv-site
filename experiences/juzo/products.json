@@ -8,12 +8,51 @@
     "image": "assets/products/juzo-0.jpg",
     "width": 367,
     "height": 547,
-    "role": "lifestyle",
+    "role": "detail",
     "alt": "Juzo Soft below-knee stockings",
     "source": "https://www.juzo.com/_Resources/Persistent/d/5/8/3/d583e530bfc95a37567ae911849a4a70aadbefcc/juzo-soft-chaussettes-platine.jpg",
     "page": "https://www.juzo.com/en/products/compression-garments/venous-therapy/juzo-soft",
     "usage": "DEMO ONLY: replace with brand-approved asset",
-    "visible": true
+    "visible": true,
+    "colorways": [
+      {
+        "color": "553c4c0b-5df2-420a-a48b-04488d9e9384",
+        "default": true,
+        "image": "assets/uploads/ChatGPT-Image-Oct-24--2026--07_02_12-PM-b4750837.png",
+        "width": 1027,
+        "height": 1531,
+        "alt": {
+          "ar": "جوارب تحت الركبة — Blueberry",
+          "en": "Juzo Soft — Blueberry"
+        }
+      },
+      {
+        "color": "9568196e-9dd8-4caf-8d54-909d72e97009",
+        "default": false
+      },
+      {
+        "color": "c2c43721-e55f-4754-ac54-c21c225e7cf1",
+        "default": false,
+        "image": "assets/uploads/exec-0795705b-084f-4187-a1c1-38dd5d831e9a-94b16e1a.png",
+        "width": 1027,
+        "height": 1531,
+        "alt": {
+          "ar": "جوارب تحت الركبة — Sweet Coral",
+          "en": "Juzo Soft — Sweet Coral"
+        }
+      },
+      {
+        "color": "c1677251-c5dd-4856-b78c-1ffc03210954",
+        "default": false,
+        "image": "assets/uploads/exec-157b14ed-6181-4a7b-8011-cc42b63a37d6-fcdb3700.png",
+        "width": 1027,
+        "height": 1531,
+        "alt": {
+          "ar": "جوارب تحت الركبة — Casual Blue",
+          "en": "Juzo Soft — Casual Blue"
+        }
+      }
+    ]
   },
   {
     "id": "soft-thigh",

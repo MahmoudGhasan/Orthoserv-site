@@ -21,12 +21,6 @@
       "height": "auto"
     },
     {
-      "key": "#homeCarousel>div:1>div:1>div:1>div:2>img:1",
-      "route": "#home",
-      "width": "748px",
-      "height": "655px"
-    },
-    {
       "key": "body:1>div:1",
       "route": "*",
       "hidden": true
@@ -58,6 +52,14 @@
       "key": "#main>section:3>div:1>div:1>p:1",
       "route": "#home",
       "height": "41px"
+    },
+    {
+      "key": "#homeCarousel>div:1>div:1>div:1>div:2>img:1",
+      "route": "#home",
+      "width": "531px",
+      "height": "375px",
+      "maxWidth": "none",
+      "objectFit": "scale-down"
     }
   ]
 }

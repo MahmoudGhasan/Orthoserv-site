@@ -84,7 +84,7 @@
    if(entry.hidden){
     if(window.__orthoEditing){setStyle(el,'opacity','.3');setStyle(el,'outline','2px dashed #e11d48');}
     else setStyle(el,'display','none');
-   }else if(entry.moveX||entry.moveY){setStyle(el,'translate','0px 0px');moved.push([el,num(entry.moveX),num(entry.moveY)]);}
+   }else if(entry.moveX||entry.moveY){if(getComputedStyle(el).display==='inline')setStyle(el,'display','inline-block');setStyle(el,'translate','0px 0px');moved.push([el,num(entry.moveX),num(entry.moveY)]);}
   }
   // phones only: a size set on a wider screen is squeezed until the element ends exactly at the screen edge (as the editor does
   // while dragging), so an edit made at 390px can never push a 360px phone sideways or make the browser zoom the page out

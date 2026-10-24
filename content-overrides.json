@@ -2699,6 +2699,11 @@
       "ar": "JavaScript مطلوب للحركة فقط. النص وصورة الجهاز متاحان بدون تشغيل الحركة. JavaScript is required for animation only.",
       "en": "JavaScript is required for animation only. The text and device image are available without running the animation.",
       "scope": "experiences/shockwave/"
+    },
+    {
+      "original": "DEMO ONLY",
+      "ar": "تم",
+      "en": "done"
     }
   ]
 }

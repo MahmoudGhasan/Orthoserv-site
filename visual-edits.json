@@ -9,12 +9,6 @@
   ],
   "styles": [
     {
-      "key": "#main>section:3>div:1>img:1",
-      "route": "#home",
-      "fontSize": "16px",
-      "objectFit": "scale-down"
-    },
-    {
       "key": "#home-row-rehab>article:4>div:1>a:1>h3:1",
       "route": "#home",
       "width": "auto",
@@ -44,6 +38,26 @@
       "height": "167px",
       "maxWidth": "none",
       "objectFit": "cover"
+    },
+    {
+      "key": "#main>section:3>div:1>img:1",
+      "route": "#home",
+      "width": "1152px",
+      "height": "555px",
+      "maxWidth": "none",
+      "fontSize": "16px",
+      "objectFit": "scale-down"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>h2:1",
+      "route": "#home",
+      "width": "497px",
+      "height": "154px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>p:1",
+      "route": "#home",
+      "height": "41px"
     }
   ]
 }

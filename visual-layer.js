@@ -43,7 +43,7 @@
   }
   for(const entry of edits.styles||[]){
    if(!inScope(entry))continue;
-   const el=find(entry.key);if(!el)continue;
+   const el=find(entry.key);if(!el||el.hasAttribute('data-ortho-live'))continue; // being dragged in the editor
    for(const name of Object.keys(CSS))if(entry[name])el.style.setProperty(CSS[name],entry[name],'important');
    if(entry.hidden){
     if(window.__orthoEditing){el.style.setProperty('opacity','.3','important');el.style.setProperty('outline','2px dashed #e11d48','important');}

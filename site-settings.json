@@ -1,4 +1,5 @@
 {
+  "analytics": {"enabled": true, "endpoint": "https://orthoserv-analytics.hudagasan2020.workers.dev/collect"},
   "accounts": {"previewEnabled": true},
   "schemaVersion": 1,
   "hero": {

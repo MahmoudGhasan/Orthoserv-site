@@ -1,4 +1,5 @@
 {
+  "googleAnalytics": {"enabled": true, "containerId": "GTM-NP7Q5XSF", "measurementId": "G-FH3FVZHC4M"},
   "analytics": {"enabled": true, "endpoint": "https://orthoserv-analytics.hudagasan2020.workers.dev/collect"},
   "accounts": {"previewEnabled": true},
   "schemaVersion": 1,

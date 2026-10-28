@@ -180,8 +180,7 @@
    for(const name of Object.keys(CSS))if(entry[name])setStyle(el,CSS[name],entry[name]);
    for(const [name,value] of cssPairs(entry.css))setStyle(el,name,value); // free-text CSS from the editor's CSS tab
    if(entry.hidden){
-    if(window.__orthoEditing){setStyle(el,'opacity','.3');setStyle(el,'outline','2px dashed #e11d48');}
-    else setStyle(el,'display','none');
+    setStyle(el,'display','none'); // deleted: gone from the editor as well as the live site
    }else if(entry.moveX||entry.moveY){setStyle(el,'translate','0px 0px');moved.push([el,num(entry.moveX),num(entry.moveY)]);}
   }
   // phones only: a size set on a wider screen is squeezed until the element ends exactly at the screen edge (as the editor does

@@ -396,12 +396,6 @@
       "hidden": true
     },
     {
-      "key": "#juzoAd",
-      "route": "#home",
-      "device": "desktop",
-      "hidden": true
-    },
-    {
       "key": "#main>section:3>div:1>div:1>p:2>span:1",
       "route": "#home",
       "device": "desktop",
@@ -426,6 +420,12 @@
       "key": "#homeCarousel>div:1>div:1>div:1>div:2>a:1",
       "route": "#home",
       "device": "mobile",
+      "hidden": true
+    },
+    {
+      "key": "#juzoAd",
+      "route": "#home",
+      "device": "desktop",
       "hidden": true
     }
   ],

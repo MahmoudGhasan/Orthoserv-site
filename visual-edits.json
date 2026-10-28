@@ -34,40 +34,6 @@
       "objectFit": "cover"
     },
     {
-      "key": "#main>section:3>div:1>div:1",
-      "route": "#home",
-      "device": "mobile",
-      "width": "450px",
-      "height": "102px"
-    },
-    {
-      "key": "#main>section:3>div:1>div:1>div:1>a:1",
-      "route": "#home",
-      "device": "mobile",
-      "height": "48px"
-    },
-    {
-      "key": "#main>section:3>div:1>div:1>h2:1",
-      "route": "#home",
-      "device": "mobile",
-      "width": "516px",
-      "height": "72px"
-    },
-    {
-      "key": "#main>section:3>div:1>div:1>div:1>button:1",
-      "route": "#home",
-      "device": "mobile",
-      "width": "406px",
-      "height": "48px"
-    },
-    {
-      "key": "#main>section:3>div:1>div:1>p:1",
-      "route": "#home",
-      "device": "mobile",
-      "width": "195px",
-      "height": "23px"
-    },
-    {
       "key": "#main>section:2>a:2",
       "route": "#home",
       "device": "mobile",
@@ -79,22 +45,6 @@
       "route": "#home",
       "device": "mobile",
       "moveY": "6px"
-    },
-    {
-      "key": "#main>section:3>div:1>div:1>p:3>span:1",
-      "route": "#home",
-      "device": "mobile",
-      "moveX": "2px",
-      "moveY": "-19px"
-    },
-    {
-      "key": "#main>section:3>div:1",
-      "route": "#home",
-      "device": "mobile",
-      "width": "439px",
-      "height": "590px",
-      "moveX": "-49px",
-      "moveY": "-3px"
     },
     {
       "key": "#main>section:3",
@@ -151,24 +101,6 @@
       "device": "mobile",
       "moveX": "15px",
       "moveY": "-19px"
-    },
-    {
-      "key": "#main>section:3>div:1>img:1",
-      "route": "#home",
-      "device": "mobile",
-      "width": "373px",
-      "height": "351px",
-      "maxWidth": "none",
-      "fontSize": "16px",
-      "moveY": "17px",
-      "objectFit": "contain"
-    },
-    {
-      "key": "#main>section:3>div:1>div:1>p:1>span:1",
-      "route": "#home",
-      "device": "mobile",
-      "moveX": "6px",
-      "moveY": "-180px"
     },
     {
       "key": "#main>section:8",
@@ -427,6 +359,110 @@
       "route": "#home",
       "device": "desktop",
       "hidden": true
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>p:1>span:1",
+      "route": "#home",
+      "device": "mobile",
+      "moveX": "13px",
+      "moveY": "-231px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>p:3>span:1",
+      "route": "#home",
+      "device": "mobile",
+      "moveX": "4px",
+      "moveY": "-58px"
+    },
+    {
+      "key": "#main>section:3>div:1",
+      "route": "#home",
+      "device": "mobile",
+      "width": "100%",
+      "height": "550px",
+      "moveX": "-49px",
+      "moveY": "-3px",
+      "borderRadius": "18px",
+      "css": "min-height: 550px; padding: 155px 0px 0px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1",
+      "route": "#home",
+      "device": "mobile",
+      "width": "450px",
+      "height": "102px",
+      "css": "padding: 16px 20px 20px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>p:1",
+      "route": "#home",
+      "device": "mobile",
+      "width": "195px",
+      "height": "23px",
+      "fontSize": "12px",
+      "lineHeight": "21px",
+      "css": "margin: 0px 0px 8px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>h2:1",
+      "route": "#home",
+      "device": "mobile",
+      "width": "516px",
+      "height": "72px",
+      "fontSize": "26px",
+      "lineHeight": "38px",
+      "css": "margin: 0px 0px 12px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>p:2",
+      "route": "#home",
+      "device": "mobile",
+      "lineHeight": "25px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>div:1",
+      "route": "#home",
+      "device": "mobile",
+      "css": "display: grid; margin: 18px 0px 0px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>p:3",
+      "route": "#home",
+      "device": "mobile",
+      "fontSize": "11px",
+      "lineHeight": "20px",
+      "css": "margin: 14px 0px 0px"
+    },
+    {
+      "key": "#main>section:3>div:1>img:1",
+      "route": "#home",
+      "device": "mobile",
+      "width": "373px",
+      "height": "238px",
+      "maxWidth": "none",
+      "fontSize": "16px",
+      "moveX": "1px",
+      "moveY": "-16px",
+      "objectFit": "contain"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>div:1>a:1",
+      "route": "#home",
+      "device": "mobile",
+      "height": "48px",
+      "moveX": "6px",
+      "borderRadius": "10px",
+      "css": "padding: 13px 12px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>div:1>button:1",
+      "route": "#home",
+      "device": "mobile",
+      "width": "406px",
+      "height": "48px",
+      "moveX": "5px",
+      "borderRadius": "10px",
+      "css": "padding: 13px 12px"
     }
   ],
   "widgets": [

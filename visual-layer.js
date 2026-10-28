@@ -1,7 +1,7 @@
 'use strict';
 /* OrthoVisualLayer v2.0
    Applies visual-edits.json: replacement images, element sizes, positions (moveX/moveY), hidden elements, fonts and
-   colours, uploaded fonts and added widgets for parts of the page that have no data field of their own.
+   colours, free-text CSS (the CSS tab), uploaded fonts and added widgets for parts of the page that have no data field of their own.
    Managed by TODAY; edit through Settings > Storefront.
    Widgets are <ortho-widget id="w-..."> elements: their own tag name, so they never shift the tag:index keys of the
    template's other elements, and an id, so the keys of everything inside them stay stable.
@@ -157,6 +157,10 @@
    el.classList.toggle('wrap',el.parentElement===document.getElementById('main'));
   }
  }
+ // 'prop: value; prop: value' from the CSS tab. The editor already validates it; the same rules are applied again here so a
+ // hand-edited visual-edits.json can never inject selectors, url() or scripts.
+ const cssPairs=t=>typeof t!=='string'?[]:t.split(';').map(p=>{const i=p.indexOf(':');return i>0?[p.slice(0,i).trim().toLowerCase(),p.slice(i+1).trim()]:null;})
+  .filter(p=>p&&p[1]&&p[0]!=='translate'&&/^(--[a-z0-9_-]+|-?[a-z][a-z0-9-]*)$/.test(p[0])&&!/url\s*\(|image-set\s*\(|expression\s*\(|@|javascript:|vbscript:|[{}<>\\]/i.test(p[1]));
  const inScope=entry=>(!entry.route||entry.route==='*'||entry.route===route())&&(!entry.device||entry.device===device());
  function apply(){
   frame=0;
@@ -174,6 +178,7 @@
    if(!inScope(entry))continue;
    const el=find(entry.key);if(!el||el.hasAttribute('data-ortho-live'))continue; // being dragged in the editor
    for(const name of Object.keys(CSS))if(entry[name])setStyle(el,CSS[name],entry[name]);
+   for(const [name,value] of cssPairs(entry.css))setStyle(el,name,value); // free-text CSS from the editor's CSS tab
    if(entry.hidden){
     if(window.__orthoEditing){setStyle(el,'opacity','.3');setStyle(el,'outline','2px dashed #e11d48');}
     else setStyle(el,'display','none');

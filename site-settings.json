@@ -9,7 +9,17 @@
     "endpoint": "https://orthoserv-analytics.hudagasan2020.workers.dev/collect"
   },
   "accounts": {
-    "previewEnabled": true
+    "previewEnabled": false,
+    "enabled": true,
+    "provider": "firebase",
+    "appleEnabled": false,
+    "apiUrl": "https://orthoserv-accounts.hudagasan2020.workers.dev",
+    "firebase": {
+      "apiKey": "AIzaSyBDLD-RS6sYe11tReldBSDTU6wzgVPtEC4",
+      "authDomain": "orthoserv-accounts.firebaseapp.com",
+      "projectId": "orthoserv-accounts",
+      "appId": "1:543374880653:web:3de72082fe58d5eb54d7c4"
+    }
   },
   "schemaVersion": 1,
   "hero": {

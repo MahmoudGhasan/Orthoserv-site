@@ -463,6 +463,37 @@
       "moveX": "5px",
       "borderRadius": "10px",
       "css": "padding: 13px 12px"
+    },
+    {
+      "key": "#ourPartners>div:1>div:1>span:1",
+      "route": "#home",
+      "device": "desktop",
+      "hidden": true
+    },
+    {
+      "key": "#ourPartners>div:1>div:2>span:1",
+      "route": "#home",
+      "device": "desktop",
+      "hidden": true
+    },
+    {
+      "key": "#ourPartners>div:1>div:1>strong:1",
+      "route": "#home",
+      "device": "desktop",
+      "hidden": true
+    },
+    {
+      "key": "#ourPartners>div:1>a:1",
+      "route": "#home",
+      "device": "desktop",
+      "hidden": true
+    },
+    {
+      "key": "#ourPartners>div:1>div:2>h2:1",
+      "route": "#home",
+      "device": "desktop",
+      "moveX": "4px",
+      "moveY": "11px"
     }
   ],
   "widgets": [

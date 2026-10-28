@@ -217,12 +217,12 @@
     },
     {
       "original": "خبرة في السوق السعودي.",
-      "ar": "خبرة في السوق السعودي.",
+      "ar": "منذ 2008 موجودين في السوق السعودي.",
       "en": "Experience in Saudi Arabia."
     },
     {
       "original": "منذ 2009، نخدم الأفراد والمراكز الطبية بحلول التأهيل والتجهيزات الطبية.",
-      "ar": "منذ 2009، نخدم الأفراد والمراكز الطبية بحلول التأهيل والتجهيزات الطبية.",
+      "ar": "منذ 2008، نخدم الأفراد والمراكز الطبية بحلول التأهيل والتجهيزات الطبية.",
       "en": "Serving people and healthcare facilities in Saudi Arabia with rehabilitation and medical equipment since 2009."
     },
     {
@@ -3454,6 +3454,11 @@
       "original": "اكتشف الجوارب والأكمام الطبية، واختَر ما يناسب يومك في تجربة Juzo. ←",
       "ar": "اكتشف منتجات جوزو والألوان المتاحة لكل منتج. ←",
       "en": "Discover Juzo products and the colours available for each product. ←"
+    },
+    {
+      "original": "2009",
+      "ar": "2008",
+      "en": "2008"
     }
   ]
 }

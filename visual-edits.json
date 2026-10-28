@@ -119,12 +119,6 @@
       "moveY": "-27px"
     },
     {
-      "key": "#main>section:3>div:1>div:1>p:1>span:1",
-      "route": "#home",
-      "device": "desktop",
-      "moveY": "13px"
-    },
-    {
       "key": "#main>section:3",
       "route": "#home",
       "device": "desktop",
@@ -278,13 +272,6 @@
       "moveY": "-91px"
     },
     {
-      "key": "#main>section:3>div:1>div:1>h2:1>span:3",
-      "route": "#home",
-      "device": "desktop",
-      "moveX": "20px",
-      "moveY": "-33px"
-    },
-    {
       "key": "#main>section:3>div:1>div:1>div:1>a:1",
       "route": "#home",
       "device": "desktop",
@@ -322,13 +309,6 @@
       "textDecoration": "none"
     },
     {
-      "key": "#main>section:3>div:1>div:1>p:2>span:1",
-      "route": "#home",
-      "device": "desktop",
-      "moveX": "-501px",
-      "moveY": "-34px"
-    },
-    {
       "key": "#main>section:3>div:1>div:1>p:2",
       "route": "#home",
       "device": "desktop",
@@ -355,15 +335,6 @@
       "device": "desktop",
       "moveX": "-82px",
       "moveY": "-19px"
-    },
-    {
-      "key": "#main>section:3>div:1>div:1>h2:1",
-      "route": "#home",
-      "device": "desktop",
-      "width": "497px",
-      "height": "154px",
-      "moveX": "28px",
-      "moveY": "-62px"
     },
     {
       "key": "#main>section:3>div:1>div:1",
@@ -405,6 +376,36 @@
       "device": "desktop",
       "moveX": "65px",
       "moveY": "26px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>h2:1>span:3",
+      "route": "#home",
+      "device": "desktop",
+      "moveX": "22px",
+      "moveY": "39px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>h2:1",
+      "route": "#home",
+      "device": "desktop",
+      "width": "497px",
+      "height": "154px",
+      "moveX": "12px",
+      "moveY": "8px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>p:1>span:1",
+      "route": "#home",
+      "device": "desktop",
+      "moveX": "100px",
+      "moveY": "18px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>p:2>span:1",
+      "route": "#home",
+      "device": "desktop",
+      "moveX": "-461px",
+      "moveY": "-35px"
     }
   ],
   "widgets": [

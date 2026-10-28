@@ -926,7 +926,7 @@
       "availability": "confirm",
       "demoEligible": false,
       "visible": true,
-      "salePrice": null,
+      "salePrice": 13500.0,
       "saleStart": "",
       "saleEnd": "",
       "options": [],
@@ -988,7 +988,49 @@
         "status": "published",
         "sortOrder": null,
         "related": [],
-        "updatedAt": "2026-10-28T10:00:20.812706+00:00"
+        "updatedAt": "2026-10-28T10:00:20.812706+00:00",
+        "offerBase": {
+          "salePrice": {
+            "present": true,
+            "value": null
+          },
+          "saleStart": {
+            "present": true,
+            "value": ""
+          },
+          "saleEnd": {
+            "present": true,
+            "value": ""
+          }
+        },
+        "appliedOffer": {
+          "accessory": "demo-3",
+          "autoExpire": true,
+          "badge": {
+            "ar": "خصم",
+            "en": "offer"
+          },
+          "banner": "assets/uploads/Screenshot-2026-10-19-101405-a2c45b85.png",
+          "end": "",
+          "id": "offer-312468c0fabd",
+          "name": {
+            "ar": "خصم اليوم",
+            "en": "today offer"
+          },
+          "paused": false,
+          "placements": [
+            "cards",
+            "home",
+            "offers"
+          ],
+          "products": [
+            "portable"
+          ],
+          "start": "",
+          "type": "percentage",
+          "value": 10.0,
+          "updatedAt": "2026-10-28T10:03:39.829231+00:00"
+        }
       }
     },
     {
@@ -2327,6 +2369,34 @@
       "type": "percentage",
       "value": 10.0,
       "updatedAt": "2026-10-22T20:11:53.923560+00:00"
+    },
+    {
+      "accessory": "demo-3",
+      "autoExpire": true,
+      "badge": {
+        "ar": "خصم",
+        "en": "offer"
+      },
+      "banner": "assets/uploads/Screenshot-2026-10-19-101405-a2c45b85.png",
+      "end": "",
+      "id": "offer-312468c0fabd",
+      "name": {
+        "ar": "خصم اليوم",
+        "en": "today offer"
+      },
+      "paused": false,
+      "placements": [
+        "cards",
+        "home",
+        "offers"
+      ],
+      "products": [
+        "portable"
+      ],
+      "start": "",
+      "type": "percentage",
+      "value": 10.0,
+      "updatedAt": "2026-10-28T10:03:39.829231+00:00"
     }
   ]
 }

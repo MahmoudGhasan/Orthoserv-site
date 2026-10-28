@@ -494,6 +494,18 @@
       "device": "desktop",
       "moveX": "4px",
       "moveY": "11px"
+    },
+    {
+      "key": "#ourPartners>div:1>div:1>strong:1",
+      "route": "#home",
+      "device": "mobile",
+      "hidden": true
+    },
+    {
+      "key": "#ourPartners>div:1>div:1>span:1",
+      "route": "#home",
+      "device": "mobile",
+      "hidden": true
     }
   ],
   "widgets": [

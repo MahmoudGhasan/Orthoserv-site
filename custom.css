@@ -2,3 +2,37 @@
    Loaded last, after every other stylesheet, so rules here win without !important.
    Edit it from TODAY > Settings > Storefront > CSS.
    Tip: wrap mobile-only rules in @media (max-width: 720px) { ... } */
+
+/* ORTHOSERV login clinic background — scoped to account screens only. */
+.auth-v1 .auth-layout{
+ display:grid!important;grid-template-columns:minmax(0,1.2fr) minmax(320px,1fr)!important;
+ grid-template-areas:"art form";direction:ltr;gap:0!important;width:100%!important;
+ height:auto!important;min-height:680px;padding:0!important;overflow:hidden;isolation:isolate;
+ border-radius:20px;background:#e9f1f6 url("assets/uploads/login-clinic-background.jpg") center/cover no-repeat!important;
+}
+.auth-v1 .auth-form{
+ grid-area:form;position:relative!important;inset:auto!important;width:auto!important;
+ height:auto!important;min-width:0;max-width:none!important;padding:34px 38px!important;
+ background:rgba(255,255,255,.96)!important;box-sizing:border-box;z-index:1;
+}
+html[dir="rtl"] .auth-v1 .auth-form,html[dir="rtl"] .auth-v1 .auth-art{direction:rtl}
+html[dir="ltr"] .auth-v1 .auth-form,html[dir="ltr"] .auth-v1 .auth-art{direction:ltr}
+.auth-v1 .auth-art{
+ grid-area:art;display:flex!important;position:relative!important;inset:auto!important;
+ width:auto!important;height:auto!important;min-width:0;min-height:0;padding:38px!important;
+ align-items:flex-start;justify-content:flex-end;text-align:start;gap:8px;
+ background:linear-gradient(180deg,transparent 30%,rgba(8,31,58,.86))!important;
+}
+.auth-v1 .auth-art img{display:none!important}
+.auth-v1 .auth-art h2{color:#fff!important;font-size:30px;line-height:1.5;margin:0;max-width:380px}
+.auth-v1 .auth-art p{color:#fff!important;margin:0;max-width:360px;line-height:1.8}
+.auth-v1 .auth-art a{color:#fff!important;min-height:44px;display:inline-flex;align-items:center;text-decoration:underline}
+.auth-v1 .auth-form input{box-sizing:border-box;max-width:100%}
+.auth-v1 .auth-v1-social .button{white-space:normal}
+@media(max-width:760px){
+ .auth-v1 .auth-layout{grid-template-columns:minmax(0,1fr)!important;grid-template-areas:"art" "form";min-height:0;background:none!important}
+ .auth-v1 .auth-art{min-height:245px;padding:24px!important;box-sizing:border-box;background:linear-gradient(180deg,rgba(8,31,58,0) 20%,rgba(8,31,58,.88)),url("assets/uploads/login-clinic-background.jpg") center/cover no-repeat!important}
+ .auth-v1 .auth-art h2{font-size:23px}
+ .auth-v1 .auth-art p{font-size:13px}
+ .auth-v1 .auth-form{padding:26px 22px!important;background:#fff!important}
+}

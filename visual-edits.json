@@ -145,17 +145,6 @@
       "width": "1511px"
     },
     {
-      "key": "#homeCarousel>div:1>div:1>div:1>div:2>img:1",
-      "route": "#home",
-      "device": "desktop",
-      "width": "531px",
-      "height": "375px",
-      "maxWidth": "none",
-      "moveX": "31px",
-      "moveY": "-43px",
-      "objectFit": "scale-down"
-    },
-    {
       "key": "#homeCarousel>div:1>div:1>div:1>div:2>a:1>strong:1",
       "route": "#home",
       "device": "desktop",
@@ -219,20 +208,6 @@
       "route": "#home",
       "device": "desktop",
       "moveY": "-27px"
-    },
-    {
-      "key": "#homeCarousel>div:1>div:1>div:1>div:1>h1:1",
-      "route": "#home",
-      "device": "desktop",
-      "moveX": "95px",
-      "moveY": "-12px"
-    },
-    {
-      "key": "#homeCarousel>div:1>div:1>div:1>div:1>p:1",
-      "route": "#home",
-      "device": "desktop",
-      "moveX": "98px",
-      "moveY": "-21px"
     },
     {
       "key": "#main>section:3>div:1",
@@ -388,6 +363,31 @@
       "device": "desktop",
       "width": "388px",
       "moveX": "-147px"
+    },
+    {
+      "key": "#homeCarousel>div:1>div:1>div:1>div:1>h1:1",
+      "route": "#home",
+      "device": "desktop",
+      "moveX": "17px",
+      "moveY": "-14px"
+    },
+    {
+      "key": "#homeCarousel>div:1>div:1>div:1>div:1>p:1",
+      "route": "#home",
+      "device": "desktop",
+      "moveX": "18px",
+      "moveY": "-21px"
+    },
+    {
+      "key": "#homeCarousel>div:1>div:1>div:1>div:2>img:1",
+      "route": "#home",
+      "device": "desktop",
+      "width": "531px",
+      "height": "375px",
+      "maxWidth": "none",
+      "moveX": "95px",
+      "moveY": "-43px",
+      "objectFit": "scale-down"
     }
   ],
   "widgets": [

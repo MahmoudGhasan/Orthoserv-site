@@ -408,6 +408,12 @@
       "moveX": "65px",
       "moveY": "26px",
       "hidden": true
+    },
+    {
+      "key": "#juzoAd",
+      "route": "#home",
+      "device": "desktop",
+      "hidden": true
     }
   ],
   "widgets": [

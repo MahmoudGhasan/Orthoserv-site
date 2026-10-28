@@ -872,7 +872,7 @@
       "category": "rehab",
       "group": "electro",
       "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
-      "price": 150000.0,
+      "price": 15000.0,
       "method": "buy",
       "files": [
         {
@@ -988,7 +988,7 @@
         "status": "published",
         "sortOrder": null,
         "related": [],
-        "updatedAt": "2026-10-28T09:59:02.078055+00:00"
+        "updatedAt": "2026-10-28T10:00:20.812706+00:00"
       }
     },
     {

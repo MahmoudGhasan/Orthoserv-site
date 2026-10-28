@@ -872,8 +872,8 @@
       "category": "rehab",
       "group": "electro",
       "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
-      "price": null,
-      "method": "quote",
+      "price": 150000.0,
+      "method": "buy",
       "files": [
         {
           "file": "assets/products/rehab/game-ready-grpro21-angle.webp",
@@ -929,7 +929,67 @@
       "salePrice": null,
       "saleStart": "",
       "saleEnd": "",
-      "options": []
+      "options": [],
+      "commerce": {
+        "description": {
+          "ar": "\n\n<p>من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.</p>",
+          "en": "\n\n<p><br></p>"
+        },
+        "shortDescription": {
+          "ar": "",
+          "en": ""
+        },
+        "accessories": {
+          "ar": "",
+          "en": ""
+        },
+        "warranty": {
+          "ar": "",
+          "en": ""
+        },
+        "origin": {
+          "ar": "",
+          "en": ""
+        },
+        "certifications": {
+          "ar": "",
+          "en": ""
+        },
+        "applications": {
+          "ar": "",
+          "en": ""
+        },
+        "leadTime": {
+          "ar": "",
+          "en": ""
+        },
+        "metaTitle": {
+          "ar": "",
+          "en": ""
+        },
+        "metaDescription": {
+          "ar": "",
+          "en": ""
+        },
+        "features": {
+          "ar": [],
+          "en": []
+        },
+        "tags": {
+          "ar": [],
+          "en": []
+        },
+        "specifications": [],
+        "videoUrl": "",
+        "attachments": [],
+        "compareAt": null,
+        "quoteEnabled": true,
+        "vatIncluded": null,
+        "status": "published",
+        "sortOrder": null,
+        "related": [],
+        "updatedAt": "2026-10-28T09:59:02.078055+00:00"
+      }
     },
     {
       "id": "dolorclast",

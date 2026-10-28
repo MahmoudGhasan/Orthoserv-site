@@ -309,13 +309,6 @@
       "textDecoration": "none"
     },
     {
-      "key": "#main>section:3>div:1>div:1>p:2",
-      "route": "#home",
-      "device": "desktop",
-      "width": "388px",
-      "moveX": "-147px"
-    },
-    {
       "key": "#homeCarousel>div:1>div:1>div:1>div:1>h1:1",
       "route": "#home",
       "device": "desktop",
@@ -387,13 +380,6 @@
       "moveY": "18px"
     },
     {
-      "key": "#main>section:3>div:1>div:1>p:2>span:1",
-      "route": "#home",
-      "device": "desktop",
-      "moveX": "-461px",
-      "moveY": "-35px"
-    },
-    {
       "key": "#homeCarousel>div:1>div:1>div:1>div:2>a:1>strong:1",
       "route": "#home",
       "device": "desktop",
@@ -414,6 +400,21 @@
       "route": "#home",
       "device": "desktop",
       "hidden": true
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>p:2>span:1",
+      "route": "#home",
+      "device": "desktop",
+      "moveX": "-458px",
+      "moveY": "-35px"
+    },
+    {
+      "key": "#main>section:3>div:1>div:1>p:2",
+      "route": "#home",
+      "device": "desktop",
+      "width": "388px",
+      "moveX": "15px",
+      "moveY": "-38px"
     }
   ],
   "widgets": [

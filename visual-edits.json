@@ -415,6 +415,18 @@
       "width": "388px",
       "moveX": "15px",
       "moveY": "-38px"
+    },
+    {
+      "key": "#homeCarousel>div:1>div:1>div:1>div:2>a:1>strong:1",
+      "route": "#home",
+      "device": "mobile",
+      "hidden": true
+    },
+    {
+      "key": "#homeCarousel>div:1>div:1>div:1>div:2>a:1",
+      "route": "#home",
+      "device": "mobile",
+      "hidden": true
     }
   ],
   "widgets": [

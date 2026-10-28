@@ -51,7 +51,7 @@
  }
  function offerCard(offer){
   const card=element('article',null,'commerce-offer');
-  if(safe(offer.banner)){const image=element('img');image.src=safe(offer.banner);image.alt=text(offer.name);card.append(image);}
+  if(safe(offer.banner)){const image=element('img');image.src=safe(offer.banner);image.alt=text(offer.name);image.loading='lazy';image.decoding='async';card.append(image);}
   card.append(element('h2',text(offer.name)));
   card.append(element('p',text(offer.badge)));
   for(const id of offer.products){const p=raw.get(id);if(!p)continue;const a=element('a',lang()==='ar'?(p.titleAr||p.name):p.name);a.href='#product/'+encodeURIComponent(id);a.style.marginInlineEnd='18px';card.append(a);}

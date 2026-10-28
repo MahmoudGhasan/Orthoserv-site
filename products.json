@@ -2253,33 +2253,6 @@
   ],
   "offers": [
     {
-      "accessory": "",
-      "autoExpire": true,
-      "badge": {
-        "ar": "",
-        "en": ""
-      },
-      "banner": "",
-      "end": "",
-      "id": "offer-4db3abc7b6e7",
-      "name": {
-        "ar": "خصم",
-        "en": "offer"
-      },
-      "paused": true,
-      "placements": [
-        "cards",
-        "home"
-      ],
-      "products": [
-        "highcare-hc19065"
-      ],
-      "start": "",
-      "type": "percentage",
-      "value": 10.0,
-      "updatedAt": "2026-10-28T10:36:48.841501+00:00"
-    },
-    {
       "accessory": "demo-3",
       "autoExpire": true,
       "badge": {
@@ -2329,6 +2302,33 @@
         "cards"
       ],
       "updatedAt": "2026-10-28T10:37:41.802310+00:00"
+    },
+    {
+      "accessory": "",
+      "autoExpire": true,
+      "badge": {
+        "ar": "",
+        "en": ""
+      },
+      "banner": "assets/uploads/Gemini_Generated_Image_jenq2jenq2jenq2j-7e58adb8.jpg",
+      "end": "",
+      "id": "offer-4db3abc7b6e7",
+      "name": {
+        "ar": "خصم",
+        "en": "offer"
+      },
+      "paused": true,
+      "placements": [
+        "cards",
+        "home"
+      ],
+      "products": [
+        "highcare-hc19065"
+      ],
+      "start": "",
+      "type": "percentage",
+      "updatedAt": "2026-10-28T10:40:18.368838+00:00",
+      "value": 10.0
     }
   ]
 }

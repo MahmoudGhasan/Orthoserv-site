@@ -60,7 +60,7 @@
  }
  function renderOffers(main){
   const section=element('section',null,'wrap section');section.append(element('h1',lang()==='ar'?'العروض':'Offers'));
-  section.append(element('p',lang()==='ar'?'معاينة تجريبية فقط. لا تُرسل طلبات ولا تُحصّل أموال.':'Demo only. No orders are transmitted and no payments are collected.'));
+  section.append(element('p',lang()==='ar'?'إرسال الطلبات والدفع غير متاحين حاليًا.':'Order submission and payments are currently unavailable.'));
   const list=campaigns().filter(o=>o.placements?.includes('offers'));
   for(const offer of list)section.append(offerCard(offer));
   if(!list.length)section.append(element('p',lang()==='ar'?'لا توجد عروض نشطة.':'No active offers.'));

@@ -1,6 +1,6 @@
 {
   "currency": "SAR",
-  "catalogueNote": "بيانات الشيت مقدمة من العميل، الأسعار والتوفر غير محددين. أسعار DEMO تجريبية فقط.",
+  "catalogueNote": "تُؤكّد تفاصيل المنتجات والأسعار والتوافر مع الفريق قبل الطلب.",
   "products": [
     {
       "id": "highcare-hc19065",
@@ -333,13 +333,13 @@
     },
     {
       "id": "demo-3",
-      "name": "طقم أكواب علاجية تجريبي",
-      "titleAr": "طقم أكواب علاجية تجريبي",
-      "brand": "DEMO",
+      "name": "طقم أكواب علاجية",
+      "titleAr": "طقم أكواب علاجية",
+      "brand": "—",
       "model": "",
       "category": "consumables",
       "group": "accessories",
-      "description": "منتج تجريبي لعرض تجربة الشراء فقط. الاسم والسعر والخيارات أمثلة غير معتمدة.",
+      "description": "راجع تفاصيل المنتج والسعر والخيارات المتاحة مع الفريق قبل الطلب.",
       "price": 120,
       "method": "buy",
       "demo": true,
@@ -360,13 +360,13 @@
     },
     {
       "id": "demo-2",
-      "name": "حزام تمارين تجريبي",
-      "titleAr": "حزام تمارين تجريبي",
-      "brand": "DEMO",
+      "name": "حزام تمارين",
+      "titleAr": "حزام تمارين",
+      "brand": "—",
       "model": "",
       "category": "consumables",
       "group": "accessories",
-      "description": "منتج تجريبي لعرض تجربة الشراء فقط. الاسم والسعر والخيارات أمثلة غير معتمدة.",
+      "description": "راجع تفاصيل المنتج والسعر والخيارات المتاحة مع الفريق قبل الطلب.",
       "price": 65,
       "method": "buy",
       "demo": true,
@@ -388,13 +388,13 @@
     },
     {
       "id": "demo-1",
-      "name": "جل توصيل تجريبي",
-      "titleAr": "جل توصيل تجريبي",
-      "brand": "DEMO",
+      "name": "جل توصيل",
+      "titleAr": "جل توصيل",
+      "brand": "—",
       "model": "",
       "category": "consumables",
       "group": "accessories",
-      "description": "منتج تجريبي لعرض تجربة الشراء فقط. الاسم والسعر والخيارات أمثلة غير معتمدة.",
+      "description": "راجع تفاصيل المنتج والسعر والخيارات المتاحة مع الفريق قبل الطلب.",
       "price": 35,
       "method": "buy",
       "demo": true,
@@ -415,13 +415,13 @@
     },
     {
       "id": "demo-0",
-      "name": "شريط كينيسيولوجي تجريبي",
-      "titleAr": "شريط كينيسيولوجي تجريبي",
-      "brand": "DEMO",
+      "name": "شريط كينيسيولوجي",
+      "titleAr": "شريط كينيسيولوجي",
+      "brand": "—",
       "model": "",
       "category": "consumables",
       "group": "accessories",
-      "description": "منتج تجريبي لعرض تجربة الشراء فقط. الاسم والسعر والخيارات أمثلة غير معتمدة.",
+      "description": "راجع تفاصيل المنتج والسعر والخيارات المتاحة مع الفريق قبل الطلب.",
       "price": 45,
       "method": "buy",
       "demo": true,
@@ -449,7 +449,7 @@
       "model": "BTL-4000 Premium",
       "category": "rehab",
       "group": "electro",
-      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "description": "من مجموعة أورثو سيرف . تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
       "price": null,
       "method": "quote",
       "files": [
@@ -563,7 +563,7 @@
       "model": "Spirit Recumbent Bike",
       "category": "gym",
       "group": "mobility",
-      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "description": "من مجموعة أورثو سيرف . تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
       "price": null,
       "method": "quote",
       "files": [
@@ -597,7 +597,7 @@
       "model": "FMS magnetic stimulation system",
       "category": "rehab",
       "group": "electro",
-      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "description": "من مجموعة أورثو سيرف . تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
       "price": null,
       "method": "quote",
       "files": [
@@ -641,7 +641,7 @@
       "model": "Longest LGT-5100P",
       "category": "rehab",
       "group": "mobility",
-      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "description": "من مجموعة أورثو سيرف . تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
       "price": null,
       "method": "quote",
       "files": [
@@ -695,7 +695,7 @@
       "model": "LightForce XPi",
       "category": "rehab",
       "group": "electro",
-      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "description": "من مجموعة أورثو سيرف . تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
       "price": 1000.0,
       "method": "quote",
       "files": [
@@ -743,7 +743,7 @@
       "model": "Winback BACK4",
       "category": "rehab",
       "group": "electro",
-      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "description": "من مجموعة أورثو سيرف . تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
       "price": 1000.0,
       "method": "buy",
       "files": [
@@ -871,7 +871,7 @@
       "model": "Game Ready GRPro 2.1",
       "category": "rehab",
       "group": "electro",
-      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "description": "من مجموعة أورثو سيرف . تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
       "price": 15000.0,
       "method": "buy",
       "files": [
@@ -999,7 +999,7 @@
       "model": "EMS DolorClast",
       "category": "rehab",
       "group": "shockwave",
-      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "description": "من مجموعة أورثو سيرف . تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
       "price": 1000.0,
       "method": "buy",
       "files": [
@@ -1113,7 +1113,7 @@
       "model": "Game Ready MED4 Elite",
       "category": "rehab",
       "group": "electro",
-      "description": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "description": "من مجموعة أورثو سيرف . تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
       "price": null,
       "method": "quote",
       "files": [
@@ -1147,7 +1147,7 @@
       "model": "2506",
       "category": "rehab",
       "group": "thermal",
-      "description": "HYDROCOLLATOR MOBILE HEATING UNIT M-4 - 24\nThese durable stainless steel water tanks house the Hydrocollator Moist Heat HotPacs.\nThe units are thermostatically controlled to ensure the ideal therapeutic temperature for HotPacs.\nHydrocollator remains the benchmark heating unit against which all other units are judged.\nجهاز كمادات ساخنة متحرك على عجلات سعة 24  كمادة مرفقة بالجهاز مقاس استاندر \nWeight 60 kg\nDimensions 89 x 51 x 84 cm\nFrom# DJO DJO - USA \nModel# 2506\nCountry of origin: Mexico",
+      "description": "HYDROCOLLATOR MOBILE HEATING UNIT M-4 - 24\nThese durable stainless steel water tanks house the Hydrocollator Moist Heat HotPacs.\nThe units are thermostatically controlled to ensure the ideal therapeutic temperature for HotPacs.\nHydrocollator remains the benchmark heating unit against which all other units are judged.\nجهاز كمادات ساخنة متحرك على عجلات سعة 24 كمادة مرفقة بالجهاز مقاس استاندر \nWeight 60 kg\nDimensions 89 x 51 x 84 cm\nFrom# DJO DJO - USA \nModel# 2506\nCountry of origin: Mexico",
       "price": null,
       "method": "quote",
       "files": [
@@ -1184,7 +1184,7 @@
       "model": "2407",
       "category": "rehab",
       "group": "thermal",
-      "description": "HYDROCOLLATOR MOBILE HEATING UNIT M-2 - 12 \nFull fiberglass insulation to prevent heat loss\nDependable, rugged stainless steel design\nSimple to fill with water.\nNo plumbing required\nConstant temperature of HotPacs is maintained\nMobile units are equipped with 8 cm swivel, rubber casters for friction free movement about the clinic\nجهاز كمادات ساخنة متحرك على عجلات سعة 12  كمادة مرفقة بالجهاز مقاس استاندر \nWeight 39 kg\nDimensions 67 x 40 x 84 cm\nFrom# DJO Chattanooga - USA \nModel# 2407\nCountry of origin: Mexico",
+      "description": "HYDROCOLLATOR MOBILE HEATING UNIT M-2 - 12 \nFull fiberglass insulation to prevent heat loss\nDependable, rugged stainless steel design\nSimple to fill with water.\nNo plumbing required\nConstant temperature of HotPacs is maintained\nMobile units are equipped with 8 cm swivel, rubber casters for friction free movement about the clinic\nجهاز كمادات ساخنة متحرك على عجلات سعة 12 كمادة مرفقة بالجهاز مقاس استاندر \nWeight 39 kg\nDimensions 67 x 40 x 84 cm\nFrom# DJO Chattanooga - USA \nModel# 2407\nCountry of origin: Mexico",
       "price": null,
       "method": "quote",
       "files": [
@@ -1225,7 +1225,7 @@
       "model": "80.00.040",
       "category": "rehab",
       "group": "mobility",
-      "description": "ARTROMOT-K1 CPM For Knee\nArthrotomy and arthroscopy procedures in combination with synovectomy, arthrolysis Treatment following mobilization of joints in anesthetized patients\nSurgical treatment of fractures and pseudoarthrosis\nExercise-stable osteosynthesis\nOperations on soft tissue in the joint area\nPatellectomy\nCorrective osteotomy Meniscectomy\nTotal knee/hip replacement ACL/PCL reconstruction\nComplex knee surgery Articular cartilage surgery, e.g. autologous chondrocyte transplantation (ACT)\nRange of Motion Extension/Flexion\nKnee -10° / 0° / 120°    -         Hip 0° / 7° / 115\nPauses (extension and ﬂexion): 0 - 59 s / 1 - 59 min\nSpeed: 5% - 100 %\nKey lock function: To prevent accidental changes of the parameter settings\nARTROMOT-K1 Standard - features\nTimer 1 - 59 minutes / 1 - 24 hours / continuous operation\nPauses (extension and/or ﬂexion) 0 - 59 seconds / 1 - 59 minutes\nReverse on load in steps 1 - 25 / patient safety feature\nWarm up protocol: Gradual progression to the maximum range of motion\nTotal therapy time: Added sum of the therapy sessions\nNew patient: Activates the default settings for new patients\nTransport setting: Moves the carriage to the transport position\nSPECIFICATION\nDIMENSIONS 97 x 36 x 23 cm\nWEIGHT 11 kg (24.4 lb)\nModel# 80.00.040\nFrom: Artromot - Germany",
+      "description": "ARTROMOT-K1 CPM For Knee\nArthrotomy and arthroscopy procedures in combination with synovectomy, arthrolysis Treatment following mobilization of joints in anesthetized patients\nSurgical treatment of fractures and pseudoarthrosis\nExercise-stable osteosynthesis\nOperations on soft tissue in the joint area\nPatellectomy\nCorrective osteotomy Meniscectomy\nTotal knee/hip replacement ACL/PCL reconstruction\nComplex knee surgery Articular cartilage surgery, e.g. autologous chondrocyte transplantation (ACT)\nRange of Motion Extension/Flexion\nKnee -10° / 0° / 120° - Hip 0° / 7° / 115\nPauses (extension and ﬂexion): 0 - 59 s / 1 - 59 min\nSpeed: 5% - 100 %\nKey lock function: To prevent accidental changes of the parameter settings\nARTROMOT-K1 Standard - features\nTimer 1 - 59 minutes / 1 - 24 hours / continuous operation\nPauses (extension and/or ﬂexion) 0 - 59 seconds / 1 - 59 minutes\nReverse on load in steps 1 - 25 / patient safety feature\nWarm up protocol: Gradual progression to the maximum range of motion\nTotal therapy time: Added sum of the therapy sessions\nNew patient: Activates the default settings for new patients\nTransport setting: Moves the carriage to the transport position\nSPECIFICATION\nDIMENSIONS 97 x 36 x 23 cm\nWEIGHT 11 kg (24.4 lb)\nModel# 80.00.040\nFrom: Artromot - Germany",
       "price": null,
       "method": "quote",
       "files": [
@@ -2113,7 +2113,7 @@
       "model": "",
       "category": "consumables",
       "group": "needles",
-      "description": "\n",
+      "description": "",
       "price": 15.0,
       "priceSource": "",
       "method": "buy",
@@ -2206,7 +2206,7 @@
       "model": "",
       "category": "consumables",
       "group": "needles",
-      "description": "\n",
+      "description": "",
       "price": 14.0,
       "priceSource": "",
       "method": "buy",
@@ -2323,7 +2323,7 @@
     {
       "id": "offer-267c6bb98423",
       "name": {
-        "ar": "",
+        "ar": "عرض",
         "en": "EMS DolorClast"
       },
       "badge": {

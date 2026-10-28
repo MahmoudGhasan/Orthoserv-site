@@ -51,9 +51,9 @@
       "en": "by LiKAMED. Confirm configuration, pricing and availability with the OrthoServ team."
     },
     {
-      "original": "تجارب أورثو سيرف",
-      "ar": "تجارب أورثو سيرف",
-      "en": "OrthoServ experiences"
+      "original": "مجموعات أورثو سيرف",
+      "ar": "مجموعات أورثو سيرف",
+      "en": "OrthoServ collections"
     },
     {
       "original": "حركة أخف.",
@@ -66,7 +66,7 @@
       "en": "Make the day yours."
     },
     {
-      "original": "اكتشف الجوارب والأكمام الطبية، واختَر ما يناسب يومك في تجربة Juzo.",
+      "original": "اكتشف الجوارب والأكمام الطبية، واختَر ما يناسب يومك في عالم Juzo.",
       "ar": "اكتشف منتجات جوزو والألوان المتاحة لكل منتج.",
       "en": "Discover Juzo products and the colours available for each product."
     },
@@ -78,7 +78,7 @@
     {
       "original": "تصور إعلاني للحركة",
       "ar": "تصور إعلاني للحركة",
-      "en": "Illustrative motion concept"
+      "en": "Animated illustration"
     },
     {
       "original": "تقنية تراها.",
@@ -148,7 +148,7 @@
     {
       "original": "رجل بجورب ضغط رمادي تتحرك بخطوة خفيفة، تصور إعلاني",
       "ar": "رجل بجورب ضغط رمادي تتحرك بخطوة خفيفة، تصور إعلاني",
-      "en": "Grey compression stocking on a moving leg, illustrative concept"
+      "en": "Animated leg wearing a grey compression stocking"
     },
     {
       "original": "جهاز EMS DolorClast والهاندبيس بالكابل الأصلي، حركة توضيحية",
@@ -287,37 +287,37 @@
     },
     {
       "original": "احجز عرضًا للجهاز",
-      "ar": "اطلب تجربة الجهاز",
-      "en": "Request an equipment demonstration"
+      "ar": "اطلب عالم الجهاز",
+      "en": "Request a product presentationnstration"
     },
     {
-      "original": "عرض تجريبي للجهاز",
-      "ar": "عرض تجريبي للجهاز",
-      "en": "Equipment demo"
+      "original": "عرض الجهاز",
+      "ar": "عرض الجهاز",
+      "en": "Product presentation"
     },
     {
       "original": "طلب عرض للجهاز",
-      "ar": "طلب تجربة الجهاز",
-      "en": "Request an equipment demonstration"
+      "ar": "طلب عالم الجهاز",
+      "en": "Request a product presentationnstration"
     },
     {
-      "original": "نموذج تجريبي لحجز عرض الجهاز. لا يُرسل طلب فعلي.",
-      "ar": "نموذج تجريبي لحجز عرض الجهاز. لا يُرسل طلب فعلي.",
-      "en": "Demo booking preview. No real request will be sent."
+      "original": "راجع تفاصيل عرض الجهاز. لم يتم ربط إرسال الطلبات بعد.",
+      "ar": "راجع تفاصيل عرض الجهاز. لم يتم ربط إرسال الطلبات بعد.",
+      "en": "Review the product presentation details. Request submission is not connected yet."
     },
     {
       "original": "طريقة العرض المفضلة",
-      "ar": "طريقة التجربة المفضلة",
+      "ar": "طريقة المجموعة المفضلة",
       "en": "Preferred demonstration format"
     },
     {
       "original": "عرض عن بُعد",
       "ar": "عرض توضيحي عن بُعد",
-      "en": "Online demonstration"
+      "en": "Online presentation"
     },
     {
       "original": "عرض حضوري — حسب التوفر",
-      "ar": "تجربة حضورية — حسب التوفر",
+      "ar": "عالم حضورية — حسب التوفر",
       "en": "In-person demonstration — subject to availability"
     },
     {
@@ -326,14 +326,14 @@
       "en": "Preferred date (optional)"
     },
     {
-      "original": "معاينة طلب العرض",
-      "ar": "معاينة طلب العرض",
-      "en": "Preview demo request"
+      "original": "مراجعة طلب العرض",
+      "ar": "مراجعة طلب العرض",
+      "en": "review request"
     },
     {
-      "original": "طلب عرض الجهاز جاهز للمعاينة",
-      "ar": "طلب عرض الجهاز جاهز للمعاينة",
-      "en": "Your demo request preview is ready"
+      "original": "طلب عرض الجهاز جاهز للمراجعة",
+      "ar": "طلب عرض الجهاز جاهز للمراجعة",
+      "en": "Your request review is ready"
     },
     {
       "original": "لم يتم إرسال طلب أو تأكيد موعد فعلي.",
@@ -361,19 +361,19 @@
       "en": "Switch to Arabic"
     },
     {
-      "original": "تُحدد المدن والرسوم ومواعيد التوصيل مع فريق أورثو سيرف قبل الإطلاق التجاري. لا توجد خدمة شحن فعلية في هذه المعاينة.",
-      "ar": "تُحدد المدن والرسوم ومواعيد التوصيل مع فريق أورثو سيرف قبل الإطلاق التجاري. لا توجد خدمة شحن فعلية في هذه المعاينة.",
-      "en": "Delivery areas, charges and lead times will be agreed with OrthoServ before commercial launch. This preview provides no actual delivery service."
+      "original": "تُحدد المدن والرسوم ومواعيد التوصيل مع فريق أورثو سيرف قبل الإطلاق التجاري. لا توجد خدمة شحن فعلية في هذا الموقع.",
+      "ar": "تُحدد المدن والرسوم ومواعيد التوصيل مع فريق أورثو سيرف قبل الإطلاق التجاري. لا توجد خدمة شحن فعلية في هذا الموقع.",
+      "en": "Delivery areas, charges and lead times will be agreed with OrthoServ before commercial launch. This review provides no actual delivery service."
     },
     {
-      "original": "سياسة الاستبدال والإرجاع تُضاف بعد اعتماد شروط المتجر. هذه المعاينة لا تُنشئ مشتريات فعلية.",
-      "ar": "سياسة الاستبدال والإرجاع تُضاف بعد اعتماد شروط المتجر. هذه المعاينة لا تُنشئ مشتريات فعلية.",
-      "en": "Returns and exchange terms will be added once approved. This preview does not create real purchases."
+      "original": "سياسة الاستبدال والإرجاع تُضاف بعد اعتماد شروط المتجر. هذا الموقع لا تُنشئ مشتريات فعلية.",
+      "ar": "سياسة الاستبدال والإرجاع تُضاف بعد اعتماد شروط المتجر. هذا الموقع لا تُنشئ مشتريات فعلية.",
+      "en": "Returns and exchange terms will be added once approved. This review does not create real purchases."
     },
     {
-      "original": "نموذج واجهة متجر OrthoServ — الخيار A. أسعار DEMO والخيارات تجريبية. الأجهزة الأخرى بطلب عرض سعر. الصور والبيانات تحتاج اعتماد العلامات والفريق قبل الاستخدام التجاري. الألوان في تجربة Juzo تسجّل الاختيار ولا تغيّر صورة المنتج.",
-      "ar": "نموذج واجهة متجر OrthoServ — الخيار A. أسعار DEMO والخيارات تجريبية. الأجهزة الأخرى بطلب عرض سعر. الصور والبيانات تحتاج اعتماد العلامات والفريق قبل الاستخدام التجاري. الألوان في تجربة Juzo تسجّل الاختيار ولا تغيّر صورة المنتج.",
-      "en": "OrthoServ storefront preview — Concept A. DEMO prices and options are illustrative. Equipment is available by quote request. Assets and product data require approval before commercial use. Juzo colours record a preference and do not recolour product photos."
+      "original": "متجر أورثو سيرف لأجهزة التأهيل والعلاج الطبيعي والمستلزمات الطبية. أكد تفاصيل المنتج والسعر والتوافر مع الفريق قبل الطلب.",
+      "ar": "متجر أورثو سيرف لأجهزة التأهيل والعلاج الطبيعي والمستلزمات الطبية. أكد تفاصيل المنتج والسعر والتوافر مع الفريق قبل الطلب.",
+      "en": "OrthoServ rehabilitation and medical supplies. Confirm product details, pricing and availability with the team."
     },
     {
       "original": "انتقل للمحتوى",
@@ -396,9 +396,9 @@
       "en": "OrthoServ Saudi Arabia"
     },
     {
-      "original": "معاينة المتجر · الطلب والدفع تجريبيان",
-      "ar": "معاينة المتجر · الطلب والدفع تجريبيان",
-      "en": "Store preview · Demo orders and checkout"
+      "original": "حلول التأهيل والعلاج الطبيعي",
+      "ar": "حلول التأهيل والعلاج الطبيعي",
+      "en": "Rehabilitation and physiotherapy solutions"
     },
     {
       "original": "حلول المراكز والمستشفيات",
@@ -716,14 +716,9 @@
       "en": "Contact us to confirm price and availability"
     },
     {
-      "original": "سعر تجريبي شامل الضريبة",
-      "ar": "سعر تجريبي شامل الضريبة",
+      "original": "السعر يحتاج تأكيدًا",
+      "ar": "السعر يحتاج تأكيدًا",
       "en": "Illustrative price, tax included"
-    },
-    {
-      "original": "سعر تجريبي",
-      "ar": "سعر تجريبي",
-      "en": "Demo price"
     },
     {
       "original": "أضف للسلة",
@@ -791,14 +786,14 @@
       "en": "See it up close."
     },
     {
-      "original": "تجربة تفاعلية للتعرف على أجهزة EMS وعائلة DolorClast.",
-      "ar": "تجربة تفاعلية للتعرف على أجهزة EMS وعائلة DolorClast.",
+      "original": "استعرض أجهزة EMS وعائلة DolorClast.",
+      "ar": "استعرض أجهزة EMS وعائلة DolorClast.",
       "en": "An interactive introduction to EMS equipment and the DolorClast family."
     },
     {
-      "original": "ادخل تجربة الشوك ويف",
-      "ar": "ادخل تجربة الشوك ويف",
-      "en": "Explore the shockwave experience"
+      "original": "ادخل عالم الشوك ويف",
+      "ar": "ادخل عالم الشوك ويف",
+      "en": "Explore shockwave equipment"
     },
     {
       "original": "حرية الحركة.",
@@ -811,9 +806,9 @@
       "en": "Details made for you."
     },
     {
-      "original": "الجوارب والأكمام الطبية، في تجربة مستقلة للألوان والمقاسات.",
-      "ar": "الجوارب والأكمام الطبية، في تجربة مستقلة للألوان والمقاسات.",
-      "en": "Explore medical stockings, sleeves, colour choices and sizing in a dedicated experience."
+      "original": "الجوارب والأكمام الطبية مع تفاصيل الألوان والمقاسات.",
+      "ar": "الجوارب والأكمام الطبية مع تفاصيل الألوان والمقاسات.",
+      "en": "Explore medical stockings, sleeves, colour choices and sizing in a dedicated collection."
     },
     {
       "original": "اكتشف عالم Juzo",
@@ -826,8 +821,8 @@
       "en": "Everyday care, considered."
     },
     {
-      "original": "أمثلة تجريبية لتجربة السلة والشراء.",
-      "ar": "أمثلة تجريبية لتجربة السلة والشراء.",
+      "original": "منتجات ومستلزمات للعناية والتأهيل.",
+      "ar": "منتجات ومستلزمات للعناية والتأهيل.",
       "en": "Illustrative products to explore the bag and checkout."
     },
     {
@@ -901,11 +896,6 @@
       "en": "Shop"
     },
     {
-      "original": "اكتشف التجربة",
-      "ar": "اكتشف التجربة",
-      "en": "Discover"
-    },
-    {
       "original": "مساعدة",
       "ar": "مساعدة",
       "en": "Help"
@@ -921,14 +911,14 @@
       "en": "Returns & exchanges"
     },
     {
-      "original": "عن هذه المعاينة",
-      "ar": "عن هذه المعاينة",
-      "en": "About this preview"
+      "original": "عن المتجر",
+      "ar": "عن المتجر",
+      "en": "About the store"
     },
     {
-      "original": "أسعار DEMO أمثلة فقط. لا تُرسل طلبات ولا تُحصّل مدفوعات.",
-      "ar": "أسعار DEMO أمثلة فقط. لا تُرسل طلبات ولا تُحصّل مدفوعات.",
-      "en": "DEMO prices are illustrative. No orders are sent and no payments are collected."
+      "original": "تُؤكّد الأسعار والتوافر والخدمات مع فريق أورثو سيرف.",
+      "ar": "تُؤكّد الأسعار والتوافر والخدمات مع فريق أورثو سيرف.",
+      "en": "Confirm pricing, availability and services with the OrthoServ team."
     },
     {
       "original": "تصفية المنتجات",
@@ -1091,14 +1081,14 @@
       "en": "Pricing depends on configuration, quantity and services. Availability is confirmed by the team."
     },
     {
-      "original": "سعر تجريبي شامل الضريبة، لا يمثل سعر بيع فعليًا.",
-      "ar": "سعر تجريبي شامل الضريبة، لا يمثل سعر بيع فعليًا.",
+      "original": "السعر يحتاج تأكيدًا من الفريق قبل الطلب.",
+      "ar": "السعر يحتاج تأكيدًا من الفريق قبل الطلب.",
       "en": "Illustrative tax-inclusive price. Not an actual selling price."
     },
     {
-      "original": "اختر المواصفة · خيارات تجريبية",
-      "ar": "اختر المواصفة · خيارات تجريبية",
-      "en": "Select an option · Demo options"
+      "original": "اختر المواصفة · خيارات",
+      "ar": "اختر المواصفة · خيارات",
+      "en": "Select an option · options"
     },
     {
       "original": "أضف إلى السلة",
@@ -1111,14 +1101,14 @@
       "en": "Installation and training may be requested and are confirmed per product."
     },
     {
-      "original": "إضافة إلى سلة تجريبية محفوظة على جهازك فقط.",
-      "ar": "إضافة إلى سلة تجريبية محفوظة على جهازك فقط.",
-      "en": "Added to a demo bag stored on your device only."
+      "original": "تُحفظ السلة على جهازك حتى مراجعة اختياراتك.",
+      "ar": "تُحفظ السلة على جهازك حتى مراجعة اختياراتك.",
+      "en": "Your bag is saved on this device for reviewing your selection."
     },
     {
-      "original": "لا توجد أسعار أو مواعيد توصيل معتمدة في هذه المعاينة.",
-      "ar": "لا توجد أسعار أو مواعيد توصيل معتمدة في هذه المعاينة.",
-      "en": "No confirmed prices or delivery dates are provided in this preview."
+      "original": "أكد السعر وموعد التوصيل مع الفريق قبل الطلب.",
+      "ar": "أكد السعر وموعد التوصيل مع الفريق قبل الطلب.",
+      "en": "Confirm pricing and delivery dates with the team before ordering."
     },
     {
       "original": "عن المنتج",
@@ -1146,9 +1136,9 @@
       "en": "Delivery and services"
     },
     {
-      "original": "في هذه المعاينة لا تُحسب مواعيد أو رسوم شحن فعلية. يمكن تحديد المدينة وطلب التركيب أو التدريب ضمن طلب عرض السعر التجريبي.",
-      "ar": "في هذه المعاينة لا تُحسب مواعيد أو رسوم شحن فعلية. يمكن تحديد المدينة وطلب التركيب أو التدريب ضمن طلب عرض السعر التجريبي.",
-      "en": "This preview does not calculate actual shipping charges or delivery dates. Include your city and service requirements in the demo quote request."
+      "original": "في هذا الموقع لا تُحسب مواعيد أو رسوم شحن فعلية. يمكن تحديد المدينة وطلب التركيب أو التدريب ضمن طلب عرض السعر .",
+      "ar": "في هذا الموقع لا تُحسب مواعيد أو رسوم شحن فعلية. يمكن تحديد المدينة وطلب التركيب أو التدريب ضمن طلب عرض السعر .",
+      "en": "This review does not calculate actual shipping charges or delivery dates. Include your city and service requirements in the quote request."
     },
     {
       "original": "قد يناسبك أيضًا",
@@ -1161,8 +1151,8 @@
       "en": "Browse category"
     },
     {
-      "original": "منتج تجريبي لعرض تجربة الشراء فقط. الاسم والسعر والخيارات أمثلة غير معتمدة.",
-      "ar": "منتج تجريبي لعرض تجربة الشراء فقط. الاسم والسعر والخيارات أمثلة غير معتمدة.",
+      "original": "راجع تفاصيل المنتج والسعر والخيارات المتاحة مع الفريق قبل الطلب.",
+      "ar": "راجع تفاصيل المنتج والسعر والخيارات المتاحة مع الفريق قبل الطلب.",
       "en": "Illustrative product for exploring checkout. Name, price and options are not approved commercial data."
     },
     {
@@ -1191,9 +1181,9 @@
       "en": "Remove"
     },
     {
-      "original": "المنتجات (شامل الضريبة التجريبية)",
-      "ar": "المنتجات (شامل الضريبة التجريبية)",
-      "en": "Items (illustrative tax included)"
+      "original": "المنتجات",
+      "ar": "المنتجات",
+      "en": "Items"
     },
     {
       "original": "الشحن",
@@ -1201,19 +1191,19 @@
       "en": "Shipping"
     },
     {
-      "original": "لا يُحسب في المعاينة",
-      "ar": "لا يُحسب في المعاينة",
-      "en": "Not calculated in this preview"
+      "original": "يُحدد مع الفريق",
+      "ar": "يُحدد مع الفريق",
+      "en": "Confirm with the team"
     },
     {
-      "original": "الإجمالي التجريبي",
-      "ar": "الإجمالي التجريبي",
-      "en": "Demo total"
+      "original": "الإجمالي",
+      "ar": "الإجمالي",
+      "en": "Total"
     },
     {
-      "original": "متابعة للدفع التجريبي",
-      "ar": "متابعة الطلب التجريبي",
-      "en": "Continue demo order"
+      "original": "مراجعة السلة",
+      "ar": "متابعة الطلب",
+      "en": "Continue order"
     },
     {
       "original": "لا يتم تحصيل أموال أو إرسال أي طلب.",
@@ -1226,7 +1216,7 @@
       "en": "Your cart is empty"
     },
     {
-      "original": "ابدأ بالمستهلكات لتجربة الشراء.",
+      "original": "استعرض المستلزمات وأضف ما تحتاجه إلى السلة.",
       "ar": "تصفّح المنتجات وأضف اللي يناسبك",
       "en": "Browse the products and add what suits you"
     },
@@ -1236,29 +1226,19 @@
       "en": "Shop medical supplies"
     },
     {
-      "original": "الدفع التجريبي",
-      "ar": "الدفع التجريبي",
-      "en": "Demo checkout"
+      "original": "راجع محتويات السلة. الدفع وإرسال الطلبات غير متاحين حاليًا.",
+      "ar": "راجع محتويات السلة. الدفع وإرسال الطلبات غير متاحين حاليًا.",
+      "en": "Review your bag. Payment and order submission are currently unavailable."
     },
     {
-      "original": "هذه تجربة فقط. استخدم بيانات افتراضية. لا نطلب بيانات بطاقة ولا نُحصّل أموالًا.",
-      "ar": "هذه تجربة فقط. استخدم بيانات افتراضية. لا نطلب بيانات بطاقة ولا نُحصّل أموالًا.",
-      "en": "Demo only. Please use fictional details. No card details are requested and no payment is collected."
+      "original": "اسم العميل",
+      "ar": "اسم العميل",
+      "en": "Customer name"
     },
     {
-      "original": "الاسم التجريبي",
-      "ar": "الاسم التجريبي",
-      "en": "Demo name"
-    },
-    {
-      "original": "عميل تجريبي",
-      "ar": "عميل تجريبي",
-      "en": "Demo customer"
-    },
-    {
-      "original": "البريد التجريبي",
-      "ar": "البريد التجريبي",
-      "en": "Demo email"
+      "original": "البريد الإلكتروني",
+      "ar": "البريد الإلكتروني",
+      "en": "Email address"
     },
     {
       "original": "المدينة",
@@ -1276,34 +1256,34 @@
       "en": "Delivery method"
     },
     {
-      "original": "توصيل تجريبي — بدون رسوم في المعاينة",
-      "ar": "توصيل تجريبي — بدون رسوم في المعاينة",
-      "en": "Demo delivery — no charge in this preview"
+      "original": "التوصيل — الرسوم تحتاج تأكيد",
+      "ar": "التوصيل — الرسوم تحتاج تأكيد",
+      "en": "Delivery — charges require confirmation"
     },
     {
-      "original": "استلام تجريبي",
-      "ar": "استلام تجريبي",
-      "en": "Demo collection"
+      "original": "الاستلام من الفرع",
+      "ar": "الاستلام من الفرع",
+      "en": "Collection"
     },
     {
-      "original": "الأسعار شاملة الضريبة التجريبية. لا تُضاف رسوم شحن فعلية.",
-      "ar": "الأسعار شاملة الضريبة التجريبية. لا تُضاف رسوم شحن فعلية.",
-      "en": "Prices include illustrative tax. No actual shipping charges are added."
+      "original": "أكد الضريبة ورسوم الشحن مع الفريق قبل الطلب.",
+      "ar": "أكد الضريبة ورسوم الشحن مع الفريق قبل الطلب.",
+      "en": "Confirm tax and shipping charges with the team before ordering."
     },
     {
-      "original": "تأكيد الطلب التجريبي",
-      "ar": "تأكيد الطلب التجريبي",
-      "en": "Confirm demo order"
+      "original": "إنهاء مراجعة السلة",
+      "ar": "إنهاء مراجعة السلة",
+      "en": "Finish bag review"
     },
     {
-      "original": "اكتملت تجربة الشراء",
-      "ar": "اكتملت تجربة الشراء",
-      "en": "Demo checkout complete"
+      "original": "انتهت مراجعة السلة",
+      "ar": "انتهت مراجعة السلة",
+      "en": "Bag review finished"
     },
     {
-      "original": "لم يتم إنشاء طلب حقيقي أو تحصيل أي مبلغ. تم تفريغ السلة التجريبية.",
-      "ar": "لم يتم إنشاء طلب حقيقي أو تحصيل أي مبلغ. تم تفريغ السلة التجريبية.",
-      "en": "No real order was created and no payment was collected. Your demo bag has been cleared."
+      "original": "لم يتم إنشاء طلب أو تحصيل أي مبلغ. تم تفريغ السلة.",
+      "ar": "لم يتم إنشاء طلب أو تحصيل أي مبلغ. تم تفريغ السلة.",
+      "en": "No order was created and no payment was collected. Your bag has been cleared."
     },
     {
       "original": "العودة للمتجر",
@@ -1316,9 +1296,9 @@
       "en": "Close"
     },
     {
-      "original": "نموذج تجريبي. بياناتك لا تُرسل ولا تُحفظ.",
-      "ar": "نموذج تجريبي. بياناتك لا تُرسل ولا تُحفظ.",
-      "en": "Demo form. Your contact details are not sent or stored."
+      "original": "إرسال الطلبات غير متاح حاليًا. بياناتك لا تُرسل ولا تُحفظ.",
+      "ar": "إرسال الطلبات غير متاح حاليًا. بياناتك لا تُرسل ولا تُحفظ.",
+      "en": "Request submission is currently unavailable. Your contact details are not sent or stored."
     },
     {
       "original": "رقم الجوال",
@@ -1391,19 +1371,19 @@
       "en": "What do you need for your centre? List equipment and quantities"
     },
     {
-      "original": "معاينة تأكيد الطلب",
-      "ar": "معاينة تأكيد الطلب",
-      "en": "Preview request confirmation"
+      "original": "مراجعة تفاصيل الطلب",
+      "ar": "مراجعة تفاصيل الطلب",
+      "en": "Review request details"
     },
     {
-      "original": "تمت المعاينة",
-      "ar": "تمت المعاينة",
-      "en": "Preview complete"
+      "original": "تمت المراجعة",
+      "ar": "تمت المراجعة",
+      "en": "Review complete"
     },
     {
-      "original": "طلب عرض السعر جاهز كتجربة.",
-      "ar": "طلب عرض السعر جاهز كتجربة.",
-      "en": "Your demo quote request is ready."
+      "original": "تفاصيل طلب عرض السعر جاهزة للمراجعة.",
+      "ar": "تفاصيل طلب عرض السعر جاهزة للمراجعة.",
+      "en": "Your quote request details are ready for review."
     },
     {
       "original": "لم يُرسل إلى أورثو سيرف ولم تُحفظ بيانات التواصل.",
@@ -1426,14 +1406,9 @@
       "en": "Contact OrthoServ"
     },
     {
-      "original": "اترك استفسارك أو حدّد طلبك. النموذج تجريبي ولا يُرسل بيانات.",
-      "ar": "كيف نقدر نساعدك؟ النموذج تجريبي ولا يُرسل بيانات.",
-      "en": "How can we help? This is a demo form and does not send data."
-    },
-    {
-      "original": "البريد الإلكتروني",
-      "ar": "البريد الإلكتروني",
-      "en": "Email address"
+      "original": "اكتب تفاصيل استفسارك. إرسال الرسائل غير متاح حاليًا.",
+      "ar": "كيف نقدر نساعدك؟ النموذج ولا يُرسل بيانات.",
+      "en": "How can we help? This is a form and does not send data."
     },
     {
       "original": "موضوع الرسالة",
@@ -1451,14 +1426,14 @@
       "en": "Your message"
     },
     {
-      "original": "معاينة الرسالة",
-      "ar": "معاينة الرسالة",
-      "en": "Preview message"
+      "original": "مراجعة الرسالة",
+      "ar": "مراجعة الرسالة",
+      "en": "Review message"
     },
     {
-      "original": "تمت معاينة رسالتك",
-      "ar": "تمت معاينة رسالتك",
-      "en": "Message preview complete"
+      "original": "تفاصيل الرسالة جاهزة",
+      "ar": "تفاصيل الرسالة جاهزة",
+      "en": "Message details ready"
     },
     {
       "original": "لم تُرسل الرسالة ولم تُحفظ بياناتك.",
@@ -1466,9 +1441,9 @@
       "en": "Your message was not sent and your details were not stored."
     },
     {
-      "original": "تمت الإضافة إلى السلة التجريبية",
-      "ar": "تمت الإضافة إلى السلة التجريبية",
-      "en": "Added to your demo bag"
+      "original": "تمت الإضافة إلى السلة",
+      "ar": "تمت الإضافة إلى السلة",
+      "en": "Added to your bag"
     },
     {
       "original": "تمت الإضافة للمفضلة",
@@ -1491,9 +1466,9 @@
       "en": "Remove from wishlist"
     },
     {
-      "original": "إعلان تجربة Juzo",
-      "ar": "إعلان تجربة Juzo",
-      "en": "Juzo experience advertisement"
+      "original": "إعلان Juzo",
+      "ar": "إعلان Juzo",
+      "en": "Juzo advertisement"
     },
     {
       "original": "إغلاق إعلان Juzo",
@@ -1506,8 +1481,8 @@
       "en": "Discover Juzo"
     },
     {
-      "original": "اكتشف تجربة جوارب Juzo",
-      "ar": "اكتشف تجربة جوارب Juzo",
+      "original": "اكتشف جوارب Juzo",
+      "ar": "اكتشف جوارب Juzo",
       "en": "Explore Juzo compression stockings"
     },
     {
@@ -1546,24 +1521,24 @@
       "en": "Play motion"
     },
     {
-      "original": "شريط كينيسيولوجي تجريبي",
-      "ar": "شريط كينيسيولوجي تجريبي",
-      "en": "Kinesiology tape — demo"
+      "original": "شريط كينيسيولوجي",
+      "ar": "شريط كينيسيولوجي",
+      "en": "Kinesiology tape —"
     },
     {
-      "original": "جل توصيل تجريبي",
-      "ar": "جل توصيل تجريبي",
-      "en": "Conductive gel — demo"
+      "original": "جل توصيل",
+      "ar": "جل توصيل",
+      "en": "Conductive gel —"
     },
     {
-      "original": "حزام تمارين تجريبي",
-      "ar": "حزام تمارين تجريبي",
-      "en": "Exercise strap — demo"
+      "original": "حزام تمارين",
+      "ar": "حزام تمارين",
+      "en": "Exercise strap —"
     },
     {
-      "original": "طقم أكواب علاجية تجريبي",
-      "ar": "طقم أكواب علاجية تجريبي",
-      "en": "Cupping set — demo"
+      "original": "طقم أكواب علاجية",
+      "ar": "طقم أكواب علاجية",
+      "en": "Cupping set —"
     },
     {
       "original": "وحدة كمادات ساخنة سعة 24 كمادة",
@@ -1646,9 +1621,9 @@
       "en": "Blueneem"
     },
     {
-      "original": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
-      "ar": "من مجموعة أورثو سيرف التجريبية. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
-      "en": "From the OrthoServ preview collection. Confirm configuration, pricing and availability with the team."
+      "original": "من مجموعة أورثو سيرف . تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "ar": "من مجموعة أورثو سيرف . تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "en": "From the OrthoServ review collection. Confirm configuration, pricing and availability with the team."
     },
     {
       "original": "منتج من مجموعة Blueneem متعددة التخصصات. يرجى تأكيد المقاس ورقم المنتج والتجهيز المطلوب مع الفريق. التفاصيل الفنية المعتمدة متاحة في صفحة المصنع.",
@@ -1801,11 +1776,6 @@
       "en": "Daily consumables and HIGHCARE strips in four sizes."
     },
     {
-      "original": "المنتجات",
-      "ar": "المنتجات",
-      "en": "Items"
-    },
-    {
       "original": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 6 × 75 مم؛ 3 شرائط في الظرف، و50 ظرفًا في العلبة (150 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
       "ar": "شرائط لاصقة لإغلاق الجلد من HIGHCARE. المقاس 6 × 75 مم؛ 3 شرائط في الظرف، و50 ظرفًا في العلبة (150 شريطًا). بيانات العبوة من الصورة المرفقة، والسعر للعلبة من كتالوج العميل. اختيار المنتج واستخدامه وفق تعليمات الشركة وتقييم المختص.",
       "en": "HIGHCARE adhesive skin closure strips. Size 6 × 75 mm; 3 strips per pouch, 50 pouches per box (150 strips). Pack details are from the supplied photo; price per box is from the supplied catalogue. Selection and use follow the manufacturer's instructions and professional assessment."
@@ -1836,14 +1806,14 @@
       "en": "Representing Game Ready · Winback · Blueneem · Juzo · LiKAWAVE"
     },
     {
-      "original": "مراجعة المبلغ تجريبية. لا تُضاف رسوم شحن ولا يُحصّل أي مبلغ؛ ضريبة الأسعار المرفقة تُؤكد عند الطلب.",
-      "ar": "مراجعة المبلغ تجريبية. لا تُضاف رسوم شحن ولا يُحصّل أي مبلغ؛ ضريبة الأسعار المرفقة تُؤكد عند الطلب.",
-      "en": "Demo total review. No shipping charges or payment are collected; confirm tax on supplied catalogue prices at enquiry."
+      "original": "لم يُحصّل أي مبلغ. أكد الضريبة ورسوم الشحن مع الفريق قبل الطلب.",
+      "ar": "لم يُحصّل أي مبلغ. أكد الضريبة ورسوم الشحن مع الفريق قبل الطلب.",
+      "en": "No payment has been collected. Confirm tax and shipping charges with the team."
     },
     {
-      "original": "أسعار DEMO والخيارات تجريبية؛ أسعار HIGHCARE من الكتالوج المرفق. الأجهزة بطلب عرض سعر.",
-      "ar": "أسعار DEMO والخيارات تجريبية؛ أسعار HIGHCARE من الكتالوج المرفق. الأجهزة بطلب عرض سعر.",
-      "en": "DEMO prices and options are illustrative; HIGHCARE prices come from the supplied catalogue. Equipment is available by quotation."
+      "original": "أكد الأسعار والخيارات مع الفريق؛ أسعار HIGHCARE من الكتالوج المرفق. الأجهزة بطلب عرض سعر.",
+      "ar": "أكد الأسعار والخيارات مع الفريق؛ أسعار HIGHCARE من الكتالوج المرفق. الأجهزة بطلب عرض سعر.",
+      "en": "Confirm pricing and options with the team. HIGHCARE prices come from the supplied catalogue. Equipment is available by quotation."
     },
     {
       "original": "OrthoServ | متجر الحركة والتأهيل",
@@ -1986,9 +1956,9 @@
       "en": "RQWC3464"
     },
     {
-      "original": "© OrthoServ · Concept A / Phase 03",
-      "ar": "© OrthoServ · Concept A / Phase 03",
-      "en": "© OrthoServ · Concept A / Phase 03"
+      "original": "© OrthoServ",
+      "ar": "© OrthoServ",
+      "en": "© OrthoServ"
     },
     {
       "original": "YOUR SELECTION",
@@ -2004,11 +1974,6 @@
       "original": "إيقاف الحركة Ⅱ",
       "ar": "إيقاف الحركة Ⅱ",
       "en": "Pause motion Ⅱ"
-    },
-    {
-      "original": "DEMO · سعر تجريبي",
-      "ar": "DEMO · سعر تجريبي",
-      "en": "DEMO · Illustrative price"
     },
     {
       "original": "حلول المراكز ↗",
@@ -2071,9 +2036,9 @@
       "en": "View section →"
     },
     {
-      "original": "متابعة للدفع التجريبي ←",
-      "ar": "متابعة الطلب التجريبي ←",
-      "en": "Continue demo order ←"
+      "original": "مراجعة السلة ←",
+      "ar": "متابعة الطلب ←",
+      "en": "Continue order ←"
     },
     {
       "original": "تصفّح المستهلكات ←",
@@ -2081,9 +2046,9 @@
       "en": "Shop medical supplies ←"
     },
     {
-      "original": "تمت المعاينة ✓",
-      "ar": "تمت المعاينة ✓",
-      "en": "Preview complete ✓"
+      "original": "تمت المراجعة ✓",
+      "ar": "تمت المراجعة ✓",
+      "en": "Review complete ✓"
     },
     {
       "original": "تعذّر تحميل المنتجات",
@@ -2091,9 +2056,9 @@
       "en": "Couldn’t load products"
     },
     {
-      "original": "أعد فتح المعاينة من رابط المتجر ثم حدّث الصفحة.",
-      "ar": "أعد فتح المعاينة من رابط المتجر ثم حدّث الصفحة.",
-      "en": "Reopen the preview from the store link, then refresh the page."
+      "original": "أعد فتح الموقع من رابط المتجر ثم حدّث الصفحة.",
+      "ar": "أعد فتح الموقع من رابط المتجر ثم حدّث الصفحة.",
+      "en": "Reopen the review from the store link, then refresh the page."
     },
     {
       "original": "حاول مرة أخرى",
@@ -2245,9 +2210,9 @@
       "scope": "experiences/juzo/"
     },
     {
-      "original": "منتجات مختارة للتجربة؛ التوافر والتجهيزات المحلية تُؤكّد مع أورثوسيرف.",
-      "ar": "منتجات مختارة للتجربة؛ التوافر والتجهيزات المحلية تُؤكّد مع أورثوسيرف.",
-      "en": "Selected products for the preview; availability and local configurations are confirmed with OrthoServ.",
+      "original": "منتجات Juzo؛ التوافر والتجهيزات المحلية تُؤكّد مع أورثوسيرف.",
+      "ar": "منتجات Juzo؛ التوافر والتجهيزات المحلية تُؤكّد مع أورثوسيرف.",
+      "en": "Selected products for the review; availability and local configurations are confirmed with OrthoServ.",
       "scope": "experiences/juzo/"
     },
     {
@@ -2293,9 +2258,9 @@
       "scope": "experiences/juzo/"
     },
     {
-      "original": "كتالوج تجريبي · التوافر يُؤكّد",
-      "ar": "كتالوج تجريبي · التوافر يُؤكّد",
-      "en": "Demo catalogue · availability to be confirmed",
+      "original": "التوافر يُؤكّد مع الفريق",
+      "ar": "التوافر يُؤكّد مع الفريق",
+      "en": "catalogue · availability to be confirmed",
       "scope": "experiences/juzo/"
     },
     {
@@ -2383,9 +2348,9 @@
       "scope": "experiences/juzo/"
     },
     {
-      "original": "درجة الضغط والمقاس يُراجعان مع المختص؛ لا يُحدَّدان تلقائيًا في هذه المعاينة.",
-      "ar": "درجة الضغط والمقاس يُراجعان مع المختص؛ لا يُحدَّدان تلقائيًا في هذه المعاينة.",
-      "en": "Compression level and size are reviewed with a specialist; they are not determined automatically in this preview.",
+      "original": "درجة الضغط والمقاس يُراجعان مع المختص؛ لا يُحدَّدان تلقائيًا في هذا الموقع.",
+      "ar": "درجة الضغط والمقاس يُراجعان مع المختص؛ لا يُحدَّدان تلقائيًا في هذا الموقع.",
+      "en": "Compression level and size are reviewed with a specialist; they are not determined automatically in this review.",
       "scope": "experiences/juzo/"
     },
     {
@@ -2431,15 +2396,15 @@
       "scope": "experiences/juzo/"
     },
     {
-      "original": "معاينة متجر تجريبية. لا دفع ولا إرسال طلبات فعلية. الصور الرسمية للعرض التجريبي وتحتاج اعتماد العلامة. صورة الساق المتحركة مولّدة للتصوّر.",
-      "ar": "معاينة متجر تجريبية. لا دفع ولا إرسال طلبات فعلية. الصور الرسمية للعرض التجريبي وتحتاج اعتماد العلامة. صورة الساق المتحركة مولّدة للتصوّر.",
-      "en": "Demo store preview. No payment and no real order submission. Official images are for the demo and need brand approval. The moving-leg image is generated for illustration.",
+      "original": "منتجات الضغط الطبي من Juzo. راجع الموديل والمقاس والتوافر مع فريق أورثوسيرف.",
+      "ar": "منتجات الضغط الطبي من Juzo. راجع الموديل والمقاس والتوافر مع فريق أورثوسيرف.",
+      "en": "store review. No payment and no real order submission. Official images are for the and need brand approval. The moving-leg image is generated for illustration.",
       "scope": "experiences/juzo/"
     },
     {
-      "original": "ORTHOSERV × JUZO / CONCEPT A",
-      "ar": "ORTHOSERV × JUZO / CONCEPT A",
-      "en": "ORTHOSERV × JUZO / CONCEPT A",
+      "original": "ORTHOSERV × JUZO",
+      "ar": "ORTHOSERV × JUZO",
+      "en": "ORTHOSERV × JUZO",
       "scope": "experiences/juzo/"
     },
     {
@@ -2449,9 +2414,9 @@
       "scope": "experiences/juzo/"
     },
     {
-      "original": "OrthoServ — EMS DolorClast / Scene 1",
-      "ar": "OrthoServ — EMS DolorClast / Scene 1",
-      "en": "OrthoServ — EMS DolorClast / Scene 1",
+      "original": "OrthoServ — EMS DolorClast",
+      "ar": "OrthoServ — EMS DolorClast",
+      "en": "OrthoServ — EMS DolorClast",
       "scope": "experiences/shockwave/"
     },
     {
@@ -2611,9 +2576,9 @@
       "scope": "experiences/shockwave/"
     },
     {
-      "original": "DEMO ONLY: replace with brand-approved asset",
-      "ar": "DEMO ONLY: replace with brand-approved asset",
-      "en": "DEMO ONLY: replace with brand-approved asset",
+      "original": "OrthoServ | EMS DolorClast",
+      "ar": "OrthoServ | EMS DolorClast",
+      "en": "OrthoServ | EMS DolorClast",
       "scope": "experiences/shockwave/"
     },
     {
@@ -2683,9 +2648,9 @@
       "scope": "experiences/shockwave/"
     },
     {
-      "original": "معاينة للمشهد فقط؛ لا يُرسل أي طلب ولا تُجمع بيانات.",
-      "ar": "معاينة للمشهد فقط؛ لا يُرسل أي طلب ولا تُجمع بيانات.",
-      "en": "Scene preview only; no request is sent and no data is collected.",
+      "original": "إرسال الطلبات غير متاح حاليًا؛ لا يُرسل طلب ولا تُجمع بيانات.",
+      "ar": "إرسال الطلبات غير متاح حاليًا؛ لا يُرسل طلب ولا تُجمع بيانات.",
+      "en": "Scene review only; no request is sent and no data is collected.",
       "scope": "experiences/shockwave/"
     },
     {
@@ -2701,9 +2666,9 @@
       "scope": "experiences/shockwave/"
     },
     {
-      "original": "DEMO ONLY",
-      "ar": "تم",
-      "en": "done"
+      "original": "DEMO",
+      "ar": "المنتج",
+      "en": "Product"
     },
     {
       "original": "المستهلكات ↗",
@@ -2942,52 +2907,52 @@
     },
     {
       "original": "احجز عرضًا للجهاز ↗",
-      "ar": "اطلب تجربة الجهاز ↗",
-      "en": "Request an equipment demonstration ↗"
+      "ar": "اطلب عالم الجهاز ↗",
+      "en": "Request a product presentationnstration ↗"
     },
     {
       "original": "احجز عرضًا للجهاز ←",
-      "ar": "اطلب تجربة الجهاز ←",
-      "en": "Request an equipment demonstration ←"
+      "ar": "اطلب عالم الجهاز ←",
+      "en": "Request a product presentationnstration ←"
     },
     {
       "original": "طلب عرض للجهاز ↗",
-      "ar": "طلب تجربة الجهاز ↗",
-      "en": "Request an equipment demonstration ↗"
+      "ar": "طلب عالم الجهاز ↗",
+      "en": "Request a product presentationnstration ↗"
     },
     {
       "original": "طلب عرض للجهاز ←",
-      "ar": "طلب تجربة الجهاز ←",
-      "en": "Request an equipment demonstration ←"
+      "ar": "طلب عالم الجهاز ←",
+      "en": "Request a product presentationnstration ←"
     },
     {
       "original": "عرض حضوري — حسب التوفر ↗",
-      "ar": "تجربة حضورية — حسب التوفر ↗",
+      "ar": "عالم حضورية — حسب التوفر ↗",
       "en": "In-person demonstration — subject to availability ↗"
     },
     {
       "original": "عرض حضوري — حسب التوفر ←",
-      "ar": "تجربة حضورية — حسب التوفر ←",
+      "ar": "عالم حضورية — حسب التوفر ←",
       "en": "In-person demonstration — subject to availability ←"
     },
     {
       "original": "عرض عن بُعد ↗",
       "ar": "عرض توضيحي عن بُعد ↗",
-      "en": "Online demonstration ↗"
+      "en": "Online presentation ↗"
     },
     {
       "original": "عرض عن بُعد ←",
       "ar": "عرض توضيحي عن بُعد ←",
-      "en": "Online demonstration ←"
+      "en": "Online presentation ←"
     },
     {
       "original": "طريقة العرض المفضلة ↗",
-      "ar": "طريقة التجربة المفضلة ↗",
+      "ar": "طريقة المجموعة المفضلة ↗",
       "en": "Preferred demonstration format ↗"
     },
     {
       "original": "طريقة العرض المفضلة ←",
-      "ar": "طريقة التجربة المفضلة ←",
+      "ar": "طريقة المجموعة المفضلة ←",
       "en": "Preferred demonstration format ←"
     },
     {
@@ -3221,12 +3186,12 @@
       "en": "Your cart is empty ←"
     },
     {
-      "original": "ابدأ بالمستهلكات لتجربة الشراء. ↗",
+      "original": "استعرض المستلزمات وأضف ما تحتاجه إلى السلة. ↗",
       "ar": "تصفّح المنتجات وأضف اللي يناسبك ↗",
       "en": "Browse the products and add what suits you ↗"
     },
     {
-      "original": "ابدأ بالمستهلكات لتجربة الشراء. ←",
+      "original": "استعرض المستلزمات وأضف ما تحتاجه إلى السلة. ←",
       "ar": "تصفّح المنتجات وأضف اللي يناسبك ←",
       "en": "Browse the products and add what suits you ←"
     },
@@ -3261,19 +3226,19 @@
       "en": "Remove ←"
     },
     {
-      "original": "متابعة للدفع التجريبي ↗",
-      "ar": "متابعة الطلب التجريبي ↗",
-      "en": "Continue demo order ↗"
+      "original": "مراجعة السلة ↗",
+      "ar": "متابعة الطلب ↗",
+      "en": "Continue order ↗"
     },
     {
-      "original": "اترك استفسارك أو حدّد طلبك. النموذج تجريبي ولا يُرسل بيانات. ↗",
-      "ar": "كيف نقدر نساعدك؟ النموذج تجريبي ولا يُرسل بيانات. ↗",
-      "en": "How can we help? This is a demo form and does not send data. ↗"
+      "original": "اكتب تفاصيل استفسارك. إرسال الرسائل غير متاح حاليًا. ↗",
+      "ar": "كيف نقدر نساعدك؟ النموذج ولا يُرسل بيانات. ↗",
+      "en": "How can we help? This is a form and does not send data. ↗"
     },
     {
-      "original": "اترك استفسارك أو حدّد طلبك. النموذج تجريبي ولا يُرسل بيانات. ←",
-      "ar": "كيف نقدر نساعدك؟ النموذج تجريبي ولا يُرسل بيانات. ←",
-      "en": "How can we help? This is a demo form and does not send data. ←"
+      "original": "اكتب تفاصيل استفسارك. إرسال الرسائل غير متاح حاليًا. ←",
+      "ar": "كيف نقدر نساعدك؟ النموذج ولا يُرسل بيانات. ←",
+      "en": "How can we help? This is a form and does not send data. ←"
     },
     {
       "original": "اسم المنشأة (اختياري) ↗",
@@ -3446,12 +3411,12 @@
       "en": "Choices for your everyday life ←"
     },
     {
-      "original": "اكتشف الجوارب والأكمام الطبية، واختَر ما يناسب يومك في تجربة Juzo. ↗",
+      "original": "اكتشف الجوارب والأكمام الطبية، واختَر ما يناسب يومك في عالم Juzo. ↗",
       "ar": "اكتشف منتجات جوزو والألوان المتاحة لكل منتج. ↗",
       "en": "Discover Juzo products and the colours available for each product. ↗"
     },
     {
-      "original": "اكتشف الجوارب والأكمام الطبية، واختَر ما يناسب يومك في تجربة Juzo. ←",
+      "original": "اكتشف الجوارب والأكمام الطبية، واختَر ما يناسب يومك في عالم Juzo. ←",
       "ar": "اكتشف منتجات جوزو والألوان المتاحة لكل منتج. ←",
       "en": "Discover Juzo products and the colours available for each product. ←"
     },

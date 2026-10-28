@@ -1,0 +1,4 @@
+/* OrthoServ custom CSS
+   Loaded last, after every other stylesheet, so rules here win without !important.
+   Edit it from TODAY > Settings > Storefront > CSS.
+   Tip: wrap mobile-only rules in @media (max-width: 720px) { ... } */

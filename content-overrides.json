@@ -67,13 +67,13 @@
     },
     {
       "original": "اكتشف الجوارب والأكمام الطبية، واختَر ما يناسب يومك في تجربة Juzo.",
-      "ar": "اكتشف الجوارب والأكمام الطبية، واختَر ما يناسب يومك في تجربة Juzo.",
-      "en": "Explore medical stockings and sleeves, and find your everyday fit in the Juzo experience."
+      "ar": "اكتشف منتجات جوزو والألوان المتاحة لكل منتج.",
+      "en": "Discover Juzo products and the colours available for each product."
     },
     {
       "original": "استعرض مجموعة Juzo",
-      "ar": "استعرض مجموعة Juzo",
-      "en": "Browse the Juzo collection"
+      "ar": "اكتشف جوزو",
+      "en": "Discover Juzo"
     },
     {
       "original": "تصور إعلاني للحركة",
@@ -287,8 +287,8 @@
     },
     {
       "original": "احجز عرضًا للجهاز",
-      "ar": "احجز عرضًا للجهاز",
-      "en": "Request a demo"
+      "ar": "اطلب تجربة الجهاز",
+      "en": "Request an equipment demonstration"
     },
     {
       "original": "عرض تجريبي للجهاز",
@@ -297,8 +297,8 @@
     },
     {
       "original": "طلب عرض للجهاز",
-      "ar": "طلب عرض للجهاز",
-      "en": "Request an equipment demo"
+      "ar": "طلب تجربة الجهاز",
+      "en": "Request an equipment demonstration"
     },
     {
       "original": "نموذج تجريبي لحجز عرض الجهاز. لا يُرسل طلب فعلي.",
@@ -307,18 +307,18 @@
     },
     {
       "original": "طريقة العرض المفضلة",
-      "ar": "طريقة العرض المفضلة",
-      "en": "Preferred demo format"
+      "ar": "طريقة التجربة المفضلة",
+      "en": "Preferred demonstration format"
     },
     {
       "original": "عرض عن بُعد",
-      "ar": "عرض عن بُعد",
+      "ar": "عرض توضيحي عن بُعد",
       "en": "Online demonstration"
     },
     {
       "original": "عرض حضوري — حسب التوفر",
-      "ar": "عرض حضوري — حسب التوفر",
-      "en": "In-person — subject to availability"
+      "ar": "تجربة حضورية — حسب التوفر",
+      "en": "In-person demonstration — subject to availability"
     },
     {
       "original": "موعد مفضل (اختياري)",
@@ -402,8 +402,8 @@
     },
     {
       "original": "حلول المراكز والمستشفيات",
-      "ar": "حلول المراكز والمستشفيات",
-      "en": "Clinic & hospital solutions"
+      "ar": "تجهيز المراكز والمستشفيات",
+      "en": "Clinic and hospital fit-out"
     },
     {
       "original": "ابحث في المتجر",
@@ -412,8 +412,8 @@
     },
     {
       "original": "ابحث عن جهاز، منتج أو علامة تجارية…",
-      "ar": "ابحث عن جهاز، منتج أو علامة تجارية…",
-      "en": "Search equipment, products or brands…"
+      "ar": "ابحث باسم المنتج أو الجهاز أو العلامة…",
+      "en": "Search by product, equipment or brand…"
     },
     {
       "original": "بحث",
@@ -432,8 +432,8 @@
     },
     {
       "original": "تسوّق المنتجات",
-      "ar": "تسوّق المنتجات",
-      "en": "Shop products"
+      "ar": "تسوّق حسب احتياجك",
+      "en": "Shop by your needs"
     },
     {
       "original": "العلامات التجارية",
@@ -442,8 +442,8 @@
     },
     {
       "original": "حلول المراكز",
-      "ar": "حلول المراكز",
-      "en": "Professional solutions"
+      "ar": "تجهيز المراكز",
+      "en": "Centre fit-out"
     },
     {
       "original": "تواصل معنا",
@@ -452,8 +452,8 @@
     },
     {
       "original": "استعرض كل المنتجات",
-      "ar": "استعرض كل المنتجات",
-      "en": "Browse all products"
+      "ar": "عرض جميع المنتجات",
+      "en": "View all products"
     },
     {
       "original": "كل المنتجات",
@@ -487,8 +487,8 @@
     },
     {
       "original": "الضغط الطبي",
-      "ar": "الضغط الطبي",
-      "en": "Medical compression"
+      "ar": "منتجات جوزو",
+      "en": "Juzo products"
     },
     {
       "original": "الجوارب والأكمام والمقاسات",
@@ -497,8 +497,8 @@
     },
     {
       "original": "المستهلكات",
-      "ar": "المستهلكات",
-      "en": "Consumables"
+      "ar": "المستلزمات الطبية",
+      "en": "Medical supplies"
     },
     {
       "original": "احتياجات العناية اليومية",
@@ -507,8 +507,8 @@
     },
     {
       "original": "منتجات طبية متعددة التخصصات",
-      "ar": "منتجات طبية متعددة التخصصات",
-      "en": "Multi-speciality medical products"
+      "ar": "الأجهزة والمستلزمات التخصصية",
+      "en": "Specialist equipment and supplies"
     },
     {
       "original": "القساطر والدعامات والأدوات الطبية",
@@ -627,8 +627,8 @@
     },
     {
       "original": "المستهلكات اليومية",
-      "ar": "المستهلكات اليومية",
-      "en": "Daily essentials"
+      "ar": "المستلزمات اليومية",
+      "en": "Everyday supplies"
     },
     {
       "original": "شراء مباشر أو عرض سعر",
@@ -697,8 +697,8 @@
     },
     {
       "original": "مجموعة مختارة للتأهيل وتجهيز المراكز.",
-      "ar": "مجموعة مختارة للتأهيل وتجهيز المراكز.",
-      "en": "A considered selection for rehabilitation and clinical spaces."
+      "ar": "اكتشف أجهزة العلاج الطبيعي والتأهيل لمركزك.",
+      "en": "Explore physiotherapy and rehabilitation equipment for your centre."
     },
     {
       "original": "استعرض الأجهزة",
@@ -707,13 +707,13 @@
     },
     {
       "original": "حسب التجهيز",
-      "ar": "حسب التجهيز",
-      "en": "On request"
+      "ar": "السعر حسب التجهيز",
+      "en": "Price depends on configuration"
     },
     {
       "original": "السعر والتوفر عند الطلب",
-      "ar": "السعر والتوفر عند الطلب",
-      "en": "Price & availability on enquiry"
+      "ar": "تواصل معنا لتأكيد السعر والتوفر",
+      "en": "Contact us to confirm price and availability"
     },
     {
       "original": "سعر تجريبي شامل الضريبة",
@@ -732,8 +732,8 @@
     },
     {
       "original": "عرض سعر",
-      "ar": "عرض سعر",
-      "en": "Get a quote"
+      "ar": "اطلب عرض سعر",
+      "en": "Request a quote"
     },
     {
       "original": "صورة المنتج قريبًا",
@@ -817,8 +817,8 @@
     },
     {
       "original": "اكتشف عالم Juzo",
-      "ar": "اكتشف عالم Juzo",
-      "en": "Explore the world of Juzo"
+      "ar": "اكتشف جوزو",
+      "en": "Discover Juzo"
     },
     {
       "original": "تفاصيل تكمل العناية.",
@@ -832,28 +832,28 @@
     },
     {
       "original": "تسوّق المستهلكات",
-      "ar": "تسوّق المستهلكات",
-      "en": "Shop consumables"
+      "ar": "تسوّق المستلزمات",
+      "en": "Shop medical supplies"
     },
     {
       "original": "من أول جهاز،",
-      "ar": "من أول جهاز،",
-      "en": "From your first device"
+      "ar": "ودّك تجهّز مركزك؟",
+      "en": "Planning to equip your centre?"
     },
     {
       "original": "إلى تجهيز مركز كامل.",
-      "ar": "إلى تجهيز مركز كامل.",
-      "en": "to a complete clinical space."
+      "ar": "من أول جهاز إلى مركز كامل",
+      "en": "From your first device to a complete centre"
     },
     {
       "original": "اجمع احتياجات مركزك في طلب واحد، وحدد خدمات التركيب والتدريب المطلوبة. فريق أورثو سيرف يؤكد تفاصيل التجهيز والتكلفة.",
-      "ar": "اجمع احتياجات مركزك في طلب واحد، وحدد خدمات التركيب والتدريب المطلوبة. فريق أورثو سيرف يؤكد تفاصيل التجهيز والتكلفة.",
-      "en": "Bring your equipment needs together and request installation or training. The OrthoServ team confirms configuration and pricing."
+      "ar": "حدّد احتياجك من الأجهزة والمستلزمات، واطلب عرض تجهيز. خدمات التركيب والتدريب والتكلفة تتأكد مع فريق أورثوسيرف.",
+      "en": "List your equipment and supply needs and request a fit-out quote. Confirm installation, training and pricing with the OrthoServ team."
     },
     {
       "original": "ابدأ طلب تجهيز مركزك",
-      "ar": "ابدأ طلب تجهيز مركزك",
-      "en": "Plan your clinical space"
+      "ar": "اطلب عرض تجهيز",
+      "en": "Request a fit-out quote"
     },
     {
       "original": "تجهيز يناسب احتياجك",
@@ -1047,8 +1047,8 @@
     },
     {
       "original": "تجهيزات للحركة والتمرين.",
-      "ar": "تجهيزات للحركة والتمرين.",
-      "en": "Equipment for movement and exercise."
+      "ar": "تجهيزات تناسب شغلك",
+      "en": "Equipment for your work"
     },
     {
       "original": "مفضلتك في انتظار اختياراتك",
@@ -1067,7 +1067,7 @@
     },
     {
       "original": "عرض كل المنتجات",
-      "ar": "عرض كل المنتجات",
+      "ar": "عرض جميع المنتجات",
       "en": "View all products"
     },
     {
@@ -1102,8 +1102,8 @@
     },
     {
       "original": "أضف إلى السلة",
-      "ar": "أضف إلى السلة",
-      "en": "Add to bag"
+      "ar": "أضف للسلة",
+      "en": "Add to cart"
     },
     {
       "original": "التركيب والتدريب: خدمات يمكن طلبها وتُؤكد حسب المنتج.",
@@ -1142,8 +1142,8 @@
     },
     {
       "original": "الشحن والخدمات",
-      "ar": "الشحن والخدمات",
-      "en": "Delivery & services"
+      "ar": "التوصيل والخدمات",
+      "en": "Delivery and services"
     },
     {
       "original": "في هذه المعاينة لا تُحسب مواعيد أو رسوم شحن فعلية. يمكن تحديد المدينة وطلب التركيب أو التدريب ضمن طلب عرض السعر التجريبي.",
@@ -1152,8 +1152,8 @@
     },
     {
       "original": "قد يناسبك أيضًا",
-      "ar": "قد يناسبك أيضًا",
-      "en": "You may also like"
+      "ar": "خيارات قد تناسبك",
+      "en": "Options you may like"
     },
     {
       "original": "عرض القسم",
@@ -1187,7 +1187,7 @@
     },
     {
       "original": "حذف",
-      "ar": "حذف",
+      "ar": "إزالة",
       "en": "Remove"
     },
     {
@@ -1212,8 +1212,8 @@
     },
     {
       "original": "متابعة للدفع التجريبي",
-      "ar": "متابعة للدفع التجريبي",
-      "en": "Continue to demo checkout"
+      "ar": "متابعة الطلب التجريبي",
+      "en": "Continue demo order"
     },
     {
       "original": "لا يتم تحصيل أموال أو إرسال أي طلب.",
@@ -1222,18 +1222,18 @@
     },
     {
       "original": "سلتك لسه فاضية",
-      "ar": "سلتك لسه فاضية",
-      "en": "Your bag is empty"
+      "ar": "سلتك فاضية",
+      "en": "Your cart is empty"
     },
     {
       "original": "ابدأ بالمستهلكات لتجربة الشراء.",
-      "ar": "ابدأ بالمستهلكات لتجربة الشراء.",
-      "en": "Browse consumables to try the checkout."
+      "ar": "تصفّح المنتجات وأضف اللي يناسبك",
+      "en": "Browse the products and add what suits you"
     },
     {
       "original": "تصفّح المستهلكات",
-      "ar": "تصفّح المستهلكات",
-      "en": "Browse consumables"
+      "ar": "تسوّق المستلزمات",
+      "en": "Shop medical supplies"
     },
     {
       "original": "الدفع التجريبي",
@@ -1357,8 +1357,8 @@
     },
     {
       "original": "اسم المنشأة (اختياري)",
-      "ar": "اسم المنشأة (اختياري)",
-      "en": "Organisation name (optional)"
+      "ar": "اسم المركز أو المنشأة (اختياري)",
+      "en": "Centre or organisation name (optional)"
     },
     {
       "original": "الخدمات المطلوبة",
@@ -1387,8 +1387,8 @@
     },
     {
       "original": "الأجهزة والكميات المطلوبة",
-      "ar": "الأجهزة والكميات المطلوبة",
-      "en": "Equipment and quantities required"
+      "ar": "وش تحتاج لتجهيز مركزك؟ اذكر الأجهزة والكميات المطلوبة",
+      "en": "What do you need for your centre? List equipment and quantities"
     },
     {
       "original": "معاينة تأكيد الطلب",
@@ -1412,8 +1412,8 @@
     },
     {
       "original": "متابعة التصفح",
-      "ar": "متابعة التصفح",
-      "en": "Continue browsing"
+      "ar": "كمّل التسوّق",
+      "en": "Continue shopping"
     },
     {
       "original": "تجهيز مركز",
@@ -1427,8 +1427,8 @@
     },
     {
       "original": "اترك استفسارك أو حدّد طلبك. النموذج تجريبي ولا يُرسل بيانات.",
-      "ar": "اترك استفسارك أو حدّد طلبك. النموذج تجريبي ولا يُرسل بيانات.",
-      "en": "Tell us what you need. This is a demo form and sends no data."
+      "ar": "كيف نقدر نساعدك؟ النموذج تجريبي ولا يُرسل بيانات.",
+      "en": "How can we help? This is a demo form and does not send data."
     },
     {
       "original": "البريد الإلكتروني",
@@ -1502,7 +1502,7 @@
     },
     {
       "original": "اكتشف Juzo",
-      "ar": "اكتشف Juzo",
+      "ar": "اكتشف جوزو",
       "en": "Discover Juzo"
     },
     {
@@ -1512,8 +1512,8 @@
     },
     {
       "original": "حركة تليق بيومك.",
-      "ar": "حركة تليق بيومك.",
-      "en": "Movement for your day."
+      "ar": "اختيارات تناسب يومك",
+      "en": "Choices for your everyday life"
     },
     {
       "original": "اكتشف الجوارب والأكمام الطبية",
@@ -1522,8 +1522,8 @@
     },
     {
       "original": "ادخل عالم Juzo",
-      "ar": "ادخل عالم Juzo",
-      "en": "Step into Juzo"
+      "ar": "اكتشف جوزو",
+      "en": "Discover Juzo"
     },
     {
       "original": "إيقاف حركة الإعلان",
@@ -1737,8 +1737,8 @@
     },
     {
       "original": "الموديل / SKU",
-      "ar": "الموديل / SKU",
-      "en": "Model / SKU"
+      "ar": "الموديل / رمز المنتج",
+      "en": "Model / product code"
     },
     {
       "original": "من شيت العميل، الخلية",
@@ -1852,8 +1852,8 @@
     },
     {
       "original": "حلول المراكز والمستشفيات ↗",
-      "ar": "حلول المراكز والمستشفيات ↗",
-      "en": "Clinic & hospital solutions ↗"
+      "ar": "تجهيز المراكز والمستشفيات ↗",
+      "en": "Clinic and hospital fit-out ↗"
     },
     {
       "original": "EN",
@@ -1862,8 +1862,8 @@
     },
     {
       "original": "استعرض كل المنتجات ←",
-      "ar": "استعرض كل المنتجات ←",
-      "en": "Browse all products →"
+      "ar": "عرض جميع المنتجات ←",
+      "en": "View all products ←"
     },
     {
       "original": "SHOP BY CATEGORY",
@@ -1907,8 +1907,8 @@
     },
     {
       "original": "الضغط الطبي ↗",
-      "ar": "الضغط الطبي ↗",
-      "en": "Medical compression ↗"
+      "ar": "منتجات جوزو ↗",
+      "en": "Juzo products ↗"
     },
     {
       "original": "EMS",
@@ -1967,8 +1967,8 @@
     },
     {
       "original": "عالم Juzo ↗",
-      "ar": "عالم Juzo ↗",
-      "en": "Juzo world ↗"
+      "ar": "اكتشف جوزو ↗",
+      "en": "Discover Juzo ↗"
     },
     {
       "original": "COMPANY INFORMATION",
@@ -1997,8 +1997,8 @@
     },
     {
       "original": "ادخل عالم Juzo ↗",
-      "ar": "ادخل عالم Juzo ↗",
-      "en": "Enter the Juzo world ↗"
+      "ar": "اكتشف جوزو ↗",
+      "en": "Discover Juzo ↗"
     },
     {
       "original": "إيقاف الحركة Ⅱ",
@@ -2012,13 +2012,13 @@
     },
     {
       "original": "حلول المراكز ↗",
-      "ar": "حلول المراكز ↗",
-      "en": "Professional solutions ↗"
+      "ar": "تجهيز المراكز ↗",
+      "en": "Centre fit-out ↗"
     },
     {
       "original": "ابدأ طلب تجهيز مركزك ↗",
-      "ar": "ابدأ طلب تجهيز مركزك ↗",
-      "en": "Start your clinic equipment request ↗"
+      "ar": "اطلب عرض تجهيز ↗",
+      "en": "Request a fit-out quote ↗"
     },
     {
       "original": "تجهيز المراكز ↗",
@@ -2027,8 +2027,8 @@
     },
     {
       "original": "استعرض مجموعة Juzo ↗",
-      "ar": "استعرض مجموعة Juzo ↗",
-      "en": "Browse the Juzo collection ↗"
+      "ar": "اكتشف جوزو ↗",
+      "en": "Discover Juzo ↗"
     },
     {
       "original": "استعرض الأجهزة ←",
@@ -2037,8 +2037,8 @@
     },
     {
       "original": "تسوّق المستهلكات ←",
-      "ar": "تسوّق المستهلكات ←",
-      "en": "Shop consumables →"
+      "ar": "تسوّق المستلزمات ←",
+      "en": "Shop medical supplies ←"
     },
     {
       "original": "الفلاتر +",
@@ -2047,8 +2047,8 @@
     },
     {
       "original": "أضف إلى السلة +",
-      "ar": "أضف إلى السلة +",
-      "en": "Add to bag +"
+      "ar": "أضف للسلة",
+      "en": "Add to cart"
     },
     {
       "original": "اطلب عرض سعر ↗",
@@ -2072,13 +2072,13 @@
     },
     {
       "original": "متابعة للدفع التجريبي ←",
-      "ar": "متابعة للدفع التجريبي ←",
-      "en": "Continue to demo checkout →"
+      "ar": "متابعة الطلب التجريبي ←",
+      "en": "Continue demo order ←"
     },
     {
       "original": "تصفّح المستهلكات ←",
-      "ar": "تصفّح المستهلكات ←",
-      "en": "Browse consumables →"
+      "ar": "تسوّق المستلزمات ←",
+      "en": "Shop medical supplies ←"
     },
     {
       "original": "تمت المعاينة ✓",
@@ -2216,8 +2216,8 @@
     },
     {
       "original": "الجوارب الطبية",
-      "ar": "الجوارب الطبية",
-      "en": "Medical stockings",
+      "ar": "جوارب طبية ضاغطة",
+      "en": "Medical compression stockings",
       "scope": "experiences/juzo/"
     },
     {
@@ -2704,6 +2704,756 @@
       "original": "DEMO ONLY",
       "ar": "تم",
       "en": "done"
+    },
+    {
+      "original": "المستهلكات ↗",
+      "ar": "المستلزمات الطبية ↗",
+      "en": "Medical supplies ↗"
+    },
+    {
+      "original": "المستهلكات ←",
+      "ar": "المستلزمات الطبية ←",
+      "en": "Medical supplies ←"
+    },
+    {
+      "original": "المستهلكات الطبية",
+      "ar": "المستلزمات الطبية",
+      "en": "Medical supplies"
+    },
+    {
+      "original": "المستهلكات الطبية ↗",
+      "ar": "المستلزمات الطبية ↗",
+      "en": "Medical supplies ↗"
+    },
+    {
+      "original": "المستهلكات الطبية ←",
+      "ar": "المستلزمات الطبية ←",
+      "en": "Medical supplies ←"
+    },
+    {
+      "original": "المستهلكات اليومية ↗",
+      "ar": "المستلزمات اليومية ↗",
+      "en": "Everyday supplies ↗"
+    },
+    {
+      "original": "المستهلكات اليومية ←",
+      "ar": "المستلزمات اليومية ←",
+      "en": "Everyday supplies ←"
+    },
+    {
+      "original": "الضغط الطبي ←",
+      "ar": "منتجات جوزو ←",
+      "en": "Juzo products ←"
+    },
+    {
+      "original": "منتجات Juzo",
+      "ar": "منتجات جوزو",
+      "en": "Juzo products"
+    },
+    {
+      "original": "منتجات Juzo ↗",
+      "ar": "منتجات جوزو ↗",
+      "en": "Juzo products ↗"
+    },
+    {
+      "original": "منتجات Juzo ←",
+      "ar": "منتجات جوزو ←",
+      "en": "Juzo products ←"
+    },
+    {
+      "original": "حلول المراكز ←",
+      "ar": "تجهيز المراكز ←",
+      "en": "Centre fit-out ←"
+    },
+    {
+      "original": "حلول المراكز والمستشفيات ←",
+      "ar": "تجهيز المراكز والمستشفيات ←",
+      "en": "Clinic and hospital fit-out ←"
+    },
+    {
+      "original": "منتجات طبية متعددة التخصصات ↗",
+      "ar": "الأجهزة والمستلزمات التخصصية ↗",
+      "en": "Specialist equipment and supplies ↗"
+    },
+    {
+      "original": "منتجات طبية متعددة التخصصات ←",
+      "ar": "الأجهزة والمستلزمات التخصصية ←",
+      "en": "Specialist equipment and supplies ←"
+    },
+    {
+      "original": "تسوّق المنتجات ↗",
+      "ar": "تسوّق حسب احتياجك ↗",
+      "en": "Shop by your needs ↗"
+    },
+    {
+      "original": "تسوّق المنتجات ←",
+      "ar": "تسوّق حسب احتياجك ←",
+      "en": "Shop by your needs ←"
+    },
+    {
+      "original": "استعرض كل المنتجات ↗",
+      "ar": "عرض جميع المنتجات ↗",
+      "en": "View all products ↗"
+    },
+    {
+      "original": "عرض كل المنتجات ↗",
+      "ar": "عرض جميع المنتجات ↗",
+      "en": "View all products ↗"
+    },
+    {
+      "original": "عرض كل المنتجات ←",
+      "ar": "عرض جميع المنتجات ←",
+      "en": "View all products ←"
+    },
+    {
+      "original": "ابحث عن جهاز، منتج أو علامة تجارية… ↗",
+      "ar": "ابحث باسم المنتج أو الجهاز أو العلامة… ↗",
+      "en": "Search by product, equipment or brand… ↗"
+    },
+    {
+      "original": "ابحث عن جهاز، منتج أو علامة تجارية… ←",
+      "ar": "ابحث باسم المنتج أو الجهاز أو العلامة… ←",
+      "en": "Search by product, equipment or brand… ←"
+    },
+    {
+      "original": "Top Offers",
+      "ar": "أبرز العروض",
+      "en": "Top offers"
+    },
+    {
+      "original": "Top Offers ↗",
+      "ar": "أبرز العروض ↗",
+      "en": "Top offers ↗"
+    },
+    {
+      "original": "Top Offers ←",
+      "ar": "أبرز العروض ←",
+      "en": "Top offers ←"
+    },
+    {
+      "original": "أفضل العروض",
+      "ar": "أبرز العروض",
+      "en": "Top offers"
+    },
+    {
+      "original": "أفضل العروض ↗",
+      "ar": "أبرز العروض ↗",
+      "en": "Top offers ↗"
+    },
+    {
+      "original": "أفضل العروض ←",
+      "ar": "أبرز العروض ←",
+      "en": "Top offers ←"
+    },
+    {
+      "original": "أفضل العروض / Top offers",
+      "ar": "أبرز العروض",
+      "en": "Top offers"
+    },
+    {
+      "original": "أفضل العروض / Top offers ↗",
+      "ar": "أبرز العروض ↗",
+      "en": "Top offers ↗"
+    },
+    {
+      "original": "أفضل العروض / Top offers ←",
+      "ar": "أبرز العروض ←",
+      "en": "Top offers ←"
+    },
+    {
+      "original": "عرض سعر ↗",
+      "ar": "اطلب عرض سعر ↗",
+      "en": "Request a quote ↗"
+    },
+    {
+      "original": "عرض سعر ←",
+      "ar": "اطلب عرض سعر ←",
+      "en": "Request a quote ←"
+    },
+    {
+      "original": "حسب التجهيز ↗",
+      "ar": "السعر حسب التجهيز ↗",
+      "en": "Price depends on configuration ↗"
+    },
+    {
+      "original": "حسب التجهيز ←",
+      "ar": "السعر حسب التجهيز ←",
+      "en": "Price depends on configuration ←"
+    },
+    {
+      "original": "السعر عند الطلب",
+      "ar": "تواصل معنا لمعرفة السعر",
+      "en": "Contact us for pricing"
+    },
+    {
+      "original": "السعر عند الطلب ↗",
+      "ar": "تواصل معنا لمعرفة السعر ↗",
+      "en": "Contact us for pricing ↗"
+    },
+    {
+      "original": "السعر عند الطلب ←",
+      "ar": "تواصل معنا لمعرفة السعر ←",
+      "en": "Contact us for pricing ←"
+    },
+    {
+      "original": "السعر والتوفر عند الطلب ↗",
+      "ar": "تواصل معنا لتأكيد السعر والتوفر ↗",
+      "en": "Contact us to confirm price and availability ↗"
+    },
+    {
+      "original": "السعر والتوفر عند الطلب ←",
+      "ar": "تواصل معنا لتأكيد السعر والتوفر ←",
+      "en": "Contact us to confirm price and availability ←"
+    },
+    {
+      "original": "أضف للسلة +",
+      "ar": "أضف للسلة",
+      "en": "Add to cart"
+    },
+    {
+      "original": "أضف للسلة + ↗",
+      "ar": "أضف للسلة ↗",
+      "en": "Add to cart ↗"
+    },
+    {
+      "original": "أضف للسلة + ←",
+      "ar": "أضف للسلة ←",
+      "en": "Add to cart ←"
+    },
+    {
+      "original": "أضف إلى السلة + ↗",
+      "ar": "أضف للسلة ↗",
+      "en": "Add to cart ↗"
+    },
+    {
+      "original": "أضف إلى السلة + ←",
+      "ar": "أضف للسلة ←",
+      "en": "Add to cart ←"
+    },
+    {
+      "original": "أضف إلى السلة ↗",
+      "ar": "أضف للسلة ↗",
+      "en": "Add to cart ↗"
+    },
+    {
+      "original": "أضف إلى السلة ←",
+      "ar": "أضف للسلة ←",
+      "en": "Add to cart ←"
+    },
+    {
+      "original": "احجز عرضًا للجهاز ↗",
+      "ar": "اطلب تجربة الجهاز ↗",
+      "en": "Request an equipment demonstration ↗"
+    },
+    {
+      "original": "احجز عرضًا للجهاز ←",
+      "ar": "اطلب تجربة الجهاز ←",
+      "en": "Request an equipment demonstration ←"
+    },
+    {
+      "original": "طلب عرض للجهاز ↗",
+      "ar": "طلب تجربة الجهاز ↗",
+      "en": "Request an equipment demonstration ↗"
+    },
+    {
+      "original": "طلب عرض للجهاز ←",
+      "ar": "طلب تجربة الجهاز ←",
+      "en": "Request an equipment demonstration ←"
+    },
+    {
+      "original": "عرض حضوري — حسب التوفر ↗",
+      "ar": "تجربة حضورية — حسب التوفر ↗",
+      "en": "In-person demonstration — subject to availability ↗"
+    },
+    {
+      "original": "عرض حضوري — حسب التوفر ←",
+      "ar": "تجربة حضورية — حسب التوفر ←",
+      "en": "In-person demonstration — subject to availability ←"
+    },
+    {
+      "original": "عرض عن بُعد ↗",
+      "ar": "عرض توضيحي عن بُعد ↗",
+      "en": "Online demonstration ↗"
+    },
+    {
+      "original": "عرض عن بُعد ←",
+      "ar": "عرض توضيحي عن بُعد ←",
+      "en": "Online demonstration ←"
+    },
+    {
+      "original": "طريقة العرض المفضلة ↗",
+      "ar": "طريقة التجربة المفضلة ↗",
+      "en": "Preferred demonstration format ↗"
+    },
+    {
+      "original": "طريقة العرض المفضلة ←",
+      "ar": "طريقة التجربة المفضلة ←",
+      "en": "Preferred demonstration format ←"
+    },
+    {
+      "original": "قد يناسبك أيضًا ↗",
+      "ar": "خيارات قد تناسبك ↗",
+      "en": "Options you may like ↗"
+    },
+    {
+      "original": "قد يناسبك أيضًا ←",
+      "ar": "خيارات قد تناسبك ←",
+      "en": "Options you may like ←"
+    },
+    {
+      "original": "الموديل / SKU ↗",
+      "ar": "الموديل / رمز المنتج ↗",
+      "en": "Model / product code ↗"
+    },
+    {
+      "original": "الموديل / SKU ←",
+      "ar": "الموديل / رمز المنتج ←",
+      "en": "Model / product code ←"
+    },
+    {
+      "original": "تأكيد المخزون",
+      "ar": "تأكّد من التوفر",
+      "en": "Check availability"
+    },
+    {
+      "original": "تأكيد المخزون ↗",
+      "ar": "تأكّد من التوفر ↗",
+      "en": "Check availability ↗"
+    },
+    {
+      "original": "تأكيد المخزون ←",
+      "ar": "تأكّد من التوفر ←",
+      "en": "Check availability ←"
+    },
+    {
+      "original": "غير متوفر",
+      "ar": "غير متوفر حاليًا",
+      "en": "Currently unavailable"
+    },
+    {
+      "original": "غير متوفر ↗",
+      "ar": "غير متوفر حاليًا ↗",
+      "en": "Currently unavailable ↗"
+    },
+    {
+      "original": "غير متوفر ←",
+      "ar": "غير متوفر حاليًا ←",
+      "en": "Currently unavailable ←"
+    },
+    {
+      "original": "متوفر بعدة خيارات",
+      "ar": "اختر الخيارات",
+      "en": "Choose options"
+    },
+    {
+      "original": "متوفر بعدة خيارات ↗",
+      "ar": "اختر الخيارات ↗",
+      "en": "Choose options ↗"
+    },
+    {
+      "original": "متوفر بعدة خيارات ←",
+      "ar": "اختر الخيارات ←",
+      "en": "Choose options ←"
+    },
+    {
+      "original": "عالم Juzo",
+      "ar": "اكتشف جوزو",
+      "en": "Discover Juzo"
+    },
+    {
+      "original": "عالم Juzo ←",
+      "ar": "اكتشف جوزو ←",
+      "en": "Discover Juzo ←"
+    },
+    {
+      "original": "اكتشف عالم Juzo ↗",
+      "ar": "اكتشف جوزو ↗",
+      "en": "Discover Juzo ↗"
+    },
+    {
+      "original": "اكتشف عالم Juzo ←",
+      "ar": "اكتشف جوزو ←",
+      "en": "Discover Juzo ←"
+    },
+    {
+      "original": "اكتشف Juzo ↗",
+      "ar": "اكتشف جوزو ↗",
+      "en": "Discover Juzo ↗"
+    },
+    {
+      "original": "اكتشف Juzo ←",
+      "ar": "اكتشف جوزو ←",
+      "en": "Discover Juzo ←"
+    },
+    {
+      "original": "ادخل عالم Juzo ←",
+      "ar": "اكتشف جوزو ←",
+      "en": "Discover Juzo ←"
+    },
+    {
+      "original": "استعرض مجموعة Juzo ←",
+      "ar": "اكتشف جوزو ←",
+      "en": "Discover Juzo ←"
+    },
+    {
+      "original": "اللون المطلوب",
+      "ar": "اختر اللون",
+      "en": "Choose a colour"
+    },
+    {
+      "original": "اللون المطلوب ↗",
+      "ar": "اختر اللون ↗",
+      "en": "Choose a colour ↗"
+    },
+    {
+      "original": "اللون المطلوب ←",
+      "ar": "اختر اللون ←",
+      "en": "Choose a colour ←"
+    },
+    {
+      "original": "اختَر لونًا",
+      "ar": "اختر اللون",
+      "en": "Choose a colour"
+    },
+    {
+      "original": "اختَر لونًا ↗",
+      "ar": "اختر اللون ↗",
+      "en": "Choose a colour ↗"
+    },
+    {
+      "original": "اختَر لونًا ←",
+      "ar": "اختر اللون ←",
+      "en": "Choose a colour ←"
+    },
+    {
+      "original": "ألوان هذا المنتج",
+      "ar": "الألوان المتاحة لهذا المنتج",
+      "en": "Colours available for this product"
+    },
+    {
+      "original": "ألوان هذا المنتج ↗",
+      "ar": "الألوان المتاحة لهذا المنتج ↗",
+      "en": "Colours available for this product ↗"
+    },
+    {
+      "original": "ألوان هذا المنتج ←",
+      "ar": "الألوان المتاحة لهذا المنتج ←",
+      "en": "Colours available for this product ←"
+    },
+    {
+      "original": "الصورة غير متاحة لهذا اللون",
+      "ar": "صورة هذا اللون غير متاحة حاليًا",
+      "en": "An image for this colour is currently unavailable"
+    },
+    {
+      "original": "الصورة غير متاحة لهذا اللون ↗",
+      "ar": "صورة هذا اللون غير متاحة حاليًا ↗",
+      "en": "An image for this colour is currently unavailable ↗"
+    },
+    {
+      "original": "الصورة غير متاحة لهذا اللون ←",
+      "ar": "صورة هذا اللون غير متاحة حاليًا ←",
+      "en": "An image for this colour is currently unavailable ←"
+    },
+    {
+      "original": "الجوارب الطبية ↗",
+      "ar": "جوارب طبية ضاغطة ↗",
+      "en": "Medical compression stockings ↗"
+    },
+    {
+      "original": "الجوارب الطبية ←",
+      "ar": "جوارب طبية ضاغطة ←",
+      "en": "Medical compression stockings ←"
+    },
+    {
+      "original": "جوارب طبية",
+      "ar": "جوارب طبية ضاغطة",
+      "en": "Medical compression stockings"
+    },
+    {
+      "original": "جوارب طبية ↗",
+      "ar": "جوارب طبية ضاغطة ↗",
+      "en": "Medical compression stockings ↗"
+    },
+    {
+      "original": "جوارب طبية ←",
+      "ar": "جوارب طبية ضاغطة ←",
+      "en": "Medical compression stockings ←"
+    },
+    {
+      "original": "أحتاج مساعدة في المقاس",
+      "ar": "أحتاج مساعدة في اختيار المقاس",
+      "en": "I need help choosing a size"
+    },
+    {
+      "original": "أحتاج مساعدة في المقاس ↗",
+      "ar": "أحتاج مساعدة في اختيار المقاس ↗",
+      "en": "I need help choosing a size ↗"
+    },
+    {
+      "original": "أحتاج مساعدة في المقاس ←",
+      "ar": "أحتاج مساعدة في اختيار المقاس ←",
+      "en": "I need help choosing a size ←"
+    },
+    {
+      "original": "مساعد اختيار المقاس",
+      "ar": "تحتاج مساعدة في اختيار المقاس؟",
+      "en": "Need help choosing a size?"
+    },
+    {
+      "original": "مساعد اختيار المقاس ↗",
+      "ar": "تحتاج مساعدة في اختيار المقاس؟ ↗",
+      "en": "Need help choosing a size? ↗"
+    },
+    {
+      "original": "مساعد اختيار المقاس ←",
+      "ar": "تحتاج مساعدة في اختيار المقاس؟ ←",
+      "en": "Need help choosing a size? ←"
+    },
+    {
+      "original": "سلتك لسه فاضية ↗",
+      "ar": "سلتك فاضية ↗",
+      "en": "Your cart is empty ↗"
+    },
+    {
+      "original": "سلتك لسه فاضية ←",
+      "ar": "سلتك فاضية ←",
+      "en": "Your cart is empty ←"
+    },
+    {
+      "original": "ابدأ بالمستهلكات لتجربة الشراء. ↗",
+      "ar": "تصفّح المنتجات وأضف اللي يناسبك ↗",
+      "en": "Browse the products and add what suits you ↗"
+    },
+    {
+      "original": "ابدأ بالمستهلكات لتجربة الشراء. ←",
+      "ar": "تصفّح المنتجات وأضف اللي يناسبك ←",
+      "en": "Browse the products and add what suits you ←"
+    },
+    {
+      "original": "تصفّح المستهلكات ↗",
+      "ar": "تسوّق المستلزمات ↗",
+      "en": "Shop medical supplies ↗"
+    },
+    {
+      "original": "تسوّق المستهلكات ↗",
+      "ar": "تسوّق المستلزمات ↗",
+      "en": "Shop medical supplies ↗"
+    },
+    {
+      "original": "متابعة التصفح ↗",
+      "ar": "كمّل التسوّق ↗",
+      "en": "Continue shopping ↗"
+    },
+    {
+      "original": "متابعة التصفح ←",
+      "ar": "كمّل التسوّق ←",
+      "en": "Continue shopping ←"
+    },
+    {
+      "original": "حذف ↗",
+      "ar": "إزالة ↗",
+      "en": "Remove ↗"
+    },
+    {
+      "original": "حذف ←",
+      "ar": "إزالة ←",
+      "en": "Remove ←"
+    },
+    {
+      "original": "متابعة للدفع التجريبي ↗",
+      "ar": "متابعة الطلب التجريبي ↗",
+      "en": "Continue demo order ↗"
+    },
+    {
+      "original": "اترك استفسارك أو حدّد طلبك. النموذج تجريبي ولا يُرسل بيانات. ↗",
+      "ar": "كيف نقدر نساعدك؟ النموذج تجريبي ولا يُرسل بيانات. ↗",
+      "en": "How can we help? This is a demo form and does not send data. ↗"
+    },
+    {
+      "original": "اترك استفسارك أو حدّد طلبك. النموذج تجريبي ولا يُرسل بيانات. ←",
+      "ar": "كيف نقدر نساعدك؟ النموذج تجريبي ولا يُرسل بيانات. ←",
+      "en": "How can we help? This is a demo form and does not send data. ←"
+    },
+    {
+      "original": "اسم المنشأة (اختياري) ↗",
+      "ar": "اسم المركز أو المنشأة (اختياري) ↗",
+      "en": "Centre or organisation name (optional) ↗"
+    },
+    {
+      "original": "اسم المنشأة (اختياري) ←",
+      "ar": "اسم المركز أو المنشأة (اختياري) ←",
+      "en": "Centre or organisation name (optional) ←"
+    },
+    {
+      "original": "الأجهزة والكميات المطلوبة ↗",
+      "ar": "وش تحتاج لتجهيز مركزك؟ اذكر الأجهزة والكميات المطلوبة ↗",
+      "en": "What do you need for your centre? List equipment and quantities ↗"
+    },
+    {
+      "original": "الأجهزة والكميات المطلوبة ←",
+      "ar": "وش تحتاج لتجهيز مركزك؟ اذكر الأجهزة والكميات المطلوبة ←",
+      "en": "What do you need for your centre? List equipment and quantities ←"
+    },
+    {
+      "original": "مرحبًا بك",
+      "ar": "حيّاك في أورثوسيرف",
+      "en": "Welcome to OrthoServ"
+    },
+    {
+      "original": "مرحبًا بك ↗",
+      "ar": "حيّاك في أورثوسيرف ↗",
+      "en": "Welcome to OrthoServ ↗"
+    },
+    {
+      "original": "مرحبًا بك ←",
+      "ar": "حيّاك في أورثوسيرف ←",
+      "en": "Welcome to OrthoServ ←"
+    },
+    {
+      "original": "مرحباً بك",
+      "ar": "حيّاك في أورثوسيرف",
+      "en": "Welcome to OrthoServ"
+    },
+    {
+      "original": "مرحباً بك ↗",
+      "ar": "حيّاك في أورثوسيرف ↗",
+      "en": "Welcome to OrthoServ ↗"
+    },
+    {
+      "original": "مرحباً بك ←",
+      "ar": "حيّاك في أورثوسيرف ←",
+      "en": "Welcome to OrthoServ ←"
+    },
+    {
+      "original": "الشحن والخدمات ↗",
+      "ar": "التوصيل والخدمات ↗",
+      "en": "Delivery and services ↗"
+    },
+    {
+      "original": "الشحن والخدمات ←",
+      "ar": "التوصيل والخدمات ←",
+      "en": "Delivery and services ←"
+    },
+    {
+      "original": "جهّز مركزك.",
+      "ar": "جهّز مركزك بثقة",
+      "en": "Equip your centre with confidence"
+    },
+    {
+      "original": "جهّز مركزك. ↗",
+      "ar": "جهّز مركزك بثقة ↗",
+      "en": "Equip your centre with confidence ↗"
+    },
+    {
+      "original": "جهّز مركزك. ←",
+      "ar": "جهّز مركزك بثقة ←",
+      "en": "Equip your centre with confidence ←"
+    },
+    {
+      "original": "كل التفاصيل في مكان واحد.",
+      "ar": "حسب احتياج مركزك",
+      "en": "Around your centre’s needs"
+    },
+    {
+      "original": "كل التفاصيل في مكان واحد. ↗",
+      "ar": "حسب احتياج مركزك ↗",
+      "en": "Around your centre’s needs ↗"
+    },
+    {
+      "original": "كل التفاصيل في مكان واحد. ←",
+      "ar": "حسب احتياج مركزك ←",
+      "en": "Around your centre’s needs ←"
+    },
+    {
+      "original": "استعرض أجهزة التأهيل واللياقة والمستلزمات المناسبة لمركزك.",
+      "ar": "أجهزة ومستلزمات للتأهيل والعلاج الطبيعي، حسب احتياج مركزك.",
+      "en": "Rehabilitation and physiotherapy equipment and supplies, tailored to your centre’s needs."
+    },
+    {
+      "original": "استعرض أجهزة التأهيل واللياقة والمستلزمات المناسبة لمركزك. ↗",
+      "ar": "أجهزة ومستلزمات للتأهيل والعلاج الطبيعي، حسب احتياج مركزك. ↗",
+      "en": "Rehabilitation and physiotherapy equipment and supplies, tailored to your centre’s needs. ↗"
+    },
+    {
+      "original": "استعرض أجهزة التأهيل واللياقة والمستلزمات المناسبة لمركزك. ←",
+      "ar": "أجهزة ومستلزمات للتأهيل والعلاج الطبيعي، حسب احتياج مركزك. ←",
+      "en": "Rehabilitation and physiotherapy equipment and supplies, tailored to your centre’s needs. ←"
+    },
+    {
+      "original": "من أول جهاز، ↗",
+      "ar": "ودّك تجهّز مركزك؟ ↗",
+      "en": "Planning to equip your centre? ↗"
+    },
+    {
+      "original": "من أول جهاز، ←",
+      "ar": "ودّك تجهّز مركزك؟ ←",
+      "en": "Planning to equip your centre? ←"
+    },
+    {
+      "original": "إلى تجهيز مركز كامل. ↗",
+      "ar": "من أول جهاز إلى مركز كامل ↗",
+      "en": "From your first device to a complete centre ↗"
+    },
+    {
+      "original": "إلى تجهيز مركز كامل. ←",
+      "ar": "من أول جهاز إلى مركز كامل ←",
+      "en": "From your first device to a complete centre ←"
+    },
+    {
+      "original": "اجمع احتياجات مركزك في طلب واحد، وحدد خدمات التركيب والتدريب المطلوبة. فريق أورثو سيرف يؤكد تفاصيل التجهيز والتكلفة. ↗",
+      "ar": "حدّد احتياجك من الأجهزة والمستلزمات، واطلب عرض تجهيز. خدمات التركيب والتدريب والتكلفة تتأكد مع فريق أورثوسيرف. ↗",
+      "en": "List your equipment and supply needs and request a fit-out quote. Confirm installation, training and pricing with the OrthoServ team. ↗"
+    },
+    {
+      "original": "اجمع احتياجات مركزك في طلب واحد، وحدد خدمات التركيب والتدريب المطلوبة. فريق أورثو سيرف يؤكد تفاصيل التجهيز والتكلفة. ←",
+      "ar": "حدّد احتياجك من الأجهزة والمستلزمات، واطلب عرض تجهيز. خدمات التركيب والتدريب والتكلفة تتأكد مع فريق أورثوسيرف. ←",
+      "en": "List your equipment and supply needs and request a fit-out quote. Confirm installation, training and pricing with the OrthoServ team. ←"
+    },
+    {
+      "original": "ابدأ طلب تجهيز مركزك ←",
+      "ar": "اطلب عرض تجهيز ←",
+      "en": "Request a fit-out quote ←"
+    },
+    {
+      "original": "مجموعة مختارة للتأهيل وتجهيز المراكز. ↗",
+      "ar": "اكتشف أجهزة العلاج الطبيعي والتأهيل لمركزك. ↗",
+      "en": "Explore physiotherapy and rehabilitation equipment for your centre. ↗"
+    },
+    {
+      "original": "مجموعة مختارة للتأهيل وتجهيز المراكز. ←",
+      "ar": "اكتشف أجهزة العلاج الطبيعي والتأهيل لمركزك. ←",
+      "en": "Explore physiotherapy and rehabilitation equipment for your centre. ←"
+    },
+    {
+      "original": "تجهيزات للحركة والتمرين. ↗",
+      "ar": "تجهيزات تناسب شغلك ↗",
+      "en": "Equipment for your work ↗"
+    },
+    {
+      "original": "تجهيزات للحركة والتمرين. ←",
+      "ar": "تجهيزات تناسب شغلك ←",
+      "en": "Equipment for your work ←"
+    },
+    {
+      "original": "حركة تليق بيومك. ↗",
+      "ar": "اختيارات تناسب يومك ↗",
+      "en": "Choices for your everyday life ↗"
+    },
+    {
+      "original": "حركة تليق بيومك. ←",
+      "ar": "اختيارات تناسب يومك ←",
+      "en": "Choices for your everyday life ←"
+    },
+    {
+      "original": "اكتشف الجوارب والأكمام الطبية، واختَر ما يناسب يومك في تجربة Juzo. ↗",
+      "ar": "اكتشف منتجات جوزو والألوان المتاحة لكل منتج. ↗",
+      "en": "Discover Juzo products and the colours available for each product. ↗"
+    },
+    {
+      "original": "اكتشف الجوارب والأكمام الطبية، واختَر ما يناسب يومك في تجربة Juzo. ←",
+      "ar": "اكتشف منتجات جوزو والألوان المتاحة لكل منتج. ←",
+      "en": "Discover Juzo products and the colours available for each product. ←"
     }
   ]
 }

@@ -1,14 +1,23 @@
 {
-  "googleAnalytics": {"enabled": true, "containerId": "GTM-NP7Q5XSF", "measurementId": "G-FH3FVZHC4M"},
-  "analytics": {"enabled": true, "endpoint": "https://orthoserv-analytics.hudagasan2020.workers.dev/collect"},
-  "accounts": {"previewEnabled": true},
+  "googleAnalytics": {
+    "enabled": true,
+    "containerId": "GTM-NP7Q5XSF",
+    "measurementId": "G-FH3FVZHC4M"
+  },
+  "analytics": {
+    "enabled": true,
+    "endpoint": "https://orthoserv-analytics.hudagasan2020.workers.dev/collect"
+  },
+  "accounts": {
+    "previewEnabled": true
+  },
   "schemaVersion": 1,
   "hero": {
-    "titleAr": "كل خطوة للأمام  تدفعك للامام",
+    "titleAr": "تجهيزات تناسب شغلك",
     "titleEn": "Every step forward starts with care.",
-    "descriptionAr": "أجهزة التأهيل، تجهيزات اللياقة، ومنتجات العناية اليومية. اختياراتك للحركة في مكان واحد.",
+    "descriptionAr": "أجهزة التأهيل والعلاج الطبيعي، وتجهيزات اللياقة والمستلزمات الطبية. تسوّق حسب احتياجك.",
     "descriptionEn": "Rehabilitation, fitness equipment and daily care. Your choices for movement, together.",
-    "buttonAr": "تسوّق المجموعة ←",
+    "buttonAr": "استعرض التجهيزات ←",
     "buttonEn": "Shop the collection →",
     "href": "#catalog",
     "image": "assets/uploads/Gemini_Generated_Image_c5egzmc5egzmc5eg-626a4673.jpg",
@@ -118,9 +127,9 @@
     "dilators": "الموسعات وأجهزة النفخ"
   },
   "seo": {
-    "titleAr": "OrthoServ | متجر",
+    "titleAr": "أورثوسيرف | الأجهزة والمستلزمات الطبية",
     "titleEn": "OrthoServ | Movement & Rehabilitation",
-    "descriptionAr": "تجربة متجر أورثو سيرف للتأهيل والعلاج الطبيعي واللياقة والضغط الطبي.",
+    "descriptionAr": "اكتشف أجهزة التأهيل والعلاج الطبيعي واللياقة، والمستلزمات الطبية ومنتجات جوزو من أورثوسيرف. معاينة متجر تجريبية.",
     "descriptionEn": "OrthoServ rehabilitation, physiotherapy, fitness and medical compression."
   },
   "links": [

@@ -80,8 +80,22 @@
   async function logout() { await load(); await sdk.signOut(auth); }
   async function verify() { await load(); if (auth.currentUser) return sdk.sendEmailVerification(auth.currentUser); }
   async function refresh() { await load(); if (auth.currentUser) { await sdk.reload(auth.currentUser); await auth.currentUser.getIdToken(true); } }
+  async function accountRequest(path, options = {}) {
+    if (!/^\/v1\/(team|tickets(?:\/[a-f0-9-]{36}(?:\/(?:reply|delete))?)?)(?:\?offset=\d+)?$/.test(path)) throw new Error('auth/invalid-path');
+    await load();
+    const user=auth.currentUser;
+    if (!user || !session.user || session.user.uid!==user.uid) throw new Error('auth/profile-unavailable');
+    const endpoint=new URL(config().apiUrl);
+    if (endpoint.protocol!=='https:' || endpoint.username || endpoint.password) throw new Error('auth/not-configured');
+    const token=await user.getIdToken();
+    const response=await fetch(new URL(path,endpoint),{method:options.method || 'GET',
+      headers:{Authorization:'Bearer '+token,...(options.body?{'Content-Type':'application/json'}:{})},
+      ...(options.body?{body:JSON.stringify(options.body)}:{}),cache:'no-store',credentials:'omit',redirect:'error',signal:AbortSignal.timeout(15000)});
+    if (!response.ok) { const error=new Error('Account service unavailable.'); error.status=response.status; throw error; }
+    return response.json();
+  }
   window.OrthoAuth = {
-    enabled,load,signIn,signUp,google,reset,logout,verify,refresh,
+    enabled,load,signIn,signUp,google,reset,logout,verify,refresh,accountRequest,
     state:() => ({...session}),
     subscribe(fn) { listeners.add(fn); fn({...session}); return () => listeners.delete(fn); }
   };

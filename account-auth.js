@@ -54,11 +54,17 @@
   }
   function account(state) {
     const role = state.role, privileged = role === 'admin' || role === 'super-admin';
+    if (privileged && window.OrthoManagement) {
+      window.OrthoManagement.render(main,state);
+      main.querySelector('#authLogout').onclick = () => run(() => window.OrthoAuth.logout());
+      return;
+    }
     const title = role === 'super-admin'?'Super Admin':role==='admin'?t('Store administrator','مسؤول المتجر'):t('My account','حسابي');
     main.innerHTML = `<section class="wrap auth-v1" data-no-translate><div class="account-heading"><div><span class="eyebrow">ORTHOSERV</span><h1>${title}</h1><p>${esc(state.user.displayName || state.user.email)}</p></div><button type="button" class="button outline" id="authLogout">${t('Sign out','تسجيل الخروج')}</button></div><div class="account-panel"><h2>${t('Profile','الملف الشخصي')}</h2><dl class="auth-v1-profile"><dt>${t('Email','البريد الإلكتروني')}</dt><dd dir="ltr">${esc(state.user.email)}</dd><dt>${t('Account type','نوع الحساب')}</dt><dd>${title}</dd><dt>${t('Email verification','تأكيد البريد')}</dt><dd>${state.user.emailVerified?t('Verified','مؤكد'):t('Not verified','غير مؤكد')}</dd></dl>${state.user.emailVerified?'':`<button type="button" class="button outline" id="authVerify">${t('Send verification email','إرسال رسالة التأكيد')}</button>`}<button type="button" class="button outline" id="authRefresh">${t('Refresh account','تحديث الحساب')}</button><p id="authMessage" role="status" aria-live="polite"></p></div><div class="account-panel"><h2>${privileged?t('Management','الإدارة'):t('My orders','طلباتي')}</h2><p>${privileged?t('Team permissions and detailed management are handled in TODAY.','إدارة الفريق والصلاحيات والتفاصيل تتم من برنامج TODAY.'):t('Orders are not connected yet. No order history is available.','الطلبات غير متصلة بعد. سجل الطلبات غير متاح حاليًا.')}</p></div><a class="text-link" href="#catalog">${t('Continue shopping','متابعة التسوق')}</a></section>`;
     main.querySelector('#authLogout').onclick = () => run(() => window.OrthoAuth.logout());
     main.querySelector('#authVerify')?.addEventListener('click',() => run(() => window.OrthoAuth.verify(),() => t('Verification email sent.','تم إرسال رسالة التأكيد.')));
     main.querySelector('#authRefresh').onclick = () => run(() => window.OrthoAuth.refresh());
+    if (window.OrthoManagement) window.OrthoManagement.customerTickets(main,state);
   }
   function draw() {
     if (!active()) return;

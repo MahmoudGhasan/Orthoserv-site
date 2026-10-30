@@ -9862,6 +9862,218 @@
         "sourceWorkbook": "OrthoServ-Catalogue-Master.xlsx",
         "sourceRow": 294
       }
+    },
+    {
+      "id": "juzo-soft-knee",
+      "name": "Juzo Soft",
+      "titleAr": "جوارب تحت الركبة",
+      "brand": "Juzo",
+      "model": "",
+      "category": "compression",
+      "group": "compression",
+      "description": "جورب ضغط طبي من مجموعة Soft، بطول تحت الركبة.",
+      "price": null,
+      "priceSource": "",
+      "priceUnit": "",
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "files": [
+        {
+          "file": "assets/products/juzo/juzo-0.jpg",
+          "width": 367,
+          "height": 547,
+          "role": "detail",
+          "alt": {
+            "ar": "Juzo Soft — جوارب تحت الركبة",
+            "en": "Juzo Soft below-knee stockings"
+          }
+        }
+      ],
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": ""
+    },
+    {
+      "id": "juzo-soft-thigh",
+      "name": "Juzo Soft",
+      "titleAr": "جوارب حتى الفخذ",
+      "brand": "Juzo",
+      "model": "",
+      "category": "compression",
+      "group": "compression",
+      "description": "جورب ضغط طبي من مجموعة Soft، بطول حتى الفخذ.",
+      "price": null,
+      "priceSource": "",
+      "priceUnit": "",
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "files": [
+        {
+          "file": "assets/products/juzo/juzo-1.jpg",
+          "width": 367,
+          "height": 547,
+          "role": "lifestyle",
+          "alt": {
+            "ar": "Juzo Soft — جوارب حتى الفخذ",
+            "en": "Juzo Soft thigh stockings"
+          }
+        }
+      ],
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": ""
+    },
+    {
+      "id": "juzo-soft-tights",
+      "name": "Juzo Soft",
+      "titleAr": "جوارب كاملة",
+      "brand": "Juzo",
+      "model": "",
+      "category": "compression",
+      "group": "compression",
+      "description": "تصميم الجوارب الكاملة من مجموعة Soft.",
+      "price": null,
+      "priceSource": "",
+      "priceUnit": "",
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "files": [
+        {
+          "file": "assets/products/juzo/juzo-2.jpg",
+          "width": 367,
+          "height": 547,
+          "role": "lifestyle",
+          "alt": {
+            "ar": "Juzo Soft — جوارب كاملة",
+            "en": "Juzo Soft pantyhose"
+          }
+        }
+      ],
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": ""
+    },
+    {
+      "id": "juzo-soft-sleeve",
+      "name": "Juzo Soft",
+      "titleAr": "كمّ للذراع",
+      "brand": "Juzo",
+      "model": "",
+      "category": "compression",
+      "group": "compression",
+      "description": "كمّ ضغط للذراع من مجموعة Soft.",
+      "price": null,
+      "priceSource": "",
+      "priceUnit": "",
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "files": [
+        {
+          "file": "assets/products/juzo/juzo-3.jpg",
+          "width": 367,
+          "height": 547,
+          "role": "lifestyle",
+          "alt": {
+            "ar": "Juzo Soft — كمّ للذراع",
+            "en": "Juzo Soft sleeves"
+          }
+        }
+      ],
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": ""
+    },
+    {
+      "id": "juzo-wrap-calf",
+      "name": "Juzo Compression Wrap - Calf",
+      "titleAr": "قطعة للساق",
+      "brand": "Juzo",
+      "model": "",
+      "category": "compression",
+      "group": "compression",
+      "description": "قطعة ضغط قابلة للضبط لمنطقة الساق.",
+      "price": null,
+      "priceSource": "",
+      "priceUnit": "",
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "files": [
+        {
+          "file": "assets/products/juzo/juzo-4.jpg",
+          "width": 1006,
+          "height": 1006,
+          "role": "lifestyle",
+          "alt": {
+            "ar": "Juzo Compression Wrap - Calf — قطعة للساق",
+            "en": "Juzo Compression Wrap - Calf"
+          }
+        }
+      ],
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-compression-wrap-calf"
+    },
+    {
+      "id": "juzo-wrap-foot",
+      "name": "Juzo Compression Wrap - Foot",
+      "titleAr": "قطعة للقدم",
+      "brand": "Juzo",
+      "model": "",
+      "category": "compression",
+      "group": "compression",
+      "description": "قطعة ضغط قابلة للضبط لمنطقة القدم.",
+      "price": null,
+      "priceSource": "",
+      "priceUnit": "",
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "files": [
+        {
+          "file": "assets/products/juzo/juzo-5.jpg",
+          "width": 818,
+          "height": 818,
+          "role": "lifestyle",
+          "alt": {
+            "ar": "Juzo Compression Wrap - Foot — قطعة للقدم",
+            "en": "Juzo Compression Wrap - Foot"
+          }
+        }
+      ],
+      "usage": "DEMO ONLY: replace with brand-approved asset",
+      "visible": true,
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": "",
+      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-compression-wrap-foot"
     }
   ],
   "offers": [

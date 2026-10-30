@@ -8,3 +8,9 @@
 .juzo-cw-hidden{display:none!important}
 .juzo-cw-image-status{padding:24px;text-align:center;line-height:1.8}
 .juzo-cw-choice:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+
+/* Transparent OrthoServ logo — sized by height */
+.brand-pair img:not(.juzo-logo){width:auto;height:50px}
+.footer-brand img:first-child{width:auto;height:44px}
+@media(max-width:1100px){.brand-pair img:not(.juzo-logo){width:auto;height:44px}}
+@media(max-width:700px){.brand-pair img:not(.juzo-logo){width:auto;height:36px}.footer-brand img:first-child{width:auto;height:38px}}

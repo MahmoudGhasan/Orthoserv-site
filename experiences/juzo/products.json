@@ -104,7 +104,7 @@
   },
   {
     "id": "wrap-calf",
-    "name": "Juzo Compression Wrap",
+    "name": "Juzo Compression Wrap - Calf",
     "title": "قطعة للساق",
     "category": "wraps",
     "description": "قطعة ضغط قابلة للضبط لمنطقة الساق.",
@@ -112,15 +112,16 @@
     "width": 1006,
     "height": 1006,
     "role": "lifestyle",
-    "alt": "Juzo Compression Wrap calf segment",
+    "alt": "Juzo Compression Wrap - Calf",
     "source": "https://www.juzo.com/_Resources/Persistent/3/2/6/e/326e3be576be0032dd727a91f79bad5aa14be849/compression-wrap-unterschenkel-1006x1006.jpg",
     "page": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-compression-wrap",
     "usage": "DEMO ONLY: replace with brand-approved asset",
-    "visible": true
+    "visible": true,
+    "inquiryUrl": "https://healfit.ae/ar/shop/juzo-compression-wrap-calf"
   },
   {
     "id": "wrap-foot",
-    "name": "Juzo Compression Wrap",
+    "name": "Juzo Compression Wrap - Foot",
     "title": "قطعة للقدم",
     "category": "wraps",
     "description": "قطعة ضغط قابلة للضبط لمنطقة القدم.",
@@ -128,10 +129,11 @@
     "width": 818,
     "height": 818,
     "role": "lifestyle",
-    "alt": "Juzo Compression Wrap foot segment",
+    "alt": "Juzo Compression Wrap - Foot",
     "source": "https://www.juzo.com/_Resources/Persistent/f/f/0/6/ff069ffea453d21ea6e7384fbfc79509387540de/compression-wrap-fuss-818x818.jpg",
     "page": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-compression-wrap",
     "usage": "DEMO ONLY: replace with brand-approved asset",
-    "visible": true
+    "visible": true,
+    "inquiryUrl": "https://healfit.ae/ar/shop/juzo-compression-wrap-foot"
   }
 ]

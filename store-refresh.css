@@ -262,3 +262,48 @@ html[lang=en] .product-info h3 { font-size: 15px; }
 @media (prefers-reduced-motion: reduce) {
   .button, .product-card, .category-row.home-category-tiles > .category-tile { transition: none; }
 }
+
+/* Healfit (UAE) enquiry link on product detail */
+.inquiry-link{display:flex;width:100%;align-items:center;justify-content:space-between;gap:10px;margin-top:13px;padding:12px 18px;border:1px solid #d6e1ed;border-radius:8px;background:#fff;color:var(--blue);font-size:13px;font-weight:600;transition:background .2s,border-color .2s}
+.inquiry-link:hover{background:#f1f6fc;border-color:#9fb8d8}
+
+/* Sticky header: whole search row follows the scroll */
+header{position:sticky;top:0}
+@media(max-width:700px){header{top:-52px}.store-navigation{flex-wrap:nowrap;height:52px;overflow-x:auto}}
+
+/* Contact page */
+.ct-intro h1 b,.ct-form-card h2 b,.fit-copy h2 b{color:var(--blue);font-weight:inherit}
+.ct-body{padding-block:38px 20px;display:grid;gap:22px}
+.ct-chat{display:flex;align-items:center;gap:18px;padding:20px 26px;border-radius:var(--radius);background:linear-gradient(120deg,#102c53,#194b9c);color:#fff;transition:transform .25s var(--ease),box-shadow .25s}
+.ct-chat:hover{transform:translateY(-2px);box-shadow:0 18px 34px -18px #102c53}
+.ct-chat-ico{width:46px;height:46px;border-radius:50%;background:#ffffff1f;display:grid;place-items:center}
+.ct-chat-ico svg{width:24px;height:24px;fill:none;stroke:#fff;stroke-width:1.7}
+.ct-chat-copy{display:grid;gap:2px;flex:1}.ct-chat-copy small{opacity:.75;font-size:12px}.ct-chat-copy strong{font-size:18px;font-weight:600}
+.ct-chat-num{font:600 15px Manrope,Plex,sans-serif;opacity:.9}
+.ct-channels{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.ct-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px;display:grid;gap:8px;align-content:start}
+.ct-ico{width:42px;height:42px;border-radius:10px;background:var(--pale);display:grid;place-items:center;color:var(--blue)}
+.ct-ico svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.ct-card small{color:var(--muted);font-size:12px;margin-top:6px}.ct-val{font-size:16px;font-weight:600;color:var(--navy);line-height:1.7}.ct-card p{color:var(--muted);font-size:13px}.ct-card p a{color:var(--blue)}
+.ct-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(280px,1fr);gap:22px;align-items:start}
+.ct-form-card,.ct-side-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:30px}
+.ct-form-card h2{margin:6px 0 20px;font-size:26px;color:var(--navy)}
+.ct-form-card form{display:grid;gap:14px}.ct-note{color:var(--muted);text-align:center}
+.ct-side{display:grid;gap:16px}
+.ct-side-card h3{margin:0 0 12px;font-size:17px;color:var(--navy)}.ct-side-card p{color:var(--ink);line-height:1.9;font-size:14px}.ct-side-card .text-link{display:inline-block;margin-top:10px}
+.ct-hours{margin:0;display:grid;gap:10px}.ct-hours div{display:flex;justify-content:space-between;gap:12px;font-size:14px;padding-bottom:10px;border-bottom:1px solid var(--line)}.ct-hours div:last-child{border:0;padding:0}.ct-hours dt{color:var(--ink)}.ct-hours dd{margin:0;color:var(--muted)}
+.ct-pro{background:var(--pale)}.ct-pro .button{margin-top:14px}
+/* Fitting-session banner */
+.fit-banner-wrap{padding-block:34px 56px}
+.fit-banner{display:flex;align-items:center;justify-content:space-between;gap:28px;padding:38px 44px;border-radius:18px;background:linear-gradient(120deg,#0f2a4f 0%,#194b9c 100%);color:#fff;position:relative;overflow:hidden}
+.fit-banner:before{content:"";position:absolute;inset-inline-end:-80px;top:-80px;width:280px;height:280px;border-radius:50%;background:#ffffff12}
+.fit-copy{position:relative;max-width:620px}.fit-copy .eyebrow{color:#9fc4ff}
+.fit-copy h2{margin:8px 0 10px;font-size:28px;line-height:1.5;font-weight:600;color:#fff}.fit-copy h2 b{color:#9fc4ff}.fit-copy p{opacity:.85;line-height:1.9}
+.fit-actions{position:relative;display:flex;gap:12px;flex-wrap:wrap}
+.fit-banner .button{background:#fff;color:var(--navy)}.fit-banner .button.ghost{background:transparent;color:#fff;border:1px solid #ffffff66}
+.fit-banner .button:hover{transform:translateY(-1px)}
+@media(max-width:900px){.ct-grid{grid-template-columns:1fr}.fit-banner{flex-direction:column;align-items:flex-start;padding:30px 26px}}
+@media(max-width:600px){.ct-chat{flex-wrap:wrap}.ct-chat-num{width:100%}.ct-form-card,.ct-side-card{padding:22px}}
+
+.button.ghost{background:transparent;color:var(--blue);border:1px solid #c9d7ea}.button.ghost:hover{background:#f1f6fc}
+.fit-banner .button.ghost{background:transparent;color:#fff;border-color:#ffffff66}

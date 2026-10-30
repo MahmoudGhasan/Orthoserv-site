@@ -105,11 +105,12 @@
     "vat": "311590698500003",
     "shortAddress": "RQWC3464",
     "postalCode": "14215",
-    "footerText": "مساحة واحدة للتأهيل، والحركة، والعناية اليومية."
+    "footerText": "مساحة واحدة للتأهيل، والحركة، والعناية اليومية.",
+    "hours": []
   },
   "appearance": {
     "accent": "#194b9c",
-    "logo": "assets/uploads/OrthoServ-logo-transparent-4a2d0a32.png"
+    "logo": "assets/orthoserv-logo-header.png"
   },
   "ad": {
     "enabled": true
@@ -134,7 +135,8 @@
     "stents": "الدعامات",
     "needles": "الإبر وأجهزة الخزعة",
     "catheters": "القساطر",
-    "dilators": "الموسعات وأجهزة النفخ"
+    "dilators": "الموسعات وأجهزة النفخ",
+    "compression": "الضغط الطبي"
   },
   "seo": {
     "titleAr": "أورثوسيرف | الأجهزة والمستلزمات الطبية",
@@ -180,7 +182,7 @@
     },
     {
       "name": "03الضغط الطبيالجوارب والأكمام والمقاسات↗",
-      "href": "experiences/juzo/",
+      "href": "#catalog/compression",
       "key": "shop-compression-juzo"
     },
     {
@@ -205,7 +207,7 @@
     },
     {
       "name": "Juzoالضغط الطبي ↗",
-      "href": "experiences/juzo/",
+      "href": "#brand/juzo",
       "key": "brands-juzo"
     },
     {
@@ -334,6 +336,10 @@
     {
       "slug": "highcare",
       "label": "HIGHCARE"
+    },
+    {
+      "slug": "juzo",
+      "label": "Juzo"
     }
   ]
 }

@@ -208,3 +208,8 @@ footer{padding-block:24px;font-size:13px}
 .motion-static .models-intro{padding-right:0}
 
 .store-return-link{display:inline-block;margin:14px 20px;color:inherit;font-size:14px;text-decoration:underline;text-underline-offset:5px}
+
+/* Transparent OrthoServ logo — sized by height */
+.brand-logo{inline-size:auto;max-inline-size:none;block-size:52px}
+@media(max-width:1000px){.brand-logo{inline-size:auto;block-size:44px}}
+@media(max-width:600px){.brand-logo{inline-size:auto;block-size:38px}}

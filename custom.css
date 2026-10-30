@@ -36,3 +36,12 @@ html[dir="ltr"] .auth-v1 .auth-form,html[dir="ltr"] .auth-v1 .auth-art{direction
  .auth-v1 .auth-art p{font-size:13px}
  .auth-v1 .auth-form{padding:26px 22px!important;background:#fff!important}
 }
+
+/* ORTHOSERV header logo — transparent, no box, fixed height so it scales cleanly. */
+header .logo,.footer-grid img{mix-blend-mode:normal;background:none;border:0;border-radius:0;box-shadow:none}
+header .logo{height:52px;width:auto;max-width:none;object-fit:contain}
+.footer-grid img{height:46px;width:auto;margin-bottom:18px}
+.head{min-height:88px}
+header{border-bottom:0;box-shadow:0 1px 0 #e3eaf2,0 6px 18px -14px rgba(16,44,83,.35)}
+@media(max-width:1000px){header .logo{height:46px;width:auto}}
+@media(max-width:650px){header .logo{height:40px;width:auto}.footer-grid img{height:40px;width:auto}}

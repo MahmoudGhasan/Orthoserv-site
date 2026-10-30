@@ -107,3 +107,9 @@ header .logo{height:44px}
 .juzo-category-codes>button:hover,.juzo-category-codes>button[aria-pressed="true"]{background:var(--blue,#194b9c);border-color:var(--blue,#194b9c);color:#fff}
 .juzo-category-codes>button:focus-visible{outline:2px solid var(--blue,#194b9c);outline-offset:3px}
 .juzo-active-nav-filters{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-block:0 18px;padding:10px 14px;background:var(--pale,#edf4fb);border:1px solid var(--line,#dce5ef);border-radius:8px}.juzo-active-nav-filters>button{min-height:44px}
+
+/* Original vector garment-coverage pictograms; existing site typography is inherited. */
+.juzo-category-codes>button.juzo-piece-code{flex-direction:column;gap:2px;min-width:44px;min-height:66px;padding:5px 7px;font-family:inherit}
+.juzo-piece-figure{display:block;flex:none;width:26px;height:44px;overflow:visible;color:var(--blue,#194b9c)}
+.juzo-piece-figure .juzo-figure-base{fill:#d7dfe9}.juzo-piece-figure .juzo-figure-garment{fill:currentColor}.juzo-piece-figure .juzo-figure-line{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}.juzo-piece-figure .juzo-figure-band{fill:none;stroke:#fff;stroke-width:1.4}
+.juzo-piece-code>span{font-size:9px;line-height:1.2;font-family:inherit}.juzo-piece-code:hover .juzo-piece-figure,.juzo-piece-code[aria-pressed="true"] .juzo-piece-figure{color:#fff}

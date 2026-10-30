@@ -6,7 +6,7 @@
  const en=()=>window.OrthoLang==='en';
  const t=(ar,english)=>en()?english:ar;
  const text=(ar,english)=>`<span data-no-translate>${e(t(ar,english))}</span>`;
- let palette=null,loading=null,ctx=null,host=null,current=null;
+ let palette=null,colorImages={},loading=null,ctx=null,host=null,current=null;
  const selections=new Map();
  const path=file=>{const s=String(file||'');return s&&!s.startsWith('/')&&!s.includes('..')&&!/^[a-z]+:/i.test(s)?BASE+s:'';};
  const legacy=p=>ctx.experienceProducts.find(x=>'juzo-'+x.id===p.id);
@@ -20,28 +20,49 @@
   const s=source(p),ways=s.colorways;
   if(Array.isArray(ways)&&ways.length)return ways.map(w=>({...palette.colors.find(c=>c.id===w.color),...w,id:w.color}));
   const custom=p.juzoOptions?.find(g=>/color|colour|اللون/i.test(g.labelAr||g.labelEn||''));
-  if(custom)return custom.values.filter(name=>String(name).toLowerCase()!=='not color').map(name=>palette.colors.find(c=>c.name.toLowerCase()===String(name).toLowerCase())||{id:String(name),name:String(name),hex:({beige:'#f5f5dc',black:'#000000',white:'#ffffff',blue:'#0000ff',grey:'#808080'})[String(name).toLowerCase()]});
+  if(custom)return custom.values.filter(name=>String(name).toLowerCase()!=='not color').map(name=>({...palette.colors.find(c=>c.name.toLowerCase()===String(name).toLowerCase()),id:String(name),name:String(name),hex:colorImages[p.id]?.[name]?.hex||({beige:'#f5f5dc',black:'#000000',white:'#ffffff',blue:'#0000ff',grey:'#808080'})[String(name).toLowerCase()]}));
   return legacy(p)?palette.colors:[];
  }
  function state(p){
   if(!selections.has(p.id)){
-   const s=source(p),choices=colors(p),first=choices.find(c=>c.default===true)||choices[0];
+   const s=source(p),choices=colors(p),hasWays=Array.isArray(s.colorways)&&s.colorways.length,first=hasWays?(choices.find(c=>c.default===true)||choices[0]):choices.find(c=>colorImages[p.id]?.[c.id]?.images?.length);
    selections.set(p.id,{colorId:first?.id||'',model:s.category||'',fit:'help',fields:{}});
   }
   return selections.get(p.id);
  }
- function photo(p,st=state(p)){
+ function referenceGallery(p){
+  const s=source(p);
+  return legacy(p)?[{file:path(s.image),alt:s.alt||s.title||p.name}]:(p.files||[]).filter(f=>f.role==='product').map(f=>({...f,alt:f.alt?.[en()?'en':'ar']||p.name}));
+ }
+ function safeImage(file){const value=String(file||'');return value&&!value.startsWith('/')&&!value.includes('..')&&!/^[a-z]+:/i.test(value)?value:'';}
+ function gallery(p,st=state(p)){
   const s=source(p);
   if(Array.isArray(s.colorways)&&s.colorways.length){
    const choice=s.colorways.find(c=>c.color===st.colorId);
-   return choice?.image?{file:path(choice.image),alt:choice.alt?.[en()?'en':'ar']||p.name}:null;
+   if(!choice?.image)return [];
+   const file=legacy(p)?path(choice.image):safeImage(choice.image);
+   return file?[{file,alt:choice.alt?.[en()?'en':'ar']||heading(p)}]:[];
   }
-  const f=p.files?.find(x=>x.role==='product')||p.files?.[0];
-  return legacy(p)?{file:path(s.image),alt:s.alt||s.title||p.name}:f?{file:f.file,alt:f.alt?.[en()?'en':'ar']||p.name}:null;
+  if(st.colorId){
+   return (colorImages[p.id]?.[st.colorId]?.images||[]).map(file=>({file:safeImage(file),alt:heading(p)+' — '+st.colorId})).filter(f=>f.file);
+  }
+  return referenceGallery(p);
  }
+ function photo(p,st=state(p)){return gallery(p,st)[0]||null;}
+ function thumbnails(p,st){
+  const files=gallery(p,st);if(files.length<2)return '';
+  return files.map((f,i)=>`<button type="button" data-jz-photo="${i}" aria-label="${e(t('صورة','Photo'))} ${i+1}"><img src="${e(f.file)}" alt="" loading="lazy"></button>`).join('');
+ }
+ function bindGallery(p,st){
+  host.querySelectorAll('[data-jz-photo]').forEach(button=>button.addEventListener('click',()=>{
+   const f=gallery(p,st)[Number(button.dataset.jzPhoto)];if(!f)return;
+   host.querySelector('#jzPhoto').innerHTML=`<img src="${e(f.file)}" alt="${e(typeof f.alt==='object'?f.alt?.[en()?'en':'ar']||heading(p):f.alt||heading(p))}">`;
+  }));
+ }
+
  function picture(p,st,lazy=true){
-  const f=photo(p,st);
-  const byColour=Array.isArray(source(p).colorways)&&source(p).colorways.length>0;
+  const f=photo(p,st)||(lazy?referenceGallery(p)[0]:null);
+  const byColour=Boolean(st.colorId);
   return f?.file?`<img src="${e(f.file)}" alt="${e(f.alt)}" ${lazy?'loading="lazy"':''} decoding="async">`:
    `<p class="jz-unavailable" role="status">${byColour?text('الصورة غير متاحة لهذا اللون','Image unavailable for this colour'):text('الصورة غير متاحة','Image unavailable')}</p>`;
  }
@@ -144,12 +165,14 @@
   optionGroups.forEach(g=>{if(st.fields[g.labelAr]===undefined)st.fields[g.labelAr]=g.values[0]||'';});
   const models=legacyProduct?all().filter(x=>legacy(x)?.name===s.name):[];
   document.title=heading(p)+' | Juzo · OrthoServ';
-  host.innerHTML=`<section class="jz-store wrap jz-product">${crumb(heading(p))}<div class="jz-detail-grid"><div class="jz-gallery"><div id="jzPhoto" class="jz-product-photo">${picture(p,st,false)}</div><p class="jz-photo-note">${text(Array.isArray(s.colorways)&&s.colorways.length?'الصورة مرتبطة باللون المختار.':'صورة تعريفية للمنتج؛ اختيار عيّنة اللون لا يعيد تلوين الصورة.',Array.isArray(s.colorways)&&s.colorways.length?'The image is linked to the selected colour.':'Product reference image; selecting a colour does not recolour this photograph.')}</p>${!legacyProduct&&p.files?.length>1?`<div class="jz-thumbnails">${p.files.map((f,i)=>`<button data-jz-photo="${i}" aria-label="${e(t('صورة','Photo'))} ${i+1}"><img src="${e(f.file)}" alt="" loading="lazy"></button>`).join('')}</div>`:''}</div><div class="jz-product-copy"><a href="#brand/juzo"><img class="jz-logo" src="${BASE}assets/juzo-logo.svg" width="147" height="42" alt="Juzo"></a><span class="jz-overline" data-no-translate>${e(legacyProduct?.name||p.model||'JUZO COMPRESSION')}</span><h1 data-no-translate>${e(heading(p))}</h1><p class="jz-description" data-no-translate>${e(description(p))}</p><div class="jz-availability">${text('السعر والتوفر يُؤكّدان مع الفريق','Confirm pricing and availability with our team')}</div>${models.length>1?`<section class="jz-options"><h2>${text('نوع القطعة','Garment model')}</h2><div class="jz-models">${models.map(m=>`<a class="jz-choice ${m.id===p.id?'is-selected':''}" href="#product/${e(m.id)}" ${m.id===p.id?'aria-current="page"':''} data-no-translate>${e(en()?window.OrthoJuzoNames?.[m.id]||legacy(m)?.alt||m.name:legacy(m)?.title||m.titleAr||m.name)}</a>`).join('')}</div></section>`:''}${optionGroups.length?productOptions(p,st,optionGroups):legacyProduct?`<label class="jz-fit-label">${text('اختيار المقاس','Size selection')}<select class="size-select" id="jzFit"><option value="help" ${st.fit==='help'?'selected':''}>${e(t('أحتاج مساعدة في المقاس','I need help choosing my size'))}</option><option value="known" ${st.fit==='known'?'selected':''}>${e(t('لدي مقاس موصوف مسبقًا','I have a prescribed size'))}</option></select></label>`:''}${choices.length?`<section class="jz-options"><h2>${text('اللون','Colour')}: <span id="jzColorName" data-no-translate>${e(color?.name||color?.id||'')}</span></h2>${swatches(p,st)}</section>`:''}<button class="jz-size-link" id="jzGuideButton">${text('دليل المقاسات','Sizing guide')} ↗</button><div class="jz-detail-actions"><button class="button" id="jzAddInquiry">${text(p.method==='buy'?'أضف إلى السلة':'أضف إلى طلب عرض السعر',p.method==='buy'?'Add to bag':'Add to quote request')} +</button><button class="jz-heart" data-save="${e(p.id)}" aria-label="${e(t('المفضلة','Wishlist'))}" aria-pressed="${ctx.saved.includes(p.id)}">${ctx.saved.includes(p.id)?'♥':'♡'}</button></div><p class="jz-support-copy">${text('أكد الموديل والمقاس وفئة الضغط مع المختص.','Confirm the model, size and compression class with a specialist.')}</p>${supportCard(p)}<details class="jz-accordion" open><summary>${text('تفاصيل المنتج','Product details')}</summary><p data-no-translate>${e(description(p))}</p></details><details class="jz-accordion" id="jzSizeGuide"><summary>${text('المقاسات والعناية','Sizing & care')}</summary>${window.OrthoJuzoMeasurements?.render(p,heading(p))||''}${legacyProduct?`<a class="jz-chart" href="${path(palette.charts[family(p)]?.file)}" target="_blank" rel="noopener"><img src="${path(palette.charts[family(p)]?.file)}" alt="${e(t('جدول المقاسات الرسمي من جوزو','Official Juzo size chart'))}" loading="lazy"></a>`:ctx.sizeGuide(p)}<p>${text('اتّبع تعليمات الاستخدام والعناية الخاصة بالموديل.','Follow the use and care instructions for your particular garment.')}</p><a href="https://www.juzo.com/en/products/usage-and-care-instructions" target="_blank" rel="noopener">${text('تعليمات جوزو الرسمية','Official Juzo care instructions')} ↗</a></details></div></div><section class="jz-related"><div class="jz-section-head"><h2>${text('اكتشف أيضًا من جوزو','More from Juzo')}</h2><a href="${link('products')}">${text('كل المنتجات','All products')} ←</a></div><div class="jz-product-grid">${all().filter(x=>x.id!==p.id&&legacy(x)).slice(0,3).map(productCard).join('')}</div></section></section>`;
+  host.innerHTML=`<section class="jz-store wrap jz-product">${crumb(heading(p))}<div class="jz-detail-grid"><div class="jz-gallery"><div id="jzPhoto" class="jz-product-photo">${picture(p,st,false)}</div><p class="jz-photo-note">${text(Array.isArray(s.colorways)&&s.colorways.length?'الصورة مرتبطة باللون المختار.':'صورة تعريفية للمنتج؛ اختيار عيّنة اللون لا يعيد تلوين الصورة.',Array.isArray(s.colorways)&&s.colorways.length?'The image is linked to the selected colour.':'Product reference image; selecting a colour does not recolour this photograph.')}</p><div class="jz-thumbnails" id="jzThumbnails">${thumbnails(p,st)}</div></div><div class="jz-product-copy"><a href="#brand/juzo"><img class="jz-logo" src="${BASE}assets/juzo-logo.svg" width="147" height="42" alt="Juzo"></a><span class="jz-overline" data-no-translate>${e(legacyProduct?.name||p.model||'JUZO COMPRESSION')}</span><h1 data-no-translate>${e(heading(p))}</h1><p class="jz-description" data-no-translate>${e(description(p))}</p><div class="jz-availability">${text('السعر والتوفر يُؤكّدان مع الفريق','Confirm pricing and availability with our team')}</div>${models.length>1?`<section class="jz-options"><h2>${text('نوع القطعة','Garment model')}</h2><div class="jz-models">${models.map(m=>`<a class="jz-choice ${m.id===p.id?'is-selected':''}" href="#product/${e(m.id)}" ${m.id===p.id?'aria-current="page"':''} data-no-translate>${e(en()?window.OrthoJuzoNames?.[m.id]||legacy(m)?.alt||m.name:legacy(m)?.title||m.titleAr||m.name)}</a>`).join('')}</div></section>`:''}${optionGroups.length?productOptions(p,st,optionGroups):legacyProduct?`<label class="jz-fit-label">${text('اختيار المقاس','Size selection')}<select class="size-select" id="jzFit"><option value="help" ${st.fit==='help'?'selected':''}>${e(t('أحتاج مساعدة في المقاس','I need help choosing my size'))}</option><option value="known" ${st.fit==='known'?'selected':''}>${e(t('لدي مقاس موصوف مسبقًا','I have a prescribed size'))}</option></select></label>`:''}${choices.length?`<section class="jz-options"><h2>${text('اللون','Colour')}: <span id="jzColorName" data-no-translate>${e(color?.name||color?.id||t('اختر اللون لعرض صورته','Choose a colour to see its image'))}</span></h2>${swatches(p,st)}</section>`:''}<button class="jz-size-link" id="jzGuideButton">${text('دليل المقاسات','Sizing guide')} ↗</button><div class="jz-detail-actions"><button class="button" id="jzAddInquiry">${text(p.method==='buy'?'أضف إلى السلة':'أضف إلى طلب عرض السعر',p.method==='buy'?'Add to bag':'Add to quote request')} +</button><button class="jz-heart" data-save="${e(p.id)}" aria-label="${e(t('المفضلة','Wishlist'))}" aria-pressed="${ctx.saved.includes(p.id)}">${ctx.saved.includes(p.id)?'♥':'♡'}</button></div><p class="jz-support-copy">${text('أكد الموديل والمقاس وفئة الضغط مع المختص.','Confirm the model, size and compression class with a specialist.')}</p>${supportCard(p)}<details class="jz-accordion" open><summary>${text('تفاصيل المنتج','Product details')}</summary><p data-no-translate>${e(description(p))}</p></details><details class="jz-accordion" id="jzSizeGuide"><summary>${text('المقاسات والعناية','Sizing & care')}</summary>${window.OrthoJuzoMeasurements?.render(p,heading(p))||''}${legacyProduct?`<a class="jz-chart" href="${path(palette.charts[family(p)]?.file)}" target="_blank" rel="noopener"><img src="${path(palette.charts[family(p)]?.file)}" alt="${e(t('جدول المقاسات الرسمي من جوزو','Official Juzo size chart'))}" loading="lazy"></a>`:ctx.sizeGuide(p)}<p>${text('اتّبع تعليمات الاستخدام والعناية الخاصة بالموديل.','Follow the use and care instructions for your particular garment.')}</p><a href="https://www.juzo.com/en/products/usage-and-care-instructions" target="_blank" rel="noopener">${text('تعليمات جوزو الرسمية','Official Juzo care instructions')} ↗</a></details></div></div><section class="jz-related"><div class="jz-section-head"><h2>${text('اكتشف أيضًا من جوزو','More from Juzo')}</h2><a href="${link('products')}">${text('كل المنتجات','All products')} ←</a></div><div class="jz-product-grid">${all().filter(x=>x.id!==p.id&&legacy(x)).slice(0,3).map(productCard).join('')}</div></section></section>`;
   window.OrthoJuzoMeasurements?.bind(host);
   host.querySelectorAll('[data-jz-color]').forEach(button=>button.addEventListener('click',()=>{
    st.colorId=button.dataset.jzColor;
    // Update only the image and colour label. Never replace the model/size controls.
    host.querySelector('#jzPhoto').innerHTML=picture(p,st,false);
+   host.querySelector('#jzThumbnails').innerHTML=thumbnails(p,st);bindGallery(p,st);
+   host.querySelector('.jz-photo-note').textContent=photo(p,st)?t('الصورة مرتبطة باللون المختار.','The image is linked to the selected colour.'):t('الصورة غير متاحة لهذا اللون','Image unavailable for this colour');
    host.querySelector('#jzColorName').textContent=choices.find(c=>c.id===st.colorId)?.name||st.colorId;
    host.querySelectorAll('[data-jz-color]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
    ctx.setSelection(selectionText(p,st));
@@ -157,7 +180,7 @@
   host.querySelectorAll('[data-jz-option]').forEach(select=>select.addEventListener('change',()=>{st.fields[optionGroups[Number(select.dataset.jzOption)].labelAr]=select.value;ctx.setSelection(selectionText(p,st));}));
   bindProductOptions(optionGroups,st);
   host.querySelector('#jzFit')?.addEventListener('change',event=>{st.fit=event.target.value;ctx.setSelection(selectionText(p,st));});
-  host.querySelectorAll('[data-jz-photo]').forEach(button=>button.addEventListener('click',()=>{const f=p.files[Number(button.dataset.jzPhoto)];host.querySelector('#jzPhoto').innerHTML=`<img src="${e(f.file)}" alt="${e(f.alt?.[en()?'en':'ar']||p.name)}">`;}));
+  bindGallery(p,st);
   host.querySelector('#jzGuideButton').onclick=()=>{const guide=host.querySelector('#jzSizeGuide');guide.open=true;guide.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth',block:'center'});guide.querySelector('summary').focus();};
   host.querySelector('#jzAddInquiry').onclick=()=>{
    const picked=choices.find(c=>c.id===st.colorId),row={id:p.id,qty:1,colorId:st.colorId,color:picked?.name||'',fit:st.fit,model:st.model,fields:{...st.fields},option:selectionText(p,st),kind:'juzo-enquiry'};
@@ -192,7 +215,7 @@
    ctx=context;host=main;
    if(palette)render();else{
     host.innerHTML=`<div class="wrap jz-loading" role="status">${text('جارٍ تحميل جوزو…','Loading Juzo…')}</div>`;
-    if(!loading)loading=fetch(BASE+'juzo-options.json').then(r=>{if(!r.ok)throw Error('options');return r.json();}).then(data=>{palette=data;}).catch(()=>{loading=null;throw Error('options');});
+    if(!loading)loading=Promise.all([fetch(BASE+'juzo-options.json').then(r=>{if(!r.ok)throw Error('options');return r.json();}),fetch('juzo-color-images.json').then(r=>r.ok?r.json():{products:{}}).catch(()=>({products:{}}))]).then(([data,images])=>{palette=data;colorImages=images.products||{};}).catch(()=>{loading=null;throw Error('options');});
     const hash=location.hash;loading.then(()=>{if(location.hash===hash)render();}).catch(()=>{if(location.hash===hash)host.innerHTML=`<div class="wrap jz-empty"><p>${text('تعذّر تحميل خيارات جوزو. حدّث الصفحة للمحاولة مجددًا.','Could not load Juzo options. Refresh to retry.')}</p></div>`;});
    }
    return true;

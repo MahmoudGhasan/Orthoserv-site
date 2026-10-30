@@ -1,0 +1,596 @@
+{
+  "products": {
+    "juzo-juzo-move-ad": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-move-ad/03.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-move-ad/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-compression-wrap-knee": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-compression-wrap-knee/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-expert-3022-hfa-glove-open-fingers": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-expert-3022-hfa-glove-open-fingers/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-compression-wrap-thigh": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-compression-wrap-thigh/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-scarprime-direct-ft-3016-men": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-scarprime-direct-ft-3016-men/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-scarprime-direct-ft-3016-women": {
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": []
+      }
+    },
+    "juzo-juzo-scarprime-direct-bt-3016-women": {
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-scarprime-direct-bt-3016-women/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-scarprime-light-cg-4000-sleeve": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-scarprime-light-cg-4000-sleeve/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-classic-seamless-2302-ft": {
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": []
+      },
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-classic-seamless-2302-ft/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-ulcer-pro-compression-stocking-system-venous-ulcer": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-ulcer-pro-compression-stocking-system-venous-ulcer/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-expert-ad": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-expert-ad/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-classic-seamless-bt": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-classic-seamless-bt/01.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-classic-seamless-bt/02.webp"
+        ]
+      }
+    },
+    "juzo-juzo-scarprime-seamless-compression-glove": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-scarprime-seamless-compression-glove/01.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": []
+      }
+    },
+    "juzo-juzo-scarprime-seamless-burn-glove-long-hfd": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-scarprime-seamless-burn-glove-long-hfd/01.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-scarprime-seamless-burn-glove-long-hfd/02.webp"
+        ]
+      }
+    },
+    "juzo-juzo-move-at": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-move-at/01.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": []
+      }
+    },
+    "juzo-juzo-comprima-bolero-arm-sleeves": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-comprima-bolero-arm-sleeves/01.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-comprima-bolero-arm-sleeves/04.webp"
+        ]
+      }
+    },
+    "juzo-juzo-classic-seamless-ago": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-classic-seamless-ago/02.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-classic-seamless-ago/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-sensation-at": {
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-sensation-at/01.webp"
+        ]
+      },
+      "grey": {
+        "name": "grey",
+        "hex": "#808080",
+        "images": [
+          "assets/products/juzo/imported/juzo-sensation-at/04.webp"
+        ]
+      },
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-sensation-at/02.webp"
+        ]
+      }
+    },
+    "juzo-juzo-basic-ad": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-basic-ad/01.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-basic-ad/02.webp"
+        ]
+      }
+    },
+    "juzo-juzo-move-ag": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-move-ag/01.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-move-ag/03.webp"
+        ]
+      }
+    },
+    "juzo-juzo-basic-ag": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-basic-ag/01.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": []
+      }
+    },
+    "juzo-juzo-basic-at": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-basic-at/03.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-basic-at/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-inspiration-ag": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-inspiration-ag/01.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-inspiration-ag/02.webp"
+        ]
+      }
+    },
+    "juzo-juzo-adventure-ad": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": []
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-adventure-ad/02.webp"
+        ]
+      },
+      "Blue": {
+        "name": "Blue",
+        "hex": "#1e90ff",
+        "images": [
+          "assets/products/juzo/imported/juzo-adventure-ad/01.webp"
+        ]
+      },
+      "White": {
+        "name": "White",
+        "hex": "#f7f7f7",
+        "images": [
+          "assets/products/juzo/imported/juzo-adventure-ad/03.webp"
+        ]
+      }
+    },
+    "juzo-juzo-inspiration-atu-maternity-compression-tights": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-inspiration-atu-maternity-compression-tights/03.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-inspiration-atu-maternity-compression-tights/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-dynamic-at-closed-crotch": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-dynamic-at-closed-crotch/01.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-dynamic-at-closed-crotch/02.webp"
+        ]
+      }
+    },
+    "juzo-juzo-inspiration-at": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-inspiration-at/03.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": []
+      },
+      "Blue": {
+        "name": "Blue",
+        "hex": "#1e90ff",
+        "images": [
+          "assets/products/juzo/imported/juzo-inspiration-at/06.webp"
+        ]
+      },
+      "grey": {
+        "name": "grey",
+        "hex": "#808080",
+        "images": [
+          "assets/products/juzo/imported/juzo-inspiration-at/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-dynamic-cotton-ad": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": []
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-dynamic-cotton-ad/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-dynamic-at-open-crotch": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-dynamic-at-open-crotch/01.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-dynamic-at-open-crotch/04.webp"
+        ]
+      }
+    },
+    "juzo-juzo-classic-seamless-zea": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-classic-seamless-zea/01.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": []
+      }
+    },
+    "juzo-juzo-acs-light-j705li-hand-wrap": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": []
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-acs-light-j705li-hand-wrap/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-acs-light-j706li-arm-wrap": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": []
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-acs-light-j706li-arm-wrap/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-acs-light-j704li-thigh-wrap": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": []
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-acs-light-j704li-thigh-wrap/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-acs-light-j703li-knee-wrap": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": []
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-acs-light-j703li-knee-wrap/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-dynamic-cg": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-dynamic-cg/03.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-dynamic-cg/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-acs-light-j702li-calf-wrap": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": []
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-acs-light-j702li-calf-wrap/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-acs-light-j701li-foot-wrap": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": []
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-acs-light-j701li-foot-wrap/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-dynamic-above-knee-stump-shrinker": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-dynamic-above-knee-stump-shrinker/01.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": []
+      }
+    },
+    "juzo-juzo-classic-seamless-2302-ft-men": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-classic-seamless-2302-ft-men/02.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/imported/juzo-classic-seamless-2302-ft-men/01.webp"
+        ]
+      }
+    },
+    "juzo-juzo-dynamic-above-knee-stump-shrinker-hip-attachment": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-dynamic-above-knee-stump-shrinker-hip-attachment/01.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": []
+      }
+    },
+    "juzo-juzo-dynamic-below-knee-stump-shrinker": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#fde1bf",
+        "images": [
+          "assets/products/juzo/imported/juzo-dynamic-below-knee-stump-shrinker/01.webp"
+        ]
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": []
+      }
+    }
+  }
+}

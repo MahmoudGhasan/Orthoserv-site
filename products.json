@@ -10109,13 +10109,63 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-move-ad/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "جوارب ضغط Juzo Move AD تحت الركبة",
+            "en": "Juzo Move AD below-knee compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-move-ad/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب ضغط Juzo Move AD تحت الركبة",
+            "en": "Juzo Move AD below-knee compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-move-ad/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب ضغط Juzo Move AD تحت الركبة",
+            "en": "Juzo Move AD below-knee compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-move-ad/04.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب ضغط Juzo Move AD تحت الركبة",
+            "en": "Juzo Move AD below-knee compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-move-ad/05.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب ضغط Juzo Move AD تحت الركبة",
+            "en": "Juzo Move AD below-knee compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-move-ad/06.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب ضغط Juzo Move AD تحت الركبة",
+            "en": "Juzo Move AD below-knee compression stockings"
           }
         }
       ],
@@ -10968,13 +11018,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-special-gloves-9301/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "قفازات ارتداء Juzo Special لملابس الضغط | مطلية باللاتكس غير القابل للانزلاق",
+            "en": "Juzo Special non-slip latex-coated donning gloves"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-special-gloves-9301/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "قفازات ارتداء Juzo Special لملابس الضغط | مطلية باللاتكس غير القابل للانزلاق",
+            "en": "Juzo Special non-slip latex-coated donning gloves"
           }
         }
       ],
@@ -11138,13 +11198,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-acs-light-j714-pads/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo ACS Light وسادة | وسادة ضغط لنظام ضغط ACS",
+            "en": "Juzo ACS Light J714 compression pads"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-acs-light-j714-pads/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo ACS Light وسادة | وسادة ضغط لنظام ضغط ACS",
+            "en": "Juzo ACS Light J714 compression pads"
           }
         }
       ],
@@ -11195,13 +11265,13 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-acs-light-j712-midline-band/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo ACS Light شريط منتصف الخط | شريط تمديد لنظام ضغط ACS",
+            "en": "Juzo ACS Light J712 extension band"
           }
         }
       ],
@@ -11249,13 +11319,83 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-sc-lymphaid-arm-6801/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo SoftCompress LymphAid للذراع | ضمّادة ضغط",
+            "en": "Juzo SoftCompress LymphAid arm compression bandage"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-sc-lymphaid-arm-6801/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo SoftCompress LymphAid للذراع | ضمّادة ضغط",
+            "en": "Juzo SoftCompress LymphAid arm compression bandage"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-sc-lymphaid-arm-6801/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo SoftCompress LymphAid للذراع | ضمّادة ضغط",
+            "en": "Juzo SoftCompress LymphAid arm compression bandage"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-sc-lymphaid-arm-6801/04.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo SoftCompress LymphAid للذراع | ضمّادة ضغط",
+            "en": "Juzo SoftCompress LymphAid arm compression bandage"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-sc-lymphaid-arm-6801/05.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo SoftCompress LymphAid للذراع | ضمّادة ضغط",
+            "en": "Juzo SoftCompress LymphAid arm compression bandage"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-sc-lymphaid-arm-6801/06.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo SoftCompress LymphAid للذراع | ضمّادة ضغط",
+            "en": "Juzo SoftCompress LymphAid arm compression bandage"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-sc-lymphaid-arm-6801/07.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo SoftCompress LymphAid للذراع | ضمّادة ضغط",
+            "en": "Juzo SoftCompress LymphAid arm compression bandage"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-sc-lymphaid-arm-6801/08.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo SoftCompress LymphAid للذراع | ضمّادة ضغط",
+            "en": "Juzo SoftCompress LymphAid arm compression bandage"
           }
         }
       ],
@@ -11303,13 +11443,43 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-pressure-pad-9420/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "وسائد الضغط Juzo 9420، 9420L",
+            "en": "Juzo 9420 / 9420L pressure pads"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-pressure-pad-9420/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "وسائد الضغط Juzo 9420، 9420L",
+            "en": "Juzo 9420 / 9420L pressure pads"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-pressure-pad-9420/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "وسائد الضغط Juzo 9420، 9420L",
+            "en": "Juzo 9420 / 9420L pressure pads"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-pressure-pad-9420/04.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "وسائد الضغط Juzo 9420، 9420L",
+            "en": "Juzo 9420 / 9420L pressure pads"
           }
         }
       ],
@@ -11358,13 +11528,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-lymphpad/01.webp",
+          "width": 367,
+          "height": 547,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo Lymphpad - حشوة ضغط للوذمة اللمفية والوذمة الشحمية | 12 x 16 cm",
+            "en": "Juzo Lymphpad compression padding – 12 × 16 cm"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-lymphpad/02.webp",
+          "width": 367,
+          "height": 547,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo Lymphpad - حشوة ضغط للوذمة اللمفية والوذمة الشحمية | 12 x 16 cm",
+            "en": "Juzo Lymphpad compression padding – 12 × 16 cm"
           }
         }
       ],
@@ -11413,13 +11593,13 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/silicone-press-pads-naked/01.jpg",
+          "width": 700,
+          "height": 700,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "حشوات الضغط السيليكونية Naked",
+            "en": "Naked silicone pressure pads"
           }
         }
       ],
@@ -11468,13 +11648,43 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-easyfit-1890/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo Easy Fit مساعد الارتداء والخلع | لجوارب الضغط ذات الأصابع المفتوحة أو المغلقة",
+            "en": "Juzo Easy Fit donning and doffing aid"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-easyfit-1890/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo Easy Fit مساعد الارتداء والخلع | لجوارب الضغط ذات الأصابع المفتوحة أو المغلقة",
+            "en": "Juzo Easy Fit donning and doffing aid"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-easyfit-1890/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo Easy Fit مساعد الارتداء والخلع | لجوارب الضغط ذات الأصابع المفتوحة أو المغلقة",
+            "en": "Juzo Easy Fit donning and doffing aid"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-easyfit-1890/04.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo Easy Fit مساعد الارتداء والخلع | لجوارب الضغط ذات الأصابع المفتوحة أو المغلقة",
+            "en": "Juzo Easy Fit donning and doffing aid"
           }
         }
       ],
@@ -11582,13 +11792,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-expert-3022-hfa-glove-open-fingers/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "قفاز الضغط ذو النسيج المسطّح Juzo Expert للعناية بالوذمة اللمفية في اليد | أصابع مفتوحة",
+            "en": "Juzo Expert flat-knit open-finger compression glove"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-expert-3022-hfa-glove-open-fingers/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "قفاز الضغط ذو النسيج المسطّح Juzo Expert للعناية بالوذمة اللمفية في اليد | أصابع مفتوحة",
+            "en": "Juzo Expert flat-knit open-finger compression glove"
           }
         }
       ],
@@ -12827,13 +13047,13 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-compression-wrap-knee/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo Compression Wrap - Knee",
+            "en": "Juzo Compression Wrap – Knee"
           }
         }
       ],
@@ -13020,13 +13240,13 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-compression-wrap-thigh/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "رباط الضغط Juzo - الفخذ",
+            "en": "Juzo Compression Wrap – Thigh"
           }
         }
       ],
@@ -13293,13 +13513,33 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-scarprime-direct-ft-3016-men/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "سروال بيرمودا Juzo ScarPrime Direct FT | للرجال",
+            "en": "Juzo ScarPrime Direct FT Bermuda shorts – Men"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-scarprime-direct-ft-3016-men/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "سروال بيرمودا Juzo ScarPrime Direct FT | للرجال",
+            "en": "Juzo ScarPrime Direct FT Bermuda shorts – Men"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-scarprime-direct-ft-3016-men/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "سروال بيرمودا Juzo ScarPrime Direct FT | للرجال",
+            "en": "Juzo ScarPrime Direct FT Bermuda shorts – Men"
           }
         }
       ],
@@ -13690,13 +13930,33 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-scarprime-direct-ft-3016-women/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "سروال بيرمودا Juzo ScarPrime Direct FT | للنساء",
+            "en": "Juzo ScarPrime Direct FT Bermuda shorts – Women"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-scarprime-direct-ft-3016-women/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "سروال بيرمودا Juzo ScarPrime Direct FT | للنساء",
+            "en": "Juzo ScarPrime Direct FT Bermuda shorts – Women"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-scarprime-direct-ft-3016-women/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "سروال بيرمودا Juzo ScarPrime Direct FT | للنساء",
+            "en": "Juzo ScarPrime Direct FT Bermuda shorts – Women"
           }
         }
       ],
@@ -14086,13 +14346,33 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-scarprime-light-cg-4000-sleeve/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo ScarPrime Light CG | كُمّ ضغط للندبات",
+            "en": "Juzo ScarPrime Light CG compression sleeve"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-scarprime-light-cg-4000-sleeve/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo ScarPrime Light CG | كُمّ ضغط للندبات",
+            "en": "Juzo ScarPrime Light CG compression sleeve"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-scarprime-light-cg-4000-sleeve/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo ScarPrime Light CG | كُمّ ضغط للندبات",
+            "en": "Juzo ScarPrime Light CG compression sleeve"
           }
         }
       ],
@@ -14557,13 +14837,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-scarprime-direct-bt-3016-women/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo ScarPrime Direct Leggings BT | ضغط طبي مرتفع الخصر لعلاج ندبات النساء",
+            "en": "Juzo ScarPrime Direct BT high-waisted leggings – Women"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-scarprime-direct-bt-3016-women/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo ScarPrime Direct Leggings BT | ضغط طبي مرتفع الخصر لعلاج ندبات النساء",
+            "en": "Juzo ScarPrime Direct BT high-waisted leggings – Women"
           }
         }
       ],
@@ -15066,13 +15356,33 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-ulcer-pro-compression-stocking-system-venous-ulcer/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "جورب الضغط Juzo Ulcer Pro | نظام ضغط ثنائي المفعول (1 Expert + 2 بطانة)",
+            "en": "Juzo Ulcer Pro compression stocking system"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-ulcer-pro-compression-stocking-system-venous-ulcer/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جورب الضغط Juzo Ulcer Pro | نظام ضغط ثنائي المفعول (1 Expert + 2 بطانة)",
+            "en": "Juzo Ulcer Pro compression stocking system"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-ulcer-pro-compression-stocking-system-venous-ulcer/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جورب الضغط Juzo Ulcer Pro | نظام ضغط ثنائي المفعول (1 Expert + 2 بطانة)",
+            "en": "Juzo Ulcer Pro compression stocking system"
           }
         }
       ],
@@ -15131,13 +15441,13 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-classic-seamless-2302-ft/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "بنطال برمودا ضاغط بلا خياطة للنساء Juzo Classic Seamless",
+            "en": "Juzo Classic Seamless Bermuda shorts – Women"
           }
         }
       ],
@@ -15785,13 +16095,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-classic-seamless-bt/01.webp",
+          "width": 1200,
+          "height": 1398,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "ليغنز ضغط بلا خياطة للوذمة الشحمية والوذمة اللمفية Juzo Classic Seamless",
+            "en": "Juzo Classic Seamless compression leggings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-classic-seamless-bt/02.webp",
+          "width": 1200,
+          "height": 1383,
+          "role": "product",
+          "alt": {
+            "ar": "ليغنز ضغط بلا خياطة للوذمة الشحمية والوذمة اللمفية Juzo Classic Seamless",
+            "en": "Juzo Classic Seamless compression leggings"
           }
         }
       ],
@@ -16339,13 +16659,43 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-comprima-bolero-arm-sleeves/01.webp",
+          "width": 2146,
+          "height": 2500,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "أكمام ضغط بوليرو نسائية Juzo Comprima",
+            "en": "Juzo Comprima bolero arm sleeves"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-comprima-bolero-arm-sleeves/02.webp",
+          "width": 1431,
+          "height": 1667,
+          "role": "product",
+          "alt": {
+            "ar": "أكمام ضغط بوليرو نسائية Juzo Comprima",
+            "en": "Juzo Comprima bolero arm sleeves"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-comprima-bolero-arm-sleeves/03.webp",
+          "width": 1431,
+          "height": 1667,
+          "role": "product",
+          "alt": {
+            "ar": "أكمام ضغط بوليرو نسائية Juzo Comprima",
+            "en": "Juzo Comprima bolero arm sleeves"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-comprima-bolero-arm-sleeves/04.webp",
+          "width": 2146,
+          "height": 2500,
+          "role": "product",
+          "alt": {
+            "ar": "أكمام ضغط بوليرو نسائية Juzo Comprima",
+            "en": "Juzo Comprima bolero arm sleeves"
           }
         }
       ],
@@ -16409,13 +16759,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-expert-ad/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "جورب ضغط تحت الركبة Juzo Expert (AD)",
+            "en": "Juzo Expert AD below-knee compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-expert-ad/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جورب ضغط تحت الركبة Juzo Expert (AD)",
+            "en": "Juzo Expert AD below-knee compression stockings"
           }
         }
       ],
@@ -17123,13 +17483,53 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-move-at/01.webp",
+          "width": 1806,
+          "height": 2101,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo Move AT Compression Tights (Pantyhose)",
+            "en": "Juzo Move AT compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-move-at/02.webp",
+          "width": 1045,
+          "height": 1216,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo Move AT Compression Tights (Pantyhose)",
+            "en": "Juzo Move AT compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-move-at/03.webp",
+          "width": 1300,
+          "height": 1512,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo Move AT Compression Tights (Pantyhose)",
+            "en": "Juzo Move AT compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-move-at/04.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo Move AT Compression Tights (Pantyhose)",
+            "en": "Juzo Move AT compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-move-at/05.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo Move AT Compression Tights (Pantyhose)",
+            "en": "Juzo Move AT compression tights"
           }
         }
       ],
@@ -17213,13 +17613,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-scarprime-seamless-compression-glove/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "قفاز ضغط للندبات بأصابع مفتوحة Juzo ScarPrime Seamless",
+            "en": "Juzo ScarPrime Seamless open-finger compression glove"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-scarprime-seamless-compression-glove/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "قفاز ضغط للندبات بأصابع مفتوحة Juzo ScarPrime Seamless",
+            "en": "Juzo ScarPrime Seamless open-finger compression glove"
           }
         }
       ],
@@ -17408,13 +17818,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-scarprime-seamless-burn-glove-long-hfd/01.webp",
+          "width": 1196,
+          "height": 1393,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "قفاز ضغط للندبات بأصابع مغلقة وطول ممتد Juzo ScarPrime Seamless",
+            "en": "Juzo ScarPrime Seamless closed-finger long compression glove"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-scarprime-seamless-burn-glove-long-hfd/02.webp",
+          "width": 1196,
+          "height": 1393,
+          "role": "product",
+          "alt": {
+            "ar": "قفاز ضغط للندبات بأصابع مغلقة وطول ممتد Juzo ScarPrime Seamless",
+            "en": "Juzo ScarPrime Seamless closed-finger long compression glove"
           }
         }
       ],
@@ -17660,13 +18080,43 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-sensation-at/01.webp",
+          "width": 1944,
+          "height": 2265,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "بنطال الضغط بالتدليك Juzo Sensation Fit",
+            "en": "Juzo Sensation Fit massage compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-sensation-at/02.webp",
+          "width": 1866,
+          "height": 2174,
+          "role": "product",
+          "alt": {
+            "ar": "بنطال الضغط بالتدليك Juzo Sensation Fit",
+            "en": "Juzo Sensation Fit massage compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-sensation-at/03.webp",
+          "width": 1809,
+          "height": 2108,
+          "role": "product",
+          "alt": {
+            "ar": "بنطال الضغط بالتدليك Juzo Sensation Fit",
+            "en": "Juzo Sensation Fit massage compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-sensation-at/04.webp",
+          "width": 1809,
+          "height": 2108,
+          "role": "product",
+          "alt": {
+            "ar": "بنطال الضغط بالتدليك Juzo Sensation Fit",
+            "en": "Juzo Sensation Fit massage compression tights"
           }
         }
       ],
@@ -18348,13 +18798,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-classic-seamless-ago/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "ملبس ضغط للذراع بلا خياطات مع قفاز لعلاج الوذمة اللمفية",
+            "en": "Juzo Classic Seamless arm garment with glove"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-classic-seamless-ago/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "ملبس ضغط للذراع بلا خياطات مع قفاز لعلاج الوذمة اللمفية",
+            "en": "Juzo Classic Seamless arm garment with glove"
           }
         }
       ],
@@ -19156,13 +19616,13 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-lymph-lotion/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "لوشن Juzo Lymph للعناية بالبشرة",
+            "en": "Juzo Lymph skin-care lotion"
           }
         }
       ],
@@ -19203,13 +19663,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-vital-balsam-7/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "جل العناية بالبشرة Juzo Vital Balsam 7",
+            "en": "Juzo Vital Balsam 7 skin-care gel"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-vital-balsam-7/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جل العناية بالبشرة Juzo Vital Balsam 7",
+            "en": "Juzo Vital Balsam 7 skin-care gel"
           }
         }
       ],
@@ -19261,13 +19731,43 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-move-ag/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "جوارب الضغط حتى الفخذ Juzo Move AG",
+            "en": "Juzo Move AG thigh-high compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-move-ag/02.webp",
+          "width": 350,
+          "height": 408,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب الضغط حتى الفخذ Juzo Move AG",
+            "en": "Juzo Move AG thigh-high compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-move-ag/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب الضغط حتى الفخذ Juzo Move AG",
+            "en": "Juzo Move AG thigh-high compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-move-ag/04.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب الضغط حتى الفخذ Juzo Move AG",
+            "en": "Juzo Move AG thigh-high compression stockings"
           }
         }
       ],
@@ -20071,13 +20571,43 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-basic-ad/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "جوارب Juzo Basic الضاغطة لدوالي الأوردة AD بارتفاع أسفل الركبة | مقدّمة مغلقة",
+            "en": "Juzo Basic AD below-knee closed-toe compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-basic-ad/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Basic الضاغطة لدوالي الأوردة AD بارتفاع أسفل الركبة | مقدّمة مغلقة",
+            "en": "Juzo Basic AD below-knee closed-toe compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-basic-ad/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Basic الضاغطة لدوالي الأوردة AD بارتفاع أسفل الركبة | مقدّمة مغلقة",
+            "en": "Juzo Basic AD below-knee closed-toe compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-basic-ad/04.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Basic الضاغطة لدوالي الأوردة AD بارتفاع أسفل الركبة | مقدّمة مغلقة",
+            "en": "Juzo Basic AD below-knee closed-toe compression stockings"
           }
         }
       ],
@@ -20917,13 +21447,43 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-basic-ag/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "جوارب ضغط Juzo Basic حتى الفخذ | دعم طبي CCL 2 (23-32 mmHg) | مفتوحة الأصابع",
+            "en": "Juzo Basic AG thigh-high open-toe compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-basic-ag/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب ضغط Juzo Basic حتى الفخذ | دعم طبي CCL 2 (23-32 mmHg) | مفتوحة الأصابع",
+            "en": "Juzo Basic AG thigh-high open-toe compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-basic-ag/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب ضغط Juzo Basic حتى الفخذ | دعم طبي CCL 2 (23-32 mmHg) | مفتوحة الأصابع",
+            "en": "Juzo Basic AG thigh-high open-toe compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-basic-ag/04.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب ضغط Juzo Basic حتى الفخذ | دعم طبي CCL 2 (23-32 mmHg) | مفتوحة الأصابع",
+            "en": "Juzo Basic AG thigh-high open-toe compression stockings"
           }
         }
       ],
@@ -21761,13 +22321,43 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-basic-at/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "جوارب الضغط Juzo Basic AT | أصابع مفتوحة",
+            "en": "Juzo Basic AT open-toe compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-basic-at/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب الضغط Juzo Basic AT | أصابع مفتوحة",
+            "en": "Juzo Basic AT open-toe compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-basic-at/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب الضغط Juzo Basic AT | أصابع مفتوحة",
+            "en": "Juzo Basic AT open-toe compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-basic-at/04.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب الضغط Juzo Basic AT | أصابع مفتوحة",
+            "en": "Juzo Basic AT open-toe compression tights"
           }
         }
       ],
@@ -22607,13 +23197,53 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-inspiration-ag/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "جوارب Juzo Inspiration الضاغطة | جوارب خفيفة شبه شفّافة لدوالي الأوردة والوذمة",
+            "en": "Juzo Inspiration AG semi-sheer thigh-high stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-ag/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Inspiration الضاغطة | جوارب خفيفة شبه شفّافة لدوالي الأوردة والوذمة",
+            "en": "Juzo Inspiration AG semi-sheer thigh-high stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-ag/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Inspiration الضاغطة | جوارب خفيفة شبه شفّافة لدوالي الأوردة والوذمة",
+            "en": "Juzo Inspiration AG semi-sheer thigh-high stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-ag/04.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Inspiration الضاغطة | جوارب خفيفة شبه شفّافة لدوالي الأوردة والوذمة",
+            "en": "Juzo Inspiration AG semi-sheer thigh-high stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-ag/05.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Inspiration الضاغطة | جوارب خفيفة شبه شفّافة لدوالي الأوردة والوذمة",
+            "en": "Juzo Inspiration AG semi-sheer thigh-high stockings"
           }
         }
       ],
@@ -23471,13 +24101,103 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-inspiration-at/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
+            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-at/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
+            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-at/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
+            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-at/04.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
+            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-at/05.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
+            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-at/06.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
+            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-at/07.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
+            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-at/08.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
+            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-at/09.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
+            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-at/10.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
+            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
           }
         }
       ],
@@ -24337,13 +25057,43 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-inspiration-atu-maternity-compression-tights/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "جوارب Juzo Inspiration الضاغطة للحمل | دعم بانتيهوز للأمومة",
+            "en": "Juzo Inspiration ATU maternity compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-atu-maternity-compression-tights/02.jpg",
+          "width": 1785,
+          "height": 2500,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Inspiration الضاغطة للحمل | دعم بانتيهوز للأمومة",
+            "en": "Juzo Inspiration ATU maternity compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-atu-maternity-compression-tights/03.webp",
+          "width": 1785,
+          "height": 2500,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Inspiration الضاغطة للحمل | دعم بانتيهوز للأمومة",
+            "en": "Juzo Inspiration ATU maternity compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-inspiration-atu-maternity-compression-tights/04.webp",
+          "width": 1785,
+          "height": 2500,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Inspiration الضاغطة للحمل | دعم بانتيهوز للأمومة",
+            "en": "Juzo Inspiration ATU maternity compression tights"
           }
         }
       ],
@@ -25200,13 +25950,33 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-adventure-ad/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "جوارب ضغط Juzo Adventure AD للرجال | تحت الركبة، مقدمة مغلقة",
+            "en": "Juzo Adventure AD below-knee closed-toe stockings – Men"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-adventure-ad/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب ضغط Juzo Adventure AD للرجال | تحت الركبة، مقدمة مغلقة",
+            "en": "Juzo Adventure AD below-knee closed-toe stockings – Men"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-adventure-ad/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب ضغط Juzo Adventure AD للرجال | تحت الركبة، مقدمة مغلقة",
+            "en": "Juzo Adventure AD below-knee closed-toe stockings – Men"
           }
         }
       ],
@@ -25759,13 +26529,53 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-dynamic-cotton-ad/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "جوارب Juzo Dynamic Cotton الضاغطة 3511 AD | جوارب ضغط حتى الركبة",
+            "en": "Juzo Dynamic Cotton 3511 AD below-knee compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-dynamic-cotton-ad/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Dynamic Cotton الضاغطة 3511 AD | جوارب ضغط حتى الركبة",
+            "en": "Juzo Dynamic Cotton 3511 AD below-knee compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-dynamic-cotton-ad/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Dynamic Cotton الضاغطة 3511 AD | جوارب ضغط حتى الركبة",
+            "en": "Juzo Dynamic Cotton 3511 AD below-knee compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-dynamic-cotton-ad/04.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Dynamic Cotton الضاغطة 3511 AD | جوارب ضغط حتى الركبة",
+            "en": "Juzo Dynamic Cotton 3511 AD below-knee compression stockings"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-dynamic-cotton-ad/05.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Dynamic Cotton الضاغطة 3511 AD | جوارب ضغط حتى الركبة",
+            "en": "Juzo Dynamic Cotton 3511 AD below-knee compression stockings"
           }
         }
       ],
@@ -26624,13 +27434,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-dynamic-at-closed-crotch/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
+            "en": "Juzo Dynamic AT closed-crotch compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-dynamic-at-closed-crotch/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
+            "en": "Juzo Dynamic AT closed-crotch compression tights"
           }
         }
       ],
@@ -27489,13 +28309,43 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-dynamic-at-open-crotch/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
+            "en": "Juzo Dynamic AT open-crotch compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-dynamic-at-open-crotch/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
+            "en": "Juzo Dynamic AT open-crotch compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-dynamic-at-open-crotch/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
+            "en": "Juzo Dynamic AT open-crotch compression tights"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-dynamic-at-open-crotch/04.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
+            "en": "Juzo Dynamic AT open-crotch compression tights"
           }
         }
       ],
@@ -28343,13 +29193,33 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-scarpad-extra/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "شرائح السيليكون للندبات Juzo ScarPad Extra (الولادة القيصرية والجسم)",
+            "en": "Juzo ScarPad Extra silicone scar sheets"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-scarpad-extra/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "شرائح السيليكون للندبات Juzo ScarPad Extra (الولادة القيصرية والجسم)",
+            "en": "Juzo ScarPad Extra silicone scar sheets"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-scarpad-extra/03.webp",
+          "width": 690,
+          "height": 804,
+          "role": "product",
+          "alt": {
+            "ar": "شرائح السيليكون للندبات Juzo ScarPad Extra (الولادة القيصرية والجسم)",
+            "en": "Juzo ScarPad Extra silicone scar sheets"
           }
         }
       ],
@@ -28497,13 +29367,33 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-scarpad-light/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "شرائح السيليكون للندبات Juzo ScarPad Light (الوجه واليدين)",
+            "en": "Juzo ScarPad Light silicone scar sheets"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-scarpad-light/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "شرائح السيليكون للندبات Juzo ScarPad Light (الوجه واليدين)",
+            "en": "Juzo ScarPad Light silicone scar sheets"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-scarpad-light/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "شرائح السيليكون للندبات Juzo ScarPad Light (الوجه واليدين)",
+            "en": "Juzo ScarPad Light silicone scar sheets"
           }
         }
       ],
@@ -28648,13 +29538,13 @@
       "options": [],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-scarpad-strong/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "شرائح السيليكون للندبات Juzo ScarPad Strong (الندبات العنيدة)",
+            "en": "Juzo ScarPad Strong silicone scar sheets"
           }
         }
       ],
@@ -28771,13 +29661,13 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-classic-seamless-zea/01.webp",
+          "width": 480,
+          "height": 559,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "غطاء الأصابع الضاغط بلا خياطة Juzo Classic للوذمة اللمفية",
+            "en": "Juzo Classic Seamless compression toe cap"
           }
         }
       ],
@@ -28985,13 +29875,53 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-dynamic-cg/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "كم ضغط للذراع Juzo Dynamic | فئة الضغط 2",
+            "en": "Juzo Dynamic CG compression arm sleeve"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-dynamic-cg/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "كم ضغط للذراع Juzo Dynamic | فئة الضغط 2",
+            "en": "Juzo Dynamic CG compression arm sleeve"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-dynamic-cg/03.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "كم ضغط للذراع Juzo Dynamic | فئة الضغط 2",
+            "en": "Juzo Dynamic CG compression arm sleeve"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-dynamic-cg/04.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "كم ضغط للذراع Juzo Dynamic | فئة الضغط 2",
+            "en": "Juzo Dynamic CG compression arm sleeve"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-dynamic-cg/05.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "كم ضغط للذراع Juzo Dynamic | فئة الضغط 2",
+            "en": "Juzo Dynamic CG compression arm sleeve"
           }
         }
       ],
@@ -29572,13 +30502,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-acs-light-j706li-arm-wrap/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo ACS Light قطعة الذراع | نظام ضغط طبي تكيّفي لتخفيف احتقان الذراع",
+            "en": "Juzo ACS Light J706LI arm wrap"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-acs-light-j706li-arm-wrap/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo ACS Light قطعة الذراع | نظام ضغط طبي تكيّفي لتخفيف احتقان الذراع",
+            "en": "Juzo ACS Light J706LI arm wrap"
           }
         }
       ],
@@ -29920,13 +30860,13 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-acs-light-j705li-hand-wrap/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo ACS Light قطعة اليد | نظام ضغط طبي تكيّفي لتخفيف احتقان اليد",
+            "en": "Juzo ACS Light J705LI hand wrap"
           }
         }
       ],
@@ -30048,13 +30988,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-acs-light-j704li-thigh-wrap/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo ACS Light قطعة الفخذ | نظام ضغط طبي تكيّفي لتخفيف احتقان الفخذ",
+            "en": "Juzo ACS Light J704LI thigh wrap"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-acs-light-j704li-thigh-wrap/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo ACS Light قطعة الفخذ | نظام ضغط طبي تكيّفي لتخفيف احتقان الفخذ",
+            "en": "Juzo ACS Light J704LI thigh wrap"
           }
         }
       ],
@@ -30341,13 +31291,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-acs-light-j703li-knee-wrap/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo ACS Light قطعة الركبة | نظام ضغط طبي تكيّفي لتخفيف احتقان الركبة",
+            "en": "Juzo ACS Light J703LI knee wrap"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-acs-light-j703li-knee-wrap/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo ACS Light قطعة الركبة | نظام ضغط طبي تكيّفي لتخفيف احتقان الركبة",
+            "en": "Juzo ACS Light J703LI knee wrap"
           }
         }
       ],
@@ -30536,13 +31496,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-acs-light-j702li-calf-wrap/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo ACS Light قطعة الساق | نظام ضغط طبي تكيّفي لتخفيف احتقان الساق",
+            "en": "Juzo ACS Light J702LI calf wrap"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-acs-light-j702li-calf-wrap/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo ACS Light قطعة الساق | نظام ضغط طبي تكيّفي لتخفيف احتقان الساق",
+            "en": "Juzo ACS Light J702LI calf wrap"
           }
         }
       ],
@@ -30831,13 +31801,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-acs-light-j701li-foot-wrap/01.webp",
+          "width": 920,
+          "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo ACS Light قطعة القدم | نظام ضغط طبي تكيّفي لتخفيف احتقان القدم",
+            "en": "Juzo ACS Light J701LI foot wrap"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-acs-light-j701li-foot-wrap/02.webp",
+          "width": 920,
+          "height": 1072,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo ACS Light قطعة القدم | نظام ضغط طبي تكيّفي لتخفيف احتقان القدم",
+            "en": "Juzo ACS Light J701LI foot wrap"
           }
         }
       ],
@@ -31068,13 +32048,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-classic-seamless-2302-ft-men/01.webp",
+          "width": 718,
+          "height": 836,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "سروال بيرمودا ضاغط للرجال Juzo Classic Seamless",
+            "en": "Juzo Classic Seamless Bermuda shorts – Men"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-classic-seamless-2302-ft-men/02.webp",
+          "width": 1436,
+          "height": 1673,
+          "role": "product",
+          "alt": {
+            "ar": "سروال بيرمودا ضاغط للرجال Juzo Classic Seamless",
+            "en": "Juzo Classic Seamless Bermuda shorts – Men"
           }
         }
       ],
@@ -31148,13 +32138,13 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-dynamic-above-knee-stump-shrinker/01.webp",
+          "width": 874,
+          "height": 1000,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "ملبس ضغط لتقليص الجذمور فوق الركبة Juzo Dynamic",
+            "en": "Juzo Dynamic above-knee stump shrinker"
           }
         }
       ],
@@ -31240,13 +32230,13 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-dynamic-above-knee-stump-shrinker-hip-attachment/01.webp",
+          "width": 1767,
+          "height": 2059,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "ملبس ضغط لتقليص الجذمور فوق الركبة مع ملحق الورك Juzo Dynamic",
+            "en": "Juzo Dynamic above-knee stump shrinker with hip attachment"
           }
         }
       ],
@@ -31331,13 +32321,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-dynamic-below-knee-stump-shrinker/01.webp",
+          "width": 920,
+          "height": 1073,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "ملبس ضغط لتقليص الجذمور تحت الركبة Juzo Dynamic",
+            "en": "Juzo Dynamic below-knee stump shrinker"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-dynamic-below-knee-stump-shrinker/02.webp",
+          "width": 920,
+          "height": 1073,
+          "role": "product",
+          "alt": {
+            "ar": "ملبس ضغط لتقليص الجذمور تحت الركبة Juzo Dynamic",
+            "en": "Juzo Dynamic below-knee stump shrinker"
           }
         }
       ],
@@ -31410,13 +32410,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/orthoserv-catalogue-placeholder.svg",
-          "width": 640,
-          "height": 640,
+          "file": "assets/products/juzo/imported/juzo-special-detergent/01.webp",
+          "width": 601,
+          "height": 700,
           "role": "product",
           "alt": {
-            "ar": "صورة بديلة من أورثو سيرف؛ صورة المنتج لم تُضف بعد",
-            "en": "OrthoServ placeholder; product photo not yet supplied"
+            "ar": "Juzo Special Detergent for Compression Garments",
+            "en": "Juzo Special detergent for compression garments"
+          }
+        },
+        {
+          "file": "assets/products/juzo/imported/juzo-special-detergent/02.webp",
+          "width": 479,
+          "height": 558,
+          "role": "product",
+          "alt": {
+            "ar": "Juzo Special Detergent for Compression Garments",
+            "en": "Juzo Special detergent for compression garments"
           }
         }
       ],

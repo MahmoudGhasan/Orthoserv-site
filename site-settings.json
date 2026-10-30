@@ -1122,498 +1122,432 @@
     }
   ],
   "juzoNavigation": [
-    {
-      "groupId": "post-surgery",
-      "label": "ما بعد الجراحة والتعافي",
-      "sourceUrl": "https://healfit.ae/ar/category/post-surgery",
-      "columns": [
-        [
-          {
-            "groupId": "post-surgery__liposuction-garments-women",
-            "label": "ملابس شفط الدهون [نساء]",
-            "heading": "نحت الجسم",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/liposuction-garments-women"
-          },
-          {
-            "groupId": "post-surgery__liposuction-garments-men",
-            "label": "ملابس شفط الدهون [رجال]",
-            "heading": "نحت الجسم",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/liposuction-garments-men"
-          },
-          {
-            "groupId": "post-surgery__tummy-tuck-garments",
-            "label": "مشدات شد البطن",
-            "heading": "نحت الجسم",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/tummy-tuck-garments"
-          },
-          {
-            "groupId": "post-surgery__lipedema-garments",
-            "label": "ملابس الوذمة الشحمية",
-            "heading": "نحت الجسم",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/lipedema-garments"
-          },
-          {
-            "groupId": "post-surgery__abdominal-binders",
-            "label": "مشدات البطن",
-            "heading": "نحت الجسم",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/abdominal-binders"
-          },
-          {
-            "groupId": "post-surgery__post-partum-recovery",
-            "label": "التعافي بعد الولادة",
-            "heading": "نحت الجسم",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/post-partum-recovery"
-          },
-          {
-            "groupId": "post-surgery__bbl-garments",
-            "label": "ملابس BBL",
-            "heading": "نحت الجسم",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/bbl-garments"
-          },
-          {
-            "groupId": "post-surgery__lipo-foam",
-            "label": "إسفنج شفط الدهون",
-            "heading": "نحت الجسم",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/lipo-foam"
-          }
-        ],
-        [
-          {
-            "groupId": "post-surgery__bras-breast-stabilizer",
-            "label": "حمالات ومثبتات الثدي",
-            "heading": "جراحة الثدي والصدر",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/bras-breast-stabilizer"
-          },
-          {
-            "groupId": "post-surgery__thorax-corset-women",
-            "label": "مشد صدري [نساء]",
-            "heading": "جراحة الثدي والصدر",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/thorax-corset-women"
-          },
-          {
-            "groupId": "post-surgery__thorax-vest-men",
-            "label": "سترة صدرية [رجال]",
-            "heading": "جراحة الثدي والصدر",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/thorax-vest-men"
-          }
-        ],
-        [
-          {
-            "groupId": "post-surgery__arm-sleeves",
-            "label": "أكمام الذراع",
-            "heading": "الوجه والذراع واليد",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/arm-sleeves"
-          },
-          {
-            "groupId": "post-surgery__face-masks-chin-straps",
-            "label": "أقنعة الوجه وأحزمة الذقن",
-            "heading": "الوجه والذراع واليد",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/face-masks-chin-straps"
-          },
-          {
-            "groupId": "burn-scar-care__gloves",
-            "label": "القفازات",
-            "heading": "الوجه والذراع واليد",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/gloves"
-          },
-          {
-            "groupId": "burn-scar-care__silicone-sheets-gel",
-            "label": "ألواح وجل السيليكون",
-            "heading": "منتجات العناية بالبشرة",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/silicone-sheets-gel"
-          },
-          {
-            "groupId": "burn-scar-care__scar-oil",
-            "label": "زيت الندبات",
-            "heading": "منتجات العناية بالبشرة",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/scar-oil"
-          },
-          {
-            "groupId": "burn-scar-care__sun-care",
-            "label": "العناية بالشمس",
-            "heading": "منتجات العناية بالبشرة",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/sun-care"
-          }
-        ]
+  {
+    "groupId": "post-surgery",
+    "label": "ما بعد الجراحة والتعافي",
+    "sourceUrl": "https://healfit.ae/ar/category/post-surgery",
+    "columns": [
+      [
+        {
+          "groupId": "post-surgery__liposuction-garments-women",
+          "label": "ملابس شفط الدهون [نساء]",
+          "heading": "نحت الجسم",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/liposuction-garments-women"
+        },
+        {
+          "groupId": "post-surgery__liposuction-garments-men",
+          "label": "ملابس شفط الدهون [رجال]",
+          "heading": "نحت الجسم",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/liposuction-garments-men"
+        },
+        {
+          "groupId": "post-surgery__tummy-tuck-garments",
+          "label": "مشدات شد البطن",
+          "heading": "نحت الجسم",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/tummy-tuck-garments"
+        },
+        {
+          "groupId": "post-surgery__lipedema-garments",
+          "label": "ملابس الوذمة الشحمية",
+          "heading": "نحت الجسم",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/lipedema-garments"
+        },
+        {
+          "groupId": "post-surgery__abdominal-binders",
+          "label": "مشدات البطن",
+          "heading": "نحت الجسم",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/abdominal-binders"
+        },
+        {
+          "groupId": "post-surgery__post-partum-recovery",
+          "label": "التعافي بعد الولادة",
+          "heading": "نحت الجسم",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/post-partum-recovery"
+        },
+        {
+          "groupId": "post-surgery__bbl-garments",
+          "label": "ملابس BBL",
+          "heading": "نحت الجسم",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/bbl-garments"
+        },
+        {
+          "groupId": "post-surgery__lipo-foam",
+          "label": "إسفنج شفط الدهون",
+          "heading": "نحت الجسم",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/lipo-foam"
+        }
+      ],
+      [
+        {
+          "groupId": "post-surgery__bras-breast-stabilizer",
+          "label": "حمالات ومثبتات الثدي",
+          "heading": "جراحة الثدي والصدر",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/bras-breast-stabilizer"
+        },
+        {
+          "groupId": "post-surgery__thorax-corset-women",
+          "label": "مشد صدري [نساء]",
+          "heading": "جراحة الثدي والصدر",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/thorax-corset-women"
+        },
+        {
+          "groupId": "post-surgery__thorax-vest-men",
+          "label": "سترة صدرية [رجال]",
+          "heading": "جراحة الثدي والصدر",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/thorax-vest-men"
+        }
+      ],
+      [
+        {
+          "groupId": "post-surgery__arm-sleeves",
+          "label": "أكمام الذراع",
+          "heading": "الوجه والذراع واليد",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/arm-sleeves"
+        },
+        {
+          "groupId": "post-surgery__face-masks-chin-straps",
+          "label": "أقنعة الوجه وأحزمة الذقن",
+          "heading": "الوجه والذراع واليد",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/face-masks-chin-straps"
+        },
+        {
+          "groupId": "burn-scar-care__gloves",
+          "label": "القفازات",
+          "heading": "الوجه والذراع واليد",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/gloves"
+        }
       ]
-    },
-    {
-      "groupId": "vein-care",
-      "label": "دوالي الأوردة والعناية بالأوردة",
-      "sourceUrl": "https://healfit.ae/ar/category/vein-care",
-      "columns": [
-        [
-          {
-            "groupId": "vein-care__basic-essential",
-            "label": "الأساسيات اليومية",
-            "heading": "رقيق وشفاف",
-            "pressureClasses": [
-              "CCL 1",
-              "CCL 2"
-            ],
-            "pieceTypes": [
-              "AD",
-              "AG",
-              "AT"
-            ],
-            "sourceUrl": "https://healfit.ae/ar/category/vein-care/basic-essential"
-          },
-          {
-            "groupId": "vein-care__transparent-daily",
-            "label": "شفاف يومي",
-            "heading": "رقيق وشفاف",
-            "pressureClasses": [
-              "CCL 1",
-              "CCL 2"
-            ],
-            "pieceTypes": [
-              "AG",
-              "AT",
-              "ATU"
-            ],
-            "sourceUrl": "https://healfit.ae/ar/category/vein-care/transparent-daily"
-          }
-        ],
-        [
-          {
-            "groupId": "vein-care__easy-wearing-knit",
-            "label": "حياكة سهلة الارتداء",
-            "heading": "دعم أقوى",
-            "pressureClasses": [
-              "CCL 1",
-              "CCL 2",
-              "CCL 3"
-            ],
-            "pieceTypes": [
-              "AD",
-              "AG",
-              "AT"
-            ],
-            "sourceUrl": "https://healfit.ae/ar/category/vein-care/easy-wearing-knit"
-          },
-          {
-            "groupId": "vein-care__durable-active",
-            "label": "متين ونشط",
-            "heading": "دعم أقوى",
-            "pressureClasses": [
-              "CCL 1",
-              "CCL 2",
-              "CCL 3"
-            ],
-            "pieceTypes": [
-              "AD",
-              "AG",
-              "AT"
-            ],
-            "sourceUrl": "https://healfit.ae/ar/category/vein-care/durable-active"
-          },
-          {
-            "groupId": "vein-care__maximum-support",
-            "label": "أقصى دعم",
-            "heading": "دعم أقوى",
-            "pressureClasses": [
-              "CCL 1",
-              "CCL 2",
-              "CCL 3"
-            ],
-            "pieceTypes": [
-              "AD"
-            ],
-            "sourceUrl": "https://healfit.ae/ar/category/vein-care/maximum-support"
-          },
-          {
-            "groupId": "vein-care__stump-shrinkers",
-            "label": "مقلصات الجذمور",
-            "heading": "دعم أقوى",
-            "pressureClasses": [
-              "CCL 1",
-              "CCL 2",
-              "CCL 3"
-            ],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/vein-care/stump-shrinkers"
-          }
-        ],
-        [
-          {
-            "groupId": "vein-care__adjustable-compression-wraps",
-            "label": "لفائف ضغط قابلة للتعديل",
-            "heading": "اللفائف والقرح والتفصيل حسب الطلب",
-            "pressureClasses": [
-              "CCL 3",
-              "CCL 4"
-            ],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/vein-care/adjustable-compression-wraps"
-          },
-          {
-            "groupId": "vein-care__venous-ulcer-stockings",
-            "label": "جوارب قرح الأوردة",
-            "heading": "اللفائف والقرح والتفصيل حسب الطلب",
-            "pressureClasses": [
-              "CCL 3",
-              "CCL 4"
-            ],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/vein-care/venous-ulcer-stockings"
-          },
-          {
-            "groupId": "custom-made__compression-stockings",
-            "label": "جوارب محبوكة دائريا حسب الطلب",
-            "heading": "اللفائف والقرح والتفصيل حسب الطلب",
-            "pressureClasses": [
-              "CCL 3",
-              "CCL 4"
-            ],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/custom-made-garments/compression-stockings"
-          },
-          {
-            "groupId": "lymphedema-lipedema__lotions",
-            "label": "اللوشن",
-            "heading": "منتجات العناية بالبشرة",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/lotions"
-          }
-        ]
+    ]
+  },
+  {
+    "groupId": "vein-care",
+    "label": "دوالي الأوردة والعناية بالأوردة",
+    "sourceUrl": "https://healfit.ae/ar/category/vein-care",
+    "columns": [
+      [
+        {
+          "groupId": "vein-care__basic-essential",
+          "label": "الأساسيات اليومية",
+          "heading": "رقيق وشفاف",
+          "pressureClasses": [
+            "CCL 1",
+            "CCL 2"
+          ],
+          "pieceTypes": [
+            "AD",
+            "AG",
+            "AT"
+          ],
+          "sourceUrl": "https://healfit.ae/ar/category/vein-care/basic-essential"
+        },
+        {
+          "groupId": "vein-care__transparent-daily",
+          "label": "شفاف يومي",
+          "heading": "رقيق وشفاف",
+          "pressureClasses": [
+            "CCL 1",
+            "CCL 2"
+          ],
+          "pieceTypes": [
+            "AG",
+            "AT",
+            "ATU"
+          ],
+          "sourceUrl": "https://healfit.ae/ar/category/vein-care/transparent-daily"
+        }
+      ],
+      [
+        {
+          "groupId": "vein-care__easy-wearing-knit",
+          "label": "حياكة سهلة الارتداء",
+          "heading": "دعم أقوى",
+          "pressureClasses": [
+            "CCL 1",
+            "CCL 2",
+            "CCL 3"
+          ],
+          "pieceTypes": [
+            "AD",
+            "AG",
+            "AT"
+          ],
+          "sourceUrl": "https://healfit.ae/ar/category/vein-care/easy-wearing-knit"
+        },
+        {
+          "groupId": "vein-care__durable-active",
+          "label": "متين ونشط",
+          "heading": "دعم أقوى",
+          "pressureClasses": [
+            "CCL 1",
+            "CCL 2",
+            "CCL 3"
+          ],
+          "pieceTypes": [
+            "AD",
+            "AG",
+            "AT"
+          ],
+          "sourceUrl": "https://healfit.ae/ar/category/vein-care/durable-active"
+        },
+        {
+          "groupId": "vein-care__maximum-support",
+          "label": "أقصى دعم",
+          "heading": "دعم أقوى",
+          "pressureClasses": [
+            "CCL 1",
+            "CCL 2",
+            "CCL 3"
+          ],
+          "pieceTypes": [
+            "AD"
+          ],
+          "sourceUrl": "https://healfit.ae/ar/category/vein-care/maximum-support"
+        },
+        {
+          "groupId": "vein-care__stump-shrinkers",
+          "label": "مقلصات الجذمور",
+          "heading": "دعم أقوى",
+          "pressureClasses": [
+            "CCL 1",
+            "CCL 2",
+            "CCL 3"
+          ],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/vein-care/stump-shrinkers"
+        }
+      ],
+      [
+        {
+          "groupId": "vein-care__adjustable-compression-wraps",
+          "label": "لفائف ضغط قابلة للتعديل",
+          "heading": "اللفائف والقرح والتفصيل حسب الطلب",
+          "pressureClasses": [
+            "CCL 3",
+            "CCL 4"
+          ],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/vein-care/adjustable-compression-wraps"
+        },
+        {
+          "groupId": "vein-care__venous-ulcer-stockings",
+          "label": "جوارب قرح الأوردة",
+          "heading": "اللفائف والقرح والتفصيل حسب الطلب",
+          "pressureClasses": [
+            "CCL 3",
+            "CCL 4"
+          ],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/vein-care/venous-ulcer-stockings"
+        },
+        {
+          "groupId": "custom-made__compression-stockings",
+          "label": "جوارب محبوكة دائريا حسب الطلب",
+          "heading": "اللفائف والقرح والتفصيل حسب الطلب",
+          "pressureClasses": [
+            "CCL 3",
+            "CCL 4"
+          ],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/custom-made-garments/compression-stockings"
+        }
       ]
-    },
-    {
-      "groupId": "lymphedema-lipedema",
-      "label": "الوذمة اللمفية والوذمة الشحمية",
-      "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema",
-      "columns": [
-        [
-          {
-            "groupId": "lymphedema-lipedema__arm-sleeves-gloves",
-            "label": "أكمام وقفازات الذراع",
-            "heading": "جاهز للارتداء",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/arm-sleeves-gloves"
-          },
-          {
-            "groupId": "lymphedema-lipedema__compression-stockings",
-            "label": "جوارب الضغط",
-            "heading": "جاهز للارتداء",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/compression-stockings"
-          },
-          {
-            "groupId": "lymphedema-lipedema__leggings-pants",
-            "label": "اللباس والبناطيل",
-            "heading": "جاهز للارتداء",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/leggings-pants"
-          },
-          {
-            "groupId": "lymphedema-lipedema__massage-pants",
-            "label": "جوارب التدليك",
-            "heading": "جاهز للارتداء",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/massage-pants"
-          },
-          {
-            "groupId": "lymphedema-lipedema__stump-shrinkers-lymph",
-            "label": "مقلصات الجذمور",
-            "heading": "جاهز للارتداء",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/stump-shrinkers-lymph"
-          },
-          {
-            "groupId": "lymphedema-lipedema__toe-caps",
-            "label": "أغطية الأصابع",
-            "heading": "جاهز للارتداء",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/toe-caps"
-          }
-        ],
-        [
-          {
-            "groupId": "lymphedema-lipedema__adjustable-compression-wraps-lymph",
-            "label": "لفائف ضغط قابلة للتعديل",
-            "heading": "تخفيف الاحتقان والعناية الليلية",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/adjustable-compression-wraps-lymph"
-          },
-          {
-            "groupId": "lymphedema-lipedema__foam-padding-bandaging",
-            "label": "حشوات الإسفنج والضماد",
-            "heading": "تخفيف الاحتقان والعناية الليلية",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/foam-padding-bandaging"
-          },
-          {
-            "groupId": "lymphedema-lipedema__sleepcompress-night-garment",
-            "label": "ملابس النوم الليلية SleepCompress",
-            "heading": "تخفيف الاحتقان والعناية الليلية",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/sleepcompress-night-garment"
-          },
-          {
-            "groupId": "custom-made__lymphedema-lipoedema",
-            "label": "ملابس ضغط بنسيج مسطح حسب الطلب",
-            "heading": "ملابس ضغط مُفصَّلة حسب الطلب",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/custom-made-garments/lymphedema-lipoedema"
-          }
-        ],
-        [
-          {
-            "groupId": "lymphedema-lipedema__lotions",
-            "label": "اللوشن",
-            "heading": "منتجات العناية بالبشرة",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/lotions"
-          },
-          {
-            "groupId": "lymphedema-lipedema__lymphatic-drainage-pumps",
-            "label": "مضخات التصريف اللمفي",
-            "heading": "الضغط الهوائي المتقطع (IPC)",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/lymphatic-drainage-pumps"
-          }
-        ]
+    ]
+  },
+  {
+    "groupId": "lymphedema-lipedema",
+    "label": "الوذمة اللمفية والوذمة الشحمية",
+    "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema",
+    "columns": [
+      [
+        {
+          "groupId": "lymphedema-lipedema__arm-sleeves-gloves",
+          "label": "أكمام وقفازات الذراع",
+          "heading": "جاهز للارتداء",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/arm-sleeves-gloves"
+        },
+        {
+          "groupId": "lymphedema-lipedema__compression-stockings",
+          "label": "جوارب الضغط",
+          "heading": "جاهز للارتداء",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/compression-stockings"
+        },
+        {
+          "groupId": "lymphedema-lipedema__leggings-pants",
+          "label": "اللباس والبناطيل",
+          "heading": "جاهز للارتداء",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/leggings-pants"
+        },
+        {
+          "groupId": "lymphedema-lipedema__massage-pants",
+          "label": "جوارب التدليك",
+          "heading": "جاهز للارتداء",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/massage-pants"
+        },
+        {
+          "groupId": "lymphedema-lipedema__stump-shrinkers-lymph",
+          "label": "مقلصات الجذمور",
+          "heading": "جاهز للارتداء",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/stump-shrinkers-lymph"
+        },
+        {
+          "groupId": "lymphedema-lipedema__toe-caps",
+          "label": "أغطية الأصابع",
+          "heading": "جاهز للارتداء",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/toe-caps"
+        }
+      ],
+      [
+        {
+          "groupId": "lymphedema-lipedema__adjustable-compression-wraps-lymph",
+          "label": "لفائف ضغط قابلة للتعديل",
+          "heading": "تخفيف الاحتقان والعناية الليلية",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/adjustable-compression-wraps-lymph"
+        },
+        {
+          "groupId": "lymphedema-lipedema__foam-padding-bandaging",
+          "label": "حشوات الإسفنج والضماد",
+          "heading": "تخفيف الاحتقان والعناية الليلية",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/foam-padding-bandaging"
+        },
+        {
+          "groupId": "lymphedema-lipedema__sleepcompress-night-garment",
+          "label": "ملابس النوم الليلية SleepCompress",
+          "heading": "تخفيف الاحتقان والعناية الليلية",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/sleepcompress-night-garment"
+        },
+        {
+          "groupId": "custom-made__lymphedema-lipoedema",
+          "label": "ملابس ضغط بنسيج مسطح حسب الطلب",
+          "heading": "ملابس ضغط مُفصَّلة حسب الطلب",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/custom-made-garments/lymphedema-lipoedema"
+        }
+      ],
+      [
+        {
+          "groupId": "lymphedema-lipedema__lymphatic-drainage-pumps",
+          "label": "مضخات التصريف اللمفي",
+          "heading": "الضغط الهوائي المتقطع (IPC)",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/lymphatic-drainage-pumps"
+        }
       ]
-    },
-    {
-      "groupId": "burn-scar-care",
-      "label": "العناية بالحروق والندبات",
-      "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care",
-      "columns": [
-        [
-          {
-            "groupId": "burn-scar-care__gloves",
-            "label": "القفازات",
-            "heading": "جاهز للارتداء",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/gloves"
-          },
-          {
-            "groupId": "post-surgery__arm-sleeves",
-            "label": "أكمام الذراع",
-            "heading": "جاهز للارتداء",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/arm-sleeves"
-          },
-          {
-            "groupId": "post-surgery__thorax-corset-women",
-            "label": "مشد صدري [نساء]",
-            "heading": "جاهز للارتداء",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/thorax-corset-women"
-          },
-          {
-            "groupId": "post-surgery__thorax-vest-men",
-            "label": "سترة صدرية [رجال]",
-            "heading": "جاهز للارتداء",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/thorax-vest-men"
-          },
-          {
-            "groupId": "burn-scar-care__pants-leggings",
-            "label": "البناطيل واللباس الضاغط",
-            "heading": "جاهز للارتداء",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/pants-leggings"
-          }
-        ],
-        [
-          {
-            "groupId": "custom-made__burn-scar-care",
-            "label": "ملابس ندبات بنسيج مسطح حسب الطلب",
-            "heading": "ملابس ضغط مُفصَّلة حسب الطلب",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/custom-made-garments/burn-scar-care"
-          },
-          {
-            "groupId": "custom-made__paediatric",
-            "label": "ملابس ضغط للأطفال",
-            "heading": "ملابس ضغط مُفصَّلة حسب الطلب",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/custom-made-garments/paediatric"
-          }
-        ],
-        [
-          {
-            "groupId": "burn-scar-care__silicone-sheets-gel",
-            "label": "ألواح وجل السيليكون",
-            "heading": "منتجات العناية بالبشرة",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/silicone-sheets-gel"
-          },
-          {
-            "groupId": "burn-scar-care__scar-oil",
-            "label": "زيت الندبات",
-            "heading": "منتجات العناية بالبشرة",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/scar-oil"
-          },
-          {
-            "groupId": "burn-scar-care__sun-care",
-            "label": "العناية بالشمس",
-            "heading": "منتجات العناية بالبشرة",
-            "pressureClasses": [],
-            "pieceTypes": [],
-            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/sun-care"
-          }
-        ]
+    ]
+  },
+  {
+    "groupId": "burn-scar-care",
+    "label": "العناية بالحروق والندبات",
+    "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care",
+    "columns": [
+      [
+        {
+          "groupId": "burn-scar-care__gloves",
+          "label": "القفازات",
+          "heading": "جاهز للارتداء",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/gloves"
+        },
+        {
+          "groupId": "post-surgery__arm-sleeves",
+          "label": "أكمام الذراع",
+          "heading": "جاهز للارتداء",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/arm-sleeves"
+        },
+        {
+          "groupId": "post-surgery__thorax-corset-women",
+          "label": "مشد صدري [نساء]",
+          "heading": "جاهز للارتداء",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/thorax-corset-women"
+        },
+        {
+          "groupId": "post-surgery__thorax-vest-men",
+          "label": "سترة صدرية [رجال]",
+          "heading": "جاهز للارتداء",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/post-surgery/thorax-vest-men"
+        },
+        {
+          "groupId": "burn-scar-care__pants-leggings",
+          "label": "البناطيل واللباس الضاغط",
+          "heading": "جاهز للارتداء",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/pants-leggings"
+        }
+      ],
+      [
+        {
+          "groupId": "custom-made__burn-scar-care",
+          "label": "ملابس ندبات بنسيج مسطح حسب الطلب",
+          "heading": "ملابس ضغط مُفصَّلة حسب الطلب",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/custom-made-garments/burn-scar-care"
+        },
+        {
+          "groupId": "custom-made__paediatric",
+          "label": "ملابس ضغط للأطفال",
+          "heading": "ملابس ضغط مُفصَّلة حسب الطلب",
+          "pressureClasses": [],
+          "pieceTypes": [],
+          "sourceUrl": "https://healfit.ae/ar/custom-made-garments/paediatric"
+        }
       ]
-    }
-  ]
+    ]
+  }
+]
 }

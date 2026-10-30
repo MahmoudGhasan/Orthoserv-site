@@ -21,7 +21,7 @@
     return `<article class="mg-card"><div class="mg-section-head"><h2>${superAdmin?'Latest store orders':'Recent assigned orders'}</h2><button data-tab="orders" class="mg-text">View all orders →</button></div><div class="mg-table-wrap"><table><thead><tr><th>Order</th><th>Customer</th><th>Total</th><th>Status</th></tr></thead><tbody><tr><td colspan="4">${unavailable('Order data unavailable')}</td></tr></tbody></table></div></article>`;
   }
   function stats(superAdmin) {
-    const items=superAdmin?[['orders','All orders','blue'],['sales','Net revenue','green'],['refund','Refunded','red'],['alert','Needs attention','amber']]:[['orders','Assigned orders','blue'],['new','New','blue'],['progress','In progress','amber'],['alert','Needs attention','red']];
+    const items=superAdmin?[['orders','All orders','blue'],['sales','Net revenue','green'],['refund','Refunded sales','red'],['alert','Needs attention','amber']]:[['orders','Assigned orders','blue'],['new','New','blue'],['progress','In progress','amber'],['alert','Needs attention','red']];
     return `<div class="mg-stats">${items.map(([key,label,color])=>`<article class="mg-stat mg-${color}"><div>${icon(key)}<span>${label}</span></div><strong aria-label="Unavailable">—</strong></article>`).join('')}</div>`;
   }
   function overview(root,superAdmin) {
@@ -75,13 +75,42 @@
     if(create)create.onsubmit=async event=>{event.preventDefault();const button=create.querySelector('[type=submit]');button.disabled=true;try{await api('/v1/tickets',{method:'POST',body:{subject:create.elements.subject.value,message:create.elements.message.value}});if(!alive(container,state))return;create.reset();create.querySelector('[data-create-status]').textContent='Ticket created. Our team will reply here.';await load();}catch{create.querySelector('[data-create-status]').textContent='Ticket could not be created. Please try again.';}finally{button.disabled=false;}};
     load();
   }
+  const metric=value=>typeof value==='number' && Number.isFinite(value)?new Intl.NumberFormat('en-SA',{maximumFractionDigits:2}).format(value):'—';
+  function summaryOrders(summary) {
+    return `<div class="mg-table-wrap"><table><thead><tr><th>Order</th><th>Customer</th><th>Total (SAR)</th><th>Status</th></tr></thead><tbody>${summary.orders.length?summary.orders.map(o=>`<tr><td>${esc(o.id)}</td><td>${esc(o.customer)}</td><td>${metric(o.total)}</td><td>${esc(o.status?.replaceAll('_',' ') || '—')}</td></tr>`).join(''):'<tr><td colspan="4">No orders in this period.</td></tr>'}</tbody></table></div>`;
+  }
+  async function commerceSummary(root,panel,state,view) {
+    if(state.role!=='super-admin')return;
+    const generation=(root._summaryGeneration||0)+1;root._summaryGeneration=generation;
+    const current=()=>alive(root,state) && root._summaryGeneration===generation && root.querySelector('[data-view][aria-current="page"]')?.dataset.view===view;
+    const note=root.querySelector('.mg-sync');if(note)note.textContent='Loading TODAY summary…';
+    try {
+      const data=await api('/v1/commerce/summary');if(!current())return;
+      if(!data.connected){if(note)note.textContent='No summary synced yet. In TODAY: Settings → Payments · Test → Sync website summary.';return;}
+      const s=data.summary;if(!s || s.version!==1 || !s.kpis || !Array.isArray(s.orders) || !Array.isArray(s.daily))throw new Error();
+      const label=(s.environment==='test'||/test|simulator/i.test(s.source))?'TEST DATA · Payment simulator':'Verified TODAY source';
+      if(note)note.textContent=`${label} · ${s.start} – ${s.end} · ${s.source} · Synced ${stamp(data.synced_at)}${data.stale?' · Snapshot may be outdated; sync again in TODAY.':''}`;
+      if(view==='overview'){
+        const notice=document.createElement('p');notice.className='mg-muted';notice.textContent=label+' · '+s.start+' – '+s.end+' · Snapshot synced '+stamp(data.synced_at);panel.prepend(notice);
+        const cards=panel.querySelectorAll('.mg-stat strong');['orders','revenue','refunded','attention'].forEach((key,i)=>{if(cards[i]){cards[i].textContent=metric(s.kpis[key]);cards[i].setAttribute('aria-label',key+' '+metric(s.kpis[key]));}});
+        const chart=panel.querySelector('.mg-chart');if(chart)chart.innerHTML=s.daily.length?`<div class="mg-table-wrap"><table><thead><tr><th>Date</th><th>Net revenue (SAR)</th></tr></thead><tbody>${s.daily.map(d=>`<tr><td>${esc(d.date)}</td><td>${metric(d.revenue)}</td></tr>`).join('')}</tbody></table></div>`:unavailable(s.kpis.revenue===null?'Sales source unavailable':'No daily sales breakdown for this period');
+        const table=panel.querySelector('.mg-table-wrap');if(table){const orderCard=panel.querySelector('[data-tab="orders"]')?.closest('.mg-card');if(orderCard){const wrapper=orderCard.querySelector('.mg-table-wrap');if(wrapper)wrapper.outerHTML=summaryOrders(s);}}
+      }else if(view==='orders'){
+        panel.innerHTML=`<article class="mg-card"><h2>Store orders</h2>${s.kpis.orders===null?unavailable('Orders source unavailable'):summaryOrders(s)}<p class="mg-muted">Latest 50 orders · Quote requests are not orders.</p><button class="mg-text" data-today="Dashboard → Orders">More in TODAY ↗</button></article>`;
+      }else if(view==='sales'){
+        panel.innerHTML=`<article class="mg-card"><h2>Sales summary</h2><p>Net revenue (SAR): <strong>${metric(s.kpis.revenue)}</strong></p><p>Refunded sales (count): <strong>${metric(s.kpis.refunded)}</strong></p><p class="mg-muted">Net revenue follows the TODAY source definition. Test payments do not represent real money.</p><button class="mg-text" data-today="Dashboard → Recent sales">More in TODAY ↗</button></article>`;
+      }
+    }catch{if(current() && note)note.textContent='Summary could not be loaded. Check your connection and account permissions; retry Refresh summary.';}
+  }
+
   function render(target,state){
     if(!['admin','super-admin'].includes(state.role))return false;
     const superAdmin=state.role==='super-admin',name=state.user.displayName || state.user.email || 'there';
     const tabs=[['overview','Overview'],['orders','Orders'],['inquiries','Inquiries'],...(superAdmin?[['sales','Sales'],['team','Team']]:[]),['tickets','Tickets']];
-    target.innerHTML=`<section class="mg-shell wrap" lang="en" dir="ltr" data-no-translate><div class="mg-topbar"><a href="#home" class="mg-wordmark">ORTHOSERV</a><a href="#catalog">Shop</a><a href="#account" aria-current="page">My account</a><div class="mg-profile"><button data-tab="tickets" aria-label="Open support tickets" class="mg-notification">${icon('bell')}<span data-badge hidden></span></button><span class="mg-avatar">${esc(name.slice(0,1).toUpperCase())}</span><span>${esc(name.split(' ')[0])}</span><button id="authLogout" class="mg-text">Sign out</button></div></div><div class="mg-content"><div class="mg-breadcrumb"><a href="#home">Home</a> / My account</div><div class="mg-section-head mg-welcome"><div><h1>Welcome back, ${esc(name.split(' ')[0])}<span class="mg-role">${superAdmin?'Super Admin':'Admin'}</span></h1><p>${superAdmin?"Here's what's happening across your store today.":'Here are the orders and inquiries assigned to you.'}</p></div><button class="mg-primary" data-today="Dashboard">More in TODAY ↗</button></div><nav class="mg-tabs" aria-label="Account sections">${tabs.map(([key,label])=>`<button data-view="${key}" aria-current="${key==='overview'?'page':'false'}">${label}</button>`).join('')}</nav><div data-panel></div><p class="mg-sync">Sources: account service · Commerce data not connected</p></div></section>`;
+    target.innerHTML=`<section class="mg-shell wrap" lang="en" dir="ltr" data-no-translate><div class="mg-topbar"><a href="#home" class="mg-wordmark">ORTHOSERV</a><a href="#catalog">Shop</a><a href="#account" aria-current="page">My account</a><div class="mg-profile"><button data-tab="tickets" aria-label="Open support tickets" class="mg-notification">${icon('bell')}<span data-badge hidden></span></button><span class="mg-avatar">${esc(name.slice(0,1).toUpperCase())}</span><span>${esc(name.split(' ')[0])}</span><button id="authLogout" class="mg-text">Sign out</button></div></div><div class="mg-content"><div class="mg-breadcrumb"><a href="#home">Home</a> / My account</div><div class="mg-section-head mg-welcome"><div><h1>Welcome back, ${esc(name.split(' ')[0])}<span class="mg-role">${superAdmin?'Super Admin':'Admin'}</span></h1><p>${superAdmin?"Here's what's happening across your store today.":'Here are the orders and inquiries assigned to you.'}</p></div><div><button class="mg-text" data-refresh-summary>Refresh summary</button><button class="mg-primary" data-today="Dashboard">More in TODAY ↗</button></div></div><nav class="mg-tabs" aria-label="Account sections">${tabs.map(([key,label])=>`<button data-view="${key}" aria-current="${key==='overview'?'page':'false'}">${label}</button>`).join('')}</nav><div data-panel></div><p class="mg-sync">Summary pending · Admin sees assigned records only; store-wide summaries require Super Admin.</p></div></section>`;
     const root=target.querySelector('.mg-shell'),panel=root.querySelector('[data-panel]');
     function select(view){
+      root._summaryGeneration=(root._summaryGeneration||0)+1;
       if(!tabs.some(([key])=>key===view))return;
       root.querySelectorAll('[data-view]').forEach(button=>button.setAttribute('aria-current',button.dataset.view===view?'page':'false'));
       if(view==='overview'){panel.innerHTML=overview(root,superAdmin);counts(root,state,superAdmin);}
@@ -89,8 +118,10 @@
       else if(view==='team'){panel.innerHTML='<article class="mg-card"><h2>Team overview</h2><p data-team-count>Loading team…</p><p class="mg-muted">Member creation, role changes and removal are managed in TODAY.</p><button class="mg-primary" data-today="Settings → Team & access">Open team settings in TODAY ↗</button></article>';counts(root,state,true);}
       else{const title={orders:superAdmin?'Store orders':'Assigned orders',inquiries:'Inquiries',sales:'Sales summary'}[view];panel.innerHTML=`<article class="mg-card"><h2>${title}</h2>${unavailable(title+' unavailable')}<button class="mg-text" data-today="Dashboard → ${view==='sales'?'Recent sales':title}">More in TODAY ↗</button></article>`;}
     }
-    root.addEventListener('click',event=>{const button=event.target.closest('button');if(!button)return;if(button.dataset.view)select(button.dataset.view);else if(button.dataset.tab)select(button.dataset.tab);else if(button.dataset.today)today(root,button.dataset.today);});
-    select('overview');return true;
+    const baseSelect=select;
+    const show=view=>{baseSelect(view);if(['overview','orders','sales'].includes(view))commerceSummary(root,panel,state,view);};
+    root.addEventListener('click',event=>{const button=event.target.closest('button');if(!button)return;if(button.hasAttribute('data-refresh-summary'))show(root.querySelector('[data-view][aria-current="page"]')?.dataset.view || 'overview');else if(button.dataset.view)show(button.dataset.view);else if(button.dataset.tab)show(button.dataset.tab);else if(button.dataset.today)today(root,button.dataset.today);});
+    show('overview');return true;
   }
   function customerTickets(target,state){const root=document.createElement('section');root.className='mg-customer';root.lang='en';root.dir='ltr';root.dataset.noTranslate='';target.querySelector('section').append(root);tickets(root,state,true);}
   window.OrthoManagement={render,customerTickets};

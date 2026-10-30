@@ -524,6 +524,24 @@
       "route": "#home",
       "device": "desktop",
       "hidden": true
+    },
+    {
+      "key": "#main>section:15>article:1>img:1",
+      "route": "#home",
+      "device": "desktop",
+      "hidden": true
+    },
+    {
+      "key": "#main>section:15>article:1",
+      "route": "#home",
+      "device": "desktop",
+      "hidden": true
+    },
+    {
+      "key": "#main>section:15>a:1",
+      "route": "#home",
+      "device": "desktop",
+      "hidden": true
     }
   ],
   "widgets": [

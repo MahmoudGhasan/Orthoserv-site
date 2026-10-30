@@ -5,6 +5,16 @@
       "key": "#main>section:3>div:1>img:1",
       "route": "#home",
       "src": "assets/uploads/Gemini_Generated_Image_jenq2jenq2jenq2j-0c64dc8c.jpg"
+    },
+    {
+      "key": "#juzo-menu-post-surgery>aside:1>img:1",
+      "route": "#brand",
+      "src": "assets/uploads/Gemini_Generated_Image_2kkvu2kkvu2kkvu2-e1d21f0d.jpg"
+    },
+    {
+      "key": "#juzo-menu-vein-care>aside:1>img:1",
+      "route": "#brand",
+      "src": "assets/uploads/Gemini_Generated_Image_h2c1i9h2c1i9h2c1-4c5930bb.jpg"
     }
   ],
   "styles": [

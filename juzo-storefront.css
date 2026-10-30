@@ -180,3 +180,45 @@ dialog.jzm-dialog{position:fixed;inset:0;box-sizing:border-box;width:min(760px,c
 .jzm-dialog>img{display:block;width:100%;height:auto;max-height:70dvh;object-fit:contain;background:#fff}
 .jzm-preview:focus-visible,.jzm-guide a:focus-visible,.jzm-close:focus-visible{outline:3px solid #194b9c;outline-offset:3px}
 @media(max-width:600px){.jzm-guide{padding:14px}.jzm-heading h3{font-size:17px}.jzm-preview img{max-height:300px}.jzm-dialog{padding:14px}.jzm-dialog-head h2{font-size:18px}}
+
+/* Juzo product options and support: additive component styles. */
+.jzp-options{display:grid;gap:24px;margin-block:26px}
+.jzp-group{min-width:0}
+.jzp-label-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.jzp-label-row h2{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin:0;font-size:14px;line-height:1.7;font-weight:500;color:#102f68}
+.jzp-selected-value{color:#425e7e;font-size:13px;font-weight:400}
+.jzp-native[hidden]{display:none}
+.jzp-choice-row{display:flex;flex-wrap:wrap;gap:9px}
+.jzp-choice{position:relative;display:inline-flex;justify-content:center;align-items:center;gap:8px;min-height:46px;min-width:48px;max-width:100%;padding:10px 17px;border:1px solid #dce5ef;border-radius:11px;background:#fff;color:#23344d;font:inherit;font-size:13px;line-height:1.7;cursor:pointer;transition:border-color .15s,background .15s;overflow-wrap:anywhere}
+.jzp-choice:hover{border-color:#7997bf;background:#f8fbfe}
+.jzp-choice[aria-pressed=true]{border-color:#194b9c;background:#edf4fc;color:#194b9c;box-shadow:0 0 0 2px #194b9c14}
+.jzp-choice-tick{display:none;font-size:14px;font-weight:600;line-height:1}
+.jzp-choice[aria-pressed=true] .jzp-choice-tick{display:block}
+.jzp-pressure-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(105px,1fr));gap:10px}
+.jzp-pressure-card{justify-content:flex-start;min-height:76px;padding:16px 12px;font-weight:600;border-radius:13px}
+.jzp-pressure-card .jzp-choice-tick{margin-inline-start:auto}
+.jzp-pressure-shield{display:flex;flex-shrink:0;color:#6a7b90}
+.jzp-pressure-card[aria-pressed=true] .jzp-pressure-shield{color:#194b9c}
+.jzp-guide-link,.jzp-pressure-help{display:inline-flex;align-items:center;min-height:44px;padding:0;color:#194b9c;font:inherit;font-size:12px;text-decoration:underline;text-underline-offset:4px;cursor:pointer}
+.jzp-pressure-help{margin-top:3px;text-align:start}
+.jz-product .jz-swatch[aria-pressed=true]:after{content:'✓';position:absolute;inset-inline-end:-3px;inset-block-start:-3px;display:grid;place-items:center;width:18px;height:18px;border:2px solid #fff;border-radius:50%;background:#194b9c;color:#fff;font-size:11px;line-height:1}
+.jzp-support{margin-block:26px;padding:22px;border:1px solid #dce5ef;border-radius:16px;background:#f7fafe;color:#102f68}
+.jzp-support-features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding-bottom:20px;border-bottom:1px solid #dce5ef}
+.jzp-support-features>div{display:flex;flex-direction:column;align-items:center;gap:9px;text-align:center;font-size:11px;line-height:1.8}
+.jzp-support-features svg{color:#194b9c;flex-shrink:0}
+.jzp-support-note{display:flex;align-items:flex-start;gap:10px;margin-top:18px;font-size:12px;line-height:1.9}
+.jzp-support-mark{display:grid;place-items:center;flex:0 0 23px;height:23px;border-radius:50%;background:#e8f2fc;color:#194b9c}
+.jzp-support-policy{margin-top:18px;padding-block:18px;border-block:1px solid #dce5ef}
+.jzp-support-policy h3{font-size:13px;font-weight:500;margin:0 0 5px;line-height:1.8}
+.jzp-support-policy p,.jzp-support-contact p{font-size:12px;line-height:1.9;color:#425e7e;margin:0}
+.jzp-support-contact{text-align:center;padding-top:18px}
+.jzp-support-contact h2{font-size:16px;line-height:1.7;font-weight:500;margin:0 0 5px}
+.jzp-support-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin-top:14px}
+.jzp-support-actions>a,.jzp-support-actions>button{display:inline-flex;justify-content:center;align-items:center;gap:8px;min-height:44px;padding:9px 17px;border:1px solid #194b9c;border-radius:24px;background:#fff;color:#194b9c;font:inherit;font-size:12px;line-height:1.7;text-decoration:none}
+.jzp-support-actions>a:hover,.jzp-support-actions>button:hover{background:#e8f2fc}
+.jzp-support-actions svg{width:18px;height:18px}
+.jzp-choice:focus-visible,.jzp-guide-link:focus-visible,.jzp-pressure-help:focus-visible,.jzp-support a:focus-visible,.jzp-support button:focus-visible{outline:3px solid #194b9c;outline-offset:3px}
+@media(max-width:600px){.jzp-options{gap:20px}.jzp-pressure-row{grid-template-columns:repeat(auto-fit,minmax(86px,1fr));gap:7px}.jzp-pressure-card{padding:12px 9px;min-height:68px;font-size:12px;gap:6px}.jzp-pressure-shield svg{width:17px;height:17px}.jzp-support{padding:16px}.jzp-support-features{gap:9px}.jzp-support-features>div{font-size:10px}.jzp-choice{padding-inline:14px}}
+@media(prefers-reduced-motion:reduce){.jzp-choice{transition:none}}
+
+.jz-size-link[hidden]{display:none}

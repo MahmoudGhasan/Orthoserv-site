@@ -65,6 +65,8 @@
     main.querySelector('#authVerify')?.addEventListener('click',() => run(() => window.OrthoAuth.verify(),() => t('Verification email sent.','تم إرسال رسالة التأكيد.')));
     main.querySelector('#authRefresh').onclick = () => run(() => window.OrthoAuth.refresh());
     if (window.OrthoManagement) window.OrthoManagement.customerTickets(main,state);
+    if (window.OrthoOrders) window.OrthoOrders.customerPanel(main,state);
+    if (window.OrthoAddresses) window.OrthoAddresses.render(main,state);
   }
   function draw() {
     if (!active()) return;

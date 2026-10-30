@@ -115,11 +115,12 @@
       root.querySelectorAll('[data-view]').forEach(button=>button.setAttribute('aria-current',button.dataset.view===view?'page':'false'));
       if(view==='overview'){panel.innerHTML=overview(root,superAdmin);counts(root,state,superAdmin);}
       else if(view==='tickets'){tickets(panel,state,false,()=>counts(root,state,false));}
+      else if(view==='orders'&&window.OrthoOrders){window.OrthoOrders.staffPanel(panel,state);}
       else if(view==='team'){panel.innerHTML='<article class="mg-card"><h2>Team overview</h2><p data-team-count>Loading team…</p><p class="mg-muted">Member creation, role changes and removal are managed in TODAY.</p><button class="mg-primary" data-today="Settings → Team & access">Open team settings in TODAY ↗</button></article>';counts(root,state,true);}
       else{const title={orders:superAdmin?'Store orders':'Assigned orders',inquiries:'Inquiries',sales:'Sales summary'}[view];panel.innerHTML=`<article class="mg-card"><h2>${title}</h2>${unavailable(title+' unavailable')}<button class="mg-text" data-today="Dashboard → ${view==='sales'?'Recent sales':title}">More in TODAY ↗</button></article>`;}
     }
     const baseSelect=select;
-    const show=view=>{baseSelect(view);if(['overview','orders','sales'].includes(view))commerceSummary(root,panel,state,view);};
+    const show=view=>{baseSelect(view);if(['overview','sales',...(window.OrthoOrders?[]:['orders'])].includes(view))commerceSummary(root,panel,state,view);};
     root.addEventListener('click',event=>{const button=event.target.closest('button');if(!button)return;if(button.hasAttribute('data-refresh-summary'))show(root.querySelector('[data-view][aria-current="page"]')?.dataset.view || 'overview');else if(button.dataset.view)show(button.dataset.view);else if(button.dataset.tab)show(button.dataset.tab);else if(button.dataset.today)today(root,button.dataset.today);});
     show('overview');return true;
   }

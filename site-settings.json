@@ -136,7 +136,53 @@
     "needles": "الإبر وأجهزة الخزعة",
     "catheters": "القساطر",
     "dilators": "الموسعات وأجهزة النفخ",
-    "compression": "الضغط الطبي"
+    "compression": "الضغط الطبي",
+    "post-surgery": "ما بعد الجراحة والتعافي",
+    "post-surgery__liposuction-garments-women": "ملابس شفط الدهون [نساء]",
+    "post-surgery__liposuction-garments-men": "ملابس شفط الدهون [رجال]",
+    "post-surgery__tummy-tuck-garments": "مشدات شد البطن",
+    "post-surgery__lipedema-garments": "ملابس الوذمة الشحمية",
+    "post-surgery__abdominal-binders": "مشدات البطن",
+    "post-surgery__post-partum-recovery": "التعافي بعد الولادة",
+    "post-surgery__bbl-garments": "ملابس BBL",
+    "post-surgery__lipo-foam": "إسفنج شفط الدهون",
+    "post-surgery__bras-breast-stabilizer": "حمالات ومثبتات الثدي",
+    "post-surgery__face-masks-chin-straps": "أقنعة الوجه وأحزمة الذقن",
+    "post-surgery__arm-sleeves": "أكمام الذراع",
+    "post-surgery__thorax-corset-women": "مشد صدري [نساء]",
+    "post-surgery__thorax-vest-men": "سترة صدرية [رجال]",
+    "vein-care": "دوالي الأوردة والعناية بالأوردة",
+    "vein-care__basic-essential": "الأساسيات اليومية",
+    "vein-care__transparent-daily": "شفاف يومي",
+    "vein-care__easy-wearing-knit": "حياكة سهلة الارتداء",
+    "vein-care__durable-active": "متين ونشط",
+    "vein-care__maximum-support": "أقصى دعم",
+    "vein-care__stump-shrinkers": "مقلصات الجذمور",
+    "vein-care__adjustable-compression-wraps": "لفائف ضغط قابلة للتعديل",
+    "vein-care__venous-ulcer-stockings": "جوارب قرح الأوردة",
+    "lymphedema-lipedema": "الوذمة اللمفية والوذمة الشحمية",
+    "lymphedema-lipedema__arm-sleeves-gloves": "أكمام وقفازات الذراع",
+    "lymphedema-lipedema__compression-stockings": "جوارب الضغط",
+    "lymphedema-lipedema__leggings-pants": "اللباس والبناطيل",
+    "lymphedema-lipedema__massage-pants": "جوارب التدليك",
+    "lymphedema-lipedema__stump-shrinkers-lymph": "مقلصات الجذمور",
+    "lymphedema-lipedema__toe-caps": "أغطية الأصابع",
+    "lymphedema-lipedema__adjustable-compression-wraps-lymph": "لفائف ضغط قابلة للتعديل",
+    "lymphedema-lipedema__foam-padding-bandaging": "حشوات الإسفنج والضماد",
+    "lymphedema-lipedema__sleepcompress-night-garment": "ملابس النوم الليلية SleepCompress",
+    "lymphedema-lipedema__lotions": "اللوشن",
+    "lymphedema-lipedema__lymphatic-drainage-pumps": "مضخات التصريف اللمفي",
+    "burn-scar-care": "العناية بالحروق والندبات",
+    "burn-scar-care__gloves": "القفازات",
+    "burn-scar-care__pants-leggings": "البناطيل واللباس الضاغط",
+    "burn-scar-care__silicone-sheets-gel": "ألواح وجل السيليكون",
+    "burn-scar-care__scar-oil": "زيت الندبات",
+    "burn-scar-care__sun-care": "العناية بالشمس",
+    "custom-made": "مصنوع حسب الطلب",
+    "custom-made__lymphedema-lipoedema": "ملابس ضغط بنسيج مسطح حسب الطلب",
+    "custom-made__burn-scar-care": "ملابس ندبات بنسيج مسطح حسب الطلب",
+    "custom-made__paediatric": "ملابس ضغط للأطفال",
+    "custom-made__compression-stockings": "جوارب محبوكة دائريا حسب الطلب"
   },
   "seo": {
     "titleAr": "أورثوسيرف | الأجهزة والمستلزمات الطبية",
@@ -340,6 +386,1234 @@
     {
       "slug": "juzo",
       "label": "Juzo"
+    }
+  ],
+  "juzoTaxonomy": [
+    {
+      "id": "post-surgery",
+      "parent": null,
+      "label": "ما بعد الجراحة والتعافي",
+      "sourceUrl": "https://healfit.ae/ar/category/post-surgery",
+      "productIds": [
+        "juzo-juzo-lymphpad",
+        "juzo-juzo-scarprime-light-cg-4000-sleeve",
+        "juzo-juzo-classic-seamless-bt",
+        "juzo-juzo-comprima-bolero-arm-sleeves",
+        "juzo-juzo-inspiration-ag",
+        "juzo-juzo-inspiration-atu-maternity-compression-tights",
+        "juzo-juzo-dynamic-at-closed-crotch",
+        "juzo-juzo-dynamic-at-open-crotch"
+      ]
+    },
+    {
+      "id": "post-surgery__liposuction-garments-women",
+      "parent": "post-surgery",
+      "label": "ملابس شفط الدهون [نساء]",
+      "sourceUrl": "https://healfit.ae/ar/category/post-surgery/liposuction-garments-women",
+      "productIds": [
+        "juzo-juzo-classic-seamless-bt"
+      ]
+    },
+    {
+      "id": "post-surgery__liposuction-garments-men",
+      "parent": "post-surgery",
+      "label": "ملابس شفط الدهون [رجال]",
+      "sourceUrl": "https://healfit.ae/ar/category/post-surgery/liposuction-garments-men",
+      "productIds": []
+    },
+    {
+      "id": "post-surgery__tummy-tuck-garments",
+      "parent": "post-surgery",
+      "label": "مشدات شد البطن",
+      "sourceUrl": "https://healfit.ae/ar/category/post-surgery/tummy-tuck-garments",
+      "productIds": []
+    },
+    {
+      "id": "post-surgery__lipedema-garments",
+      "parent": "post-surgery",
+      "label": "ملابس الوذمة الشحمية",
+      "sourceUrl": "https://healfit.ae/ar/category/post-surgery/lipedema-garments",
+      "productIds": [
+        "juzo-juzo-classic-seamless-bt",
+        "juzo-juzo-dynamic-at-closed-crotch",
+        "juzo-juzo-dynamic-at-open-crotch"
+      ]
+    },
+    {
+      "id": "post-surgery__abdominal-binders",
+      "parent": "post-surgery",
+      "label": "مشدات البطن",
+      "sourceUrl": "https://healfit.ae/ar/category/post-surgery/abdominal-binders",
+      "productIds": []
+    },
+    {
+      "id": "post-surgery__post-partum-recovery",
+      "parent": "post-surgery",
+      "label": "التعافي بعد الولادة",
+      "sourceUrl": "https://healfit.ae/ar/category/post-surgery/post-partum-recovery",
+      "productIds": [
+        "juzo-juzo-inspiration-ag",
+        "juzo-juzo-inspiration-atu-maternity-compression-tights",
+        "juzo-juzo-dynamic-at-closed-crotch",
+        "juzo-juzo-dynamic-at-open-crotch"
+      ]
+    },
+    {
+      "id": "post-surgery__bbl-garments",
+      "parent": "post-surgery",
+      "label": "ملابس BBL",
+      "sourceUrl": "https://healfit.ae/ar/category/post-surgery/bbl-garments",
+      "productIds": []
+    },
+    {
+      "id": "post-surgery__lipo-foam",
+      "parent": "post-surgery",
+      "label": "إسفنج شفط الدهون",
+      "sourceUrl": "https://healfit.ae/ar/category/post-surgery/lipo-foam",
+      "productIds": [
+        "juzo-juzo-lymphpad"
+      ]
+    },
+    {
+      "id": "post-surgery__bras-breast-stabilizer",
+      "parent": "post-surgery",
+      "label": "حمالات ومثبتات الثدي",
+      "sourceUrl": "https://healfit.ae/ar/category/post-surgery/bras-breast-stabilizer",
+      "productIds": []
+    },
+    {
+      "id": "post-surgery__face-masks-chin-straps",
+      "parent": "post-surgery",
+      "label": "أقنعة الوجه وأحزمة الذقن",
+      "sourceUrl": "https://healfit.ae/ar/category/post-surgery/face-masks-chin-straps",
+      "productIds": []
+    },
+    {
+      "id": "post-surgery__arm-sleeves",
+      "parent": "post-surgery",
+      "label": "أكمام الذراع",
+      "sourceUrl": "https://healfit.ae/ar/category/post-surgery/arm-sleeves",
+      "productIds": [
+        "juzo-juzo-scarprime-light-cg-4000-sleeve",
+        "juzo-juzo-comprima-bolero-arm-sleeves"
+      ]
+    },
+    {
+      "id": "post-surgery__thorax-corset-women",
+      "parent": "post-surgery",
+      "label": "مشد صدري [نساء]",
+      "sourceUrl": "https://healfit.ae/ar/category/post-surgery/thorax-corset-women",
+      "productIds": []
+    },
+    {
+      "id": "post-surgery__thorax-vest-men",
+      "parent": "post-surgery",
+      "label": "سترة صدرية [رجال]",
+      "sourceUrl": "https://healfit.ae/ar/category/post-surgery/thorax-vest-men",
+      "productIds": []
+    },
+    {
+      "id": "vein-care",
+      "parent": null,
+      "label": "دوالي الأوردة والعناية بالأوردة",
+      "sourceUrl": "https://healfit.ae/ar/category/vein-care",
+      "productIds": [
+        "juzo-juzo-move-ad",
+        "juzo-juzo-ulcer-pro-compression-stocking-system-venous-ulcer",
+        "juzo-juzo-move-ag",
+        "juzo-juzo-basic-ad",
+        "juzo-juzo-basic-ag",
+        "juzo-juzo-basic-at",
+        "juzo-juzo-inspiration-ag",
+        "juzo-juzo-inspiration-at",
+        "juzo-juzo-inspiration-atu-maternity-compression-tights",
+        "juzo-juzo-adventure-ad",
+        "juzo-juzo-dynamic-cotton-ad",
+        "juzo-juzo-dynamic-at-closed-crotch",
+        "juzo-juzo-dynamic-at-open-crotch",
+        "juzo-juzo-acs-light-j704li-thigh-wrap",
+        "juzo-juzo-acs-light-j703li-knee-wrap",
+        "juzo-juzo-acs-light-j702li-calf-wrap",
+        "juzo-juzo-acs-light-j701li-foot-wrap",
+        "juzo-juzo-dynamic-above-knee-stump-shrinker",
+        "juzo-juzo-dynamic-above-knee-stump-shrinker-hip-attachment",
+        "juzo-juzo-dynamic-below-knee-stump-shrinker"
+      ]
+    },
+    {
+      "id": "vein-care__basic-essential",
+      "parent": "vein-care",
+      "label": "الأساسيات اليومية",
+      "sourceUrl": "https://healfit.ae/ar/category/vein-care/basic-essential",
+      "productIds": [
+        "juzo-juzo-basic-ad",
+        "juzo-juzo-basic-ag",
+        "juzo-juzo-basic-at"
+      ]
+    },
+    {
+      "id": "vein-care__transparent-daily",
+      "parent": "vein-care",
+      "label": "شفاف يومي",
+      "sourceUrl": "https://healfit.ae/ar/category/vein-care/transparent-daily",
+      "productIds": [
+        "juzo-juzo-inspiration-ag",
+        "juzo-juzo-inspiration-at",
+        "juzo-juzo-inspiration-atu-maternity-compression-tights"
+      ]
+    },
+    {
+      "id": "vein-care__easy-wearing-knit",
+      "parent": "vein-care",
+      "label": "حياكة سهلة الارتداء",
+      "sourceUrl": "https://healfit.ae/ar/category/vein-care/easy-wearing-knit",
+      "productIds": [
+        "juzo-juzo-move-ad",
+        "juzo-juzo-move-ag"
+      ]
+    },
+    {
+      "id": "vein-care__durable-active",
+      "parent": "vein-care",
+      "label": "متين ونشط",
+      "sourceUrl": "https://healfit.ae/ar/category/vein-care/durable-active",
+      "productIds": [
+        "juzo-juzo-adventure-ad",
+        "juzo-juzo-dynamic-cotton-ad",
+        "juzo-juzo-dynamic-at-closed-crotch",
+        "juzo-juzo-dynamic-at-open-crotch"
+      ]
+    },
+    {
+      "id": "vein-care__maximum-support",
+      "parent": "vein-care",
+      "label": "أقصى دعم",
+      "sourceUrl": "https://healfit.ae/ar/category/vein-care/maximum-support",
+      "productIds": []
+    },
+    {
+      "id": "vein-care__stump-shrinkers",
+      "parent": "vein-care",
+      "label": "مقلصات الجذمور",
+      "sourceUrl": "https://healfit.ae/ar/category/vein-care/stump-shrinkers",
+      "productIds": [
+        "juzo-juzo-dynamic-above-knee-stump-shrinker",
+        "juzo-juzo-dynamic-above-knee-stump-shrinker-hip-attachment",
+        "juzo-juzo-dynamic-below-knee-stump-shrinker"
+      ]
+    },
+    {
+      "id": "vein-care__adjustable-compression-wraps",
+      "parent": "vein-care",
+      "label": "لفائف ضغط قابلة للتعديل",
+      "sourceUrl": "https://healfit.ae/ar/category/vein-care/adjustable-compression-wraps",
+      "productIds": [
+        "juzo-juzo-acs-light-j704li-thigh-wrap",
+        "juzo-juzo-acs-light-j703li-knee-wrap",
+        "juzo-juzo-acs-light-j702li-calf-wrap",
+        "juzo-juzo-acs-light-j701li-foot-wrap"
+      ]
+    },
+    {
+      "id": "vein-care__venous-ulcer-stockings",
+      "parent": "vein-care",
+      "label": "جوارب قرح الأوردة",
+      "sourceUrl": "https://healfit.ae/ar/category/vein-care/venous-ulcer-stockings",
+      "productIds": [
+        "juzo-juzo-ulcer-pro-compression-stocking-system-venous-ulcer"
+      ]
+    },
+    {
+      "id": "lymphedema-lipedema",
+      "parent": null,
+      "label": "الوذمة اللمفية والوذمة الشحمية",
+      "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema",
+      "productIds": [
+        "juzo-juzo-move-ad",
+        "juzo-juzo-acs-light-j714-pads",
+        "juzo-juzo-acs-light-j712-midline-band",
+        "juzo-juzo-sc-lymphaid-arm-6801",
+        "juzo-juzo-pressure-pad-9420",
+        "juzo-juzo-lymphpad",
+        "juzo-silicone-press-pads-naked",
+        "juzo-juzo-expert-3022-hfa-glove-open-fingers",
+        "juzo-wrap-calf",
+        "juzo-wrap-foot",
+        "juzo-juzo-compression-wrap-knee",
+        "juzo-juzo-compression-wrap-thigh",
+        "juzo-juzo-classic-seamless-2302-ft",
+        "juzo-juzo-classic-seamless-bt",
+        "juzo-juzo-expert-ad",
+        "juzo-juzo-sensation-at",
+        "juzo-juzo-classic-seamless-ago",
+        "juzo-juzo-lymph-lotion",
+        "juzo-juzo-vital-balsam-7",
+        "juzo-juzo-move-ag",
+        "juzo-juzo-dynamic-at-closed-crotch",
+        "juzo-juzo-dynamic-at-open-crotch",
+        "juzo-juzo-classic-seamless-zea",
+        "juzo-juzo-dynamic-cg",
+        "juzo-juzo-acs-light-j706li-arm-wrap",
+        "juzo-juzo-acs-light-j705li-hand-wrap",
+        "juzo-juzo-acs-light-j704li-thigh-wrap",
+        "juzo-juzo-acs-light-j703li-knee-wrap",
+        "juzo-juzo-acs-light-j702li-calf-wrap",
+        "juzo-juzo-acs-light-j701li-foot-wrap",
+        "juzo-juzo-classic-seamless-2302-ft-men",
+        "juzo-juzo-dynamic-above-knee-stump-shrinker",
+        "juzo-juzo-dynamic-above-knee-stump-shrinker-hip-attachment",
+        "juzo-juzo-dynamic-below-knee-stump-shrinker"
+      ]
+    },
+    {
+      "id": "lymphedema-lipedema__arm-sleeves-gloves",
+      "parent": "lymphedema-lipedema",
+      "label": "أكمام وقفازات الذراع",
+      "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/arm-sleeves-gloves",
+      "productIds": [
+        "juzo-juzo-pressure-pad-9420",
+        "juzo-juzo-expert-3022-hfa-glove-open-fingers",
+        "juzo-juzo-classic-seamless-ago",
+        "juzo-juzo-dynamic-cg",
+        "juzo-juzo-acs-light-j706li-arm-wrap",
+        "juzo-juzo-acs-light-j705li-hand-wrap"
+      ]
+    },
+    {
+      "id": "lymphedema-lipedema__compression-stockings",
+      "parent": "lymphedema-lipedema",
+      "label": "جوارب الضغط",
+      "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/compression-stockings",
+      "productIds": [
+        "juzo-juzo-move-ad",
+        "juzo-juzo-classic-seamless-2302-ft",
+        "juzo-juzo-expert-ad",
+        "juzo-juzo-move-ag",
+        "juzo-juzo-classic-seamless-zea"
+      ]
+    },
+    {
+      "id": "lymphedema-lipedema__leggings-pants",
+      "parent": "lymphedema-lipedema",
+      "label": "اللباس والبناطيل",
+      "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/leggings-pants",
+      "productIds": [
+        "juzo-juzo-classic-seamless-2302-ft",
+        "juzo-juzo-classic-seamless-bt",
+        "juzo-juzo-dynamic-at-closed-crotch",
+        "juzo-juzo-dynamic-at-open-crotch",
+        "juzo-juzo-classic-seamless-2302-ft-men"
+      ]
+    },
+    {
+      "id": "lymphedema-lipedema__massage-pants",
+      "parent": "lymphedema-lipedema",
+      "label": "جوارب التدليك",
+      "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/massage-pants",
+      "productIds": [
+        "juzo-juzo-sensation-at"
+      ]
+    },
+    {
+      "id": "lymphedema-lipedema__stump-shrinkers-lymph",
+      "parent": "lymphedema-lipedema",
+      "label": "مقلصات الجذمور",
+      "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/stump-shrinkers-lymph",
+      "productIds": [
+        "juzo-juzo-dynamic-above-knee-stump-shrinker",
+        "juzo-juzo-dynamic-above-knee-stump-shrinker-hip-attachment",
+        "juzo-juzo-dynamic-below-knee-stump-shrinker"
+      ]
+    },
+    {
+      "id": "lymphedema-lipedema__toe-caps",
+      "parent": "lymphedema-lipedema",
+      "label": "أغطية الأصابع",
+      "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/toe-caps",
+      "productIds": [
+        "juzo-juzo-classic-seamless-zea",
+        "juzo-juzo-acs-light-j701li-foot-wrap"
+      ]
+    },
+    {
+      "id": "lymphedema-lipedema__adjustable-compression-wraps-lymph",
+      "parent": "lymphedema-lipedema",
+      "label": "لفائف ضغط قابلة للتعديل",
+      "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/adjustable-compression-wraps-lymph",
+      "productIds": [
+        "juzo-juzo-acs-light-j712-midline-band",
+        "juzo-wrap-calf",
+        "juzo-wrap-foot",
+        "juzo-juzo-compression-wrap-knee",
+        "juzo-juzo-compression-wrap-thigh",
+        "juzo-juzo-acs-light-j706li-arm-wrap",
+        "juzo-juzo-acs-light-j705li-hand-wrap",
+        "juzo-juzo-acs-light-j704li-thigh-wrap",
+        "juzo-juzo-acs-light-j703li-knee-wrap",
+        "juzo-juzo-acs-light-j702li-calf-wrap",
+        "juzo-juzo-acs-light-j701li-foot-wrap"
+      ]
+    },
+    {
+      "id": "lymphedema-lipedema__foam-padding-bandaging",
+      "parent": "lymphedema-lipedema",
+      "label": "حشوات الإسفنج والضماد",
+      "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/foam-padding-bandaging",
+      "productIds": [
+        "juzo-juzo-acs-light-j714-pads",
+        "juzo-juzo-sc-lymphaid-arm-6801",
+        "juzo-juzo-pressure-pad-9420",
+        "juzo-juzo-lymphpad",
+        "juzo-silicone-press-pads-naked"
+      ]
+    },
+    {
+      "id": "lymphedema-lipedema__sleepcompress-night-garment",
+      "parent": "lymphedema-lipedema",
+      "label": "ملابس النوم الليلية SleepCompress",
+      "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/sleepcompress-night-garment",
+      "productIds": []
+    },
+    {
+      "id": "lymphedema-lipedema__lotions",
+      "parent": "lymphedema-lipedema",
+      "label": "اللوشن",
+      "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/lotions",
+      "productIds": [
+        "juzo-juzo-lymph-lotion",
+        "juzo-juzo-vital-balsam-7"
+      ]
+    },
+    {
+      "id": "lymphedema-lipedema__lymphatic-drainage-pumps",
+      "parent": "lymphedema-lipedema",
+      "label": "مضخات التصريف اللمفي",
+      "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/lymphatic-drainage-pumps",
+      "productIds": []
+    },
+    {
+      "id": "burn-scar-care",
+      "parent": null,
+      "label": "العناية بالحروق والندبات",
+      "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care",
+      "productIds": [
+        "juzo-juzo-pressure-pad-9420",
+        "juzo-juzo-scarprime-direct-ft-3016-men",
+        "juzo-juzo-scarprime-direct-ft-3016-women",
+        "juzo-juzo-scarprime-direct-bt-3016-women",
+        "juzo-juzo-scarprime-seamless-compression-glove",
+        "juzo-juzo-scarprime-seamless-burn-glove-long-hfd",
+        "juzo-juzo-scarpad-extra",
+        "juzo-juzo-scarpad-light",
+        "juzo-juzo-scarpad-strong"
+      ]
+    },
+    {
+      "id": "burn-scar-care__gloves",
+      "parent": "burn-scar-care",
+      "label": "القفازات",
+      "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/gloves",
+      "productIds": [
+        "juzo-juzo-pressure-pad-9420",
+        "juzo-juzo-scarprime-seamless-compression-glove",
+        "juzo-juzo-scarprime-seamless-burn-glove-long-hfd"
+      ]
+    },
+    {
+      "id": "burn-scar-care__pants-leggings",
+      "parent": "burn-scar-care",
+      "label": "البناطيل واللباس الضاغط",
+      "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/pants-leggings",
+      "productIds": [
+        "juzo-juzo-scarprime-direct-ft-3016-men",
+        "juzo-juzo-scarprime-direct-ft-3016-women",
+        "juzo-juzo-scarprime-direct-bt-3016-women"
+      ]
+    },
+    {
+      "id": "burn-scar-care__silicone-sheets-gel",
+      "parent": "burn-scar-care",
+      "label": "ألواح وجل السيليكون",
+      "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/silicone-sheets-gel",
+      "productIds": [
+        "juzo-juzo-scarpad-extra",
+        "juzo-juzo-scarpad-light",
+        "juzo-juzo-scarpad-strong"
+      ]
+    },
+    {
+      "id": "burn-scar-care__scar-oil",
+      "parent": "burn-scar-care",
+      "label": "زيت الندبات",
+      "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/scar-oil",
+      "productIds": []
+    },
+    {
+      "id": "burn-scar-care__sun-care",
+      "parent": "burn-scar-care",
+      "label": "العناية بالشمس",
+      "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/sun-care",
+      "productIds": []
+    },
+    {
+      "id": "custom-made",
+      "parent": null,
+      "label": "مصنوع حسب الطلب",
+      "sourceUrl": "https://healfit.ae/ar/custom-made-garments",
+      "productIds": []
+    },
+    {
+      "id": "custom-made__lymphedema-lipoedema",
+      "parent": "custom-made",
+      "label": "ملابس ضغط بنسيج مسطح حسب الطلب",
+      "sourceUrl": "https://healfit.ae/ar/custom-made-garments/lymphedema-lipoedema",
+      "productIds": []
+    },
+    {
+      "id": "custom-made__burn-scar-care",
+      "parent": "custom-made",
+      "label": "ملابس ندبات بنسيج مسطح حسب الطلب",
+      "sourceUrl": "https://healfit.ae/ar/custom-made-garments/burn-scar-care",
+      "productIds": []
+    },
+    {
+      "id": "custom-made__paediatric",
+      "parent": "custom-made",
+      "label": "ملابس ضغط للأطفال",
+      "sourceUrl": "https://healfit.ae/ar/custom-made-garments/paediatric",
+      "productIds": []
+    },
+    {
+      "id": "custom-made__compression-stockings",
+      "parent": "custom-made",
+      "label": "جوارب محبوكة دائريا حسب الطلب",
+      "sourceUrl": "https://healfit.ae/ar/custom-made-garments/compression-stockings",
+      "productIds": []
+    }
+  ],
+  "juzoCatalogue": [
+    {
+      "id": "juzo-juzo-move-ad",
+      "sortOrder": 0
+    },
+    {
+      "id": "juzo-juzo-special-gloves-9301",
+      "sortOrder": 1
+    },
+    {
+      "id": "juzo-juzo-acs-light-j714-pads",
+      "sortOrder": 2
+    },
+    {
+      "id": "juzo-juzo-acs-light-j712-midline-band",
+      "sortOrder": 3
+    },
+    {
+      "id": "juzo-juzo-sc-lymphaid-arm-6801",
+      "sortOrder": 4
+    },
+    {
+      "id": "juzo-juzo-pressure-pad-9420",
+      "sortOrder": 5
+    },
+    {
+      "id": "juzo-juzo-lymphpad",
+      "sortOrder": 6
+    },
+    {
+      "id": "juzo-silicone-press-pads-naked",
+      "sortOrder": 7
+    },
+    {
+      "id": "juzo-juzo-easyfit-1890",
+      "sortOrder": 8
+    },
+    {
+      "id": "juzo-juzo-expert-3022-hfa-glove-open-fingers",
+      "sortOrder": 9
+    },
+    {
+      "id": "juzo-wrap-calf",
+      "sortOrder": 10
+    },
+    {
+      "id": "juzo-wrap-foot",
+      "sortOrder": 11
+    },
+    {
+      "id": "juzo-juzo-compression-wrap-knee",
+      "sortOrder": 12
+    },
+    {
+      "id": "juzo-juzo-compression-wrap-thigh",
+      "sortOrder": 13
+    },
+    {
+      "id": "juzo-juzo-scarprime-direct-ft-3016-men",
+      "sortOrder": 14
+    },
+    {
+      "id": "juzo-juzo-scarprime-direct-ft-3016-women",
+      "sortOrder": 15
+    },
+    {
+      "id": "juzo-juzo-scarprime-light-cg-4000-sleeve",
+      "sortOrder": 16
+    },
+    {
+      "id": "juzo-juzo-scarprime-direct-bt-3016-women",
+      "sortOrder": 17
+    },
+    {
+      "id": "juzo-juzo-ulcer-pro-compression-stocking-system-venous-ulcer",
+      "sortOrder": 18
+    },
+    {
+      "id": "juzo-juzo-classic-seamless-2302-ft",
+      "sortOrder": 19
+    },
+    {
+      "id": "juzo-juzo-classic-seamless-bt",
+      "sortOrder": 20
+    },
+    {
+      "id": "juzo-juzo-comprima-bolero-arm-sleeves",
+      "sortOrder": 21
+    },
+    {
+      "id": "juzo-juzo-expert-ad",
+      "sortOrder": 22
+    },
+    {
+      "id": "juzo-juzo-move-at",
+      "sortOrder": 23
+    },
+    {
+      "id": "juzo-juzo-scarprime-seamless-compression-glove",
+      "sortOrder": 24
+    },
+    {
+      "id": "juzo-juzo-scarprime-seamless-burn-glove-long-hfd",
+      "sortOrder": 25
+    },
+    {
+      "id": "juzo-juzo-sensation-at",
+      "sortOrder": 26
+    },
+    {
+      "id": "juzo-juzo-classic-seamless-ago",
+      "sortOrder": 27
+    },
+    {
+      "id": "juzo-juzo-lymph-lotion",
+      "sortOrder": 28
+    },
+    {
+      "id": "juzo-juzo-vital-balsam-7",
+      "sortOrder": 29
+    },
+    {
+      "id": "juzo-juzo-move-ag",
+      "sortOrder": 30
+    },
+    {
+      "id": "juzo-juzo-basic-ad",
+      "sortOrder": 31
+    },
+    {
+      "id": "juzo-juzo-basic-ag",
+      "sortOrder": 32
+    },
+    {
+      "id": "juzo-juzo-basic-at",
+      "sortOrder": 33
+    },
+    {
+      "id": "juzo-juzo-inspiration-ag",
+      "sortOrder": 34
+    },
+    {
+      "id": "juzo-juzo-inspiration-at",
+      "sortOrder": 35
+    },
+    {
+      "id": "juzo-juzo-inspiration-atu-maternity-compression-tights",
+      "sortOrder": 36
+    },
+    {
+      "id": "juzo-juzo-adventure-ad",
+      "sortOrder": 37
+    },
+    {
+      "id": "juzo-juzo-dynamic-cotton-ad",
+      "sortOrder": 38
+    },
+    {
+      "id": "juzo-juzo-dynamic-at-closed-crotch",
+      "sortOrder": 39
+    },
+    {
+      "id": "juzo-juzo-dynamic-at-open-crotch",
+      "sortOrder": 40
+    },
+    {
+      "id": "juzo-juzo-scarpad-extra",
+      "sortOrder": 41
+    },
+    {
+      "id": "juzo-juzo-scarpad-light",
+      "sortOrder": 42
+    },
+    {
+      "id": "juzo-juzo-scarpad-strong",
+      "sortOrder": 43
+    },
+    {
+      "id": "juzo-juzo-classic-seamless-zea",
+      "sortOrder": 44
+    },
+    {
+      "id": "juzo-juzo-dynamic-cg",
+      "sortOrder": 45
+    },
+    {
+      "id": "juzo-juzo-acs-light-j706li-arm-wrap",
+      "sortOrder": 46
+    },
+    {
+      "id": "juzo-juzo-acs-light-j705li-hand-wrap",
+      "sortOrder": 47
+    },
+    {
+      "id": "juzo-juzo-acs-light-j704li-thigh-wrap",
+      "sortOrder": 48
+    },
+    {
+      "id": "juzo-juzo-acs-light-j703li-knee-wrap",
+      "sortOrder": 49
+    },
+    {
+      "id": "juzo-juzo-acs-light-j702li-calf-wrap",
+      "sortOrder": 50
+    },
+    {
+      "id": "juzo-juzo-acs-light-j701li-foot-wrap",
+      "sortOrder": 51
+    },
+    {
+      "id": "juzo-juzo-classic-seamless-2302-ft-men",
+      "sortOrder": 52
+    },
+    {
+      "id": "juzo-juzo-dynamic-above-knee-stump-shrinker",
+      "sortOrder": 53
+    },
+    {
+      "id": "juzo-juzo-dynamic-above-knee-stump-shrinker-hip-attachment",
+      "sortOrder": 54
+    },
+    {
+      "id": "juzo-juzo-dynamic-below-knee-stump-shrinker",
+      "sortOrder": 55
+    },
+    {
+      "id": "juzo-juzo-special-detergent",
+      "sortOrder": 56
+    }
+  ],
+  "juzoNavigation": [
+    {
+      "groupId": "post-surgery",
+      "label": "ما بعد الجراحة والتعافي",
+      "sourceUrl": "https://healfit.ae/ar/category/post-surgery",
+      "columns": [
+        [
+          {
+            "groupId": "post-surgery__liposuction-garments-women",
+            "label": "ملابس شفط الدهون [نساء]",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/liposuction-garments-women"
+          },
+          {
+            "groupId": "post-surgery__liposuction-garments-men",
+            "label": "ملابس شفط الدهون [رجال]",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/liposuction-garments-men"
+          },
+          {
+            "groupId": "post-surgery__tummy-tuck-garments",
+            "label": "مشدات شد البطن",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/tummy-tuck-garments"
+          },
+          {
+            "groupId": "post-surgery__lipedema-garments",
+            "label": "ملابس الوذمة الشحمية",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/lipedema-garments"
+          },
+          {
+            "groupId": "post-surgery__abdominal-binders",
+            "label": "مشدات البطن",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/abdominal-binders"
+          },
+          {
+            "groupId": "post-surgery__post-partum-recovery",
+            "label": "التعافي بعد الولادة",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/post-partum-recovery"
+          },
+          {
+            "groupId": "post-surgery__bbl-garments",
+            "label": "ملابس BBL",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/bbl-garments"
+          },
+          {
+            "groupId": "post-surgery__lipo-foam",
+            "label": "إسفنج شفط الدهون",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/lipo-foam"
+          }
+        ],
+        [
+          {
+            "groupId": "post-surgery__bras-breast-stabilizer",
+            "label": "حمالات ومثبتات الثدي",
+            "heading": "جراحة الثدي والصدر",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/bras-breast-stabilizer"
+          },
+          {
+            "groupId": "post-surgery__thorax-corset-women",
+            "label": "مشد صدري [نساء]",
+            "heading": "جراحة الثدي والصدر",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/thorax-corset-women"
+          },
+          {
+            "groupId": "post-surgery__thorax-vest-men",
+            "label": "سترة صدرية [رجال]",
+            "heading": "جراحة الثدي والصدر",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/thorax-vest-men"
+          }
+        ],
+        [
+          {
+            "groupId": "post-surgery__arm-sleeves",
+            "label": "أكمام الذراع",
+            "heading": "الوجه والذراع واليد",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/arm-sleeves"
+          },
+          {
+            "groupId": "post-surgery__face-masks-chin-straps",
+            "label": "أقنعة الوجه وأحزمة الذقن",
+            "heading": "الوجه والذراع واليد",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/face-masks-chin-straps"
+          },
+          {
+            "groupId": "burn-scar-care__gloves",
+            "label": "القفازات",
+            "heading": "الوجه والذراع واليد",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/gloves"
+          },
+          {
+            "groupId": "burn-scar-care__silicone-sheets-gel",
+            "label": "ألواح وجل السيليكون",
+            "heading": "منتجات العناية بالبشرة",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/silicone-sheets-gel"
+          },
+          {
+            "groupId": "burn-scar-care__scar-oil",
+            "label": "زيت الندبات",
+            "heading": "منتجات العناية بالبشرة",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/scar-oil"
+          },
+          {
+            "groupId": "burn-scar-care__sun-care",
+            "label": "العناية بالشمس",
+            "heading": "منتجات العناية بالبشرة",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/sun-care"
+          }
+        ]
+      ]
+    },
+    {
+      "groupId": "vein-care",
+      "label": "دوالي الأوردة والعناية بالأوردة",
+      "sourceUrl": "https://healfit.ae/ar/category/vein-care",
+      "columns": [
+        [
+          {
+            "groupId": "vein-care__basic-essential",
+            "label": "الأساسيات اليومية",
+            "heading": "رقيق وشفاف",
+            "pressureClasses": [
+              "CCL 1",
+              "CCL 2"
+            ],
+            "pieceTypes": [
+              "AD",
+              "AG",
+              "AT"
+            ],
+            "sourceUrl": "https://healfit.ae/ar/category/vein-care/basic-essential"
+          },
+          {
+            "groupId": "vein-care__transparent-daily",
+            "label": "شفاف يومي",
+            "heading": "رقيق وشفاف",
+            "pressureClasses": [
+              "CCL 1",
+              "CCL 2"
+            ],
+            "pieceTypes": [
+              "AG",
+              "AT",
+              "ATU"
+            ],
+            "sourceUrl": "https://healfit.ae/ar/category/vein-care/transparent-daily"
+          }
+        ],
+        [
+          {
+            "groupId": "vein-care__easy-wearing-knit",
+            "label": "حياكة سهلة الارتداء",
+            "heading": "دعم أقوى",
+            "pressureClasses": [
+              "CCL 1",
+              "CCL 2",
+              "CCL 3"
+            ],
+            "pieceTypes": [
+              "AD",
+              "AG",
+              "AT"
+            ],
+            "sourceUrl": "https://healfit.ae/ar/category/vein-care/easy-wearing-knit"
+          },
+          {
+            "groupId": "vein-care__durable-active",
+            "label": "متين ونشط",
+            "heading": "دعم أقوى",
+            "pressureClasses": [
+              "CCL 1",
+              "CCL 2",
+              "CCL 3"
+            ],
+            "pieceTypes": [
+              "AD",
+              "AG",
+              "AT"
+            ],
+            "sourceUrl": "https://healfit.ae/ar/category/vein-care/durable-active"
+          },
+          {
+            "groupId": "vein-care__maximum-support",
+            "label": "أقصى دعم",
+            "heading": "دعم أقوى",
+            "pressureClasses": [
+              "CCL 1",
+              "CCL 2",
+              "CCL 3"
+            ],
+            "pieceTypes": [
+              "AD"
+            ],
+            "sourceUrl": "https://healfit.ae/ar/category/vein-care/maximum-support"
+          },
+          {
+            "groupId": "vein-care__stump-shrinkers",
+            "label": "مقلصات الجذمور",
+            "heading": "دعم أقوى",
+            "pressureClasses": [
+              "CCL 1",
+              "CCL 2",
+              "CCL 3"
+            ],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/vein-care/stump-shrinkers"
+          }
+        ],
+        [
+          {
+            "groupId": "vein-care__adjustable-compression-wraps",
+            "label": "لفائف ضغط قابلة للتعديل",
+            "heading": "اللفائف والقرح والتفصيل حسب الطلب",
+            "pressureClasses": [
+              "CCL 3",
+              "CCL 4"
+            ],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/vein-care/adjustable-compression-wraps"
+          },
+          {
+            "groupId": "vein-care__venous-ulcer-stockings",
+            "label": "جوارب قرح الأوردة",
+            "heading": "اللفائف والقرح والتفصيل حسب الطلب",
+            "pressureClasses": [
+              "CCL 3",
+              "CCL 4"
+            ],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/vein-care/venous-ulcer-stockings"
+          },
+          {
+            "groupId": "custom-made__compression-stockings",
+            "label": "جوارب محبوكة دائريا حسب الطلب",
+            "heading": "اللفائف والقرح والتفصيل حسب الطلب",
+            "pressureClasses": [
+              "CCL 3",
+              "CCL 4"
+            ],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/custom-made-garments/compression-stockings"
+          },
+          {
+            "groupId": "lymphedema-lipedema__lotions",
+            "label": "اللوشن",
+            "heading": "منتجات العناية بالبشرة",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/lotions"
+          }
+        ]
+      ]
+    },
+    {
+      "groupId": "lymphedema-lipedema",
+      "label": "الوذمة اللمفية والوذمة الشحمية",
+      "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema",
+      "columns": [
+        [
+          {
+            "groupId": "lymphedema-lipedema__arm-sleeves-gloves",
+            "label": "أكمام وقفازات الذراع",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/arm-sleeves-gloves"
+          },
+          {
+            "groupId": "lymphedema-lipedema__compression-stockings",
+            "label": "جوارب الضغط",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/compression-stockings"
+          },
+          {
+            "groupId": "lymphedema-lipedema__leggings-pants",
+            "label": "اللباس والبناطيل",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/leggings-pants"
+          },
+          {
+            "groupId": "lymphedema-lipedema__massage-pants",
+            "label": "جوارب التدليك",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/massage-pants"
+          },
+          {
+            "groupId": "lymphedema-lipedema__stump-shrinkers-lymph",
+            "label": "مقلصات الجذمور",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/stump-shrinkers-lymph"
+          },
+          {
+            "groupId": "lymphedema-lipedema__toe-caps",
+            "label": "أغطية الأصابع",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/toe-caps"
+          }
+        ],
+        [
+          {
+            "groupId": "lymphedema-lipedema__adjustable-compression-wraps-lymph",
+            "label": "لفائف ضغط قابلة للتعديل",
+            "heading": "تخفيف الاحتقان والعناية الليلية",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/adjustable-compression-wraps-lymph"
+          },
+          {
+            "groupId": "lymphedema-lipedema__foam-padding-bandaging",
+            "label": "حشوات الإسفنج والضماد",
+            "heading": "تخفيف الاحتقان والعناية الليلية",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/foam-padding-bandaging"
+          },
+          {
+            "groupId": "lymphedema-lipedema__sleepcompress-night-garment",
+            "label": "ملابس النوم الليلية SleepCompress",
+            "heading": "تخفيف الاحتقان والعناية الليلية",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/sleepcompress-night-garment"
+          },
+          {
+            "groupId": "custom-made__lymphedema-lipoedema",
+            "label": "ملابس ضغط بنسيج مسطح حسب الطلب",
+            "heading": "ملابس ضغط مُفصَّلة حسب الطلب",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/custom-made-garments/lymphedema-lipoedema"
+          }
+        ],
+        [
+          {
+            "groupId": "lymphedema-lipedema__lotions",
+            "label": "اللوشن",
+            "heading": "منتجات العناية بالبشرة",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/lotions"
+          },
+          {
+            "groupId": "lymphedema-lipedema__lymphatic-drainage-pumps",
+            "label": "مضخات التصريف اللمفي",
+            "heading": "الضغط الهوائي المتقطع (IPC)",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/lymphedema-lipedema/lymphatic-drainage-pumps"
+          }
+        ]
+      ]
+    },
+    {
+      "groupId": "burn-scar-care",
+      "label": "العناية بالحروق والندبات",
+      "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care",
+      "columns": [
+        [
+          {
+            "groupId": "burn-scar-care__gloves",
+            "label": "القفازات",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/gloves"
+          },
+          {
+            "groupId": "post-surgery__arm-sleeves",
+            "label": "أكمام الذراع",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/arm-sleeves"
+          },
+          {
+            "groupId": "post-surgery__thorax-corset-women",
+            "label": "مشد صدري [نساء]",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/thorax-corset-women"
+          },
+          {
+            "groupId": "post-surgery__thorax-vest-men",
+            "label": "سترة صدرية [رجال]",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/post-surgery/thorax-vest-men"
+          },
+          {
+            "groupId": "burn-scar-care__pants-leggings",
+            "label": "البناطيل واللباس الضاغط",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/pants-leggings"
+          }
+        ],
+        [
+          {
+            "groupId": "custom-made__burn-scar-care",
+            "label": "ملابس ندبات بنسيج مسطح حسب الطلب",
+            "heading": "ملابس ضغط مُفصَّلة حسب الطلب",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/custom-made-garments/burn-scar-care"
+          },
+          {
+            "groupId": "custom-made__paediatric",
+            "label": "ملابس ضغط للأطفال",
+            "heading": "ملابس ضغط مُفصَّلة حسب الطلب",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/custom-made-garments/paediatric"
+          }
+        ],
+        [
+          {
+            "groupId": "burn-scar-care__silicone-sheets-gel",
+            "label": "ألواح وجل السيليكون",
+            "heading": "منتجات العناية بالبشرة",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/silicone-sheets-gel"
+          },
+          {
+            "groupId": "burn-scar-care__scar-oil",
+            "label": "زيت الندبات",
+            "heading": "منتجات العناية بالبشرة",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/scar-oil"
+          },
+          {
+            "groupId": "burn-scar-care__sun-care",
+            "label": "العناية بالشمس",
+            "heading": "منتجات العناية بالبشرة",
+            "pressureClasses": [],
+            "pieceTypes": [],
+            "sourceUrl": "https://healfit.ae/ar/category/burn-scar-care/sun-care"
+          }
+        ]
+      ]
     }
   ]
 }

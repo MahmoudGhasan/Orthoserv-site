@@ -263,7 +263,7 @@ html[lang=en] .product-info h3 { font-size: 15px; }
   .button, .product-card, .category-row.home-category-tiles > .category-tile { transition: none; }
 }
 
-/* Healfit (UAE) enquiry link on product detail */
+/* Legacy product enquiry link styling */
 .inquiry-link{display:flex;width:100%;align-items:center;justify-content:space-between;gap:10px;margin-top:13px;padding:12px 18px;border:1px solid #d6e1ed;border-radius:8px;background:#fff;color:var(--blue);font-size:13px;font-weight:600;transition:background .2s,border-color .2s}
 .inquiry-link:hover{background:#f1f6fc;border-color:#9fb8d8}
 

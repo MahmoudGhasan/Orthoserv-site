@@ -116,8 +116,7 @@
     "source": "https://www.juzo.com/_Resources/Persistent/3/2/6/e/326e3be576be0032dd727a91f79bad5aa14be849/compression-wrap-unterschenkel-1006x1006.jpg",
     "page": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-compression-wrap",
     "usage": "DEMO ONLY: replace with brand-approved asset",
-    "visible": true,
-    "inquiryUrl": "https://healfit.ae/ar/shop/juzo-compression-wrap-calf"
+    "visible": true
   },
   {
     "id": "wrap-foot",
@@ -133,7 +132,6 @@
     "source": "https://www.juzo.com/_Resources/Persistent/f/f/0/6/ff069ffea453d21ea6e7384fbfc79509387540de/compression-wrap-fuss-818x818.jpg",
     "page": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-compression-wrap",
     "usage": "DEMO ONLY: replace with brand-approved asset",
-    "visible": true,
-    "inquiryUrl": "https://healfit.ae/ar/shop/juzo-compression-wrap-foot"
+    "visible": true
   }
 ]

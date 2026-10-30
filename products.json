@@ -9865,6 +9865,7 @@
     },
     {
       "id": "juzo-soft-knee",
+      "nameEn": "Juzo Soft below-knee stockings",
       "name": "Juzo Soft",
       "titleAr": "جوارب تحت الركبة",
       "brand": "Juzo",
@@ -9900,6 +9901,7 @@
     },
     {
       "id": "juzo-soft-thigh",
+      "nameEn": "Juzo Soft thigh-high stockings",
       "name": "Juzo Soft",
       "titleAr": "جوارب حتى الفخذ",
       "brand": "Juzo",
@@ -9935,6 +9937,7 @@
     },
     {
       "id": "juzo-soft-tights",
+      "nameEn": "Juzo Soft tights",
       "name": "Juzo Soft",
       "titleAr": "جوارب كاملة",
       "brand": "Juzo",
@@ -9970,6 +9973,7 @@
     },
     {
       "id": "juzo-soft-sleeve",
+      "nameEn": "Juzo Soft arm sleeve",
       "name": "Juzo Soft",
       "titleAr": "كمّ للذراع",
       "brand": "Juzo",
@@ -10005,6 +10009,7 @@
     },
     {
       "id": "juzo-wrap-calf",
+      "nameEn": "Juzo Compression Wrap – Calf",
       "name": "Juzo Compression Wrap - Calf",
       "titleAr": "قطعة للساق",
       "brand": "Juzo",
@@ -10036,11 +10041,11 @@
       "visible": true,
       "salePrice": null,
       "saleStart": "",
-      "saleEnd": "",
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-compression-wrap-calf"
+      "saleEnd": ""
     },
     {
       "id": "juzo-wrap-foot",
+      "nameEn": "Juzo Compression Wrap – Foot",
       "name": "Juzo Compression Wrap - Foot",
       "titleAr": "قطعة للقدم",
       "brand": "Juzo",
@@ -10072,11 +10077,11 @@
       "visible": true,
       "salePrice": null,
       "saleStart": "",
-      "saleEnd": "",
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-compression-wrap-foot"
+      "saleEnd": ""
     },
     {
       "id": "juzo-juzo-move-ad",
+      "nameEn": "Juzo Move AD below-knee compression stockings",
       "name": "جوارب ضغط Juzo Move AD تحت الركبة",
       "titleAr": "",
       "brand": "Juzo",
@@ -10116,7 +10121,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-move-ad",
       "sortOrder": 0,
       "sizeGuide": {
         "unit": "cm",
@@ -10891,8 +10895,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-move-ad"
+        ]
       },
       "juzoOptions": [
         {
@@ -10945,6 +10948,7 @@
     },
     {
       "id": "juzo-juzo-special-gloves-9301",
+      "nameEn": "Juzo Special non-slip latex-coated donning gloves",
       "name": "قفازات ارتداء Juzo Special لملابس الضغط | مطلية باللاتكس غير القابل للانزلاق",
       "titleAr": "",
       "brand": "Juzo",
@@ -10976,7 +10980,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-special-gloves-9301",
       "sortOrder": 1,
       "sizeGuide": {
         "unit": "cm",
@@ -11088,8 +11091,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-special-gloves-9301"
+        ]
       },
       "juzoOptions": [
         {
@@ -11116,6 +11118,7 @@
     },
     {
       "id": "juzo-juzo-acs-light-j714-pads",
+      "nameEn": "Juzo ACS Light J714 compression pads",
       "name": "Juzo ACS Light وسادة | وسادة ضغط لنظام ضغط ACS",
       "titleAr": "",
       "brand": "Juzo",
@@ -11147,7 +11150,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-acs-light-j714-pads",
       "sortOrder": 2,
       "sizeGuide": null,
       "juzoOptions": [
@@ -11175,6 +11177,7 @@
     },
     {
       "id": "juzo-juzo-acs-light-j712-midline-band",
+      "nameEn": "Juzo ACS Light J712 extension band",
       "name": "Juzo ACS Light شريط منتصف الخط | شريط تمديد لنظام ضغط ACS",
       "titleAr": "",
       "brand": "Juzo",
@@ -11204,7 +11207,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-acs-light-j712-midline-band",
       "sortOrder": 3,
       "sizeGuide": null,
       "juzoOptions": [
@@ -11230,6 +11232,7 @@
     },
     {
       "id": "juzo-juzo-sc-lymphaid-arm-6801",
+      "nameEn": "Juzo SoftCompress LymphAid arm compression bandage",
       "name": "Juzo SoftCompress LymphAid للذراع | ضمّادة ضغط",
       "titleAr": "",
       "brand": "Juzo",
@@ -11258,7 +11261,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-sc-lymphaid-arm-6801",
       "sortOrder": 4,
       "sizeGuide": null,
       "juzoOptions": [
@@ -11283,6 +11285,7 @@
     },
     {
       "id": "juzo-juzo-pressure-pad-9420",
+      "nameEn": "Juzo 9420 / 9420L pressure pads",
       "name": "وسائد الضغط Juzo 9420، 9420L",
       "titleAr": "",
       "brand": "Juzo",
@@ -11312,7 +11315,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-pressure-pad-9420",
       "sortOrder": 5,
       "sizeGuide": null,
       "juzoOptions": [
@@ -11338,6 +11340,7 @@
     },
     {
       "id": "juzo-juzo-lymphpad",
+      "nameEn": "Juzo Lymphpad compression padding – 12 × 16 cm",
       "name": "Juzo Lymphpad - حشوة ضغط للوذمة اللمفية والوذمة الشحمية | 12 x 16 cm",
       "titleAr": "",
       "brand": "Juzo",
@@ -11367,7 +11370,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-lymphpad",
       "sortOrder": 6,
       "sizeGuide": null,
       "juzoOptions": [
@@ -11393,6 +11395,7 @@
     },
     {
       "id": "juzo-silicone-press-pads-naked",
+      "nameEn": "Naked silicone pressure pads",
       "name": "حشوات الضغط السيليكونية Naked",
       "titleAr": "",
       "brand": "Juzo",
@@ -11422,7 +11425,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/silicone-press-pads-naked",
       "sortOrder": 7,
       "sizeGuide": null,
       "juzoOptions": [
@@ -11448,6 +11450,7 @@
     },
     {
       "id": "juzo-juzo-easyfit-1890",
+      "nameEn": "Juzo Easy Fit donning and doffing aid",
       "name": "Juzo Easy Fit مساعد الارتداء والخلع | لجوارب الضغط ذات الأصابع المفتوحة أو المغلقة",
       "titleAr": "",
       "brand": "Juzo",
@@ -11477,7 +11480,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-easyfit-1890",
       "sortOrder": 8,
       "sizeGuide": {
         "unit": "cm",
@@ -11531,8 +11533,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-easyfit-1890"
+        ]
       },
       "juzoOptions": [
         {
@@ -11557,6 +11558,7 @@
     },
     {
       "id": "juzo-juzo-expert-3022-hfa-glove-open-fingers",
+      "nameEn": "Juzo Expert flat-knit open-finger compression glove",
       "name": "قفاز الضغط ذو النسيج المسطّح Juzo Expert للعناية بالوذمة اللمفية في اليد | أصابع مفتوحة",
       "titleAr": "",
       "brand": "Juzo",
@@ -11592,7 +11594,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-expert-3022-hfa-glove-open-fingers",
       "sortOrder": 9,
       "sizeGuide": {
         "unit": "cm",
@@ -12764,8 +12765,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-expert-3022-hfa-glove-open-fingers"
+        ]
       },
       "juzoOptions": [
         {
@@ -12805,6 +12805,7 @@
     },
     {
       "id": "juzo-juzo-compression-wrap-knee",
+      "nameEn": "Juzo Compression Wrap – Knee",
       "name": "Juzo Compression Wrap - Knee",
       "titleAr": "",
       "brand": "Juzo",
@@ -12838,7 +12839,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-compression-wrap-knee",
       "sortOrder": 12,
       "sizeGuide": {
         "unit": "cm",
@@ -12970,8 +12970,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-compression-wrap-knee"
+        ]
       },
       "juzoOptions": [
         {
@@ -13000,6 +12999,7 @@
     },
     {
       "id": "juzo-juzo-compression-wrap-thigh",
+      "nameEn": "Juzo Compression Wrap – Thigh",
       "name": "رباط الضغط Juzo - الفخذ",
       "titleAr": "",
       "brand": "Juzo",
@@ -13032,7 +13032,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-compression-wrap-thigh",
       "sortOrder": 13,
       "sizeGuide": {
         "unit": "cm",
@@ -13244,8 +13243,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-compression-wrap-thigh"
+        ]
       },
       "juzoOptions": [
         {
@@ -13273,6 +13271,7 @@
     },
     {
       "id": "juzo-juzo-scarprime-direct-ft-3016-men",
+      "nameEn": "Juzo ScarPrime Direct FT Bermuda shorts – Men",
       "name": "سروال بيرمودا Juzo ScarPrime Direct FT | للرجال",
       "titleAr": "",
       "brand": "Juzo",
@@ -13306,7 +13305,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-scarprime-direct-ft-3016-men",
       "sortOrder": 14,
       "sizeGuide": {
         "unit": "cm",
@@ -13639,8 +13637,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-scarprime-direct-ft-3016-men"
+        ]
       },
       "juzoOptions": [
         {
@@ -13671,6 +13668,7 @@
     },
     {
       "id": "juzo-juzo-scarprime-direct-ft-3016-women",
+      "nameEn": "Juzo ScarPrime Direct FT Bermuda shorts – Women",
       "name": "سروال بيرمودا Juzo ScarPrime Direct FT | للنساء",
       "titleAr": "",
       "brand": "Juzo",
@@ -13704,7 +13702,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-scarprime-direct-ft-3016-women",
       "sortOrder": 15,
       "sizeGuide": {
         "unit": "cm",
@@ -14037,8 +14034,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-scarprime-direct-ft-3016-women"
+        ]
       },
       "juzoOptions": [
         {
@@ -14069,6 +14065,7 @@
     },
     {
       "id": "juzo-juzo-scarprime-light-cg-4000-sleeve",
+      "nameEn": "Juzo ScarPrime Light CG compression sleeve",
       "name": "Juzo ScarPrime Light CG | كُمّ ضغط للندبات",
       "titleAr": "",
       "brand": "Juzo",
@@ -14101,7 +14098,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-scarprime-light-cg-4000-sleeve",
       "sortOrder": 16,
       "sizeGuide": {
         "unit": "cm",
@@ -14509,8 +14505,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-scarprime-light-cg-4000-sleeve"
+        ]
       },
       "juzoOptions": [
         {
@@ -14540,6 +14535,7 @@
     },
     {
       "id": "juzo-juzo-scarprime-direct-bt-3016-women",
+      "nameEn": "Juzo ScarPrime Direct BT high-waisted leggings – Women",
       "name": "Juzo ScarPrime Direct Leggings BT | ضغط طبي مرتفع الخصر لعلاج ندبات النساء",
       "titleAr": "",
       "brand": "Juzo",
@@ -14573,7 +14569,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-scarprime-direct-bt-3016-women",
       "sortOrder": 17,
       "sizeGuide": {
         "unit": "cm",
@@ -15018,8 +15013,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-scarprime-direct-bt-3016-women"
+        ]
       },
       "juzoOptions": [
         {
@@ -15050,6 +15044,7 @@
     },
     {
       "id": "juzo-juzo-ulcer-pro-compression-stocking-system-venous-ulcer",
+      "nameEn": "Juzo Ulcer Pro compression stocking system",
       "name": "جورب الضغط Juzo Ulcer Pro | نظام ضغط ثنائي المفعول (1 Expert + 2 بطانة)",
       "titleAr": "",
       "brand": "Juzo",
@@ -15083,7 +15078,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-ulcer-pro-compression-stocking-system-venous-ulcer",
       "sortOrder": 18,
       "sizeGuide": null,
       "juzoOptions": [
@@ -15113,6 +15107,7 @@
     },
     {
       "id": "juzo-juzo-classic-seamless-2302-ft",
+      "nameEn": "Juzo Classic Seamless Bermuda shorts – Women",
       "name": "بنطال برمودا ضاغط بلا خياطة للنساء Juzo Classic Seamless",
       "titleAr": "",
       "brand": "Juzo",
@@ -15148,7 +15143,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-classic-seamless-2302-ft",
       "sortOrder": 19,
       "sizeGuide": {
         "unit": "cm",
@@ -15728,8 +15722,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-classic-seamless-2302-ft"
+        ]
       },
       "juzoOptions": [
         {
@@ -15768,6 +15761,7 @@
     },
     {
       "id": "juzo-juzo-classic-seamless-bt",
+      "nameEn": "Juzo Classic Seamless compression leggings",
       "name": "ليغنز ضغط بلا خياطة للوذمة الشحمية والوذمة اللمفية Juzo Classic Seamless",
       "titleAr": "",
       "brand": "Juzo",
@@ -15803,7 +15797,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-classic-seamless-bt",
       "sortOrder": 20,
       "sizeGuide": {
         "unit": "cm",
@@ -16282,8 +16275,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-classic-seamless-bt"
+        ]
       },
       "juzoOptions": [
         {
@@ -16322,6 +16314,7 @@
     },
     {
       "id": "juzo-juzo-comprima-bolero-arm-sleeves",
+      "nameEn": "Juzo Comprima bolero arm sleeves",
       "name": "أكمام ضغط بوليرو نسائية Juzo Comprima",
       "titleAr": "",
       "brand": "Juzo",
@@ -16358,7 +16351,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-comprima-bolero-arm-sleeves",
       "sortOrder": 21,
       "sizeGuide": null,
       "juzoOptions": [
@@ -16391,6 +16383,7 @@
     },
     {
       "id": "juzo-juzo-expert-ad",
+      "nameEn": "Juzo Expert AD below-knee compression stockings",
       "name": "جورب ضغط تحت الركبة Juzo Expert (AD)",
       "titleAr": "",
       "brand": "Juzo",
@@ -16428,7 +16421,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-expert-ad",
       "sortOrder": 22,
       "sizeGuide": {
         "unit": "cm",
@@ -17053,8 +17045,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-expert-ad"
+        ]
       },
       "juzoOptions": [
         {
@@ -17104,6 +17095,7 @@
     },
     {
       "id": "juzo-juzo-move-at",
+      "nameEn": "Juzo Move AT compression tights",
       "name": "Juzo Move AT Compression Tights (Pantyhose)",
       "titleAr": "",
       "brand": "Juzo",
@@ -17143,7 +17135,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-move-at",
       "sortOrder": 23,
       "sizeGuide": null,
       "juzoOptions": [
@@ -17197,6 +17188,7 @@
     },
     {
       "id": "juzo-juzo-scarprime-seamless-compression-glove",
+      "nameEn": "Juzo ScarPrime Seamless open-finger compression glove",
       "name": "قفاز ضغط للندبات بأصابع مفتوحة Juzo ScarPrime Seamless",
       "titleAr": "",
       "brand": "Juzo",
@@ -17233,7 +17225,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-scarprime-seamless-compression-glove",
       "sortOrder": 24,
       "sizeGuide": {
         "unit": "cm",
@@ -17354,8 +17345,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-scarprime-seamless-compression-glove"
+        ]
       },
       "juzoOptions": [
         {
@@ -17393,6 +17383,7 @@
     },
     {
       "id": "juzo-juzo-scarprime-seamless-burn-glove-long-hfd",
+      "nameEn": "Juzo ScarPrime Seamless closed-finger long compression glove",
       "name": "قفاز ضغط للندبات بأصابع مغلقة وطول ممتد Juzo ScarPrime Seamless",
       "titleAr": "",
       "brand": "Juzo",
@@ -17429,7 +17420,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-scarprime-seamless-burn-glove-long-hfd",
       "sortOrder": 25,
       "sizeGuide": {
         "unit": "cm",
@@ -17606,8 +17596,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-scarprime-seamless-burn-glove-long-hfd"
+        ]
       },
       "juzoOptions": [
         {
@@ -17645,6 +17634,7 @@
     },
     {
       "id": "juzo-juzo-sensation-at",
+      "nameEn": "Juzo Sensation Fit massage compression tights",
       "name": "بنطال الضغط بالتدليك Juzo Sensation Fit",
       "titleAr": "",
       "brand": "Juzo",
@@ -17682,7 +17672,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-sensation-at",
       "sortOrder": 26,
       "sizeGuide": {
         "unit": "cm",
@@ -18295,8 +18284,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-sensation-at"
+        ]
       },
       "juzoOptions": [
         {
@@ -18335,6 +18323,7 @@
     },
     {
       "id": "juzo-juzo-classic-seamless-ago",
+      "nameEn": "Juzo Classic Seamless arm garment with glove",
       "name": "ملبس ضغط للذراع بلا خياطات مع قفاز لعلاج الوذمة اللمفية",
       "titleAr": "",
       "brand": "Juzo",
@@ -18371,7 +18360,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-classic-seamless-ago",
       "sortOrder": 27,
       "sizeGuide": {
         "unit": "cm",
@@ -19110,8 +19098,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-classic-seamless-ago"
+        ]
       },
       "juzoOptions": [
         {
@@ -19152,6 +19139,7 @@
     },
     {
       "id": "juzo-juzo-lymph-lotion",
+      "nameEn": "Juzo Lymph skin-care lotion",
       "name": "لوشن Juzo Lymph للعناية بالبشرة",
       "titleAr": "",
       "brand": "Juzo",
@@ -19180,7 +19168,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-lymph-lotion",
       "sortOrder": 28,
       "sizeGuide": null,
       "juzoOptions": [
@@ -19199,6 +19186,7 @@
     },
     {
       "id": "juzo-juzo-vital-balsam-7",
+      "nameEn": "Juzo Vital Balsam 7 skin-care gel",
       "name": "جل العناية بالبشرة Juzo Vital Balsam 7",
       "titleAr": "",
       "brand": "Juzo",
@@ -19227,7 +19215,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-vital-balsam-7",
       "sortOrder": 29,
       "sizeGuide": null,
       "juzoOptions": [
@@ -19246,6 +19233,7 @@
     },
     {
       "id": "juzo-juzo-move-ag",
+      "nameEn": "Juzo Move AG thigh-high compression stockings",
       "name": "جوارب الضغط حتى الفخذ Juzo Move AG",
       "titleAr": "",
       "brand": "Juzo",
@@ -19285,7 +19273,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-move-ag",
       "sortOrder": 30,
       "sizeGuide": {
         "unit": "cm",
@@ -20004,8 +19991,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-move-ag"
+        ]
       },
       "juzoOptions": [
         {
@@ -20058,6 +20044,7 @@
     },
     {
       "id": "juzo-juzo-basic-ad",
+      "nameEn": "Juzo Basic AD below-knee closed-toe compression stockings",
       "name": "جوارب Juzo Basic الضاغطة لدوالي الأوردة AD بارتفاع أسفل الركبة | مقدّمة مغلقة",
       "titleAr": "",
       "brand": "Juzo",
@@ -20096,7 +20083,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-basic-ad",
       "sortOrder": 31,
       "sizeGuide": {
         "unit": "cm",
@@ -20853,8 +20839,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-basic-ad"
+        ]
       },
       "juzoOptions": [
         {
@@ -20905,6 +20890,7 @@
     },
     {
       "id": "juzo-juzo-basic-ag",
+      "nameEn": "Juzo Basic AG thigh-high open-toe compression stockings",
       "name": "جوارب ضغط Juzo Basic حتى الفخذ | دعم طبي CCL 2 (23-32 mmHg) | مفتوحة الأصابع",
       "titleAr": "",
       "brand": "Juzo",
@@ -20943,7 +20929,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-basic-ag",
       "sortOrder": 32,
       "sizeGuide": {
         "unit": "cm",
@@ -21700,8 +21685,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-basic-ag"
+        ]
       },
       "juzoOptions": [
         {
@@ -21750,6 +21734,7 @@
     },
     {
       "id": "juzo-juzo-basic-at",
+      "nameEn": "Juzo Basic AT open-toe compression tights",
       "name": "جوارب الضغط Juzo Basic AT | أصابع مفتوحة",
       "titleAr": "",
       "brand": "Juzo",
@@ -21788,7 +21773,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-basic-at",
       "sortOrder": 33,
       "sizeGuide": {
         "unit": "cm",
@@ -22545,8 +22529,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-basic-at"
+        ]
       },
       "juzoOptions": [
         {
@@ -22597,6 +22580,7 @@
     },
     {
       "id": "juzo-juzo-inspiration-ag",
+      "nameEn": "Juzo Inspiration AG semi-sheer thigh-high stockings",
       "name": "جوارب Juzo Inspiration الضاغطة | جوارب خفيفة شبه شفّافة لدوالي الأوردة والوذمة",
       "titleAr": "",
       "brand": "Juzo",
@@ -22635,7 +22619,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-inspiration-ag",
       "sortOrder": 34,
       "sizeGuide": {
         "unit": "cm",
@@ -23410,8 +23393,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-inspiration-ag"
+        ]
       },
       "juzoOptions": [
         {
@@ -23460,6 +23442,7 @@
     },
     {
       "id": "juzo-juzo-inspiration-at",
+      "nameEn": "Juzo Inspiration AT semi-sheer open-toe tights",
       "name": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
       "titleAr": "",
       "brand": "Juzo",
@@ -23500,7 +23483,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-inspiration-at",
       "sortOrder": 35,
       "sizeGuide": {
         "unit": "cm",
@@ -24275,8 +24257,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-inspiration-at"
+        ]
       },
       "juzoOptions": [
         {
@@ -24329,6 +24310,7 @@
     },
     {
       "id": "juzo-juzo-inspiration-atu-maternity-compression-tights",
+      "nameEn": "Juzo Inspiration ATU maternity compression tights",
       "name": "جوارب Juzo Inspiration الضاغطة للحمل | دعم بانتيهوز للأمومة",
       "titleAr": "",
       "brand": "Juzo",
@@ -24367,7 +24349,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-inspiration-atu-maternity-compression-tights",
       "sortOrder": 36,
       "sizeGuide": {
         "unit": "cm",
@@ -25142,8 +25123,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-inspiration-atu-maternity-compression-tights"
+        ]
       },
       "juzoOptions": [
         {
@@ -25192,6 +25172,7 @@
     },
     {
       "id": "juzo-juzo-adventure-ad",
+      "nameEn": "Juzo Adventure AD below-knee closed-toe stockings – Men",
       "name": "جوارب ضغط Juzo Adventure AD للرجال | تحت الركبة، مقدمة مغلقة",
       "titleAr": "",
       "brand": "Juzo",
@@ -25231,7 +25212,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-adventure-ad",
       "sortOrder": 37,
       "sizeGuide": {
         "unit": "cm",
@@ -25700,8 +25680,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-adventure-ad"
+        ]
       },
       "juzoOptions": [
         {
@@ -25753,6 +25732,7 @@
     },
     {
       "id": "juzo-juzo-dynamic-cotton-ad",
+      "nameEn": "Juzo Dynamic Cotton 3511 AD below-knee compression stockings",
       "name": "جوارب Juzo Dynamic Cotton الضاغطة 3511 AD | جوارب ضغط حتى الركبة",
       "titleAr": "",
       "brand": "Juzo",
@@ -25791,7 +25771,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-dynamic-cotton-ad",
       "sortOrder": 38,
       "sizeGuide": {
         "unit": "cm",
@@ -26566,8 +26545,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-dynamic-cotton-ad"
+        ]
       },
       "juzoOptions": [
         {
@@ -26618,6 +26596,7 @@
     },
     {
       "id": "juzo-juzo-dynamic-at-closed-crotch",
+      "nameEn": "Juzo Dynamic AT closed-crotch compression tights",
       "name": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
       "titleAr": "",
       "brand": "Juzo",
@@ -26657,7 +26636,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-dynamic-at-closed-crotch",
       "sortOrder": 39,
       "sizeGuide": {
         "unit": "cm",
@@ -27432,8 +27410,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-dynamic-at-closed-crotch"
+        ]
       },
       "juzoOptions": [
         {
@@ -27484,6 +27461,7 @@
     },
     {
       "id": "juzo-juzo-dynamic-at-open-crotch",
+      "nameEn": "Juzo Dynamic AT open-crotch compression tights",
       "name": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
       "titleAr": "",
       "brand": "Juzo",
@@ -27523,7 +27501,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-dynamic-at-open-crotch",
       "sortOrder": 40,
       "sizeGuide": {
         "unit": "cm",
@@ -28298,8 +28275,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-dynamic-at-open-crotch"
+        ]
       },
       "juzoOptions": [
         {
@@ -28350,6 +28326,7 @@
     },
     {
       "id": "juzo-juzo-scarpad-extra",
+      "nameEn": "Juzo ScarPad Extra silicone scar sheets",
       "name": "شرائح السيليكون للندبات Juzo ScarPad Extra (الولادة القيصرية والجسم)",
       "titleAr": "",
       "brand": "Juzo",
@@ -28378,7 +28355,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-scarpad-extra",
       "sortOrder": 41,
       "sizeGuide": {
         "unit": null,
@@ -28486,8 +28462,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-scarpad-extra"
+        ]
       },
       "juzoOptions": [
         {
@@ -28505,6 +28480,7 @@
     },
     {
       "id": "juzo-juzo-scarpad-light",
+      "nameEn": "Juzo ScarPad Light silicone scar sheets",
       "name": "شرائح السيليكون للندبات Juzo ScarPad Light (الوجه واليدين)",
       "titleAr": "",
       "brand": "Juzo",
@@ -28533,7 +28509,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-scarpad-light",
       "sortOrder": 42,
       "sizeGuide": {
         "unit": null,
@@ -28641,8 +28616,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-scarpad-light"
+        ]
       },
       "juzoOptions": [
         {
@@ -28660,6 +28634,7 @@
     },
     {
       "id": "juzo-juzo-scarpad-strong",
+      "nameEn": "Juzo ScarPad Strong silicone scar sheets",
       "name": "شرائح السيليكون للندبات Juzo ScarPad Strong (الندبات العنيدة)",
       "titleAr": "",
       "brand": "Juzo",
@@ -28685,7 +28660,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-scarpad-strong",
       "sortOrder": 43,
       "sizeGuide": {
         "unit": null,
@@ -28761,8 +28735,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-scarpad-strong"
+        ]
       },
       "juzoOptions": [],
       "pieceTypes": [],
@@ -28771,6 +28744,7 @@
     },
     {
       "id": "juzo-juzo-classic-seamless-zea",
+      "nameEn": "Juzo Classic Seamless compression toe cap",
       "name": "غطاء الأصابع الضاغط بلا خياطة Juzo Classic للوذمة اللمفية",
       "titleAr": "",
       "brand": "Juzo",
@@ -28809,7 +28783,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-classic-seamless-zea",
       "sortOrder": 44,
       "sizeGuide": {
         "unit": "cm",
@@ -28938,8 +28911,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-classic-seamless-zea"
+        ]
       },
       "juzoOptions": [
         {
@@ -28988,6 +28960,7 @@
     },
     {
       "id": "juzo-juzo-dynamic-cg",
+      "nameEn": "Juzo Dynamic CG compression arm sleeve",
       "name": "كم ضغط للذراع Juzo Dynamic | فئة الضغط 2",
       "titleAr": "",
       "brand": "Juzo",
@@ -29024,7 +28997,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-dynamic-cg",
       "sortOrder": 45,
       "sizeGuide": {
         "unit": "cm",
@@ -29533,8 +29505,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-dynamic-cg"
+        ]
       },
       "juzoOptions": [
         {
@@ -29575,6 +29546,7 @@
     },
     {
       "id": "juzo-juzo-acs-light-j706li-arm-wrap",
+      "nameEn": "Juzo ACS Light J706LI arm wrap",
       "name": "Juzo ACS Light قطعة الذراع | نظام ضغط طبي تكيّفي لتخفيف احتقان الذراع",
       "titleAr": "",
       "brand": "Juzo",
@@ -29612,7 +29584,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-acs-light-j706li-arm-wrap",
       "sortOrder": 46,
       "sizeGuide": {
         "unit": "cm",
@@ -29883,8 +29854,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-acs-light-j706li-arm-wrap"
+        ]
       },
       "juzoOptions": [
         {
@@ -29929,6 +29899,7 @@
     },
     {
       "id": "juzo-juzo-acs-light-j705li-hand-wrap",
+      "nameEn": "Juzo ACS Light J705LI hand wrap",
       "name": "Juzo ACS Light قطعة اليد | نظام ضغط طبي تكيّفي لتخفيف احتقان اليد",
       "titleAr": "",
       "brand": "Juzo",
@@ -29961,7 +29932,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-acs-light-j705li-hand-wrap",
       "sortOrder": 47,
       "sizeGuide": {
         "unit": "cm",
@@ -30026,8 +29996,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-acs-light-j705li-hand-wrap"
+        ]
       },
       "juzoOptions": [
         {
@@ -30055,6 +30024,7 @@
     },
     {
       "id": "juzo-juzo-acs-light-j704li-thigh-wrap",
+      "nameEn": "Juzo ACS Light J704LI thigh wrap",
       "name": "Juzo ACS Light قطعة الفخذ | نظام ضغط طبي تكيّفي لتخفيف احتقان الفخذ",
       "titleAr": "",
       "brand": "Juzo",
@@ -30090,7 +30060,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-acs-light-j704li-thigh-wrap",
       "sortOrder": 48,
       "sizeGuide": {
         "unit": "cm",
@@ -30313,8 +30282,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-acs-light-j704li-thigh-wrap"
+        ]
       },
       "juzoOptions": [
         {
@@ -30351,6 +30319,7 @@
     },
     {
       "id": "juzo-juzo-acs-light-j703li-knee-wrap",
+      "nameEn": "Juzo ACS Light J703LI knee wrap",
       "name": "Juzo ACS Light قطعة الركبة | نظام ضغط طبي تكيّفي لتخفيف احتقان الركبة",
       "titleAr": "",
       "brand": "Juzo",
@@ -30384,7 +30353,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-acs-light-j703li-knee-wrap",
       "sortOrder": 49,
       "sizeGuide": {
         "unit": "cm",
@@ -30513,8 +30481,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-acs-light-j703li-knee-wrap"
+        ]
       },
       "juzoOptions": [
         {
@@ -30543,6 +30510,7 @@
     },
     {
       "id": "juzo-juzo-acs-light-j702li-calf-wrap",
+      "nameEn": "Juzo ACS Light J702LI calf wrap",
       "name": "Juzo ACS Light قطعة الساق | نظام ضغط طبي تكيّفي لتخفيف احتقان الساق",
       "titleAr": "",
       "brand": "Juzo",
@@ -30580,7 +30548,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-acs-light-j702li-calf-wrap",
       "sortOrder": 50,
       "sizeGuide": {
         "unit": "cm",
@@ -30795,8 +30762,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-acs-light-j702li-calf-wrap"
+        ]
       },
       "juzoOptions": [
         {
@@ -30841,6 +30807,7 @@
     },
     {
       "id": "juzo-juzo-acs-light-j701li-foot-wrap",
+      "nameEn": "Juzo ACS Light J701LI foot wrap",
       "name": "Juzo ACS Light قطعة القدم | نظام ضغط طبي تكيّفي لتخفيف احتقان القدم",
       "titleAr": "",
       "brand": "Juzo",
@@ -30876,7 +30843,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-acs-light-j701li-foot-wrap",
       "sortOrder": 51,
       "sizeGuide": {
         "unit": "cm",
@@ -31041,8 +31007,7 @@
               ]
             ]
           }
-        ],
-        "sourceUrl": "https://healfit.ae/ar/shop/juzo-acs-light-j701li-foot-wrap"
+        ]
       },
       "juzoOptions": [
         {
@@ -31079,6 +31044,7 @@
     },
     {
       "id": "juzo-juzo-classic-seamless-2302-ft-men",
+      "nameEn": "Juzo Classic Seamless Bermuda shorts – Men",
       "name": "سروال بيرمودا ضاغط للرجال Juzo Classic Seamless",
       "titleAr": "",
       "brand": "Juzo",
@@ -31114,7 +31080,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-classic-seamless-2302-ft-men",
       "sortOrder": 52,
       "sizeGuide": null,
       "juzoOptions": [
@@ -31154,6 +31119,7 @@
     },
     {
       "id": "juzo-juzo-dynamic-above-knee-stump-shrinker",
+      "nameEn": "Juzo Dynamic above-knee stump shrinker",
       "name": "ملبس ضغط لتقليص الجذمور فوق الركبة Juzo Dynamic",
       "titleAr": "",
       "brand": "Juzo",
@@ -31194,7 +31160,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-dynamic-above-knee-stump-shrinker",
       "sortOrder": 53,
       "sizeGuide": null,
       "juzoOptions": [
@@ -31246,6 +31211,7 @@
     },
     {
       "id": "juzo-juzo-dynamic-above-knee-stump-shrinker-hip-attachment",
+      "nameEn": "Juzo Dynamic above-knee stump shrinker with hip attachment",
       "name": "ملبس ضغط لتقليص الجذمور فوق الركبة مع ملحق الورك Juzo Dynamic",
       "titleAr": "",
       "brand": "Juzo",
@@ -31286,7 +31252,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-dynamic-above-knee-stump-shrinker-hip-attachment",
       "sortOrder": 54,
       "sizeGuide": null,
       "juzoOptions": [
@@ -31338,6 +31303,7 @@
     },
     {
       "id": "juzo-juzo-dynamic-below-knee-stump-shrinker",
+      "nameEn": "Juzo Dynamic below-knee stump shrinker",
       "name": "ملبس ضغط لتقليص الجذمور تحت الركبة Juzo Dynamic",
       "titleAr": "",
       "brand": "Juzo",
@@ -31377,7 +31343,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-dynamic-below-knee-stump-shrinker",
       "sortOrder": 55,
       "sizeGuide": null,
       "juzoOptions": [
@@ -31428,6 +31393,7 @@
     },
     {
       "id": "juzo-juzo-special-detergent",
+      "nameEn": "Juzo Special detergent for compression garments",
       "name": "Juzo Special Detergent for Compression Garments",
       "titleAr": "",
       "brand": "Juzo",
@@ -31456,7 +31422,6 @@
       ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
-      "inquiryUrl": "https://healfit.ae/ar/shop/juzo-special-detergent",
       "sortOrder": 56,
       "sizeGuide": null,
       "juzoOptions": [

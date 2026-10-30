@@ -45,7 +45,7 @@
   return f?.file?`<img src="${e(f.file)}" alt="${e(f.alt)}" ${lazy?'loading="lazy"':''} decoding="async">`:
    `<p class="jz-unavailable" role="status">${byColour?text('الصورة غير متاحة لهذا اللون','Image unavailable for this colour'):text('الصورة غير متاحة','Image unavailable')}</p>`;
  }
- function heading(p){return en()?(window.OrthoJuzoNames?.[p.id]||p.nameEn||legacy(p)?.name||p.name):(p.titleAr||legacy(p)?.title||p.name);}
+ function heading(p){return en()?(p.nameEn||window.OrthoJuzoNames?.[p.id]||legacy(p)?.name||p.name):(p.titleAr||legacy(p)?.title||p.name);}
  function swatches(p,st,compact=false){
   const list=colors(p),shown=compact?list.slice(0,5):list;
   return `<div class="jz-swatches ${compact?'jz-swatches-small':''}" ${compact?'aria-hidden="true"':`role="group" aria-label="${e(t('الألوان المتاحة','Available colours'))}"`}>${shown.map(c=>{

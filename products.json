@@ -9873,10 +9873,10 @@
       "category": "compression",
       "group": "compression",
       "description": "جورب ضغط طبي من مجموعة Soft، بطول تحت الركبة.",
-      "price": null,
+      "price": 150.0,
       "priceSource": "",
       "priceUnit": "",
-      "method": "quote",
+      "method": "buy",
       "demo": false,
       "demoEligible": false,
       "options": [],
@@ -9897,7 +9897,67 @@
       "visible": true,
       "salePrice": null,
       "saleStart": "",
-      "saleEnd": ""
+      "saleEnd": "",
+      "commerce": {
+        "description": {
+          "ar": "\n\n<p>جورب ضغط طبي من مجموعة Soft، بطول تحت الركبة.</p>",
+          "en": "\n\n<p><br></p>"
+        },
+        "shortDescription": {
+          "ar": "",
+          "en": ""
+        },
+        "accessories": {
+          "ar": "",
+          "en": ""
+        },
+        "warranty": {
+          "ar": "",
+          "en": ""
+        },
+        "origin": {
+          "ar": "",
+          "en": ""
+        },
+        "certifications": {
+          "ar": "",
+          "en": ""
+        },
+        "applications": {
+          "ar": "",
+          "en": ""
+        },
+        "leadTime": {
+          "ar": "",
+          "en": ""
+        },
+        "metaTitle": {
+          "ar": "",
+          "en": ""
+        },
+        "metaDescription": {
+          "ar": "",
+          "en": ""
+        },
+        "features": {
+          "ar": [],
+          "en": []
+        },
+        "tags": {
+          "ar": [],
+          "en": []
+        },
+        "specifications": [],
+        "videoUrl": "",
+        "attachments": [],
+        "compareAt": null,
+        "quoteEnabled": false,
+        "vatIncluded": null,
+        "status": "published",
+        "sortOrder": null,
+        "related": [],
+        "updatedAt": "2026-10-30T18:45:21.175588+00:00"
+      }
     },
     {
       "id": "juzo-soft-thigh",

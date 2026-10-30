@@ -45,3 +45,33 @@ header .logo{height:52px;width:auto;max-width:none;object-fit:contain}
 header{border-bottom:0;box-shadow:0 1px 0 #e3eaf2,0 6px 18px -14px rgba(16,44,83,.35)}
 @media(max-width:1000px){header .logo{height:46px;width:auto}}
 @media(max-width:650px){header .logo{height:40px;width:auto}.footer-grid img{height:40px;width:auto}}
+
+/* Compact, tidier header + search */
+.head{min-height:70px;padding-block:9px;gap:26px}
+header .logo{height:44px}
+.head form{flex:1;max-width:440px;min-height:40px;margin-inline:auto;padding:0 4px 0 16px;gap:6px;background:var(--pale);border-color:transparent;border-radius:999px;transition:background .2s,border-color .2s,box-shadow .2s}
+.head form:hover{border-color:#cfdbea}
+.head form:focus-within{background:#fff;border-color:var(--blue)}
+.head form input{min-height:38px;font-size:14px;background:transparent;border:0;outline:0;min-width:0;flex:1}
+.head form button{width:34px;height:34px}
+.head form button svg{width:18px;height:18px}
+.head-actions{gap:2px}.head-actions button{min-width:40px;min-height:40px}
+.store-navigation{min-height:44px}
+@media(max-width:1000px){.head{gap:12px;padding-block:8px}header .logo{height:38px}.head form{order:3;flex-basis:100%;max-width:none;min-height:38px;margin-inline:0}}
+/* Chat widget */
+.chat-fab{position:fixed;inset-block-end:20px;inset-inline-start:20px;z-index:60;width:52px;height:52px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center;box-shadow:0 12px 26px -10px #102c53;transition:transform .2s var(--ease),background .2s}
+.chat-fab:hover{transform:translateY(-2px);background:var(--navy)}
+.chat-fab svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.chat-panel{position:fixed;inset-block-end:84px;inset-inline-start:20px;z-index:60;width:min(370px,calc(100vw - 24px));background:#fff;border-radius:22px;box-shadow:0 24px 60px -18px #102c5366,0 0 0 1px var(--line);overflow:hidden}
+.chat-panel[hidden]{display:none}
+.chat-panel header{position:static;display:flex;justify-content:space-between;align-items:flex-start;padding:20px 22px 14px;border-bottom:1px solid var(--line);box-shadow:none;background:#fff}
+.chat-panel h2{margin:0;font-size:18px;color:var(--navy)}.chat-panel header p{color:var(--muted);font-size:13px;margin-top:2px}
+.chat-close{font-size:26px;line-height:1;color:var(--muted);padding:2px 8px}
+.chat-panel form{display:grid;gap:12px;padding:18px 22px 22px}
+.chat-lead{font-size:14px;line-height:1.9;color:var(--ink)}
+.chat-panel input{border:1px solid var(--line);border-radius:14px;padding:0 16px;min-height:46px;background:#fff;width:100%}
+.chat-panel input:focus{outline:0;border-color:var(--blue);box-shadow:0 0 0 3px rgb(25 75 156 / 9%)}
+.chat-phone{display:flex;gap:10px}.chat-phone input:first-child{flex:1}.chat-cc{width:84px!important;text-align:center;background:var(--pale)!important}
+.chat-go{min-height:48px;border-radius:999px;background:var(--blue);color:#fff;font-weight:600;transition:background .2s}.chat-go:hover{background:var(--navy)}
+.chat-note{font-size:12px;line-height:1.8;color:var(--muted);text-align:center}
+@media(max-width:600px){.chat-fab{inset-block-end:14px;inset-inline-start:14px;width:48px;height:48px}.chat-panel{inset-block-end:72px;inset-inline-start:12px}}

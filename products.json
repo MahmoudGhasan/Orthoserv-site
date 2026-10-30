@@ -9886,7 +9886,7 @@
           "file": "assets/products/juzo/juzo-0.jpg",
           "width": 367,
           "height": 547,
-          "role": "detail",
+          "role": "product",
           "alt": {
             "ar": "Juzo Soft — جوارب تحت الركبة",
             "en": "Juzo Soft below-knee stockings"
@@ -9956,7 +9956,7 @@
         "status": "published",
         "sortOrder": null,
         "related": [],
-        "updatedAt": "2026-10-30T18:45:21.175588+00:00"
+        "updatedAt": "2026-10-30T19:03:26.856399+00:00"
       }
     },
     {

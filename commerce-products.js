@@ -103,7 +103,7 @@
     const note=main.querySelector('.detail-price p');const value=info.vatIncluded?(lang()==='ar'?'شامل الضريبة':'VAT included'):(lang()==='ar'?'غير شامل الضريبة':'VAT excluded');
     if(note&&note.textContent!==value){note.dataset.noTranslate='';note.textContent=value;}
    }
-   if(info.quoteEnabled&&!main.querySelector('.commerce-quote')&&p.method==='buy'){
+   if(false){ // Priced products have one purchase action; quote-only products use their normal quote action.
     const button=element('button',lang()==='ar'?'طلب عرض سعر':'Request quote','button commerce-quote');button.dataset.quote=p.id;main.querySelector('.detail-copy')?.append(button);
    }
    if(info.related?.length){

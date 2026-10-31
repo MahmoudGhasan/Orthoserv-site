@@ -33,8 +33,7 @@
         ${input('notes', 'Delivery notes', 'ملاحظات التوصيل', 'maxlength="300"')}</fieldset>
       <label class="field">${t('Order note (optional)', 'ملاحظات على الطلب (اختياري)')}<textarea name="note" maxlength="500" rows="2"></textarea></label>
       <div style="position:absolute;left:-9999px" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
-      <div class="form-summary">${opts.total != null && opts.money ? `${t('Estimated total', 'الإجمالي التقديري')}: <strong>${opts.money(opts.total)}</strong><p class="small">${t('The final total is calculated by the server and shown after you place the order.', 'يحسب الخادم الإجمالي النهائي ويظهر بعد إرسال الطلب.')}</p>` : ''}
-      <p class="small">${t('No payment is taken now. Our team will call you to confirm the order and arrange payment.', 'لا يتم الدفع الآن. سيتصل بك فريقنا لتأكيد الطلب وترتيب الدفع.')}</p></div>
+      <aside class="os-checkout-summary">${opts.summaryHtml||''}</aside>
       <p class="od-error" role="alert" hidden></p>
       <button class="button wide" type="submit">${t('Place order', 'إرسال الطلب')}</button></form>`;
     const form = box.querySelector('form'), error = form.querySelector('.od-error'), submit = form.querySelector('[type=submit]');
@@ -64,6 +63,13 @@
 
   /* ---------- checkout ---------- */
   async function checkout(box, items, opts = {}) {
+    box.innerHTML=`<p role="status">${t('Reviewing your selections…','جارٍ مراجعة اختياراتك…')}</p>`;
+    try{
+      const response=await fetch(new URL('/v1/checkout/preview',window.OrthoCMS.settings.accounts.apiUrl),{method:'POST',headers:{'Content-Type':'application/json'},credentials:'omit',cache:'no-store',signal:AbortSignal.timeout(20000),body:JSON.stringify({items})});
+      const result=await response.json();
+      if(!response.ok){const name=items.find(x=>x.id===result.id)?.id||'';box.innerHTML=`<div class="notice" role="alert">${esc(result.error==='options_required'?t('Select the size and required options before ordering.','اختر المقاس والخيارات المطلوبة قبل إرسال الطلب.'):t('This selection needs reviewing before you continue.','راجع اختيارات هذا المنتج قبل المتابعة.'))} <a href="#product/${encodeURIComponent(name)}" data-review-product>${t('Review product','مراجعة المنتج')}</a></div>`;box.querySelector('[data-review-product]').onclick=()=>document.querySelector('#formDialog')?.close();return;}
+      opts={...opts,preview:result,summaryHtml:opts.summary?.(result)||''};
+    }catch{box.innerHTML=`<p role="alert">${t('Could not review your bag. Please try again.','تعذّرت مراجعة السلة. حاول مرة أخرى.')}</p>`;return;}
     const key = (crypto.randomUUID ? crypto.randomUUID() : String(Date.now()) + Math.random().toString(16).slice(2)) + '';
     const close = () => document.querySelector('dialog[open]')?.close();
     const goto = hash => { close(); location.hash = hash; };
@@ -99,8 +105,7 @@
     box.innerHTML = `<form class="od-form" novalidate>
       <fieldset><legend>${t('Delivery address', 'عنوان التوصيل')}</legend>${list.map(a => `<label class="od-addr"><input type="radio" name="address_id" value="${esc(a.id)}" ${a.id === chosenDefault.id ? 'checked' : ''}><span><b>${esc(a.label || a.city)}</b> — ${esc(a.recipient)} · <bdi dir="ltr">${esc(a.phone)}</bdi><br>${addressLine(a)}</span></label>`).join('')}</fieldset>
       <label class="field">${t('Order note (optional)', 'ملاحظات على الطلب (اختياري)')}<textarea name="note" maxlength="500" rows="2"></textarea></label>
-      <div class="form-summary">${opts.total != null && opts.money ? `${t('Estimated total', 'الإجمالي التقديري')}: <strong>${opts.money(opts.total)}</strong><p class="small">${t('The final total is calculated by the server and shown after you place the order.', 'يحسب الخادم الإجمالي النهائي ويظهر بعد إرسال الطلب.')}</p>` : ''}
-      <p class="small">${t('No payment is taken now. Our team will contact you to confirm the order and arrange payment.', 'لا يتم الدفع الآن. سيتواصل معك فريقنا لتأكيد الطلب وترتيب الدفع.')}</p></div>
+      <aside class="os-checkout-summary">${opts.summaryHtml||''}</aside>
       <p class="od-error" role="alert" hidden></p>
       <button class="button wide" type="submit">${t('Place order', 'إرسال الطلب')}</button></form>`;
     const form = box.querySelector('form'), error = form.querySelector('.od-error'), submit = form.querySelector('[type=submit]');

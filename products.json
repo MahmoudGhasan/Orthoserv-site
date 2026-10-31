@@ -9957,10 +9957,77 @@
         "sortOrder": null,
         "related": [],
         "updatedAt": "2026-10-30T19:03:26.856399+00:00"
-      }
+      },
+      "juzoOptions": [
+        {
+          "key": "pressure",
+          "labelAr": "فئة الضغط",
+          "labelEn": "Compression class",
+          "values": [
+            "CCL 1",
+            "CCL 2"
+          ]
+        },
+        {
+          "key": "size",
+          "labelAr": "المقاس",
+          "labelEn": "Size",
+          "values": [
+            "I / XS",
+            "II / S",
+            "III / M",
+            "IV / L",
+            "V / XL",
+            "VI / XXL"
+          ]
+        },
+        {
+          "key": "length",
+          "labelAr": "الطول",
+          "labelEn": "Length",
+          "values": [
+            "Normal",
+            "Short",
+            "Extra short"
+          ]
+        }
+      ],
+      "sizingSource": "https://www.juzo.com/en/products/compression-garments/venous-therapy/juzo-soft"
     },
     {
       "juzoOptions": [
+        {
+          "key": "pressure",
+          "labelAr": "فئة الضغط",
+          "labelEn": "Compression class",
+          "values": [
+            "CCL 1",
+            "CCL 2"
+          ]
+        },
+        {
+          "key": "size",
+          "labelAr": "المقاس",
+          "labelEn": "Size",
+          "values": [
+            "I / XS",
+            "II / S",
+            "III / M",
+            "IV / L",
+            "V / XL",
+            "VI / XXL"
+          ]
+        },
+        {
+          "key": "length",
+          "labelAr": "الطول",
+          "labelEn": "Length",
+          "values": [
+            "Normal",
+            "Short",
+            "Extra short"
+          ]
+        },
         {
           "key": "color",
           "labelAr": "اللون",
@@ -10063,7 +10130,8 @@
         "sortOrder": null,
         "related": [],
         "updatedAt": "2026-10-30T18:46:05.943219+00:00"
-      }
+      },
+      "sizingSource": "https://www.juzo.com/en/products/compression-garments/venous-therapy/juzo-soft"
     },
     {
       "commerce": {
@@ -10072,6 +10140,38 @@
         "quoteEnabled": false
       },
       "juzoOptions": [
+        {
+          "key": "pressure",
+          "labelAr": "فئة الضغط",
+          "labelEn": "Compression class",
+          "values": [
+            "CCL 1",
+            "CCL 2"
+          ]
+        },
+        {
+          "key": "size",
+          "labelAr": "المقاس",
+          "labelEn": "Size",
+          "values": [
+            "I / XS",
+            "II / S",
+            "III / M",
+            "IV / L",
+            "V / XL",
+            "VI / XXL"
+          ]
+        },
+        {
+          "key": "length",
+          "labelAr": "الطول",
+          "labelEn": "Length",
+          "values": [
+            "Normal",
+            "Short",
+            "Extra short"
+          ]
+        },
         {
           "key": "color",
           "labelAr": "اللون",
@@ -10114,7 +10214,8 @@
       "visible": true,
       "salePrice": 350,
       "saleStart": "",
-      "saleEnd": ""
+      "saleEnd": "",
+      "sizingSource": "https://www.juzo.com/en/products/compression-garments/venous-therapy/juzo-soft"
     },
     {
       "commerce": {
@@ -10123,6 +10224,28 @@
         "quoteEnabled": false
       },
       "juzoOptions": [
+        {
+          "key": "pressure",
+          "labelAr": "فئة الضغط",
+          "labelEn": "Compression class",
+          "values": [
+            "CCL 1",
+            "CCL 2"
+          ]
+        },
+        {
+          "key": "size",
+          "labelAr": "المقاس",
+          "labelEn": "Size",
+          "values": [
+            "I / XS",
+            "II / S",
+            "III / M",
+            "IV / L",
+            "V / XL",
+            "VI / XXL"
+          ]
+        },
         {
           "key": "color",
           "labelAr": "اللون",
@@ -10165,7 +10288,8 @@
       "visible": true,
       "salePrice": 350,
       "saleStart": "",
-      "saleEnd": ""
+      "saleEnd": "",
+      "sizingSource": "https://www.juzo.com/en/products/compression-garments/venous-therapy/juzo-soft"
     },
     {
       "commerce": {
@@ -10174,6 +10298,37 @@
         "quoteEnabled": false
       },
       "juzoOptions": [
+        {
+          "key": "size",
+          "labelAr": "المقاس",
+          "labelEn": "Size",
+          "values": [
+            "2 / S",
+            "3 / M",
+            "4 / L",
+            "5 / XL",
+            "6 / XXL",
+            "7 / XXXL"
+          ]
+        },
+        {
+          "key": "length",
+          "labelAr": "الطول",
+          "labelEn": "Length",
+          "values": [
+            "Standard",
+            "Long"
+          ]
+        },
+        {
+          "key": "version",
+          "labelAr": "المحيط",
+          "labelEn": "Circumference",
+          "values": [
+            "Standard",
+            "Max"
+          ]
+        },
         {
           "key": "color",
           "labelAr": "اللون",
@@ -10216,7 +10371,8 @@
       "visible": true,
       "salePrice": 350,
       "saleStart": "",
-      "saleEnd": ""
+      "saleEnd": "",
+      "sizingSource": "https://www.juzo.com/en-gb/products/compression-garments/compression-therapy/juzo-compression-wrap"
     },
     {
       "commerce": {
@@ -10225,6 +10381,26 @@
         "quoteEnabled": false
       },
       "juzoOptions": [
+        {
+          "key": "size",
+          "labelAr": "المقاس",
+          "labelEn": "Size",
+          "values": [
+            "2 / S",
+            "3 / M",
+            "4 / L",
+            "5 / XL"
+          ]
+        },
+        {
+          "key": "length",
+          "labelAr": "الطول",
+          "labelEn": "Length",
+          "values": [
+            "Standard",
+            "Long"
+          ]
+        },
         {
           "key": "color",
           "labelAr": "اللون",
@@ -10267,7 +10443,8 @@
       "visible": true,
       "salePrice": 350,
       "saleStart": "",
-      "saleEnd": ""
+      "saleEnd": "",
+      "sizingSource": "https://www.juzo.com/en-gb/products/compression-garments/compression-therapy/juzo-compression-wrap"
     },
     {
       "salePrice": 350,

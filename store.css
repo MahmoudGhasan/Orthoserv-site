@@ -139,3 +139,8 @@ html[lang=en] .home-centre-copy h2{font-size:35px;line-height:1.35;letter-spacin
   .home-product-rail .card-bottom{margin-top:12px}
   .product-card .product-info h3,.product-card .product-info .arabic-name{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;min-height:0}
 }
+
+/* Keep all catalogue page numbers inside mobile and tablet layouts. */
+@media (max-width: 1024px) {
+  .pagination { flex-wrap: wrap; gap: 8px; }
+}

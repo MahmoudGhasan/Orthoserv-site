@@ -222,3 +222,15 @@ dialog.jzm-dialog{position:fixed;inset:0;box-sizing:border-box;width:min(760px,c
 @media(prefers-reduced-motion:reduce){.jzp-choice{transition:none}}
 
 .jz-size-link[hidden]{display:none}
+
+/* Juzo collection FAQ: native keyboard-accessible disclosure controls. */
+.jz-faq{margin-block:40px;padding-block:24px;border-top:1px solid var(--line,#dce5ef)}
+.jz-faq h2{margin:0 0 20px;font:inherit;font-size:clamp(22px,3vw,28px);font-weight:700;color:inherit}
+.jz-faq-item{border-bottom:1px solid var(--line,#dce5ef)}
+.jz-faq-item>summary{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:56px;padding:14px 4px;cursor:pointer;list-style:none;font:inherit;text-align:start}
+.jz-faq-item>summary::-webkit-details-marker{display:none}
+.jz-faq-item>summary:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:6px}
+.jz-faq-mark{flex:none;font-size:22px;line-height:1;transition:transform .18s ease}
+.jz-faq-item[open] .jz-faq-mark{transform:rotate(45deg)}
+.jz-faq-answer{padding:0 4px 20px;max-width:78ch;font:inherit;line-height:1.9;text-align:start;overflow-wrap:anywhere}
+@media(prefers-reduced-motion:reduce){.jz-faq-mark{transition:none}}

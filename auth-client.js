@@ -81,7 +81,7 @@
   async function verify() { await load(); if (auth.currentUser) return sdk.sendEmailVerification(auth.currentUser); }
   async function refresh() { await load(); if (auth.currentUser) { await sdk.reload(auth.currentUser); await auth.currentUser.getIdToken(true); } }
   async function accountRequest(path, options = {}) {
-    if (!/^\/v1\/(team|profile|addresses(?:\/[a-f0-9-]{36}(?:\/(?:delete|default))?)?|orders(?:\/[a-f0-9-]{36}(?:\/(?:cancel|status))?)?|tickets(?:\/[a-f0-9-]{36}(?:\/(?:reply|delete))?)?)(?:\?offset=\d+)?$/.test(path)) throw new Error('auth/invalid-path');
+    if (!/^\/v1\/(team|profile|addresses(?:\/[a-f0-9-]{36}(?:\/(?:delete|default))?)?|orders(?:\/[a-f0-9-]{36}(?:\/(?:cancel|status|invoice))?)?|tickets(?:\/[a-f0-9-]{36}(?:\/(?:reply|delete))?)?)(?:\?offset=\d+)?$/.test(path)) throw new Error('auth/invalid-path');
     await load();
     const user=auth.currentUser;
     if (!user || !session.user || session.user.uid!==user.uid) throw new Error('auth/profile-unavailable');

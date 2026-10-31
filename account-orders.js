@@ -34,7 +34,7 @@
       <label class="field">${t('Order note (optional)', 'ملاحظات على الطلب (اختياري)')}<textarea name="note" maxlength="500" rows="2"></textarea></label>
       <div style="position:absolute;left:-9999px" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
       <div class="form-summary">${opts.total != null && opts.money ? `${t('Estimated total', 'الإجمالي التقديري')}: <strong>${opts.money(opts.total)}</strong><p class="small">${t('The final total is calculated by the server and shown after you place the order.', 'يحسب الخادم الإجمالي النهائي ويظهر بعد إرسال الطلب.')}</p>` : ''}
-      <p class="small">${t('Our team will call you to confirm the order and arrange payment.', 'سيتصل بك فريقنا لتأكيد الطلب وترتيب الدفع.')}</p></div>
+      <p class="small">${t('No payment is taken now. Our team will call you to confirm the order and arrange payment.', 'لا يتم الدفع الآن. سيتصل بك فريقنا لتأكيد الطلب وترتيب الدفع.')}</p></div>
       <p class="od-error" role="alert" hidden></p>
       <button class="button wide" type="submit">${t('Place order', 'إرسال الطلب')}</button></form>`;
     const form = box.querySelector('form'), error = form.querySelector('.od-error'), submit = form.querySelector('[type=submit]');
@@ -50,7 +50,8 @@
         const r = await response.json().catch(() => ({}));
         if (!response.ok) { const x = new Error('guest_order'); x.status = response.status; throw x; }
         opts.onPlaced?.(r);
-        box.innerHTML = `<div class="success"><b>✓</b><h3>${t('Order received', 'تم استلام طلبك')}</h3><p>${t('Order number', 'رقم الطلب')}: <strong dir="ltr">${esc(r.number)}</strong></p><p>${t('Total', 'الإجمالي')}: <strong>${money(r.total, ar() ? 'ar' : 'en')}</strong></p><p class="small">${t('Keep your order number. We will call you to confirm and arrange payment.', 'احتفظ برقم الطلب. سنتصل بك للتأكيد وترتيب الدفع.')}</p></div>`;
+        box.innerHTML = `<div class="success"><b>✓</b><h3>${t('Order received', 'تم استلام طلبك')}</h3><p>${t('Order number', 'رقم الطلب')}: <strong dir="ltr">${esc(r.number)}</strong></p><p>${t('Total', 'الإجمالي')}: <strong>${money(r.total, ar() ? 'ar' : 'en')}</strong></p><p class="small">${t('Keep your order number. We will call you to confirm and arrange payment.', 'احتفظ برقم الطلب. سنتصل بك للتأكيد وترتيب الدفع.')}</p>${r.invoice && window.OrthoInvoice ? `<p><button type="button" class="button outline od-inv-open" data-invoice-now>${t('View invoice', 'عرض الفاتورة')}</button></p>` : ''}</div>`;
+        box.querySelector('[data-invoice-now]')?.addEventListener('click', () => window.OrthoInvoice.open(box, r.invoice, ar() ? 'ar' : 'en'));
       } catch (err) {
         submit.disabled = false; error.hidden = false;
         error.textContent = err.status === 422 ? t('One of the products is no longer available for online ordering. Review your cart.', 'أحد المنتجات لم يعد متاحًا للطلب الإلكتروني. راجع سلتك.')
@@ -99,7 +100,7 @@
       <fieldset><legend>${t('Delivery address', 'عنوان التوصيل')}</legend>${list.map(a => `<label class="od-addr"><input type="radio" name="address_id" value="${esc(a.id)}" ${a.id === chosenDefault.id ? 'checked' : ''}><span><b>${esc(a.label || a.city)}</b> — ${esc(a.recipient)} · <bdi dir="ltr">${esc(a.phone)}</bdi><br>${addressLine(a)}</span></label>`).join('')}</fieldset>
       <label class="field">${t('Order note (optional)', 'ملاحظات على الطلب (اختياري)')}<textarea name="note" maxlength="500" rows="2"></textarea></label>
       <div class="form-summary">${opts.total != null && opts.money ? `${t('Estimated total', 'الإجمالي التقديري')}: <strong>${opts.money(opts.total)}</strong><p class="small">${t('The final total is calculated by the server and shown after you place the order.', 'يحسب الخادم الإجمالي النهائي ويظهر بعد إرسال الطلب.')}</p>` : ''}
-      <p class="small">${t('Our team will contact you to confirm the order and arrange payment.', 'سيتواصل معك فريقنا لتأكيد الطلب وترتيب الدفع.')}</p></div>
+      <p class="small">${t('No payment is taken now. Our team will contact you to confirm the order and arrange payment.', 'لا يتم الدفع الآن. سيتواصل معك فريقنا لتأكيد الطلب وترتيب الدفع.')}</p></div>
       <p class="od-error" role="alert" hidden></p>
       <button class="button wide" type="submit">${t('Place order', 'إرسال الطلب')}</button></form>`;
     const form = box.querySelector('form'), error = form.querySelector('.od-error'), submit = form.querySelector('[type=submit]');
@@ -109,7 +110,8 @@
         const d = Object.fromEntries(new FormData(form));
         const r = await api('/v1/orders', {method:'POST', body:{items, address_id:d.address_id, note:d.note || '', idempotency_key:key}});
         opts.onPlaced?.(r);
-        box.innerHTML = `<div class="success"><b>✓</b><h3>${t('Order received', 'تم استلام طلبك')}</h3><p>${t('Order number', 'رقم الطلب')}: <strong dir="ltr">${esc(r.number)}</strong></p><p>${t('Total', 'الإجمالي')}: <strong>${money(r.total, ar() ? 'ar' : 'en')}</strong></p><p class="small">${t('We will contact you to confirm and arrange payment. Track it from My account.', 'سنتواصل معك للتأكيد وترتيب الدفع. تابع الطلب من حسابي.')}</p><button class="button" data-go>${t('View my orders', 'عرض طلباتي')}</button></div>`;
+        box.innerHTML = `<div class="success"><b>✓</b><h3>${t('Order received', 'تم استلام طلبك')}</h3><p>${t('Order number', 'رقم الطلب')}: <strong dir="ltr">${esc(r.number)}</strong></p><p>${t('Total', 'الإجمالي')}: <strong>${money(r.total, ar() ? 'ar' : 'en')}</strong></p><p class="small">${t('We will contact you to confirm and arrange payment. Track it from My account.', 'سنتواصل معك للتأكيد وترتيب الدفع. تابع الطلب من حسابي.')}</p>${r.invoice && window.OrthoInvoice ? `<button type="button" class="button outline od-inv-open" data-invoice-now>${t('View invoice', 'عرض الفاتورة')}</button> ` : ''}<button class="button" data-go>${t('View my orders', 'عرض طلباتي')}</button></div>`;
+        box.querySelector('[data-invoice-now]')?.addEventListener('click', () => window.OrthoInvoice.open(box, r.invoice, ar() ? 'ar' : 'en'));
         box.querySelector('[data-go]').onclick = () => goto('account');
       } catch (err) {
         submit.disabled = false; error.hidden = false;
@@ -128,7 +130,7 @@
         const next = staffState ? NEXT[o.status] : [];
         box.innerHTML = `<div class="od-head"><h2 dir="ltr">${esc(o.number)} <span class="od-badge">${esc(label(o.status, lang))}</span></h2><button type="button" data-close aria-label="Close">×</button></div>
           ${staffState ? `<p>${esc(o.customer)}${o.guest ? ' <span class="od-badge">Guest</span>' : ''} · <bdi dir="ltr">${esc(o.customer_email)}</bdi></p>` : ''}
-          <p class="small">${esc(date(o.created_at, lang))}</p>${itemsTable(o, lang)}
+          <p class="small">${esc(date(o.created_at, lang))}</p>${window.OrthoInvoice ? `<p>${window.OrthoInvoice.button(o.id, lang, true)}</p>` : ''}${itemsTable(o, lang)}
           <h3>${lang === 'ar' ? 'التوصيل' : 'Delivery'}</h3><p>${esc(a.recipient)} · <bdi dir="ltr">${esc(a.phone)}</bdi><br>${addressLine(a)}${a.short_address ? `<br><bdi dir="ltr">${esc(a.short_address)}</bdi>` : ''}</p>
           ${o.note ? `<p class="od-note">${esc(o.note)}</p>` : ''}
           ${o.tracking.number ? `<p>${lang === 'ar' ? 'تتبع الشحنة' : 'Tracking'}: ${esc(o.tracking.carrier)} <bdi dir="ltr">${esc(o.tracking.number)}</bdi></p>` : ''}
@@ -154,7 +156,7 @@
     const draw = () => {
       if (!alive()) return;
       const head = staff ? ['Order', 'Customer', 'Date', 'Total', 'Status'] : lang === 'ar' ? ['الطلب', 'التاريخ', 'الإجمالي', 'الحالة'] : ['Order', 'Date', 'Total', 'Status'];
-      root.querySelector('.od-list').innerHTML = failed ? `<p>${lang === 'ar' ? 'تعذر تحميل الطلبات.' : 'Could not load orders.'}</p>` : !rows.length && total !== null ? `<p>${staff ? 'No orders yet.' : t('You have no orders yet.', 'ليس لديك طلبات بعد.')}</p>` : `<div class="od-scroll"><table class="od-table"><thead><tr>${head.map(h => `<th>${h}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr data-id="${esc(r.id)}" tabindex="0" role="button"><td dir="ltr">${esc(r.number)}</td>${staff ? `<td>${esc(r.customer)}${r.guest ? ' <span class="od-badge">Guest</span>' : ''}</td>` : ''}<td>${esc(date(r.created_at, lang))}</td><td dir="ltr">${money(r.total, lang)}</td><td><span class="od-badge">${esc(label(r.status, lang))}</span></td></tr>`).join('')}</tbody></table></div>${more ? `<button type="button" class="button outline" data-more>${lang === 'ar' ? 'عرض المزيد' : 'Show more'}</button>` : ''}`;
+      root.querySelector('.od-list').innerHTML = failed ? `<p>${lang === 'ar' ? 'تعذر تحميل الطلبات.' : 'Could not load orders.'}</p>` : !rows.length && total !== null ? `<p>${staff ? 'No orders yet.' : t('You have no orders yet.', 'ليس لديك طلبات بعد.')}</p>` : `<div class="od-scroll"><table class="od-table"><thead><tr>${head.map(h => `<th>${h}</th>`).join('')}<th class="od-inv-col"><span class="od-sr">${lang === 'ar' ? 'الفاتورة' : 'Invoice'}</span></th></tr></thead><tbody>${rows.map(r => `<tr data-id="${esc(r.id)}" tabindex="0" role="button"><td dir="ltr">${esc(r.number)}</td>${staff ? `<td>${esc(r.customer)}${r.guest ? ' <span class="od-badge">Guest</span>' : ''}</td>` : ''}<td>${esc(date(r.created_at, lang))}</td><td dir="ltr">${money(r.total, lang)}</td><td><span class="od-badge">${esc(label(r.status, lang))}</span></td><td class="od-inv-col">${window.OrthoInvoice ? window.OrthoInvoice.button(r.id, lang) : ''}</td></tr>`).join('')}</tbody></table></div>${more ? `<button type="button" class="button outline" data-more>${lang === 'ar' ? 'عرض المزيد' : 'Show more'}</button>` : ''}`;
     };
     async function load(append) {
       if (busy) return; busy = true;
@@ -164,9 +166,10 @@
     }
     root.addEventListener('click', e => {
       if (e.target.closest('[data-more]')) { load(true); return; }
+      const inv = e.target.closest('[data-invoice]'); if (inv) { e.stopPropagation(); window.OrthoInvoice?.open(root, inv.dataset.invoice, lang); return; }
       const row = e.target.closest('tr[data-id]'); if (row) showDetail(root, row.dataset.id, lang, staff ? state : null, () => { offset = 0; load(false); });
     });
-    root.addEventListener('keydown', e => { if (e.key === 'Enter') e.target.closest?.('tr[data-id]')?.click(); });
+    root.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.target.closest?.('[data-invoice]')) e.target.closest?.('tr[data-id]')?.click(); });
     draw(); load(false);
   }
   function customerPanel(target, state) {

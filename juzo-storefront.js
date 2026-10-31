@@ -94,7 +94,7 @@
    const href=card.querySelector('a[href^="#product/"]')?.getAttribute('href'),p=ctx.products.find(x=>href==='#product/'+x.id&&x.brand==='Juzo');if(!p)return;
    const info=card.querySelector('.product-info');if(!info)return;
    const add=card.querySelector('[data-add]');if(add){add.dataset.jzPurchase=p.id;add.removeAttribute('data-add');}
-   if(!info.querySelector('.jza-card-colours')){const block=document.createElement('div');block.className='jza-card-colours';block.innerHTML=swatches(p,state(p),true);info.querySelector('.card-bottom')?.before(block);}
+   const options=info.querySelector('.os-options');if(options){const html=cardColours(p);if(options.innerHTML!==html)options.innerHTML=html;}
    const media=card.querySelector('.product-media'),photoHtml=picture(p,state(p));
    if(media&&media.dataset.jzaPhoto!==photoHtml){media.innerHTML=photoHtml;media.dataset.jzaPhoto=photoHtml;}
   });
@@ -103,9 +103,9 @@
   if(!loading)loading=Promise.all([fetch(BASE+'juzo-options.json').then(r=>{if(!r.ok)throw Error('options');return r.json();}),fetch('juzo-color-images.json').then(r=>r.ok?r.json():{products:{}}).catch(()=>({products:{}}))]).then(([data,images])=>{palette=data;colorImages=images.products||{};}).catch(()=>{loading=null;throw Error('options');});
   return loading;
  }
- function productCard(p){
-  const st=state(p);return `<article class="jz-card"><button class="jz-heart" data-save="${e(p.id)}" aria-label="${e(t('المفضلة','Wishlist'))}" aria-pressed="${ctx.saved.includes(p.id)}">${ctx.saved.includes(p.id)?'♥':'♡'}</button><a class="jz-card-photo" href="#product/${e(p.id)}">${picture(p,st)}</a><div class="jz-card-copy"><span class="jz-overline" data-no-translate>JUZO</span><a href="#product/${e(p.id)}"><h3 data-no-translate>${e(heading(p))}</h3></a><p data-no-translate>${e(legacy(p)?.name||p.model||groupTitle(p.group)||p.name)}</p>${swatches(p,st,true)}${priceMarkup(p)}${p.method==='buy'?`<button type="button" class="button jza-card-add" data-jz-purchase="${e(p.id)}">${text('أضف إلى السلة','Add to cart')} +</button>`:''}<a class="jz-card-link" href="#product/${e(p.id)}">${text('استعرض المنتج','View product')} <span aria-hidden="true">↗</span></a></div></article>`;
- }
+ function cardColours(p){if(!palette||!ctx)return '';const list=colors(p);return swatches(p,state(p),true)+(list.length?`<span class="os-colour-note">${text(list.length+' ألوان · اختر مقاسك',list.length+' colours · Choose your size')}</span>`:'');}
+ function productCard(p){return window.OrthoProductCard(p,{juzo:true,title:heading(p),photo:picture(p,state(p)),colours:cardColours(p),saved:ctx.saved.includes(p.id)});}
+
  function crumb(end=''){
   return `<div class="jz-breadcrumb"><a href="#home">${text('الرئيسية','Home')}</a><span>/</span><a href="#brand/juzo" data-no-translate>Juzo</a>${end?`<span>/</span><span data-no-translate>${e(end)}</span>`:''}</div>`;
  }
@@ -238,6 +238,7 @@
  }
  function fixLinks(){document.querySelectorAll('a[href]').forEach(a=>{const target=canonical(a.getAttribute('href'));if(target){a.href=target;a.removeAttribute('target');}});}
  const api=window.OrthoJuzoStore={
+  cardColours,
   price:priceMarkup, money:currencyMoney,
   mergeProducts(products,experienceProducts){
    const known=new Set(products.map(p=>p.id)),added=[];

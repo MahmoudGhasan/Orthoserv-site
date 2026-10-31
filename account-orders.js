@@ -71,10 +71,22 @@
       box.querySelector('[data-go]')?.addEventListener('click', () => goto('account'));
       box.querySelector('[data-guest]').addEventListener('click', () => guestForm(box, items, opts, key));
     };
-    const state = window.OrthoAuth?.enabled?.() ? window.OrthoAuth.state() : null;
     box.dir = ar() ? 'rtl' : 'ltr';
-    if (!state) { box.innerHTML = `<div class="notice">${t('Online ordering is not available right now. Please send a quote request.', 'الطلب الإلكتروني غير متاح حاليًا. أرسل طلب عرض سعر.')}</div>`; return; }
-    if (!state.ready) { box.innerHTML = `<p role="status">${t('Checking your account…', 'جارٍ التحقق من حسابك…')}</p>`; setTimeout(() => checkout(box, items, opts), 700); return; }
+    // Accounts off: guests can still order.
+    if (!window.OrthoAuth?.enabled?.()) { guestForm(box, items, opts, key); return; }
+    // The auth SDK only starts when asked, so start it here and wait with a timeout. The guest button is available immediately.
+    box.innerHTML = `<p role="status">${t('Checking your account…', 'جارٍ التحقق من حسابك…')}</p><button type="button" class="button outline wide" data-guest>${t('Continue as guest', 'المتابعة كضيف')}</button>`;
+    let guestChosen = false;
+    box.querySelector('[data-guest]').onclick = () => { guestChosen = true; guestForm(box, items, opts, key); };
+    const state = await new Promise(resolve => {
+      let done = false, stop = () => {};
+      const finish = s => { if (done) return; done = true; clearTimeout(timer); stop(); resolve(s); };
+      const timer = setTimeout(() => finish({ready:true, user:null, role:'customer'}), 10000);
+      stop = window.OrthoAuth.subscribe(s => { if (s.ready) finish(s); });
+      if (done) stop();
+      window.OrthoAuth.load().catch(() => finish({ready:true, user:null, role:'customer'}));
+    });
+    if (guestChosen || !box.isConnected) return;
     if (!state.user) { withGuest(`<div class="notice">${t('Sign in to place your order, or continue as a guest. Your cart is saved.', 'سجّل الدخول لإتمام طلبك، أو تابع كضيف. سلتك محفوظة.')}</div><button class="button wide" data-go>${t('Sign in / Create account', 'تسجيل الدخول / إنشاء حساب')}</button>`); return; }
     if (state.role !== 'customer') { box.innerHTML = `<div class="notice">${t('Staff accounts cannot place customer orders.', 'حسابات الفريق لا يمكنها إنشاء طلبات عملاء.')}</div>`; return; }
     if (!state.user.emailVerified) { withGuest(`<div class="notice">${t('Verify your email first (from My account), then return to your cart. Or continue as a guest.', 'فعّل بريدك الإلكتروني أولًا (من حسابي) ثم ارجع إلى السلة. أو تابع كضيف.')}</div><button class="button wide" data-go>${t('Go to My account', 'الذهاب إلى حسابي')}</button>`); return; }

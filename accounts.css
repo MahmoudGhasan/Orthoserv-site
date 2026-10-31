@@ -33,3 +33,22 @@
 .auth-v1 button:focus-visible,.auth-v1 a:focus-visible,.auth-v1 input:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
 .auth-v1 .auth-art img{width:120px;height:120px;mix-blend-mode:normal}
 @media(max-width:650px){.auth-v1 .auth-art{display:none}.auth-v1 .auth-layout{min-height:0}.auth-v1 .auth-form{padding:24px 18px}.auth-v1-profile{grid-template-columns:1fr;gap:8px}.auth-v1-profile dd{margin-bottom:12px}}
+
+/* Customer account: one live orders section, then profile/addresses and support. */
+.customer-account .customer-account-content { display: grid; gap: 24px; min-width: 0; }
+.customer-account .customer-account-details { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+.customer-account .customer-account-details > *, .customer-account .customer-orders, .customer-account .customer-addresses, .customer-account .customer-support { min-width: 0; }
+.customer-account .account-panel, .customer-account .ad-book, .customer-account .mg-customer, .customer-account .mg-card { margin-top: 0; margin-bottom: 0; }
+.customer-account .account-panel, .customer-account .ad-book { padding: 24px; background: #fff; }
+.customer-account > .account-heading { align-items: center; }
+.customer-account > .account-heading p { overflow-wrap: anywhere; }
+.customer-account > .text-link { display: inline-flex; align-items: center; min-height: 44px; margin-top: 24px; }
+@media (max-width: 900px) {
+ .customer-account .customer-account-details { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 650px) {
+ .customer-account .customer-account-content, .customer-account .customer-account-details { gap: 16px; }
+ .customer-account .account-panel, .customer-account .ad-book { padding: 18px; }
+ .customer-account > .account-heading { display: flex; flex-wrap: wrap; gap: 12px; }
+ .customer-account .od-scroll, .customer-account .mg-table-wrap { max-width: 100%; }
+}

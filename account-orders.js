@@ -14,22 +14,74 @@
   const itemsTable = (o, lang) => `<div class="od-scroll"><table class="od-table"><tbody>${o.items.map(i => `<tr><td>${esc(i.name)}${i.option ? ' · ' + esc(i.option) : ''}</td><td dir="ltr">× ${i.qty}</td><td dir="ltr">${money(i.line, lang)}</td></tr>`).join('')}</tbody></table></div>
     <p class="od-totals">${lang === 'ar' ? 'المجموع الفرعي' : 'Subtotal'}: <bdi>${money(o.subtotal, lang)}</bdi>${o.vat !== null ? ` · VAT: <bdi>${money(o.vat, lang)}</bdi>` : ''}${o.shipping !== null ? ` · ${lang === 'ar' ? 'الشحن' : 'Shipping'}: <bdi>${money(o.shipping, lang)}</bdi>` : ''}<br><strong>${lang === 'ar' ? 'الإجمالي' : 'Total'}: <bdi>${money(o.total, lang)}</bdi></strong></p>`;
 
+  /* ---------- guest checkout (no account) ---------- */
+  function guestForm(box, items, opts, key) {
+    const input = (name, en, a, extra = '') => `<label class="field">${t(en, a)}<input name="${name}" ${extra}></label>`;
+    box.dir = ar() ? 'rtl' : 'ltr';
+    box.innerHTML = `<form class="od-form od-guest" novalidate>
+      <fieldset><legend>${t('Your details', 'بياناتك')}</legend>
+        ${input('name', 'Full name *', 'الاسم الكامل *', 'required maxlength="100" autocomplete="name"')}
+        ${input('phone', 'Mobile *', 'الجوال *', 'required inputmode="tel" maxlength="20" autocomplete="tel" placeholder="05xxxxxxxx" dir="ltr"')}
+        ${input('email', 'Email (optional)', 'البريد الإلكتروني (اختياري)', 'type="email" maxlength="254" autocomplete="email" dir="ltr"')}</fieldset>
+      <fieldset><legend>${t('Delivery address', 'عنوان التوصيل')}</legend>
+        ${input('city', 'City *', 'المدينة *', 'required maxlength="80" autocomplete="address-level2"')}
+        ${input('district', 'District', 'الحي', 'maxlength="80"')}
+        ${input('street', 'Street', 'الشارع', 'maxlength="120" autocomplete="address-line1"')}
+        ${input('building_no', 'Building no.', 'رقم المبنى', 'maxlength="20"')}
+        ${input('short_address', 'Short address (e.g. ABCD1234)', 'العنوان المختصر (مثل ABCD1234)', 'maxlength="8" dir="ltr"')}
+        ${input('postal_code', 'Postal code', 'الرمز البريدي', 'maxlength="5" inputmode="numeric" dir="ltr"')}
+        ${input('notes', 'Delivery notes', 'ملاحظات التوصيل', 'maxlength="300"')}</fieldset>
+      <label class="field">${t('Order note (optional)', 'ملاحظات على الطلب (اختياري)')}<textarea name="note" maxlength="500" rows="2"></textarea></label>
+      <div style="position:absolute;left:-9999px" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
+      <div class="form-summary">${opts.total != null && opts.money ? `${t('Estimated total', 'الإجمالي التقديري')}: <strong>${opts.money(opts.total)}</strong><p class="small">${t('The final total is calculated by the server and shown after you place the order.', 'يحسب الخادم الإجمالي النهائي ويظهر بعد إرسال الطلب.')}</p>` : ''}
+      <p class="small">${t('No payment is taken now. Our team will call you to confirm the order and arrange payment.', 'لا يتم الدفع الآن. سيتصل بك فريقنا لتأكيد الطلب وترتيب الدفع.')}</p></div>
+      <p class="od-error" role="alert" hidden></p>
+      <button class="button wide" type="submit">${t('Place order', 'إرسال الطلب')}</button></form>`;
+    const form = box.querySelector('form'), error = form.querySelector('.od-error'), submit = form.querySelector('[type=submit]');
+    form.onsubmit = async e => {
+      e.preventDefault(); error.hidden = true;
+      const d = Object.fromEntries(new FormData(form));
+      if (!d.name.trim() || !d.phone.trim() || !d.city.trim()) { error.hidden = false; error.textContent = t('Please fill your name, mobile and city.', 'أدخل الاسم والجوال والمدينة.'); return; }
+      submit.disabled = true;
+      try {
+        const api0 = window.OrthoCMS?.settings?.accounts?.apiUrl;
+        const response = await fetch(new URL('/v1/guest-orders', api0), {method:'POST', headers:{'Content-Type':'application/json'}, credentials:'omit', cache:'no-store', signal:AbortSignal.timeout(20000),
+          body:JSON.stringify({items, idempotency_key:key, website:d.website || '', note:d.note || '', guest:{name:d.name, phone:d.phone, email:d.email}, address:{city:d.city, district:d.district, street:d.street, building_no:d.building_no, short_address:d.short_address, postal_code:d.postal_code, notes:d.notes}})});
+        const r = await response.json().catch(() => ({}));
+        if (!response.ok) { const x = new Error('guest_order'); x.status = response.status; throw x; }
+        opts.onPlaced?.(r);
+        box.innerHTML = `<div class="success"><b>✓</b><h3>${t('Order received', 'تم استلام طلبك')}</h3><p>${t('Order number', 'رقم الطلب')}: <strong dir="ltr">${esc(r.number)}</strong></p><p>${t('Total', 'الإجمالي')}: <strong>${money(r.total, ar() ? 'ar' : 'en')}</strong></p><p class="small">${t('Keep your order number. We will call you to confirm and arrange payment.', 'احتفظ برقم الطلب. سنتصل بك للتأكيد وترتيب الدفع.')}</p></div>`;
+      } catch (err) {
+        submit.disabled = false; error.hidden = false;
+        error.textContent = err.status === 422 ? t('One of the products is no longer available for online ordering. Review your cart.', 'أحد المنتجات لم يعد متاحًا للطلب الإلكتروني. راجع سلتك.')
+          : err.status === 429 ? t('Too many orders from this contact. Please try again later or contact us.', 'طلبات كثيرة من نفس بيانات التواصل. حاول لاحقًا أو تواصل معنا.')
+          : err.status === 400 ? t('Please check your name, mobile number (05xxxxxxxx), email and address.', 'راجع الاسم ورقم الجوال (05xxxxxxxx) والبريد والعنوان.')
+          : t('Could not place the order. Please try again.', 'تعذر إرسال الطلب. حاول مرة أخرى.');
+      }
+    };
+  }
+
   /* ---------- checkout ---------- */
   async function checkout(box, items, opts = {}) {
     const key = (crypto.randomUUID ? crypto.randomUUID() : String(Date.now()) + Math.random().toString(16).slice(2)) + '';
     const close = () => document.querySelector('dialog[open]')?.close();
     const goto = hash => { close(); location.hash = hash; };
+    const withGuest = html => {
+      box.innerHTML = html + `<button type="button" class="button outline wide" data-guest>${t('Continue as guest', 'المتابعة كضيف')}</button>`;
+      box.querySelector('[data-go]')?.addEventListener('click', () => goto('account'));
+      box.querySelector('[data-guest]').addEventListener('click', () => guestForm(box, items, opts, key));
+    };
     const state = window.OrthoAuth?.enabled?.() ? window.OrthoAuth.state() : null;
     box.dir = ar() ? 'rtl' : 'ltr';
     if (!state) { box.innerHTML = `<div class="notice">${t('Online ordering is not available right now. Please send a quote request.', 'الطلب الإلكتروني غير متاح حاليًا. أرسل طلب عرض سعر.')}</div>`; return; }
     if (!state.ready) { box.innerHTML = `<p role="status">${t('Checking your account…', 'جارٍ التحقق من حسابك…')}</p>`; setTimeout(() => checkout(box, items, opts), 700); return; }
-    if (!state.user) { box.innerHTML = `<div class="notice">${t('Please sign in to place your order. Your cart is saved.', 'سجّل الدخول لإتمام طلبك. سلتك محفوظة.')}</div><button class="button wide" data-go>${t('Sign in / Create account', 'تسجيل الدخول / إنشاء حساب')}</button>`; box.querySelector('[data-go]').onclick = () => goto('account'); return; }
+    if (!state.user) { withGuest(`<div class="notice">${t('Sign in to place your order, or continue as a guest. Your cart is saved.', 'سجّل الدخول لإتمام طلبك، أو تابع كضيف. سلتك محفوظة.')}</div><button class="button wide" data-go>${t('Sign in / Create account', 'تسجيل الدخول / إنشاء حساب')}</button>`); return; }
     if (state.role !== 'customer') { box.innerHTML = `<div class="notice">${t('Staff accounts cannot place customer orders.', 'حسابات الفريق لا يمكنها إنشاء طلبات عملاء.')}</div>`; return; }
-    if (!state.user.emailVerified) { box.innerHTML = `<div class="notice">${t('Verify your email first (from My account), then return to your cart.', 'فعّل بريدك الإلكتروني أولًا (من حسابي) ثم ارجع إلى السلة.')}</div><button class="button wide" data-go>${t('Go to My account', 'الذهاب إلى حسابي')}</button>`; box.querySelector('[data-go]').onclick = () => goto('account'); return; }
+    if (!state.user.emailVerified) { withGuest(`<div class="notice">${t('Verify your email first (from My account), then return to your cart. Or continue as a guest.', 'فعّل بريدك الإلكتروني أولًا (من حسابي) ثم ارجع إلى السلة. أو تابع كضيف.')}</div><button class="button wide" data-go>${t('Go to My account', 'الذهاب إلى حسابي')}</button>`); return; }
     box.innerHTML = `<p role="status">${t('Loading your addresses…', 'جارٍ تحميل عناوينك…')}</p>`;
     let list;
     try { list = (await api('/v1/addresses')).addresses; } catch { box.innerHTML = `<div class="notice">${t('Could not load your addresses. Try again.', 'تعذر تحميل العناوين. حاول مرة أخرى.')}</div>`; return; }
-    if (!list.length) { box.innerHTML = `<div class="notice">${t('Add a delivery address (and mobile number) in My account first. Your cart is saved.', 'أضف عنوان توصيل ورقم جوال من حسابي أولًا. سلتك محفوظة.')}</div><button class="button wide" data-go>${t('Add address', 'إضافة عنوان')}</button>`; box.querySelector('[data-go]').onclick = () => goto('account'); return; }
+    if (!list.length) { withGuest(`<div class="notice">${t('Add a delivery address (and mobile number) in My account first, or continue as a guest. Your cart is saved.', 'أضف عنوان توصيل ورقم جوال من حسابي أولًا، أو تابع كضيف. سلتك محفوظة.')}</div><button class="button wide" data-go>${t('Add address', 'إضافة عنوان')}</button>`); return; }
     const chosenDefault = list.find(a => a.is_default) || list[0];
     box.innerHTML = `<form class="od-form" novalidate>
       <fieldset><legend>${t('Delivery address', 'عنوان التوصيل')}</legend>${list.map(a => `<label class="od-addr"><input type="radio" name="address_id" value="${esc(a.id)}" ${a.id === chosenDefault.id ? 'checked' : ''}><span><b>${esc(a.label || a.city)}</b> — ${esc(a.recipient)} · <bdi dir="ltr">${esc(a.phone)}</bdi><br>${addressLine(a)}</span></label>`).join('')}</fieldset>
@@ -63,7 +115,7 @@
         const o = await api('/v1/orders/' + id), a = o.address;
         const next = staffState ? NEXT[o.status] : [];
         box.innerHTML = `<div class="od-head"><h2 dir="ltr">${esc(o.number)} <span class="od-badge">${esc(label(o.status, lang))}</span></h2><button type="button" data-close aria-label="Close">×</button></div>
-          ${staffState ? `<p>${esc(o.customer)} · <bdi dir="ltr">${esc(o.customer_email)}</bdi></p>` : ''}
+          ${staffState ? `<p>${esc(o.customer)}${o.guest ? ' <span class="od-badge">Guest</span>' : ''} · <bdi dir="ltr">${esc(o.customer_email)}</bdi></p>` : ''}
           <p class="small">${esc(date(o.created_at, lang))}</p>${itemsTable(o, lang)}
           <h3>${lang === 'ar' ? 'التوصيل' : 'Delivery'}</h3><p>${esc(a.recipient)} · <bdi dir="ltr">${esc(a.phone)}</bdi><br>${addressLine(a)}${a.short_address ? `<br><bdi dir="ltr">${esc(a.short_address)}</bdi>` : ''}</p>
           ${o.note ? `<p class="od-note">${esc(o.note)}</p>` : ''}
@@ -90,7 +142,7 @@
     const draw = () => {
       if (!alive()) return;
       const head = staff ? ['Order', 'Customer', 'Date', 'Total', 'Status'] : lang === 'ar' ? ['الطلب', 'التاريخ', 'الإجمالي', 'الحالة'] : ['Order', 'Date', 'Total', 'Status'];
-      root.querySelector('.od-list').innerHTML = failed ? `<p>${lang === 'ar' ? 'تعذر تحميل الطلبات.' : 'Could not load orders.'}</p>` : !rows.length && total !== null ? `<p>${staff ? 'No orders yet.' : t('You have no orders yet.', 'ليس لديك طلبات بعد.')}</p>` : `<div class="od-scroll"><table class="od-table"><thead><tr>${head.map(h => `<th>${h}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr data-id="${esc(r.id)}" tabindex="0" role="button"><td dir="ltr">${esc(r.number)}</td>${staff ? `<td>${esc(r.customer)}</td>` : ''}<td>${esc(date(r.created_at, lang))}</td><td dir="ltr">${money(r.total, lang)}</td><td><span class="od-badge">${esc(label(r.status, lang))}</span></td></tr>`).join('')}</tbody></table></div>${more ? `<button type="button" class="button outline" data-more>${lang === 'ar' ? 'عرض المزيد' : 'Show more'}</button>` : ''}`;
+      root.querySelector('.od-list').innerHTML = failed ? `<p>${lang === 'ar' ? 'تعذر تحميل الطلبات.' : 'Could not load orders.'}</p>` : !rows.length && total !== null ? `<p>${staff ? 'No orders yet.' : t('You have no orders yet.', 'ليس لديك طلبات بعد.')}</p>` : `<div class="od-scroll"><table class="od-table"><thead><tr>${head.map(h => `<th>${h}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr data-id="${esc(r.id)}" tabindex="0" role="button"><td dir="ltr">${esc(r.number)}</td>${staff ? `<td>${esc(r.customer)}${r.guest ? ' <span class="od-badge">Guest</span>' : ''}</td>` : ''}<td>${esc(date(r.created_at, lang))}</td><td dir="ltr">${money(r.total, lang)}</td><td><span class="od-badge">${esc(label(r.status, lang))}</span></td></tr>`).join('')}</tbody></table></div>${more ? `<button type="button" class="button outline" data-more>${lang === 'ar' ? 'عرض المزيد' : 'Show more'}</button>` : ''}`;
     };
     async function load(append) {
       if (busy) return; busy = true;

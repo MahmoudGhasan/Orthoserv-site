@@ -113,7 +113,7 @@
     "logo": "assets/orthoserv-logo-header.png"
   },
   "ad": {
-    "enabled": true
+    "enabled": false
   },
   "categories": {
     "all": "كل المنتجات",
@@ -1076,387 +1076,387 @@
     }
   ],
   "juzoNavigation": [
-  {
-    "groupId": "post-surgery",
-    "label": "ما بعد الجراحة والتعافي",
-    "columns": [
-      [
-        {
-          "groupId": "post-surgery__liposuction-garments-women",
-          "label": "ملابس شفط الدهون [نساء]",
-          "heading": "نحت الجسم",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "post-surgery__liposuction-garments-men",
-          "label": "ملابس شفط الدهون [رجال]",
-          "heading": "نحت الجسم",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "post-surgery__tummy-tuck-garments",
-          "label": "مشدات شد البطن",
-          "heading": "نحت الجسم",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "post-surgery__lipedema-garments",
-          "label": "ملابس الوذمة الشحمية",
-          "heading": "نحت الجسم",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "post-surgery__abdominal-binders",
-          "label": "مشدات البطن",
-          "heading": "نحت الجسم",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "post-surgery__post-partum-recovery",
-          "label": "التعافي بعد الولادة",
-          "heading": "نحت الجسم",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "post-surgery__bbl-garments",
-          "label": "ملابس BBL",
-          "heading": "نحت الجسم",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "post-surgery__lipo-foam",
-          "label": "إسفنج شفط الدهون",
-          "heading": "نحت الجسم",
-          "pressureClasses": [],
-          "pieceTypes": []
-        }
-      ],
-      [
-        {
-          "groupId": "post-surgery__bras-breast-stabilizer",
-          "label": "حمالات ومثبتات الثدي",
-          "heading": "جراحة الثدي والصدر",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "post-surgery__thorax-corset-women",
-          "label": "مشد صدري [نساء]",
-          "heading": "جراحة الثدي والصدر",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "post-surgery__thorax-vest-men",
-          "label": "سترة صدرية [رجال]",
-          "heading": "جراحة الثدي والصدر",
-          "pressureClasses": [],
-          "pieceTypes": []
-        }
-      ],
-      [
-        {
-          "groupId": "post-surgery__arm-sleeves",
-          "label": "أكمام الذراع",
-          "heading": "الوجه والذراع واليد",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "post-surgery__face-masks-chin-straps",
-          "label": "أقنعة الوجه وأحزمة الذقن",
-          "heading": "الوجه والذراع واليد",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "burn-scar-care__gloves",
-          "label": "القفازات",
-          "heading": "الوجه والذراع واليد",
-          "pressureClasses": [],
-          "pieceTypes": []
-        }
+    {
+      "groupId": "post-surgery",
+      "label": "ما بعد الجراحة والتعافي",
+      "columns": [
+        [
+          {
+            "groupId": "post-surgery__liposuction-garments-women",
+            "label": "ملابس شفط الدهون [نساء]",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "post-surgery__liposuction-garments-men",
+            "label": "ملابس شفط الدهون [رجال]",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "post-surgery__tummy-tuck-garments",
+            "label": "مشدات شد البطن",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "post-surgery__lipedema-garments",
+            "label": "ملابس الوذمة الشحمية",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "post-surgery__abdominal-binders",
+            "label": "مشدات البطن",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "post-surgery__post-partum-recovery",
+            "label": "التعافي بعد الولادة",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "post-surgery__bbl-garments",
+            "label": "ملابس BBL",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "post-surgery__lipo-foam",
+            "label": "إسفنج شفط الدهون",
+            "heading": "نحت الجسم",
+            "pressureClasses": [],
+            "pieceTypes": []
+          }
+        ],
+        [
+          {
+            "groupId": "post-surgery__bras-breast-stabilizer",
+            "label": "حمالات ومثبتات الثدي",
+            "heading": "جراحة الثدي والصدر",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "post-surgery__thorax-corset-women",
+            "label": "مشد صدري [نساء]",
+            "heading": "جراحة الثدي والصدر",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "post-surgery__thorax-vest-men",
+            "label": "سترة صدرية [رجال]",
+            "heading": "جراحة الثدي والصدر",
+            "pressureClasses": [],
+            "pieceTypes": []
+          }
+        ],
+        [
+          {
+            "groupId": "post-surgery__arm-sleeves",
+            "label": "أكمام الذراع",
+            "heading": "الوجه والذراع واليد",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "post-surgery__face-masks-chin-straps",
+            "label": "أقنعة الوجه وأحزمة الذقن",
+            "heading": "الوجه والذراع واليد",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "burn-scar-care__gloves",
+            "label": "القفازات",
+            "heading": "الوجه والذراع واليد",
+            "pressureClasses": [],
+            "pieceTypes": []
+          }
+        ]
       ]
-    ]
-  },
-  {
-    "groupId": "vein-care",
-    "label": "دوالي الأوردة والعناية بالأوردة",
-    "columns": [
-      [
-        {
-          "groupId": "vein-care__basic-essential",
-          "label": "الأساسيات اليومية",
-          "heading": "رقيق وشفاف",
-          "pressureClasses": [
-            "CCL 1",
-            "CCL 2"
-          ],
-          "pieceTypes": [
-            "AD",
-            "AG",
-            "AT"
-          ]
-        },
-        {
-          "groupId": "vein-care__transparent-daily",
-          "label": "شفاف يومي",
-          "heading": "رقيق وشفاف",
-          "pressureClasses": [
-            "CCL 1",
-            "CCL 2"
-          ],
-          "pieceTypes": [
-            "AG",
-            "AT",
-            "ATU"
-          ]
-        }
-      ],
-      [
-        {
-          "groupId": "vein-care__easy-wearing-knit",
-          "label": "حياكة سهلة الارتداء",
-          "heading": "دعم أقوى",
-          "pressureClasses": [
-            "CCL 1",
-            "CCL 2",
-            "CCL 3"
-          ],
-          "pieceTypes": [
-            "AD",
-            "AG",
-            "AT"
-          ]
-        },
-        {
-          "groupId": "vein-care__durable-active",
-          "label": "متين ونشط",
-          "heading": "دعم أقوى",
-          "pressureClasses": [
-            "CCL 1",
-            "CCL 2",
-            "CCL 3"
-          ],
-          "pieceTypes": [
-            "AD",
-            "AG",
-            "AT"
-          ]
-        },
-        {
-          "groupId": "vein-care__maximum-support",
-          "label": "أقصى دعم",
-          "heading": "دعم أقوى",
-          "pressureClasses": [
-            "CCL 1",
-            "CCL 2",
-            "CCL 3"
-          ],
-          "pieceTypes": [
-            "AD"
-          ]
-        },
-        {
-          "groupId": "vein-care__stump-shrinkers",
-          "label": "مقلصات الجذمور",
-          "heading": "دعم أقوى",
-          "pressureClasses": [
-            "CCL 1",
-            "CCL 2",
-            "CCL 3"
-          ],
-          "pieceTypes": []
-        }
-      ],
-      [
-        {
-          "groupId": "vein-care__adjustable-compression-wraps",
-          "label": "لفائف ضغط قابلة للتعديل",
-          "heading": "اللفائف والقرح والتفصيل حسب الطلب",
-          "pressureClasses": [
-            "CCL 3",
-            "CCL 4"
-          ],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "vein-care__venous-ulcer-stockings",
-          "label": "جوارب قرح الأوردة",
-          "heading": "اللفائف والقرح والتفصيل حسب الطلب",
-          "pressureClasses": [
-            "CCL 3",
-            "CCL 4"
-          ],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "custom-made__compression-stockings",
-          "label": "جوارب محبوكة دائريا حسب الطلب",
-          "heading": "اللفائف والقرح والتفصيل حسب الطلب",
-          "pressureClasses": [
-            "CCL 3",
-            "CCL 4"
-          ],
-          "pieceTypes": []
-        }
+    },
+    {
+      "groupId": "vein-care",
+      "label": "دوالي الأوردة والعناية بالأوردة",
+      "columns": [
+        [
+          {
+            "groupId": "vein-care__basic-essential",
+            "label": "الأساسيات اليومية",
+            "heading": "رقيق وشفاف",
+            "pressureClasses": [
+              "CCL 1",
+              "CCL 2"
+            ],
+            "pieceTypes": [
+              "AD",
+              "AG",
+              "AT"
+            ]
+          },
+          {
+            "groupId": "vein-care__transparent-daily",
+            "label": "شفاف يومي",
+            "heading": "رقيق وشفاف",
+            "pressureClasses": [
+              "CCL 1",
+              "CCL 2"
+            ],
+            "pieceTypes": [
+              "AG",
+              "AT",
+              "ATU"
+            ]
+          }
+        ],
+        [
+          {
+            "groupId": "vein-care__easy-wearing-knit",
+            "label": "حياكة سهلة الارتداء",
+            "heading": "دعم أقوى",
+            "pressureClasses": [
+              "CCL 1",
+              "CCL 2",
+              "CCL 3"
+            ],
+            "pieceTypes": [
+              "AD",
+              "AG",
+              "AT"
+            ]
+          },
+          {
+            "groupId": "vein-care__durable-active",
+            "label": "متين ونشط",
+            "heading": "دعم أقوى",
+            "pressureClasses": [
+              "CCL 1",
+              "CCL 2",
+              "CCL 3"
+            ],
+            "pieceTypes": [
+              "AD",
+              "AG",
+              "AT"
+            ]
+          },
+          {
+            "groupId": "vein-care__maximum-support",
+            "label": "أقصى دعم",
+            "heading": "دعم أقوى",
+            "pressureClasses": [
+              "CCL 1",
+              "CCL 2",
+              "CCL 3"
+            ],
+            "pieceTypes": [
+              "AD"
+            ]
+          },
+          {
+            "groupId": "vein-care__stump-shrinkers",
+            "label": "مقلصات الجذمور",
+            "heading": "دعم أقوى",
+            "pressureClasses": [
+              "CCL 1",
+              "CCL 2",
+              "CCL 3"
+            ],
+            "pieceTypes": []
+          }
+        ],
+        [
+          {
+            "groupId": "vein-care__adjustable-compression-wraps",
+            "label": "لفائف ضغط قابلة للتعديل",
+            "heading": "اللفائف والقرح والتفصيل حسب الطلب",
+            "pressureClasses": [
+              "CCL 3",
+              "CCL 4"
+            ],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "vein-care__venous-ulcer-stockings",
+            "label": "جوارب قرح الأوردة",
+            "heading": "اللفائف والقرح والتفصيل حسب الطلب",
+            "pressureClasses": [
+              "CCL 3",
+              "CCL 4"
+            ],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "custom-made__compression-stockings",
+            "label": "جوارب محبوكة دائريا حسب الطلب",
+            "heading": "اللفائف والقرح والتفصيل حسب الطلب",
+            "pressureClasses": [
+              "CCL 3",
+              "CCL 4"
+            ],
+            "pieceTypes": []
+          }
+        ]
       ]
-    ]
-  },
-  {
-    "groupId": "lymphedema-lipedema",
-    "label": "الوذمة اللمفية والوذمة الشحمية",
-    "columns": [
-      [
-        {
-          "groupId": "lymphedema-lipedema__arm-sleeves-gloves",
-          "label": "أكمام وقفازات الذراع",
-          "heading": "جاهز للارتداء",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "lymphedema-lipedema__compression-stockings",
-          "label": "جوارب الضغط",
-          "heading": "جاهز للارتداء",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "lymphedema-lipedema__leggings-pants",
-          "label": "اللباس والبناطيل",
-          "heading": "جاهز للارتداء",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "lymphedema-lipedema__massage-pants",
-          "label": "جوارب التدليك",
-          "heading": "جاهز للارتداء",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "lymphedema-lipedema__stump-shrinkers-lymph",
-          "label": "مقلصات الجذمور",
-          "heading": "جاهز للارتداء",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "lymphedema-lipedema__toe-caps",
-          "label": "أغطية الأصابع",
-          "heading": "جاهز للارتداء",
-          "pressureClasses": [],
-          "pieceTypes": []
-        }
-      ],
-      [
-        {
-          "groupId": "lymphedema-lipedema__adjustable-compression-wraps-lymph",
-          "label": "لفائف ضغط قابلة للتعديل",
-          "heading": "تخفيف الاحتقان والعناية الليلية",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "lymphedema-lipedema__foam-padding-bandaging",
-          "label": "حشوات الإسفنج والضماد",
-          "heading": "تخفيف الاحتقان والعناية الليلية",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "lymphedema-lipedema__sleepcompress-night-garment",
-          "label": "ملابس النوم الليلية SleepCompress",
-          "heading": "تخفيف الاحتقان والعناية الليلية",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "custom-made__lymphedema-lipoedema",
-          "label": "ملابس ضغط بنسيج مسطح حسب الطلب",
-          "heading": "ملابس ضغط مُفصَّلة حسب الطلب",
-          "pressureClasses": [],
-          "pieceTypes": []
-        }
-      ],
-      [
-        {
-          "groupId": "lymphedema-lipedema__lymphatic-drainage-pumps",
-          "label": "مضخات التصريف اللمفي",
-          "heading": "الضغط الهوائي المتقطع (IPC)",
-          "pressureClasses": [],
-          "pieceTypes": []
-        }
+    },
+    {
+      "groupId": "lymphedema-lipedema",
+      "label": "الوذمة اللمفية والوذمة الشحمية",
+      "columns": [
+        [
+          {
+            "groupId": "lymphedema-lipedema__arm-sleeves-gloves",
+            "label": "أكمام وقفازات الذراع",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "lymphedema-lipedema__compression-stockings",
+            "label": "جوارب الضغط",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "lymphedema-lipedema__leggings-pants",
+            "label": "اللباس والبناطيل",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "lymphedema-lipedema__massage-pants",
+            "label": "جوارب التدليك",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "lymphedema-lipedema__stump-shrinkers-lymph",
+            "label": "مقلصات الجذمور",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "lymphedema-lipedema__toe-caps",
+            "label": "أغطية الأصابع",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": []
+          }
+        ],
+        [
+          {
+            "groupId": "lymphedema-lipedema__adjustable-compression-wraps-lymph",
+            "label": "لفائف ضغط قابلة للتعديل",
+            "heading": "تخفيف الاحتقان والعناية الليلية",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "lymphedema-lipedema__foam-padding-bandaging",
+            "label": "حشوات الإسفنج والضماد",
+            "heading": "تخفيف الاحتقان والعناية الليلية",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "lymphedema-lipedema__sleepcompress-night-garment",
+            "label": "ملابس النوم الليلية SleepCompress",
+            "heading": "تخفيف الاحتقان والعناية الليلية",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "custom-made__lymphedema-lipoedema",
+            "label": "ملابس ضغط بنسيج مسطح حسب الطلب",
+            "heading": "ملابس ضغط مُفصَّلة حسب الطلب",
+            "pressureClasses": [],
+            "pieceTypes": []
+          }
+        ],
+        [
+          {
+            "groupId": "lymphedema-lipedema__lymphatic-drainage-pumps",
+            "label": "مضخات التصريف اللمفي",
+            "heading": "الضغط الهوائي المتقطع (IPC)",
+            "pressureClasses": [],
+            "pieceTypes": []
+          }
+        ]
       ]
-    ]
-  },
-  {
-    "groupId": "burn-scar-care",
-    "label": "العناية بالحروق والندبات",
-    "columns": [
-      [
-        {
-          "groupId": "burn-scar-care__gloves",
-          "label": "القفازات",
-          "heading": "جاهز للارتداء",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "post-surgery__arm-sleeves",
-          "label": "أكمام الذراع",
-          "heading": "جاهز للارتداء",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "post-surgery__thorax-corset-women",
-          "label": "مشد صدري [نساء]",
-          "heading": "جاهز للارتداء",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "post-surgery__thorax-vest-men",
-          "label": "سترة صدرية [رجال]",
-          "heading": "جاهز للارتداء",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "burn-scar-care__pants-leggings",
-          "label": "البناطيل واللباس الضاغط",
-          "heading": "جاهز للارتداء",
-          "pressureClasses": [],
-          "pieceTypes": []
-        }
-      ],
-      [
-        {
-          "groupId": "custom-made__burn-scar-care",
-          "label": "ملابس ندبات بنسيج مسطح حسب الطلب",
-          "heading": "ملابس ضغط مُفصَّلة حسب الطلب",
-          "pressureClasses": [],
-          "pieceTypes": []
-        },
-        {
-          "groupId": "custom-made__paediatric",
-          "label": "ملابس ضغط للأطفال",
-          "heading": "ملابس ضغط مُفصَّلة حسب الطلب",
-          "pressureClasses": [],
-          "pieceTypes": []
-        }
+    },
+    {
+      "groupId": "burn-scar-care",
+      "label": "العناية بالحروق والندبات",
+      "columns": [
+        [
+          {
+            "groupId": "burn-scar-care__gloves",
+            "label": "القفازات",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "post-surgery__arm-sleeves",
+            "label": "أكمام الذراع",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "post-surgery__thorax-corset-women",
+            "label": "مشد صدري [نساء]",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "post-surgery__thorax-vest-men",
+            "label": "سترة صدرية [رجال]",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "burn-scar-care__pants-leggings",
+            "label": "البناطيل واللباس الضاغط",
+            "heading": "جاهز للارتداء",
+            "pressureClasses": [],
+            "pieceTypes": []
+          }
+        ],
+        [
+          {
+            "groupId": "custom-made__burn-scar-care",
+            "label": "ملابس ندبات بنسيج مسطح حسب الطلب",
+            "heading": "ملابس ضغط مُفصَّلة حسب الطلب",
+            "pressureClasses": [],
+            "pieceTypes": []
+          },
+          {
+            "groupId": "custom-made__paediatric",
+            "label": "ملابس ضغط للأطفال",
+            "heading": "ملابس ضغط مُفصَّلة حسب الطلب",
+            "pressureClasses": [],
+            "pieceTypes": []
+          }
+        ]
       ]
-    ]
-  }
-]
+    }
+  ]
 }

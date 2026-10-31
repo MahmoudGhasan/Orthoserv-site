@@ -113,11 +113,11 @@ function juzoSizeGuide(p){if(p.sourceCatalogue!=='healfit-juzo')return '';const 
 // The menu uses observed source columns and existing local group filters; no header/routes are replaced.
 // Original OrthoServ UI pictograms; the blue region identifies the garment coverage.
 function juzoPieceIcon(kind){
+ if(kind==='hand')return `<img class="juzo-piece-figure juzo-glove-icon" src="assets/icons/juzo-glove.svg" width="26" height="44" alt="" aria-hidden="true">`;
  const body='<g class="juzo-figure-base"><circle cx="24" cy="7" r="4.5"/><path d="M22 11h4v5h-4zM19 16Q24 14 29 16l2 15-2 7 1 12 2 21-5 1-3-22-3 22-5-1 2-21 1-12-2-7zM18 17l-3 1-5 19 3 1 7-18zM30 17l3 1 5 19-3 1-7-18zM16 69l5 1-1 5h-8v-3zM27 70l5-1 4 3v3h-8z"/></g>';
  const legs={AD:'M17.3 54h5L21 70l-1 5h-8v-3l4.2-3zM25.7 54h5l1.1 15 4.2 3v3h-8l-1-5z',AG:'M18.6 39h4.8L24 50l-3 20-1 5h-8v-3l4-3 2-19zM24.6 39h4.8L30 50l2 19 4 3v3h-8l-1-5-3-20z',AT:'M18 31h12l-1 7 1 12 2 19 4 3v3h-8l-1-5-3-20-3 20-1 5h-8v-3l4-3 2-19 1-12z',ATU:'M18 26h12l1 5-2 7 1 12 2 19 4 3v3h-8l-1-5-3-20-3 20-1 5h-8v-3l4-3 2-19 1-12-2-7z'};
  let image;
  if(legs[kind])image=body+`<path class="juzo-figure-garment" d="${legs[kind]}"/>`;
- else if(kind==='hand')image='<rect x="2" y="2" width="44" height="76" rx="8" fill="none" stroke="#dce5ef"/><path fill="#194b9c" d="M17 59c-5-5-7-13-10-20-2-4 2-7 5-3l4 7V22c0-5 6-5 6 0v-5c0-5 6-5 6 0v5c0-5 6-5 6 0v5c0-5 6-5 6 0v18c0 7-3 11-7 14v10H17Z"/><rect x="15" y="67" width="20" height="6" rx="1" fill="#d3dde8"/>';
  else if(kind==='arm')image='<path class="juzo-figure-base" d="M24 7q8-3 11 5l3 24-6 30-1 10h-8l1-12 4-25-8-20q-3-8 4-12Z"/><path class="juzo-figure-garment" d="m22 18 11-3 5 21-6 30-9-2 5-25Z"/>';
  else if(kind==='pad')image='<rect class="juzo-figure-base" x="8" y="13" width="32" height="54" rx="7"/><path class="juzo-figure-garment" d="M14 20h20v40H14z"/><path class="juzo-figure-line" d="m17 27 14 14m-14 0 14 14"/>';
  else if(kind==='device')image='<path class="juzo-figure-base" d="M8 42h32v27H8z"/><path class="juzo-figure-garment" d="M11 46h26v10H11z"/><path class="juzo-figure-line" d="M24 42V27q0-12 12-12M15 62h3m6 0h3"/>';

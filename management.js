@@ -93,7 +93,7 @@
         const cards=panel.querySelectorAll('.mg-stat strong');
         [['orders',metric],['revenue',sar],['cancelled',metric],['attention',metric]].forEach(([key,format],i)=>{if(cards[i]){cards[i].textContent=format(s.kpis[key]);cards[i].setAttribute('aria-label',key+' '+format(s.kpis[key]));}});
         const chart=panel.querySelector('.mg-chart');
-        if(chart)chart.innerHTML=`<div class="mg-table-wrap"><table><thead><tr><th>Date</th><th>Revenue (SAR)</th></tr></thead><tbody>${s.daily.map(d=>`<tr><td>${esc(d.date)}</td><td>${sar(d.revenue)}</td></tr>`).join('')}</tbody></table></div>`;
+        if(chart){chart.classList.add('si-chart');chart.closest('.mg-card').querySelector('.mg-section-head > span')?.remove();window.OrthoStoreInsights.render(root,chart,state,'performance');}
         const wrapper=panel.querySelector('[data-tab="orders"]')?.closest('.mg-card')?.querySelector('.mg-table-wrap');
         if(wrapper)wrapper.outerHTML=summaryOrders(s);
       }else if(view==='sales'){
@@ -113,13 +113,15 @@
       if(!tabs.some(([key])=>key===view))return;
       root.querySelectorAll('[data-view]').forEach(button=>button.setAttribute('aria-current',button.dataset.view===view?'page':'false'));
       if(view==='overview'){panel.innerHTML=overview(root,superAdmin);counts(root,state,superAdmin);}
+      else if(view==='inquiries'){root.querySelector('.mg-sync').textContent='';window.OrthoStoreInsights.render(root,panel,state,'inquiries');}
+      else if(view==='sales'){root.querySelector('.mg-sync').textContent='';window.OrthoStoreInsights.render(root,panel,state,'performance');}
       else if(view==='tickets'){tickets(panel,state,false,()=>counts(root,state,false));}
       else if(view==='orders'&&window.OrthoOrders){window.OrthoOrders.staffPanel(panel,state);}
       else if(view==='team'){panel.innerHTML='<article class="mg-card"><h2>Team overview</h2><p data-team-count>Loading team…</p><p class="mg-muted">Member creation, role changes and removal are managed in TODAY.</p><button class="mg-primary" data-today="Settings → Team & access">Open team settings in TODAY ↗</button></article>';counts(root,state,true);}
       else{const title={orders:superAdmin?'Store orders':'Assigned orders',inquiries:'Inquiries',sales:'Sales summary'}[view];panel.innerHTML=`<article class="mg-card"><h2>${title}</h2>${unavailable(title+' unavailable')}<button class="mg-text" data-today="Dashboard → ${view==='sales'?'Recent sales':title}">More in TODAY ↗</button></article>`;}
     }
     const baseSelect=select;
-    const show=view=>{baseSelect(view);if(['overview','sales',...(window.OrthoOrders?[]:['orders'])].includes(view))commerceSummary(root,panel,state,view);};
+    const show=view=>{baseSelect(view);if(['overview',...(window.OrthoOrders?[]:['orders'])].includes(view))commerceSummary(root,panel,state,view);};
     root.addEventListener('click',event=>{const button=event.target.closest('button');if(!button)return;if(button.hasAttribute('data-refresh-summary'))show(root.querySelector('[data-view][aria-current="page"]')?.dataset.view || 'overview');else if(button.dataset.view)show(button.dataset.view);else if(button.dataset.tab)show(button.dataset.tab);else if(button.dataset.today)today(root,button.dataset.today);});
     show('overview');return true;
   }

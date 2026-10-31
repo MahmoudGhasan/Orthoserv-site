@@ -144,3 +144,6 @@ html[lang=en] .home-centre-copy h2{font-size:35px;line-height:1.35;letter-spacin
 @media (max-width: 1024px) {
   .pagination { flex-wrap: wrap; gap: 8px; }
 }
+
+/* Keep mobile filters available after removing the duplicate search toolbar. */
+.catalog-main > .catalog-filter-toggle { margin-bottom: 20px; }

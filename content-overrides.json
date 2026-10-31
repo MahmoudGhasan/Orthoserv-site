@@ -301,9 +301,9 @@
       "en": "Request a product presentationnstration"
     },
     {
-      "original": "راجع تفاصيل عرض الجهاز. لم يتم ربط إرسال الطلبات بعد.",
-      "ar": "راجع تفاصيل عرض الجهاز. لم يتم ربط إرسال الطلبات بعد.",
-      "en": "Review the product presentation details. Request submission is not connected yet."
+      "original": "راجع تفاصيل عرض الجهاز.",
+      "ar": "راجع تفاصيل عرض الجهاز.",
+      "en": "Review the product presentation details."
     },
     {
       "original": "طريقة العرض المفضلة",
@@ -336,9 +336,9 @@
       "en": "Your request review is ready"
     },
     {
-      "original": "لم يتم إرسال طلب أو تأكيد موعد فعلي.",
-      "ar": "لم يتم إرسال طلب أو تأكيد موعد فعلي.",
-      "en": "No request was sent and no appointment was confirmed."
+      "original": "تواصل مع الفريق لتنسيق عرض الجهاز.",
+      "ar": "تواصل مع الفريق لتنسيق عرض الجهاز.",
+      "en": "Contact our team to arrange a product presentation."
     },
     {
       "original": "متجر الحركة والتأهيل",
@@ -731,9 +731,9 @@
       "en": "Request a quote"
     },
     {
-      "original": "صورة المنتج قريبًا",
-      "ar": "صورة المنتج قريبًا",
-      "en": "Product photo coming soon"
+      "original": "صورة المنتج",
+      "ar": "صورة المنتج",
+      "en": "Product image"
     },
     {
       "original": "الحركة والتمارين",
@@ -1206,9 +1206,9 @@
       "en": "Continue order"
     },
     {
-      "original": "لا يتم تحصيل أموال أو إرسال أي طلب.",
-      "ar": "لا يتم تحصيل أموال أو إرسال أي طلب.",
-      "en": "No payment is collected and no order is sent."
+      "original": "",
+      "ar": "",
+      "en": ""
     },
     {
       "original": "سلتك لسه فاضية",
@@ -1226,9 +1226,9 @@
       "en": "Shop medical supplies"
     },
     {
-      "original": "راجع محتويات السلة. الدفع وإرسال الطلبات غير متاحين حاليًا.",
-      "ar": "راجع محتويات السلة. الدفع وإرسال الطلبات غير متاحين حاليًا.",
-      "en": "Review your bag. Payment and order submission are currently unavailable."
+      "original": "راجع محتويات السلة.",
+      "ar": "راجع محتويات السلة.",
+      "en": "Review your bag."
     },
     {
       "original": "اسم العميل",
@@ -1281,9 +1281,9 @@
       "en": "Bag review finished"
     },
     {
-      "original": "لم يتم إنشاء طلب أو تحصيل أي مبلغ. تم تفريغ السلة.",
-      "ar": "لم يتم إنشاء طلب أو تحصيل أي مبلغ. تم تفريغ السلة.",
-      "en": "No order was created and no payment was collected. Your bag has been cleared."
+      "original": "انتهت مراجعة السلة.",
+      "ar": "انتهت مراجعة السلة.",
+      "en": "Bag review complete."
     },
     {
       "original": "العودة للمتجر",
@@ -1296,9 +1296,9 @@
       "en": "Close"
     },
     {
-      "original": "إرسال الطلبات غير متاح حاليًا. بياناتك لا تُرسل ولا تُحفظ.",
-      "ar": "إرسال الطلبات غير متاح حاليًا. بياناتك لا تُرسل ولا تُحفظ.",
-      "en": "Request submission is currently unavailable. Your contact details are not sent or stored."
+      "original": "راجع تفاصيل طلبك وتواصل مع فريق أورثو سيرف.",
+      "ar": "راجع تفاصيل طلبك وتواصل مع فريق أورثو سيرف.",
+      "en": "Review your request details and contact the OrthoServ team."
     },
     {
       "original": "رقم الجوال",
@@ -1386,9 +1386,9 @@
       "en": "Your quote request details are ready for review."
     },
     {
-      "original": "لم يُرسل إلى أورثو سيرف ولم تُحفظ بيانات التواصل.",
-      "ar": "لم يُرسل إلى أورثو سيرف ولم تُحفظ بيانات التواصل.",
-      "en": "It was not sent to OrthoServ. Contact details were not stored."
+      "original": "تواصل مع الفريق لاستكمال طلب عرض السعر.",
+      "ar": "تواصل مع الفريق لاستكمال طلب عرض السعر.",
+      "en": "Contact our team to complete your quote request."
     },
     {
       "original": "متابعة التصفح",
@@ -1406,9 +1406,9 @@
       "en": "Contact OrthoServ"
     },
     {
-      "original": "اكتب تفاصيل استفسارك. إرسال الرسائل غير متاح حاليًا.",
-      "ar": "كيف نقدر نساعدك؟ النموذج ولا يُرسل بيانات.",
-      "en": "How can we help? This is a form and does not send data."
+      "original": "اكتب تفاصيل استفسارك.",
+      "ar": "كيف نقدر نساعدك؟",
+      "en": "How can we help?"
     },
     {
       "original": "موضوع الرسالة",
@@ -1436,9 +1436,9 @@
       "en": "Message details ready"
     },
     {
-      "original": "لم تُرسل الرسالة ولم تُحفظ بياناتك.",
-      "ar": "لم تُرسل الرسالة ولم تُحفظ بياناتك.",
-      "en": "Your message was not sent and your details were not stored."
+      "original": "تواصل مع الفريق لاستكمال استفسارك.",
+      "ar": "تواصل مع الفريق لاستكمال استفسارك.",
+      "en": "Contact our team to follow up on your enquiry."
     },
     {
       "original": "تمت الإضافة إلى السلة",
@@ -1806,9 +1806,9 @@
       "en": "Representing Game Ready · Winback · Blueneem · Juzo · LiKAWAVE"
     },
     {
-      "original": "لم يُحصّل أي مبلغ. أكد الضريبة ورسوم الشحن مع الفريق قبل الطلب.",
-      "ar": "لم يُحصّل أي مبلغ. أكد الضريبة ورسوم الشحن مع الفريق قبل الطلب.",
-      "en": "No payment has been collected. Confirm tax and shipping charges with the team."
+      "original": "أكد الضريبة ورسوم الشحن مع الفريق قبل الطلب.",
+      "ar": "أكد الضريبة ورسوم الشحن مع الفريق قبل الطلب.",
+      "en": "Confirm tax and shipping charges with the team."
     },
     {
       "original": "أكد الأسعار والخيارات مع الفريق؛ أسعار HIGHCARE من الكتالوج المرفق. الأجهزة بطلب عرض سعر.",
@@ -2648,9 +2648,9 @@
       "scope": "experiences/shockwave/"
     },
     {
-      "original": "إرسال الطلبات غير متاح حاليًا؛ لا يُرسل طلب ولا تُجمع بيانات.",
-      "ar": "إرسال الطلبات غير متاح حاليًا؛ لا يُرسل طلب ولا تُجمع بيانات.",
-      "en": "Scene review only; no request is sent and no data is collected.",
+      "original": "تواصل مع فريق أورثو سيرف للاستفسار عن الجهاز.",
+      "ar": "تواصل مع فريق أورثو سيرف للاستفسار عن الجهاز.",
+      "en": "Contact the OrthoServ team to enquire about the device.",
       "scope": "experiences/shockwave/"
     },
     {
@@ -3231,14 +3231,14 @@
       "en": "Continue order ↗"
     },
     {
-      "original": "اكتب تفاصيل استفسارك. إرسال الرسائل غير متاح حاليًا. ↗",
-      "ar": "كيف نقدر نساعدك؟ النموذج ولا يُرسل بيانات. ↗",
-      "en": "How can we help? This is a form and does not send data. ↗"
+      "original": "اكتب تفاصيل استفسارك. ↗",
+      "ar": "كيف نقدر نساعدك؟ ↗",
+      "en": "How can we help? ↗"
     },
     {
-      "original": "اكتب تفاصيل استفسارك. إرسال الرسائل غير متاح حاليًا. ←",
-      "ar": "كيف نقدر نساعدك؟ النموذج ولا يُرسل بيانات. ←",
-      "en": "How can we help? This is a form and does not send data. ←"
+      "original": "اكتب تفاصيل استفسارك. ←",
+      "ar": "كيف نقدر نساعدك؟ ←",
+      "en": "How can we help? ←"
     },
     {
       "original": "اسم المنشأة (اختياري) ↗",

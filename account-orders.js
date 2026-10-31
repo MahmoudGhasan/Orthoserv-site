@@ -34,7 +34,7 @@
       <label class="field">${t('Order note (optional)', 'ملاحظات على الطلب (اختياري)')}<textarea name="note" maxlength="500" rows="2"></textarea></label>
       <div style="position:absolute;left:-9999px" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
       <div class="form-summary">${opts.total != null && opts.money ? `${t('Estimated total', 'الإجمالي التقديري')}: <strong>${opts.money(opts.total)}</strong><p class="small">${t('The final total is calculated by the server and shown after you place the order.', 'يحسب الخادم الإجمالي النهائي ويظهر بعد إرسال الطلب.')}</p>` : ''}
-      <p class="small">${t('No payment is taken now. Our team will call you to confirm the order and arrange payment.', 'لا يتم الدفع الآن. سيتصل بك فريقنا لتأكيد الطلب وترتيب الدفع.')}</p></div>
+      <p class="small">${t('Our team will call you to confirm the order and arrange payment.', 'سيتصل بك فريقنا لتأكيد الطلب وترتيب الدفع.')}</p></div>
       <p class="od-error" role="alert" hidden></p>
       <button class="button wide" type="submit">${t('Place order', 'إرسال الطلب')}</button></form>`;
     const form = box.querySelector('form'), error = form.querySelector('.od-error'), submit = form.querySelector('[type=submit]');
@@ -99,7 +99,7 @@
       <fieldset><legend>${t('Delivery address', 'عنوان التوصيل')}</legend>${list.map(a => `<label class="od-addr"><input type="radio" name="address_id" value="${esc(a.id)}" ${a.id === chosenDefault.id ? 'checked' : ''}><span><b>${esc(a.label || a.city)}</b> — ${esc(a.recipient)} · <bdi dir="ltr">${esc(a.phone)}</bdi><br>${addressLine(a)}</span></label>`).join('')}</fieldset>
       <label class="field">${t('Order note (optional)', 'ملاحظات على الطلب (اختياري)')}<textarea name="note" maxlength="500" rows="2"></textarea></label>
       <div class="form-summary">${opts.total != null && opts.money ? `${t('Estimated total', 'الإجمالي التقديري')}: <strong>${opts.money(opts.total)}</strong><p class="small">${t('The final total is calculated by the server and shown after you place the order.', 'يحسب الخادم الإجمالي النهائي ويظهر بعد إرسال الطلب.')}</p>` : ''}
-      <p class="small">${t('No payment is taken now. Our team will contact you to confirm the order and arrange payment.', 'لا يتم الدفع الآن. سيتواصل معك فريقنا لتأكيد الطلب وترتيب الدفع.')}</p></div>
+      <p class="small">${t('Our team will contact you to confirm the order and arrange payment.', 'سيتواصل معك فريقنا لتأكيد الطلب وترتيب الدفع.')}</p></div>
       <p class="od-error" role="alert" hidden></p>
       <button class="button wide" type="submit">${t('Place order', 'إرسال الطلب')}</button></form>`;
     const form = box.querySelector('form'), error = form.querySelector('.od-error'), submit = form.querySelector('[type=submit]');

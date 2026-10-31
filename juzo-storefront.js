@@ -244,7 +244,7 @@
    document.querySelector('#jzReviewRequest').onclick=()=>{
     document.querySelector('#cartDialog').close();
     const content=rows.map(x=>{const p=products.find(p=>p.id===x.id);return `${p?.name||x.id} × ${x.qty}\n${x.option||x.color||''}`;}).join('\n\n');
-    helpers.openForm(t('طلب عرض سعر جوزو','Juzo quote request'),`<p>${text('راجع اختياراتك قبل إرسالها لفريق أورثو سيرف.','Review your selections before contacting the OrthoServ team.')}</p><pre class="jz-request-text" dir="auto">${e(content)}</pre><div id="jzRequestActions"></div><p class="small">${text('لم يُنشأ طلب شراء ولم تُنفّذ أي دفعة.','No purchase order or payment has been created.')}</p>`);
+    helpers.openForm(t('طلب عرض سعر جوزو','Juzo quote request'),`<p>${text('راجع اختياراتك قبل إرسالها لفريق أورثو سيرف.','Review your selections before contacting the OrthoServ team.')}</p><pre class="jz-request-text" dir="auto">${e(content)}</pre><div id="jzRequestActions"></div><p class="small">${text('','')}</p>`);
     const actions=document.querySelector('#jzRequestActions'),wa=String(window.OrthoCMS.settings.contact?.whatsapp||'').replace(/\D/g,'');
     if(wa){const a=document.createElement('a');a.className='button';a.target='_blank';a.rel='noopener';a.href='https://wa.me/'+wa+'?text='+encodeURIComponent(t('مرحبًا، أريد عرض سعر لهذه الاختيارات:\n','Hello, please quote these selections:\n')+content);a.textContent=t('إرسال عبر واتساب','Send via WhatsApp');actions.append(a);}
     else{const a=document.createElement('a');a.className='button';a.href='#contact';a.textContent=t('تواصل مع الفريق','Contact our team');a.onclick=()=>document.querySelector('#formDialog').close();actions.append(a);}

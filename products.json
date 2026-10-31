@@ -9865,17 +9865,17 @@
     },
     {
       "id": "juzo-soft-knee",
-      "nameEn": "Juzo Soft below-knee stockings",
-      "name": "Juzo Soft",
-      "titleAr": "جوارب تحت الركبة",
+      "nameEn": "Juzo Soft below-knee compression stockings",
+      "name": "جوارب ضغط Juzo Soft تحت الركبة",
+      "titleAr": "جوارب ضغط Juzo Soft تحت الركبة",
       "brand": "Juzo",
       "model": "",
       "category": "compression",
       "group": "compression",
       "description": "جورب ضغط طبي من مجموعة Soft، بطول تحت الركبة.",
-      "price": 150.0,
-      "priceSource": "",
-      "priceUnit": "",
+      "price": 500,
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
       "method": "buy",
       "demo": false,
       "demoEligible": false,
@@ -9883,19 +9883,19 @@
       "availability": "confirm",
       "files": [
         {
-          "file": "assets/products/juzo/juzo-0.jpg",
-          "width": 367,
-          "height": 547,
+          "file": "experiences/juzo/assets/uploads/ChatGPT-Image-Oct-24--2026--07_02_12-PM-b4750837.png",
+          "width": 1027,
+          "height": 1531,
           "role": "product",
           "alt": {
-            "ar": "Juzo Soft — جوارب تحت الركبة",
-            "en": "Juzo Soft below-knee stockings"
+            "ar": "جوارب ضغط Juzo Soft تحت الركبة",
+            "en": "Juzo Soft below-knee compression stockings"
           }
         }
       ],
       "usage": "DEMO ONLY: replace with brand-approved asset",
       "visible": true,
-      "salePrice": null,
+      "salePrice": 350,
       "saleStart": "",
       "saleEnd": "",
       "commerce": {
@@ -9950,9 +9950,9 @@
         "specifications": [],
         "videoUrl": "",
         "attachments": [],
-        "compareAt": null,
+        "compareAt": 500,
         "quoteEnabled": false,
-        "vatIncluded": null,
+        "vatIncluded": true,
         "status": "published",
         "sortOrder": null,
         "related": [],
@@ -9960,18 +9960,28 @@
       }
     },
     {
+      "juzoOptions": [
+        {
+          "key": "color",
+          "labelAr": "اللون",
+          "labelEn": "Colour",
+          "values": [
+            "Beige"
+          ]
+        }
+      ],
       "id": "juzo-soft-thigh",
-      "nameEn": "Juzo Soft thigh-high stockings",
-      "name": "Juzo Soft",
-      "titleAr": "جوارب حتى الفخذ",
+      "nameEn": "Juzo Soft thigh-high compression stockings",
+      "name": "جوارب ضغط Juzo Soft حتى الفخذ",
+      "titleAr": "جوارب ضغط Juzo Soft حتى الفخذ",
       "brand": "Juzo",
       "model": "",
       "category": "compression",
       "group": "compression",
       "description": "جورب ضغط طبي من مجموعة Soft، بطول حتى الفخذ.",
-      "price": 150.0,
-      "priceSource": "",
-      "priceUnit": "",
+      "price": 500,
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
       "method": "buy",
       "demo": false,
       "demoEligible": false,
@@ -9979,19 +9989,19 @@
       "availability": "confirm",
       "files": [
         {
-          "file": "assets/products/juzo/juzo-1.jpg",
+          "file": "experiences/juzo/assets/products/juzo-1.jpg",
           "width": 367,
           "height": 547,
           "role": "lifestyle",
           "alt": {
-            "ar": "Juzo Soft — جوارب حتى الفخذ",
-            "en": "Juzo Soft thigh stockings"
+            "ar": "جوارب ضغط Juzo Soft حتى الفخذ",
+            "en": "Juzo Soft thigh-high compression stockings"
           }
         }
       ],
       "usage": "DEMO ONLY: replace with brand-approved asset",
       "visible": true,
-      "salePrice": null,
+      "salePrice": 350,
       "saleStart": "",
       "saleEnd": "",
       "commerce": {
@@ -10046,9 +10056,9 @@
         "specifications": [],
         "videoUrl": "",
         "attachments": [],
-        "compareAt": null,
+        "compareAt": 500,
         "quoteEnabled": false,
-        "vatIncluded": null,
+        "vatIncluded": true,
         "status": "published",
         "sortOrder": null,
         "related": [],
@@ -10056,161 +10066,231 @@
       }
     },
     {
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
+      "juzoOptions": [
+        {
+          "key": "color",
+          "labelAr": "اللون",
+          "labelEn": "Colour",
+          "values": [
+            "Beige"
+          ]
+        }
+      ],
       "id": "juzo-soft-tights",
-      "nameEn": "Juzo Soft tights",
-      "name": "Juzo Soft",
-      "titleAr": "جوارب كاملة",
+      "nameEn": "Juzo Soft compression tights",
+      "name": "جوارب ضغط كاملة Juzo Soft",
+      "titleAr": "جوارب ضغط كاملة Juzo Soft",
       "brand": "Juzo",
       "model": "",
       "category": "compression",
       "group": "compression",
       "description": "تصميم الجوارب الكاملة من مجموعة Soft.",
-      "price": null,
-      "priceSource": "",
-      "priceUnit": "",
-      "method": "quote",
+      "price": 500,
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "method": "buy",
       "demo": false,
       "demoEligible": false,
       "options": [],
       "availability": "confirm",
       "files": [
         {
-          "file": "assets/products/juzo/juzo-2.jpg",
+          "file": "experiences/juzo/assets/products/juzo-2.jpg",
           "width": 367,
           "height": 547,
           "role": "lifestyle",
           "alt": {
-            "ar": "Juzo Soft — جوارب كاملة",
-            "en": "Juzo Soft pantyhose"
+            "ar": "جوارب ضغط كاملة Juzo Soft",
+            "en": "Juzo Soft compression tights"
           }
         }
       ],
       "usage": "DEMO ONLY: replace with brand-approved asset",
       "visible": true,
-      "salePrice": null,
+      "salePrice": 350,
       "saleStart": "",
       "saleEnd": ""
     },
     {
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
+      "juzoOptions": [
+        {
+          "key": "color",
+          "labelAr": "اللون",
+          "labelEn": "Colour",
+          "values": [
+            "Beige"
+          ]
+        }
+      ],
       "id": "juzo-soft-sleeve",
-      "nameEn": "Juzo Soft arm sleeve",
-      "name": "Juzo Soft",
-      "titleAr": "كمّ للذراع",
+      "nameEn": "Juzo Soft compression arm sleeve",
+      "name": "كُمّ ضغط للذراع Juzo Soft",
+      "titleAr": "كُمّ ضغط للذراع Juzo Soft",
       "brand": "Juzo",
       "model": "",
       "category": "compression",
       "group": "compression",
       "description": "كمّ ضغط للذراع من مجموعة Soft.",
-      "price": null,
-      "priceSource": "",
-      "priceUnit": "",
-      "method": "quote",
+      "price": 500,
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "method": "buy",
       "demo": false,
       "demoEligible": false,
       "options": [],
       "availability": "confirm",
       "files": [
         {
-          "file": "assets/products/juzo/juzo-3.jpg",
+          "file": "experiences/juzo/assets/products/juzo-3.jpg",
           "width": 367,
           "height": 547,
           "role": "lifestyle",
           "alt": {
-            "ar": "Juzo Soft — كمّ للذراع",
-            "en": "Juzo Soft sleeves"
+            "ar": "كُمّ ضغط للذراع Juzo Soft",
+            "en": "Juzo Soft compression arm sleeve"
           }
         }
       ],
       "usage": "DEMO ONLY: replace with brand-approved asset",
       "visible": true,
-      "salePrice": null,
+      "salePrice": 350,
       "saleStart": "",
       "saleEnd": ""
     },
     {
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
+      "juzoOptions": [
+        {
+          "key": "color",
+          "labelAr": "اللون",
+          "labelEn": "Colour",
+          "values": [
+            "Black/Beige"
+          ]
+        }
+      ],
       "id": "juzo-wrap-calf",
       "nameEn": "Juzo Compression Wrap – Calf",
-      "name": "Juzo Compression Wrap - Calf",
-      "titleAr": "قطعة للساق",
+      "name": "لفافة ضغط قابلة للضبط للساق Juzo Compression Wrap",
+      "titleAr": "لفافة ضغط قابلة للضبط للساق Juzo Compression Wrap",
       "brand": "Juzo",
       "model": "",
       "category": "compression",
       "group": "compression",
       "description": "قطعة ضغط قابلة للضبط لمنطقة الساق.",
-      "price": null,
-      "priceSource": "",
-      "priceUnit": "",
-      "method": "quote",
+      "price": 500,
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "method": "buy",
       "demo": false,
       "demoEligible": false,
       "options": [],
       "availability": "confirm",
       "files": [
         {
-          "file": "assets/products/juzo/juzo-4.jpg",
+          "file": "experiences/juzo/assets/products/juzo-4.jpg",
           "width": 1006,
           "height": 1006,
           "role": "lifestyle",
           "alt": {
-            "ar": "Juzo Compression Wrap - Calf — قطعة للساق",
-            "en": "Juzo Compression Wrap - Calf"
+            "ar": "لفافة ضغط قابلة للضبط للساق Juzo Compression Wrap",
+            "en": "Juzo Compression Wrap – Calf"
           }
         }
       ],
       "usage": "DEMO ONLY: replace with brand-approved asset",
       "visible": true,
-      "salePrice": null,
+      "salePrice": 350,
       "saleStart": "",
       "saleEnd": ""
     },
     {
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
+      "juzoOptions": [
+        {
+          "key": "color",
+          "labelAr": "اللون",
+          "labelEn": "Colour",
+          "values": [
+            "Black/Beige"
+          ]
+        }
+      ],
       "id": "juzo-wrap-foot",
       "nameEn": "Juzo Compression Wrap – Foot",
-      "name": "Juzo Compression Wrap - Foot",
-      "titleAr": "قطعة للقدم",
+      "name": "لفافة ضغط قابلة للضبط للقدم Juzo Compression Wrap",
+      "titleAr": "لفافة ضغط قابلة للضبط للقدم Juzo Compression Wrap",
       "brand": "Juzo",
       "model": "",
       "category": "compression",
       "group": "compression",
       "description": "قطعة ضغط قابلة للضبط لمنطقة القدم.",
-      "price": null,
-      "priceSource": "",
-      "priceUnit": "",
-      "method": "quote",
+      "price": 500,
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "method": "buy",
       "demo": false,
       "demoEligible": false,
       "options": [],
       "availability": "confirm",
       "files": [
         {
-          "file": "assets/products/juzo/juzo-5.jpg",
+          "file": "experiences/juzo/assets/products/juzo-5.jpg",
           "width": 818,
           "height": 818,
           "role": "lifestyle",
           "alt": {
-            "ar": "Juzo Compression Wrap - Foot — قطعة للقدم",
-            "en": "Juzo Compression Wrap - Foot"
+            "ar": "لفافة ضغط قابلة للضبط للقدم Juzo Compression Wrap",
+            "en": "Juzo Compression Wrap – Foot"
           }
         }
       ],
       "usage": "DEMO ONLY: replace with brand-approved asset",
       "visible": true,
-      "salePrice": null,
+      "salePrice": 350,
       "saleStart": "",
       "saleEnd": ""
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-move-ad",
       "nameEn": "Juzo Move AD below-knee compression stockings",
       "name": "جوارب ضغط Juzo Move AD تحت الركبة",
-      "titleAr": "",
+      "titleAr": "جوارب ضغط Juzo Move AD تحت الركبة",
       "brand": "Juzo",
       "model": "3611AD",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -11117,17 +11197,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-special-gloves-9301",
       "nameEn": "Juzo Special non-slip latex-coated donning gloves",
       "name": "قفازات ارتداء Juzo Special لملابس الضغط | مطلية باللاتكس غير القابل للانزلاق",
-      "titleAr": "",
+      "titleAr": "قفازات ارتداء Juzo Special لملابس الضغط | مطلية باللاتكس غير القابل للانزلاق",
       "brand": "Juzo",
       "model": "JUZO-1152",
       "category": "compression",
       "group": "accessories",
       "description": "مستلزم من جوزو. نؤكد ملاءمته لقطعتك وتفاصيله والتوفر مع فريق أورثو سيرف قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: not color",
@@ -11297,17 +11387,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-acs-light-j714-pads",
       "nameEn": "Juzo ACS Light J714 compression pads",
-      "name": "Juzo ACS Light وسادة | وسادة ضغط لنظام ضغط ACS",
-      "titleAr": "",
+      "name": "وسادة ضغط Juzo ACS Light J714",
+      "titleAr": "وسادة ضغط Juzo ACS Light J714",
       "brand": "Juzo",
       "model": "JUZO-1165",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: not color",
@@ -11323,7 +11423,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ACS Light وسادة | وسادة ضغط لنظام ضغط ACS",
+            "ar": "وسادة ضغط Juzo ACS Light J714",
             "en": "Juzo ACS Light J714 compression pads"
           }
         },
@@ -11333,7 +11433,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ACS Light وسادة | وسادة ضغط لنظام ضغط ACS",
+            "ar": "وسادة ضغط Juzo ACS Light J714",
             "en": "Juzo ACS Light J714 compression pads"
           }
         }
@@ -11366,17 +11466,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-acs-light-j712-midline-band",
       "nameEn": "Juzo ACS Light J712 extension band",
-      "name": "Juzo ACS Light شريط منتصف الخط | شريط تمديد لنظام ضغط ACS",
-      "titleAr": "",
+      "name": "شريط تمديد للفائف الضغط Juzo ACS Light J712",
+      "titleAr": "شريط تمديد للفائف الضغط Juzo ACS Light J712",
       "brand": "Juzo",
       "model": "JUZO-1166",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: not color",
@@ -11390,7 +11500,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ACS Light شريط منتصف الخط | شريط تمديد لنظام ضغط ACS",
+            "ar": "شريط تمديد للفائف الضغط Juzo ACS Light J712",
             "en": "Juzo ACS Light J712 extension band"
           }
         }
@@ -11421,17 +11531,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-sc-lymphaid-arm-6801",
       "nameEn": "Juzo SoftCompress LymphAid arm compression bandage",
       "name": "Juzo SoftCompress LymphAid للذراع | ضمّادة ضغط",
-      "titleAr": "",
+      "titleAr": "Juzo SoftCompress LymphAid للذراع | ضمّادة ضغط",
       "brand": "Juzo",
       "model": "JUZO-1167",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: not color",
@@ -11544,17 +11664,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-pressure-pad-9420",
       "nameEn": "Juzo 9420 / 9420L pressure pads",
       "name": "وسائد الضغط Juzo 9420، 9420L",
-      "titleAr": "",
+      "titleAr": "وسائد الضغط Juzo 9420، 9420L",
       "brand": "Juzo",
       "model": "JUZO-1168",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: not color",
@@ -11629,17 +11759,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-lymphpad",
       "nameEn": "Juzo Lymphpad compression padding – 12 × 16 cm",
       "name": "Juzo Lymphpad - حشوة ضغط للوذمة اللمفية والوذمة الشحمية | 12 x 16 cm",
-      "titleAr": "",
+      "titleAr": "Juzo Lymphpad - حشوة ضغط للوذمة اللمفية والوذمة الشحمية | 12 x 16 cm",
       "brand": "Juzo",
       "model": "JUZO-1176",
       "category": "compression",
       "group": "post-surgery",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: not color",
@@ -11694,17 +11834,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-silicone-press-pads-naked",
       "nameEn": "Naked silicone pressure pads",
       "name": "حشوات الضغط السيليكونية Naked",
-      "titleAr": "",
+      "titleAr": "حشوات الضغط السيليكونية Naked",
       "brand": "Juzo",
       "model": "JUZO-1177",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: not color",
@@ -11749,17 +11899,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-easyfit-1890",
       "nameEn": "Juzo Easy Fit donning and doffing aid",
       "name": "Juzo Easy Fit مساعد الارتداء والخلع | لجوارب الضغط ذات الأصابع المفتوحة أو المغلقة",
-      "titleAr": "",
+      "titleAr": "Juzo Easy Fit مساعد الارتداء والخلع | لجوارب الضغط ذات الأصابع المفتوحة أو المغلقة",
       "brand": "Juzo",
       "model": "JUZO-1178",
       "category": "compression",
       "group": "accessories",
       "description": "مستلزم من جوزو. نؤكد ملاءمته لقطعتك وتفاصيله والتوفر مع فريق أورثو سيرف قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: not color",
@@ -11887,17 +12047,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-expert-3022-hfa-glove-open-fingers",
       "nameEn": "Juzo Expert flat-knit open-finger compression glove",
       "name": "قفاز الضغط ذو النسيج المسطّح Juzo Expert للعناية بالوذمة اللمفية في اليد | أصابع مفتوحة",
-      "titleAr": "",
+      "titleAr": "قفاز الضغط ذو النسيج المسطّح Juzo Expert للعناية بالوذمة اللمفية في اليد | أصابع مفتوحة",
       "brand": "Juzo",
       "model": "JUZO-1188",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -13144,17 +13314,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-compression-wrap-knee",
       "nameEn": "Juzo Compression Wrap – Knee",
-      "name": "Juzo Compression Wrap - Knee",
-      "titleAr": "",
+      "name": "لفافة ضغط قابلة للضبط للركبة Juzo Compression Wrap",
+      "titleAr": "لفافة ضغط قابلة للضبط للركبة Juzo Compression Wrap",
       "brand": "Juzo",
       "model": "JUZO-1201",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -13172,7 +13352,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo Compression Wrap - Knee",
+            "ar": "لفافة ضغط قابلة للضبط للركبة Juzo Compression Wrap",
             "en": "Juzo Compression Wrap – Knee"
           }
         }
@@ -13338,17 +13518,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-compression-wrap-thigh",
       "nameEn": "Juzo Compression Wrap – Thigh",
-      "name": "رباط الضغط Juzo - الفخذ",
-      "titleAr": "",
+      "name": "لفافة ضغط قابلة للضبط للفخذ Juzo Compression Wrap",
+      "titleAr": "لفافة ضغط قابلة للضبط للفخذ Juzo Compression Wrap",
       "brand": "Juzo",
       "model": "JUZO-1202",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -13365,7 +13555,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "رباط الضغط Juzo - الفخذ",
+            "ar": "لفافة ضغط قابلة للضبط للفخذ Juzo Compression Wrap",
             "en": "Juzo Compression Wrap – Thigh"
           }
         }
@@ -13610,17 +13800,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-scarprime-direct-ft-3016-men",
       "nameEn": "Juzo ScarPrime Direct FT Bermuda shorts – Men",
       "name": "سروال بيرمودا Juzo ScarPrime Direct FT | للرجال",
-      "titleAr": "",
+      "titleAr": "سروال بيرمودا Juzo ScarPrime Direct FT | للرجال",
       "brand": "Juzo",
       "model": "JUZO-1206",
       "category": "compression",
       "group": "burn-scar-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -14027,17 +14227,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-scarprime-direct-ft-3016-women",
       "nameEn": "Juzo ScarPrime Direct FT Bermuda shorts – Women",
       "name": "سروال بيرمودا Juzo ScarPrime Direct FT | للنساء",
-      "titleAr": "",
+      "titleAr": "سروال بيرمودا Juzo ScarPrime Direct FT | للنساء",
       "brand": "Juzo",
       "model": "JUZO-1207",
       "category": "compression",
       "group": "burn-scar-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Black",
@@ -14048,38 +14258,7 @@
         "المقاس: XL",
         "المقاس: XXL"
       ],
-      "files": [
-        {
-          "file": "assets/products/juzo/imported/juzo-scarprime-direct-ft-3016-women/01.webp",
-          "width": 920,
-          "height": 1072,
-          "role": "product",
-          "alt": {
-            "ar": "سروال بيرمودا Juzo ScarPrime Direct FT | للنساء",
-            "en": "Juzo ScarPrime Direct FT Bermuda shorts – Women"
-          }
-        },
-        {
-          "file": "assets/products/juzo/imported/juzo-scarprime-direct-ft-3016-women/02.webp",
-          "width": 920,
-          "height": 1072,
-          "role": "product",
-          "alt": {
-            "ar": "سروال بيرمودا Juzo ScarPrime Direct FT | للنساء",
-            "en": "Juzo ScarPrime Direct FT Bermuda shorts – Women"
-          }
-        },
-        {
-          "file": "assets/products/juzo/imported/juzo-scarprime-direct-ft-3016-women/03.webp",
-          "width": 920,
-          "height": 1072,
-          "role": "product",
-          "alt": {
-            "ar": "سروال بيرمودا Juzo ScarPrime Direct FT | للنساء",
-            "en": "Juzo ScarPrime Direct FT Bermuda shorts – Women"
-          }
-        }
-      ],
+      "files": [],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
       "sortOrder": 15,
@@ -14444,17 +14623,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-scarprime-light-cg-4000-sleeve",
       "nameEn": "Juzo ScarPrime Light CG compression sleeve",
       "name": "Juzo ScarPrime Light CG | كُمّ ضغط للندبات",
-      "titleAr": "",
+      "titleAr": "Juzo ScarPrime Light CG | كُمّ ضغط للندبات",
       "brand": "Juzo",
       "model": "JUZO-1208",
       "category": "compression",
       "group": "post-surgery",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -14934,17 +15123,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-scarprime-direct-bt-3016-women",
-      "nameEn": "Juzo ScarPrime Direct BT high-waisted leggings – Women",
-      "name": "Juzo ScarPrime Direct Leggings BT | ضغط طبي مرتفع الخصر لعلاج ندبات النساء",
-      "titleAr": "",
+      "nameEn": "Juzo ScarPrime Direct BT high-waisted compression leggings – Women",
+      "name": "بنطال ضغط مرتفع الخصر للنساء Juzo ScarPrime Direct BT",
+      "titleAr": "بنطال ضغط مرتفع الخصر للنساء Juzo ScarPrime Direct BT",
       "brand": "Juzo",
       "model": "JUZO-1211",
       "category": "compression",
       "group": "burn-scar-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Black",
@@ -14962,8 +15161,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ScarPrime Direct Leggings BT | ضغط طبي مرتفع الخصر لعلاج ندبات النساء",
-            "en": "Juzo ScarPrime Direct BT high-waisted leggings – Women"
+            "ar": "بنطال ضغط مرتفع الخصر للنساء Juzo ScarPrime Direct BT",
+            "en": "Juzo ScarPrime Direct BT high-waisted compression leggings – Women"
           }
         },
         {
@@ -14972,8 +15171,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ScarPrime Direct Leggings BT | ضغط طبي مرتفع الخصر لعلاج ندبات النساء",
-            "en": "Juzo ScarPrime Direct BT high-waisted leggings – Women"
+            "ar": "بنطال ضغط مرتفع الخصر للنساء Juzo ScarPrime Direct BT",
+            "en": "Juzo ScarPrime Direct BT high-waisted compression leggings – Women"
           }
         }
       ],
@@ -15453,17 +15652,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-ulcer-pro-compression-stocking-system-venous-ulcer",
       "nameEn": "Juzo Ulcer Pro compression stocking system",
-      "name": "جورب الضغط Juzo Ulcer Pro | نظام ضغط ثنائي المفعول (1 Expert + 2 بطانة)",
-      "titleAr": "",
+      "name": "نظام جوارب ضغط لقرح الأوردة Juzo Ulcer Pro",
+      "titleAr": "نظام جوارب ضغط لقرح الأوردة Juzo Ulcer Pro",
       "brand": "Juzo",
       "model": "JUZO-1511",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -15481,7 +15690,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جورب الضغط Juzo Ulcer Pro | نظام ضغط ثنائي المفعول (1 Expert + 2 بطانة)",
+            "ar": "نظام جوارب ضغط لقرح الأوردة Juzo Ulcer Pro",
             "en": "Juzo Ulcer Pro compression stocking system"
           }
         },
@@ -15491,7 +15700,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جورب الضغط Juzo Ulcer Pro | نظام ضغط ثنائي المفعول (1 Expert + 2 بطانة)",
+            "ar": "نظام جوارب ضغط لقرح الأوردة Juzo Ulcer Pro",
             "en": "Juzo Ulcer Pro compression stocking system"
           }
         },
@@ -15501,7 +15710,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جورب الضغط Juzo Ulcer Pro | نظام ضغط ثنائي المفعول (1 Expert + 2 بطانة)",
+            "ar": "نظام جوارب ضغط لقرح الأوردة Juzo Ulcer Pro",
             "en": "Juzo Ulcer Pro compression stocking system"
           }
         }
@@ -15536,17 +15745,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-classic-seamless-2302-ft",
       "nameEn": "Juzo Classic Seamless Bermuda shorts – Women",
       "name": "بنطال برمودا ضاغط بلا خياطة للنساء Juzo Classic Seamless",
-      "titleAr": "",
+      "titleAr": "بنطال برمودا ضاغط بلا خياطة للنساء Juzo Classic Seamless",
       "brand": "Juzo",
       "model": "JUZO-2042",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Black",
@@ -16190,17 +16409,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-classic-seamless-bt",
       "nameEn": "Juzo Classic Seamless compression leggings",
       "name": "ليغنز ضغط بلا خياطة للوذمة الشحمية والوذمة اللمفية Juzo Classic Seamless",
-      "titleAr": "",
+      "titleAr": "ليغنز ضغط بلا خياطة للوذمة الشحمية والوذمة اللمفية Juzo Classic Seamless",
       "brand": "Juzo",
       "model": "JUZO-15178",
       "category": "compression",
       "group": "post-surgery",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -16753,17 +16982,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-comprima-bolero-arm-sleeves",
       "nameEn": "Juzo Comprima bolero arm sleeves",
       "name": "أكمام ضغط بوليرو نسائية Juzo Comprima",
-      "titleAr": "",
+      "titleAr": "أكمام ضغط بوليرو نسائية Juzo Comprima",
       "brand": "Juzo",
       "model": "JUZO-15180",
       "category": "compression",
       "group": "post-surgery",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -16852,17 +17091,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-expert-ad",
       "nameEn": "Juzo Expert AD below-knee compression stockings",
       "name": "جورب ضغط تحت الركبة Juzo Expert (AD)",
-      "titleAr": "",
+      "titleAr": "جورب ضغط تحت الركبة Juzo Expert (AD)",
       "brand": "Juzo",
       "model": "JUZO-15181",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -17574,17 +17823,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-move-at",
       "nameEn": "Juzo Move AT compression tights",
-      "name": "Juzo Move AT Compression Tights (Pantyhose)",
-      "titleAr": "",
+      "name": "جوارب ضغط كاملة Juzo Move AT",
+      "titleAr": "جوارب ضغط كاملة Juzo Move AT",
       "brand": "Juzo",
       "model": "JUZO-15182",
       "category": "compression",
       "group": "compression",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -17608,7 +17867,7 @@
           "height": 2101,
           "role": "product",
           "alt": {
-            "ar": "Juzo Move AT Compression Tights (Pantyhose)",
+            "ar": "جوارب ضغط كاملة Juzo Move AT",
             "en": "Juzo Move AT compression tights"
           }
         },
@@ -17618,7 +17877,7 @@
           "height": 1216,
           "role": "product",
           "alt": {
-            "ar": "Juzo Move AT Compression Tights (Pantyhose)",
+            "ar": "جوارب ضغط كاملة Juzo Move AT",
             "en": "Juzo Move AT compression tights"
           }
         },
@@ -17628,7 +17887,7 @@
           "height": 1512,
           "role": "product",
           "alt": {
-            "ar": "Juzo Move AT Compression Tights (Pantyhose)",
+            "ar": "جوارب ضغط كاملة Juzo Move AT",
             "en": "Juzo Move AT compression tights"
           }
         },
@@ -17638,7 +17897,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo Move AT Compression Tights (Pantyhose)",
+            "ar": "جوارب ضغط كاملة Juzo Move AT",
             "en": "Juzo Move AT compression tights"
           }
         },
@@ -17648,7 +17907,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo Move AT Compression Tights (Pantyhose)",
+            "ar": "جوارب ضغط كاملة Juzo Move AT",
             "en": "Juzo Move AT compression tights"
           }
         }
@@ -17707,17 +17966,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-scarprime-seamless-compression-glove",
       "nameEn": "Juzo ScarPrime Seamless open-finger compression glove",
       "name": "قفاز ضغط للندبات بأصابع مفتوحة Juzo ScarPrime Seamless",
-      "titleAr": "",
+      "titleAr": "قفاز ضغط للندبات بأصابع مفتوحة Juzo ScarPrime Seamless",
       "brand": "Juzo",
       "model": "JUZO-15183",
       "category": "compression",
       "group": "burn-scar-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -17912,17 +18181,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-scarprime-seamless-burn-glove-long-hfd",
       "nameEn": "Juzo ScarPrime Seamless closed-finger long compression glove",
       "name": "قفاز ضغط للندبات بأصابع مغلقة وطول ممتد Juzo ScarPrime Seamless",
-      "titleAr": "",
+      "titleAr": "قفاز ضغط للندبات بأصابع مغلقة وطول ممتد Juzo ScarPrime Seamless",
       "brand": "Juzo",
       "model": "JUZO-15184",
       "category": "compression",
       "group": "burn-scar-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -18173,17 +18452,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-sensation-at",
       "nameEn": "Juzo Sensation Fit massage compression tights",
       "name": "بنطال الضغط بالتدليك Juzo Sensation Fit",
-      "titleAr": "",
+      "titleAr": "بنطال الضغط بالتدليك Juzo Sensation Fit",
       "brand": "Juzo",
       "model": "JUZO-15185",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Black",
@@ -18892,17 +19181,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-classic-seamless-ago",
-      "nameEn": "Juzo Classic Seamless arm garment with glove",
-      "name": "ملبس ضغط للذراع بلا خياطات مع قفاز لعلاج الوذمة اللمفية",
-      "titleAr": "",
+      "nameEn": "Juzo Classic Seamless AGO compression arm sleeve with glove",
+      "name": "كُمّ ضغط متصل بقفاز بلا خياطة Juzo Classic Seamless AGO",
+      "titleAr": "كُمّ ضغط متصل بقفاز بلا خياطة Juzo Classic Seamless AGO",
       "brand": "Juzo",
       "model": "JUZO-15190",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -18923,8 +19222,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "ملبس ضغط للذراع بلا خياطات مع قفاز لعلاج الوذمة اللمفية",
-            "en": "Juzo Classic Seamless arm garment with glove"
+            "ar": "كُمّ ضغط متصل بقفاز بلا خياطة Juzo Classic Seamless AGO",
+            "en": "Juzo Classic Seamless AGO compression arm sleeve with glove"
           }
         },
         {
@@ -18933,8 +19232,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "ملبس ضغط للذراع بلا خياطات مع قفاز لعلاج الوذمة اللمفية",
-            "en": "Juzo Classic Seamless arm garment with glove"
+            "ar": "كُمّ ضغط متصل بقفاز بلا خياطة Juzo Classic Seamless AGO",
+            "en": "Juzo Classic Seamless AGO compression arm sleeve with glove"
           }
         }
       ],
@@ -19718,17 +20017,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-lymph-lotion",
       "nameEn": "Juzo Lymph skin-care lotion",
       "name": "لوشن Juzo Lymph للعناية بالبشرة",
-      "titleAr": "",
+      "titleAr": "لوشن Juzo Lymph للعناية بالبشرة",
       "brand": "Juzo",
       "model": "JUZO-15191",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "المقاس: 200ml",
@@ -19765,17 +20074,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-vital-balsam-7",
       "nameEn": "Juzo Vital Balsam 7 skin-care gel",
       "name": "جل العناية بالبشرة Juzo Vital Balsam 7",
-      "titleAr": "",
+      "titleAr": "جل العناية بالبشرة Juzo Vital Balsam 7",
       "brand": "Juzo",
       "model": "JUZO-15192",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "المقاس: 100ml",
@@ -19822,17 +20141,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-move-ag",
       "nameEn": "Juzo Move AG thigh-high compression stockings",
       "name": "جوارب الضغط حتى الفخذ Juzo Move AG",
-      "titleAr": "",
+      "titleAr": "جوارب الضغط حتى الفخذ Juzo Move AG",
       "brand": "Juzo",
       "model": "JUZO-15194",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -20663,17 +20992,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-basic-ad",
-      "nameEn": "Juzo Basic AD below-knee closed-toe compression stockings",
-      "name": "جوارب Juzo Basic الضاغطة لدوالي الأوردة AD بارتفاع أسفل الركبة | مقدّمة مغلقة",
-      "titleAr": "",
+      "nameEn": "Juzo Basic AD below-knee compression stockings",
+      "name": "جوارب ضغط Juzo Basic AD تحت الركبة",
+      "titleAr": "جوارب ضغط Juzo Basic AD تحت الركبة",
       "brand": "Juzo",
       "model": "JUZO-15198",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -20696,8 +21035,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Basic الضاغطة لدوالي الأوردة AD بارتفاع أسفل الركبة | مقدّمة مغلقة",
-            "en": "Juzo Basic AD below-knee closed-toe compression stockings"
+            "ar": "جوارب ضغط Juzo Basic AD تحت الركبة",
+            "en": "Juzo Basic AD below-knee compression stockings"
           }
         },
         {
@@ -20706,28 +21045,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Basic الضاغطة لدوالي الأوردة AD بارتفاع أسفل الركبة | مقدّمة مغلقة",
-            "en": "Juzo Basic AD below-knee closed-toe compression stockings"
-          }
-        },
-        {
-          "file": "assets/products/juzo/imported/juzo-basic-ad/03.webp",
-          "width": 920,
-          "height": 1072,
-          "role": "product",
-          "alt": {
-            "ar": "جوارب Juzo Basic الضاغطة لدوالي الأوردة AD بارتفاع أسفل الركبة | مقدّمة مغلقة",
-            "en": "Juzo Basic AD below-knee closed-toe compression stockings"
-          }
-        },
-        {
-          "file": "assets/products/juzo/imported/juzo-basic-ad/04.webp",
-          "width": 920,
-          "height": 1072,
-          "role": "product",
-          "alt": {
-            "ar": "جوارب Juzo Basic الضاغطة لدوالي الأوردة AD بارتفاع أسفل الركبة | مقدّمة مغلقة",
-            "en": "Juzo Basic AD below-knee closed-toe compression stockings"
+            "ar": "جوارب ضغط Juzo Basic AD تحت الركبة",
+            "en": "Juzo Basic AD below-knee compression stockings"
           }
         }
       ],
@@ -21539,17 +21858,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-basic-ag",
-      "nameEn": "Juzo Basic AG thigh-high open-toe compression stockings",
-      "name": "جوارب ضغط Juzo Basic حتى الفخذ | دعم طبي CCL 2 (23-32 mmHg) | مفتوحة الأصابع",
-      "titleAr": "",
+      "nameEn": "Juzo Basic AG thigh-high compression stockings",
+      "name": "جوارب ضغط Juzo Basic AG حتى الفخذ",
+      "titleAr": "جوارب ضغط Juzo Basic AG حتى الفخذ",
       "brand": "Juzo",
       "model": "JUZO-15199",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -21572,18 +21901,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب ضغط Juzo Basic حتى الفخذ | دعم طبي CCL 2 (23-32 mmHg) | مفتوحة الأصابع",
-            "en": "Juzo Basic AG thigh-high open-toe compression stockings"
-          }
-        },
-        {
-          "file": "assets/products/juzo/imported/juzo-basic-ag/02.webp",
-          "width": 920,
-          "height": 1072,
-          "role": "product",
-          "alt": {
-            "ar": "جوارب ضغط Juzo Basic حتى الفخذ | دعم طبي CCL 2 (23-32 mmHg) | مفتوحة الأصابع",
-            "en": "Juzo Basic AG thigh-high open-toe compression stockings"
+            "ar": "جوارب ضغط Juzo Basic AG حتى الفخذ",
+            "en": "Juzo Basic AG thigh-high compression stockings"
           }
         },
         {
@@ -21592,18 +21911,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب ضغط Juzo Basic حتى الفخذ | دعم طبي CCL 2 (23-32 mmHg) | مفتوحة الأصابع",
-            "en": "Juzo Basic AG thigh-high open-toe compression stockings"
-          }
-        },
-        {
-          "file": "assets/products/juzo/imported/juzo-basic-ag/04.webp",
-          "width": 920,
-          "height": 1072,
-          "role": "product",
-          "alt": {
-            "ar": "جوارب ضغط Juzo Basic حتى الفخذ | دعم طبي CCL 2 (23-32 mmHg) | مفتوحة الأصابع",
-            "en": "Juzo Basic AG thigh-high open-toe compression stockings"
+            "ar": "جوارب ضغط Juzo Basic AG حتى الفخذ",
+            "en": "Juzo Basic AG thigh-high compression stockings"
           }
         }
       ],
@@ -22413,17 +22722,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-basic-at",
-      "nameEn": "Juzo Basic AT open-toe compression tights",
-      "name": "جوارب الضغط Juzo Basic AT | أصابع مفتوحة",
-      "titleAr": "",
+      "nameEn": "Juzo Basic AT compression tights",
+      "name": "جوارب ضغط كاملة Juzo Basic AT",
+      "titleAr": "جوارب ضغط كاملة Juzo Basic AT",
       "brand": "Juzo",
       "model": "JUZO-15200",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -22446,8 +22765,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب الضغط Juzo Basic AT | أصابع مفتوحة",
-            "en": "Juzo Basic AT open-toe compression tights"
+            "ar": "جوارب ضغط كاملة Juzo Basic AT",
+            "en": "Juzo Basic AT compression tights"
           }
         },
         {
@@ -22456,8 +22775,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب الضغط Juzo Basic AT | أصابع مفتوحة",
-            "en": "Juzo Basic AT open-toe compression tights"
+            "ar": "جوارب ضغط كاملة Juzo Basic AT",
+            "en": "Juzo Basic AT compression tights"
           }
         },
         {
@@ -22466,8 +22785,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب الضغط Juzo Basic AT | أصابع مفتوحة",
-            "en": "Juzo Basic AT open-toe compression tights"
+            "ar": "جوارب ضغط كاملة Juzo Basic AT",
+            "en": "Juzo Basic AT compression tights"
           }
         },
         {
@@ -22476,8 +22795,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب الضغط Juzo Basic AT | أصابع مفتوحة",
-            "en": "Juzo Basic AT open-toe compression tights"
+            "ar": "جوارب ضغط كاملة Juzo Basic AT",
+            "en": "Juzo Basic AT compression tights"
           }
         }
       ],
@@ -23289,17 +23608,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-inspiration-ag",
-      "nameEn": "Juzo Inspiration AG semi-sheer thigh-high stockings",
-      "name": "جوارب Juzo Inspiration الضاغطة | جوارب خفيفة شبه شفّافة لدوالي الأوردة والوذمة",
-      "titleAr": "",
+      "nameEn": "Juzo Inspiration AG sheer thigh-high compression stockings",
+      "name": "جوارب ضغط شفافة حتى الفخذ Juzo Inspiration AG",
+      "titleAr": "جوارب ضغط شفافة حتى الفخذ Juzo Inspiration AG",
       "brand": "Juzo",
       "model": "JUZO-15201",
       "category": "compression",
       "group": "post-surgery",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -23322,8 +23651,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Inspiration الضاغطة | جوارب خفيفة شبه شفّافة لدوالي الأوردة والوذمة",
-            "en": "Juzo Inspiration AG semi-sheer thigh-high stockings"
+            "ar": "جوارب ضغط شفافة حتى الفخذ Juzo Inspiration AG",
+            "en": "Juzo Inspiration AG sheer thigh-high compression stockings"
           }
         },
         {
@@ -23332,8 +23661,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Inspiration الضاغطة | جوارب خفيفة شبه شفّافة لدوالي الأوردة والوذمة",
-            "en": "Juzo Inspiration AG semi-sheer thigh-high stockings"
+            "ar": "جوارب ضغط شفافة حتى الفخذ Juzo Inspiration AG",
+            "en": "Juzo Inspiration AG sheer thigh-high compression stockings"
           }
         },
         {
@@ -23342,8 +23671,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Inspiration الضاغطة | جوارب خفيفة شبه شفّافة لدوالي الأوردة والوذمة",
-            "en": "Juzo Inspiration AG semi-sheer thigh-high stockings"
+            "ar": "جوارب ضغط شفافة حتى الفخذ Juzo Inspiration AG",
+            "en": "Juzo Inspiration AG sheer thigh-high compression stockings"
           }
         },
         {
@@ -23352,8 +23681,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Inspiration الضاغطة | جوارب خفيفة شبه شفّافة لدوالي الأوردة والوذمة",
-            "en": "Juzo Inspiration AG semi-sheer thigh-high stockings"
+            "ar": "جوارب ضغط شفافة حتى الفخذ Juzo Inspiration AG",
+            "en": "Juzo Inspiration AG sheer thigh-high compression stockings"
           }
         },
         {
@@ -23362,8 +23691,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Inspiration الضاغطة | جوارب خفيفة شبه شفّافة لدوالي الأوردة والوذمة",
-            "en": "Juzo Inspiration AG semi-sheer thigh-high stockings"
+            "ar": "جوارب ضغط شفافة حتى الفخذ Juzo Inspiration AG",
+            "en": "Juzo Inspiration AG sheer thigh-high compression stockings"
           }
         }
       ],
@@ -24191,17 +24520,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-inspiration-at",
-      "nameEn": "Juzo Inspiration AT semi-sheer open-toe tights",
-      "name": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
-      "titleAr": "",
+      "nameEn": "Juzo Inspiration AT sheer compression tights",
+      "name": "جوارب ضغط كاملة شفافة Juzo Inspiration AT",
+      "titleAr": "جوارب ضغط كاملة شفافة Juzo Inspiration AT",
       "brand": "Juzo",
       "model": "JUZO-15202",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -24226,8 +24565,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
-            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+            "ar": "جوارب ضغط كاملة شفافة Juzo Inspiration AT",
+            "en": "Juzo Inspiration AT sheer compression tights"
           }
         },
         {
@@ -24236,8 +24575,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
-            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+            "ar": "جوارب ضغط كاملة شفافة Juzo Inspiration AT",
+            "en": "Juzo Inspiration AT sheer compression tights"
           }
         },
         {
@@ -24246,8 +24585,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
-            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+            "ar": "جوارب ضغط كاملة شفافة Juzo Inspiration AT",
+            "en": "Juzo Inspiration AT sheer compression tights"
           }
         },
         {
@@ -24256,8 +24595,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
-            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+            "ar": "جوارب ضغط كاملة شفافة Juzo Inspiration AT",
+            "en": "Juzo Inspiration AT sheer compression tights"
           }
         },
         {
@@ -24266,8 +24605,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
-            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+            "ar": "جوارب ضغط كاملة شفافة Juzo Inspiration AT",
+            "en": "Juzo Inspiration AT sheer compression tights"
           }
         },
         {
@@ -24276,8 +24615,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
-            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+            "ar": "جوارب ضغط كاملة شفافة Juzo Inspiration AT",
+            "en": "Juzo Inspiration AT sheer compression tights"
           }
         },
         {
@@ -24286,8 +24625,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
-            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+            "ar": "جوارب ضغط كاملة شفافة Juzo Inspiration AT",
+            "en": "Juzo Inspiration AT sheer compression tights"
           }
         },
         {
@@ -24296,8 +24635,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
-            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+            "ar": "جوارب ضغط كاملة شفافة Juzo Inspiration AT",
+            "en": "Juzo Inspiration AT sheer compression tights"
           }
         },
         {
@@ -24306,8 +24645,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
-            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+            "ar": "جوارب ضغط كاملة شفافة Juzo Inspiration AT",
+            "en": "Juzo Inspiration AT sheer compression tights"
           }
         },
         {
@@ -24316,8 +24655,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب الضغط Juzo Inspiration AT | جوارب نسائية شفّافة جزئيًا رقيقة | CCL 1 - أصابع مفتوحة",
-            "en": "Juzo Inspiration AT semi-sheer open-toe tights"
+            "ar": "جوارب ضغط كاملة شفافة Juzo Inspiration AT",
+            "en": "Juzo Inspiration AT sheer compression tights"
           }
         }
       ],
@@ -25149,17 +25488,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-inspiration-atu-maternity-compression-tights",
       "nameEn": "Juzo Inspiration ATU maternity compression tights",
-      "name": "جوارب Juzo Inspiration الضاغطة للحمل | دعم بانتيهوز للأمومة",
-      "titleAr": "",
+      "name": "جوارب ضغط للحمل Juzo Inspiration ATU",
+      "titleAr": "جوارب ضغط للحمل Juzo Inspiration ATU",
       "brand": "Juzo",
       "model": "JUZO-15203",
       "category": "compression",
       "group": "post-surgery",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -25182,7 +25531,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Inspiration الضاغطة للحمل | دعم بانتيهوز للأمومة",
+            "ar": "جوارب ضغط للحمل Juzo Inspiration ATU",
             "en": "Juzo Inspiration ATU maternity compression tights"
           }
         },
@@ -25192,7 +25541,7 @@
           "height": 2500,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Inspiration الضاغطة للحمل | دعم بانتيهوز للأمومة",
+            "ar": "جوارب ضغط للحمل Juzo Inspiration ATU",
             "en": "Juzo Inspiration ATU maternity compression tights"
           }
         },
@@ -25202,7 +25551,7 @@
           "height": 2500,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Inspiration الضاغطة للحمل | دعم بانتيهوز للأمومة",
+            "ar": "جوارب ضغط للحمل Juzo Inspiration ATU",
             "en": "Juzo Inspiration ATU maternity compression tights"
           }
         },
@@ -25212,7 +25561,7 @@
           "height": 2500,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Inspiration الضاغطة للحمل | دعم بانتيهوز للأمومة",
+            "ar": "جوارب ضغط للحمل Juzo Inspiration ATU",
             "en": "Juzo Inspiration ATU maternity compression tights"
           }
         }
@@ -26041,17 +26390,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-adventure-ad",
       "nameEn": "Juzo Adventure AD below-knee closed-toe stockings – Men",
       "name": "جوارب ضغط Juzo Adventure AD للرجال | تحت الركبة، مقدمة مغلقة",
-      "titleAr": "",
+      "titleAr": "جوارب ضغط Juzo Adventure AD للرجال | تحت الركبة، مقدمة مغلقة",
       "brand": "Juzo",
       "model": "JUZO-15204",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -26621,17 +26980,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-dynamic-cotton-ad",
       "nameEn": "Juzo Dynamic Cotton 3511 AD below-knee compression stockings",
       "name": "جوارب Juzo Dynamic Cotton الضاغطة 3511 AD | جوارب ضغط حتى الركبة",
-      "titleAr": "",
+      "titleAr": "جوارب Juzo Dynamic Cotton الضاغطة 3511 AD | جوارب ضغط حتى الركبة",
       "brand": "Juzo",
       "model": "JUZO-15205",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -27525,17 +27894,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-dynamic-at-closed-crotch",
       "nameEn": "Juzo Dynamic AT closed-crotch compression tights",
-      "name": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
-      "titleAr": "",
+      "name": "جوارب ضغط كاملة بدون فتحة عند منطقة العانة Juzo Dynamic AT",
+      "titleAr": "جوارب ضغط كاملة بدون فتحة عند منطقة العانة Juzo Dynamic AT",
       "brand": "Juzo",
       "model": "JUZO-15206",
       "category": "compression",
       "group": "post-surgery",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -27559,7 +27938,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
+            "ar": "جوارب ضغط كاملة بدون فتحة عند منطقة العانة Juzo Dynamic AT",
             "en": "Juzo Dynamic AT closed-crotch compression tights"
           }
         },
@@ -27569,7 +27948,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
+            "ar": "جوارب ضغط كاملة بدون فتحة عند منطقة العانة Juzo Dynamic AT",
             "en": "Juzo Dynamic AT closed-crotch compression tights"
           }
         }
@@ -28400,17 +28779,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-dynamic-at-open-crotch",
       "nameEn": "Juzo Dynamic AT open-crotch compression tights",
-      "name": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
-      "titleAr": "",
+      "name": "جوارب ضغط كاملة بفتحة عند منطقة العانة Juzo Dynamic AT",
+      "titleAr": "جوارب ضغط كاملة بفتحة عند منطقة العانة Juzo Dynamic AT",
       "brand": "Juzo",
       "model": "JUZO-15207",
       "category": "compression",
       "group": "post-surgery",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -28434,7 +28823,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
+            "ar": "جوارب ضغط كاملة بفتحة عند منطقة العانة Juzo Dynamic AT",
             "en": "Juzo Dynamic AT open-crotch compression tights"
           }
         },
@@ -28444,7 +28833,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
+            "ar": "جوارب ضغط كاملة بفتحة عند منطقة العانة Juzo Dynamic AT",
             "en": "Juzo Dynamic AT open-crotch compression tights"
           }
         },
@@ -28454,7 +28843,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
+            "ar": "جوارب ضغط كاملة بفتحة عند منطقة العانة Juzo Dynamic AT",
             "en": "Juzo Dynamic AT open-crotch compression tights"
           }
         },
@@ -28464,7 +28853,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "جوارب Juzo Dynamic النسائية المفتوحة من الأمام | درجة ضغط Class 2 | أصابع مفتوحة",
+            "ar": "جوارب ضغط كاملة بفتحة عند منطقة العانة Juzo Dynamic AT",
             "en": "Juzo Dynamic AT open-crotch compression tights"
           }
         }
@@ -29295,17 +29684,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-scarpad-extra",
       "nameEn": "Juzo ScarPad Extra silicone scar sheets",
       "name": "شرائح السيليكون للندبات Juzo ScarPad Extra (الولادة القيصرية والجسم)",
-      "titleAr": "",
+      "titleAr": "شرائح السيليكون للندبات Juzo ScarPad Extra (الولادة القيصرية والجسم)",
       "brand": "Juzo",
       "model": "JUZO-15208",
       "category": "compression",
       "group": "burn-scar-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "المقاس: Long",
@@ -29469,17 +29868,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-scarpad-light",
       "nameEn": "Juzo ScarPad Light silicone scar sheets",
       "name": "شرائح السيليكون للندبات Juzo ScarPad Light (الوجه واليدين)",
-      "titleAr": "",
+      "titleAr": "شرائح السيليكون للندبات Juzo ScarPad Light (الوجه واليدين)",
       "brand": "Juzo",
       "model": "JUZO-15209",
       "category": "compression",
       "group": "burn-scar-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "المقاس: Normal",
@@ -29643,17 +30052,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-scarpad-strong",
       "nameEn": "Juzo ScarPad Strong silicone scar sheets",
       "name": "شرائح السيليكون للندبات Juzo ScarPad Strong (الندبات العنيدة)",
-      "titleAr": "",
+      "titleAr": "شرائح السيليكون للندبات Juzo ScarPad Strong (الندبات العنيدة)",
       "brand": "Juzo",
       "model": "JUZO-15210",
       "category": "compression",
       "group": "burn-scar-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [],
       "files": [
@@ -29753,17 +30172,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-classic-seamless-zea",
-      "nameEn": "Juzo Classic Seamless compression toe cap",
-      "name": "غطاء الأصابع الضاغط بلا خياطة Juzo Classic للوذمة اللمفية",
-      "titleAr": "",
+      "nameEn": "Juzo Classic Seamless ZEA compression toe cap",
+      "name": "غطاء أصابع قدم ضاغط بلا خياطة Juzo Classic Seamless ZEA",
+      "titleAr": "غطاء أصابع قدم ضاغط بلا خياطة Juzo Classic Seamless ZEA",
       "brand": "Juzo",
       "model": "JUZO-15211",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -29786,8 +30215,8 @@
           "height": 559,
           "role": "product",
           "alt": {
-            "ar": "غطاء الأصابع الضاغط بلا خياطة Juzo Classic للوذمة اللمفية",
-            "en": "Juzo Classic Seamless compression toe cap"
+            "ar": "غطاء أصابع قدم ضاغط بلا خياطة Juzo Classic Seamless ZEA",
+            "en": "Juzo Classic Seamless ZEA compression toe cap"
           }
         }
       ],
@@ -29969,17 +30398,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-dynamic-cg",
       "nameEn": "Juzo Dynamic CG compression arm sleeve",
-      "name": "كم ضغط للذراع Juzo Dynamic | فئة الضغط 2",
-      "titleAr": "",
+      "name": "كُمّ ضغط للذراع Juzo Dynamic CG",
+      "titleAr": "كُمّ ضغط للذراع Juzo Dynamic CG",
       "brand": "Juzo",
       "model": "JUZO-15213",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -30000,7 +30439,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "كم ضغط للذراع Juzo Dynamic | فئة الضغط 2",
+            "ar": "كُمّ ضغط للذراع Juzo Dynamic CG",
             "en": "Juzo Dynamic CG compression arm sleeve"
           }
         },
@@ -30010,7 +30449,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "كم ضغط للذراع Juzo Dynamic | فئة الضغط 2",
+            "ar": "كُمّ ضغط للذراع Juzo Dynamic CG",
             "en": "Juzo Dynamic CG compression arm sleeve"
           }
         },
@@ -30020,7 +30459,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "كم ضغط للذراع Juzo Dynamic | فئة الضغط 2",
+            "ar": "كُمّ ضغط للذراع Juzo Dynamic CG",
             "en": "Juzo Dynamic CG compression arm sleeve"
           }
         },
@@ -30030,7 +30469,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "كم ضغط للذراع Juzo Dynamic | فئة الضغط 2",
+            "ar": "كُمّ ضغط للذراع Juzo Dynamic CG",
             "en": "Juzo Dynamic CG compression arm sleeve"
           }
         },
@@ -30040,7 +30479,7 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "كم ضغط للذراع Juzo Dynamic | فئة الضغط 2",
+            "ar": "كُمّ ضغط للذراع Juzo Dynamic CG",
             "en": "Juzo Dynamic CG compression arm sleeve"
           }
         }
@@ -30595,17 +31034,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-acs-light-j706li-arm-wrap",
-      "nameEn": "Juzo ACS Light J706LI arm wrap",
-      "name": "Juzo ACS Light قطعة الذراع | نظام ضغط طبي تكيّفي لتخفيف احتقان الذراع",
-      "titleAr": "",
+      "nameEn": "Juzo ACS Light J706LI adjustable arm wrap",
+      "name": "لفافة ضغط قابلة للضبط لـالذراع Juzo ACS Light J706LI",
+      "titleAr": "لفافة ضغط قابلة للضبط لـالذراع Juzo ACS Light J706LI",
       "brand": "Juzo",
       "model": "JUZO-15214",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -30627,8 +31076,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ACS Light قطعة الذراع | نظام ضغط طبي تكيّفي لتخفيف احتقان الذراع",
-            "en": "Juzo ACS Light J706LI arm wrap"
+            "ar": "لفافة ضغط قابلة للضبط لـالذراع Juzo ACS Light J706LI",
+            "en": "Juzo ACS Light J706LI adjustable arm wrap"
           }
         },
         {
@@ -30637,8 +31086,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ACS Light قطعة الذراع | نظام ضغط طبي تكيّفي لتخفيف احتقان الذراع",
-            "en": "Juzo ACS Light J706LI arm wrap"
+            "ar": "لفافة ضغط قابلة للضبط لـالذراع Juzo ACS Light J706LI",
+            "en": "Juzo ACS Light J706LI adjustable arm wrap"
           }
         }
       ],
@@ -30958,17 +31407,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-acs-light-j705li-hand-wrap",
-      "nameEn": "Juzo ACS Light J705LI hand wrap",
-      "name": "Juzo ACS Light قطعة اليد | نظام ضغط طبي تكيّفي لتخفيف احتقان اليد",
-      "titleAr": "",
+      "nameEn": "Juzo ACS Light J705LI adjustable hand wrap",
+      "name": "لفافة ضغط قابلة للضبط لـاليد Juzo ACS Light J705LI",
+      "titleAr": "لفافة ضغط قابلة للضبط لـاليد Juzo ACS Light J705LI",
       "brand": "Juzo",
       "model": "JUZO-15215",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -30985,8 +31444,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ACS Light قطعة اليد | نظام ضغط طبي تكيّفي لتخفيف احتقان اليد",
-            "en": "Juzo ACS Light J705LI hand wrap"
+            "ar": "لفافة ضغط قابلة للضبط لـاليد Juzo ACS Light J705LI",
+            "en": "Juzo ACS Light J705LI adjustable hand wrap"
           }
         }
       ],
@@ -31083,17 +31542,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-acs-light-j704li-thigh-wrap",
-      "nameEn": "Juzo ACS Light J704LI thigh wrap",
-      "name": "Juzo ACS Light قطعة الفخذ | نظام ضغط طبي تكيّفي لتخفيف احتقان الفخذ",
-      "titleAr": "",
+      "nameEn": "Juzo ACS Light J704LI adjustable thigh wrap",
+      "name": "لفافة ضغط قابلة للضبط لـالفخذ Juzo ACS Light J704LI",
+      "titleAr": "لفافة ضغط قابلة للضبط لـالفخذ Juzo ACS Light J704LI",
       "brand": "Juzo",
       "model": "JUZO-15216",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -31113,8 +31582,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ACS Light قطعة الفخذ | نظام ضغط طبي تكيّفي لتخفيف احتقان الفخذ",
-            "en": "Juzo ACS Light J704LI thigh wrap"
+            "ar": "لفافة ضغط قابلة للضبط لـالفخذ Juzo ACS Light J704LI",
+            "en": "Juzo ACS Light J704LI adjustable thigh wrap"
           }
         },
         {
@@ -31123,8 +31592,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ACS Light قطعة الفخذ | نظام ضغط طبي تكيّفي لتخفيف احتقان الفخذ",
-            "en": "Juzo ACS Light J704LI thigh wrap"
+            "ar": "لفافة ضغط قابلة للضبط لـالفخذ Juzo ACS Light J704LI",
+            "en": "Juzo ACS Light J704LI adjustable thigh wrap"
           }
         }
       ],
@@ -31388,17 +31857,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-acs-light-j703li-knee-wrap",
-      "nameEn": "Juzo ACS Light J703LI knee wrap",
-      "name": "Juzo ACS Light قطعة الركبة | نظام ضغط طبي تكيّفي لتخفيف احتقان الركبة",
-      "titleAr": "",
+      "nameEn": "Juzo ACS Light J703LI adjustable knee wrap",
+      "name": "لفافة ضغط قابلة للضبط لـالركبة Juzo ACS Light J703LI",
+      "titleAr": "لفافة ضغط قابلة للضبط لـالركبة Juzo ACS Light J703LI",
       "brand": "Juzo",
       "model": "JUZO-15217",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -31416,8 +31895,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ACS Light قطعة الركبة | نظام ضغط طبي تكيّفي لتخفيف احتقان الركبة",
-            "en": "Juzo ACS Light J703LI knee wrap"
+            "ar": "لفافة ضغط قابلة للضبط لـالركبة Juzo ACS Light J703LI",
+            "en": "Juzo ACS Light J703LI adjustable knee wrap"
           }
         },
         {
@@ -31426,8 +31905,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ACS Light قطعة الركبة | نظام ضغط طبي تكيّفي لتخفيف احتقان الركبة",
-            "en": "Juzo ACS Light J703LI knee wrap"
+            "ar": "لفافة ضغط قابلة للضبط لـالركبة Juzo ACS Light J703LI",
+            "en": "Juzo ACS Light J703LI adjustable knee wrap"
           }
         }
       ],
@@ -31589,17 +32068,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-acs-light-j702li-calf-wrap",
-      "nameEn": "Juzo ACS Light J702LI calf wrap",
-      "name": "Juzo ACS Light قطعة الساق | نظام ضغط طبي تكيّفي لتخفيف احتقان الساق",
-      "titleAr": "",
+      "nameEn": "Juzo ACS Light J702LI adjustable calf wrap",
+      "name": "لفافة ضغط قابلة للضبط لـالساق Juzo ACS Light J702LI",
+      "titleAr": "لفافة ضغط قابلة للضبط لـالساق Juzo ACS Light J702LI",
       "brand": "Juzo",
       "model": "JUZO-15218",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -31621,8 +32110,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ACS Light قطعة الساق | نظام ضغط طبي تكيّفي لتخفيف احتقان الساق",
-            "en": "Juzo ACS Light J702LI calf wrap"
+            "ar": "لفافة ضغط قابلة للضبط لـالساق Juzo ACS Light J702LI",
+            "en": "Juzo ACS Light J702LI adjustable calf wrap"
           }
         },
         {
@@ -31631,8 +32120,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ACS Light قطعة الساق | نظام ضغط طبي تكيّفي لتخفيف احتقان الساق",
-            "en": "Juzo ACS Light J702LI calf wrap"
+            "ar": "لفافة ضغط قابلة للضبط لـالساق Juzo ACS Light J702LI",
+            "en": "Juzo ACS Light J702LI adjustable calf wrap"
           }
         }
       ],
@@ -31896,17 +32385,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-acs-light-j701li-foot-wrap",
-      "nameEn": "Juzo ACS Light J701LI foot wrap",
-      "name": "Juzo ACS Light قطعة القدم | نظام ضغط طبي تكيّفي لتخفيف احتقان القدم",
-      "titleAr": "",
+      "nameEn": "Juzo ACS Light J701LI adjustable foot wrap",
+      "name": "لفافة ضغط قابلة للضبط لـالقدم Juzo ACS Light J701LI",
+      "titleAr": "لفافة ضغط قابلة للضبط لـالقدم Juzo ACS Light J701LI",
       "brand": "Juzo",
       "model": "JUZO-15219",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -31926,8 +32425,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ACS Light قطعة القدم | نظام ضغط طبي تكيّفي لتخفيف احتقان القدم",
-            "en": "Juzo ACS Light J701LI foot wrap"
+            "ar": "لفافة ضغط قابلة للضبط لـالقدم Juzo ACS Light J701LI",
+            "en": "Juzo ACS Light J701LI adjustable foot wrap"
           }
         },
         {
@@ -31936,8 +32435,8 @@
           "height": 1072,
           "role": "product",
           "alt": {
-            "ar": "Juzo ACS Light قطعة القدم | نظام ضغط طبي تكيّفي لتخفيف احتقان القدم",
-            "en": "Juzo ACS Light J701LI foot wrap"
+            "ar": "لفافة ضغط قابلة للضبط لـالقدم Juzo ACS Light J701LI",
+            "en": "Juzo ACS Light J701LI adjustable foot wrap"
           }
         }
       ],
@@ -32143,17 +32642,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-classic-seamless-2302-ft-men",
       "nameEn": "Juzo Classic Seamless Bermuda shorts – Men",
       "name": "سروال بيرمودا ضاغط للرجال Juzo Classic Seamless",
-      "titleAr": "",
+      "titleAr": "سروال بيرمودا ضاغط للرجال Juzo Classic Seamless",
       "brand": "Juzo",
       "model": "JUZO-15223",
       "category": "compression",
       "group": "lymphedema-lipedema",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -32228,17 +32737,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-dynamic-above-knee-stump-shrinker",
       "nameEn": "Juzo Dynamic above-knee stump shrinker",
-      "name": "ملبس ضغط لتقليص الجذمور فوق الركبة Juzo Dynamic",
-      "titleAr": "",
+      "name": "ملبس ضغط للطرف المتبقي فوق الركبة Juzo Dynamic",
+      "titleAr": "ملبس ضغط للطرف المتبقي فوق الركبة Juzo Dynamic",
       "brand": "Juzo",
       "model": "JUZO-15224",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -32263,7 +32782,7 @@
           "height": 1000,
           "role": "product",
           "alt": {
-            "ar": "ملبس ضغط لتقليص الجذمور فوق الركبة Juzo Dynamic",
+            "ar": "ملبس ضغط للطرف المتبقي فوق الركبة Juzo Dynamic",
             "en": "Juzo Dynamic above-knee stump shrinker"
           }
         }
@@ -32320,17 +32839,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-dynamic-above-knee-stump-shrinker-hip-attachment",
       "nameEn": "Juzo Dynamic above-knee stump shrinker with hip attachment",
-      "name": "ملبس ضغط لتقليص الجذمور فوق الركبة مع ملحق الورك Juzo Dynamic",
-      "titleAr": "",
+      "name": "ملبس ضغط للطرف المتبقي فوق الركبة مع تثبيت بالورك Juzo Dynamic",
+      "titleAr": "ملبس ضغط للطرف المتبقي فوق الركبة مع تثبيت بالورك Juzo Dynamic",
       "brand": "Juzo",
       "model": "JUZO-15225",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -32355,7 +32884,7 @@
           "height": 2059,
           "role": "product",
           "alt": {
-            "ar": "ملبس ضغط لتقليص الجذمور فوق الركبة مع ملحق الورك Juzo Dynamic",
+            "ar": "ملبس ضغط للطرف المتبقي فوق الركبة مع تثبيت بالورك Juzo Dynamic",
             "en": "Juzo Dynamic above-knee stump shrinker with hip attachment"
           }
         }
@@ -32412,17 +32941,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-dynamic-below-knee-stump-shrinker",
       "nameEn": "Juzo Dynamic below-knee stump shrinker",
-      "name": "ملبس ضغط لتقليص الجذمور تحت الركبة Juzo Dynamic",
-      "titleAr": "",
+      "name": "ملبس ضغط للطرف المتبقي تحت الركبة Juzo Dynamic",
+      "titleAr": "ملبس ضغط للطرف المتبقي تحت الركبة Juzo Dynamic",
       "brand": "Juzo",
       "model": "JUZO-15226",
       "category": "compression",
       "group": "vein-care",
       "description": "قطعة من جوزو ضمن اختيارات أورثو سيرف. راجع خيارات المنتج والمقاس والتوفر مع الفريق قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "اللون: Beige",
@@ -32446,7 +32985,7 @@
           "height": 1073,
           "role": "product",
           "alt": {
-            "ar": "ملبس ضغط لتقليص الجذمور تحت الركبة Juzo Dynamic",
+            "ar": "ملبس ضغط للطرف المتبقي تحت الركبة Juzo Dynamic",
             "en": "Juzo Dynamic below-knee stump shrinker"
           }
         },
@@ -32456,7 +32995,7 @@
           "height": 1073,
           "role": "product",
           "alt": {
-            "ar": "ملبس ضغط لتقليص الجذمور تحت الركبة Juzo Dynamic",
+            "ar": "ملبس ضغط للطرف المتبقي تحت الركبة Juzo Dynamic",
             "en": "Juzo Dynamic below-knee stump shrinker"
           }
         }
@@ -32512,17 +33051,27 @@
       "sourceCatalogue": "healfit-juzo"
     },
     {
+      "salePrice": 350,
+      "saleStart": "",
+      "saleEnd": "",
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
       "id": "juzo-juzo-special-detergent",
       "nameEn": "Juzo Special detergent for compression garments",
-      "name": "Juzo Special Detergent for Compression Garments",
-      "titleAr": "",
+      "name": "منظّف ملابس الضغط Juzo Special",
+      "titleAr": "منظّف ملابس الضغط Juzo Special",
       "brand": "Juzo",
       "model": "JUZO-15230",
       "category": "compression",
       "group": "accessories",
       "description": "مستلزم من جوزو. نؤكد ملاءمته لقطعتك وتفاصيله والتوفر مع فريق أورثو سيرف قبل الطلب.",
-      "price": null,
-      "method": "quote",
+      "price": 500,
+      "method": "buy",
       "availability": "confirm",
       "options": [
         "المقاس: 250ml",
@@ -32535,7 +33084,7 @@
           "height": 700,
           "role": "product",
           "alt": {
-            "ar": "Juzo Special Detergent for Compression Garments",
+            "ar": "منظّف ملابس الضغط Juzo Special",
             "en": "Juzo Special detergent for compression garments"
           }
         },
@@ -32545,7 +33094,7 @@
           "height": 558,
           "role": "product",
           "alt": {
-            "ar": "Juzo Special Detergent for Compression Garments",
+            "ar": "منظّف ملابس الضغط Juzo Special",
             "en": "Juzo Special detergent for compression garments"
           }
         }

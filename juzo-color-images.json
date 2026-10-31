@@ -235,9 +235,7 @@
       "Black": {
         "name": "Black",
         "hex": "#000000",
-        "images": [
-          "assets/products/juzo/imported/juzo-basic-ad/02.webp"
-        ]
+        "images": []
       }
     },
     "juzo-juzo-move-ag": {
@@ -394,7 +392,9 @@
       "Beige": {
         "name": "Beige",
         "hex": "#fde1bf",
-        "images": []
+        "images": [
+          "assets/products/juzo/imported/juzo-dynamic-cotton-ad/03.webp"
+        ]
       },
       "Black": {
         "name": "Black",
@@ -590,6 +590,51 @@
         "name": "Black",
         "hex": "#000000",
         "images": []
+      }
+    },
+    "juzo-soft-thigh": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#d5c8b2",
+        "images": [
+          "experiences/juzo/assets/products/juzo-1.jpg"
+        ]
+      }
+    },
+    "juzo-soft-tights": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#d5c8b2",
+        "images": [
+          "experiences/juzo/assets/products/juzo-2.jpg"
+        ]
+      }
+    },
+    "juzo-soft-sleeve": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#d5c8b2",
+        "images": [
+          "experiences/juzo/assets/products/juzo-3.jpg"
+        ]
+      }
+    },
+    "juzo-wrap-calf": {
+      "Black/Beige": {
+        "name": "Black/Beige",
+        "hex": "#d5c8b2",
+        "images": [
+          "experiences/juzo/assets/products/juzo-4.jpg"
+        ]
+      }
+    },
+    "juzo-wrap-foot": {
+      "Black/Beige": {
+        "name": "Black/Beige",
+        "hex": "#d5c8b2",
+        "images": [
+          "experiences/juzo/assets/products/juzo-5.jpg"
+        ]
       }
     }
   }

@@ -25,11 +25,11 @@
   if(Array.isArray(ways)&&ways.length)return ways.map(w=>({...palette.colors.find(c=>c.id===w.color),...w,id:w.color}));
   const custom=p.juzoOptions?.find(g=>/color|colour|اللون/i.test(g.labelAr||g.labelEn||''));
   if(custom)return custom.values.filter(name=>String(name).toLowerCase()!=='not color').map(name=>({...palette.colors.find(c=>c.name.toLowerCase()===String(name).toLowerCase()),id:String(name),name:String(name),hex:colorImages[p.id]?.[name]?.hex||({beige:'#f5f5dc',black:'#000000',white:'#ffffff',blue:'#0000ff',grey:'#808080'})[String(name).toLowerCase()]}));
-  return legacy(p)?palette.colors:[];
+  return [];
  }
  function state(p){
   if(!selections.has(p.id)){
-   const s=source(p),choices=colors(p),hasWays=Array.isArray(s.colorways)&&s.colorways.length,first=hasWays?(choices.find(c=>c.default===true)||choices[0]):choices.find(c=>colorImages[p.id]?.[c.id]?.images?.length);
+   const s=source(p),choices=colors(p),hasWays=Array.isArray(s.colorways)&&s.colorways.length,first=hasWays?(choices.find(c=>c.default===true)||choices[0]):(choices.find(c=>colorImages[p.id]?.[c.id]?.images?.includes(p.files?.[0]?.file))||choices.find(c=>colorImages[p.id]?.[c.id]?.images?.length)||choices[0]);
    selections.set(p.id,{colorId:first?.id||'',model:s.category||'',fit:'help',fields:{}});
   }
   return selections.get(p.id);
@@ -65,22 +65,45 @@
  }
 
  function picture(p,st,lazy=true){
-  const f=photo(p,st)||(lazy?referenceGallery(p)[0]:null);
+  const f=photo(p,st);
   const byColour=Boolean(st.colorId);
   return f?.file?`<img src="${e(f.file)}" alt="${e(f.alt)}" ${lazy?'loading="lazy"':''} decoding="async">`:
    `<p class="jz-unavailable" role="status">${byColour?text('الصورة غير متاحة لهذا اللون','Image unavailable for this colour'):text('الصورة غير متاحة','Image unavailable')}</p>`;
  }
  function heading(p){return en()?(p.nameEn||window.OrthoJuzoNames?.[p.id]||legacy(p)?.name||p.name):(p.titleAr||legacy(p)?.title||p.name);}
  function swatches(p,st,compact=false){
-  const list=colors(p),shown=compact?list.slice(0,5):list;
+  const list=colors(p),shown=list;
   return `<div class="jz-swatches ${compact?'jz-swatches-small':''}" ${compact?'aria-hidden="true"':`role="group" aria-label="${e(t('الألوان المتاحة','Available colours'))}"`}>${shown.map(c=>{
    const hex=/^#[a-f0-9]{6}$/i.test(c.hex||'')?c.hex:'';
    return compact?`<span class="jz-swatch" ${hex?`style="--jz-swatch:${hex}"`:''}></span>`:
     `<button type="button" class="jz-swatch ${hex?'':'jz-name-swatch'}" data-jz-color="${e(c.id)}" ${hex?`style="--jz-swatch:${hex}"`:''} aria-pressed="${st.colorId===c.id}" aria-label="${e(c.name||c.id)}" title="${e(c.name||c.id)}">${hex?'':e(c.name||c.id)}</button>`;
   }).join('')}</div>`;
  }
+ function currencyMoney(value){
+  const number=new Intl.NumberFormat(en()?'en-SA':'ar-SA',{maximumFractionDigits:2}).format(value);
+  return `<bdi class="jza-money" dir="ltr"><span class="jza-currency" role="img" aria-label="${e(t('ريال سعودي','Saudi riyal'))}"></span><span>${e(number)}</span></bdi>`;
+ }
+ function priceMarkup(p,includeTax=true){
+  if(p.method!=='buy'||typeof p.price!=='number')return '';
+  const previous=p.regularPrice||(p.salePrice===p.price?p.commerce?.compareAt:null),discount=previous>p.price?Math.round((1-p.price/previous)*100):0;
+  return `<span class="price jza-price">${discount?`<del class="cms-old-price">${currencyMoney(previous)}</del>`:''}<strong class="price-value ${discount?'sale-value':''}">${currencyMoney(p.price)}</strong>${discount?`<span class="sale-badge" data-no-translate>${e(t('خصم '+discount+'%',discount+'% off'))}</span>`:''}${includeTax?`<small data-no-translate>${e(t(p.commerce?.vatIncluded?'شامل الضريبة':'',p.commerce?.vatIncluded?'VAT included':''))}</small>`:''}</span>`;
+ }
+ function enhanceCards(){
+  if(!ctx||!palette)return;
+  document.querySelectorAll('.product-card').forEach(card=>{
+   const href=card.querySelector('a[href^="#product/"]')?.getAttribute('href'),p=ctx.products.find(x=>href==='#product/'+x.id&&x.brand==='Juzo');if(!p)return;
+   const info=card.querySelector('.product-info');if(!info)return;
+   if(!info.querySelector('.jza-card-colours')){const block=document.createElement('div');block.className='jza-card-colours';block.innerHTML=swatches(p,state(p),true);info.querySelector('.card-bottom')?.before(block);}
+   const media=card.querySelector('.product-media'),photoHtml=picture(p,state(p));
+   if(media&&media.dataset.jzaPhoto!==photoHtml){media.innerHTML=photoHtml;media.dataset.jzaPhoto=photoHtml;}
+  });
+ }
+ function loadOptions(){
+  if(!loading)loading=Promise.all([fetch(BASE+'juzo-options.json').then(r=>{if(!r.ok)throw Error('options');return r.json();}),fetch('juzo-color-images.json').then(r=>r.ok?r.json():{products:{}}).catch(()=>({products:{}}))]).then(([data,images])=>{palette=data;colorImages=images.products||{};}).catch(()=>{loading=null;throw Error('options');});
+  return loading;
+ }
  function productCard(p){
-  const st=state(p);return `<article class="jz-card"><button class="jz-heart" data-save="${e(p.id)}" aria-label="${e(t('المفضلة','Wishlist'))}" aria-pressed="${ctx.saved.includes(p.id)}">${ctx.saved.includes(p.id)?'♥':'♡'}</button><a class="jz-card-photo" href="#product/${e(p.id)}">${picture(p,st)}</a><div class="jz-card-copy"><span class="jz-overline" data-no-translate>JUZO</span><a href="#product/${e(p.id)}"><h3 data-no-translate>${e(heading(p))}</h3></a><p data-no-translate>${e(legacy(p)?.name||p.model||groupTitle(p.group)||p.name)}</p>${swatches(p,st,true)}<a class="jz-card-link" href="#product/${e(p.id)}">${text('استعرض المنتج','View product')} <span aria-hidden="true">↗</span></a></div></article>`;
+  const st=state(p);return `<article class="jz-card"><button class="jz-heart" data-save="${e(p.id)}" aria-label="${e(t('المفضلة','Wishlist'))}" aria-pressed="${ctx.saved.includes(p.id)}">${ctx.saved.includes(p.id)?'♥':'♡'}</button><a class="jz-card-photo" href="#product/${e(p.id)}">${picture(p,st)}</a><div class="jz-card-copy"><span class="jz-overline" data-no-translate>JUZO</span><a href="#product/${e(p.id)}"><h3 data-no-translate>${e(heading(p))}</h3></a><p data-no-translate>${e(legacy(p)?.name||p.model||groupTitle(p.group)||p.name)}</p>${swatches(p,st,true)}${priceMarkup(p)}<a class="jz-card-link" href="#product/${e(p.id)}">${text('استعرض المنتج','View product')} <span aria-hidden="true">↗</span></a></div></article>`;
  }
  function crumb(end=''){
   return `<div class="jz-breadcrumb"><a href="#home">${text('الرئيسية','Home')}</a><span>/</span><a href="#brand/juzo" data-no-translate>Juzo</a>${end?`<span>/</span><span data-no-translate>${e(end)}</span>`:''}</div>`;
@@ -169,7 +192,7 @@
   optionGroups.forEach(g=>{if(st.fields[g.labelAr]===undefined)st.fields[g.labelAr]=g.values[0]||'';});
   const models=legacyProduct?all().filter(x=>legacy(x)?.name===s.name):[];
   document.title=heading(p)+' | Juzo · OrthoServ';
-  host.innerHTML=`<section class="jz-store wrap jz-product">${crumb(heading(p))}<div class="jz-detail-grid"><div class="jz-gallery"><div id="jzPhoto" class="jz-product-photo">${picture(p,st,false)}</div><p class="jz-photo-note">${text(Array.isArray(s.colorways)&&s.colorways.length?'الصورة مرتبطة باللون المختار.':'صورة تعريفية للمنتج؛ اختيار عيّنة اللون لا يعيد تلوين الصورة.',Array.isArray(s.colorways)&&s.colorways.length?'The image is linked to the selected colour.':'Product reference image; selecting a colour does not recolour this photograph.')}</p><div class="jz-thumbnails" id="jzThumbnails">${thumbnails(p,st)}</div></div><div class="jz-product-copy"><a href="#brand/juzo"><img class="jz-logo" src="${BASE}assets/juzo-logo.svg" width="147" height="42" alt="Juzo"></a><span class="jz-overline" data-no-translate>${e(legacyProduct?.name||p.model||'JUZO COMPRESSION')}</span><h1 data-no-translate>${e(heading(p))}</h1><p class="jz-description" data-no-translate>${e(description(p))}</p><div class="jz-availability">${text('السعر والتوفر يُؤكّدان مع الفريق','Confirm pricing and availability with our team')}</div>${models.length>1?`<section class="jz-options"><h2>${text('نوع القطعة','Garment model')}</h2><div class="jz-models">${models.map(m=>`<a class="jz-choice ${m.id===p.id?'is-selected':''}" href="#product/${e(m.id)}" ${m.id===p.id?'aria-current="page"':''} data-no-translate>${e(en()?window.OrthoJuzoNames?.[m.id]||legacy(m)?.alt||m.name:legacy(m)?.title||m.titleAr||m.name)}</a>`).join('')}</div></section>`:''}${optionGroups.length?productOptions(p,st,optionGroups):legacyProduct?`<label class="jz-fit-label">${text('اختيار المقاس','Size selection')}<select class="size-select" id="jzFit"><option value="help" ${st.fit==='help'?'selected':''}>${e(t('أحتاج مساعدة في المقاس','I need help choosing my size'))}</option><option value="known" ${st.fit==='known'?'selected':''}>${e(t('لدي مقاس موصوف مسبقًا','I have a prescribed size'))}</option></select></label>`:''}${choices.length?`<section class="jz-options"><h2>${text('اللون','Colour')}: <span id="jzColorName" data-no-translate>${e(color?.name||color?.id||t('اختر اللون لعرض صورته','Choose a colour to see its image'))}</span></h2>${swatches(p,st)}</section>`:''}<button class="jz-size-link" id="jzGuideButton">${text('دليل المقاسات','Sizing guide')} ↗</button><div class="jz-detail-actions"><button class="button" id="jzAddInquiry">${text(p.method==='buy'?'أضف إلى السلة':'أضف إلى طلب عرض السعر',p.method==='buy'?'Add to bag':'Add to quote request')} +</button><button class="jz-heart" data-save="${e(p.id)}" aria-label="${e(t('المفضلة','Wishlist'))}" aria-pressed="${ctx.saved.includes(p.id)}">${ctx.saved.includes(p.id)?'♥':'♡'}</button></div><p class="jz-support-copy">${text('أكد الموديل والمقاس وفئة الضغط مع المختص.','Confirm the model, size and compression class with a specialist.')}</p>${supportCard(p)}<details class="jz-accordion" open><summary>${text('تفاصيل المنتج','Product details')}</summary><p data-no-translate>${e(description(p))}</p></details><details class="jz-accordion" id="jzSizeGuide"><summary>${text('المقاسات والعناية','Sizing & care')}</summary>${window.OrthoJuzoMeasurements?.render(p,heading(p))||''}${legacyProduct?`<a class="jz-chart" href="${path(palette.charts[family(p)]?.file)}" target="_blank" rel="noopener"><img src="${path(palette.charts[family(p)]?.file)}" alt="${e(t('جدول المقاسات الرسمي من جوزو','Official Juzo size chart'))}" loading="lazy"></a>`:ctx.sizeGuide(p)}<p>${text('اتّبع تعليمات الاستخدام والعناية الخاصة بالموديل.','Follow the use and care instructions for your particular garment.')}</p><a href="https://www.juzo.com/en/products/usage-and-care-instructions" target="_blank" rel="noopener">${text('تعليمات جوزو الرسمية','Official Juzo care instructions')} ↗</a></details></div></div><section class="jz-related"><div class="jz-section-head"><h2>${text('اكتشف أيضًا من جوزو','More from Juzo')}</h2><a href="${link('products')}">${text('كل المنتجات','All products')} ←</a></div><div class="jz-product-grid">${all().filter(x=>x.id!==p.id&&legacy(x)).slice(0,3).map(productCard).join('')}</div></section></section>`;
+  host.innerHTML=`<section class="jz-store wrap jz-product">${crumb(heading(p))}<div class="jz-detail-grid"><div class="jz-gallery"><div id="jzPhoto" class="jz-product-photo">${picture(p,st,false)}</div><p class="jz-photo-note">${text(Array.isArray(s.colorways)&&s.colorways.length?'الصورة مرتبطة باللون المختار.':'صورة تعريفية للمنتج؛ اختيار عيّنة اللون لا يعيد تلوين الصورة.',Array.isArray(s.colorways)&&s.colorways.length?'The image is linked to the selected colour.':'Product reference image; selecting a colour does not recolour this photograph.')}</p><div class="jz-thumbnails" id="jzThumbnails">${thumbnails(p,st)}</div></div><div class="jz-product-copy"><a href="#brand/juzo"><img class="jz-logo" src="${BASE}assets/juzo-logo.svg" width="147" height="42" alt="Juzo"></a><span class="jz-overline" data-no-translate>${e(legacyProduct?.name||p.model||'JUZO COMPRESSION')}</span><h1 data-no-translate>${e(heading(p))}</h1><p class="jz-description" data-no-translate>${e(description(p))}</p>${priceMarkup(p)}<div class="jz-availability">${text('أكد توفر المقاس مع الفريق','Confirm size availability with our team')}</div>${models.length>1?`<section class="jz-options"><h2>${text('نوع القطعة','Garment model')}</h2><div class="jz-models">${models.map(m=>`<a class="jz-choice ${m.id===p.id?'is-selected':''}" href="#product/${e(m.id)}" ${m.id===p.id?'aria-current="page"':''} data-no-translate>${e(en()?window.OrthoJuzoNames?.[m.id]||legacy(m)?.alt||m.name:legacy(m)?.title||m.titleAr||m.name)}</a>`).join('')}</div></section>`:''}${optionGroups.length?productOptions(p,st,optionGroups):legacyProduct?`<label class="jz-fit-label">${text('اختيار المقاس','Size selection')}<select class="size-select" id="jzFit"><option value="help" ${st.fit==='help'?'selected':''}>${e(t('أحتاج مساعدة في المقاس','I need help choosing my size'))}</option><option value="known" ${st.fit==='known'?'selected':''}>${e(t('لدي مقاس موصوف مسبقًا','I have a prescribed size'))}</option></select></label>`:''}${choices.length?`<section class="jz-options"><h2>${text('اللون','Colour')}: <span id="jzColorName" data-no-translate>${e(color?.name||color?.id||t('اختر اللون لعرض صورته','Choose a colour to see its image'))}</span></h2>${swatches(p,st)}</section>`:''}<button class="jz-size-link" id="jzGuideButton">${text('دليل المقاسات','Sizing guide')} ↗</button><div class="jz-detail-actions"><button class="button" id="jzAddInquiry">${text(p.method==='buy'?'أضف إلى السلة':'أضف إلى طلب عرض السعر',p.method==='buy'?'Add to bag':'Add to quote request')} +</button><button class="jz-heart" data-save="${e(p.id)}" aria-label="${e(t('المفضلة','Wishlist'))}" aria-pressed="${ctx.saved.includes(p.id)}">${ctx.saved.includes(p.id)?'♥':'♡'}</button></div><p class="jz-support-copy">${text('أكد الموديل والمقاس وفئة الضغط مع المختص.','Confirm the model, size and compression class with a specialist.')}</p>${supportCard(p)}<details class="jz-accordion" open><summary>${text('تفاصيل المنتج','Product details')}</summary><p data-no-translate>${e(description(p))}</p></details><details class="jz-accordion" id="jzSizeGuide"><summary>${text('المقاسات والعناية','Sizing & care')}</summary>${window.OrthoJuzoMeasurements?.render(p,heading(p))||''}${legacyProduct?`<a class="jz-chart" href="${path(palette.charts[family(p)]?.file)}" target="_blank" rel="noopener"><img src="${path(palette.charts[family(p)]?.file)}" alt="${e(t('جدول المقاسات الرسمي من جوزو','Official Juzo size chart'))}" loading="lazy"></a>`:ctx.sizeGuide(p)}<p>${text('اتّبع تعليمات الاستخدام والعناية الخاصة بالموديل.','Follow the use and care instructions for your particular garment.')}</p><a href="https://www.juzo.com/en/products/usage-and-care-instructions" target="_blank" rel="noopener">${text('تعليمات جوزو الرسمية','Official Juzo care instructions')} ↗</a></details></div></div><section class="jz-related"><div class="jz-section-head"><h2>${text('اكتشف أيضًا من جوزو','More from Juzo')}</h2><a href="${link('products')}">${text('كل المنتجات','All products')} ←</a></div><div class="jz-product-grid">${all().filter(x=>x.id!==p.id&&legacy(x)).slice(0,3).map(productCard).join('')}</div></section></section>`;
   window.OrthoJuzoMeasurements?.bind(host);
   host.querySelectorAll('[data-jz-color]').forEach(button=>button.addEventListener('click',()=>{
    st.colorId=button.dataset.jzColor;
@@ -210,16 +233,26 @@
  }
  function fixLinks(){document.querySelectorAll('a[href]').forEach(a=>{const target=canonical(a.getAttribute('href'));if(target){a.href=target;a.removeAttribute('target');}});}
  const api=window.OrthoJuzoStore={
+  price:priceMarkup, money:currencyMoney,
+  mergeProducts(products,experienceProducts){
+   const known=new Set(products.map(p=>p.id)),added=[];
+   for(const p of experienceProducts){
+    const id='juzo-'+p.id;if(known.has(id)||p.visible===false)continue;
+    const title=p.titleAr||p.title||p.name,price=typeof p.price==='number'?p.price:null;
+    added.push({...p,id,name:title,titleAr:title,nameEn:p.nameEn||p.alt||p.name,brand:'Juzo',category:'compression',group:p.category==='arms'?'lymphedema-lipedema__arm-sleeves-gloves':'vein-care',price,method:price===null?'quote':'buy',files:p.image?[{file:path(p.image),width:p.width,height:p.height,role:'product',alt:{ar:title,en:p.alt||p.name}}]:[]});known.add(id);
+   }
+   return [...products,...added];
+  },
   isEnquiry:x=>x?.kind==='juzo-enquiry',
   key:x=>JSON.stringify([x.id,x.colorId||x.color||'',x.option||'',x.fit||'']),
   route(main,view,arg,context){
    const wanted=view==='brand'&&arg==='juzo'||view==='product'&&context.products.some(p=>p.id===arg&&p.brand==='Juzo');
    document.body.classList.toggle('jz-active',wanted);
-   if(!wanted){current=null;return false;}
+   if(!wanted){current=null;ctx=context;loadOptions().then(enhanceCards).catch(()=>{});return false;}
    ctx=context;host=main;
    if(palette)render();else{
     host.innerHTML=`<div class="wrap jz-loading" role="status">${text('جارٍ تحميل جوزو…','Loading Juzo…')}</div>`;
-    if(!loading)loading=Promise.all([fetch(BASE+'juzo-options.json').then(r=>{if(!r.ok)throw Error('options');return r.json();}),fetch('juzo-color-images.json').then(r=>r.ok?r.json():{products:{}}).catch(()=>({products:{}}))]).then(([data,images])=>{palette=data;colorImages=images.products||{};}).catch(()=>{loading=null;throw Error('options');});
+    loadOptions();
     const hash=location.hash;loading.then(()=>{if(location.hash===hash)render();}).catch(()=>{if(location.hash===hash)host.innerHTML=`<div class="wrap jz-empty"><p>${text('تعذّر تحميل خيارات جوزو. حدّث الصفحة للمحاولة مجددًا.','Could not load Juzo options. Refresh to retry.')}</p></div>`;});
    }
    return true;
@@ -239,13 +272,13 @@
    }catch{return cart;}
   },
   renderCart(cart,products,helpers){
-   const rows=cart.filter(api.isEnquiry);if(!rows.length)return false;
+   const rows=cart.filter(api.isEnquiry);if(!rows.length&&!cart.some(x=>products.some(p=>p.id===x.id&&p.brand==='Juzo')))return false;
    const ordinary=cart.filter(x=>!api.isEnquiry(x));
-   const line=(x,i)=>{const p=products.find(p=>p.id===x.id);if(!p)return '';return `<div class="cart-item">${helpers.media(p)}<div><a href="#product/${e(p.id)}" data-close-cart><h3 data-no-translate>${e(p.name)}</h3></a><p data-no-translate>${e(x.option||x.color||'')}</p><div class="cart-item-bottom"><div class="qty"><button data-cart-qty="${i}" data-step="-1" aria-label="${e(t('تقليل الكمية','Decrease quantity'))}">−</button><span>${x.qty}</span><button data-cart-qty="${i}" data-step="1" aria-label="${e(t('زيادة الكمية','Increase quantity'))}">+</button></div><strong>${api.isEnquiry(x)?text('بانتظار عرض السعر','Quote pending'):helpers.money(helpers.lineTotal(p,x,ordinary))}</strong><button class="remove" data-remove="${i}">${text('حذف','Remove')}</button></div></div></div>`;};
+   const line=(x,i)=>{const p=products.find(p=>p.id===x.id);if(!p)return '';return `<div class="cart-item">${helpers.media(p)}<div><a href="#product/${e(p.id)}" data-close-cart><h3 data-no-translate>${e(p.name)}</h3></a><p data-no-translate>${e(x.option||x.color||'')}</p><div class="cart-item-bottom"><div class="qty"><button data-cart-qty="${i}" data-step="-1" aria-label="${e(t('تقليل الكمية','Decrease quantity'))}">−</button><span>${x.qty}</span><button data-cart-qty="${i}" data-step="1" aria-label="${e(t('زيادة الكمية','Increase quantity'))}">+</button></div><strong>${api.isEnquiry(x)?text('بانتظار عرض السعر','Quote pending'):currencyMoney(helpers.lineTotal(p,x,ordinary))}</strong><button class="remove" data-remove="${i}">${text('حذف','Remove')}</button></div></div></div>`;};
    const body=document.querySelector('#cartBody');
-   body.innerHTML=`<div class="jz-bag-note">${text('سلة واحدة لاختياراتك. طلبات عرض السعر منفصلة عن إجمالي المنتجات المسعرة.','One bag for your selections. Quote requests are separate from the priced-product total.')}</div>${cart.map(line).join('')}${ordinary.length?`<div class="cart-total"><strong>${text('إجمالي المنتجات المسعرة','Priced products subtotal')}</strong><strong>${helpers.money(ordinary.reduce((n,x)=>n+helpers.lineTotal(products.find(p=>p.id===x.id),x,ordinary),0))}</strong></div><button class="button wide" id="checkoutBtn">${text('مراجعة المنتجات المسعرة','Review priced products')}</button>`:''}<button class="button ghost wide" id="jzReviewRequest">${text('مراجعة طلب عرض السعر','Review quote request')}</button>`;
+   body.innerHTML=`<div class="jz-bag-note">${text('سلة واحدة لاختياراتك. طلبات عرض السعر منفصلة عن إجمالي المنتجات المسعرة.','One bag for your selections. Quote requests are separate from the priced-product total.')}</div>${cart.map(line).join('')}${ordinary.length?`<div class="cart-total"><strong>${text('إجمالي المنتجات المسعرة','Priced products subtotal')}</strong><strong>${currencyMoney(ordinary.reduce((n,x)=>n+helpers.lineTotal(products.find(p=>p.id===x.id),x,ordinary),0))}</strong></div><button class="button wide" id="checkoutBtn">${text('مراجعة المنتجات المسعرة','Review priced products')}</button>`:''}${rows.length?`<button class="button ghost wide" id="jzReviewRequest">${text('مراجعة طلب عرض السعر','Review quote request')}</button>`:''}`;
    document.querySelector('#checkoutBtn')?.addEventListener('click',helpers.checkout);
-   document.querySelector('#jzReviewRequest').onclick=()=>{
+   if(rows.length)document.querySelector('#jzReviewRequest').onclick=()=>{
     document.querySelector('#cartDialog').close();
     const content=rows.map(x=>{const p=products.find(p=>p.id===x.id);return `${p?.name||x.id} × ${x.qty}\n${x.option||x.color||''}`;}).join('\n\n');
     helpers.openForm(t('طلب عرض سعر جوزو','Juzo quote request'),`<p>${text('راجع اختياراتك قبل إرسالها لفريق أورثو سيرف.','Review your selections before contacting the OrthoServ team.')}</p><pre class="jz-request-text" dir="auto">${e(content)}</pre><div id="jzRequestActions"></div><p class="small">${text('','')}</p>`);
@@ -257,7 +290,7 @@
  };
  // CMS can restore old configured hrefs; normalize them after each normal apply.
  const apply=window.OrthoCMS.apply.bind(window.OrthoCMS);
- window.OrthoCMS.apply=function(...args){const result=apply(...args);fixLinks();return result;};
+ window.OrthoCMS.apply=function(...args){const result=apply(...args);fixLinks();enhanceCards();return result;};
  document.addEventListener('click',event=>{const a=event.target.closest('a[href]');if(!a)return;const hash=canonical(a.href);if(hash){event.preventDefault();location.hash=hash;}});
  document.addEventListener('click',event=>{if(event.target.closest('#languageButton')&&document.body.classList.contains('jz-active'))queueMicrotask(render);});
 })();

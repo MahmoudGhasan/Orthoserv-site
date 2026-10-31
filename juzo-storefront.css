@@ -234,3 +234,11 @@ dialog.jzm-dialog{position:fixed;inset:0;box-sizing:border-box;width:min(760px,c
 .jz-faq-item[open] .jz-faq-mark{transform:rotate(45deg)}
 .jz-faq-answer{padding:0 4px 20px;max-width:78ch;font:inherit;line-height:1.9;text-align:start;overflow-wrap:anywhere}
 @media(prefers-reduced-motion:reduce){.jz-faq-mark{transition:none}}
+
+/* Product-specific Juzo prices and the official Saudi riyal symbol. */
+.jza-money{display:inline-flex;align-items:center;gap:.28em;white-space:nowrap;vertical-align:middle}
+.jza-currency{display:inline-block;flex:none;width:.9em;height:1em;background:currentColor;mask:url("assets/icons/saudi-riyal.svg") center/contain no-repeat;-webkit-mask:url("assets/icons/saudi-riyal.svg") center/contain no-repeat}
+.jza-price{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-block:16px;font-size:20px}
+.jza-price .cms-old-price{font-size:.72em}.jza-price>small{flex-basis:100%;font-size:12px;font-weight:400;line-height:1.6}
+.jz-card-copy>.jza-price{margin-block:12px;font-size:18px}.jza-card-colours{margin-block:8px}
+.product-card .price>.jza-price{font-size:inherit;margin:0}.product-card .price>.jza-price>small+small{display:none}

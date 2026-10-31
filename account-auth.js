@@ -66,6 +66,7 @@
     main.querySelector('#authRefresh').onclick = () => run(() => window.OrthoAuth.refresh());
     if (window.OrthoOrders) window.OrthoOrders.customerPanel(main.querySelector('[data-customer-orders]'),state);
     if (window.OrthoAddresses) window.OrthoAddresses.render(main.querySelector('[data-customer-addresses]'),state);
+    window.OrthoStaffOverview?.customer(main,state);
     if (window.OrthoManagement) window.OrthoManagement.customerTickets(main.querySelector('[data-customer-support]'),state);
   }
   function draw() {

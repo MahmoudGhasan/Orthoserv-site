@@ -81,7 +81,9 @@
   async function verify() { await load(); if (auth.currentUser) return sdk.sendEmailVerification(auth.currentUser); }
   async function refresh() { await load(); if (auth.currentUser) { await sdk.reload(auth.currentUser); await auth.currentUser.getIdToken(true); } }
   async function accountRequest(path, options = {}) {
-    if (!/^\/v1\/(team|profile|addresses(?:\/[a-f0-9-]{36}(?:\/(?:delete|default))?)?|orders(?:\/(?:summary|[a-f0-9-]{36}(?:\/(?:cancel|status|invoice))?))?|tickets(?:\/[a-f0-9-]{36}(?:\/(?:reply|delete))?)?)(?:\?offset=\d+)?$/.test(path)) throw new Error('auth/invalid-path');
+    const reportPath = /^\/v1\/(inquiries|performance)\?from=\d{4}-\d{2}-\d{2}&to=\d{4}-\d{2}-\d{2}&offset=\d+$/.test(path);
+    const staffPath = path === '/v1/staff-overview' || /^\/v1\/notifications\?since=\d+$/.test(path);
+    if (!reportPath && !staffPath && !/^\/v1\/(team|profile|addresses(?:\/[a-f0-9-]{36}(?:\/(?:delete|default))?)?|orders(?:\/(?:summary|[a-f0-9-]{36}(?:\/(?:cancel|status|invoice))?))?|tickets(?:\/[a-f0-9-]{36}(?:\/(?:reply|delete))?)?)(?:\?offset=\d+)?$/.test(path)) throw new Error('auth/invalid-path');
     await load();
     const user=auth.currentUser;
     if (!user || !session.user || session.user.uid!==user.uid) throw new Error('auth/profile-unavailable');

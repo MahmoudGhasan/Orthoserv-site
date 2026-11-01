@@ -620,16 +620,6 @@
       "route": "#home",
       "device": "mobile",
       "hidden": true
-    },
-    {
-      "key": "#jzHeroCarousel>div:1>div:2>img:1",
-      "route": "#brand",
-      "device": "desktop",
-      "width": "1363px",
-      "height": "545px",
-      "maxWidth": "none",
-      "moveX": "41px",
-      "moveY": "-1px"
     }
   ],
   "widgets": [

@@ -287,8 +287,8 @@
     },
     {
       "original": "احجز عرضًا للجهاز",
-      "ar": "اطلب عالم الجهاز",
-      "en": "Request a product presentationnstration"
+      "ar": "احجز تجربة الجهاز",
+      "en": "Book a device demonstration"
     },
     {
       "original": "عرض الجهاز",
@@ -297,8 +297,8 @@
     },
     {
       "original": "طلب عرض للجهاز",
-      "ar": "طلب عالم الجهاز",
-      "en": "Request a product presentationnstration"
+      "ar": "طلب تجربة الجهاز",
+      "en": "Request a device demonstration"
     },
     {
       "original": "راجع تفاصيل عرض الجهاز.",
@@ -2907,23 +2907,23 @@
     },
     {
       "original": "احجز عرضًا للجهاز ↗",
-      "ar": "اطلب عالم الجهاز ↗",
-      "en": "Request a product presentationnstration ↗"
+      "ar": "احجز تجربة الجهاز ↗",
+      "en": "Book a device demonstration ↗"
     },
     {
       "original": "احجز عرضًا للجهاز ←",
-      "ar": "اطلب عالم الجهاز ←",
-      "en": "Request a product presentationnstration ←"
+      "ar": "احجز تجربة الجهاز ←",
+      "en": "Book a device demonstration ←"
     },
     {
       "original": "طلب عرض للجهاز ↗",
-      "ar": "طلب عالم الجهاز ↗",
-      "en": "Request a product presentationnstration ↗"
+      "ar": "طلب تجربة الجهاز ↗",
+      "en": "Request a device demonstration ↗"
     },
     {
       "original": "طلب عرض للجهاز ←",
-      "ar": "طلب عالم الجهاز ←",
-      "en": "Request a product presentationnstration ←"
+      "ar": "طلب تجربة الجهاز ←",
+      "en": "Request a device demonstration ←"
     },
     {
       "original": "عرض حضوري — حسب التوفر ↗",

@@ -909,48 +909,88 @@
       "method": "buy",
       "files": [
         {
-          "file": "assets/products/rehab/game-ready-grpro21-angle.webp",
+          "file": "assets/products/rehab/grpro21-official/grpro21-cu-angle.jpg",
           "width": 1440,
           "height": 1440,
           "role": "product",
           "alt": {
-            "ar": "جهاز جيم ريدي المحمول GRPro 2.1، لقطة أمامية جانبية",
-            "en": "Game Ready GRPro 2.1 portable unit, three-quarter front view"
+            "ar": "Game Ready GRPro 2.1 — الجهاز كاملًا بزاوية جانبية",
+            "en": "Game Ready GRPro 2.1 — Full unit angled view"
           },
-          "legal": "DEMO ONLY: replace with brand-approved asset",
-          "source_page": "https://gameready.com/shop/gr-pro-cold-therapy-unit/",
-          "source_image_url": "https://gameready.com/wp-content/uploads/2026/08/grpro21-cu-angle.jpg",
-          "source_archive": null
+          "source": "https://gameready.com/wp-content/uploads/2026/08/grpro21-cu-angle.jpg",
+          "sourcePage": "https://gameready.com/shop/gr-pro-cold-therapy-unit/"
         },
         {
-          "file": "assets/products/rehab/game-ready-portable-01-unit.webp",
-          "width": 320,
-          "height": 320,
+          "file": "assets/products/rehab/grpro21-official/grpro21-cu-top.jpg",
+          "width": 1440,
+          "height": 1440,
           "role": "product",
           "alt": {
-            "en": "Game Ready GRPro 2.1, front view",
-            "ar": "Game Ready GRPro 2.1، لقطة أمامية"
-          }
+            "ar": "Game Ready GRPro 2.1 — المنظر العلوي",
+            "en": "Game Ready GRPro 2.1 — Top view"
+          },
+          "source": "https://gameready.com/wp-content/uploads/2026/08/grpro21-cu-top.jpg",
+          "sourcePage": "https://gameready.com/shop/gr-pro-cold-therapy-unit/"
         },
         {
-          "file": "assets/products/rehab/game-ready-portable-02-with-wrap.webp",
-          "width": 447,
-          "height": 320,
+          "file": "assets/products/rehab/grpro21-official/grpro21-cu-how-to-1.jpg",
+          "width": 1440,
+          "height": 1440,
           "role": "product",
           "alt": {
-            "en": "Game Ready GRPro 2.1, unit with wrap",
-            "ar": "Game Ready GRPro 2.1، الجهاز مع اللفافة"
-          }
+            "ar": "Game Ready GRPro 2.1 — تفاصيل استخدام الجهاز",
+            "en": "Game Ready GRPro 2.1 — Operation details"
+          },
+          "source": "https://gameready.com/wp-content/uploads/2026/08/grpro21-cu-how-to-1.jpg",
+          "sourcePage": "https://gameready.com/shop/gr-pro-cold-therapy-unit/"
         },
         {
-          "file": "assets/products/rehab/game-ready-portable-03-ice-fill.webp",
-          "width": 608,
-          "height": 592,
-          "role": "feature",
+          "file": "assets/products/rehab/grpro21-official/grpro21-cu-w-wrap-and-bag.jpg",
+          "width": 1440,
+          "height": 1440,
+          "role": "product",
           "alt": {
-            "en": "Game Ready GRPro 2.1, adding ice, feature view",
-            "ar": "Game Ready GRPro 2.1، إضافة الثلج، لقطة توضيحية"
-          }
+            "ar": "Game Ready GRPro 2.1 — الجهاز مع اللفافة وحقيبة الحمل",
+            "en": "Game Ready GRPro 2.1 — Unit with wrap and carry bag"
+          },
+          "source": "https://gameready.com/wp-content/uploads/2026/08/grpro21-cu-w-wrap-and-bag.jpg",
+          "sourcePage": "https://gameready.com/shop/gr-pro-cold-therapy-unit/"
+        },
+        {
+          "file": "assets/products/rehab/grpro21-official/grpro21-cu-w-wrap.jpg",
+          "width": 1440,
+          "height": 1440,
+          "role": "product",
+          "alt": {
+            "ar": "Game Ready GRPro 2.1 — الجهاز مع اللفافة",
+            "en": "Game Ready GRPro 2.1 — Unit with wrap"
+          },
+          "source": "https://gameready.com/wp-content/uploads/2026/08/grpro21-cu-w-wrap.jpg",
+          "sourcePage": "https://gameready.com/shop/gr-pro-cold-therapy-unit/"
+        },
+        {
+          "file": "assets/products/rehab/grpro21-official/gr-connector-hose-single.jpg",
+          "width": 1440,
+          "height": 1440,
+          "role": "product",
+          "alt": {
+            "ar": "Game Ready GRPro 2.1 — خرطوم التوصيل",
+            "en": "Game Ready GRPro 2.1 — Connector hose"
+          },
+          "source": "https://gameready.com/wp-content/uploads/2026/08/gr-connector-hose-single.jpg",
+          "sourcePage": "https://gameready.com/shop/gr-pro-cold-therapy-unit/"
+        },
+        {
+          "file": "assets/products/rehab/grpro21-official/gr-carry-bag-1.jpg",
+          "width": 1440,
+          "height": 1440,
+          "role": "product",
+          "alt": {
+            "ar": "Game Ready GRPro 2.1 — حقيبة الحمل",
+            "en": "Game Ready GRPro 2.1 — Carry bag"
+          },
+          "source": "https://gameready.com/wp-content/uploads/2026/08/gr-carry-bag-1.jpg",
+          "sourcePage": "https://gameready.com/shop/gr-pro-cold-therapy-unit/"
         }
       ],
       "source": {
@@ -1151,14 +1191,64 @@
       "method": "quote",
       "files": [
         {
-          "file": "assets/products/rehab/game-ready-med4-elite.webp",
-          "width": 1165,
-          "height": 1043,
+          "file": "assets/products/rehab/med4-official/med4-elite-cu-angle.jpg",
+          "width": 1440,
+          "height": 1440,
           "role": "product",
           "alt": {
-            "en": "Game Ready MED4 Elite, full device studio view",
-            "ar": "جهاز جيم ريدي MED4 Elite، لقطة استوديو للجهاز كاملًا"
-          }
+            "ar": "Game Ready MED4 Elite — الجهاز كاملًا بزاوية جانبية",
+            "en": "Game Ready MED4 Elite — Full unit angled view"
+          },
+          "source": "https://gameready.com/wp-content/uploads/2026/08/med4-elite-cu-angle.jpg",
+          "sourcePage": "https://gameready.com/shop/med-4-elite-contrast-therapy-unit/"
+        },
+        {
+          "file": "assets/products/rehab/med4-official/med4-elite-cu-front.jpg",
+          "width": 1440,
+          "height": 1440,
+          "role": "product",
+          "alt": {
+            "ar": "Game Ready MED4 Elite — الواجهة الأمامية",
+            "en": "Game Ready MED4 Elite — Front view"
+          },
+          "source": "https://gameready.com/wp-content/uploads/2026/08/med4-elite-cu-front.jpg",
+          "sourcePage": "https://gameready.com/shop/med-4-elite-contrast-therapy-unit/"
+        },
+        {
+          "file": "assets/products/rehab/med4-official/med4-elite-cu-screen.jpg",
+          "width": 1440,
+          "height": 1440,
+          "role": "product",
+          "alt": {
+            "ar": "Game Ready MED4 Elite — شاشة التحكم",
+            "en": "Game Ready MED4 Elite — Control screen"
+          },
+          "source": "https://gameready.com/wp-content/uploads/2026/08/med4-elite-cu-screen.jpg",
+          "sourcePage": "https://gameready.com/shop/med-4-elite-contrast-therapy-unit/"
+        },
+        {
+          "file": "assets/products/rehab/med4-official/med4-elite-cu-side.jpg",
+          "width": 1440,
+          "height": 1440,
+          "role": "product",
+          "alt": {
+            "ar": "Game Ready MED4 Elite — المنظر الجانبي",
+            "en": "Game Ready MED4 Elite — Side view"
+          },
+          "source": "https://gameready.com/wp-content/uploads/2026/08/med4-elite-cu-side.jpg",
+          "sourcePage": "https://gameready.com/shop/med-4-elite-contrast-therapy-unit/"
+        },
+        {
+          "file": "assets/products/rehab/med4-official/med4-elite-cu-wheel.jpg",
+          "width": 1440,
+          "height": 1440,
+          "role": "product",
+          "alt": {
+            "ar": "Game Ready MED4 Elite — عجلات الجهاز",
+            "en": "Game Ready MED4 Elite — Wheels"
+          },
+          "source": "https://gameready.com/wp-content/uploads/2026/08/med4-elite-cu-wheel.jpg",
+          "sourcePage": "https://gameready.com/shop/med-4-elite-contrast-therapy-unit/"
         }
       ],
       "source": {

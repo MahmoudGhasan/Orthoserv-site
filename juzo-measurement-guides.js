@@ -101,6 +101,12 @@
  function bind(host){
   const section=host.querySelector('[data-jzm-product]');if(!section)return;
   const id=section.dataset.jzmProduct,guide=guides[id],type=types[id],trigger=section.querySelector('[data-jzm-open]'),dialog=section.querySelector('dialog'),body=dialog.querySelector('[data-jzm-body]');
+  const gallery=host.querySelector('.jz-gallery');
+  if(gallery){
+   gallery.prepend(section);trigger.classList.add('jzm-float-button');
+   trigger.setAttribute('aria-label',label('كيف تقيس هذا المنتج؟','How to measure this garment'));
+   trigger.innerHTML=`<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 15 12-12 6 6L9 21 3 15Z"/><path d="m13 5 3 3M10 8l2 2M7 11l3 3M4 14l2 2"/></svg><span>${label('دليل القياس','Size guide')}</span>`;
+  }
   const steps=stepsFor({id}),name=dialog.querySelector('header p').textContent;
   const uid=owner(),key=uid+'|'+id;
   dialog.dataset.owner=uid;

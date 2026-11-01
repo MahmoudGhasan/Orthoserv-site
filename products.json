@@ -14525,7 +14525,20 @@
         "المقاس: XL",
         "المقاس: XXL"
       ],
-      "files": [],
+      "files": [
+        {
+          "file": "assets/products/juzo/official/scarprime-direct-ft-women.jpg",
+          "width": 367,
+          "height": 547,
+          "role": "product",
+          "alt": {
+            "ar": "سروال بيرمودا Juzo ScarPrime Direct FT للنساء — بيج",
+            "en": "Juzo ScarPrime Direct women’s Bermuda shorts — Beige"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/f/e/9/8/fe9855c30672b5f324effd71d62e07dbaebf2ea3/juzo-scarprime-direct-cycling-shorts-women.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/scar-therapy/juzo-scarprime-direct"
+        }
+      ],
       "usage": "صورة بديلة بهوية أورثو سيرف؛ ليست صورة المنتج الفعلية.",
       "visible": true,
       "sortOrder": 15,
@@ -14867,6 +14880,7 @@
           "key": "color",
           "labelAr": "اللون",
           "values": [
+            "Beige",
             "Black"
           ]
         },

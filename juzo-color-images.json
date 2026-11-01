@@ -53,10 +53,19 @@
       }
     },
     "juzo-juzo-scarprime-direct-ft-3016-women": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#d7bf9f",
+        "images": [
+          "assets/products/juzo/official/scarprime-direct-ft-women.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en/products/compression-garments/scar-therapy/juzo-scarprime-direct"
+      },
       "Black": {
         "name": "Black",
         "hex": "#000000",
-        "images": []
+        "images": [],
+        "sourcePage": "https://www.juzo.com/en/products/compression-garments/scar-therapy/juzo-scarprime-direct"
       }
     },
     "juzo-juzo-scarprime-direct-bt-3016-women": {

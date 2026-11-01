@@ -453,8 +453,9 @@
         "name": "Black",
         "hex": "#000000",
         "images": [
-          "assets/products/juzo/imported/juzo-acs-light-j705li-hand-wrap/01.webp"
-        ]
+          "assets/products/juzo/official/acs-light/juzo-acs-light-hand-finger.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-acs-light"
       }
     },
     "juzo-juzo-acs-light-j706li-arm-wrap": {
@@ -467,8 +468,9 @@
         "name": "Black",
         "hex": "#000000",
         "images": [
-          "assets/products/juzo/imported/juzo-acs-light-j706li-arm-wrap/01.webp"
-        ]
+          "assets/products/juzo/official/acs-light/juzo-acs-light-arm-hand.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-acs-light"
       }
     },
     "juzo-juzo-acs-light-j704li-thigh-wrap": {
@@ -481,8 +483,9 @@
         "name": "Black",
         "hex": "#000000",
         "images": [
-          "assets/products/juzo/imported/juzo-acs-light-j704li-thigh-wrap/01.webp"
-        ]
+          "assets/products/juzo/official/acs-light/juzo-acs-light-oberschenkel.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-acs-light"
       }
     },
     "juzo-juzo-acs-light-j703li-knee-wrap": {
@@ -495,8 +498,9 @@
         "name": "Black",
         "hex": "#000000",
         "images": [
-          "assets/products/juzo/imported/juzo-acs-light-j703li-knee-wrap/01.webp"
-        ]
+          "assets/products/juzo/official/acs-light/juzo-acs-light-knie.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-acs-light"
       }
     },
     "juzo-juzo-dynamic-cg": {
@@ -525,8 +529,9 @@
         "name": "Black",
         "hex": "#000000",
         "images": [
-          "assets/products/juzo/imported/juzo-acs-light-j702li-calf-wrap/01.webp"
-        ]
+          "assets/products/juzo/official/acs-light/juzo-acs-light-calf.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-acs-light"
       }
     },
     "juzo-juzo-acs-light-j701li-foot-wrap": {
@@ -539,8 +544,9 @@
         "name": "Black",
         "hex": "#000000",
         "images": [
-          "assets/products/juzo/imported/juzo-acs-light-j701li-foot-wrap/01.webp"
-        ]
+          "assets/products/juzo/official/acs-light/juzo-acs-light-fuss.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-acs-light"
       }
     },
     "juzo-juzo-dynamic-above-knee-stump-shrinker": {

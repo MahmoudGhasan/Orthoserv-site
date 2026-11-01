@@ -11685,6 +11685,18 @@
       ],
       "files": [
         {
+          "file": "assets/products/juzo/official/acs-light/juzo-acs-light-pelotten-400x300.jpg",
+          "width": 400,
+          "height": 300,
+          "role": "product",
+          "alt": {
+            "ar": "وسادة ضغط Juzo ACS Light J714 — صورة جوزو الرسمية",
+            "en": "Juzo ACS Light J714 compression pads — Official Juzo photograph"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/4/6/a/a/46aac8a2ebe6a17ae2d444a8987cf9822803e575/juzo-acs-light-pelotten-400x300.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-acs-light"
+        },
+        {
           "file": "assets/products/juzo/imported/juzo-acs-light-j714-pads/01.webp",
           "width": 920,
           "height": 1072,
@@ -11761,6 +11773,18 @@
         "المقاس: 2"
       ],
       "files": [
+        {
+          "file": "assets/products/juzo/official/acs-light/juzo-acs-light-zusatzt-band-400x300.jpg",
+          "width": 400,
+          "height": 300,
+          "role": "product",
+          "alt": {
+            "ar": "شريط تمديد للفائف الضغط Juzo ACS Light J712 — صورة جوزو الرسمية",
+            "en": "Juzo ACS Light J712 extension band — Official Juzo photograph"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/8/5/e/0/85e0cd5edb6c3c48c0d657d7f40ffa6abeba1929/juzo-acs-light-zusatzt-band-400x300.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-acs-light"
+        },
         {
           "file": "assets/products/juzo/imported/juzo-acs-light-j712-midline-band/01.webp",
           "width": 920,
@@ -31352,6 +31376,18 @@
       ],
       "files": [
         {
+          "file": "assets/products/juzo/official/acs-light/juzo-acs-light-arm-hand.jpg",
+          "width": 900,
+          "height": 1150,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة ضغط قابلة للضبط لـالذراع Juzo ACS Light J706LI — صورة جوزو الرسمية",
+            "en": "Juzo ACS Light J706LI adjustable arm wrap — Official Juzo photograph"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/e/4/d/4/e4d43f8dfae13b610fe77d09115594fd343ff22e/juzo-acs-light-arm-hand.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-acs-light"
+        },
+        {
           "file": "assets/products/juzo/imported/juzo-acs-light-j706li-arm-wrap/01.webp",
           "width": 920,
           "height": 1072,
@@ -31720,6 +31756,18 @@
       ],
       "files": [
         {
+          "file": "assets/products/juzo/official/acs-light/juzo-acs-light-hand-finger.jpg",
+          "width": 400,
+          "height": 500,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة ضغط قابلة للضبط لـاليد Juzo ACS Light J705LI — صورة جوزو الرسمية",
+            "en": "Juzo ACS Light J705LI adjustable hand wrap — Official Juzo photograph"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/7/2/0/5/7205858a16858c82be85a8d0ea10895d78e7cfbe/juzo-acs-light-hand-finger.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-acs-light"
+        },
+        {
           "file": "assets/products/juzo/imported/juzo-acs-light-j705li-hand-wrap/01.webp",
           "width": 920,
           "height": 1072,
@@ -31857,6 +31905,18 @@
         "الطول: NORMAL"
       ],
       "files": [
+        {
+          "file": "assets/products/juzo/official/acs-light/juzo-acs-light-oberschenkel.jpg",
+          "width": 900,
+          "height": 1150,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة ضغط قابلة للضبط لـالفخذ Juzo ACS Light J704LI — صورة جوزو الرسمية",
+            "en": "Juzo ACS Light J704LI adjustable thigh wrap — Official Juzo photograph"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/3/4/6/c/346c5e5b77fbd7aab552d7e983d672049f237f27/juzo-acs-light-oberschenkel.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-acs-light"
+        },
         {
           "file": "assets/products/juzo/imported/juzo-acs-light-j704li-thigh-wrap/01.webp",
           "width": 920,
@@ -32171,6 +32231,18 @@
       ],
       "files": [
         {
+          "file": "assets/products/juzo/official/acs-light/juzo-acs-light-knie.jpg",
+          "width": 900,
+          "height": 1150,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة ضغط قابلة للضبط لـالركبة Juzo ACS Light J703LI — صورة جوزو الرسمية",
+            "en": "Juzo ACS Light J703LI adjustable knee wrap — Official Juzo photograph"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/b/6/f/8/b6f8a9a0fb950b45868e2a3a8a8d94ab6acf2882/juzo-acs-light-knie.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-acs-light"
+        },
+        {
           "file": "assets/products/juzo/imported/juzo-acs-light-j703li-knee-wrap/01.webp",
           "width": 920,
           "height": 1072,
@@ -32385,6 +32457,18 @@
         "الجهة: right"
       ],
       "files": [
+        {
+          "file": "assets/products/juzo/official/acs-light/juzo-acs-light-calf.jpg",
+          "width": 900,
+          "height": 1150,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة ضغط قابلة للضبط لـالساق Juzo ACS Light J702LI — صورة جوزو الرسمية",
+            "en": "Juzo ACS Light J702LI adjustable calf wrap — Official Juzo photograph"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/a/2/b/a/a2baed07d4b57b7dce4d972cd5cf38146ba9d146/juzo-acs-light-calf.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-acs-light"
+        },
         {
           "file": "assets/products/juzo/imported/juzo-acs-light-j702li-calf-wrap/01.webp",
           "width": 920,
@@ -32700,6 +32784,18 @@
         "الطول: NORMAL"
       ],
       "files": [
+        {
+          "file": "assets/products/juzo/official/acs-light/juzo-acs-light-fuss.jpg",
+          "width": 900,
+          "height": 1150,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة ضغط قابلة للضبط لـالقدم Juzo ACS Light J701LI — صورة جوزو الرسمية",
+            "en": "Juzo ACS Light J701LI adjustable foot wrap — Official Juzo photograph"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/1/1/0/8/1108e9080ca7f1429ca08415d94aa79a92975a1c/juzo-acs-light-fuss.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/compression-stockings-for-lymphoedema/juzo-acs-light"
+        },
         {
           "file": "assets/products/juzo/imported/juzo-acs-light-j701li-foot-wrap/01.webp",
           "width": 920,

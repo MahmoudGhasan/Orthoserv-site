@@ -104,6 +104,16 @@
   const steps=stepsFor({id}),name=dialog.querySelector('header p').textContent;
   const uid=owner(),key=uid+'|'+id;
   dialog.dataset.owner=uid;
+  host.querySelector('.jzm-saved-hint')?.remove();
+  const showSavedHint=records=>{
+   if(!host.isConnected||owner()!==uid||!records.length)return;
+   host.querySelector('.jzm-saved-hint')?.remove();const copy=host.querySelector('.jz-product-copy');if(!copy)return;
+   const hint=document.createElement('section');hint.className='jzm-saved-record jzm-saved-hint';hint.setAttribute('data-no-translate','');
+   hint.innerHTML=`<strong>${label('عندك مقاسات محفوظة لهذا المنتج','You have saved measurements for this product')}</strong><p>${records.map(r=>escape(sideName(r.side))).join(' · ')}</p><button type="button" class="button secondary">${label('راجع مقاساتي المحفوظة','Review my saved measurements')}</button>`;
+   copy.insertBefore(hint,copy.querySelector('.jz-options')||copy.querySelector('#jzSizeGuide'));
+   hint.querySelector('button').onclick=()=>{const details=host.querySelector('#jzSizeGuide');if(details)details.open=true;trigger.click();};
+  };
+  if(uid!=='guest')window.OrthoAuth.accountRequest('/v1/measurements/'+id).then(r=>showSavedHint(r.records||[])).catch(()=>{});
   if(uid!=='guest'&&handoff?.id===id){drafts.set(key,handoff.saved);handoff=null;}
   const saved=drafts.get(key)||{values:{},side:'',contact:{},position:0};drafts.set(key,saved);
   let index=saved.position,pending=false;
@@ -168,7 +178,7 @@
    if(uid==='guest'||!steps.length)return;
    body.innerHTML=`<p class="jzm-contact" role="status">${label('جارٍ التحقق من مقاساتك المحفوظة…','Checking your saved measurements…')}</p>`;
    try{const response=await window.OrthoAuth.accountRequest('/v1/measurements/'+id);if(!dialog.open||!dialog.isConnected||owner()!==uid)return;
-    const records=response.records||[];if(!records.length){paint(false);return;}
+    const records=response.records||[];if(!records.length){paint(false);return;}showSavedHint(records);
     body.innerHTML=`<section class="jzm-contact"><h3>${label('عندك مقاسات محفوظة لهذا المنتج','You have saved measurements for this product')}</h3><p>${label('راجع تاريخها والقيم قبل استخدامها؛ يمكن أن يتغيّر القياس مع الوقت.','Review their date and values before using them; measurements can change over time.')}</p>${records.map((r,i)=>`<article class="jzm-saved-record"><h4>${escape(sideName(r.side))}</h4><p>${escape(new Date(r.updatedAt).toLocaleDateString(english()?'en-GB':'ar-SA'))}</p><p>${steps.filter(s=>r.values[s.code]).map(s=>escape(label(s.ar,s.en))+': '+escape(r.values[s.code])+' '+label('سم','cm')).join(' · ')}</p><button type="button" class="button" data-jzm-use="${i}">${label('استخدم هذه المقاسات','Use these measurements')}</button></article>`).join('')}<button type="button" class="button secondary" data-jzm-new>${label('أدخل مقاسات جديدة','Enter new measurements')}</button><p class="jzm-footnote">${label('لن نختار مقاس الشراء تلقائيًا.','A purchase size will not be selected automatically.')}</p></section>`;
     body.querySelectorAll('[data-jzm-use]').forEach(button=>button.onclick=()=>{const record=records[Number(button.dataset.jzmUse)];saved.side=record.side;saved.values={...record.values};index=steps.length+1;paint();});
     body.querySelector('[data-jzm-new]').onclick=()=>{saved.values={};saved.side='';index=0;paint();};

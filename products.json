@@ -17323,43 +17323,23 @@
       ],
       "files": [
         {
-          "file": "assets/products/juzo/imported/juzo-comprima-bolero-arm-sleeves/01.webp",
-          "width": 2146,
-          "height": 2500,
+          "file": "assets/products/juzo/official/modest/bolero-beige.png",
+          "width": 1254,
+          "height": 1254,
           "role": "product",
           "alt": {
-            "ar": "أكمام ضغط بوليرو نسائية Juzo Comprima",
-            "en": "Juzo Comprima bolero arm sleeves"
+            "ar": "أكمام ضغط بوليرو نسائية Juzo Comprima — Beige",
+            "en": "Juzo Comprima bolero arm sleeves — Beige"
           }
         },
         {
-          "file": "assets/products/juzo/imported/juzo-comprima-bolero-arm-sleeves/02.webp",
-          "width": 1431,
-          "height": 1667,
+          "file": "assets/products/juzo/official/modest/bolero-black.png",
+          "width": 1254,
+          "height": 1254,
           "role": "product",
           "alt": {
-            "ar": "أكمام ضغط بوليرو نسائية Juzo Comprima",
-            "en": "Juzo Comprima bolero arm sleeves"
-          }
-        },
-        {
-          "file": "assets/products/juzo/imported/juzo-comprima-bolero-arm-sleeves/03.webp",
-          "width": 1431,
-          "height": 1667,
-          "role": "product",
-          "alt": {
-            "ar": "أكمام ضغط بوليرو نسائية Juzo Comprima",
-            "en": "Juzo Comprima bolero arm sleeves"
-          }
-        },
-        {
-          "file": "assets/products/juzo/imported/juzo-comprima-bolero-arm-sleeves/04.webp",
-          "width": 2146,
-          "height": 2500,
-          "role": "product",
-          "alt": {
-            "ar": "أكمام ضغط بوليرو نسائية Juzo Comprima",
-            "en": "Juzo Comprima bolero arm sleeves"
+            "ar": "أكمام ضغط بوليرو نسائية Juzo Comprima — Black",
+            "en": "Juzo Comprima bolero arm sleeves — Black"
           }
         }
       ],
@@ -34052,28 +34032,24 @@
       "sortOrder": 68,
       "files": [
         {
-          "file": "assets/products/juzo/official/additions/comprima-thorax-beige.jpg",
+          "file": "assets/products/juzo/official/modest/thorax-beige.jpg",
           "width": 367,
           "height": 547,
           "role": "product",
           "alt": {
             "ar": "مشد صدري نسائي Juzo Comprima THK — Beige",
             "en": "Juzo Comprima THK women’s short thorax garment — Beige"
-          },
-          "source": "https://www.juzo.com/_Resources/Persistent/0/2/4/9/02495223cfca794ec66dce0f6aca5396576239b5/4000-juzo-comprima-thorax-damen-beige-1.jpg",
-          "sourcePage": "https://www.juzo.com/en/products/compression-garments/postoperative-follow-up-care/juzo-comprima"
+          }
         },
         {
-          "file": "assets/products/juzo/official/additions/comprima-thorax-black.jpg",
-          "width": 367,
-          "height": 547,
+          "file": "assets/products/juzo/official/modest/thorax-black.png",
+          "width": 1254,
+          "height": 1254,
           "role": "product",
           "alt": {
             "ar": "مشد صدري نسائي Juzo Comprima THK — Black",
             "en": "Juzo Comprima THK women’s short thorax garment — Black"
-          },
-          "source": "https://www.juzo.com/_Resources/Persistent/6/7/9/3/6793d66625be7b1470acfe23885e543233416477/4000-juzo-comprima-thorax-damen-schwarz-1.jpg",
-          "sourcePage": "https://www.juzo.com/en/products/compression-garments/postoperative-follow-up-care/juzo-comprima"
+          }
         }
       ],
       "juzoOptions": [

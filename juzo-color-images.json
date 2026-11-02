@@ -183,14 +183,14 @@
         "name": "Beige",
         "hex": "#fde1bf",
         "images": [
-          "assets/products/juzo/imported/juzo-comprima-bolero-arm-sleeves/01.webp"
+          "assets/products/juzo/official/modest/bolero-beige.png"
         ]
       },
       "Black": {
         "name": "Black",
         "hex": "#000000",
         "images": [
-          "assets/products/juzo/imported/juzo-comprima-bolero-arm-sleeves/04.webp"
+          "assets/products/juzo/official/modest/bolero-black.png"
         ]
       }
     },
@@ -727,7 +727,7 @@
         "name": "Beige",
         "hex": "#d7bf9f",
         "images": [
-          "assets/products/juzo/official/additions/comprima-thorax-beige.jpg"
+          "assets/products/juzo/official/modest/thorax-beige.jpg"
         ],
         "sourcePage": "https://www.juzo.com/en/products/compression-garments/postoperative-follow-up-care/juzo-comprima"
       },
@@ -735,7 +735,7 @@
         "name": "Black",
         "hex": "#000000",
         "images": [
-          "assets/products/juzo/official/additions/comprima-thorax-black.jpg"
+          "assets/products/juzo/official/modest/thorax-black.png"
         ],
         "sourcePage": "https://www.juzo.com/en/products/compression-garments/postoperative-follow-up-care/juzo-comprima"
       }

@@ -174,10 +174,10 @@
   return [color?`${t('اللون','Colour')}: ${color.name||color.id}`:'',...Object.entries(st.fields).filter(([,v])=>v).map(([k,v])=>(en()?(window.OrthoTranslate?.(k)||k):k)+': '+v),
    !(p.juzoOptions||[]).some(g=>g.key==='size')&&st.fit==='known'?t('لدي مقاس موصوف مسبقًا','I have a prescribed size'):!(p.juzoOptions||[]).some(g=>g.key==='size')&&st.fit==='help'?t('أحتاج مساعدة في المقاس','I need sizing assistance'):''].filter(Boolean).join(' · ');
  }
- function description(p){const s=source(p),original=s.description||p.description||'';if(!en())return original;const translated=window.OrthoTranslate?.(original)||original;return /[\u0600-\u06ff]/.test(translated)?'Explore this Juzo garment and confirm the model, sizing and availability with the OrthoServ team before ordering.':translated;}
+ function description(p){if(en()&&p.descriptionEn)return p.descriptionEn;const s=source(p),original=s.description||p.description||'';if(!en())return original;const translated=window.OrthoTranslate?.(original)||original;return /[\u0600-\u06ff]/.test(translated)?'Explore this Juzo garment and confirm the model, sizing and availability with the OrthoServ team before ordering.':translated;}
  function optionLabel(g){return t(g.labelAr,g.labelEn||window.OrthoTranslate?.(g.labelAr)||g.labelAr);}
  function optionValue(g,value){
-  const key=String(value),known={CT:['مغلقة الأصابع','Closed toe'],OT:['مفتوحة الأصابع','Open toe'],left:['اليسار','Left'],right:['اليمين','Right'],'One Size':['مقاس واحد','One size'],Normal:['عادي','Normal'],NORMAL:['عادي','Normal'],Long:['طويل','Long'],Short:['قصير','Short'],Standard:['قياسي','Standard'],Max:['واسع','Max'],'Extra short':['قصير جدًا','Extra short'],LONG:['طويل','Long'],Small:['صغير','Small'],line:['شريطي','Strip'],square:['مربع','Square']};
+  const key=String(value),known={CT:['مغلقة الأصابع','Closed toe'],OT:['مفتوحة الأصابع','Open toe'],left:['اليسار','Left'],right:['اليمين','Right'],'One Size':['مقاس واحد','One size'],Normal:['عادي','Normal'],NORMAL:['عادي','Normal'],Long:['طويل','Long'],Short:['قصير','Short'],Standard:['قياسي','Standard'],Max:['واسع','Max'],'Extra short':['قصير جدًا','Extra short'],LONG:['طويل','Long'],Small:['صغير','Small'],'Made to measure':['حسب الطلب','Made to measure'],'3071 · Mild compression':['3071 · ضغط خفيف','3071 · Mild compression'],'3072 · Moderate compression':['3072 · ضغط متوسط','3072 · Moderate compression'],line:['شريطي','Strip'],square:['مربع','Square']};
   return known[key]?t(...known[key]):key;
  }
  function productOptions(p,st,groups){

@@ -401,7 +401,10 @@
         "juzo-juzo-inspiration-ag",
         "juzo-juzo-inspiration-atu-maternity-compression-tights",
         "juzo-juzo-dynamic-at-closed-crotch",
-        "juzo-juzo-dynamic-at-open-crotch"
+        "juzo-juzo-dynamic-at-open-crotch",
+        "juzo-scarcomfort-pure-thorax-custom",
+        "juzo-scarcomfort-pure-face-custom",
+        "juzo-comprima-thorax-thk-women"
       ]
     },
     {
@@ -413,18 +416,6 @@
       ]
     },
     {
-      "id": "post-surgery__liposuction-garments-men",
-      "parent": "post-surgery",
-      "label": "ملابس شفط الدهون [رجال]",
-      "productIds": []
-    },
-    {
-      "id": "post-surgery__tummy-tuck-garments",
-      "parent": "post-surgery",
-      "label": "مشدات شد البطن",
-      "productIds": []
-    },
-    {
       "id": "post-surgery__lipedema-garments",
       "parent": "post-surgery",
       "label": "ملابس الوذمة الشحمية",
@@ -433,12 +424,6 @@
         "juzo-juzo-dynamic-at-closed-crotch",
         "juzo-juzo-dynamic-at-open-crotch"
       ]
-    },
-    {
-      "id": "post-surgery__abdominal-binders",
-      "parent": "post-surgery",
-      "label": "مشدات البطن",
-      "productIds": []
     },
     {
       "id": "post-surgery__post-partum-recovery",
@@ -452,12 +437,6 @@
       ]
     },
     {
-      "id": "post-surgery__bbl-garments",
-      "parent": "post-surgery",
-      "label": "ملابس BBL",
-      "productIds": []
-    },
-    {
       "id": "post-surgery__lipo-foam",
       "parent": "post-surgery",
       "label": "إسفنج شفط الدهون",
@@ -466,16 +445,12 @@
       ]
     },
     {
-      "id": "post-surgery__bras-breast-stabilizer",
-      "parent": "post-surgery",
-      "label": "حمالات ومثبتات الثدي",
-      "productIds": []
-    },
-    {
       "id": "post-surgery__face-masks-chin-straps",
       "parent": "post-surgery",
       "label": "أقنعة الوجه وأحزمة الذقن",
-      "productIds": []
+      "productIds": [
+        "juzo-scarcomfort-pure-face-custom"
+      ]
     },
     {
       "id": "post-surgery__arm-sleeves",
@@ -490,13 +465,10 @@
       "id": "post-surgery__thorax-corset-women",
       "parent": "post-surgery",
       "label": "مشد صدري [نساء]",
-      "productIds": []
-    },
-    {
-      "id": "post-surgery__thorax-vest-men",
-      "parent": "post-surgery",
-      "label": "سترة صدرية [رجال]",
-      "productIds": []
+      "productIds": [
+        "juzo-scarcomfort-pure-thorax-custom",
+        "juzo-comprima-thorax-thk-women"
+      ]
     },
     {
       "id": "vein-care",
@@ -522,7 +494,9 @@
         "juzo-juzo-acs-light-j701li-foot-wrap",
         "juzo-juzo-dynamic-above-knee-stump-shrinker",
         "juzo-juzo-dynamic-above-knee-stump-shrinker-hip-attachment",
-        "juzo-juzo-dynamic-below-knee-stump-shrinker"
+        "juzo-juzo-dynamic-below-knee-stump-shrinker",
+        "juzo-expert-strong-ad-custom",
+        "juzo-expert-strong-ag-custom"
       ]
     },
     {
@@ -569,7 +543,10 @@
       "id": "vein-care__maximum-support",
       "parent": "vein-care",
       "label": "أقصى دعم",
-      "productIds": []
+      "productIds": [
+        "juzo-expert-strong-ad-custom",
+        "juzo-expert-strong-ag-custom"
+      ]
     },
     {
       "id": "vein-care__stump-shrinkers",
@@ -638,7 +615,9 @@
         "juzo-juzo-classic-seamless-2302-ft-men",
         "juzo-juzo-dynamic-above-knee-stump-shrinker",
         "juzo-juzo-dynamic-above-knee-stump-shrinker-hip-attachment",
-        "juzo-juzo-dynamic-below-knee-stump-shrinker"
+        "juzo-juzo-dynamic-below-knee-stump-shrinker",
+        "juzo-expert-strong-ad-custom",
+        "juzo-expert-strong-ag-custom"
       ]
     },
     {
@@ -663,7 +642,9 @@
         "juzo-juzo-classic-seamless-2302-ft",
         "juzo-juzo-expert-ad",
         "juzo-juzo-move-ag",
-        "juzo-juzo-classic-seamless-zea"
+        "juzo-juzo-classic-seamless-zea",
+        "juzo-expert-strong-ad-custom",
+        "juzo-expert-strong-ag-custom"
       ]
     },
     {
@@ -818,31 +799,51 @@
       "id": "custom-made",
       "parent": null,
       "label": "مصنوع حسب الطلب",
-      "productIds": []
+      "productIds": [
+        "juzo-expert-strong-ad-custom",
+        "juzo-expert-strong-ag-custom",
+        "juzo-soft-ag-custom",
+        "juzo-scarcomfort-pure-cg-custom",
+        "juzo-scarcomfort-pure-thorax-custom",
+        "juzo-scarcomfort-pure-face-custom",
+        "juzo-scarcomfort-fine-paediatric-cg"
+      ]
     },
     {
       "id": "custom-made__lymphedema-lipoedema",
       "parent": "custom-made",
       "label": "ملابس ضغط بنسيج مسطح حسب الطلب",
-      "productIds": []
+      "productIds": [
+        "juzo-expert-strong-ad-custom",
+        "juzo-expert-strong-ag-custom"
+      ]
     },
     {
       "id": "custom-made__burn-scar-care",
       "parent": "custom-made",
       "label": "ملابس ندبات بنسيج مسطح حسب الطلب",
-      "productIds": []
+      "productIds": [
+        "juzo-scarcomfort-pure-cg-custom",
+        "juzo-scarcomfort-pure-thorax-custom",
+        "juzo-scarcomfort-pure-face-custom",
+        "juzo-scarcomfort-fine-paediatric-cg"
+      ]
     },
     {
       "id": "custom-made__paediatric",
       "parent": "custom-made",
       "label": "ملابس ضغط للأطفال",
-      "productIds": []
+      "productIds": [
+        "juzo-scarcomfort-fine-paediatric-cg"
+      ]
     },
     {
       "id": "custom-made__compression-stockings",
       "parent": "custom-made",
       "label": "جوارب محبوكة دائريا حسب الطلب",
-      "productIds": []
+      "productIds": [
+        "juzo-soft-ag-custom"
+      ]
     }
   ],
   "juzoCatalogue": [
@@ -1073,6 +1074,38 @@
     {
       "id": "juzo-juzo-special-detergent",
       "sortOrder": 56
+    },
+    {
+      "id": "juzo-expert-strong-ad-custom",
+      "sortOrder": 61
+    },
+    {
+      "id": "juzo-expert-strong-ag-custom",
+      "sortOrder": 62
+    },
+    {
+      "id": "juzo-soft-ag-custom",
+      "sortOrder": 63
+    },
+    {
+      "id": "juzo-scarcomfort-pure-cg-custom",
+      "sortOrder": 64
+    },
+    {
+      "id": "juzo-scarcomfort-pure-thorax-custom",
+      "sortOrder": 65
+    },
+    {
+      "id": "juzo-scarcomfort-pure-face-custom",
+      "sortOrder": 66
+    },
+    {
+      "id": "juzo-scarcomfort-fine-paediatric-cg",
+      "sortOrder": 67
+    },
+    {
+      "id": "juzo-comprima-thorax-thk-women",
+      "sortOrder": 68
     }
   ],
   "juzoNavigation": [
@@ -1089,20 +1122,6 @@
             "pieceTypes": []
           },
           {
-            "groupId": "post-surgery__liposuction-garments-men",
-            "label": "ملابس شفط الدهون [رجال]",
-            "heading": "نحت الجسم",
-            "pressureClasses": [],
-            "pieceTypes": []
-          },
-          {
-            "groupId": "post-surgery__tummy-tuck-garments",
-            "label": "مشدات شد البطن",
-            "heading": "نحت الجسم",
-            "pressureClasses": [],
-            "pieceTypes": []
-          },
-          {
             "groupId": "post-surgery__lipedema-garments",
             "label": "ملابس الوذمة الشحمية",
             "heading": "نحت الجسم",
@@ -1110,22 +1129,8 @@
             "pieceTypes": []
           },
           {
-            "groupId": "post-surgery__abdominal-binders",
-            "label": "مشدات البطن",
-            "heading": "نحت الجسم",
-            "pressureClasses": [],
-            "pieceTypes": []
-          },
-          {
             "groupId": "post-surgery__post-partum-recovery",
             "label": "التعافي بعد الولادة",
-            "heading": "نحت الجسم",
-            "pressureClasses": [],
-            "pieceTypes": []
-          },
-          {
-            "groupId": "post-surgery__bbl-garments",
-            "label": "ملابس BBL",
             "heading": "نحت الجسم",
             "pressureClasses": [],
             "pieceTypes": []
@@ -1140,22 +1145,8 @@
         ],
         [
           {
-            "groupId": "post-surgery__bras-breast-stabilizer",
-            "label": "حمالات ومثبتات الثدي",
-            "heading": "جراحة الثدي والصدر",
-            "pressureClasses": [],
-            "pieceTypes": []
-          },
-          {
             "groupId": "post-surgery__thorax-corset-women",
             "label": "مشد صدري [نساء]",
-            "heading": "جراحة الثدي والصدر",
-            "pressureClasses": [],
-            "pieceTypes": []
-          },
-          {
-            "groupId": "post-surgery__thorax-vest-men",
-            "label": "سترة صدرية [رجال]",
             "heading": "جراحة الثدي والصدر",
             "pressureClasses": [],
             "pieceTypes": []
@@ -1421,13 +1412,6 @@
           {
             "groupId": "post-surgery__thorax-corset-women",
             "label": "مشد صدري [نساء]",
-            "heading": "جاهز للارتداء",
-            "pressureClasses": [],
-            "pieceTypes": []
-          },
-          {
-            "groupId": "post-surgery__thorax-vest-men",
-            "label": "سترة صدرية [رجال]",
             "heading": "جاهز للارتداء",
             "pressureClasses": [],
             "pieceTypes": []

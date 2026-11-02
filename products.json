@@ -33493,6 +33493,630 @@
       "pieceTypes": [],
       "compressionClasses": [],
       "sourceCatalogue": "healfit-juzo"
+    },
+    {
+      "id": "juzo-expert-strong-ad-custom",
+      "name": "جورب ضغط تحت الركبة Juzo Expert Strong — حسب الطلب",
+      "titleAr": "جورب ضغط تحت الركبة Juzo Expert Strong — حسب الطلب",
+      "nameEn": "Juzo Expert Strong AD made-to-measure knee-high stocking",
+      "brand": "Juzo",
+      "model": "3051–3054 AD",
+      "category": "compression",
+      "group": "vein-care__maximum-support",
+      "description": "جورب بنسيج مسطح قوي، يُفصّل على القياسات لدعم الطرف السفلي. يُختار مستوى الضغط مع المختص.",
+      "descriptionEn": "A firm flat-knit knee-high stocking made to individual measurements. Confirm the prescribed compression class with your fitter.",
+      "price": 500,
+      "salePrice": 350,
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "saleStart": "",
+      "saleEnd": "",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
+      "method": "buy",
+      "availability": "confirm",
+      "visible": true,
+      "sortOrder": 61,
+      "files": [
+        {
+          "file": "assets/products/juzo/official/additions/strong-ad.jpg",
+          "width": 367,
+          "height": 547,
+          "role": "product",
+          "alt": {
+            "ar": "جورب ضغط تحت الركبة Juzo Expert Strong — حسب الطلب — Almond",
+            "en": "Juzo Expert Strong AD made-to-measure knee-high stocking — Almond"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/b/3/1/a/b31ac20332f91b520e113abae4203688446adad5/juzo-expert-gestrickbuendchen-wadenstrumpf.jpg",
+          "sourcePage": "https://www.juzo.com/en-gb/products/compression-garments/compression-therapy/juzo-expert-strong"
+        }
+      ],
+      "juzoOptions": [
+        {
+          "key": "color",
+          "labelAr": "اللون",
+          "values": [
+            "Almond"
+          ]
+        },
+        {
+          "key": "size",
+          "labelAr": "المقاس",
+          "values": [
+            "Made to measure"
+          ]
+        },
+        {
+          "key": "pressure",
+          "labelAr": "فئة الضغط",
+          "values": [
+            "CCL 1",
+            "CCL 2",
+            "CCL 3",
+            "CCL 4"
+          ]
+        }
+      ],
+      "sourceCatalogue": "juzo-official",
+      "sourceUrl": "https://www.juzo.com/en-gb/products/compression-garments/compression-therapy/juzo-expert-strong",
+      "pieceTypes": [],
+      "compressionClasses": [],
+      "sizeGuide": null,
+      "options": [
+        "اللون: Almond",
+        "المقاس: Made to measure",
+        "فئة الضغط: CCL 1",
+        "فئة الضغط: CCL 2",
+        "فئة الضغط: CCL 3",
+        "فئة الضغط: CCL 4"
+      ]
+    },
+    {
+      "id": "juzo-expert-strong-ag-custom",
+      "name": "جورب ضغط حتى الفخذ Juzo Expert Strong — حسب الطلب",
+      "titleAr": "جورب ضغط حتى الفخذ Juzo Expert Strong — حسب الطلب",
+      "nameEn": "Juzo Expert Strong AG made-to-measure thigh-high stocking",
+      "brand": "Juzo",
+      "model": "3051–3054 AG",
+      "category": "compression",
+      "group": "vein-care__maximum-support",
+      "description": "جورب قوي بنسيج مسطح حتى الفخذ، مصنوع حسب القياسات. راجع طول القطعة وفئة الضغط مع المختص.",
+      "descriptionEn": "A firm flat-knit thigh-high stocking made to measure. Review the garment length and compression class with your fitter.",
+      "price": 500,
+      "salePrice": 350,
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "saleStart": "",
+      "saleEnd": "",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
+      "method": "buy",
+      "availability": "confirm",
+      "visible": true,
+      "sortOrder": 62,
+      "files": [
+        {
+          "file": "assets/products/juzo/official/additions/strong-ag.jpg",
+          "width": 367,
+          "height": 547,
+          "role": "product",
+          "alt": {
+            "ar": "جورب ضغط حتى الفخذ Juzo Expert Strong — حسب الطلب — Almond",
+            "en": "Juzo Expert Strong AG made-to-measure thigh-high stocking — Almond"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/2/e/1/6/2e161ed934d2623f2a5fca2862363822275bebdf/lymph-ausfuehrung-ag-strumpf.jpg",
+          "sourcePage": "https://www.juzo.com/en-gb/products/compression-garments/compression-therapy/juzo-expert-strong"
+        }
+      ],
+      "juzoOptions": [
+        {
+          "key": "color",
+          "labelAr": "اللون",
+          "values": [
+            "Almond"
+          ]
+        },
+        {
+          "key": "size",
+          "labelAr": "المقاس",
+          "values": [
+            "Made to measure"
+          ]
+        },
+        {
+          "key": "pressure",
+          "labelAr": "فئة الضغط",
+          "values": [
+            "CCL 1",
+            "CCL 2",
+            "CCL 3",
+            "CCL 4"
+          ]
+        }
+      ],
+      "sourceCatalogue": "juzo-official",
+      "sourceUrl": "https://www.juzo.com/en-gb/products/compression-garments/compression-therapy/juzo-expert-strong",
+      "pieceTypes": [],
+      "compressionClasses": [],
+      "sizeGuide": null,
+      "options": [
+        "اللون: Almond",
+        "المقاس: Made to measure",
+        "فئة الضغط: CCL 1",
+        "فئة الضغط: CCL 2",
+        "فئة الضغط: CCL 3",
+        "فئة الضغط: CCL 4"
+      ]
+    },
+    {
+      "id": "juzo-soft-ag-custom",
+      "name": "جورب ضغط دائري الحياكة Juzo Soft حتى الفخذ — حسب الطلب",
+      "titleAr": "جورب ضغط دائري الحياكة Juzo Soft حتى الفخذ — حسب الطلب",
+      "nameEn": "Juzo Soft made-to-measure circular-knit thigh-high stocking",
+      "brand": "Juzo",
+      "model": "2001 / 2002 AG",
+      "category": "compression",
+      "group": "custom-made__compression-stockings",
+      "description": "جورب Juzo Soft دائري الحياكة بخيار التفصيل حسب القياسات، بطول حتى الفخذ.",
+      "descriptionEn": "Juzo Soft circular-knit thigh-high stocking in a made-to-measure configuration.",
+      "price": 500,
+      "salePrice": 350,
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "saleStart": "",
+      "saleEnd": "",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
+      "method": "buy",
+      "availability": "confirm",
+      "visible": true,
+      "sortOrder": 63,
+      "files": [
+        {
+          "file": "experiences/juzo/assets/products/juzo-1.jpg",
+          "width": 367,
+          "height": 547,
+          "role": "product",
+          "alt": {
+            "ar": "جورب ضغط دائري الحياكة Juzo Soft حتى الفخذ — حسب الطلب — Beige",
+            "en": "Juzo Soft made-to-measure circular-knit thigh-high stocking — Beige"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/0/c/e/b/0cebcc32dbe3237aa25d70d478a834ed410c2327/juzo-soft-oberschenkelstrumpf-hoch.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/venous-therapy/juzo-soft"
+        }
+      ],
+      "juzoOptions": [
+        {
+          "key": "color",
+          "labelAr": "اللون",
+          "values": [
+            "Beige"
+          ]
+        },
+        {
+          "key": "size",
+          "labelAr": "المقاس",
+          "values": [
+            "Made to measure"
+          ]
+        },
+        {
+          "key": "pressure",
+          "labelAr": "فئة الضغط",
+          "values": [
+            "CCL 1",
+            "CCL 2"
+          ]
+        }
+      ],
+      "sourceCatalogue": "juzo-official",
+      "sourceUrl": "https://www.juzo.com/en/products/compression-garments/venous-therapy/juzo-soft",
+      "pieceTypes": [],
+      "compressionClasses": [],
+      "sizeGuide": null,
+      "options": [
+        "اللون: Beige",
+        "المقاس: Made to measure",
+        "فئة الضغط: CCL 1",
+        "فئة الضغط: CCL 2"
+      ]
+    },
+    {
+      "id": "juzo-scarcomfort-pure-cg-custom",
+      "name": "كُمّ ضغط للندبات Juzo ScarComfort Pure — حسب الطلب",
+      "titleAr": "كُمّ ضغط للندبات Juzo ScarComfort Pure — حسب الطلب",
+      "nameEn": "Juzo ScarComfort Pure made-to-measure compression sleeve",
+      "brand": "Juzo",
+      "model": "3071 / 3072 CG",
+      "category": "compression",
+      "group": "custom-made__burn-scar-care",
+      "description": "كُمّ للعناية بالندبات بنسيج متين ومرن، يُفصّل حسب قياسات الذراع.",
+      "descriptionEn": "A durable, flexible scar-care sleeve made to individual arm measurements.",
+      "price": 500,
+      "salePrice": 350,
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "saleStart": "",
+      "saleEnd": "",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
+      "method": "buy",
+      "availability": "confirm",
+      "visible": true,
+      "sortOrder": 64,
+      "files": [
+        {
+          "file": "assets/products/juzo/official/additions/pure-sleeve.jpg",
+          "width": 367,
+          "height": 547,
+          "role": "product",
+          "alt": {
+            "ar": "كُمّ ضغط للندبات Juzo ScarComfort Pure — حسب الطلب — Beige",
+            "en": "Juzo ScarComfort Pure made-to-measure compression sleeve — Beige"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/f/7/9/2/f792aa39dfbc6fbbc5c18eaa91cc69dc00051cf5/juzo-scarcomfort-pure-aermel.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/scar-therapy/juzo-scarcomfort-pure"
+        }
+      ],
+      "juzoOptions": [
+        {
+          "key": "color",
+          "labelAr": "اللون",
+          "values": [
+            "Beige"
+          ]
+        },
+        {
+          "key": "size",
+          "labelAr": "المقاس",
+          "values": [
+            "Made to measure"
+          ]
+        },
+        {
+          "key": "pressure",
+          "labelAr": "مستوى الضغط",
+          "values": [
+            "3071 · Mild compression",
+            "3072 · Moderate compression"
+          ]
+        }
+      ],
+      "sourceCatalogue": "juzo-official",
+      "sourceUrl": "https://www.juzo.com/en/products/compression-garments/scar-therapy/juzo-scarcomfort-pure",
+      "pieceTypes": [],
+      "compressionClasses": [],
+      "sizeGuide": null,
+      "options": [
+        "اللون: Beige",
+        "المقاس: Made to measure",
+        "مستوى الضغط: 3071 · Mild compression",
+        "مستوى الضغط: 3072 · Moderate compression"
+      ]
+    },
+    {
+      "id": "juzo-scarcomfort-pure-thorax-custom",
+      "name": "سترة ضغط صدرية للنساء Juzo ScarComfort Pure — حسب الطلب",
+      "titleAr": "سترة ضغط صدرية للنساء Juzo ScarComfort Pure — حسب الطلب",
+      "nameEn": "Juzo ScarComfort Pure women’s made-to-measure thorax vest",
+      "brand": "Juzo",
+      "model": "3071 / 3072 Thorax",
+      "category": "compression",
+      "group": "post-surgery__thorax-corset-women",
+      "description": "سترة صدرية للعناية بالندبات، بأكمام وتفصيل حسب قياسات الجذع والذراع.",
+      "descriptionEn": "A scar-care thorax vest with sleeves, tailored to torso and arm measurements.",
+      "price": 500,
+      "salePrice": 350,
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "saleStart": "",
+      "saleEnd": "",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
+      "method": "buy",
+      "availability": "confirm",
+      "visible": true,
+      "sortOrder": 65,
+      "files": [
+        {
+          "file": "assets/products/juzo/official/additions/pure-thorax.jpg",
+          "width": 491,
+          "height": 658,
+          "role": "product",
+          "alt": {
+            "ar": "سترة ضغط صدرية للنساء Juzo ScarComfort Pure — حسب الطلب — Beige",
+            "en": "Juzo ScarComfort Pure women’s made-to-measure thorax vest — Beige"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/0/3/d/d/03dd37224cf44b03eb7151296b84f308df1fcc33/juzo-scar-comfort-pure-thorax-mit-kurzem-arm-beige-640x800-491x658.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/scar-therapy/juzo-scarcomfort-pure"
+        }
+      ],
+      "juzoOptions": [
+        {
+          "key": "color",
+          "labelAr": "اللون",
+          "values": [
+            "Beige"
+          ]
+        },
+        {
+          "key": "size",
+          "labelAr": "المقاس",
+          "values": [
+            "Made to measure"
+          ]
+        },
+        {
+          "key": "pressure",
+          "labelAr": "مستوى الضغط",
+          "values": [
+            "3071 · Mild compression",
+            "3072 · Moderate compression"
+          ]
+        }
+      ],
+      "sourceCatalogue": "juzo-official",
+      "sourceUrl": "https://www.juzo.com/en/products/compression-garments/scar-therapy/juzo-scarcomfort-pure",
+      "pieceTypes": [],
+      "compressionClasses": [],
+      "sizeGuide": null,
+      "options": [
+        "اللون: Beige",
+        "المقاس: Made to measure",
+        "مستوى الضغط: 3071 · Mild compression",
+        "مستوى الضغط: 3072 · Moderate compression"
+      ]
+    },
+    {
+      "id": "juzo-scarcomfort-pure-face-custom",
+      "name": "قناع ضغط للرأس والوجه Juzo ScarComfort Pure — حسب الطلب",
+      "titleAr": "قناع ضغط للرأس والوجه Juzo ScarComfort Pure — حسب الطلب",
+      "nameEn": "Juzo ScarComfort Pure made-to-measure head and face garment",
+      "brand": "Juzo",
+      "model": "3071 / 3072 Head",
+      "category": "compression",
+      "group": "post-surgery__face-masks-chin-straps",
+      "description": "قطعة ضغط للرأس والوجه والذقن ضمن مجموعة ScarComfort Pure، تُفصّل حسب القياسات المطلوبة.",
+      "descriptionEn": "A made-to-measure head, face and chin compression garment from the ScarComfort Pure range.",
+      "price": 500,
+      "salePrice": 350,
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "saleStart": "",
+      "saleEnd": "",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
+      "method": "buy",
+      "availability": "confirm",
+      "visible": true,
+      "sortOrder": 66,
+      "files": [
+        {
+          "file": "assets/products/juzo/official/additions/pure-face.jpg",
+          "width": 367,
+          "height": 547,
+          "role": "product",
+          "alt": {
+            "ar": "قناع ضغط للرأس والوجه Juzo ScarComfort Pure — حسب الطلب — Beige",
+            "en": "Juzo ScarComfort Pure made-to-measure head and face garment — Beige"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/c/1/b/2/c1b2c7670ed573d1ee50ba2056e25ec84055553f/juzo-scarcomfort-pure-kopf-und-gesichtsversorgung.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/scar-therapy/juzo-scarcomfort-pure"
+        }
+      ],
+      "juzoOptions": [
+        {
+          "key": "color",
+          "labelAr": "اللون",
+          "values": [
+            "Beige"
+          ]
+        },
+        {
+          "key": "size",
+          "labelAr": "المقاس",
+          "values": [
+            "Made to measure"
+          ]
+        },
+        {
+          "key": "pressure",
+          "labelAr": "مستوى الضغط",
+          "values": [
+            "3071 · Mild compression",
+            "3072 · Moderate compression"
+          ]
+        }
+      ],
+      "sourceCatalogue": "juzo-official",
+      "sourceUrl": "https://www.juzo.com/en/products/compression-garments/scar-therapy/juzo-scarcomfort-pure",
+      "pieceTypes": [],
+      "compressionClasses": [],
+      "sizeGuide": null,
+      "options": [
+        "اللون: Beige",
+        "المقاس: Made to measure",
+        "مستوى الضغط: 3071 · Mild compression",
+        "مستوى الضغط: 3072 · Moderate compression"
+      ]
+    },
+    {
+      "id": "juzo-scarcomfort-fine-paediatric-cg",
+      "name": "كُمّ ضغط للندبات للأطفال Juzo ScarComfort Fine — حسب الطلب",
+      "titleAr": "كُمّ ضغط للندبات للأطفال Juzo ScarComfort Fine — حسب الطلب",
+      "nameEn": "Juzo ScarComfort Fine paediatric made-to-measure sleeve",
+      "brand": "Juzo",
+      "model": "3011 CG",
+      "category": "compression",
+      "group": "custom-made__paediatric",
+      "description": "كُمّ ناعم للعناية بالندبات للأطفال، بتفصيل على قياسات الذراع. صورة جوزو الرسمية تُظهر خيار زخرفة Julius.",
+      "descriptionEn": "A soft made-to-measure scar-care sleeve for children. The official Juzo photograph illustrates a Julius motif.",
+      "price": 500,
+      "salePrice": 350,
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "saleStart": "",
+      "saleEnd": "",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
+      "method": "buy",
+      "availability": "confirm",
+      "visible": true,
+      "sortOrder": 67,
+      "files": [
+        {
+          "file": "assets/products/juzo/official/additions/fine-child-sleeve.jpg",
+          "width": 1250,
+          "height": 1667,
+          "role": "product",
+          "alt": {
+            "ar": "كُمّ ضغط للندبات للأطفال Juzo ScarComfort Fine — حسب الطلب — Mint",
+            "en": "Juzo ScarComfort Fine paediatric made-to-measure sleeve — Mint"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/8/9/3/8/8938f4512976a9cd77d73e6c5d5ca7c2cae08931/lifestyle-juzo-scarcomfort-fine-cg-mint-kind-julius-quer-1250x1667.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/scar-therapy/juzo-scarcomfort-fine"
+        }
+      ],
+      "juzoOptions": [
+        {
+          "key": "color",
+          "labelAr": "اللون",
+          "values": [
+            "Mint"
+          ]
+        },
+        {
+          "key": "size",
+          "labelAr": "المقاس",
+          "values": [
+            "Made to measure"
+          ]
+        }
+      ],
+      "sourceCatalogue": "juzo-official",
+      "sourceUrl": "https://www.juzo.com/en/products/compression-garments/scar-therapy/juzo-scarcomfort-fine",
+      "pieceTypes": [],
+      "compressionClasses": [],
+      "sizeGuide": null,
+      "options": [
+        "اللون: Mint",
+        "المقاس: Made to measure"
+      ]
+    },
+    {
+      "id": "juzo-comprima-thorax-thk-women",
+      "name": "مشد صدري نسائي Juzo Comprima THK",
+      "titleAr": "مشد صدري نسائي Juzo Comprima THK",
+      "nameEn": "Juzo Comprima THK women’s short thorax garment",
+      "brand": "Juzo",
+      "model": "4000 THK",
+      "category": "compression",
+      "group": "post-surgery__thorax-corset-women",
+      "description": "قطعة صدرية قصيرة للنساء من Comprima، بإغلاق أمامي قابل للضبط وحافة تثبيت عند الخصر للعناية بعد الجراحة.",
+      "descriptionEn": "A women’s short Comprima thorax garment with an adjustable front fastening and a securing waistband for postoperative care.",
+      "price": 500,
+      "salePrice": 350,
+      "priceSource": "user-catalogue",
+      "priceUnit": "شامل الضريبة",
+      "saleStart": "",
+      "saleEnd": "",
+      "commerce": {
+        "compareAt": 500,
+        "vatIncluded": true,
+        "quoteEnabled": false
+      },
+      "method": "buy",
+      "availability": "confirm",
+      "visible": true,
+      "sortOrder": 68,
+      "files": [
+        {
+          "file": "assets/products/juzo/official/additions/comprima-thorax-beige.jpg",
+          "width": 367,
+          "height": 547,
+          "role": "product",
+          "alt": {
+            "ar": "مشد صدري نسائي Juzo Comprima THK — Beige",
+            "en": "Juzo Comprima THK women’s short thorax garment — Beige"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/0/2/4/9/02495223cfca794ec66dce0f6aca5396576239b5/4000-juzo-comprima-thorax-damen-beige-1.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/postoperative-follow-up-care/juzo-comprima"
+        },
+        {
+          "file": "assets/products/juzo/official/additions/comprima-thorax-black.jpg",
+          "width": 367,
+          "height": 547,
+          "role": "product",
+          "alt": {
+            "ar": "مشد صدري نسائي Juzo Comprima THK — Black",
+            "en": "Juzo Comprima THK women’s short thorax garment — Black"
+          },
+          "source": "https://www.juzo.com/_Resources/Persistent/6/7/9/3/6793d66625be7b1470acfe23885e543233416477/4000-juzo-comprima-thorax-damen-schwarz-1.jpg",
+          "sourcePage": "https://www.juzo.com/en/products/compression-garments/postoperative-follow-up-care/juzo-comprima"
+        }
+      ],
+      "juzoOptions": [
+        {
+          "key": "color",
+          "labelAr": "اللون",
+          "values": [
+            "Beige",
+            "Black"
+          ]
+        },
+        {
+          "key": "size",
+          "labelAr": "المقاس",
+          "values": [
+            "0 / XXS",
+            "1 / XS",
+            "2 / S",
+            "3 / M",
+            "4 / L",
+            "5 / XL",
+            "6 / XXL",
+            "7 / XXXL"
+          ]
+        }
+      ],
+      "sourceCatalogue": "juzo-official",
+      "sourceUrl": "https://www.juzo.com/en/products/compression-garments/postoperative-follow-up-care/juzo-comprima",
+      "pieceTypes": [],
+      "compressionClasses": [],
+      "sizeGuide": null,
+      "options": [
+        "اللون: Beige",
+        "اللون: Black",
+        "المقاس: 0 / XXS",
+        "المقاس: 1 / XS",
+        "المقاس: 2 / S",
+        "المقاس: 3 / M",
+        "المقاس: 4 / L",
+        "المقاس: 5 / XL",
+        "المقاس: 6 / XXL",
+        "المقاس: 7 / XXXL"
+      ]
     }
   ],
   "offers": [

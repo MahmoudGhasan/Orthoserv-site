@@ -651,6 +651,94 @@
           "experiences/juzo/assets/products/juzo-5.jpg"
         ]
       }
+    },
+    "juzo-expert-strong-ad-custom": {
+      "Almond": {
+        "name": "Almond",
+        "hex": "#d7bf9f",
+        "images": [
+          "assets/products/juzo/official/additions/strong-ad.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en-gb/products/compression-garments/compression-therapy/juzo-expert-strong"
+      }
+    },
+    "juzo-expert-strong-ag-custom": {
+      "Almond": {
+        "name": "Almond",
+        "hex": "#d7bf9f",
+        "images": [
+          "assets/products/juzo/official/additions/strong-ag.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en-gb/products/compression-garments/compression-therapy/juzo-expert-strong"
+      }
+    },
+    "juzo-soft-ag-custom": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#d7bf9f",
+        "images": [
+          "experiences/juzo/assets/products/juzo-1.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en/products/compression-garments/venous-therapy/juzo-soft"
+      }
+    },
+    "juzo-scarcomfort-pure-cg-custom": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#d7bf9f",
+        "images": [
+          "assets/products/juzo/official/additions/pure-sleeve.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en/products/compression-garments/scar-therapy/juzo-scarcomfort-pure"
+      }
+    },
+    "juzo-scarcomfort-pure-thorax-custom": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#d7bf9f",
+        "images": [
+          "assets/products/juzo/official/additions/pure-thorax.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en/products/compression-garments/scar-therapy/juzo-scarcomfort-pure"
+      }
+    },
+    "juzo-scarcomfort-pure-face-custom": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#d7bf9f",
+        "images": [
+          "assets/products/juzo/official/additions/pure-face.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en/products/compression-garments/scar-therapy/juzo-scarcomfort-pure"
+      }
+    },
+    "juzo-scarcomfort-fine-paediatric-cg": {
+      "Mint": {
+        "name": "Mint",
+        "hex": "#a6d7c5",
+        "images": [
+          "assets/products/juzo/official/additions/fine-child-sleeve.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en/products/compression-garments/scar-therapy/juzo-scarcomfort-fine"
+      }
+    },
+    "juzo-comprima-thorax-thk-women": {
+      "Beige": {
+        "name": "Beige",
+        "hex": "#d7bf9f",
+        "images": [
+          "assets/products/juzo/official/additions/comprima-thorax-beige.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en/products/compression-garments/postoperative-follow-up-care/juzo-comprima"
+      },
+      "Black": {
+        "name": "Black",
+        "hex": "#000000",
+        "images": [
+          "assets/products/juzo/official/additions/comprima-thorax-black.jpg"
+        ],
+        "sourcePage": "https://www.juzo.com/en/products/compression-garments/postoperative-follow-up-care/juzo-comprima"
+      }
     }
   }
 }

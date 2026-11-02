@@ -62,3 +62,5 @@ window.OrthoJuzoNames={
  "juzo-juzo-dynamic-below-knee-stump-shrinker": "Juzo Dynamic below-knee stump shrinker",
  "juzo-juzo-special-detergent": "Juzo Special detergent for compression garments"
 };
+
+Object.assign(window.OrthoJuzoNames,{"juzo-expert-strong-ad-custom": "Juzo Expert Strong AD made-to-measure knee-high stocking", "juzo-expert-strong-ag-custom": "Juzo Expert Strong AG made-to-measure thigh-high stocking", "juzo-soft-ag-custom": "Juzo Soft made-to-measure circular-knit thigh-high stocking", "juzo-scarcomfort-pure-cg-custom": "Juzo ScarComfort Pure made-to-measure compression sleeve", "juzo-scarcomfort-pure-thorax-custom": "Juzo ScarComfort Pure women’s made-to-measure thorax vest", "juzo-scarcomfort-pure-face-custom": "Juzo ScarComfort Pure made-to-measure head and face garment", "juzo-scarcomfort-fine-paediatric-cg": "Juzo ScarComfort Fine paediatric made-to-measure sleeve", "juzo-comprima-thorax-thk-women": "Juzo Comprima THK women’s short thorax garment"});

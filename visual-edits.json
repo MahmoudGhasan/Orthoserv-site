@@ -9,12 +9,42 @@
     {
       "key": "#juzo-menu-post-surgery>aside:1>img:1",
       "route": "#brand",
-      "src": "assets/uploads/Gemini_Generated_Image_2kkvu2kkvu2kkvu2-e1d21f0d.jpg"
+      "src": "assets/uploads/Gemini_Generated_Image_7ljrwr7ljrwr7ljr-8f3df94e.jpg"
     },
     {
       "key": "#juzo-menu-vein-care>aside:1>img:1",
       "route": "#brand",
-      "src": "assets/uploads/Gemini_Generated_Image_h2c1i9h2c1i9h2c1-4c5930bb.jpg"
+      "src": "assets/uploads/Gemini_Generated_Image_jo0dk2jo0dk2jo0d-ce366487.jpg"
+    },
+    {
+      "key": "#juzo-menu-post-surgery>aside:1>img:1",
+      "route": "#catalog",
+      "src": "assets/uploads/Gemini_Generated_Image_7ljrwr7ljrwr7ljr-08a858e2.jpg"
+    },
+    {
+      "key": "#juzo-menu-vein-care>aside:1>img:1",
+      "route": "#catalog",
+      "src": "assets/uploads/Gemini_Generated_Image_jo0dk2jo0dk2jo0d-0f012faa.jpg"
+    },
+    {
+      "key": "#juzo-menu-lymphedema-lipedema>aside:1>img:1",
+      "route": "#catalog",
+      "src": "assets/uploads/Gemini_Generated_Image_c3dhqfc3dhqfc3dh-29b41ca5.jpg"
+    },
+    {
+      "key": "#juzo-menu-burn-scar-care>aside:1>img:1",
+      "route": "#catalog",
+      "src": "assets/uploads/Gemini_Generated_Image_hnr6luhnr6luhnr6-1191da34.jpg"
+    },
+    {
+      "key": "#juzo-menu-lymphedema-lipedema>aside:1>img:1",
+      "route": "#brand",
+      "src": "assets/uploads/Gemini_Generated_Image_c3dhqfc3dhqfc3dh-af95c134.jpg"
+    },
+    {
+      "key": "#juzo-menu-burn-scar-care>aside:1>img:1",
+      "route": "#brand",
+      "src": "assets/uploads/Gemini_Generated_Image_hnr6luhnr6luhnr6-76598960.jpg"
     }
   ],
   "styles": [

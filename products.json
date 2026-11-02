@@ -34093,6 +34093,902 @@
         "المقاس: 6 / XXL",
         "المقاس: 7 / XXXL"
       ]
+    },
+    {
+      "id": "btl-6000-high-intensity-laser",
+      "name": "BTL-6000 High Intensity Laser",
+      "nameEn": "BTL-6000 High Intensity Laser",
+      "titleAr": "جهاز الليزر عالي الشدة BTL-6000",
+      "brand": "BTL",
+      "model": "BTL-6000 HIL",
+      "category": "rehab",
+      "group": "electro",
+      "description": "جهاز ليزر علاجي عالي الشدة من BTL لدعم برامج علاج الألم وإصابات الجهاز العضلي الهيكلي، مع شاشة تحكم وبروتوكولات علاجية. تُحدّد القدرة والطول الموجي والتجهيزات عند طلب عرض السعر؛ المسح الروبوتي خيار يعتمد على الإصدار.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.btlnet.com/high_intensity_laser"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-20261102/btl-6000-high-intensity-laser-01.webp",
+          "width": 850,
+          "height": 600,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الليزر عالي الشدة BTL-6000",
+            "en": "BTL-6000 High Intensity Laser"
+          },
+          "source": "https://files.btlnet.com/corp/file_items/cdc69e09-0768-4515-8b66-2fcb7241f654/BTL_WEB_HIL_Background_6B_INT100_1740503755_original.webp",
+          "sourcePage": "https://www.btlnet.com/high_intensity_laser"
+        },
+        {
+          "file": "assets/products/devices-20261102/btl-6000-high-intensity-laser-02.webp",
+          "width": 850,
+          "height": 600,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الليزر عالي الشدة BTL-6000",
+            "en": "BTL-6000 High Intensity Laser"
+          },
+          "source": "https://files.btlnet.com/corp/file_items/fde85669-3526-4011-b2b6-505b0ff83ada/BTL_WEB_HIL_Background_1_INT100_1727689631_original.webp",
+          "sourcePage": "https://www.btlnet.com/high_intensity_laser"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز ليزر علاجي عالي الشدة من BTL لدعم برامج علاج الألم وإصابات الجهاز العضلي الهيكلي، مع شاشة تحكم وبروتوكولات علاجية. تُحدّد القدرة والطول الموجي والتجهيزات عند طلب عرض السعر؛ المسح الروبوتي خيار يعتمد على الإصدار.</p>",
+          "en": "<p>A BTL high-intensity therapeutic laser supporting pain management and musculoskeletal rehabilitation, with an integrated control screen and treatment protocols. Power, wavelength and supplied configuration are confirmed with the quotation; robotic scanning is version-dependent and optional.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز ليزر علاجي عالي الشدة من BTL لدعم برامج علاج الألم وإصابات الجهاز العضلي الهيكلي، مع شاشة تحكم وبروتوكولات علاجية. تُحدّد القدرة والطول الموجي والتجهيزات عند طلب عرض السعر؛ المسح الروبوتي خيار يعتمد على الإصدار.",
+          "en": "A BTL high-intensity therapeutic laser supporting pain management and musculoskeletal rehabilitation, with an integrated control screen and treatment protocols. Power, wavelength and supplied configuration are confirmed with the quotation; robotic scanning is version-dependent and optional."
+        },
+        "features": {
+          "ar": [
+            "ليزر علاجي عالي الشدة",
+            "شاشة تحكم",
+            "بروتوكولات علاجية",
+            "تأكيد القدرة والتجهيز مع الفريق"
+          ],
+          "en": [
+            "High-intensity therapeutic laser",
+            "Integrated control screen",
+            "Treatment protocols",
+            "Confirm power and configuration with the team"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 30,
+        "metaTitle": {
+          "ar": "جهاز الليزر عالي الشدة BTL-6000",
+          "en": "BTL-6000 High Intensity Laser"
+        },
+        "metaDescription": {
+          "ar": "جهاز ليزر علاجي عالي الشدة من BTL لدعم برامج علاج الألم وإصابات الجهاز العضلي الهيكلي، مع شاشة تحكم وبروتوكولات علاجية. تُحدّد القدرة والطول الموجي والتجهيزات عند طلب عرض السعر؛ المسح الروبوتي خيار يعتمد على الإصدار.",
+          "en": "A BTL high-intensity therapeutic laser supporting pain management and musculoskeletal rehabilitation, with an integrated control screen and treatment protocols. Power, wavelength and supplied configuration are confirmed with the quotation; robotic scanning is version-dependent and optional."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-10-20261102",
+        "sourceWorkbook": "Devices_for_site10.xlsx",
+        "sourceRow": 2,
+        "sourceModel": "BTL-6000 HIL"
+      }
+    },
+    {
+      "id": "storz-masterpuls-mp100-ultra",
+      "name": "Storz Medical MASTERPULS MP100 ultra Radial Shockwave",
+      "nameEn": "Storz Medical MASTERPULS MP100 ultra Radial Shockwave",
+      "titleAr": "جهاز الموجات الصدمية الراديال ستورز MASTERPULS MP100 ultra",
+      "brand": "Storz Medical",
+      "model": "MASTERPULS MP100 ultra",
+      "category": "rehab",
+      "group": "shockwave",
+      "description": "جهاز موجات صدمية راديال مدمج وعالي الطاقة من ستورز ميديكال، لعلاج التهابات الأوتار والتهاب اللفافة الأخمصية ونقاط الزناد العضلية. يعمل بنظام هواء هادئ مع ضاغط مدمج، وتتحكم أزرار القبضة FALCON في كل الإعدادات مباشرة عند المريض، مع إمكانية إضافة شاشة لمس 10 بوصة.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.storzmedical.com/en/disciplines/eswt-products-for-musculoskeletal-disorders/masterpuls-ultra-line/"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-20261102/storz-masterpuls-mp100-ultra-01.jpg",
+          "width": 960,
+          "height": 560,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الموجات الصدمية الراديال ستورز MASTERPULS MP100 ultra",
+            "en": "Storz Medical MASTERPULS MP100 ultra Radial Shockwave"
+          },
+          "source": "https://www.storzmedical.com/images/masterpuls_ultra/masterpuls_ultra_article.jpg",
+          "sourcePage": "https://www.storzmedical.com/en/disciplines/eswt-products-for-musculoskeletal-disorders/masterpuls-ultra-line/"
+        },
+        {
+          "file": "assets/products/devices-20261102/storz-masterpuls-mp100-ultra-02.jpg",
+          "width": 1200,
+          "height": 294,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الموجات الصدمية الراديال ستورز MASTERPULS MP100 ultra",
+            "en": "Storz Medical MASTERPULS MP100 ultra Radial Shockwave"
+          },
+          "source": "https://www.storzmedical.com/images/masterpuls_ultra/masterpuls_ultra_012.jpg",
+          "sourcePage": "https://www.storzmedical.com/en/disciplines/eswt-products-for-musculoskeletal-disorders/masterpuls-ultra-line/"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز موجات صدمية راديال مدمج وعالي الطاقة من ستورز ميديكال، لعلاج التهابات الأوتار والتهاب اللفافة الأخمصية ونقاط الزناد العضلية. يعمل بنظام هواء هادئ مع ضاغط مدمج، وتتحكم أزرار القبضة FALCON في كل الإعدادات مباشرة عند المريض، مع إمكانية إضافة شاشة لمس 10 بوصة.</p>",
+          "en": "<p>A compact, high-energy radial shockwave system from Storz Medical for tendinopathies, plantar fasciitis and myofascial trigger points. It runs on a quiet air-powered drive with an integrated compressor, and all controls sit on the FALCON handpiece; an optional 10-inch touch screen is available.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز موجات صدمية راديال مدمج وعالي الطاقة من ستورز ميديكال، لعلاج التهابات الأوتار والتهاب اللفافة الأخمصية ونقاط الزناد العضلية. يعمل بنظام هواء هادئ مع ضاغط مدمج، وتتحكم أزرار القبضة FALCON في كل الإعدادات مباشرة عند المريض، مع إمكانية إضافة شاشة لمس 10 بوصة.",
+          "en": "A compact, high-energy radial shockwave system from Storz Medical for tendinopathies, plantar fasciitis and myofascial trigger points. It runs on a quiet air-powered drive with an integrated compressor, and all controls sit on the FALCON handpiece; an optional 10-inch touch screen is available."
+        },
+        "features": {
+          "ar": [
+            "ضغط حتى 5 بار",
+            "تردد 1–21 هرتز",
+            "الوزن 10.5 كجم",
+            "الأبعاد 426×144×340 مم",
+            "ضاغط مدمج"
+          ],
+          "en": [
+            "Up to 5 bar",
+            "1–21 Hz",
+            "10.5 kg",
+            "426×144×340 mm",
+            "Integrated compressor"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 31,
+        "metaTitle": {
+          "ar": "جهاز الموجات الصدمية الراديال ستورز MASTERPULS MP100 ultra",
+          "en": "Storz Medical MASTERPULS MP100 ultra Radial Shockwave"
+        },
+        "metaDescription": {
+          "ar": "جهاز موجات صدمية راديال مدمج وعالي الطاقة من ستورز ميديكال، لعلاج التهابات الأوتار والتهاب اللفافة الأخمصية ونقاط الزناد العضلية. يعمل بنظام هواء هادئ مع ضاغط مدمج، وتتحكم أزرار القبضة FALCON في كل الإعدادات مباشرة عند المريض، مع إمكانية إضافة شاشة لمس 10 بوصة.",
+          "en": "A compact, high-energy radial shockwave system from Storz Medical for tendinopathies, plantar fasciitis and myofascial trigger points. It runs on a quiet air-powered drive with an integrated compressor, and all controls sit on the FALCON handpiece; an optional 10-inch touch screen is available."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-10-20261102",
+        "sourceWorkbook": "Devices_for_site10.xlsx",
+        "sourceRow": 3,
+        "sourceModel": "MASTERPULS MP100 ultra"
+      }
+    },
+    {
+      "id": "zimmer-cryo-7",
+      "name": "Zimmer Cryo 7 Cold Air Therapy Device",
+      "nameEn": "Zimmer Cryo 7 Cold Air Therapy Device",
+      "titleAr": "جهاز العلاج بالهواء البارد Zimmer Cryo 7",
+      "brand": "Zimmer MedizinSysteme",
+      "model": "Cryo 7",
+      "category": "rehab",
+      "group": "thermal",
+      "description": "جهاز علاج بالتبريد يعتمد على نفخ هواء شديد البرودة على المنطقة المصابة لتخفيف الألم والتورم قبل التمارين العلاجية أو بعدها. يناسب الإصابات الرياضية وحالات ما بعد الجراحة ويتيح تحكمًا في شدة التبريد دون تلامس مباشر مع الجلد.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.zimmer.de/en/products/physical-therapy/cryotherapy/cryo-7/"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-20261102/zimmer-cryo-7-01.png",
+          "width": 665,
+          "height": 940,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز العلاج بالهواء البارد Zimmer Cryo 7",
+            "en": "Zimmer Cryo 7 Cold Air Therapy Device"
+          },
+          "source": "https://www.zimmer.de/en/wp-content/uploads/sites/2/2022/01/cryo7_abbildung_en-665x940.png",
+          "sourcePage": "https://www.zimmer.de/en/products/physical-therapy/cryotherapy/cryo-7/"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز علاج بالتبريد يعتمد على نفخ هواء شديد البرودة على المنطقة المصابة لتخفيف الألم والتورم قبل التمارين العلاجية أو بعدها. يناسب الإصابات الرياضية وحالات ما بعد الجراحة ويتيح تحكمًا في شدة التبريد دون تلامس مباشر مع الجلد.</p>",
+          "en": "<p>A cold-air therapy device that blows very cold air onto the treated area to reduce pain and swelling before or after therapeutic exercise. Suited to sports injuries and post-operative care, with adjustable cooling intensity and no direct skin contact.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز علاج بالتبريد يعتمد على نفخ هواء شديد البرودة على المنطقة المصابة لتخفيف الألم والتورم قبل التمارين العلاجية أو بعدها. يناسب الإصابات الرياضية وحالات ما بعد الجراحة ويتيح تحكمًا في شدة التبريد دون تلامس مباشر مع الجلد.",
+          "en": "A cold-air therapy device that blows very cold air onto the treated area to reduce pain and swelling before or after therapeutic exercise. Suited to sports injuries and post-operative care, with adjustable cooling intensity and no direct skin contact."
+        },
+        "features": {
+          "ar": [
+            "تبريد بالهواء دون تلامس",
+            "شدة قابلة للضبط",
+            "مناسب لإصابات الرياضة وما بعد الجراحة"
+          ],
+          "en": [
+            "Contact-free cold air",
+            "Adjustable intensity",
+            "Sports injuries and post-op care"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 32,
+        "metaTitle": {
+          "ar": "جهاز العلاج بالهواء البارد Zimmer Cryo 7",
+          "en": "Zimmer Cryo 7 Cold Air Therapy Device"
+        },
+        "metaDescription": {
+          "ar": "جهاز علاج بالتبريد يعتمد على نفخ هواء شديد البرودة على المنطقة المصابة لتخفيف الألم والتورم قبل التمارين العلاجية أو بعدها. يناسب الإصابات الرياضية وحالات ما بعد الجراحة ويتيح تحكمًا في شدة التبريد دون تلامس مباشر مع الجلد.",
+          "en": "A cold-air therapy device that blows very cold air onto the treated area to reduce pain and swelling before or after therapeutic exercise. Suited to sports injuries and post-operative care, with adjustable cooling intensity and no direct skin contact."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-10-20261102",
+        "sourceWorkbook": "Devices_for_site10.xlsx",
+        "sourceRow": 4,
+        "sourceModel": "Cryo 7"
+      }
+    },
+    {
+      "id": "hyperice-normatec-3-legs",
+      "name": "Hyperice Normatec 3 Legs Recovery System",
+      "nameEn": "Hyperice Normatec 3 Legs Recovery System",
+      "titleAr": "جهاز الضغط الهوائي للتعافي Hyperice Normatec 3 للساقين",
+      "brand": "Hyperice",
+      "model": "Normatec 3 Legs",
+      "category": "rehab",
+      "group": "electro",
+      "description": "نظام ضغط هوائي متتابع للساقين يُستخدم في التعافي بعد التمرين وتخفيف إجهاد العضلات ودعم الدورة الدموية. يعتمد على أكمام قابلة للنفخ تضغط على الأطراف بشكل متدرج، وتتصل بوحدة تحكم محمولة تعمل مع تطبيق على الهاتف.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://hyperice.com/en-gb/products/normatec-3-legs"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-20261102/hyperice-normatec-3-legs-01.png",
+          "width": 2100,
+          "height": 2280,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الضغط الهوائي للتعافي Hyperice Normatec 3 للساقين",
+            "en": "Hyperice Normatec 3 Legs Recovery System"
+          },
+          "source": "https://hyperice.com/cdn/shop/files/Normatec3Legs1.png?v=1781803460&width=2100",
+          "sourcePage": "https://hyperice.com/en-gb/products/normatec-3-legs"
+        },
+        {
+          "file": "assets/products/devices-20261102/hyperice-normatec-3-legs-02.jpg",
+          "width": 2100,
+          "height": 2280,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الضغط الهوائي للتعافي Hyperice Normatec 3 للساقين",
+            "en": "Hyperice Normatec 3 Legs Recovery System"
+          },
+          "source": "https://hyperice.com/cdn/shop/files/Normatec3Legs2.jpg?v=1781803460&width=2100",
+          "sourcePage": "https://hyperice.com/en-gb/products/normatec-3-legs"
+        },
+        {
+          "file": "assets/products/devices-20261102/hyperice-normatec-3-legs-03.png",
+          "width": 2100,
+          "height": 2280,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الضغط الهوائي للتعافي Hyperice Normatec 3 للساقين",
+            "en": "Hyperice Normatec 3 Legs Recovery System"
+          },
+          "source": "https://hyperice.com/cdn/shop/files/Normatec3Legs3.png?v=1781803460&width=2100",
+          "sourcePage": "https://hyperice.com/en-gb/products/normatec-3-legs"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>نظام ضغط هوائي متتابع للساقين يُستخدم في التعافي بعد التمرين وتخفيف إجهاد العضلات ودعم الدورة الدموية. يعتمد على أكمام قابلة للنفخ تضغط على الأطراف بشكل متدرج، وتتصل بوحدة تحكم محمولة تعمل مع تطبيق على الهاتف.</p>",
+          "en": "<p>A sequential pneumatic compression system for the legs used for post-workout recovery, muscle fatigue relief and circulation support. Inflatable sleeves apply graduated pressure to the limbs, driven by a portable control unit that connects to a phone app.</p>"
+        },
+        "shortDescription": {
+          "ar": "نظام ضغط هوائي متتابع للساقين يُستخدم في التعافي بعد التمرين وتخفيف إجهاد العضلات ودعم الدورة الدموية. يعتمد على أكمام قابلة للنفخ تضغط على الأطراف بشكل متدرج، وتتصل بوحدة تحكم محمولة تعمل مع تطبيق على الهاتف.",
+          "en": "A sequential pneumatic compression system for the legs used for post-workout recovery, muscle fatigue relief and circulation support. Inflatable sleeves apply graduated pressure to the limbs, driven by a portable control unit that connects to a phone app."
+        },
+        "features": {
+          "ar": [
+            "ضغط متتابع متدرج",
+            "أكمام للساقين",
+            "وحدة تحكم محمولة",
+            "مناسب للرياضيين والتأهيل"
+          ],
+          "en": [
+            "Graduated sequential compression",
+            "Leg sleeves",
+            "Portable control unit",
+            "For athletes and rehab"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 33,
+        "metaTitle": {
+          "ar": "جهاز الضغط الهوائي للتعافي Hyperice Normatec 3 للساقين",
+          "en": "Hyperice Normatec 3 Legs Recovery System"
+        },
+        "metaDescription": {
+          "ar": "نظام ضغط هوائي متتابع للساقين يُستخدم في التعافي بعد التمرين وتخفيف إجهاد العضلات ودعم الدورة الدموية. يعتمد على أكمام قابلة للنفخ تضغط على الأطراف بشكل متدرج، وتتصل بوحدة تحكم محمولة تعمل مع تطبيق على الهاتف.",
+          "en": "A sequential pneumatic compression system for the legs used for post-workout recovery, muscle fatigue relief and circulation support. Inflatable sleeves apply graduated pressure to the limbs, driven by a portable control unit that connects to a phone app."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-10-20261102",
+        "sourceWorkbook": "Devices_for_site10.xlsx",
+        "sourceRow": 5,
+        "sourceModel": "Normatec 3 Legs"
+      }
+    },
+    {
+      "id": "hyperice-hypervolt-2-pro",
+      "name": "Hyperice Hypervolt 2 Pro Percussion Massager",
+      "nameEn": "Hyperice Hypervolt 2 Pro Percussion Massager",
+      "titleAr": "مسدس التدليك Hypervolt 2 Pro",
+      "brand": "Hyperice",
+      "model": "Hypervolt 2 Pro",
+      "category": "rehab",
+      "group": "mobility",
+      "description": "جهاز تدليك بالطرق السريع (Percussion) محمول يستخدم لتخفيف شد العضلات وتسريع التعافي قبل الرياضة وبعدها. يأتي مع رؤوس تدليك متعددة، ويتميز بتشغيل هادئ نسبيًا وبطارية قابلة للشحن.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://hyperice.com/products/hypervolt-2-pro/"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-20261102/hyperice-hypervolt-2-pro-01.png",
+          "width": 2100,
+          "height": 2280,
+          "role": "product",
+          "alt": {
+            "ar": "مسدس التدليك Hypervolt 2 Pro",
+            "en": "Hyperice Hypervolt 2 Pro Percussion Massager"
+          },
+          "source": "https://hyperice.com/cdn/shop/files/Hypervolt2Pro1_49c0b16c-a3a4-4fec-8c83-ffd554e88bdf.png?v=1769209059&width=2100",
+          "sourcePage": "https://hyperice.com/products/hypervolt-2-pro/"
+        },
+        {
+          "file": "assets/products/devices-20261102/hyperice-hypervolt-2-pro-02.png",
+          "width": 2100,
+          "height": 2280,
+          "role": "product",
+          "alt": {
+            "ar": "مسدس التدليك Hypervolt 2 Pro",
+            "en": "Hyperice Hypervolt 2 Pro Percussion Massager"
+          },
+          "source": "https://hyperice.com/cdn/shop/files/Hypervolt2Pro3_ed4ab96d-6c4f-4de0-b863-e5ff28de9f4b.png?v=1769209070&width=2100",
+          "sourcePage": "https://hyperice.com/products/hypervolt-2-pro/"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز تدليك بالطرق السريع (Percussion) محمول يستخدم لتخفيف شد العضلات وتسريع التعافي قبل الرياضة وبعدها. يأتي مع رؤوس تدليك متعددة، ويتميز بتشغيل هادئ نسبيًا وبطارية قابلة للشحن.</p>",
+          "en": "<p>A portable percussion massager used to ease muscle tension and speed up recovery before and after exercise. It comes with several interchangeable heads, relatively quiet operation and a rechargeable battery.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز تدليك بالطرق السريع (Percussion) محمول يستخدم لتخفيف شد العضلات وتسريع التعافي قبل الرياضة وبعدها. يأتي مع رؤوس تدليك متعددة، ويتميز بتشغيل هادئ نسبيًا وبطارية قابلة للشحن.",
+          "en": "A portable percussion massager used to ease muscle tension and speed up recovery before and after exercise. It comes with several interchangeable heads, relatively quiet operation and a rechargeable battery."
+        },
+        "features": {
+          "ar": [
+            "رؤوس تدليك متعددة",
+            "تشغيل هادئ",
+            "بطارية قابلة للشحن",
+            "محمول"
+          ],
+          "en": [
+            "Multiple massage heads",
+            "Quiet operation",
+            "Rechargeable battery",
+            "Portable"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 34,
+        "metaTitle": {
+          "ar": "مسدس التدليك Hypervolt 2 Pro",
+          "en": "Hyperice Hypervolt 2 Pro Percussion Massager"
+        },
+        "metaDescription": {
+          "ar": "جهاز تدليك بالطرق السريع (Percussion) محمول يستخدم لتخفيف شد العضلات وتسريع التعافي قبل الرياضة وبعدها. يأتي مع رؤوس تدليك متعددة، ويتميز بتشغيل هادئ نسبيًا وبطارية قابلة للشحن.",
+          "en": "A portable percussion massager used to ease muscle tension and speed up recovery before and after exercise. It comes with several interchangeable heads, relatively quiet operation and a rechargeable battery."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-10-20261102",
+        "sourceWorkbook": "Devices_for_site10.xlsx",
+        "sourceRow": 6,
+        "sourceModel": "Hypervolt 2.0 Pro"
+      }
+    },
+    {
+      "id": "inbody-270",
+      "name": "InBody 270 Body Composition Analyzer",
+      "nameEn": "InBody 270 Body Composition Analyzer",
+      "titleAr": "جهاز تحليل تركيب الجسم InBody 270",
+      "brand": "InBody",
+      "model": "InBody 270",
+      "category": "rehab",
+      "group": "assessment",
+      "description": "جهاز لتحليل تركيب الجسم بطريقة المعاوقة الكهربائية الحيوية (BIA)، يقيس كتلة العضلات والدهون والماء في الجسم في دقائق معدودة. مفيد في متابعة تقدم التأهيل والتغذية والبرامج الرياضية، مع طباعة النتائج أو ربطها ببرنامج InBody.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.inbody.co.jp/inbody-270/"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-20261102/inbody-270-01.jpg",
+          "width": 1100,
+          "height": 957,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز تحليل تركيب الجسم InBody 270",
+            "en": "InBody 270 Body Composition Analyzer"
+          },
+          "source": "https://uk.inbody.com/wp-content/uploads/2018/08/Product-Brochure-270-UK.pdf",
+          "sourcePage": "https://www.inbody.co.jp/inbody-270/"
+        },
+        {
+          "file": "assets/products/devices-20261102/inbody-270-02.jpg",
+          "width": 1466,
+          "height": 3363,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز تحليل تركيب الجسم InBody 270",
+            "en": "InBody 270 Body Composition Analyzer"
+          },
+          "source": "https://uk.inbody.com/wp-content/uploads/2018/08/Product-Brochure-270-UK.pdf",
+          "sourcePage": "https://www.inbody.co.jp/inbody-270/"
+        },
+        {
+          "file": "assets/products/devices-20261102/inbody-270-03.jpg",
+          "width": 1156,
+          "height": 837,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز تحليل تركيب الجسم InBody 270",
+            "en": "InBody 270 Body Composition Analyzer"
+          },
+          "source": "https://uk.inbody.com/wp-content/uploads/2018/08/Product-Brochure-270-UK.pdf",
+          "sourcePage": "https://www.inbody.co.jp/inbody-270/"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز لتحليل تركيب الجسم بطريقة المعاوقة الكهربائية الحيوية (BIA)، يقيس كتلة العضلات والدهون والماء في الجسم في دقائق معدودة. مفيد في متابعة تقدم التأهيل والتغذية والبرامج الرياضية، مع طباعة النتائج أو ربطها ببرنامج InBody.</p>",
+          "en": "<p>A bioelectrical-impedance (BIA) body composition analyzer that measures muscle, fat and body water within a short test. Useful for tracking rehabilitation, nutrition and training progress, with printable results or InBody software integration.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز لتحليل تركيب الجسم بطريقة المعاوقة الكهربائية الحيوية (BIA)، يقيس كتلة العضلات والدهون والماء في الجسم في دقائق معدودة. مفيد في متابعة تقدم التأهيل والتغذية والبرامج الرياضية، مع طباعة النتائج أو ربطها ببرنامج InBody.",
+          "en": "A bioelectrical-impedance (BIA) body composition analyzer that measures muscle, fat and body water within a short test. Useful for tracking rehabilitation, nutrition and training progress, with printable results or InBody software integration."
+        },
+        "features": {
+          "ar": [
+            "تحليل العضلات والدهون والماء",
+            "اختبار سريع",
+            "ربط ببرنامج InBody",
+            "مناسب للعيادات والمراكز الرياضية"
+          ],
+          "en": [
+            "Muscle, fat and water analysis",
+            "Quick test",
+            "InBody software link",
+            "For clinics and fitness centres"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 35,
+        "metaTitle": {
+          "ar": "جهاز تحليل تركيب الجسم InBody 270",
+          "en": "InBody 270 Body Composition Analyzer"
+        },
+        "metaDescription": {
+          "ar": "جهاز لتحليل تركيب الجسم بطريقة المعاوقة الكهربائية الحيوية (BIA)، يقيس كتلة العضلات والدهون والماء في الجسم في دقائق معدودة. مفيد في متابعة تقدم التأهيل والتغذية والبرامج الرياضية، مع طباعة النتائج أو ربطها ببرنامج InBody.",
+          "en": "A bioelectrical-impedance (BIA) body composition analyzer that measures muscle, fat and body water within a short test. Useful for tracking rehabilitation, nutrition and training progress, with printable results or InBody software integration."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-10-20261102",
+        "sourceWorkbook": "Devices_for_site10.xlsx",
+        "sourceRow": 7,
+        "sourceModel": "InBody 270"
+      }
+    },
+    {
+      "id": "csmi-humac-norm",
+      "name": "Humac NORM Isokinetic Testing and Rehabilitation System",
+      "nameEn": "Humac NORM Isokinetic Testing and Rehabilitation System",
+      "titleAr": "نظام الاختبار والتدريب الأيزوكينتيك Humac NORM",
+      "brand": "CSMi",
+      "model": "Humac NORM",
+      "category": "rehab",
+      "group": "assessment",
+      "description": "نظام أيزوكينتيك لقياس قوة المفاصل والعضلات وتدريبها بمقاومة متحكم بها وسرعة ثابتة. يُستخدم في تقييم الإصابات ومتابعة التأهيل بعد جراحات الركبة والكتف وغيرها، ويوفر تقارير موضوعية يعتمد عليها الطبيب والمعالج في اتخاذ القرار.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://csmisolutions.com/humac/humacnorm-isokinetic-machine/"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-20261102/csmi-humac-norm-01.png",
+          "width": 1667,
+          "height": 2500,
+          "role": "product",
+          "alt": {
+            "ar": "نظام الاختبار والتدريب الأيزوكينتيك Humac NORM",
+            "en": "Humac NORM Isokinetic Testing and Rehabilitation System"
+          },
+          "source": "https://csmisolutions.com/wp-content/uploads/2023/10/Photos.zip",
+          "sourcePage": "https://csmisolutions.com/humac/humacnorm-isokinetic-machine/"
+        },
+        {
+          "file": "assets/products/devices-20261102/csmi-humac-norm-02.jpg",
+          "width": 1200,
+          "height": 800,
+          "role": "product",
+          "alt": {
+            "ar": "نظام الاختبار والتدريب الأيزوكينتيك Humac NORM",
+            "en": "Humac NORM Isokinetic Testing and Rehabilitation System"
+          },
+          "source": "https://csmisolutions.com/wp-content/uploads/2023/04/ForWeb_DSC5393.jpg",
+          "sourcePage": "https://csmisolutions.com/humac/humacnorm-isokinetic-machine/"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>نظام أيزوكينتيك لقياس قوة المفاصل والعضلات وتدريبها بمقاومة متحكم بها وسرعة ثابتة. يُستخدم في تقييم الإصابات ومتابعة التأهيل بعد جراحات الركبة والكتف وغيرها، ويوفر تقارير موضوعية يعتمد عليها الطبيب والمعالج في اتخاذ القرار.</p>",
+          "en": "<p>An isokinetic dynamometer system for testing and training joint and muscle strength with controlled resistance at constant speed. Used for injury assessment and rehabilitation tracking after knee, shoulder and other surgeries, with objective reports to support clinical decisions.</p>"
+        },
+        "shortDescription": {
+          "ar": "نظام أيزوكينتيك لقياس قوة المفاصل والعضلات وتدريبها بمقاومة متحكم بها وسرعة ثابتة. يُستخدم في تقييم الإصابات ومتابعة التأهيل بعد جراحات الركبة والكتف وغيرها، ويوفر تقارير موضوعية يعتمد عليها الطبيب والمعالج في اتخاذ القرار.",
+          "en": "An isokinetic dynamometer system for testing and training joint and muscle strength with controlled resistance at constant speed. Used for injury assessment and rehabilitation tracking after knee, shoulder and other surgeries, with objective reports to support clinical decisions."
+        },
+        "features": {
+          "ar": [
+            "اختبار وتدريب أيزوكينتيك",
+            "تقارير موضوعية",
+            "مناسب لتأهيل الركبة والكتف والمفاصل الأخرى"
+          ],
+          "en": [
+            "Isokinetic testing and training",
+            "Objective reports",
+            "For knee, shoulder and other joints"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 36,
+        "metaTitle": {
+          "ar": "نظام الاختبار والتدريب الأيزوكينتيك Humac NORM",
+          "en": "Humac NORM Isokinetic Testing and Rehabilitation System"
+        },
+        "metaDescription": {
+          "ar": "نظام أيزوكينتيك لقياس قوة المفاصل والعضلات وتدريبها بمقاومة متحكم بها وسرعة ثابتة. يُستخدم في تقييم الإصابات ومتابعة التأهيل بعد جراحات الركبة والكتف وغيرها، ويوفر تقارير موضوعية يعتمد عليها الطبيب والمعالج في اتخاذ القرار.",
+          "en": "An isokinetic dynamometer system for testing and training joint and muscle strength with controlled resistance at constant speed. Used for injury assessment and rehabilitation tracking after knee, shoulder and other surgeries, with objective reports to support clinical decisions."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-10-20261102",
+        "sourceWorkbook": "Devices_for_site10.xlsx",
+        "sourceRow": 8,
+        "sourceModel": "Humac NORM"
+      }
+    },
+    {
+      "id": "tyromotion-amadeo",
+      "name": "Tyromotion Amadeo Robotic Hand Rehabilitation Device",
+      "nameEn": "Tyromotion Amadeo Robotic Hand Rehabilitation Device",
+      "titleAr": "جهاز التأهيل الروبوتي لليد والأصابع Amadeo",
+      "brand": "Tyromotion",
+      "model": "Amadeo",
+      "category": "rehab",
+      "group": "mobility",
+      "description": "جهاز روبوتي لتأهيل اليد والأصابع بعد السكتة الدماغية وإصابات الأعصاب والجراحة، يحرّك الأصابع بشكل سلبي أو مساعد أو نشط مع تمارين بألعاب تفاعلية تحفّز المريض على التكرار. يوفر قياسات موضوعية لقوة ونطاق حركة الأصابع لمتابعة التقدم.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.tyromotion.com/product/amadeo-hand-rehabilitation/"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-20261102/tyromotion-amadeo-01.jpg",
+          "width": 1920,
+          "height": 1080,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التأهيل الروبوتي لليد والأصابع Amadeo",
+            "en": "Tyromotion Amadeo Robotic Hand Rehabilitation Device"
+          },
+          "source": "https://www.tyromotion.com/wp-content/uploads/2026/02/amadeo_adult_in_use_with_therapist_header.jpg",
+          "sourcePage": "https://www.tyromotion.com/product/amadeo-hand-rehabilitation/"
+        },
+        {
+          "file": "assets/products/devices-20261102/tyromotion-amadeo-02.png",
+          "width": 400,
+          "height": 400,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التأهيل الروبوتي لليد والأصابع Amadeo",
+            "en": "Tyromotion Amadeo Robotic Hand Rehabilitation Device"
+          },
+          "source": "https://www.tyromotion.com/wp-content/uploads/2026/02/keyfacts-amadeo-repetitions-1-400x400.png",
+          "sourcePage": "https://www.tyromotion.com/product/amadeo-hand-rehabilitation/"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز روبوتي لتأهيل اليد والأصابع بعد السكتة الدماغية وإصابات الأعصاب والجراحة، يحرّك الأصابع بشكل سلبي أو مساعد أو نشط مع تمارين بألعاب تفاعلية تحفّز المريض على التكرار. يوفر قياسات موضوعية لقوة ونطاق حركة الأصابع لمتابعة التقدم.</p>",
+          "en": "<p>A robotic device for rehabilitating the hand and fingers after stroke, nerve injury or surgery, offering passive, assisted and active finger movement with interactive game-based exercises that motivate repetition. It records objective finger strength and range-of-motion data to track progress.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز روبوتي لتأهيل اليد والأصابع بعد السكتة الدماغية وإصابات الأعصاب والجراحة، يحرّك الأصابع بشكل سلبي أو مساعد أو نشط مع تمارين بألعاب تفاعلية تحفّز المريض على التكرار. يوفر قياسات موضوعية لقوة ونطاق حركة الأصابع لمتابعة التقدم.",
+          "en": "A robotic device for rehabilitating the hand and fingers after stroke, nerve injury or surgery, offering passive, assisted and active finger movement with interactive game-based exercises that motivate repetition. It records objective finger strength and range-of-motion data to track progress."
+        },
+        "features": {
+          "ar": [
+            "تأهيل اليد والأصابع",
+            "تمارين تفاعلية",
+            "قياسات موضوعية للتقدم",
+            "مناسب لحالات السكتة والإصابات العصبية"
+          ],
+          "en": [
+            "Hand and finger rehab",
+            "Interactive exercises",
+            "Objective progress data",
+            "For stroke and neuro cases"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 37,
+        "metaTitle": {
+          "ar": "جهاز التأهيل الروبوتي لليد والأصابع Amadeo",
+          "en": "Tyromotion Amadeo Robotic Hand Rehabilitation Device"
+        },
+        "metaDescription": {
+          "ar": "جهاز روبوتي لتأهيل اليد والأصابع بعد السكتة الدماغية وإصابات الأعصاب والجراحة، يحرّك الأصابع بشكل سلبي أو مساعد أو نشط مع تمارين بألعاب تفاعلية تحفّز المريض على التكرار. يوفر قياسات موضوعية لقوة ونطاق حركة الأصابع لمتابعة التقدم.",
+          "en": "A robotic device for rehabilitating the hand and fingers after stroke, nerve injury or surgery, offering passive, assisted and active finger movement with interactive game-based exercises that motivate repetition. It records objective finger strength and range-of-motion data to track progress."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-10-20261102",
+        "sourceWorkbook": "Devices_for_site10.xlsx",
+        "sourceRow": 9,
+        "sourceModel": "Amadeo"
+      }
+    },
+    {
+      "id": "reck-motomed-layson-la",
+      "name": "MOTOmed layson.la Leg and Arm Trainer",
+      "nameEn": "MOTOmed layson.la Leg and Arm Trainer",
+      "titleAr": "جهاز التمرين السلبي والنشط للأطراف MOTOmed layson.la",
+      "brand": "RECK",
+      "model": "MOTOmed layson.la",
+      "category": "rehab",
+      "group": "mobility",
+      "description": "جهاز MOTOmed layson.la لتمرين الساقين أو الذراعين والجزء العلوي أثناء الاستلقاء على السرير. يتيح التمرين السلبي بالمحرك، والمساعد، والنشط حسب قدرة المستخدم، مع إعدادات مناسبة لبيئات المستشفيات والرعاية.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.motomed.com/en/products/motomed-layson-la/"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-20261102/reck-motomed-layson-la-01.png",
+          "width": 1253,
+          "height": 1063,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التمرين السلبي والنشط للأطراف MOTOmed layson.la",
+            "en": "MOTOmed layson.la Leg and Arm Trainer"
+          },
+          "source": "https://www.motomed.com/site/assets/files/3809/layson-la-1.png",
+          "sourcePage": "https://www.motomed.com/en/products/motomed-layson-la/"
+        },
+        {
+          "file": "assets/products/devices-20261102/reck-motomed-layson-la-02.png",
+          "width": 960,
+          "height": 782,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التمرين السلبي والنشط للأطراف MOTOmed layson.la",
+            "en": "MOTOmed layson.la Leg and Arm Trainer"
+          },
+          "source": "https://www.motomed.com/site/assets/files/3809/mm_layson_la_de_1000_start-beine_digital.960x0d0x0.png",
+          "sourcePage": "https://www.motomed.com/en/products/motomed-layson-la/"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز MOTOmed layson.la لتمرين الساقين أو الذراعين والجزء العلوي أثناء الاستلقاء على السرير. يتيح التمرين السلبي بالمحرك، والمساعد، والنشط حسب قدرة المستخدم، مع إعدادات مناسبة لبيئات المستشفيات والرعاية.</p>",
+          "en": "<p>The MOTOmed layson.la supports leg or arm and upper-body training while lying in bed. Motor-driven passive, assisted and active exercise modes accommodate different user abilities in hospital and care settings.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز MOTOmed layson.la لتمرين الساقين أو الذراعين والجزء العلوي أثناء الاستلقاء على السرير. يتيح التمرين السلبي بالمحرك، والمساعد، والنشط حسب قدرة المستخدم، مع إعدادات مناسبة لبيئات المستشفيات والرعاية.",
+          "en": "The MOTOmed layson.la supports leg or arm and upper-body training while lying in bed. Motor-driven passive, assisted and active exercise modes accommodate different user abilities in hospital and care settings."
+        },
+        "features": {
+          "ar": [
+            "تمرين الساقين أو الذراعين",
+            "وضع سلبي ومساعد ونشط",
+            "مناسب للمستشفيات ودور الرعاية"
+          ],
+          "en": [
+            "Leg or arm training",
+            "Passive, assisted and active modes",
+            "For hospitals and care facilities"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 38,
+        "metaTitle": {
+          "ar": "جهاز التمرين السلبي والنشط للأطراف MOTOmed layson.la",
+          "en": "MOTOmed layson.la Leg and Arm Trainer"
+        },
+        "metaDescription": {
+          "ar": "جهاز MOTOmed layson.la لتمرين الساقين أو الذراعين والجزء العلوي أثناء الاستلقاء على السرير. يتيح التمرين السلبي بالمحرك، والمساعد، والنشط حسب قدرة المستخدم، مع إعدادات مناسبة لبيئات المستشفيات والرعاية.",
+          "en": "The MOTOmed layson.la supports leg or arm and upper-body training while lying in bed. Motor-driven passive, assisted and active exercise modes accommodate different user abilities in hospital and care settings."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-10-20261102",
+        "sourceWorkbook": "Devices_for_site10.xlsx",
+        "sourceRow": 10,
+        "sourceModel": "MOTOmed layson.la"
+      }
+    },
+    {
+      "id": "btl-6000-lymphastim-12-topline",
+      "name": "BTL-6000 Lymphastim 12 Topline Lymphatic Drainage Unit",
+      "nameEn": "BTL-6000 Lymphastim 12 Topline Lymphatic Drainage Unit",
+      "titleAr": "جهاز التصريف اللمفاوي BTL-6000 Lymphastim 12 Topline",
+      "brand": "BTL",
+      "model": "BTL-6000 Lymphastim 12 Topline",
+      "category": "rehab",
+      "group": "electro",
+      "description": "جهاز ضغط هوائي متدرج للتصريف اللمفاوي، يُستخدم في علاج الوذمة اللمفية والتورم وبعد الجراحات واضطرابات الدورة الدموية. يعمل بأكمام متعددة الغرف للذراعين والساقين والجذع، ويقدم برامج ضغط متتابع بشاشة تحكم سهلة. يُؤكد إصدار 12 Topline والأكمام والملحقات المطلوبة ضمن عرض السعر؛ صور الاستخدام من عائلة Lymphastim.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.btlnet.com/lymphastim"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-20261102/btl-6000-lymphastim-12-topline-01.webp",
+          "width": 657,
+          "height": 595,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التصريف اللمفاوي BTL-6000 Lymphastim 12 Topline",
+            "en": "BTL-6000 Lymphastim 12 Topline Lymphatic Drainage Unit"
+          },
+          "source": "https://files.btlnet.com/corp/file_items/3a55569e-f424-4dbd-a4ca-9363a80aa82e/lymphastim-block--background_1649942967_original_copy_1665046469_original.webp",
+          "sourcePage": "https://www.btlnet.com/lymphastim"
+        },
+        {
+          "file": "assets/products/devices-20261102/btl-6000-lymphastim-12-topline-02.jpg",
+          "width": 1000,
+          "height": 610,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التصريف اللمفاوي BTL-6000 Lymphastim 12 Topline",
+            "en": "BTL-6000 Lymphastim 12 Topline Lymphatic Drainage Unit"
+          },
+          "source": "https://files.btlnet.com/corp/file_items/728c1a6c-6f82-4f74-a2eb-bac067440375/lymphastim-ultraswiper1_1650008173_original.jpg",
+          "sourcePage": "https://www.btlnet.com/lymphastim"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز ضغط هوائي متدرج للتصريف اللمفاوي، يُستخدم في علاج الوذمة اللمفية والتورم وبعد الجراحات واضطرابات الدورة الدموية. يعمل بأكمام متعددة الغرف للذراعين والساقين والجذع، ويقدم برامج ضغط متتابع بشاشة تحكم سهلة. يُؤكد إصدار 12 Topline والأكمام والملحقات المطلوبة ضمن عرض السعر؛ صور الاستخدام من عائلة Lymphastim.</p>",
+          "en": "<p>A graduated pneumatic compression unit for lymphatic drainage, used for lymphoedema, swelling, post-surgical care and circulatory disorders. It works with multi-chamber sleeves for arms, legs and trunk and delivers sequential compression programs from an easy touch interface. The 12 Topline configuration, required garments and accessories are confirmed in the quotation; application photos show the Lymphastim family.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز ضغط هوائي متدرج للتصريف اللمفاوي، يُستخدم في علاج الوذمة اللمفية والتورم وبعد الجراحات واضطرابات الدورة الدموية. يعمل بأكمام متعددة الغرف للذراعين والساقين والجذع، ويقدم برامج ضغط متتابع بشاشة تحكم سهلة. يُؤكد إصدار 12 Topline والأكمام والملحقات المطلوبة ضمن عرض السعر؛ صور الاستخدام من عائلة Lymphastim.",
+          "en": "A graduated pneumatic compression unit for lymphatic drainage, used for lymphoedema, swelling, post-surgical care and circulatory disorders. It works with multi-chamber sleeves for arms, legs and trunk and delivers sequential compression programs from an easy touch interface. The 12 Topline configuration, required garments and accessories are confirmed in the quotation; application photos show the Lymphastim family."
+        },
+        "features": {
+          "ar": [
+            "أكمام متعددة الغرف",
+            "برامج ضغط متتابع",
+            "للذراعين والساقين والجذع"
+          ],
+          "en": [
+            "Multi-chamber sleeves",
+            "Sequential compression programs",
+            "Arms, legs and trunk"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 39,
+        "metaTitle": {
+          "ar": "جهاز التصريف اللمفاوي BTL-6000 Lymphastim 12 Topline",
+          "en": "BTL-6000 Lymphastim 12 Topline Lymphatic Drainage Unit"
+        },
+        "metaDescription": {
+          "ar": "جهاز ضغط هوائي متدرج للتصريف اللمفاوي، يُستخدم في علاج الوذمة اللمفية والتورم وبعد الجراحات واضطرابات الدورة الدموية. يعمل بأكمام متعددة الغرف للذراعين والساقين والجذع، ويقدم برامج ضغط متتابع بشاشة تحكم سهلة. يُؤكد إصدار 12 Topline والأكمام والملحقات المطلوبة ضمن عرض السعر؛ صور الاستخدام من عائلة Lymphastim.",
+          "en": "A graduated pneumatic compression unit for lymphatic drainage, used for lymphoedema, swelling, post-surgical care and circulatory disorders. It works with multi-chamber sleeves for arms, legs and trunk and delivers sequential compression programs from an easy touch interface. The 12 Topline configuration, required garments and accessories are confirmed in the quotation; application photos show the Lymphastim family."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-10-20261102",
+        "sourceWorkbook": "Devices_for_site10.xlsx",
+        "sourceRow": 11,
+        "sourceModel": "BTL-6000 Lymphastim 12 Topline"
+      }
     }
   ],
   "offers": [

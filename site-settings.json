@@ -182,7 +182,8 @@
     "custom-made__lymphedema-lipoedema": "ملابس ضغط بنسيج مسطح حسب الطلب",
     "custom-made__burn-scar-care": "ملابس ندبات بنسيج مسطح حسب الطلب",
     "custom-made__paediatric": "ملابس ضغط للأطفال",
-    "custom-made__compression-stockings": "جوارب محبوكة دائريا حسب الطلب"
+    "custom-made__compression-stockings": "جوارب محبوكة دائريا حسب الطلب",
+    "assessment": "أجهزة التقييم والقياس"
   },
   "seo": {
     "titleAr": "أورثوسيرف | الأجهزة والمستلزمات الطبية",
@@ -386,6 +387,34 @@
     {
       "slug": "juzo",
       "label": "Juzo"
+    },
+    {
+      "slug": "storz-medical",
+      "label": "Storz Medical"
+    },
+    {
+      "slug": "zimmer-medizinsysteme",
+      "label": "Zimmer MedizinSysteme"
+    },
+    {
+      "slug": "hyperice",
+      "label": "Hyperice"
+    },
+    {
+      "slug": "inbody",
+      "label": "InBody"
+    },
+    {
+      "slug": "csmi",
+      "label": "CSMi"
+    },
+    {
+      "slug": "tyromotion",
+      "label": "Tyromotion"
+    },
+    {
+      "slug": "reck",
+      "label": "RECK"
     }
   ],
   "juzoTaxonomy": [

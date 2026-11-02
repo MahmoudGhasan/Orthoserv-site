@@ -9,3 +9,15 @@
 @media(max-width:380px){.store-navigation,.nav-menus{gap:13px}.nav-trigger{gap:6px;font-size:10px}.store-navigation>a{font-size:9px}html[lang=en] .store-navigation,html[lang=en] .nav-menus{gap:10px}html[lang=en] .nav-trigger{font-size:9px}}
 /* Juzo section menus stay below the global header and its mega panels. */
 body .juzo-category-nav{z-index:8}
+
+/* Readable two-row mobile navigation, with touch-sized controls in both languages. */
+@media(max-width:760px){
+ html .store-navigation,html[lang=en] .store-navigation{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 16px;padding-block:4px;min-height:96px;white-space:normal}
+ html .store-navigation .nav-menus,html[lang=en] .store-navigation .nav-menus{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;width:100%}
+ html .store-navigation .nav-trigger,html[lang=en] .store-navigation .nav-trigger{width:100%;min-height:44px;justify-content:space-between;gap:8px;font-size:14px;line-height:1.5;text-align:start}
+ html .store-navigation>a,html[lang=en] .store-navigation>a{display:flex;align-items:center;justify-content:center;min-height:44px;font-size:14px;line-height:1.5;text-align:center;padding:6px 4px}
+ html .store-navigation .nav-all,html[lang=en] .store-navigation .nav-all{display:none}
+ .mega-categories strong{font-size:15px}.mega-categories small,.mega-brands small{font-size:12px;line-height:1.6}
+ .mega-heading a{font-size:13px;min-height:44px;display:flex;align-items:center}.mega-discover>a{min-height:44px}
+ .mega-panel a:focus-visible,.nav-trigger:focus-visible,.store-navigation>a:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:4px}
+}

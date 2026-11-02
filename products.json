@@ -34989,6 +34989,976 @@
         "sourceRow": 11,
         "sourceModel": "BTL-6000 Lymphastim 12 Topline"
       }
+    },
+    {
+      "id": "btl-6000-shortwave-200-400",
+      "name": "BTL-6000 Shortwave Diathermy 200 / 400",
+      "nameEn": "BTL-6000 Shortwave Diathermy 200 / 400",
+      "titleAr": "جهاز الموجات القصيرة BTL-6000 Shortwave 200 / 400",
+      "brand": "BTL",
+      "model": "BTL-6000 Shortwave 200 / 400",
+      "category": "rehab",
+      "group": "thermal",
+      "description": "جهاز BTL-6000 للعلاج الحراري بالموجات القصيرة، بنمط مستمر أو نبضي وبشاشة لمس وبروتوكولات علاجية. يتوفر بإصداري Shortwave 200 و400؛ تختلف القدرة وأنواع المطبّقات بين الإصدارين، ويُحدد الإصدار والتجهيز المطلوبان مع الفريق.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://btl.si/uploads/btl/public/_custom/cms/BTL-Physiotherapy_CAT_EN500_preview.pdf"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch2-20261102/btl-6000-shortwave-200-400-01.jpg",
+          "width": 398,
+          "height": 770,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الموجات القصيرة BTL-6000 Shortwave 200 / 400",
+            "en": "BTL-6000 Shortwave Diathermy 200 / 400"
+          },
+          "source": "User-supplied batch2.zip / BTL-6000 Shortwave 2002.jpg",
+          "sourcePage": "https://btl.si/uploads/btl/public/_custom/cms/BTL-Physiotherapy_CAT_EN500_preview.pdf"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/btl-6000-shortwave-200-400-02.jpg",
+          "width": 369,
+          "height": 542,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الموجات القصيرة BTL-6000 Shortwave 200 / 400",
+            "en": "BTL-6000 Shortwave Diathermy 200 / 400"
+          },
+          "source": "User-supplied batch2.zip / BTL-6000 Shortwave 200 - 400.jpg",
+          "sourcePage": "https://btl.si/uploads/btl/public/_custom/cms/BTL-Physiotherapy_CAT_EN500_preview.pdf"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز BTL-6000 للعلاج الحراري بالموجات القصيرة، بنمط مستمر أو نبضي وبشاشة لمس وبروتوكولات علاجية. يتوفر بإصداري Shortwave 200 و400؛ تختلف القدرة وأنواع المطبّقات بين الإصدارين، ويُحدد الإصدار والتجهيز المطلوبان مع الفريق.</p>",
+          "en": "<p>A BTL-6000 shortwave diathermy system with continuous and pulsed modes, a touchscreen and treatment protocols. Available as Shortwave 200 or 400; output power and supported applicators differ by model. Confirm the required version and supplied configuration with the team.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز الموجات القصيرة BTL-6000 Shortwave 200 / 400",
+          "en": "BTL-6000 Shortwave Diathermy 200 / 400"
+        },
+        "features": {
+          "ar": [
+            "علاج حراري بالموجات القصيرة",
+            "نمط مستمر ونبضي",
+            "شاشة لمس وبروتوكولات علاجية",
+            "إصدارا 200 و400 حسب التجهيز"
+          ],
+          "en": [
+            "Shortwave diathermy",
+            "Continuous and pulsed modes",
+            "Touchscreen and treatment protocols",
+            "200 and 400 model configurations"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 40,
+        "metaTitle": {
+          "ar": "جهاز الموجات القصيرة BTL-6000 Shortwave 200 / 400",
+          "en": "BTL-6000 Shortwave Diathermy 200 / 400"
+        },
+        "metaDescription": {
+          "ar": "جهاز BTL-6000 للعلاج الحراري بالموجات القصيرة، بنمط مستمر أو نبضي وبشاشة لمس وبروتوكولات علاجية. يتوفر بإصداري Shortwave 200 و400؛ تختلف القدرة وأنواع المطبّقات بين الإصدارين، ويُحدد الإصدار والتجهيز المطلوبان مع الفريق.",
+          "en": "A BTL-6000 shortwave diathermy system with continuous and pulsed modes, a touchscreen and treatment protocols. Available as Shortwave 200 or 400; output power and supported applicators differ by model. Confirm the required version and supplied configuration with the team."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch2-20261102",
+        "sourceWorkbook": "Devices_for_site10_batch2.xlsx",
+        "sourceRow": 2,
+        "sourceModel": "BTL-6000 Shortwave 200 / 400"
+      }
+    },
+    {
+      "id": "ems-swiss-duoclast",
+      "name": "EMS Swiss DuoClast Radial & Focused Shockwave System",
+      "nameEn": "EMS Swiss DuoClast Radial & Focused Shockwave System",
+      "titleAr": "جهاز الموجات الصدمية EMS Swiss DuoClast (راديال وفوكس)",
+      "brand": "EMS",
+      "model": "Swiss DuoClast",
+      "category": "rehab",
+      "group": "shockwave",
+      "description": "منظومة EMS Swiss DuoClast تجمع Swiss DolorClast Master للموجات الراديال وSwiss PiezoClast للموجات المركّزة ضمن منصة علاجية واحدة. تتيح اختيار التقنية المناسبة للعلاج العضلي الهيكلي؛ تُؤكد وحدات المنظومة والقبضات والملحقات ضمن عرض السعر.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.ems-dolorclast.com/fr/produits/swiss-duoclastr"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch2-20261102/ems-swiss-duoclast-01.webp",
+          "width": 324,
+          "height": 408,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الموجات الصدمية EMS Swiss DuoClast (راديال وفوكس)",
+            "en": "EMS Swiss DuoClast Radial & Focused Shockwave System"
+          },
+          "source": "User-supplied batch2.zip / EMS SWISS DUOCLAST RADIAL & FOCUSED, THE ULTIMATE SHOCK WAVE THERAPY SOLUTION.webp",
+          "sourcePage": "https://www.ems-dolorclast.com/fr/produits/swiss-duoclastr"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/ems-swiss-duoclast-02.jpg",
+          "width": 225,
+          "height": 225,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الموجات الصدمية EMS Swiss DuoClast (راديال وفوكس)",
+            "en": "EMS Swiss DuoClast Radial & Focused Shockwave System"
+          },
+          "source": "User-supplied batch2.zip / images (1).jpg",
+          "sourcePage": "https://www.ems-dolorclast.com/fr/produits/swiss-duoclastr"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>منظومة EMS Swiss DuoClast تجمع Swiss DolorClast Master للموجات الراديال وSwiss PiezoClast للموجات المركّزة ضمن منصة علاجية واحدة. تتيح اختيار التقنية المناسبة للعلاج العضلي الهيكلي؛ تُؤكد وحدات المنظومة والقبضات والملحقات ضمن عرض السعر.</p>",
+          "en": "<p>The EMS Swiss DuoClast system combines Swiss DolorClast Master radial shock waves and Swiss PiezoClast focused shock waves in one treatment platform. Clinicians can select the appropriate technology for musculoskeletal treatment; confirm the supplied units, handpieces and accessories in the quotation.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز الموجات الصدمية EMS Swiss DuoClast (راديال وفوكس)",
+          "en": "EMS Swiss DuoClast Radial & Focused Shockwave System"
+        },
+        "features": {
+          "ar": [
+            "موجات راديال ومركّزة",
+            "Swiss DolorClast Master",
+            "Swiss PiezoClast",
+            "تجهيز المنظومة حسب عرض السعر"
+          ],
+          "en": [
+            "Radial and focused shock waves",
+            "Swiss DolorClast Master",
+            "Swiss PiezoClast",
+            "System configuration confirmed in the quotation"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 41,
+        "metaTitle": {
+          "ar": "جهاز الموجات الصدمية EMS Swiss DuoClast (راديال وفوكس)",
+          "en": "EMS Swiss DuoClast Radial & Focused Shockwave System"
+        },
+        "metaDescription": {
+          "ar": "منظومة EMS Swiss DuoClast تجمع Swiss DolorClast Master للموجات الراديال وSwiss PiezoClast للموجات المركّزة ضمن منصة علاجية واحدة. تتيح اختيار التقنية المناسبة للعلاج العضلي الهيكلي؛ تُؤكد وحدات المنظومة والقبضات والملحقات ضمن عرض السعر.",
+          "en": "The EMS Swiss DuoClast system combines Swiss DolorClast Master radial shock waves and Swiss PiezoClast focused shock waves in one treatment platform. Clinicians can select the appropriate technology for musculoskeletal treatment; confirm the supplied units, handpieces and accessories in the quotation."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch2-20261102",
+        "sourceWorkbook": "Devices_for_site10_batch2.xlsx",
+        "sourceRow": 3,
+        "sourceModel": "Swiss DuoClast"
+      }
+    },
+    {
+      "id": "indiba-at7",
+      "name": "INDIBA AT7 Tecar Radio Frequency Therapy System",
+      "nameEn": "INDIBA AT7 Tecar Radio Frequency Therapy System",
+      "titleAr": "جهاز التيكار INDIBA AT7 للعلاج بالترددات الراديوية",
+      "brand": "INDIBA",
+      "model": "AT7",
+      "category": "rehab",
+      "group": "electro",
+      "description": "جهاز تيكار يعتمد على الترددات الراديوية لتحفيز الدورة الدموية والتمثيل الغذائي داخل الأنسجة، ويُستخدم في علاج آلام العضلات والأوتار والمفاصل وإصابات الرياضيين وتسريع التعافي بعد الجراحة. يعمل بنمط سعوي ومقاوم لاستهداف الأنسجة السطحية أو العميقة.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://indiba.com/faqs/"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch2-20261102/indiba-at7-01.jpg",
+          "width": 1141,
+          "height": 650,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التيكار INDIBA AT7 للعلاج بالترددات الراديوية",
+            "en": "INDIBA AT7 Tecar Radio Frequency Therapy System"
+          },
+          "source": "User-supplied batch2.zip / INDIBA AT7  INDIBA Tecar Radio Frequency Therapy.jpg",
+          "sourcePage": "https://indiba.com/faqs/"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/indiba-at7-02.jpg",
+          "width": 572,
+          "height": 349,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التيكار INDIBA AT7 للعلاج بالترددات الراديوية",
+            "en": "INDIBA AT7 Tecar Radio Frequency Therapy System"
+          },
+          "source": "User-supplied batch2.zip / images (2).jpg",
+          "sourcePage": "https://indiba.com/faqs/"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/indiba-at7-03.jpg",
+          "width": 493,
+          "height": 622,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التيكار INDIBA AT7 للعلاج بالترددات الراديوية",
+            "en": "INDIBA AT7 Tecar Radio Frequency Therapy System"
+          },
+          "source": "User-supplied batch2.zip / images (3).jpg",
+          "sourcePage": "https://indiba.com/faqs/"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز تيكار يعتمد على الترددات الراديوية لتحفيز الدورة الدموية والتمثيل الغذائي داخل الأنسجة، ويُستخدم في علاج آلام العضلات والأوتار والمفاصل وإصابات الرياضيين وتسريع التعافي بعد الجراحة. يعمل بنمط سعوي ومقاوم لاستهداف الأنسجة السطحية أو العميقة.</p>",
+          "en": "<p>A Tecar therapy device using radio frequency to stimulate circulation and tissue metabolism, used for muscle, tendon and joint pain, sports injuries and faster post-operative recovery. Capacitive and resistive modes target superficial or deeper tissues.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز التيكار INDIBA AT7 للعلاج بالترددات الراديوية",
+          "en": "INDIBA AT7 Tecar Radio Frequency Therapy System"
+        },
+        "features": {
+          "ar": [
+            "ترددات راديوية (تيكار)",
+            "نمط سعوي ومقاوم",
+            "إصابات الرياضة وما بعد الجراحة",
+            "تسريع التعافي"
+          ],
+          "en": [
+            "Radio frequency (Tecar)",
+            "Capacitive and resistive modes",
+            "Sports injuries and post-op care",
+            "Faster recovery"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 42,
+        "metaTitle": {
+          "ar": "جهاز التيكار INDIBA AT7 للعلاج بالترددات الراديوية",
+          "en": "INDIBA AT7 Tecar Radio Frequency Therapy System"
+        },
+        "metaDescription": {
+          "ar": "جهاز تيكار يعتمد على الترددات الراديوية لتحفيز الدورة الدموية والتمثيل الغذائي داخل الأنسجة، ويُستخدم في علاج آلام العضلات والأوتار والمفاصل وإصابات الرياضيين وتسريع التعافي بعد الجراحة. يعمل بنمط سعوي ومقاوم لاستهداف الأنسجة السطحية أو العميقة.",
+          "en": "A Tecar therapy device using radio frequency to stimulate circulation and tissue metabolism, used for muscle, tendon and joint pain, sports injuries and faster post-operative recovery. Capacitive and resistive modes target superficial or deeper tissues."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch2-20261102",
+        "sourceWorkbook": "Devices_for_site10_batch2.xlsx",
+        "sourceRow": 4,
+        "sourceModel": "AT7"
+      }
+    },
+    {
+      "id": "chattanooga-triton-dts",
+      "name": "Chattanooga Triton DTS Spinal Traction System",
+      "nameEn": "Chattanooga Triton DTS Spinal Traction System",
+      "titleAr": "جهاز الشد الفقري Chattanooga Triton DTS",
+      "brand": "Chattanooga",
+      "model": "Triton DTS",
+      "category": "rehab",
+      "group": "mobility",
+      "description": "جهاز شد (Traction) للعمود الفقري العنقي والقطني، يُستخدم في علاج الانزلاق الغضروفي وانضغاط الجذور العصبية وآلام الرقبة والظهر. يوفر بروتوكولات شد مبرمجة بشاشة ملونة، ويمكن تشغيله مع طاولة شد مخصصة. تُؤكد طاولة الشد والأحزمة والملحقات المطلوبة ضمن عرض السعر.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.chattanoogarehab.com/triton-dts-package-4767-int"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch2-20261102/chattanooga-triton-dts-01.jpg",
+          "width": 394,
+          "height": 507,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الشد الفقري Chattanooga Triton DTS",
+            "en": "Chattanooga Triton DTS Spinal Traction System"
+          },
+          "source": "User-supplied batch2.zip / traction.jpg",
+          "sourcePage": "https://www.chattanoogarehab.com/triton-dts-package-4767-int"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/chattanooga-triton-dts-02.jpg",
+          "width": 447,
+          "height": 447,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الشد الفقري Chattanooga Triton DTS",
+            "en": "Chattanooga Triton DTS Spinal Traction System"
+          },
+          "source": "User-supplied batch2.zip / images (4).jpg",
+          "sourcePage": "https://www.chattanoogarehab.com/triton-dts-package-4767-int"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/chattanooga-triton-dts-03.jpg",
+          "width": 547,
+          "height": 365,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الشد الفقري Chattanooga Triton DTS",
+            "en": "Chattanooga Triton DTS Spinal Traction System"
+          },
+          "source": "User-supplied batch2.zip / images (5).jpg",
+          "sourcePage": "https://www.chattanoogarehab.com/triton-dts-package-4767-int"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز شد (Traction) للعمود الفقري العنقي والقطني، يُستخدم في علاج الانزلاق الغضروفي وانضغاط الجذور العصبية وآلام الرقبة والظهر. يوفر بروتوكولات شد مبرمجة بشاشة ملونة، ويمكن تشغيله مع طاولة شد مخصصة. تُؤكد طاولة الشد والأحزمة والملحقات المطلوبة ضمن عرض السعر.</p>",
+          "en": "<p>A traction system for the cervical and lumbar spine, used for disc herniation, nerve root compression and neck and back pain. It provides programmable traction protocols from a colour display and can be paired with a dedicated traction table. The traction table, belts and required accessories are confirmed in the quotation.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز الشد الفقري Chattanooga Triton DTS",
+          "en": "Chattanooga Triton DTS Spinal Traction System"
+        },
+        "features": {
+          "ar": [
+            "شد عنقي وقطني",
+            "بروتوكولات مبرمجة",
+            "شاشة ملونة",
+            "يعمل مع طاولة شد"
+          ],
+          "en": [
+            "Cervical and lumbar traction",
+            "Programmable protocols",
+            "Colour display",
+            "Works with traction table"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 43,
+        "metaTitle": {
+          "ar": "جهاز الشد الفقري Chattanooga Triton DTS",
+          "en": "Chattanooga Triton DTS Spinal Traction System"
+        },
+        "metaDescription": {
+          "ar": "جهاز شد (Traction) للعمود الفقري العنقي والقطني، يُستخدم في علاج الانزلاق الغضروفي وانضغاط الجذور العصبية وآلام الرقبة والظهر. يوفر بروتوكولات شد مبرمجة بشاشة ملونة، ويمكن تشغيله مع طاولة شد مخصصة. تُؤكد طاولة الشد والأحزمة والملحقات المطلوبة ضمن عرض السعر.",
+          "en": "A traction system for the cervical and lumbar spine, used for disc herniation, nerve root compression and neck and back pain. It provides programmable traction protocols from a colour display and can be paired with a dedicated traction table. The traction table, belts and required accessories are confirmed in the quotation."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch2-20261102",
+        "sourceWorkbook": "Devices_for_site10_batch2.xlsx",
+        "sourceRow": 5,
+        "sourceModel": "Triton DTS"
+      }
+    },
+    {
+      "id": "compex-sp-4-0",
+      "name": "Compex SP 4.0 Muscle Stimulator",
+      "nameEn": "Compex SP 4.0 Muscle Stimulator",
+      "titleAr": "جهاز التحفيز العضلي Compex SP 4.0",
+      "brand": "Compex",
+      "model": "SP 4.0",
+      "category": "rehab",
+      "group": "electro",
+      "description": "جهاز تحفيز كهربائي عضلي محمول يُستخدم لتقوية العضلات وتحسين الأداء الرياضي وتسريع التعافي وتخفيف الألم عبر برامج جاهزة. يناسب الرياضيين وحالات التأهيل، ويسهل حمله واستخدامه في العيادة أو المنزل.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://za.compex.com/products/compex-sp-4-0"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch2-20261102/compex-sp-4-0-01.jpg",
+          "width": 1000,
+          "height": 1000,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التحفيز العضلي Compex SP 4.0",
+            "en": "Compex SP 4.0 Muscle Stimulator"
+          },
+          "source": "User-supplied batch2.zip / 0dba4611-37c9-4ebf-a320-c2a7bed21d2a-1000x1000-eqiozUTn69r4H6kOctnYt4pjXvkCkQ9ryRCuoMvM.jpg",
+          "sourcePage": "https://za.compex.com/products/compex-sp-4-0"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/compex-sp-4-0-02.jpg",
+          "width": 953,
+          "height": 999,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التحفيز العضلي Compex SP 4.0",
+            "en": "Compex SP 4.0 Muscle Stimulator"
+          },
+          "source": "User-supplied batch2.zip / 3ec783ef-8914-409d-a6ad-3195d2270e4d-953.72233400402x1000-tDa3ZK5wDLnnA87ZZHJa8WCrdbncxcF4kO3Qjrkk.jpg",
+          "sourcePage": "https://za.compex.com/products/compex-sp-4-0"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/compex-sp-4-0-03.jpg",
+          "width": 1000,
+          "height": 800,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التحفيز العضلي Compex SP 4.0",
+            "en": "Compex SP 4.0 Muscle Stimulator"
+          },
+          "source": "User-supplied batch2.zip / 61W3k9cAZgL._AC_UF1000,1000_QL80_.jpg",
+          "sourcePage": "https://za.compex.com/products/compex-sp-4-0"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز تحفيز كهربائي عضلي محمول يُستخدم لتقوية العضلات وتحسين الأداء الرياضي وتسريع التعافي وتخفيف الألم عبر برامج جاهزة. يناسب الرياضيين وحالات التأهيل، ويسهل حمله واستخدامه في العيادة أو المنزل.</p>",
+          "en": "<p>A portable electrical muscle stimulator used for muscle strengthening, sports performance, recovery and pain relief through preset programs. Suited to athletes and rehabilitation, and easy to carry for clinic or home use.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز التحفيز العضلي Compex SP 4.0",
+          "en": "Compex SP 4.0 Muscle Stimulator"
+        },
+        "features": {
+          "ar": [
+            "تحفيز عضلي محمول",
+            "برامج تقوية وتعافٍ وتخفيف ألم",
+            "مناسب للرياضيين والتأهيل"
+          ],
+          "en": [
+            "Portable muscle stimulation",
+            "Strengthening, recovery and pain programs",
+            "For athletes and rehab"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 44,
+        "metaTitle": {
+          "ar": "جهاز التحفيز العضلي Compex SP 4.0",
+          "en": "Compex SP 4.0 Muscle Stimulator"
+        },
+        "metaDescription": {
+          "ar": "جهاز تحفيز كهربائي عضلي محمول يُستخدم لتقوية العضلات وتحسين الأداء الرياضي وتسريع التعافي وتخفيف الألم عبر برامج جاهزة. يناسب الرياضيين وحالات التأهيل، ويسهل حمله واستخدامه في العيادة أو المنزل.",
+          "en": "A portable electrical muscle stimulator used for muscle strengthening, sports performance, recovery and pain relief through preset programs. Suited to athletes and rehabilitation, and easy to carry for clinic or home use."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch2-20261102",
+        "sourceWorkbook": "Devices_for_site10_batch2.xlsx",
+        "sourceRow": 6,
+        "sourceModel": "SP 4.0"
+      }
+    },
+    {
+      "id": "kinetec-spectra",
+      "name": "Kinetec Spectra Knee CPM Device",
+      "nameEn": "Kinetec Spectra Knee CPM Device",
+      "titleAr": "جهاز الحركة السلبية المستمرة للركبة Kinetec Spectra",
+      "brand": "Kinetec",
+      "model": "Spectra",
+      "category": "rehab",
+      "group": "mobility",
+      "description": "جهاز حركة سلبية مستمرة (CPM) لتحريك مفصل الركبة بعد جراحات الركبة وتبديل المفصل، للحفاظ على مدى الحركة وتقليل التيبس والتورم. يمكن للمعالج ضبط زاوية الحركة والسرعة بما يناسب مرحلة التأهيل.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.kinetecusa.com/shop/cpm-active/knee-cpms/kinetec-spectra-with-pu-pads/"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch2-20261102/kinetec-spectra-01.jpg",
+          "width": 354,
+          "height": 354,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الحركة السلبية المستمرة للركبة Kinetec Spectra",
+            "en": "Kinetec Spectra Knee CPM Device"
+          },
+          "source": "User-supplied batch2.zip / images (9).jpg",
+          "sourcePage": "https://www.kinetecusa.com/shop/cpm-active/knee-cpms/kinetec-spectra-with-pu-pads/"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/kinetec-spectra-02.webp",
+          "width": 700,
+          "height": 700,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الحركة السلبية المستمرة للركبة Kinetec Spectra",
+            "en": "Kinetec Spectra Knee CPM Device"
+          },
+          "source": "User-supplied batch2.zip / kinetec_spectra_knee_cpm_devices_1.webp",
+          "sourcePage": "https://www.kinetecusa.com/shop/cpm-active/knee-cpms/kinetec-spectra-with-pu-pads/"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/kinetec-spectra-03.jpg",
+          "width": 500,
+          "height": 500,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الحركة السلبية المستمرة للركبة Kinetec Spectra",
+            "en": "Kinetec Spectra Knee CPM Device"
+          },
+          "source": "User-supplied batch2.zip / images (8).jpg",
+          "sourcePage": "https://www.kinetecusa.com/shop/cpm-active/knee-cpms/kinetec-spectra-with-pu-pads/"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز حركة سلبية مستمرة (CPM) لتحريك مفصل الركبة بعد جراحات الركبة وتبديل المفصل، للحفاظ على مدى الحركة وتقليل التيبس والتورم. يمكن للمعالج ضبط زاوية الحركة والسرعة بما يناسب مرحلة التأهيل.</p>",
+          "en": "<p>A continuous passive motion (CPM) device that moves the knee joint after knee surgery or joint replacement to maintain range of motion and reduce stiffness and swelling. The therapist can set the motion angle and speed to match the rehabilitation stage.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز الحركة السلبية المستمرة للركبة Kinetec Spectra",
+          "en": "Kinetec Spectra Knee CPM Device"
+        },
+        "features": {
+          "ar": [
+            "حركة سلبية مستمرة للركبة",
+            "ضبط الزاوية والسرعة",
+            "بعد جراحات الركبة وتبديل المفصل"
+          ],
+          "en": [
+            "Continuous passive knee motion",
+            "Adjustable angle and speed",
+            "After knee surgery and replacement"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 45,
+        "metaTitle": {
+          "ar": "جهاز الحركة السلبية المستمرة للركبة Kinetec Spectra",
+          "en": "Kinetec Spectra Knee CPM Device"
+        },
+        "metaDescription": {
+          "ar": "جهاز حركة سلبية مستمرة (CPM) لتحريك مفصل الركبة بعد جراحات الركبة وتبديل المفصل، للحفاظ على مدى الحركة وتقليل التيبس والتورم. يمكن للمعالج ضبط زاوية الحركة والسرعة بما يناسب مرحلة التأهيل.",
+          "en": "A continuous passive motion (CPM) device that moves the knee joint after knee surgery or joint replacement to maintain range of motion and reduce stiffness and swelling. The therapist can set the motion angle and speed to match the rehabilitation stage."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch2-20261102",
+        "sourceWorkbook": "Devices_for_site10_batch2.xlsx",
+        "sourceRow": 7,
+        "sourceModel": "Spectra"
+      }
+    },
+    {
+      "id": "myoton-myotonpro",
+      "name": "MyotonPRO Handheld Muscle Tissue Assessment Device",
+      "nameEn": "MyotonPRO Handheld Muscle Tissue Assessment Device",
+      "titleAr": "جهاز قياس خصائص العضلات MyotonPRO",
+      "brand": "Myoton",
+      "model": "MyotonPRO",
+      "category": "rehab",
+      "group": "assessment",
+      "description": "جهاز محمول لقياس الخصائص الميكانيكية للعضلات والأنسجة الرخوة دون تدخل جراحي، مثل التوتر والصلابة والمرونة، باستخدام نبضة ميكانيكية قصيرة. يفيد في تقييم حالة العضلة ومتابعة العلاج والتأهيل والأداء الرياضي بقراءات رقمية موضوعية.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.myoton.com/"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch2-20261102/myoton-myotonpro-01.png",
+          "width": 481,
+          "height": 609,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز قياس خصائص العضلات MyotonPRO",
+            "en": "MyotonPRO Handheld Muscle Tissue Assessment Device"
+          },
+          "source": "User-supplied batch2.zip / seade_data.png",
+          "sourcePage": "https://www.myoton.com/"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/myoton-myotonpro-02.jpg",
+          "width": 1920,
+          "height": 960,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز قياس خصائص العضلات MyotonPRO",
+            "en": "MyotonPRO Handheld Muscle Tissue Assessment Device"
+          },
+          "source": "User-supplied batch2.zip / poster.jpg",
+          "sourcePage": "https://www.myoton.com/"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/myoton-myotonpro-03.jpg",
+          "width": 739,
+          "height": 415,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز قياس خصائص العضلات MyotonPRO",
+            "en": "MyotonPRO Handheld Muscle Tissue Assessment Device"
+          },
+          "source": "User-supplied batch2.zip / images (10).jpg",
+          "sourcePage": "https://www.myoton.com/"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز محمول لقياس الخصائص الميكانيكية للعضلات والأنسجة الرخوة دون تدخل جراحي، مثل التوتر والصلابة والمرونة، باستخدام نبضة ميكانيكية قصيرة. يفيد في تقييم حالة العضلة ومتابعة العلاج والتأهيل والأداء الرياضي بقراءات رقمية موضوعية.</p>",
+          "en": "<p>A handheld, non-invasive device that measures the mechanical properties of muscle and soft tissue, such as tone, stiffness and elasticity, using a brief mechanical impulse. It supports muscle assessment and tracking of treatment, rehabilitation and sports performance with objective digital readings.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز قياس خصائص العضلات MyotonPRO",
+          "en": "MyotonPRO Handheld Muscle Tissue Assessment Device"
+        },
+        "features": {
+          "ar": [
+            "قياس توتر وصلابة ومرونة العضلة",
+            "محمول وسريع",
+            "قراءات رقمية موضوعية",
+            "للتأهيل والرياضة"
+          ],
+          "en": [
+            "Tone, stiffness and elasticity",
+            "Handheld and quick",
+            "Objective digital readings",
+            "For rehab and sports"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 46,
+        "metaTitle": {
+          "ar": "جهاز قياس خصائص العضلات MyotonPRO",
+          "en": "MyotonPRO Handheld Muscle Tissue Assessment Device"
+        },
+        "metaDescription": {
+          "ar": "جهاز محمول لقياس الخصائص الميكانيكية للعضلات والأنسجة الرخوة دون تدخل جراحي، مثل التوتر والصلابة والمرونة، باستخدام نبضة ميكانيكية قصيرة. يفيد في تقييم حالة العضلة ومتابعة العلاج والتأهيل والأداء الرياضي بقراءات رقمية موضوعية.",
+          "en": "A handheld, non-invasive device that measures the mechanical properties of muscle and soft tissue, such as tone, stiffness and elasticity, using a brief mechanical impulse. It supports muscle assessment and tracking of treatment, rehabilitation and sports performance with objective digital readings."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch2-20261102",
+        "sourceWorkbook": "Devices_for_site10_batch2.xlsx",
+        "sourceRow": 8,
+        "sourceModel": "MyotonPRO"
+      }
+    },
+    {
+      "id": "hoggan-microfet2",
+      "name": "HOGGAN microFET2 Handheld Muscle Tester",
+      "nameEn": "HOGGAN microFET2 Handheld Muscle Tester",
+      "titleAr": "جهاز قياس قوة العضلات HOGGAN microFET2",
+      "brand": "Hoggan",
+      "model": "microFET2",
+      "category": "rehab",
+      "group": "assessment",
+      "description": "دينامومتر يدوي محمول من HOGGAN لقياس قوة العضلات رقميًا أثناء الفحص ومتابعة نتائج التأهيل. يعرض القوة القصوى ومدة الاختبار، ويدعم الاتصال اللاسلكي مع برامج جمع البيانات المتوافقة التي تُطلب بصورة منفصلة.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://hogganscientific.com/product/microfet2-muscle-tester-digital-handheld-dynamometer/"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch2-20261102/hoggan-microfet2-01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز قياس قوة العضلات HOGGAN microFET2",
+            "en": "HOGGAN microFET2 Handheld Muscle Tester"
+          },
+          "source": "User-supplied batch2.zip / fs2421.jpg",
+          "sourcePage": "https://hogganscientific.com/product/microfet2-muscle-tester-digital-handheld-dynamometer/"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/hoggan-microfet2-02.webp",
+          "width": 1200,
+          "height": 800,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز قياس قوة العضلات HOGGAN microFET2",
+            "en": "HOGGAN microFET2 Handheld Muscle Tester"
+          },
+          "source": "User-supplied batch2.zip / MicroFET_2_by_Hoggan_Scientific_-_Complete_Set__44294.webp",
+          "sourcePage": "https://hogganscientific.com/product/microfet2-muscle-tester-digital-handheld-dynamometer/"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/hoggan-microfet2-03.jpg",
+          "width": 591,
+          "height": 314,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز قياس قوة العضلات HOGGAN microFET2",
+            "en": "HOGGAN microFET2 Handheld Muscle Tester"
+          },
+          "source": "User-supplied batch2.zip / images (12).jpg",
+          "sourcePage": "https://hogganscientific.com/product/microfet2-muscle-tester-digital-handheld-dynamometer/"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>دينامومتر يدوي محمول من HOGGAN لقياس قوة العضلات رقميًا أثناء الفحص ومتابعة نتائج التأهيل. يعرض القوة القصوى ومدة الاختبار، ويدعم الاتصال اللاسلكي مع برامج جمع البيانات المتوافقة التي تُطلب بصورة منفصلة.</p>",
+          "en": "<p>A handheld HOGGAN dynamometer for objective digital muscle-strength testing and rehabilitation tracking. It displays peak force and test duration and supports wireless data collection with compatible software ordered separately.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز قياس قوة العضلات HOGGAN microFET2",
+          "en": "HOGGAN microFET2 Handheld Muscle Tester"
+        },
+        "features": {
+          "ar": [
+            "قياس رقمي لقوة العضلات",
+            "القوة القصوى ومدة الاختبار",
+            "تصميم محمول",
+            "اتصال لاسلكي مع برنامج اختياري"
+          ],
+          "en": [
+            "Digital muscle-strength measurement",
+            "Peak force and test duration",
+            "Handheld design",
+            "Wireless capability with optional software"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 47,
+        "metaTitle": {
+          "ar": "جهاز قياس قوة العضلات HOGGAN microFET2",
+          "en": "HOGGAN microFET2 Handheld Muscle Tester"
+        },
+        "metaDescription": {
+          "ar": "دينامومتر يدوي محمول من HOGGAN لقياس قوة العضلات رقميًا أثناء الفحص ومتابعة نتائج التأهيل. يعرض القوة القصوى ومدة الاختبار، ويدعم الاتصال اللاسلكي مع برامج جمع البيانات المتوافقة التي تُطلب بصورة منفصلة.",
+          "en": "A handheld HOGGAN dynamometer for objective digital muscle-strength testing and rehabilitation tracking. It displays peak force and test duration and supports wireless data collection with compatible software ordered separately."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch2-20261102",
+        "sourceWorkbook": "Devices_for_site10_batch2.xlsx",
+        "sourceRow": 9,
+        "sourceModel": "Micro FET 2"
+      }
+    },
+    {
+      "id": "hur-smartbalance-2031",
+      "name": "HUR SmartBalance Balance Assessment and Training System",
+      "nameEn": "HUR SmartBalance Balance Assessment and Training System",
+      "titleAr": "جهاز تقييم وتدريب التوازن HUR SmartBalance",
+      "brand": "HUR",
+      "model": "SmartBalance 2031",
+      "category": "rehab",
+      "group": "assessment",
+      "description": "نظام لتقييم التوازن وتدريبه، يحدد خطر السقوط باختبارات معيارية مثل Romberg وحدود الاستقرار، ثم يقدم تمارين وألعاب تفاعلية لتحسين التوازن. يعرض تقارير بيانية ودرجة توازن لمتابعة التقدم، ويناسب مراكز التأهيل ودور رعاية كبار السن.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://hur.fi/product/hur-smartbalance/"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch2-20261102/hur-smartbalance-2031-01.webp",
+          "width": 1920,
+          "height": 1920,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز تقييم وتدريب التوازن HUR SmartBalance",
+            "en": "HUR SmartBalance Balance Assessment and Training System"
+          },
+          "source": "User-supplied batch2.zip / 2031_SmartBalance_RGB_300px.webp",
+          "sourcePage": "https://hur.fi/product/hur-smartbalance/"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/hur-smartbalance-2031-02.jpg",
+          "width": 480,
+          "height": 313,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز تقييم وتدريب التوازن HUR SmartBalance",
+            "en": "HUR SmartBalance Balance Assessment and Training System"
+          },
+          "source": "User-supplied batch2.zip / balance_card_reader.jpg",
+          "sourcePage": "https://hur.fi/product/hur-smartbalance/"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>نظام لتقييم التوازن وتدريبه، يحدد خطر السقوط باختبارات معيارية مثل Romberg وحدود الاستقرار، ثم يقدم تمارين وألعاب تفاعلية لتحسين التوازن. يعرض تقارير بيانية ودرجة توازن لمتابعة التقدم، ويناسب مراكز التأهيل ودور رعاية كبار السن.</p>",
+          "en": "<p>A balance assessment and training system that identifies fall risk through standard tests such as Romberg and Limits of Stability, then offers interactive exercises and games to improve balance. It provides graphic reports and a balance score to track progress, and suits rehabilitation centres and senior care.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز تقييم وتدريب التوازن HUR SmartBalance",
+          "en": "HUR SmartBalance Balance Assessment and Training System"
+        },
+        "features": {
+          "ar": [
+            "اختبارات Romberg وحدود الاستقرار",
+            "ألعاب تدريب تفاعلية",
+            "درجة توازن وتقارير",
+            "للوقاية من السقوط"
+          ],
+          "en": [
+            "Romberg and Limits of Stability tests",
+            "Interactive training games",
+            "Balance score and reports",
+            "Fall prevention"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 48,
+        "metaTitle": {
+          "ar": "جهاز تقييم وتدريب التوازن HUR SmartBalance",
+          "en": "HUR SmartBalance Balance Assessment and Training System"
+        },
+        "metaDescription": {
+          "ar": "نظام لتقييم التوازن وتدريبه، يحدد خطر السقوط باختبارات معيارية مثل Romberg وحدود الاستقرار، ثم يقدم تمارين وألعاب تفاعلية لتحسين التوازن. يعرض تقارير بيانية ودرجة توازن لمتابعة التقدم، ويناسب مراكز التأهيل ودور رعاية كبار السن.",
+          "en": "A balance assessment and training system that identifies fall risk through standard tests such as Romberg and Limits of Stability, then offers interactive exercises and games to improve balance. It provides graphic reports and a balance score to track progress, and suits rehabilitation centres and senior care."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch2-20261102",
+        "sourceWorkbook": "Devices_for_site10_batch2.xlsx",
+        "sourceRow": 10,
+        "sourceModel": "SmartBalance 2031"
+      }
+    },
+    {
+      "id": "tyromotion-diego",
+      "name": "Tyromotion Diego Robotic Arm and Shoulder Rehabilitation Device",
+      "nameEn": "Tyromotion Diego Robotic Arm and Shoulder Rehabilitation Device",
+      "titleAr": "جهاز التأهيل الروبوتي للذراع والكتف Diego",
+      "brand": "Tyromotion",
+      "model": "Diego",
+      "category": "rehab",
+      "group": "mobility",
+      "description": "جهاز Tyromotion Diego لتأهيل الذراع والكتف، مع دعم قابل للضبط لوزن الذراع وتدريب للحركة في ثلاثة أبعاد أثناء الجلوس. يتيح التدريب بذراع واحدة أو بالذراعين وتمارين تفاعلية ومهام من الحياة اليومية، مع متابعة موضوعية للتقدم. يُؤكد إصدار الجهاز والبرامج ضمن عرض السعر.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.tyromotion.com/product/diego-arm-rehabilitation-device/"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch2-20261102/tyromotion-diego-01.jpg",
+          "width": 1541,
+          "height": 1027,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التأهيل الروبوتي للذراع والكتف Diego",
+            "en": "Tyromotion Diego Robotic Arm and Shoulder Rehabilitation Device"
+          },
+          "source": "https://www.tyromotion.com/wp-content/uploads/2026/02/diego-in-use7-kopie.jpg",
+          "sourcePage": "https://www.tyromotion.com/product/diego-arm-rehabilitation-device/"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/tyromotion-diego-02.jpg",
+          "width": 400,
+          "height": 400,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التأهيل الروبوتي للذراع والكتف Diego",
+            "en": "Tyromotion Diego Robotic Arm and Shoulder Rehabilitation Device"
+          },
+          "source": "https://www.tyromotion.com/wp-content/uploads/2026/02/diego-keyfact-1-400x400.png",
+          "sourcePage": "https://www.tyromotion.com/product/diego-arm-rehabilitation-device/"
+        },
+        {
+          "file": "assets/products/devices-batch2-20261102/tyromotion-diego-03.jpg",
+          "width": 400,
+          "height": 400,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التأهيل الروبوتي للذراع والكتف Diego",
+            "en": "Tyromotion Diego Robotic Arm and Shoulder Rehabilitation Device"
+          },
+          "source": "https://www.tyromotion.com/wp-content/uploads/2026/02/diego-keyfact-2-400x400.png",
+          "sourcePage": "https://www.tyromotion.com/product/diego-arm-rehabilitation-device/"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز Tyromotion Diego لتأهيل الذراع والكتف، مع دعم قابل للضبط لوزن الذراع وتدريب للحركة في ثلاثة أبعاد أثناء الجلوس. يتيح التدريب بذراع واحدة أو بالذراعين وتمارين تفاعلية ومهام من الحياة اليومية، مع متابعة موضوعية للتقدم. يُؤكد إصدار الجهاز والبرامج ضمن عرض السعر.</p>",
+          "en": "<p>The Tyromotion Diego supports seated arm and shoulder rehabilitation with adjustable arm-weight relief and three-dimensional training. It enables unilateral or bilateral practice, interactive exercises and everyday functional tasks with objective progress tracking. Device version and software configuration are confirmed in the quotation.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز التأهيل الروبوتي للذراع والكتف Diego",
+          "en": "Tyromotion Diego Robotic Arm and Shoulder Rehabilitation Device"
+        },
+        "features": {
+          "ar": [
+            "تأهيل الذراع والكتف",
+            "دعم وزن الذراع",
+            "تمارين واقع افتراضي",
+            "قياسات موضوعية للتقدم"
+          ],
+          "en": [
+            "Arm and shoulder rehab",
+            "Arm weight support",
+            "Virtual-reality exercises",
+            "Objective progress data"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 49,
+        "metaTitle": {
+          "ar": "جهاز التأهيل الروبوتي للذراع والكتف Diego",
+          "en": "Tyromotion Diego Robotic Arm and Shoulder Rehabilitation Device"
+        },
+        "metaDescription": {
+          "ar": "جهاز Tyromotion Diego لتأهيل الذراع والكتف، مع دعم قابل للضبط لوزن الذراع وتدريب للحركة في ثلاثة أبعاد أثناء الجلوس. يتيح التدريب بذراع واحدة أو بالذراعين وتمارين تفاعلية ومهام من الحياة اليومية، مع متابعة موضوعية للتقدم. يُؤكد إصدار الجهاز والبرامج ضمن عرض السعر.",
+          "en": "The Tyromotion Diego supports seated arm and shoulder rehabilitation with adjustable arm-weight relief and three-dimensional training. It enables unilateral or bilateral practice, interactive exercises and everyday functional tasks with objective progress tracking. Device version and software configuration are confirmed in the quotation."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch2-20261102",
+        "sourceWorkbook": "Devices_for_site10_batch2.xlsx",
+        "sourceRow": 11,
+        "sourceModel": "Diego"
+      }
     }
   ],
   "offers": [

@@ -415,6 +415,34 @@
     {
       "slug": "reck",
       "label": "RECK"
+    },
+    {
+      "slug": "indiba",
+      "label": "INDIBA"
+    },
+    {
+      "slug": "chattanooga",
+      "label": "Chattanooga"
+    },
+    {
+      "slug": "compex",
+      "label": "Compex"
+    },
+    {
+      "slug": "kinetec",
+      "label": "Kinetec"
+    },
+    {
+      "slug": "myoton",
+      "label": "Myoton"
+    },
+    {
+      "slug": "hoggan",
+      "label": "Hoggan"
+    },
+    {
+      "slug": "hur",
+      "label": "HUR"
     }
   ],
   "juzoTaxonomy": [

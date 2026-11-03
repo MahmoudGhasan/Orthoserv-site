@@ -34473,7 +34473,7 @@
       "model": "Hypervolt 2 Pro",
       "category": "rehab",
       "group": "mobility",
-      "description": "جهاز تدليك بالطرق السريع (Percussion) محمول يستخدم لتخفيف شد العضلات وتسريع التعافي قبل الرياضة وبعدها. يأتي مع رؤوس تدليك متعددة، ويتميز بتشغيل هادئ نسبيًا وبطارية قابلة للشحن.",
+      "description": "",
       "price": null,
       "method": "quote",
       "demo": false,
@@ -34512,8 +34512,8 @@
       ],
       "commerce": {
         "description": {
-          "ar": "<p>جهاز تدليك بالطرق السريع (Percussion) محمول يستخدم لتخفيف شد العضلات وتسريع التعافي قبل الرياضة وبعدها. يأتي مع رؤوس تدليك متعددة، ويتميز بتشغيل هادئ نسبيًا وبطارية قابلة للشحن.</p>",
-          "en": "<p>A portable percussion massager used to ease muscle tension and speed up recovery before and after exercise. It comes with several interchangeable heads, relatively quiet operation and a rechargeable battery.</p>"
+          "ar": "\n\n<p><br></p>",
+          "en": "\n\n<p>A portable percussion massager used to ease muscle tension and speed up recovery before and after exercise. It comes with several interchangeable heads, relatively quiet operation and a rechargeable battery.</p>"
         },
         "shortDescription": {
           "ar": "جهاز تدليك بالطرق السريع (Percussion) محمول يستخدم لتخفيف شد العضلات وتسريع التعافي قبل الرياضة وبعدها. يأتي مع رؤوس تدليك متعددة، ويتميز بتشغيل هادئ نسبيًا وبطارية قابلة للشحن.",
@@ -34521,22 +34521,16 @@
         },
         "features": {
           "ar": [
-            "رؤوس تدليك متعددة",
-            "تشغيل هادئ",
-            "بطارية قابلة للشحن",
-            "محمول"
+            "رؤوس تدليك متعددة تشغيل هادئ بطارية قابلة للشحن محمول"
           ],
           "en": [
-            "Multiple massage heads",
-            "Quiet operation",
-            "Rechargeable battery",
-            "Portable"
+            "Multiple massage heads Quiet operation Rechargeable battery Portable"
           ]
         },
         "specifications": [],
         "quoteEnabled": true,
         "status": "published",
-        "sortOrder": 34,
+        "sortOrder": 34.0,
         "metaTitle": {
           "ar": "مسدس التدليك Hypervolt 2 Pro",
           "en": "Hyperice Hypervolt 2 Pro Percussion Massager"
@@ -34544,14 +34538,51 @@
         "metaDescription": {
           "ar": "جهاز تدليك بالطرق السريع (Percussion) محمول يستخدم لتخفيف شد العضلات وتسريع التعافي قبل الرياضة وبعدها. يأتي مع رؤوس تدليك متعددة، ويتميز بتشغيل هادئ نسبيًا وبطارية قابلة للشحن.",
           "en": "A portable percussion massager used to ease muscle tension and speed up recovery before and after exercise. It comes with several interchangeable heads, relatively quiet operation and a rechargeable battery."
-        }
+        },
+        "accessories": {
+          "ar": "",
+          "en": ""
+        },
+        "warranty": {
+          "ar": "",
+          "en": ""
+        },
+        "origin": {
+          "ar": "",
+          "en": ""
+        },
+        "certifications": {
+          "ar": "",
+          "en": ""
+        },
+        "applications": {
+          "ar": "",
+          "en": ""
+        },
+        "leadTime": {
+          "ar": "",
+          "en": ""
+        },
+        "tags": {
+          "ar": [],
+          "en": []
+        },
+        "videoUrl": "",
+        "attachments": [],
+        "compareAt": null,
+        "vatIncluded": null,
+        "related": [],
+        "updatedAt": "2026-11-03T08:25:02.495878+00:00"
       },
       "catalogueImport": {
         "batch": "devices-10-20261102",
         "sourceWorkbook": "Devices_for_site10.xlsx",
         "sourceRow": 6,
         "sourceModel": "Hypervolt 2.0 Pro"
-      }
+      },
+      "salePrice": null,
+      "saleStart": "",
+      "saleEnd": ""
     },
     {
       "id": "inbody-270",

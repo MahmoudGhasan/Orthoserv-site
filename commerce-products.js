@@ -60,7 +60,7 @@
  }
  function renderOffers(main){
   const section=element('section',null,'wrap section');section.append(element('h1',lang()==='ar'?'العروض':'Offers'));
-  section.append(element('p',lang()==='ar'?'':''));
+  section.append(element('p',lang()==='ar'?'إرسال الطلبات والدفع غير متاحين حاليًا.':'Order submission and payments are currently unavailable.'));
   const list=campaigns().filter(o=>o.placements?.includes('offers'));
   for(const offer of list)section.append(offerCard(offer));
   if(!list.length)section.append(element('p',lang()==='ar'?'لا توجد عروض نشطة.':'No active offers.'));
@@ -103,7 +103,7 @@
     const note=main.querySelector('.detail-price p');const value=info.vatIncluded?(lang()==='ar'?'شامل الضريبة':'VAT included'):(lang()==='ar'?'غير شامل الضريبة':'VAT excluded');
     if(note&&note.textContent!==value){note.dataset.noTranslate='';note.textContent=value;}
    }
-   if(false){ // Priced products have one purchase action; quote-only products use their normal quote action.
+   if(info.quoteEnabled&&!main.querySelector('.commerce-quote')&&p.method==='buy'){
     const button=element('button',lang()==='ar'?'طلب عرض سعر':'Request quote','button commerce-quote');button.dataset.quote=p.id;main.querySelector('.detail-copy')?.append(button);
    }
    if(info.related?.length){

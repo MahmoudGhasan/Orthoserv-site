@@ -443,6 +443,30 @@
     {
       "slug": "hur",
       "label": "HUR"
+    },
+    {
+      "slug": "remed",
+      "label": "Remed"
+    },
+    {
+      "slug": "gymna",
+      "label": "Gymna"
+    },
+    {
+      "slug": "physiomed",
+      "label": "Physiomed"
+    },
+    {
+      "slug": "align-pilates",
+      "label": "Align-Pilates"
+    },
+    {
+      "slug": "cosmed",
+      "label": "COSMED"
+    },
+    {
+      "slug": "ge-healthcare",
+      "label": "GE HealthCare"
     }
   ],
   "juzoTaxonomy": [

@@ -4894,14 +4894,28 @@
       "options": [],
       "files": [
         {
-          "file": "assets/products/catalogue-20261029/D-073_1.jpg",
+          "file": "assets/products/devices-batch3-20261103/artromot-80-00-023-01.jpg",
+          "width": 395,
+          "height": 506,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الحركة السلبية المستمرة للكتف ARTROMOT S3",
+            "en": "ARTROMOT S3 Shoulder CPM"
+          },
+          "source": "User-supplied batch3.zip / images (14).jpg",
+          "sourcePage": "https://www.chattanoogarehab.com/fr/artromot-s3-80-00-02x-fr"
+        },
+        {
+          "file": "assets/products/devices-batch3-20261103/artromot-80-00-023-02.jpg",
           "width": 486,
           "height": 770,
           "role": "product",
           "alt": {
-            "en": "ARTROMOT S3 Shoulder CPM",
-            "ar": "ARTROMOT S3 Shoulder CPM"
-          }
+            "ar": "جهاز الحركة السلبية المستمرة للكتف ARTROMOT S3",
+            "en": "ARTROMOT S3 Shoulder CPM"
+          },
+          "source": "User-supplied batch3.zip / ArtromotS3_Reformat.jpg",
+          "sourcePage": "https://www.chattanoogarehab.com/fr/artromot-s3-80-00-02x-fr"
         }
       ],
       "commerce": {
@@ -35958,6 +35972,817 @@
         "sourceWorkbook": "Devices_for_site10_batch2.xlsx",
         "sourceRow": 11,
         "sourceModel": "Diego"
+      }
+    },
+    {
+      "id": "btl-6000-super-inductive-system-elite",
+      "name": "BTL-6000 Super Inductive System Elite Electromagnetic Stimulation",
+      "nameEn": "BTL-6000 Super Inductive System Elite Electromagnetic Stimulation",
+      "titleAr": "جهاز التحفيز الكهرومغناطيسي BTL-6000 Super Inductive System Elite",
+      "brand": "BTL",
+      "model": "BTL-6000 Super Inductive System Elite",
+      "category": "rehab",
+      "group": "electro",
+      "description": "جهاز تحفيز كهرومغناطيسي عالي الشدة يعمل بالمجال المغناطيسي دون تلامس مباشر، لتخفيف الألم العضلي الهيكلي وتحفيز العضلات وتحسين الدورة الدموية. يناسب علاج آلام الظهر والرقبة والمفاصل وإصابات الرياضة، ويمكن تطبيقه على الأنسجة العميقة.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.btlmedical.com.hk/pain/brochures/Super%20Inductive%20System.pdf"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch3-20261103/btl-6000-super-inductive-system-elite-01.jpg",
+          "width": 500,
+          "height": 500,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التحفيز الكهرومغناطيسي BTL-6000 Super Inductive System Elite",
+            "en": "BTL-6000 Super Inductive System Elite Electromagnetic Stimulation"
+          },
+          "source": "User-supplied batch3.zip / btl-6000-super-inductive-system-elite-500x500-jpg.jpg",
+          "sourcePage": "https://www.btlmedical.com.hk/pain/brochures/Super%20Inductive%20System.pdf"
+        },
+        {
+          "file": "assets/products/devices-batch3-20261103/btl-6000-super-inductive-system-elite-02.png",
+          "width": 500,
+          "height": 386,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التحفيز الكهرومغناطيسي BTL-6000 Super Inductive System Elite",
+            "en": "BTL-6000 Super Inductive System Elite Electromagnetic Stimulation"
+          },
+          "source": "User-supplied batch3.zip / product-jpeg.png",
+          "sourcePage": "https://www.btlmedical.com.hk/pain/brochures/Super%20Inductive%20System.pdf"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز تحفيز كهرومغناطيسي عالي الشدة يعمل بالمجال المغناطيسي دون تلامس مباشر، لتخفيف الألم العضلي الهيكلي وتحفيز العضلات وتحسين الدورة الدموية. يناسب علاج آلام الظهر والرقبة والمفاصل وإصابات الرياضة، ويمكن تطبيقه على الأنسجة العميقة.</p>",
+          "en": "<p>A high-intensity electromagnetic stimulation device that works through a magnetic field without direct contact, used to relieve musculoskeletal pain, stimulate muscles and improve circulation. Suited to back, neck and joint pain and sports injuries, and able to reach deeper tissues.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز التحفيز الكهرومغناطيسي BTL-6000 Super Inductive System Elite",
+          "en": "BTL-6000 Super Inductive System Elite Electromagnetic Stimulation"
+        },
+        "features": {
+          "ar": [
+            "مجال مغناطيسي عالي الشدة",
+            "تطبيق دون تلامس",
+            "تحفيز الأنسجة العميقة",
+            "مناسب لآلام الظهر والمفاصل"
+          ],
+          "en": [
+            "High-intensity magnetic field",
+            "Contact-free application",
+            "Deep tissue stimulation",
+            "For back and joint pain"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 50,
+        "metaTitle": {
+          "ar": "جهاز التحفيز الكهرومغناطيسي BTL-6000 Super Inductive System Elite",
+          "en": "BTL-6000 Super Inductive System Elite Electromagnetic Stimulation"
+        },
+        "metaDescription": {
+          "ar": "جهاز تحفيز كهرومغناطيسي عالي الشدة يعمل بالمجال المغناطيسي دون تلامس مباشر، لتخفيف الألم العضلي الهيكلي وتحفيز العضلات وتحسين الدورة الدموية. يناسب علاج آلام الظهر والرقبة والمفاصل وإصابات الرياضة، ويمكن تطبيقه على الأنسجة العميقة.",
+          "en": "A high-intensity electromagnetic stimulation device that works through a magnetic field without direct contact, used to relieve musculoskeletal pain, stimulate muscles and improve circulation. Suited to back, neck and joint pain and sports injuries, and able to reach deeper tissues."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch3-20261103",
+        "sourceWorkbook": "Devices_for_site10_batch3.xlsx",
+        "sourceRow": 2,
+        "sourceModel": "BTL-6000 Super Inductive System Elite"
+      }
+    },
+    {
+      "id": "btl-6000-tr-therapy-pro",
+      "name": "BTL-6000 TR-Therapy Pro Radiofrequency Therapy System",
+      "nameEn": "BTL-6000 TR-Therapy Pro Radiofrequency Therapy System",
+      "titleAr": "جهاز العلاج بالترددات الراديوية BTL-6000 TR-Therapy Pro",
+      "brand": "BTL",
+      "model": "BTL-6000 TR-Therapy Pro",
+      "category": "rehab",
+      "group": "electro",
+      "description": "جهاز BTL-6000 TR-Therapy Pro للعلاج بالترددات الراديوية، بقدرة قصوى 150 واط وشاشة لمس 5.7 بوصة. يدعم النمطين السعوي والمقاوم والعلاج المستمر أو النبضي، مع بروتوكولات علاجية. تُؤكد العربة والملحقات المطلوبة ضمن عرض السعر.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.btlmedical.com.hk/pain/brochures/Targeted%20Radiofrequency%20Therapy.pdf"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch3-20261103/btl-6000-tr-therapy-pro-01.jpg",
+          "width": 365,
+          "height": 547,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز العلاج بالترددات الراديوية BTL-6000 TR-Therapy Pro",
+            "en": "BTL-6000 TR-Therapy Pro Radiofrequency Therapy System"
+          },
+          "source": "User-supplied batch3.zip / images (3).jpg",
+          "sourcePage": "https://www.btlmedical.com.hk/pain/brochures/Targeted%20Radiofrequency%20Therapy.pdf"
+        },
+        {
+          "file": "assets/products/devices-batch3-20261103/btl-6000-tr-therapy-pro-02.jpg",
+          "width": 447,
+          "height": 447,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز العلاج بالترددات الراديوية BTL-6000 TR-Therapy Pro",
+            "en": "BTL-6000 TR-Therapy Pro Radiofrequency Therapy System"
+          },
+          "source": "User-supplied batch3.zip / images (5).jpg",
+          "sourcePage": "https://www.btlmedical.com.hk/pain/brochures/Targeted%20Radiofrequency%20Therapy.pdf"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز BTL-6000 TR-Therapy Pro للعلاج بالترددات الراديوية، بقدرة قصوى 150 واط وشاشة لمس 5.7 بوصة. يدعم النمطين السعوي والمقاوم والعلاج المستمر أو النبضي، مع بروتوكولات علاجية. تُؤكد العربة والملحقات المطلوبة ضمن عرض السعر.</p>",
+          "en": "<p>The BTL-6000 TR-Therapy Pro provides targeted radiofrequency therapy with up to 150 W output and a 5.7-inch touchscreen. It supports capacitive and resistive applications, continuous and pulsed modes, and treatment protocols. The trolley and required accessories are confirmed in the quotation.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز العلاج بالترددات الراديوية BTL-6000 TR-Therapy Pro",
+          "en": "BTL-6000 TR-Therapy Pro Radiofrequency Therapy System"
+        },
+        "features": {
+          "ar": [
+            "قدرة قصوى 150 واط",
+            "شاشة لمس 5.7 بوصة",
+            "نمط سعوي ومقاوم",
+            "علاج مستمر أو نبضي"
+          ],
+          "en": [
+            "Up to 150 W output",
+            "5.7-inch touchscreen",
+            "Capacitive and resistive applications",
+            "Continuous and pulsed modes"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 51,
+        "metaTitle": {
+          "ar": "جهاز العلاج بالترددات الراديوية BTL-6000 TR-Therapy Pro",
+          "en": "BTL-6000 TR-Therapy Pro Radiofrequency Therapy System"
+        },
+        "metaDescription": {
+          "ar": "جهاز BTL-6000 TR-Therapy Pro للعلاج بالترددات الراديوية، بقدرة قصوى 150 واط وشاشة لمس 5.7 بوصة. يدعم النمطين السعوي والمقاوم والعلاج المستمر أو النبضي، مع بروتوكولات علاجية. تُؤكد العربة والملحقات المطلوبة ضمن عرض السعر.",
+          "en": "The BTL-6000 TR-Therapy Pro provides targeted radiofrequency therapy with up to 150 W output and a 5.7-inch touchscreen. It supports capacitive and resistive applications, continuous and pulsed modes, and treatment protocols. The trolley and required accessories are confirmed in the quotation."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch3-20261103",
+        "sourceWorkbook": "Devices_for_site10_batch3.xlsx",
+        "sourceRow": 3,
+        "sourceModel": "BTL-6000 TR-Therapy Pro"
+      }
+    },
+    {
+      "id": "remed-salus-talent-pro",
+      "name": "Salus Talent Pro Electromagnetic Stimulation System",
+      "nameEn": "Salus Talent Pro Electromagnetic Stimulation System",
+      "titleAr": "جهاز التحفيز الكهرومغناطيسي Salus Talent Pro",
+      "brand": "Remed",
+      "model": "Salus Talent Pro",
+      "category": "rehab",
+      "group": "electro",
+      "description": "جهاز Salus Talent Pro من Remed للتحفيز الكهرومغناطيسي، مع وحدة تحكم ومطبّقات للعلاج العضلي الهيكلي. يتيح ضبط إعدادات الجلسة وفق تقييم المختص. تُؤكد نسخة الجهاز ومطبّقات العلاج والملحقات ضمن عرض السعر.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.remed.kr/en/doc/business/physiology"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch3-20261103/remed-salus-talent-pro-01.jpg",
+          "width": 421,
+          "height": 729,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التحفيز الكهرومغناطيسي Salus Talent Pro",
+            "en": "Salus Talent Pro Electromagnetic Stimulation System"
+          },
+          "source": "User-supplied batch3.zip / images (8).jpg",
+          "sourcePage": "https://www.remed.kr/en/doc/business/physiology"
+        },
+        {
+          "file": "assets/products/devices-batch3-20261103/remed-salus-talent-pro-02.jpg",
+          "width": 355,
+          "height": 563,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التحفيز الكهرومغناطيسي Salus Talent Pro",
+            "en": "Salus Talent Pro Electromagnetic Stimulation System"
+          },
+          "source": "User-supplied batch3.zip / images (9).jpg",
+          "sourcePage": "https://www.remed.kr/en/doc/business/physiology"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز Salus Talent Pro من Remed للتحفيز الكهرومغناطيسي، مع وحدة تحكم ومطبّقات للعلاج العضلي الهيكلي. يتيح ضبط إعدادات الجلسة وفق تقييم المختص. تُؤكد نسخة الجهاز ومطبّقات العلاج والملحقات ضمن عرض السعر.</p>",
+          "en": "<p>The Remed Salus Talent Pro is an electromagnetic stimulation system with a control console and treatment applicators for musculoskeletal therapy. Session settings are adjusted according to the clinician’s assessment. Device version, applicators and accessories are confirmed in the quotation.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز التحفيز الكهرومغناطيسي Salus Talent Pro",
+          "en": "Salus Talent Pro Electromagnetic Stimulation System"
+        },
+        "features": {
+          "ar": [
+            "تحفيز كهرومغناطيسي",
+            "وحدة تحكم بإعدادات قابلة للضبط",
+            "مطبّقات للعلاج العضلي الهيكلي",
+            "تأكيد النسخة والملحقات مع الفريق"
+          ],
+          "en": [
+            "Electromagnetic stimulation",
+            "Adjustable console settings",
+            "Musculoskeletal treatment applicators",
+            "Confirm version and accessories with the team"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 52,
+        "metaTitle": {
+          "ar": "جهاز التحفيز الكهرومغناطيسي Salus Talent Pro",
+          "en": "Salus Talent Pro Electromagnetic Stimulation System"
+        },
+        "metaDescription": {
+          "ar": "جهاز Salus Talent Pro من Remed للتحفيز الكهرومغناطيسي، مع وحدة تحكم ومطبّقات للعلاج العضلي الهيكلي. يتيح ضبط إعدادات الجلسة وفق تقييم المختص. تُؤكد نسخة الجهاز ومطبّقات العلاج والملحقات ضمن عرض السعر.",
+          "en": "The Remed Salus Talent Pro is an electromagnetic stimulation system with a control console and treatment applicators for musculoskeletal therapy. Session settings are adjusted according to the clinician’s assessment. Device version, applicators and accessories are confirmed in the quotation."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch3-20261103",
+        "sourceWorkbook": "Devices_for_site10_batch3.xlsx",
+        "sourceRow": 4,
+        "sourceModel": "Salus Talent Pro"
+      }
+    },
+    {
+      "id": "gymna-combi-400",
+      "name": "Gymna Combi 400 Combination Therapy Unit",
+      "nameEn": "Gymna Combi 400 Combination Therapy Unit",
+      "titleAr": "جهاز العلاج المركّب Gymna Combi 400",
+      "brand": "Gymna",
+      "model": "Combi 400",
+      "category": "rehab",
+      "group": "electro",
+      "description": "جهاز Gymna Combi 400 يجمع العلاج الكهربائي والموجات فوق الصوتية، مع شاشة لمس وإرشادات GTS لاختيار البرامج وفق الهدف العلاجي. يدعم التحفيز العضلي وإدارة الألم، وتُؤكد مجسّات الليزر والملحقات الاختيارية ضمن عرض السعر.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://gymna.com/de/produkte/elektrotherapie/gymna-400/gymna-combi-400"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch3-20261103/gymna-combi-400-01.jpg",
+          "width": 960,
+          "height": 910,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز العلاج المركّب Gymna Combi 400",
+            "en": "Gymna Combi 400 Combination Therapy Unit"
+          },
+          "source": "https://gymna.com/sites/default/files/styles/product_slider_960_x_910_/public/products/Gymna_electrotherapy_combi400.jpg?itok=-tHYM33A",
+          "sourcePage": "https://gymna.com/de/produkte/elektrotherapie/gymna-400/gymna-combi-400"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز Gymna Combi 400 يجمع العلاج الكهربائي والموجات فوق الصوتية، مع شاشة لمس وإرشادات GTS لاختيار البرامج وفق الهدف العلاجي. يدعم التحفيز العضلي وإدارة الألم، وتُؤكد مجسّات الليزر والملحقات الاختيارية ضمن عرض السعر.</p>",
+          "en": "<p>The Gymna Combi 400 combines electrotherapy and ultrasound with a touchscreen and GTS guidance for treatment-goal-based program selection. It supports muscle stimulation and pain management; optional laser probes and accessories are confirmed in the quotation.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز العلاج المركّب Gymna Combi 400",
+          "en": "Gymna Combi 400 Combination Therapy Unit"
+        },
+        "features": {
+          "ar": [
+            "علاج كهربائي وموجات فوق صوتية",
+            "شاشة لمس ملونة",
+            "إرشادات GTS",
+            "ملحقات اختيارية حسب التجهيز"
+          ],
+          "en": [
+            "Electrotherapy and ultrasound",
+            "Colour touchscreen",
+            "GTS guidance",
+            "Optional accessories by configuration"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 53,
+        "metaTitle": {
+          "ar": "جهاز العلاج المركّب Gymna Combi 400",
+          "en": "Gymna Combi 400 Combination Therapy Unit"
+        },
+        "metaDescription": {
+          "ar": "جهاز Gymna Combi 400 يجمع العلاج الكهربائي والموجات فوق الصوتية، مع شاشة لمس وإرشادات GTS لاختيار البرامج وفق الهدف العلاجي. يدعم التحفيز العضلي وإدارة الألم، وتُؤكد مجسّات الليزر والملحقات الاختيارية ضمن عرض السعر.",
+          "en": "The Gymna Combi 400 combines electrotherapy and ultrasound with a touchscreen and GTS guidance for treatment-goal-based program selection. It supports muscle stimulation and pain management; optional laser probes and accessories are confirmed in the quotation."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch3-20261103",
+        "sourceWorkbook": "Devices_for_site10_batch3.xlsx",
+        "sourceRow": 5,
+        "sourceModel": "Combi 400"
+      }
+    },
+    {
+      "id": "physiomed-deep-oscillation-evident",
+      "name": "Physiomed Deep Oscillation Evident Therapy System",
+      "nameEn": "Physiomed Deep Oscillation Evident Therapy System",
+      "titleAr": "جهاز التذبذب العميق Deep Oscillation Evident",
+      "brand": "Physiomed",
+      "model": "Deep Oscillation Evident",
+      "category": "rehab",
+      "group": "electro",
+      "description": "جهاز علاج بالتذبذب العميق (Deep Oscillation) يعتمد على مجال كهروستاتيكي متذبذب يُطبَّق باليد على الجلد لتخفيف الألم والتورم والوذمة ودعم التئام الأنسجة بعد الإصابات والجراحات. يأتي على عربة متحركة لسهولة الاستخدام في العيادة. تُؤكد العربة ومطبّقات العلاج وحزمة برامج CLINICS ضمن عرض السعر.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.physiomed-group.com/en/products/deep-oscillation-evident"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch3-20261103/physiomed-deep-oscillation-evident-01.jpg",
+          "width": 447,
+          "height": 447,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التذبذب العميق Deep Oscillation Evident",
+            "en": "Physiomed Deep Oscillation Evident Therapy System"
+          },
+          "source": "User-supplied batch3.zip / images (10).jpg",
+          "sourcePage": "https://www.physiomed-group.com/en/products/deep-oscillation-evident"
+        },
+        {
+          "file": "assets/products/devices-batch3-20261103/physiomed-deep-oscillation-evident-02.webp",
+          "width": 1920,
+          "height": 1920,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التذبذب العميق Deep Oscillation Evident",
+            "en": "Physiomed Deep Oscillation Evident Therapy System"
+          },
+          "source": "User-supplied batch3.zip / csm_DEEP_OSCILLATION_Evident_front_a9a1d87b35.webp",
+          "sourcePage": "https://www.physiomed-group.com/en/products/deep-oscillation-evident"
+        },
+        {
+          "file": "assets/products/devices-batch3-20261103/physiomed-deep-oscillation-evident-03.jpg",
+          "width": 531,
+          "height": 376,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز التذبذب العميق Deep Oscillation Evident",
+            "en": "Physiomed Deep Oscillation Evident Therapy System"
+          },
+          "source": "User-supplied batch3.zip / images (12).jpg",
+          "sourcePage": "https://www.physiomed-group.com/en/products/deep-oscillation-evident"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز علاج بالتذبذب العميق (Deep Oscillation) يعتمد على مجال كهروستاتيكي متذبذب يُطبَّق باليد على الجلد لتخفيف الألم والتورم والوذمة ودعم التئام الأنسجة بعد الإصابات والجراحات. يأتي على عربة متحركة لسهولة الاستخدام في العيادة. تُؤكد العربة ومطبّقات العلاج وحزمة برامج CLINICS ضمن عرض السعر.</p>",
+          "en": "<p>A Deep Oscillation therapy device that uses an oscillating electrostatic field applied by hand over the skin to reduce pain, swelling and oedema and to support tissue healing after injury or surgery. It comes on a mobile trolley for easy clinic use. The trolley, applicators and CLINICS software package are confirmed in the quotation.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز التذبذب العميق Deep Oscillation Evident",
+          "en": "Physiomed Deep Oscillation Evident Therapy System"
+        },
+        "features": {
+          "ar": [
+            "مجال كهروستاتيكي متذبذب",
+            "تخفيف الألم والتورم",
+            "دعم التئام الأنسجة",
+            "على عربة متحركة"
+          ],
+          "en": [
+            "Oscillating electrostatic field",
+            "Pain and swelling relief",
+            "Supports tissue healing",
+            "Mobile trolley"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 54,
+        "metaTitle": {
+          "ar": "جهاز التذبذب العميق Deep Oscillation Evident",
+          "en": "Physiomed Deep Oscillation Evident Therapy System"
+        },
+        "metaDescription": {
+          "ar": "جهاز علاج بالتذبذب العميق (Deep Oscillation) يعتمد على مجال كهروستاتيكي متذبذب يُطبَّق باليد على الجلد لتخفيف الألم والتورم والوذمة ودعم التئام الأنسجة بعد الإصابات والجراحات. يأتي على عربة متحركة لسهولة الاستخدام في العيادة. تُؤكد العربة ومطبّقات العلاج وحزمة برامج CLINICS ضمن عرض السعر.",
+          "en": "A Deep Oscillation therapy device that uses an oscillating electrostatic field applied by hand over the skin to reduce pain, swelling and oedema and to support tissue healing after injury or surgery. It comes on a mobile trolley for easy clinic use. The trolley, applicators and CLINICS software package are confirmed in the quotation."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch3-20261103",
+        "sourceWorkbook": "Devices_for_site10_batch3.xlsx",
+        "sourceRow": 6,
+        "sourceModel": "Deep Oscillation Evident"
+      }
+    },
+    {
+      "id": "align-pilates-c8-pro",
+      "name": "Align-Pilates C8-Pro Pilates Reformer",
+      "nameEn": "Align-Pilates C8-Pro Pilates Reformer",
+      "titleAr": "جهاز البيلاتس ريفورمر Align-Pilates C8-Pro",
+      "brand": "Align-Pilates",
+      "model": "C8-Pro Reformer",
+      "category": "gym",
+      "group": "mobility",
+      "description": "جهاز ريفورمر للبيلاتس بعربة منزلقة ونوابض بمقاومة قابلة للتعديل، يُستخدم في تمارين تقوية عضلات الجذع والمرونة والتحكم الحركي، وفي برامج التأهيل بعد الإصابات. مناسب للعيادات والاستوديوهات ومراكز اللياقة. تُؤكد الأرجل وصندوق التمرين والملحقات الإضافية ضمن عرض السعر.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://align-pilates.com/products/pilates-reformers/commercial-pilates-reformers/c8-pro-pilates-reformer/"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch3-20261103/align-pilates-c8-pro-01.webp",
+          "width": 400,
+          "height": 400,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز البيلاتس ريفورمر Align-Pilates C8-Pro",
+            "en": "Align-Pilates C8-Pro Pilates Reformer"
+          },
+          "source": "User-supplied batch3.zip / PAPREFORMERC8-align-pilates-c8-pro-pilates-reformer-1-1-400x400.jpg.webp",
+          "sourcePage": "https://align-pilates.com/products/pilates-reformers/commercial-pilates-reformers/c8-pro-pilates-reformer/"
+        },
+        {
+          "file": "assets/products/devices-batch3-20261103/align-pilates-c8-pro-02.jpg",
+          "width": 400,
+          "height": 400,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز البيلاتس ريفورمر Align-Pilates C8-Pro",
+            "en": "Align-Pilates C8-Pro Pilates Reformer"
+          },
+          "source": "https://align-pilates.com/wp-content/uploads/2021/08/PAPREFORMERC8-align-pilates-c8-pro-pilates-reformer-2-2-400x400.jpg",
+          "sourcePage": "https://align-pilates.com/products/pilates-reformers/commercial-pilates-reformers/c8-pro-pilates-reformer/"
+        },
+        {
+          "file": "assets/products/devices-batch3-20261103/align-pilates-c8-pro-03.jpg",
+          "width": 400,
+          "height": 400,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز البيلاتس ريفورمر Align-Pilates C8-Pro",
+            "en": "Align-Pilates C8-Pro Pilates Reformer"
+          },
+          "source": "https://align-pilates.com/wp-content/uploads/2021/08/PAPREFORMERC8-align-pilates-c8-pro-pilates-reformer-3-1-400x400.jpg",
+          "sourcePage": "https://align-pilates.com/products/pilates-reformers/commercial-pilates-reformers/c8-pro-pilates-reformer/"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز ريفورمر للبيلاتس بعربة منزلقة ونوابض بمقاومة قابلة للتعديل، يُستخدم في تمارين تقوية عضلات الجذع والمرونة والتحكم الحركي، وفي برامج التأهيل بعد الإصابات. مناسب للعيادات والاستوديوهات ومراكز اللياقة. تُؤكد الأرجل وصندوق التمرين والملحقات الإضافية ضمن عرض السعر.</p>",
+          "en": "<p>A Pilates reformer with a sliding carriage and adjustable spring resistance, used for core strengthening, flexibility and motor control exercises and in post-injury rehabilitation programs. Suited to clinics, studios and fitness centres. Leg options, sitting box and additional accessories are confirmed in the quotation.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز البيلاتس ريفورمر Align-Pilates C8-Pro",
+          "en": "Align-Pilates C8-Pro Pilates Reformer"
+        },
+        "features": {
+          "ar": [
+            "عربة منزلقة",
+            "مقاومة نوابض قابلة للتعديل",
+            "تقوية الجذع والمرونة",
+            "للتأهيل واللياقة"
+          ],
+          "en": [
+            "Sliding carriage",
+            "Adjustable spring resistance",
+            "Core strength and flexibility",
+            "For rehab and fitness"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 56,
+        "metaTitle": {
+          "ar": "جهاز البيلاتس ريفورمر Align-Pilates C8-Pro",
+          "en": "Align-Pilates C8-Pro Pilates Reformer"
+        },
+        "metaDescription": {
+          "ar": "جهاز ريفورمر للبيلاتس بعربة منزلقة ونوابض بمقاومة قابلة للتعديل، يُستخدم في تمارين تقوية عضلات الجذع والمرونة والتحكم الحركي، وفي برامج التأهيل بعد الإصابات. مناسب للعيادات والاستوديوهات ومراكز اللياقة. تُؤكد الأرجل وصندوق التمرين والملحقات الإضافية ضمن عرض السعر.",
+          "en": "A Pilates reformer with a sliding carriage and adjustable spring resistance, used for core strengthening, flexibility and motor control exercises and in post-injury rehabilitation programs. Suited to clinics, studios and fitness centres. Leg options, sitting box and additional accessories are confirmed in the quotation."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch3-20261103",
+        "sourceWorkbook": "Devices_for_site10_batch3.xlsx",
+        "sourceRow": 8,
+        "sourceModel": "C8-Pro Reformer"
+      }
+    },
+    {
+      "id": "hur-5540-leg-press-rehab",
+      "name": "HUR 5540 Leg Press Rehab Machine",
+      "nameEn": "HUR 5540 Leg Press Rehab Machine",
+      "titleAr": "جهاز ضغط الساقين للتأهيل HUR 5540",
+      "brand": "HUR",
+      "model": "5540 Leg Press Rehab",
+      "category": "rehab",
+      "group": "mobility",
+      "description": "جهاز ضغط ساقين مخصص للتأهيل بمقاومة هوائية تسمح ببدء التمرين بأحمال منخفضة وزيادتها تدريجياً، لتقوية عضلات الفخذ والساق بعد إصابات وجراحات الأطراف السفلية. مناسب لمراكز التأهيل وكبار السن.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://hurusa.com/product/leg-press-analog-5540/"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch3-20261103/hur-5540-leg-press-rehab-01.webp",
+          "width": 1357,
+          "height": 1920,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز ضغط الساقين للتأهيل HUR 5540",
+            "en": "HUR 5540 Leg Press Rehab Machine"
+          },
+          "source": "User-supplied batch3.zip / ST5540-Hi5-Leg-Press.webp",
+          "sourcePage": "https://hurusa.com/product/leg-press-analog-5540/"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز ضغط ساقين مخصص للتأهيل بمقاومة هوائية تسمح ببدء التمرين بأحمال منخفضة وزيادتها تدريجياً، لتقوية عضلات الفخذ والساق بعد إصابات وجراحات الأطراف السفلية. مناسب لمراكز التأهيل وكبار السن.</p>",
+          "en": "<p>A leg press machine designed for rehabilitation with pneumatic resistance that allows training to start at low loads and increase gradually, strengthening thigh and leg muscles after lower-limb injury or surgery. Suited to rehabilitation centres and older adults.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز ضغط الساقين للتأهيل HUR 5540",
+          "en": "HUR 5540 Leg Press Rehab Machine"
+        },
+        "features": {
+          "ar": [
+            "مقاومة هوائية",
+            "بداية بأحمال منخفضة",
+            "تقوية الساقين",
+            "مناسب للتأهيل وكبار السن"
+          ],
+          "en": [
+            "Pneumatic resistance",
+            "Low starting loads",
+            "Leg strengthening",
+            "For rehab and older adults"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 57,
+        "metaTitle": {
+          "ar": "جهاز ضغط الساقين للتأهيل HUR 5540",
+          "en": "HUR 5540 Leg Press Rehab Machine"
+        },
+        "metaDescription": {
+          "ar": "جهاز ضغط ساقين مخصص للتأهيل بمقاومة هوائية تسمح ببدء التمرين بأحمال منخفضة وزيادتها تدريجياً، لتقوية عضلات الفخذ والساق بعد إصابات وجراحات الأطراف السفلية. مناسب لمراكز التأهيل وكبار السن.",
+          "en": "A leg press machine designed for rehabilitation with pneumatic resistance that allows training to start at low loads and increase gradually, strengthening thigh and leg muscles after lower-limb injury or surgery. Suited to rehabilitation centres and older adults."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch3-20261103",
+        "sourceWorkbook": "Devices_for_site10_batch3.xlsx",
+        "sourceRow": 9,
+        "sourceModel": "5540 Leg Press Rehab"
+      }
+    },
+    {
+      "id": "cosmed-quark-cpet",
+      "name": "COSMED Quark CPET Cardiopulmonary Exercise Testing System",
+      "nameEn": "COSMED Quark CPET Cardiopulmonary Exercise Testing System",
+      "titleAr": "نظام اختبار الجهد القلبي الرئوي COSMED Quark CPET",
+      "brand": "COSMED",
+      "model": "Quark CPET",
+      "category": "rehab",
+      "group": "assessment",
+      "description": "نظام لقياس الجهد القلبي الرئوي (CPET) يحلل تبادل الغازات أثناء المجهود، مثل استهلاك الأكسجين وإنتاج ثاني أكسيد الكربون والتهوية الرئوية. يُستخدم في تقييم اللياقة والتأهيل القلبي والرئوي وتحديد شدة التمارين المناسبة لكل شخص. تُؤكد وحدة تخطيط القلب ودراجة أو سير اختبار الجهد والملحقات حسب التجهيز المطلوب.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.cosmed.com/en/products/cardio-pulmonary-exercise-test/quark-cpet"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch3-20261103/cosmed-quark-cpet-01.jpg",
+          "width": 364,
+          "height": 549,
+          "role": "product",
+          "alt": {
+            "ar": "نظام اختبار الجهد القلبي الرئوي COSMED Quark CPET",
+            "en": "COSMED Quark CPET Cardiopulmonary Exercise Testing System"
+          },
+          "source": "User-supplied batch3.zip / images (22).jpg",
+          "sourcePage": "https://www.cosmed.com/en/products/cardio-pulmonary-exercise-test/quark-cpet"
+        },
+        {
+          "file": "assets/products/devices-batch3-20261103/cosmed-quark-cpet-02.jpg",
+          "width": 1000,
+          "height": 667,
+          "role": "product",
+          "alt": {
+            "ar": "نظام اختبار الجهد القلبي الرئوي COSMED Quark CPET",
+            "en": "COSMED Quark CPET Cardiopulmonary Exercise Testing System"
+          },
+          "source": "User-supplied batch3.zip / quark_cpet_panel.jpg",
+          "sourcePage": "https://www.cosmed.com/en/products/cardio-pulmonary-exercise-test/quark-cpet"
+        },
+        {
+          "file": "assets/products/devices-batch3-20261103/cosmed-quark-cpet-03.jpg",
+          "width": 357,
+          "height": 560,
+          "role": "product",
+          "alt": {
+            "ar": "نظام اختبار الجهد القلبي الرئوي COSMED Quark CPET",
+            "en": "COSMED Quark CPET Cardiopulmonary Exercise Testing System"
+          },
+          "source": "User-supplied batch3.zip / images (21).jpg",
+          "sourcePage": "https://www.cosmed.com/en/products/cardio-pulmonary-exercise-test/quark-cpet"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>نظام لقياس الجهد القلبي الرئوي (CPET) يحلل تبادل الغازات أثناء المجهود، مثل استهلاك الأكسجين وإنتاج ثاني أكسيد الكربون والتهوية الرئوية. يُستخدم في تقييم اللياقة والتأهيل القلبي والرئوي وتحديد شدة التمارين المناسبة لكل شخص. تُؤكد وحدة تخطيط القلب ودراجة أو سير اختبار الجهد والملحقات حسب التجهيز المطلوب.</p>",
+          "en": "<p>A cardiopulmonary exercise testing (CPET) system that analyses gas exchange during effort, including oxygen uptake, carbon dioxide output and pulmonary ventilation. Used for fitness assessment, cardiac and pulmonary rehabilitation and setting the right exercise intensity for each person. ECG, cycle or treadmill and accessories are confirmed according to the required configuration.</p>"
+        },
+        "shortDescription": {
+          "ar": "نظام اختبار الجهد القلبي الرئوي COSMED Quark CPET",
+          "en": "COSMED Quark CPET Cardiopulmonary Exercise Testing System"
+        },
+        "features": {
+          "ar": [
+            "تحليل تبادل الغازات أثناء المجهود",
+            "قياس استهلاك الأكسجين",
+            "للتأهيل القلبي والرئوي وتقييم اللياقة"
+          ],
+          "en": [
+            "Gas exchange analysis during exercise",
+            "Oxygen uptake measurement",
+            "Cardiac and pulmonary rehab, fitness assessment"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 58,
+        "metaTitle": {
+          "ar": "نظام اختبار الجهد القلبي الرئوي COSMED Quark CPET",
+          "en": "COSMED Quark CPET Cardiopulmonary Exercise Testing System"
+        },
+        "metaDescription": {
+          "ar": "نظام لقياس الجهد القلبي الرئوي (CPET) يحلل تبادل الغازات أثناء المجهود، مثل استهلاك الأكسجين وإنتاج ثاني أكسيد الكربون والتهوية الرئوية. يُستخدم في تقييم اللياقة والتأهيل القلبي والرئوي وتحديد شدة التمارين المناسبة لكل شخص. تُؤكد وحدة تخطيط القلب ودراجة أو سير اختبار الجهد والملحقات حسب التجهيز المطلوب.",
+          "en": "A cardiopulmonary exercise testing (CPET) system that analyses gas exchange during effort, including oxygen uptake, carbon dioxide output and pulmonary ventilation. Used for fitness assessment, cardiac and pulmonary rehabilitation and setting the right exercise intensity for each person. ECG, cycle or treadmill and accessories are confirmed according to the required configuration."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch3-20261103",
+        "sourceWorkbook": "Devices_for_site10_batch3.xlsx",
+        "sourceRow": 10,
+        "sourceModel": "Quark CPET"
+      }
+    },
+    {
+      "id": "ge-vscan-air",
+      "name": "GE Vscan Air Handheld Ultrasound",
+      "nameEn": "GE Vscan Air Handheld Ultrasound",
+      "titleAr": "جهاز الموجات فوق الصوتية المحمول Vscan Air",
+      "brand": "GE HealthCare",
+      "model": "Vscan Air",
+      "category": "rehab",
+      "group": "assessment",
+      "description": "جهاز موجات فوق صوتية محمول بحجم الجيب يُوصَّل بجهاز لوحي أو هاتف لعرض الصور فورياً بجانب المريض. يساعد في الفحص السريع للعضلات والأوتار والسوائل وتوجيه الإجراءات، ويناسب العيادات والطوارئ والرعاية المنزلية. الصور تعرض نسخة Vscan Air CL؛ تُؤكد نسخة المسبار وتوافق الهاتف أو الجهاز اللوحي وما يتضمنه عرض السعر قبل الطلب.",
+      "price": null,
+      "method": "quote",
+      "demo": false,
+      "demoEligible": false,
+      "options": [],
+      "availability": "confirm",
+      "visible": true,
+      "source": {
+        "page": "https://www.gehealthcare.com/en-us/products/ultrasound/handheld-ultrasound/vscan-air-cl"
+      },
+      "files": [
+        {
+          "file": "assets/products/devices-batch3-20261103/ge-vscan-air-01.jpg",
+          "width": 535,
+          "height": 573,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الموجات فوق الصوتية المحمول Vscan Air",
+            "en": "GE Vscan Air Handheld Ultrasound"
+          },
+          "source": "User-supplied batch3.zip / images (23).jpg",
+          "sourcePage": "https://www.gehealthcare.com/en-us/products/ultrasound/handheld-ultrasound/vscan-air-cl"
+        },
+        {
+          "file": "assets/products/devices-batch3-20261103/ge-vscan-air-02.jpg",
+          "width": 447,
+          "height": 447,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الموجات فوق الصوتية المحمول Vscan Air",
+            "en": "GE Vscan Air Handheld Ultrasound"
+          },
+          "source": "User-supplied batch3.zip / images (24).jpg",
+          "sourcePage": "https://www.gehealthcare.com/en-us/products/ultrasound/handheld-ultrasound/vscan-air-cl"
+        }
+      ],
+      "commerce": {
+        "description": {
+          "ar": "<p>جهاز موجات فوق صوتية محمول بحجم الجيب يُوصَّل بجهاز لوحي أو هاتف لعرض الصور فورياً بجانب المريض. يساعد في الفحص السريع للعضلات والأوتار والسوائل وتوجيه الإجراءات، ويناسب العيادات والطوارئ والرعاية المنزلية. الصور تعرض نسخة Vscan Air CL؛ تُؤكد نسخة المسبار وتوافق الهاتف أو الجهاز اللوحي وما يتضمنه عرض السعر قبل الطلب.</p>",
+          "en": "<p>A pocket-sized handheld ultrasound that connects to a tablet or phone to show images instantly at the patient bedside. It supports quick checks of muscles, tendons and fluids and guides procedures, and suits clinics, emergency care and home care. Photos show the Vscan Air CL variant. Confirm probe version, mobile-device compatibility and whether a phone or tablet is included in the quotation.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز الموجات فوق الصوتية المحمول Vscan Air",
+          "en": "GE Vscan Air Handheld Ultrasound"
+        },
+        "features": {
+          "ar": [
+            "حجم الجيب",
+            "اتصال بجهاز لوحي أو هاتف",
+            "صور فورية بجانب المريض",
+            "مناسب للعيادات والطوارئ"
+          ],
+          "en": [
+            "Pocket size",
+            "Tablet or phone connection",
+            "Instant bedside imaging",
+            "For clinics and emergency care"
+          ]
+        },
+        "specifications": [],
+        "quoteEnabled": true,
+        "status": "published",
+        "sortOrder": 59,
+        "metaTitle": {
+          "ar": "جهاز الموجات فوق الصوتية المحمول Vscan Air",
+          "en": "GE Vscan Air Handheld Ultrasound"
+        },
+        "metaDescription": {
+          "ar": "جهاز موجات فوق صوتية محمول بحجم الجيب يُوصَّل بجهاز لوحي أو هاتف لعرض الصور فورياً بجانب المريض. يساعد في الفحص السريع للعضلات والأوتار والسوائل وتوجيه الإجراءات، ويناسب العيادات والطوارئ والرعاية المنزلية. الصور تعرض نسخة Vscan Air CL؛ تُؤكد نسخة المسبار وتوافق الهاتف أو الجهاز اللوحي وما يتضمنه عرض السعر قبل الطلب.",
+          "en": "A pocket-sized handheld ultrasound that connects to a tablet or phone to show images instantly at the patient bedside. It supports quick checks of muscles, tendons and fluids and guides procedures, and suits clinics, emergency care and home care. Photos show the Vscan Air CL variant. Confirm probe version, mobile-device compatibility and whether a phone or tablet is included in the quotation."
+        }
+      },
+      "catalogueImport": {
+        "batch": "devices-batch3-20261103",
+        "sourceWorkbook": "Devices_for_site10_batch3.xlsx",
+        "sourceRow": 11,
+        "sourceModel": "Vscan Air"
       }
     }
   ],

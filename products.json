@@ -38339,6 +38339,1486 @@
       "compatibleProductIds": [
         "ems-dolorclast-focused"
       ]
+    },
+    {
+      "id": "game-ready-wrap-ankle",
+      "name": "Game Ready Ankle Wrap",
+      "nameEn": "Game Ready Ankle Wrap",
+      "titleAr": "لفافة الكاحل Game Ready",
+      "brand": "Game Ready",
+      "model": "590330 / 590340",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "لفافة تبريد وضغط من Game Ready. للقدم اليمنى أو اليسرى. L: مقاس حذاء الرجال 6–11 والنساء حتى 13؛ XL: الرجال 12–18، وفق مرجع الشركة.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "compatibleProductIds": [
+        "portable",
+        "med4"
+      ],
+      "catalogueVariants": [
+        {
+          "label": "L",
+          "manufacturerItemNumber": "590330"
+        },
+        {
+          "label": "XL",
+          "manufacturerItemNumber": "590340"
+        }
+      ],
+      "files": [
+        {
+          "file": "assets/products/game-ready-wraps/wrap-med-ankle-768x768.jpg",
+          "width": 768,
+          "height": 768,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة الكاحل Game Ready",
+            "en": "Game Ready Ankle Wrap"
+          },
+          "sourcePage": "https://gameready.com/medical/wraps/",
+          "source_image_url": "https://gameready.com/wp-content/uploads/2026/08/wrap-med-ankle-768x768.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://gameready.com/medical/wraps/"
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 125,
+        "description": {
+          "ar": "<p>لفافة تبريد وضغط من Game Ready. للقدم اليمنى أو اليسرى. L: مقاس حذاء الرجال 6–11 والنساء حتى 13؛ XL: الرجال 12–18، وفق مرجع الشركة.</p>",
+          "en": "<p>Game Ready cold-and-compression wrap. Either foot. L: men’s shoe sizes 6–11 and women’s up to 13; XL: men’s 12–18, per manufacturer sizing.</p>"
+        },
+        "shortDescription": {
+          "ar": "لفافة الكاحل Game Ready",
+          "en": "Game Ready Ankle Wrap"
+        },
+        "features": {
+          "ar": [
+            "متوافقة مع GRPro 2.1 وMED4 Elite",
+            "تُستخدم مع وحدة الجهاز؛ الوحدة منفصلة"
+          ],
+          "en": [
+            "Compatible with GRPro 2.1 and MED4 Elite",
+            "Requires a control unit; unit sold separately"
+          ]
+        },
+        "specifications": [
+          {
+            "name": {
+              "ar": "المقاس / الجهة",
+              "en": "Size / side"
+            },
+            "value": {
+              "ar": "للقدم اليمنى أو اليسرى. L: مقاس حذاء الرجال 6–11 والنساء حتى 13؛ XL: الرجال 12–18، وفق مرجع الشركة.",
+              "en": "Either foot. L: men’s shoe sizes 6–11 and women’s up to 13; XL: men’s 12–18, per manufacturer sizing."
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — L",
+              "en": "Item code — L"
+            },
+            "value": {
+              "ar": "590330",
+              "en": "590330"
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — XL",
+              "en": "Item code — XL"
+            },
+            "value": {
+              "ar": "590340",
+              "en": "590340"
+            }
+          }
+        ],
+        "metaTitle": {
+          "ar": "لفافة الكاحل Game Ready",
+          "en": "Game Ready Ankle Wrap"
+        },
+        "metaDescription": {
+          "ar": "لفافة تبريد وضغط من Game Ready. للقدم اليمنى أو اليسرى. L: مقاس حذاء الرجال 6–11 والنساء حتى 13؛ XL: الرجال 12–18، وفق مرجع الشركة.",
+          "en": "Game Ready cold-and-compression wrap. Either foot. L: men’s shoe sizes 6–11 and women’s up to 13; XL: men’s 12–18, per manufacturer sizing."
+        },
+        "attachments": [
+          {
+            "file": "#product/portable",
+            "label": {
+              "ar": "الجهاز المتوافق: GRPro 2.1",
+              "en": "Compatible unit: GRPro 2.1"
+            }
+          },
+          {
+            "file": "#product/med4",
+            "label": {
+              "ar": "الجهاز المتوافق: MED4 Elite",
+              "en": "Compatible unit: MED4 Elite"
+            }
+          }
+        ]
+      },
+      "catalogueImport": {
+        "batch": "game-ready-medical-wraps-20261103",
+        "source": "https://gameready.com/medical/wraps/"
+      }
+    },
+    {
+      "id": "game-ready-wrap-back",
+      "name": "Game Ready Back Wrap",
+      "nameEn": "Game Ready Back Wrap",
+      "titleAr": "لفافة الظهر Game Ready",
+      "brand": "Game Ready",
+      "model": "590500",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "لفافة تبريد وضغط من Game Ready. تناسب محيط خصر 22–55 بوصة.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "compatibleProductIds": [
+        "portable",
+        "med4"
+      ],
+      "catalogueVariants": [
+        {
+          "label": "One size",
+          "manufacturerItemNumber": "590500"
+        }
+      ],
+      "files": [
+        {
+          "file": "assets/products/game-ready-wraps/wrap-med-back-768x768.jpg",
+          "width": 768,
+          "height": 768,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة الظهر Game Ready",
+            "en": "Game Ready Back Wrap"
+          },
+          "sourcePage": "https://gameready.com/medical/wraps/",
+          "source_image_url": "https://gameready.com/wp-content/uploads/2026/08/wrap-med-back-768x768.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://gameready.com/medical/wraps/"
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 126,
+        "description": {
+          "ar": "<p>لفافة تبريد وضغط من Game Ready. تناسب محيط خصر 22–55 بوصة.</p>",
+          "en": "<p>Game Ready cold-and-compression wrap. Fits waist circumferences of 22–55 inches.</p>"
+        },
+        "shortDescription": {
+          "ar": "لفافة الظهر Game Ready",
+          "en": "Game Ready Back Wrap"
+        },
+        "features": {
+          "ar": [
+            "متوافقة مع GRPro 2.1 وMED4 Elite",
+            "تُستخدم مع وحدة الجهاز؛ الوحدة منفصلة"
+          ],
+          "en": [
+            "Compatible with GRPro 2.1 and MED4 Elite",
+            "Requires a control unit; unit sold separately"
+          ]
+        },
+        "specifications": [
+          {
+            "name": {
+              "ar": "المقاس / الجهة",
+              "en": "Size / side"
+            },
+            "value": {
+              "ar": "تناسب محيط خصر 22–55 بوصة.",
+              "en": "Fits waist circumferences of 22–55 inches."
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — مقاس واحد",
+              "en": "Item code — One size"
+            },
+            "value": {
+              "ar": "590500",
+              "en": "590500"
+            }
+          }
+        ],
+        "metaTitle": {
+          "ar": "لفافة الظهر Game Ready",
+          "en": "Game Ready Back Wrap"
+        },
+        "metaDescription": {
+          "ar": "لفافة تبريد وضغط من Game Ready. تناسب محيط خصر 22–55 بوصة.",
+          "en": "Game Ready cold-and-compression wrap. Fits waist circumferences of 22–55 inches."
+        },
+        "attachments": [
+          {
+            "file": "#product/portable",
+            "label": {
+              "ar": "الجهاز المتوافق: GRPro 2.1",
+              "en": "Compatible unit: GRPro 2.1"
+            }
+          },
+          {
+            "file": "#product/med4",
+            "label": {
+              "ar": "الجهاز المتوافق: MED4 Elite",
+              "en": "Compatible unit: MED4 Elite"
+            }
+          }
+        ]
+      },
+      "catalogueImport": {
+        "batch": "game-ready-medical-wraps-20261103",
+        "source": "https://gameready.com/medical/wraps/"
+      }
+    },
+    {
+      "id": "game-ready-wrap-ct-spine",
+      "name": "Game Ready C-T Spine Wrap",
+      "nameEn": "Game Ready C-T Spine Wrap",
+      "titleAr": "لفافة الفقرات العنقية والصدرية Game Ready",
+      "brand": "Game Ready",
+      "model": "590502",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "لفافة تبريد وضغط من Game Ready. صدر 38–55 بوصة ورقبة 15.75–19.5 بوصة. تعمل مع GRPro 2.1 فقط، ولا تتوافق مع MED4 Elite.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "compatibleProductIds": [
+        "portable"
+      ],
+      "catalogueVariants": [
+        {
+          "label": "One size",
+          "manufacturerItemNumber": "590502"
+        }
+      ],
+      "files": [
+        {
+          "file": "assets/products/game-ready-wraps/wrap-med-c-t-spine-768x768.jpg",
+          "width": 768,
+          "height": 768,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة الفقرات العنقية والصدرية Game Ready",
+            "en": "Game Ready C-T Spine Wrap"
+          },
+          "sourcePage": "https://gameready.com/medical/wraps/",
+          "source_image_url": "https://gameready.com/wp-content/uploads/2026/08/wrap-med-c-t-spine-768x768.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://gameready.com/medical/wraps/"
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 127,
+        "description": {
+          "ar": "<p>لفافة تبريد وضغط من Game Ready. صدر 38–55 بوصة ورقبة 15.75–19.5 بوصة. تعمل مع GRPro 2.1 فقط، ولا تتوافق مع MED4 Elite.</p>",
+          "en": "<p>Game Ready cold-and-compression wrap. Chest 38–55 inches; neck 15.75–19.5 inches. GRPro 2.1 only; not compatible with MED4 Elite.</p>"
+        },
+        "shortDescription": {
+          "ar": "لفافة الفقرات العنقية والصدرية Game Ready",
+          "en": "Game Ready C-T Spine Wrap"
+        },
+        "features": {
+          "ar": [
+            "متوافقة مع GRPro 2.1 فقط",
+            "تُستخدم مع وحدة الجهاز؛ الوحدة منفصلة"
+          ],
+          "en": [
+            "Compatible with GRPro 2.1 only",
+            "Requires a control unit; unit sold separately"
+          ]
+        },
+        "specifications": [
+          {
+            "name": {
+              "ar": "المقاس / الجهة",
+              "en": "Size / side"
+            },
+            "value": {
+              "ar": "صدر 38–55 بوصة ورقبة 15.75–19.5 بوصة. تعمل مع GRPro 2.1 فقط، ولا تتوافق مع MED4 Elite.",
+              "en": "Chest 38–55 inches; neck 15.75–19.5 inches. GRPro 2.1 only; not compatible with MED4 Elite."
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — مقاس واحد",
+              "en": "Item code — One size"
+            },
+            "value": {
+              "ar": "590502",
+              "en": "590502"
+            }
+          }
+        ],
+        "metaTitle": {
+          "ar": "لفافة الفقرات العنقية والصدرية Game Ready",
+          "en": "Game Ready C-T Spine Wrap"
+        },
+        "metaDescription": {
+          "ar": "لفافة تبريد وضغط من Game Ready. صدر 38–55 بوصة ورقبة 15.75–19.5 بوصة. تعمل مع GRPro 2.1 فقط، ولا تتوافق مع MED4 Elite.",
+          "en": "Game Ready cold-and-compression wrap. Chest 38–55 inches; neck 15.75–19.5 inches. GRPro 2.1 only; not compatible with MED4 Elite."
+        },
+        "attachments": [
+          {
+            "file": "#product/portable",
+            "label": {
+              "ar": "الجهاز المتوافق: GRPro 2.1",
+              "en": "Compatible unit: GRPro 2.1"
+            }
+          }
+        ]
+      },
+      "catalogueImport": {
+        "batch": "game-ready-medical-wraps-20261103",
+        "source": "https://gameready.com/medical/wraps/"
+      }
+    },
+    {
+      "id": "game-ready-wrap-elbow-flexed",
+      "name": "Game Ready Elbow Wrap — Flexed",
+      "nameEn": "Game Ready Elbow Wrap — Flexed",
+      "titleAr": "لفافة الكوع المثني Game Ready",
+      "brand": "Game Ready",
+      "model": "590903",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "لفافة تبريد وضغط من Game Ready. مقاس واحد للذراع اليمنى أو اليسرى، مع ثني 90° أو 135° لمن لا يستطيع فرد الكوع.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "compatibleProductIds": [
+        "portable",
+        "med4"
+      ],
+      "catalogueVariants": [
+        {
+          "label": "One size",
+          "manufacturerItemNumber": "590903"
+        }
+      ],
+      "files": [
+        {
+          "file": "assets/products/game-ready-wraps/wrap-med-elbow-flexed-768x768.jpg",
+          "width": 768,
+          "height": 768,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة الكوع المثني Game Ready",
+            "en": "Game Ready Elbow Wrap — Flexed"
+          },
+          "sourcePage": "https://gameready.com/medical/wraps/",
+          "source_image_url": "https://gameready.com/wp-content/uploads/2026/08/wrap-med-elbow-flexed-768x768.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://gameready.com/medical/wraps/"
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 128,
+        "description": {
+          "ar": "<p>لفافة تبريد وضغط من Game Ready. مقاس واحد للذراع اليمنى أو اليسرى، مع ثني 90° أو 135° لمن لا يستطيع فرد الكوع.</p>",
+          "en": "<p>Game Ready cold-and-compression wrap. One size for either arm; 90° or 135° flexion for patients unable to straighten the elbow.</p>"
+        },
+        "shortDescription": {
+          "ar": "لفافة الكوع المثني Game Ready",
+          "en": "Game Ready Elbow Wrap — Flexed"
+        },
+        "features": {
+          "ar": [
+            "متوافقة مع GRPro 2.1 وMED4 Elite",
+            "تُستخدم مع وحدة الجهاز؛ الوحدة منفصلة"
+          ],
+          "en": [
+            "Compatible with GRPro 2.1 and MED4 Elite",
+            "Requires a control unit; unit sold separately"
+          ]
+        },
+        "specifications": [
+          {
+            "name": {
+              "ar": "المقاس / الجهة",
+              "en": "Size / side"
+            },
+            "value": {
+              "ar": "مقاس واحد للذراع اليمنى أو اليسرى، مع ثني 90° أو 135° لمن لا يستطيع فرد الكوع.",
+              "en": "One size for either arm; 90° or 135° flexion for patients unable to straighten the elbow."
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — مقاس واحد",
+              "en": "Item code — One size"
+            },
+            "value": {
+              "ar": "590903",
+              "en": "590903"
+            }
+          }
+        ],
+        "metaTitle": {
+          "ar": "لفافة الكوع المثني Game Ready",
+          "en": "Game Ready Elbow Wrap — Flexed"
+        },
+        "metaDescription": {
+          "ar": "لفافة تبريد وضغط من Game Ready. مقاس واحد للذراع اليمنى أو اليسرى، مع ثني 90° أو 135° لمن لا يستطيع فرد الكوع.",
+          "en": "Game Ready cold-and-compression wrap. One size for either arm; 90° or 135° flexion for patients unable to straighten the elbow."
+        },
+        "attachments": [
+          {
+            "file": "#product/portable",
+            "label": {
+              "ar": "الجهاز المتوافق: GRPro 2.1",
+              "en": "Compatible unit: GRPro 2.1"
+            }
+          },
+          {
+            "file": "#product/med4",
+            "label": {
+              "ar": "الجهاز المتوافق: MED4 Elite",
+              "en": "Compatible unit: MED4 Elite"
+            }
+          }
+        ]
+      },
+      "catalogueImport": {
+        "batch": "game-ready-medical-wraps-20261103",
+        "source": "https://gameready.com/medical/wraps/"
+      }
+    },
+    {
+      "id": "game-ready-wrap-elbow-straight",
+      "name": "Game Ready Elbow Wrap — Straight",
+      "nameEn": "Game Ready Elbow Wrap — Straight",
+      "titleAr": "لفافة الكوع المستقيم Game Ready",
+      "brand": "Game Ready",
+      "model": "590200",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "لفافة تبريد وضغط من Game Ready. مقاس واحد للذراع اليمنى أو اليسرى.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "compatibleProductIds": [
+        "portable",
+        "med4"
+      ],
+      "catalogueVariants": [
+        {
+          "label": "One size",
+          "manufacturerItemNumber": "590200"
+        }
+      ],
+      "files": [
+        {
+          "file": "assets/products/game-ready-wraps/wrap-med-elbow-straight-768x768.jpg",
+          "width": 768,
+          "height": 768,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة الكوع المستقيم Game Ready",
+            "en": "Game Ready Elbow Wrap — Straight"
+          },
+          "sourcePage": "https://gameready.com/medical/wraps/",
+          "source_image_url": "https://gameready.com/wp-content/uploads/2026/08/wrap-med-elbow-straight-768x768.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://gameready.com/medical/wraps/"
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 129,
+        "description": {
+          "ar": "<p>لفافة تبريد وضغط من Game Ready. مقاس واحد للذراع اليمنى أو اليسرى.</p>",
+          "en": "<p>Game Ready cold-and-compression wrap. One size for either arm.</p>"
+        },
+        "shortDescription": {
+          "ar": "لفافة الكوع المستقيم Game Ready",
+          "en": "Game Ready Elbow Wrap — Straight"
+        },
+        "features": {
+          "ar": [
+            "متوافقة مع GRPro 2.1 وMED4 Elite",
+            "تُستخدم مع وحدة الجهاز؛ الوحدة منفصلة"
+          ],
+          "en": [
+            "Compatible with GRPro 2.1 and MED4 Elite",
+            "Requires a control unit; unit sold separately"
+          ]
+        },
+        "specifications": [
+          {
+            "name": {
+              "ar": "المقاس / الجهة",
+              "en": "Size / side"
+            },
+            "value": {
+              "ar": "مقاس واحد للذراع اليمنى أو اليسرى.",
+              "en": "One size for either arm."
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — مقاس واحد",
+              "en": "Item code — One size"
+            },
+            "value": {
+              "ar": "590200",
+              "en": "590200"
+            }
+          }
+        ],
+        "metaTitle": {
+          "ar": "لفافة الكوع المستقيم Game Ready",
+          "en": "Game Ready Elbow Wrap — Straight"
+        },
+        "metaDescription": {
+          "ar": "لفافة تبريد وضغط من Game Ready. مقاس واحد للذراع اليمنى أو اليسرى.",
+          "en": "Game Ready cold-and-compression wrap. One size for either arm."
+        },
+        "attachments": [
+          {
+            "file": "#product/portable",
+            "label": {
+              "ar": "الجهاز المتوافق: GRPro 2.1",
+              "en": "Compatible unit: GRPro 2.1"
+            }
+          },
+          {
+            "file": "#product/med4",
+            "label": {
+              "ar": "الجهاز المتوافق: MED4 Elite",
+              "en": "Compatible unit: MED4 Elite"
+            }
+          }
+        ]
+      },
+      "catalogueImport": {
+        "batch": "game-ready-medical-wraps-20261103",
+        "source": "https://gameready.com/medical/wraps/"
+      }
+    },
+    {
+      "id": "game-ready-wrap-full-leg",
+      "name": "Game Ready Full Leg Boot Wrap",
+      "nameEn": "Game Ready Full Leg Boot Wrap",
+      "titleAr": "لفافة الساق الكاملة Game Ready",
+      "brand": "Game Ready",
+      "model": "590923 / 590922",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "لفافة تبريد وضغط من Game Ready. للساق اليمنى أو اليسرى. طول الساق الداخلي: M من 27 إلى 33 بوصة؛ L من 33 إلى 37 بوصة.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "compatibleProductIds": [
+        "portable",
+        "med4"
+      ],
+      "catalogueVariants": [
+        {
+          "label": "M",
+          "manufacturerItemNumber": "590923"
+        },
+        {
+          "label": "L",
+          "manufacturerItemNumber": "590922"
+        }
+      ],
+      "files": [
+        {
+          "file": "assets/products/game-ready-wraps/wrap-med-full-leg-boot-768x768.jpg",
+          "width": 768,
+          "height": 768,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة الساق الكاملة Game Ready",
+            "en": "Game Ready Full Leg Boot Wrap"
+          },
+          "sourcePage": "https://gameready.com/medical/wraps/",
+          "source_image_url": "https://gameready.com/wp-content/uploads/2026/08/wrap-med-full-leg-boot-768x768.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://gameready.com/medical/wraps/"
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 130,
+        "description": {
+          "ar": "<p>لفافة تبريد وضغط من Game Ready. للساق اليمنى أو اليسرى. طول الساق الداخلي: M من 27 إلى 33 بوصة؛ L من 33 إلى 37 بوصة.</p>",
+          "en": "<p>Game Ready cold-and-compression wrap. Either leg. Inseam: M 27–33 inches; L 33–37 inches.</p>"
+        },
+        "shortDescription": {
+          "ar": "لفافة الساق الكاملة Game Ready",
+          "en": "Game Ready Full Leg Boot Wrap"
+        },
+        "features": {
+          "ar": [
+            "متوافقة مع GRPro 2.1 وMED4 Elite",
+            "تُستخدم مع وحدة الجهاز؛ الوحدة منفصلة"
+          ],
+          "en": [
+            "Compatible with GRPro 2.1 and MED4 Elite",
+            "Requires a control unit; unit sold separately"
+          ]
+        },
+        "specifications": [
+          {
+            "name": {
+              "ar": "المقاس / الجهة",
+              "en": "Size / side"
+            },
+            "value": {
+              "ar": "للساق اليمنى أو اليسرى. طول الساق الداخلي: M من 27 إلى 33 بوصة؛ L من 33 إلى 37 بوصة.",
+              "en": "Either leg. Inseam: M 27–33 inches; L 33–37 inches."
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — M",
+              "en": "Item code — M"
+            },
+            "value": {
+              "ar": "590923",
+              "en": "590923"
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — L",
+              "en": "Item code — L"
+            },
+            "value": {
+              "ar": "590922",
+              "en": "590922"
+            }
+          }
+        ],
+        "metaTitle": {
+          "ar": "لفافة الساق الكاملة Game Ready",
+          "en": "Game Ready Full Leg Boot Wrap"
+        },
+        "metaDescription": {
+          "ar": "لفافة تبريد وضغط من Game Ready. للساق اليمنى أو اليسرى. طول الساق الداخلي: M من 27 إلى 33 بوصة؛ L من 33 إلى 37 بوصة.",
+          "en": "Game Ready cold-and-compression wrap. Either leg. Inseam: M 27–33 inches; L 33–37 inches."
+        },
+        "attachments": [
+          {
+            "file": "#product/portable",
+            "label": {
+              "ar": "الجهاز المتوافق: GRPro 2.1",
+              "en": "Compatible unit: GRPro 2.1"
+            }
+          },
+          {
+            "file": "#product/med4",
+            "label": {
+              "ar": "الجهاز المتوافق: MED4 Elite",
+              "en": "Compatible unit: MED4 Elite"
+            }
+          }
+        ]
+      },
+      "catalogueImport": {
+        "batch": "game-ready-medical-wraps-20261103",
+        "source": "https://gameready.com/medical/wraps/"
+      }
+    },
+    {
+      "id": "game-ready-wrap-half-leg",
+      "name": "Game Ready Half Leg Boot Wrap",
+      "nameEn": "Game Ready Half Leg Boot Wrap",
+      "titleAr": "لفافة نصف الساق Game Ready",
+      "brand": "Game Ready",
+      "model": "590906",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "لفافة تبريد وضغط من Game Ready. للقدم اليمنى أو اليسرى؛ مقاس حذاء الرجال 6–11 والنساء حتى 13، وفق مرجع الشركة.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "compatibleProductIds": [
+        "portable",
+        "med4"
+      ],
+      "catalogueVariants": [
+        {
+          "label": "One size",
+          "manufacturerItemNumber": "590906"
+        }
+      ],
+      "files": [
+        {
+          "file": "assets/products/game-ready-wraps/wrap-med-half-leg-boot-768x768.jpg",
+          "width": 768,
+          "height": 768,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة نصف الساق Game Ready",
+            "en": "Game Ready Half Leg Boot Wrap"
+          },
+          "sourcePage": "https://gameready.com/medical/wraps/",
+          "source_image_url": "https://gameready.com/wp-content/uploads/2026/08/wrap-med-half-leg-boot-768x768.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://gameready.com/medical/wraps/"
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 131,
+        "description": {
+          "ar": "<p>لفافة تبريد وضغط من Game Ready. للقدم اليمنى أو اليسرى؛ مقاس حذاء الرجال 6–11 والنساء حتى 13، وفق مرجع الشركة.</p>",
+          "en": "<p>Game Ready cold-and-compression wrap. Either foot; men’s shoe sizes 6–11 and women’s up to 13, per manufacturer sizing.</p>"
+        },
+        "shortDescription": {
+          "ar": "لفافة نصف الساق Game Ready",
+          "en": "Game Ready Half Leg Boot Wrap"
+        },
+        "features": {
+          "ar": [
+            "متوافقة مع GRPro 2.1 وMED4 Elite",
+            "تُستخدم مع وحدة الجهاز؛ الوحدة منفصلة"
+          ],
+          "en": [
+            "Compatible with GRPro 2.1 and MED4 Elite",
+            "Requires a control unit; unit sold separately"
+          ]
+        },
+        "specifications": [
+          {
+            "name": {
+              "ar": "المقاس / الجهة",
+              "en": "Size / side"
+            },
+            "value": {
+              "ar": "للقدم اليمنى أو اليسرى؛ مقاس حذاء الرجال 6–11 والنساء حتى 13، وفق مرجع الشركة.",
+              "en": "Either foot; men’s shoe sizes 6–11 and women’s up to 13, per manufacturer sizing."
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — مقاس واحد",
+              "en": "Item code — One size"
+            },
+            "value": {
+              "ar": "590906",
+              "en": "590906"
+            }
+          }
+        ],
+        "metaTitle": {
+          "ar": "لفافة نصف الساق Game Ready",
+          "en": "Game Ready Half Leg Boot Wrap"
+        },
+        "metaDescription": {
+          "ar": "لفافة تبريد وضغط من Game Ready. للقدم اليمنى أو اليسرى؛ مقاس حذاء الرجال 6–11 والنساء حتى 13، وفق مرجع الشركة.",
+          "en": "Game Ready cold-and-compression wrap. Either foot; men’s shoe sizes 6–11 and women’s up to 13, per manufacturer sizing."
+        },
+        "attachments": [
+          {
+            "file": "#product/portable",
+            "label": {
+              "ar": "الجهاز المتوافق: GRPro 2.1",
+              "en": "Compatible unit: GRPro 2.1"
+            }
+          },
+          {
+            "file": "#product/med4",
+            "label": {
+              "ar": "الجهاز المتوافق: MED4 Elite",
+              "en": "Compatible unit: MED4 Elite"
+            }
+          }
+        ]
+      },
+      "catalogueImport": {
+        "batch": "game-ready-medical-wraps-20261103",
+        "source": "https://gameready.com/medical/wraps/"
+      }
+    },
+    {
+      "id": "game-ready-wrap-hand-wrist",
+      "name": "Game Ready Hand/Wrist Wrap",
+      "nameEn": "Game Ready Hand/Wrist Wrap",
+      "titleAr": "لفافة اليد والرسغ Game Ready",
+      "brand": "Game Ready",
+      "model": "590811",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "لفافة تبريد وضغط من Game Ready. مقاس واحد قابل للضبط لليد اليمنى أو اليسرى، مع دعامة يد قابلة للتعديل.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "compatibleProductIds": [
+        "portable",
+        "med4"
+      ],
+      "catalogueVariants": [
+        {
+          "label": "One size",
+          "manufacturerItemNumber": "590811"
+        }
+      ],
+      "files": [
+        {
+          "file": "assets/products/game-ready-wraps/wrap-med-hand-wrist-768x768.jpg",
+          "width": 768,
+          "height": 768,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة اليد والرسغ Game Ready",
+            "en": "Game Ready Hand/Wrist Wrap"
+          },
+          "sourcePage": "https://gameready.com/medical/wraps/",
+          "source_image_url": "https://gameready.com/wp-content/uploads/2026/08/wrap-med-hand-wrist-768x768.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://gameready.com/medical/wraps/"
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 132,
+        "description": {
+          "ar": "<p>لفافة تبريد وضغط من Game Ready. مقاس واحد قابل للضبط لليد اليمنى أو اليسرى، مع دعامة يد قابلة للتعديل.</p>",
+          "en": "<p>Game Ready cold-and-compression wrap. One adjustable size for either hand, with an adjustable hand support.</p>"
+        },
+        "shortDescription": {
+          "ar": "لفافة اليد والرسغ Game Ready",
+          "en": "Game Ready Hand/Wrist Wrap"
+        },
+        "features": {
+          "ar": [
+            "متوافقة مع GRPro 2.1 وMED4 Elite",
+            "تُستخدم مع وحدة الجهاز؛ الوحدة منفصلة"
+          ],
+          "en": [
+            "Compatible with GRPro 2.1 and MED4 Elite",
+            "Requires a control unit; unit sold separately"
+          ]
+        },
+        "specifications": [
+          {
+            "name": {
+              "ar": "المقاس / الجهة",
+              "en": "Size / side"
+            },
+            "value": {
+              "ar": "مقاس واحد قابل للضبط لليد اليمنى أو اليسرى، مع دعامة يد قابلة للتعديل.",
+              "en": "One adjustable size for either hand, with an adjustable hand support."
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — مقاس واحد",
+              "en": "Item code — One size"
+            },
+            "value": {
+              "ar": "590811",
+              "en": "590811"
+            }
+          }
+        ],
+        "metaTitle": {
+          "ar": "لفافة اليد والرسغ Game Ready",
+          "en": "Game Ready Hand/Wrist Wrap"
+        },
+        "metaDescription": {
+          "ar": "لفافة تبريد وضغط من Game Ready. مقاس واحد قابل للضبط لليد اليمنى أو اليسرى، مع دعامة يد قابلة للتعديل.",
+          "en": "Game Ready cold-and-compression wrap. One adjustable size for either hand, with an adjustable hand support."
+        },
+        "attachments": [
+          {
+            "file": "#product/portable",
+            "label": {
+              "ar": "الجهاز المتوافق: GRPro 2.1",
+              "en": "Compatible unit: GRPro 2.1"
+            }
+          },
+          {
+            "file": "#product/med4",
+            "label": {
+              "ar": "الجهاز المتوافق: MED4 Elite",
+              "en": "Compatible unit: MED4 Elite"
+            }
+          }
+        ]
+      },
+      "catalogueImport": {
+        "batch": "game-ready-medical-wraps-20261103",
+        "source": "https://gameready.com/medical/wraps/"
+      }
+    },
+    {
+      "id": "game-ready-wrap-hip-groin",
+      "name": "Game Ready Hip/Groin Wrap",
+      "nameEn": "Game Ready Hip/Groin Wrap",
+      "titleAr": "لفافة الورك وأعلى الفخذ Game Ready",
+      "brand": "Game Ready",
+      "model": "590604 / 590602",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "لفافة تبريد وضغط من Game Ready. نسختان لليمين واليسار. يصل محيط الخصر إلى 72 بوصة مع حزام التمديد؛ يُؤكد التجهيز عند الطلب.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "compatibleProductIds": [
+        "portable",
+        "med4"
+      ],
+      "catalogueVariants": [
+        {
+          "label": "Left",
+          "manufacturerItemNumber": "590604"
+        },
+        {
+          "label": "Right",
+          "manufacturerItemNumber": "590602"
+        }
+      ],
+      "files": [
+        {
+          "file": "assets/products/game-ready-wraps/wrap-med-hip-groin-768x768.jpg",
+          "width": 768,
+          "height": 768,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة الورك وأعلى الفخذ Game Ready",
+            "en": "Game Ready Hip/Groin Wrap"
+          },
+          "sourcePage": "https://gameready.com/medical/wraps/",
+          "source_image_url": "https://gameready.com/wp-content/uploads/2026/08/wrap-med-hip-groin-768x768.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://gameready.com/medical/wraps/"
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 133,
+        "description": {
+          "ar": "<p>لفافة تبريد وضغط من Game Ready. نسختان لليمين واليسار. يصل محيط الخصر إلى 72 بوصة مع حزام التمديد؛ يُؤكد التجهيز عند الطلب.</p>",
+          "en": "<p>Game Ready cold-and-compression wrap. Left and right models. Accommodates waists up to 72 inches with an extender strap; confirm configuration when ordering.</p>"
+        },
+        "shortDescription": {
+          "ar": "لفافة الورك وأعلى الفخذ Game Ready",
+          "en": "Game Ready Hip/Groin Wrap"
+        },
+        "features": {
+          "ar": [
+            "متوافقة مع GRPro 2.1 وMED4 Elite",
+            "تُستخدم مع وحدة الجهاز؛ الوحدة منفصلة"
+          ],
+          "en": [
+            "Compatible with GRPro 2.1 and MED4 Elite",
+            "Requires a control unit; unit sold separately"
+          ]
+        },
+        "specifications": [
+          {
+            "name": {
+              "ar": "المقاس / الجهة",
+              "en": "Size / side"
+            },
+            "value": {
+              "ar": "نسختان لليمين واليسار. يصل محيط الخصر إلى 72 بوصة مع حزام التمديد؛ يُؤكد التجهيز عند الطلب.",
+              "en": "Left and right models. Accommodates waists up to 72 inches with an extender strap; confirm configuration when ordering."
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — يسار",
+              "en": "Item code — Left"
+            },
+            "value": {
+              "ar": "590604",
+              "en": "590604"
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — يمين",
+              "en": "Item code — Right"
+            },
+            "value": {
+              "ar": "590602",
+              "en": "590602"
+            }
+          }
+        ],
+        "metaTitle": {
+          "ar": "لفافة الورك وأعلى الفخذ Game Ready",
+          "en": "Game Ready Hip/Groin Wrap"
+        },
+        "metaDescription": {
+          "ar": "لفافة تبريد وضغط من Game Ready. نسختان لليمين واليسار. يصل محيط الخصر إلى 72 بوصة مع حزام التمديد؛ يُؤكد التجهيز عند الطلب.",
+          "en": "Game Ready cold-and-compression wrap. Left and right models. Accommodates waists up to 72 inches with an extender strap; confirm configuration when ordering."
+        },
+        "attachments": [
+          {
+            "file": "#product/portable",
+            "label": {
+              "ar": "الجهاز المتوافق: GRPro 2.1",
+              "en": "Compatible unit: GRPro 2.1"
+            }
+          },
+          {
+            "file": "#product/med4",
+            "label": {
+              "ar": "الجهاز المتوافق: MED4 Elite",
+              "en": "Compatible unit: MED4 Elite"
+            }
+          }
+        ]
+      },
+      "catalogueImport": {
+        "batch": "game-ready-medical-wraps-20261103",
+        "source": "https://gameready.com/medical/wraps/"
+      }
+    },
+    {
+      "id": "game-ready-wrap-knee-articulated",
+      "name": "Game Ready Knee Wrap — Articulated",
+      "nameEn": "Game Ready Knee Wrap — Articulated",
+      "titleAr": "لفافة الركبة المفصلية Game Ready",
+      "brand": "Game Ready",
+      "model": "590160",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "لفافة تبريد وضغط من Game Ready. مقاس واحد للساق اليمنى أو اليسرى، متوافق مع أجهزة الحركة السلبية المستمرة CPM.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "compatibleProductIds": [
+        "portable",
+        "med4"
+      ],
+      "catalogueVariants": [
+        {
+          "label": "One size",
+          "manufacturerItemNumber": "590160"
+        }
+      ],
+      "files": [
+        {
+          "file": "assets/products/game-ready-wraps/wrap-med-knee-articulated-768x768.jpg",
+          "width": 768,
+          "height": 768,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة الركبة المفصلية Game Ready",
+            "en": "Game Ready Knee Wrap — Articulated"
+          },
+          "sourcePage": "https://gameready.com/medical/wraps/",
+          "source_image_url": "https://gameready.com/wp-content/uploads/2026/08/wrap-med-knee-articulated-768x768.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://gameready.com/medical/wraps/"
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 134,
+        "description": {
+          "ar": "<p>لفافة تبريد وضغط من Game Ready. مقاس واحد للساق اليمنى أو اليسرى، متوافق مع أجهزة الحركة السلبية المستمرة CPM.</p>",
+          "en": "<p>Game Ready cold-and-compression wrap. One size for either leg; compatible with continuous passive motion (CPM) machines.</p>"
+        },
+        "shortDescription": {
+          "ar": "لفافة الركبة المفصلية Game Ready",
+          "en": "Game Ready Knee Wrap — Articulated"
+        },
+        "features": {
+          "ar": [
+            "متوافقة مع GRPro 2.1 وMED4 Elite",
+            "تُستخدم مع وحدة الجهاز؛ الوحدة منفصلة"
+          ],
+          "en": [
+            "Compatible with GRPro 2.1 and MED4 Elite",
+            "Requires a control unit; unit sold separately"
+          ]
+        },
+        "specifications": [
+          {
+            "name": {
+              "ar": "المقاس / الجهة",
+              "en": "Size / side"
+            },
+            "value": {
+              "ar": "مقاس واحد للساق اليمنى أو اليسرى، متوافق مع أجهزة الحركة السلبية المستمرة CPM.",
+              "en": "One size for either leg; compatible with continuous passive motion (CPM) machines."
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — مقاس واحد",
+              "en": "Item code — One size"
+            },
+            "value": {
+              "ar": "590160",
+              "en": "590160"
+            }
+          }
+        ],
+        "metaTitle": {
+          "ar": "لفافة الركبة المفصلية Game Ready",
+          "en": "Game Ready Knee Wrap — Articulated"
+        },
+        "metaDescription": {
+          "ar": "لفافة تبريد وضغط من Game Ready. مقاس واحد للساق اليمنى أو اليسرى، متوافق مع أجهزة الحركة السلبية المستمرة CPM.",
+          "en": "Game Ready cold-and-compression wrap. One size for either leg; compatible with continuous passive motion (CPM) machines."
+        },
+        "attachments": [
+          {
+            "file": "#product/portable",
+            "label": {
+              "ar": "الجهاز المتوافق: GRPro 2.1",
+              "en": "Compatible unit: GRPro 2.1"
+            }
+          },
+          {
+            "file": "#product/med4",
+            "label": {
+              "ar": "الجهاز المتوافق: MED4 Elite",
+              "en": "Compatible unit: MED4 Elite"
+            }
+          }
+        ]
+      },
+      "catalogueImport": {
+        "batch": "game-ready-medical-wraps-20261103",
+        "source": "https://gameready.com/medical/wraps/"
+      }
+    },
+    {
+      "id": "game-ready-wrap-knee-straight",
+      "name": "Game Ready Knee Wrap — Straight",
+      "nameEn": "Game Ready Knee Wrap — Straight",
+      "titleAr": "لفافة الركبة المستقيمة Game Ready",
+      "brand": "Game Ready",
+      "model": "590100",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "لفافة تبريد وضغط من Game Ready. للساق اليمنى أو اليسرى؛ الطول 17 بوصة، المحيط العلوي 32 بوصة والسفلي 24 بوصة.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "compatibleProductIds": [
+        "portable",
+        "med4"
+      ],
+      "catalogueVariants": [
+        {
+          "label": "One size",
+          "manufacturerItemNumber": "590100"
+        }
+      ],
+      "files": [
+        {
+          "file": "assets/products/game-ready-wraps/wrap-med-knee-straight-768x768.jpg",
+          "width": 768,
+          "height": 768,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة الركبة المستقيمة Game Ready",
+            "en": "Game Ready Knee Wrap — Straight"
+          },
+          "sourcePage": "https://gameready.com/medical/wraps/",
+          "source_image_url": "https://gameready.com/wp-content/uploads/2026/08/wrap-med-knee-straight-768x768.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://gameready.com/medical/wraps/"
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 135,
+        "description": {
+          "ar": "<p>لفافة تبريد وضغط من Game Ready. للساق اليمنى أو اليسرى؛ الطول 17 بوصة، المحيط العلوي 32 بوصة والسفلي 24 بوصة.</p>",
+          "en": "<p>Game Ready cold-and-compression wrap. Either leg; length 17 inches, upper circumference 32 inches and lower circumference 24 inches.</p>"
+        },
+        "shortDescription": {
+          "ar": "لفافة الركبة المستقيمة Game Ready",
+          "en": "Game Ready Knee Wrap — Straight"
+        },
+        "features": {
+          "ar": [
+            "متوافقة مع GRPro 2.1 وMED4 Elite",
+            "تُستخدم مع وحدة الجهاز؛ الوحدة منفصلة"
+          ],
+          "en": [
+            "Compatible with GRPro 2.1 and MED4 Elite",
+            "Requires a control unit; unit sold separately"
+          ]
+        },
+        "specifications": [
+          {
+            "name": {
+              "ar": "المقاس / الجهة",
+              "en": "Size / side"
+            },
+            "value": {
+              "ar": "للساق اليمنى أو اليسرى؛ الطول 17 بوصة، المحيط العلوي 32 بوصة والسفلي 24 بوصة.",
+              "en": "Either leg; length 17 inches, upper circumference 32 inches and lower circumference 24 inches."
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — مقاس واحد",
+              "en": "Item code — One size"
+            },
+            "value": {
+              "ar": "590100",
+              "en": "590100"
+            }
+          }
+        ],
+        "metaTitle": {
+          "ar": "لفافة الركبة المستقيمة Game Ready",
+          "en": "Game Ready Knee Wrap — Straight"
+        },
+        "metaDescription": {
+          "ar": "لفافة تبريد وضغط من Game Ready. للساق اليمنى أو اليسرى؛ الطول 17 بوصة، المحيط العلوي 32 بوصة والسفلي 24 بوصة.",
+          "en": "Game Ready cold-and-compression wrap. Either leg; length 17 inches, upper circumference 32 inches and lower circumference 24 inches."
+        },
+        "attachments": [
+          {
+            "file": "#product/portable",
+            "label": {
+              "ar": "الجهاز المتوافق: GRPro 2.1",
+              "en": "Compatible unit: GRPro 2.1"
+            }
+          },
+          {
+            "file": "#product/med4",
+            "label": {
+              "ar": "الجهاز المتوافق: MED4 Elite",
+              "en": "Compatible unit: MED4 Elite"
+            }
+          }
+        ]
+      },
+      "catalogueImport": {
+        "batch": "game-ready-medical-wraps-20261103",
+        "source": "https://gameready.com/medical/wraps/"
+      }
+    },
+    {
+      "id": "game-ready-wrap-shoulder",
+      "name": "Game Ready Shoulder Wrap",
+      "nameEn": "Game Ready Shoulder Wrap",
+      "titleAr": "لفافة الكتف Game Ready",
+      "brand": "Game Ready",
+      "model": "590424 / 590422 / 590434 / 590432",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "لفافة تبريد وضغط من Game Ready. نسخ يمين ويسار. M: صدر 33–45 بوصة؛ L: صدر 40–55 بوصة، وحتى 77 بوصة مع حزام تمديد اختياري.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "compatibleProductIds": [
+        "portable",
+        "med4"
+      ],
+      "catalogueVariants": [
+        {
+          "label": "Left M",
+          "manufacturerItemNumber": "590424"
+        },
+        {
+          "label": "Right M",
+          "manufacturerItemNumber": "590422"
+        },
+        {
+          "label": "Left L",
+          "manufacturerItemNumber": "590434"
+        },
+        {
+          "label": "Right L",
+          "manufacturerItemNumber": "590432"
+        }
+      ],
+      "files": [
+        {
+          "file": "assets/products/game-ready-wraps/wrap-med-shoulder-768x768.jpg",
+          "width": 768,
+          "height": 768,
+          "role": "product",
+          "alt": {
+            "ar": "لفافة الكتف Game Ready",
+            "en": "Game Ready Shoulder Wrap"
+          },
+          "sourcePage": "https://gameready.com/medical/wraps/",
+          "source_image_url": "https://gameready.com/wp-content/uploads/2026/08/wrap-med-shoulder-768x768.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://gameready.com/medical/wraps/"
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 136,
+        "description": {
+          "ar": "<p>لفافة تبريد وضغط من Game Ready. نسخ يمين ويسار. M: صدر 33–45 بوصة؛ L: صدر 40–55 بوصة، وحتى 77 بوصة مع حزام تمديد اختياري.</p>",
+          "en": "<p>Game Ready cold-and-compression wrap. Left and right models. M: chest 33–45 inches; L: chest 40–55 inches, up to 77 inches with an optional extender strap.</p>"
+        },
+        "shortDescription": {
+          "ar": "لفافة الكتف Game Ready",
+          "en": "Game Ready Shoulder Wrap"
+        },
+        "features": {
+          "ar": [
+            "متوافقة مع GRPro 2.1 وMED4 Elite",
+            "تُستخدم مع وحدة الجهاز؛ الوحدة منفصلة"
+          ],
+          "en": [
+            "Compatible with GRPro 2.1 and MED4 Elite",
+            "Requires a control unit; unit sold separately"
+          ]
+        },
+        "specifications": [
+          {
+            "name": {
+              "ar": "المقاس / الجهة",
+              "en": "Size / side"
+            },
+            "value": {
+              "ar": "نسخ يمين ويسار. M: صدر 33–45 بوصة؛ L: صدر 40–55 بوصة، وحتى 77 بوصة مع حزام تمديد اختياري.",
+              "en": "Left and right models. M: chest 33–45 inches; L: chest 40–55 inches, up to 77 inches with an optional extender strap."
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — يسار M",
+              "en": "Item code — Left M"
+            },
+            "value": {
+              "ar": "590424",
+              "en": "590424"
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — يمين M",
+              "en": "Item code — Right M"
+            },
+            "value": {
+              "ar": "590422",
+              "en": "590422"
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — يسار L",
+              "en": "Item code — Left L"
+            },
+            "value": {
+              "ar": "590434",
+              "en": "590434"
+            }
+          },
+          {
+            "name": {
+              "ar": "رقم الصنف — يمين L",
+              "en": "Item code — Right L"
+            },
+            "value": {
+              "ar": "590432",
+              "en": "590432"
+            }
+          }
+        ],
+        "metaTitle": {
+          "ar": "لفافة الكتف Game Ready",
+          "en": "Game Ready Shoulder Wrap"
+        },
+        "metaDescription": {
+          "ar": "لفافة تبريد وضغط من Game Ready. نسخ يمين ويسار. M: صدر 33–45 بوصة؛ L: صدر 40–55 بوصة، وحتى 77 بوصة مع حزام تمديد اختياري.",
+          "en": "Game Ready cold-and-compression wrap. Left and right models. M: chest 33–45 inches; L: chest 40–55 inches, up to 77 inches with an optional extender strap."
+        },
+        "attachments": [
+          {
+            "file": "#product/portable",
+            "label": {
+              "ar": "الجهاز المتوافق: GRPro 2.1",
+              "en": "Compatible unit: GRPro 2.1"
+            }
+          },
+          {
+            "file": "#product/med4",
+            "label": {
+              "ar": "الجهاز المتوافق: MED4 Elite",
+              "en": "Compatible unit: MED4 Elite"
+            }
+          }
+        ]
+      },
+      "catalogueImport": {
+        "batch": "game-ready-medical-wraps-20261103",
+        "source": "https://gameready.com/medical/wraps/"
+      }
     }
   ],
   "offers": [

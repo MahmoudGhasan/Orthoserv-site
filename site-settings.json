@@ -2616,6 +2616,34 @@
       "likawave-transport-case": {
         "section": "accessories",
         "type": ""
+      },
+      "ems-dolorclast-focused": {
+        "section": "devices",
+        "type": "shockwave"
+      },
+      "ems-dolorclast-focus-handpiece": {
+        "section": "accessories",
+        "type": ""
+      },
+      "ems-dolorclast-focus-gel-pads": {
+        "section": "accessories",
+        "type": ""
+      },
+      "ems-dolorclast-focus-holder": {
+        "section": "accessories",
+        "type": ""
+      },
+      "ems-dolorclast-contact-gel": {
+        "section": "gel-electrodes",
+        "type": ""
+      },
+      "ems-dolorclast-focused-power-cord": {
+        "section": "accessories",
+        "type": ""
+      },
+      "ems-dolorclast-focused-cart": {
+        "section": "accessories",
+        "type": ""
       }
     }
   }

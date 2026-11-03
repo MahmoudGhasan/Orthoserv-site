@@ -37690,6 +37690,655 @@
         "batch": "likawave-accessories-20261103",
         "source": "LiKAMED manufacturer website"
       }
+    },
+    {
+      "id": "ems-dolorclast-focused",
+      "name": "EMS DolorClast Focused Shock Waves",
+      "nameEn": "EMS DolorClast Focused Shock Waves",
+      "titleAr": "جهاز الموجات الصدمية المركّزة EMS DolorClast Focused",
+      "brand": "EMS",
+      "model": "DolorClast Focused Shock Waves",
+      "category": "rehab",
+      "group": "shockwave",
+      "description": "جهاز موجات صدمية مركّزة بتقنية كهروضغطية، مع شاشة لمس وبرامج قابلة للتخصيص، وقبضة Focus للتحكم في التشغيل والشدة. ثلاث وسائد جل لضبط عمق البؤرة. العربة اختيارية.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/ems-focused/device.png",
+          "width": 810,
+          "height": 635,
+          "role": "product",
+          "alt": {
+            "ar": "جهاز الموجات الصدمية المركّزة EMS DolorClast Focused",
+            "en": "EMS DolorClast Focused Shock Waves"
+          },
+          "sourcePage": "https://www.ems-dolorclast.com/products/dolorclastr-focused-shock-waves",
+          "source_image_url": "https://www.ems-dolorclast.com/sites/default/files/inline-images/console-focused-website_1.png"
+        },
+        {
+          "file": "assets/products/ems-focused/handpiece-detail.png",
+          "width": 675,
+          "height": 675,
+          "role": "product",
+          "alt": {
+            "ar": "قبضة EMS DolorClast Focus",
+            "en": "EMS DolorClast Focus Handpiece"
+          },
+          "sourcePage": "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/",
+          "source_image_url": "https://ems-dolorclast.com.au/wp-content/uploads/2025/04/EMS-Focused-Shock-Waves-Handle.png"
+        },
+        {
+          "file": "assets/products/ems-focused/gel-pads.png",
+          "width": 220,
+          "height": 124,
+          "role": "product",
+          "alt": {
+            "ar": "طقم وسائد جل EMS DolorClast Focus",
+            "en": "EMS DolorClast Focus Gel Pads Kit"
+          },
+          "sourcePage": "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/",
+          "source_image_url": "https://ems-dolorclast.com.au/wp-content/uploads/2025/04/DolorClast%C2%AE-Focused-Shock-Waves-Gel-Pads.png"
+        },
+        {
+          "file": "assets/products/ems-focused/holder.png",
+          "width": 220,
+          "height": 124,
+          "role": "product",
+          "alt": {
+            "ar": "طقم حامل قبضة EMS DolorClast Focus",
+            "en": "EMS DolorClast Focus Handpiece Holder Kit"
+          },
+          "sourcePage": "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/",
+          "source_image_url": "https://ems-dolorclast.com.au/wp-content/uploads/2025/04/DolorClast%C2%AE-Focused-Shock-Waves-Handpiece-Holder.png"
+        },
+        {
+          "file": "assets/products/ems-focused/gel.png",
+          "width": 220,
+          "height": 217,
+          "role": "product",
+          "alt": {
+            "ar": "جل توصيل EMS DolorClast — عبوتان",
+            "en": "EMS DolorClast Contact Gel — 2 Bottles"
+          },
+          "sourcePage": "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/",
+          "source_image_url": "https://ems-dolorclast.com.au/wp-content/uploads/2025/04/Untitled-design-38.png"
+        },
+        {
+          "file": "assets/products/ems-focused/power-cord.jpg",
+          "width": 220,
+          "height": 147,
+          "role": "product",
+          "alt": {
+            "ar": "كابل كهرباء EMS DolorClast Focused",
+            "en": "EMS DolorClast Focused Power Cord"
+          },
+          "sourcePage": "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/",
+          "source_image_url": "https://ems-dolorclast.com.au/wp-content/uploads/2021/03/cable-holder.jpg"
+        },
+        {
+          "file": "assets/products/ems-focused/cart.jpg",
+          "width": 1280,
+          "height": 1920,
+          "role": "product",
+          "alt": {
+            "ar": "عربة EMS DolorClast Focused",
+            "en": "EMS DolorClast Focused Cart"
+          },
+          "sourcePage": "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/",
+          "source_image_url": "https://ems-dolorclast.com.au/wp-content/uploads/2025/04/EMS-Focused-Shock-Waves-on-Stand.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://www.ems-dolorclast.com/products/dolorclastr-focused-shock-waves",
+        "additionalPages": [
+          "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/"
+        ]
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 9,
+        "description": {
+          "ar": "<p>جهاز موجات صدمية مركّزة بتقنية كهروضغطية، مع شاشة لمس وبرامج قابلة للتخصيص، وقبضة Focus للتحكم في التشغيل والشدة. ثلاث وسائد جل لضبط عمق البؤرة. العربة اختيارية.</p>",
+          "en": "<p>Piezoelectric focused shockwave unit with touchscreen, configurable protocols and a Focus handpiece with on/off and intensity controls. Three gel pads adjust focal depth. Cart is optional.</p>"
+        },
+        "shortDescription": {
+          "ar": "جهاز الموجات الصدمية المركّزة EMS DolorClast Focused",
+          "en": "EMS DolorClast Focused Shock Waves"
+        },
+        "features": {
+          "ar": [
+            "تقنية كهروضغطية مركّزة",
+            "تحكم من القبضة",
+            "شاشة لمس وبروتوكولات قابلة للتخصيص"
+          ],
+          "en": [
+            "Focused piezoelectric technology",
+            "Handpiece controls",
+            "Touchscreen and configurable protocols"
+          ]
+        },
+        "specifications": [],
+        "metaTitle": {
+          "ar": "جهاز الموجات الصدمية المركّزة EMS DolorClast Focused",
+          "en": "EMS DolorClast Focused Shock Waves"
+        },
+        "metaDescription": {
+          "ar": "جهاز موجات صدمية مركّزة بتقنية كهروضغطية، مع شاشة لمس وبرامج قابلة للتخصيص، وقبضة Focus للتحكم في التشغيل والشدة. ثلاث وسائد جل لضبط عمق البؤرة. العربة اختيارية.",
+          "en": "Piezoelectric focused shockwave unit with touchscreen, configurable protocols and a Focus handpiece with on/off and intensity controls. Three gel pads adjust focal depth. Cart is optional."
+        },
+        "accessories": {
+          "ar": "التجهيز: وحدة الجهاز، قبضة Focus واحدة، طقم من 3 وسائد جل، طقم حامل القبضة، عبوتا جل وكابل كهرباء. العربة اختيارية وتُطلب منفصلة.",
+          "en": "Configuration: console, one Focus handpiece, three gel pads, handpiece holder kit, two gel bottles and power cord. Cart is optional and ordered separately."
+        },
+        "attachments": [
+          {
+            "file": "#product/ems-dolorclast-focus-handpiece",
+            "label": {
+              "ar": "اطلب منفصلًا: قبضة EMS DolorClast Focus",
+              "en": "Order separately: EMS DolorClast Focus Handpiece"
+            }
+          },
+          {
+            "file": "#product/ems-dolorclast-focus-gel-pads",
+            "label": {
+              "ar": "اطلب منفصلًا: طقم وسائد جل EMS DolorClast Focus",
+              "en": "Order separately: EMS DolorClast Focus Gel Pads Kit"
+            }
+          },
+          {
+            "file": "#product/ems-dolorclast-focus-holder",
+            "label": {
+              "ar": "اطلب منفصلًا: طقم حامل قبضة EMS DolorClast Focus",
+              "en": "Order separately: EMS DolorClast Focus Handpiece Holder Kit"
+            }
+          },
+          {
+            "file": "#product/ems-dolorclast-contact-gel",
+            "label": {
+              "ar": "اطلب منفصلًا: جل توصيل EMS DolorClast — عبوتان",
+              "en": "Order separately: EMS DolorClast Contact Gel — 2 Bottles"
+            }
+          },
+          {
+            "file": "#product/ems-dolorclast-focused-power-cord",
+            "label": {
+              "ar": "اطلب منفصلًا: كابل كهرباء EMS DolorClast Focused",
+              "en": "Order separately: EMS DolorClast Focused Power Cord"
+            }
+          },
+          {
+            "file": "#product/ems-dolorclast-focused-cart",
+            "label": {
+              "ar": "اطلب منفصلًا: عربة EMS DolorClast Focused",
+              "en": "Order separately: EMS DolorClast Focused Cart"
+            }
+          }
+        ]
+      },
+      "catalogueImport": {
+        "batch": "ems-focused-20261103",
+        "source": "EMS manufacturer and EMS Oceania official product pages"
+      },
+      "includedAccessoryIds": [
+        "ems-dolorclast-focus-handpiece",
+        "ems-dolorclast-focus-gel-pads",
+        "ems-dolorclast-focus-holder",
+        "ems-dolorclast-contact-gel",
+        "ems-dolorclast-focused-power-cord"
+      ],
+      "optionalAccessoryIds": [
+        "ems-dolorclast-focused-cart"
+      ]
+    },
+    {
+      "id": "ems-dolorclast-focus-handpiece",
+      "name": "EMS DolorClast Focus Handpiece",
+      "nameEn": "EMS DolorClast Focus Handpiece",
+      "titleAr": "قبضة EMS DolorClast Focus",
+      "brand": "EMS",
+      "model": "DolorClast Focus Handpiece",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "قبضة Focus للجهاز المركّز الجديد، بأزرار تشغيل وإيقاف وضبط الشدة. ليست قبضة الراديال أو Swiss PiezoClast القديمة.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/ems-focused/handpiece-detail.png",
+          "width": 675,
+          "height": 675,
+          "role": "product",
+          "alt": {
+            "ar": "قبضة EMS DolorClast Focus",
+            "en": "EMS DolorClast Focus Handpiece"
+          },
+          "sourcePage": "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/",
+          "source_image_url": "https://ems-dolorclast.com.au/wp-content/uploads/2025/04/EMS-Focused-Shock-Waves-Handle.png"
+        }
+      ],
+      "source": {
+        "page": "https://www.ems-dolorclast.com/products/dolorclastr-focused-shock-waves",
+        "additionalPages": [
+          "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/"
+        ]
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 111,
+        "description": {
+          "ar": "<p>قبضة Focus للجهاز المركّز الجديد، بأزرار تشغيل وإيقاف وضبط الشدة. ليست قبضة الراديال أو Swiss PiezoClast القديمة.</p>",
+          "en": "<p>Focus handpiece for the current focused unit, with on/off and intensity controls. Not a radial or legacy Swiss PiezoClast handpiece.</p>"
+        },
+        "shortDescription": {
+          "ar": "قبضة EMS DolorClast Focus",
+          "en": "EMS DolorClast Focus Handpiece"
+        },
+        "features": {
+          "ar": [
+            "متوافق مع DolorClast Focused Shock Waves"
+          ],
+          "en": [
+            "Compatible with DolorClast Focused Shock Waves"
+          ]
+        },
+        "specifications": [],
+        "metaTitle": {
+          "ar": "قبضة EMS DolorClast Focus",
+          "en": "EMS DolorClast Focus Handpiece"
+        },
+        "metaDescription": {
+          "ar": "قبضة Focus للجهاز المركّز الجديد، بأزرار تشغيل وإيقاف وضبط الشدة. ليست قبضة الراديال أو Swiss PiezoClast القديمة.",
+          "en": "Focus handpiece for the current focused unit, with on/off and intensity controls. Not a radial or legacy Swiss PiezoClast handpiece."
+        }
+      },
+      "catalogueImport": {
+        "batch": "ems-focused-20261103",
+        "source": "EMS manufacturer and EMS Oceania official product pages"
+      },
+      "compatibleProductIds": [
+        "ems-dolorclast-focused"
+      ]
+    },
+    {
+      "id": "ems-dolorclast-focus-gel-pads",
+      "name": "EMS DolorClast Focus Gel Pads Kit",
+      "nameEn": "EMS DolorClast Focus Gel Pads Kit",
+      "titleAr": "طقم وسائد جل EMS DolorClast Focus",
+      "brand": "EMS",
+      "model": "Focus Gel Pads Kit",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "طقم من ثلاث وسائد جل لضبط عمق البؤرة مع قبضة DolorClast Focus.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/ems-focused/gel-pads.png",
+          "width": 220,
+          "height": 124,
+          "role": "product",
+          "alt": {
+            "ar": "طقم وسائد جل EMS DolorClast Focus",
+            "en": "EMS DolorClast Focus Gel Pads Kit"
+          },
+          "sourcePage": "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/",
+          "source_image_url": "https://ems-dolorclast.com.au/wp-content/uploads/2025/04/DolorClast%C2%AE-Focused-Shock-Waves-Gel-Pads.png"
+        }
+      ],
+      "source": {
+        "page": "https://www.ems-dolorclast.com/products/dolorclastr-focused-shock-waves",
+        "additionalPages": [
+          "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/"
+        ]
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 112,
+        "description": {
+          "ar": "<p>طقم من ثلاث وسائد جل لضبط عمق البؤرة مع قبضة DolorClast Focus.</p>",
+          "en": "<p>Three gel pads for adjusting focal depth with the DolorClast Focus handpiece.</p>"
+        },
+        "shortDescription": {
+          "ar": "طقم وسائد جل EMS DolorClast Focus",
+          "en": "EMS DolorClast Focus Gel Pads Kit"
+        },
+        "features": {
+          "ar": [
+            "متوافق مع DolorClast Focused Shock Waves"
+          ],
+          "en": [
+            "Compatible with DolorClast Focused Shock Waves"
+          ]
+        },
+        "specifications": [],
+        "metaTitle": {
+          "ar": "طقم وسائد جل EMS DolorClast Focus",
+          "en": "EMS DolorClast Focus Gel Pads Kit"
+        },
+        "metaDescription": {
+          "ar": "طقم من ثلاث وسائد جل لضبط عمق البؤرة مع قبضة DolorClast Focus.",
+          "en": "Three gel pads for adjusting focal depth with the DolorClast Focus handpiece."
+        }
+      },
+      "catalogueImport": {
+        "batch": "ems-focused-20261103",
+        "source": "EMS manufacturer and EMS Oceania official product pages"
+      },
+      "compatibleProductIds": [
+        "ems-dolorclast-focused"
+      ]
+    },
+    {
+      "id": "ems-dolorclast-focus-holder",
+      "name": "EMS DolorClast Focus Handpiece Holder Kit",
+      "nameEn": "EMS DolorClast Focus Handpiece Holder Kit",
+      "titleAr": "طقم حامل قبضة EMS DolorClast Focus",
+      "brand": "EMS",
+      "model": "Focus Handpiece Holder Kit",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "طقم حامل القبضة المدرج ضمن تجهيز جهاز EMS Focused.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/ems-focused/holder.png",
+          "width": 220,
+          "height": 124,
+          "role": "product",
+          "alt": {
+            "ar": "طقم حامل قبضة EMS DolorClast Focus",
+            "en": "EMS DolorClast Focus Handpiece Holder Kit"
+          },
+          "sourcePage": "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/",
+          "source_image_url": "https://ems-dolorclast.com.au/wp-content/uploads/2025/04/DolorClast%C2%AE-Focused-Shock-Waves-Handpiece-Holder.png"
+        }
+      ],
+      "source": {
+        "page": "https://www.ems-dolorclast.com/products/dolorclastr-focused-shock-waves",
+        "additionalPages": [
+          "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/"
+        ]
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 113,
+        "description": {
+          "ar": "<p>طقم حامل القبضة المدرج ضمن تجهيز جهاز EMS Focused.</p>",
+          "en": "<p>Handpiece holder kit listed with the EMS Focused device.</p>"
+        },
+        "shortDescription": {
+          "ar": "طقم حامل قبضة EMS DolorClast Focus",
+          "en": "EMS DolorClast Focus Handpiece Holder Kit"
+        },
+        "features": {
+          "ar": [
+            "متوافق مع DolorClast Focused Shock Waves"
+          ],
+          "en": [
+            "Compatible with DolorClast Focused Shock Waves"
+          ]
+        },
+        "specifications": [],
+        "metaTitle": {
+          "ar": "طقم حامل قبضة EMS DolorClast Focus",
+          "en": "EMS DolorClast Focus Handpiece Holder Kit"
+        },
+        "metaDescription": {
+          "ar": "طقم حامل القبضة المدرج ضمن تجهيز جهاز EMS Focused.",
+          "en": "Handpiece holder kit listed with the EMS Focused device."
+        }
+      },
+      "catalogueImport": {
+        "batch": "ems-focused-20261103",
+        "source": "EMS manufacturer and EMS Oceania official product pages"
+      },
+      "compatibleProductIds": [
+        "ems-dolorclast-focused"
+      ]
+    },
+    {
+      "id": "ems-dolorclast-contact-gel",
+      "name": "EMS DolorClast Contact Gel — 2 Bottles",
+      "nameEn": "EMS DolorClast Contact Gel — 2 Bottles",
+      "titleAr": "جل توصيل EMS DolorClast — عبوتان",
+      "brand": "EMS",
+      "model": "Contact Gel — 2 Bottles",
+      "category": "consumables",
+      "group": "accessories",
+      "description": "عبوتا جل توصيل كما في تجهيز EMS Focused. الحجم والتوريد يُؤكدان مع الفريق.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/ems-focused/gel.png",
+          "width": 220,
+          "height": 217,
+          "role": "product",
+          "alt": {
+            "ar": "جل توصيل EMS DolorClast — عبوتان",
+            "en": "EMS DolorClast Contact Gel — 2 Bottles"
+          },
+          "sourcePage": "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/",
+          "source_image_url": "https://ems-dolorclast.com.au/wp-content/uploads/2025/04/Untitled-design-38.png"
+        }
+      ],
+      "source": {
+        "page": "https://www.ems-dolorclast.com/products/dolorclastr-focused-shock-waves",
+        "additionalPages": [
+          "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/"
+        ]
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 114,
+        "description": {
+          "ar": "<p>عبوتا جل توصيل كما في تجهيز EMS Focused. الحجم والتوريد يُؤكدان مع الفريق.</p>",
+          "en": "<p>Two contact-gel bottles as listed in the EMS Focused configuration. Confirm volume and supply with the team.</p>"
+        },
+        "shortDescription": {
+          "ar": "جل توصيل EMS DolorClast — عبوتان",
+          "en": "EMS DolorClast Contact Gel — 2 Bottles"
+        },
+        "features": {
+          "ar": [
+            "متوافق مع DolorClast Focused Shock Waves"
+          ],
+          "en": [
+            "Compatible with DolorClast Focused Shock Waves"
+          ]
+        },
+        "specifications": [],
+        "metaTitle": {
+          "ar": "جل توصيل EMS DolorClast — عبوتان",
+          "en": "EMS DolorClast Contact Gel — 2 Bottles"
+        },
+        "metaDescription": {
+          "ar": "عبوتا جل توصيل كما في تجهيز EMS Focused. الحجم والتوريد يُؤكدان مع الفريق.",
+          "en": "Two contact-gel bottles as listed in the EMS Focused configuration. Confirm volume and supply with the team."
+        }
+      },
+      "catalogueImport": {
+        "batch": "ems-focused-20261103",
+        "source": "EMS manufacturer and EMS Oceania official product pages"
+      },
+      "compatibleProductIds": [
+        "ems-dolorclast-focused"
+      ]
+    },
+    {
+      "id": "ems-dolorclast-focused-power-cord",
+      "name": "EMS DolorClast Focused Power Cord",
+      "nameEn": "EMS DolorClast Focused Power Cord",
+      "titleAr": "كابل كهرباء EMS DolorClast Focused",
+      "brand": "EMS",
+      "model": "Focused Power Cord",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "كابل كهرباء للجهاز. يُؤكد نوع القابس المناسب مع الفريق قبل التوريد.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/ems-focused/power-cord.jpg",
+          "width": 220,
+          "height": 147,
+          "role": "product",
+          "alt": {
+            "ar": "كابل كهرباء EMS DolorClast Focused",
+            "en": "EMS DolorClast Focused Power Cord"
+          },
+          "sourcePage": "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/",
+          "source_image_url": "https://ems-dolorclast.com.au/wp-content/uploads/2021/03/cable-holder.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://www.ems-dolorclast.com/products/dolorclastr-focused-shock-waves",
+        "additionalPages": [
+          "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/"
+        ]
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 115,
+        "description": {
+          "ar": "<p>كابل كهرباء للجهاز. يُؤكد نوع القابس المناسب مع الفريق قبل التوريد.</p>",
+          "en": "<p>Device power cord. Confirm the required plug type with the team before supply.</p>"
+        },
+        "shortDescription": {
+          "ar": "كابل كهرباء EMS DolorClast Focused",
+          "en": "EMS DolorClast Focused Power Cord"
+        },
+        "features": {
+          "ar": [
+            "متوافق مع DolorClast Focused Shock Waves"
+          ],
+          "en": [
+            "Compatible with DolorClast Focused Shock Waves"
+          ]
+        },
+        "specifications": [],
+        "metaTitle": {
+          "ar": "كابل كهرباء EMS DolorClast Focused",
+          "en": "EMS DolorClast Focused Power Cord"
+        },
+        "metaDescription": {
+          "ar": "كابل كهرباء للجهاز. يُؤكد نوع القابس المناسب مع الفريق قبل التوريد.",
+          "en": "Device power cord. Confirm the required plug type with the team before supply."
+        }
+      },
+      "catalogueImport": {
+        "batch": "ems-focused-20261103",
+        "source": "EMS manufacturer and EMS Oceania official product pages"
+      },
+      "compatibleProductIds": [
+        "ems-dolorclast-focused"
+      ]
+    },
+    {
+      "id": "ems-dolorclast-focused-cart",
+      "name": "EMS DolorClast Focused Cart",
+      "nameEn": "EMS DolorClast Focused Cart",
+      "titleAr": "عربة EMS DolorClast Focused",
+      "brand": "EMS",
+      "model": "Focused Cart",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "عربة اختيارية بعجلات متعددة الاتجاهات. الصورة تعرض الجهاز عليها؛ هذا الصنف للعربة منفصلة.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/ems-focused/cart.jpg",
+          "width": 1280,
+          "height": 1920,
+          "role": "product",
+          "alt": {
+            "ar": "عربة EMS DolorClast Focused",
+            "en": "EMS DolorClast Focused Cart"
+          },
+          "sourcePage": "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/",
+          "source_image_url": "https://ems-dolorclast.com.au/wp-content/uploads/2025/04/EMS-Focused-Shock-Waves-on-Stand.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://www.ems-dolorclast.com/products/dolorclastr-focused-shock-waves",
+        "additionalPages": [
+          "https://ems-dolorclast.com.au/products/dolorclast-focused-shock-waves/"
+        ]
+      },
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "sortOrder": 116,
+        "description": {
+          "ar": "<p>عربة اختيارية بعجلات متعددة الاتجاهات. الصورة تعرض الجهاز عليها؛ هذا الصنف للعربة منفصلة.</p>",
+          "en": "<p>Optional cart with multidirectional wheels. Image shows the device mounted; this listing is for the cart separately.</p>"
+        },
+        "shortDescription": {
+          "ar": "عربة EMS DolorClast Focused",
+          "en": "EMS DolorClast Focused Cart"
+        },
+        "features": {
+          "ar": [
+            "متوافق مع DolorClast Focused Shock Waves"
+          ],
+          "en": [
+            "Compatible with DolorClast Focused Shock Waves"
+          ]
+        },
+        "specifications": [],
+        "metaTitle": {
+          "ar": "عربة EMS DolorClast Focused",
+          "en": "EMS DolorClast Focused Cart"
+        },
+        "metaDescription": {
+          "ar": "عربة اختيارية بعجلات متعددة الاتجاهات. الصورة تعرض الجهاز عليها؛ هذا الصنف للعربة منفصلة.",
+          "en": "Optional cart with multidirectional wheels. Image shows the device mounted; this listing is for the cart separately."
+        }
+      },
+      "catalogueImport": {
+        "batch": "ems-focused-20261103",
+        "source": "EMS manufacturer and EMS Oceania official product pages"
+      },
+      "compatibleProductIds": [
+        "ems-dolorclast-focused"
+      ]
     }
   ],
   "offers": [

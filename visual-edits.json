@@ -656,6 +656,12 @@
       "route": "#catalog",
       "device": "desktop",
       "backgroundColor": "#ffffff"
+    },
+    {
+      "key": "#brandMenu>div:1>div:2>a:9",
+      "route": "*",
+      "device": "desktop",
+      "hidden": true
     }
   ],
   "widgets": [

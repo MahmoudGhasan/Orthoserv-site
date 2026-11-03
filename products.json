@@ -2314,7 +2314,7 @@
       "model": "VARIO 3i",
       "category": "rehab",
       "group": "shockwave",
-      "description": "جهاز LiKAWAVE VARIO 3i من LiKAMED. يُؤكد التجهيز والسعر والتوفر مع فريق أورثو سيرف.",
+      "description": "جهاز شوك ويف بتقنية Wide Focussing، شاشة لمس 10.1 بوصة، أربعة أنماط تشمل Linear وTriangle وPulse وInvert، وتردد نبضات حتى 25 هرتز. الوزن 8.3 كجم. التجهيز والملحقات ضمن عرض السعر.",
       "price": null,
       "method": "quote",
       "files": [
@@ -2343,8 +2343,30 @@
       "saleEnd": "",
       "options": [],
       "commerce": {
-        "sortOrder": 5
-      }
+        "sortOrder": 5,
+        "description": {
+          "ar": "<p>جهاز شوك ويف بتقنية Wide Focussing، شاشة لمس 10.1 بوصة، أربعة أنماط تشمل Linear وTriangle وPulse وInvert، وتردد نبضات حتى 25 هرتز. الوزن 8.3 كجم. التجهيز والملحقات ضمن عرض السعر.</p>",
+          "en": "<p>Wide Focussing shockwave unit with a 10.1-inch touchscreen, Linear/Triangle/Pulse/Invert modes and up to 25 Hz pulse frequency. Weight: 8.3 kg. Configuration and accessories are specified in the quotation.</p>"
+        },
+        "features": {
+          "ar": [
+            "شاشة لمس 10.1 بوصة",
+            "الوزن: 8.3 كجم",
+            "تردد النبضات: حتى 25 هرتز"
+          ],
+          "en": [
+            "10.1-inch touchscreen",
+            "Weight: 8.3 kg",
+            "Pulse frequency: up to 25 Hz"
+          ]
+        },
+        "quoteEnabled": true,
+        "metaDescription": {
+          "ar": "جهاز شوك ويف بتقنية Wide Focussing، شاشة لمس 10.1 بوصة، أربعة أنماط تشمل Linear وTriangle وPulse وInvert، وتردد نبضات حتى 25 هرتز. الوزن 8.3 كجم. التجهيز والملحقات ضمن عرض السعر.",
+          "en": "Wide Focussing shockwave unit with a 10.1-inch touchscreen, Linear/Triangle/Pulse/Invert modes and up to 25 Hz pulse frequency. Weight: 8.3 kg. Configuration and accessories are specified in the quotation."
+        }
+      },
+      "nameEn": "LiKAWAVE VARIO 3i"
     },
     {
       "id": "likawave-2i",
@@ -2354,7 +2376,7 @@
       "model": "VARIO 2i",
       "category": "rehab",
       "group": "shockwave",
-      "description": "جهاز LiKAWAVE VARIO 2i من LiKAMED. يُؤكد التجهيز والسعر والتوفر مع فريق أورثو سيرف.",
+      "description": "جهاز شوك ويف مكتبي بتقنية Wide Focussing ونمطين: Linear وTriangle. شاشة 7 بوصات، وزن 6.4 كجم، وتردد نبضات حتى 15 هرتز. الملحقات والتجهيز ضمن عرض السعر.",
       "price": null,
       "method": "quote",
       "files": [
@@ -2370,6 +2392,18 @@
           "source_page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/",
           "source_image_url": "https://likamed.de/wp-content/uploads/2025/01/2i-armed.jpg",
           "legal": "DEMO ONLY: replace with brand-approved asset"
+        },
+        {
+          "file": "assets/products/likawave-accessories/2i-empty.jpg",
+          "width": 640,
+          "height": 480,
+          "role": "product",
+          "alt": {
+            "ar": "وحدة LiKAWAVE VARIO 2i المكتبية",
+            "en": "LiKAWAVE VARIO 2i tabletop unit"
+          },
+          "sourcePage": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/",
+          "source_image_url": "https://likamed.de/wp-content/uploads/2025/01/2i-empty.jpg"
         }
       ],
       "source": {
@@ -2383,8 +2417,30 @@
       "saleEnd": "",
       "options": [],
       "commerce": {
-        "sortOrder": 8
-      }
+        "sortOrder": 8,
+        "description": {
+          "ar": "<p>جهاز شوك ويف مكتبي بتقنية Wide Focussing ونمطين: Linear وTriangle. شاشة 7 بوصات، وزن 6.4 كجم، وتردد نبضات حتى 15 هرتز. الملحقات والتجهيز ضمن عرض السعر.</p>",
+          "en": "<p>Tabletop shockwave unit with Wide Focussing and Linear/Triangle modes. 7-inch display, 6.4 kg weight and up to 15 Hz pulse frequency. Accessories and configuration are specified in the quotation.</p>"
+        },
+        "features": {
+          "ar": [
+            "شاشة 7 بوصات",
+            "الوزن: 6.4 كجم",
+            "تردد النبضات: حتى 15 هرتز"
+          ],
+          "en": [
+            "7-inch display",
+            "Weight: 6.4 kg",
+            "Pulse frequency: up to 15 Hz"
+          ]
+        },
+        "quoteEnabled": true,
+        "metaDescription": {
+          "ar": "جهاز شوك ويف مكتبي بتقنية Wide Focussing ونمطين: Linear وTriangle. شاشة 7 بوصات، وزن 6.4 كجم، وتردد نبضات حتى 15 هرتز. الملحقات والتجهيز ضمن عرض السعر.",
+          "en": "Tabletop shockwave unit with Wide Focussing and Linear/Triangle modes. 7-inch display, 6.4 kg weight and up to 15 Hz pulse frequency. Accessories and configuration are specified in the quotation."
+        }
+      },
+      "nameEn": "LiKAWAVE VARIO 2i"
     },
     {
       "id": "iv-needel-20g",
@@ -36814,6 +36870,825 @@
         "sourceWorkbook": "Devices_for_site10_batch3.xlsx",
         "sourceRow": 11,
         "sourceModel": "Vscan Air"
+      }
+    },
+    {
+      "id": "likawave-handpiece",
+      "name": "LiKAWAVE VARIO Handpiece",
+      "nameEn": "LiKAWAVE VARIO Handpiece",
+      "titleAr": "قبضة جهاز LiKAWAVE VARIO",
+      "brand": "LiKAWAVE",
+      "model": "Handpiece",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "قبضة خفيفة بمقذوف HD Ceramic وكابل توصيل بطول 2.5 متر، مدرجة ضمن ملحقات VARIO 2i و3i.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/likawave-accessories/3i-gun.jpg",
+          "width": 640,
+          "height": 480,
+          "role": "product",
+          "alt": {
+            "ar": "قبضة جهاز LiKAWAVE VARIO",
+            "en": "LiKAWAVE VARIO Handpiece"
+          },
+          "sourcePage": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/",
+          "source_image_url": "https://likamed.de/wp-content/uploads/2025/01/3i-gun.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/",
+        "additionalPages": [
+          "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/"
+        ]
+      },
+      "compatibleProductIds": [
+        "likawave-2i",
+        "likawave-3i"
+      ],
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "description": {
+          "ar": "<p>قبضة خفيفة بمقذوف HD Ceramic وكابل توصيل بطول 2.5 متر، مدرجة ضمن ملحقات VARIO 2i و3i.</p>",
+          "en": "<p>Lightweight handpiece with an HD Ceramic projectile and 2.5 m cable, listed for VARIO 2i and 3i.</p>"
+        },
+        "shortDescription": {
+          "ar": "قبضة جهاز LiKAWAVE VARIO",
+          "en": "LiKAWAVE VARIO Handpiece"
+        },
+        "features": {
+          "ar": [
+            "التوافق: LiKAWAVE VARIO 2i / 3i"
+          ],
+          "en": [
+            "Compatibility: LiKAWAVE VARIO 2i / 3i"
+          ]
+        },
+        "specifications": [],
+        "sortOrder": 95,
+        "metaTitle": {
+          "ar": "قبضة جهاز LiKAWAVE VARIO",
+          "en": "LiKAWAVE VARIO Handpiece"
+        },
+        "metaDescription": {
+          "ar": "قبضة خفيفة بمقذوف HD Ceramic وكابل توصيل بطول 2.5 متر، مدرجة ضمن ملحقات VARIO 2i و3i.",
+          "en": "Lightweight handpiece with an HD Ceramic projectile and 2.5 m cable, listed for VARIO 2i and 3i."
+        }
+      },
+      "catalogueImport": {
+        "batch": "likawave-accessories-20261103",
+        "source": "LiKAMED manufacturer website"
+      }
+    },
+    {
+      "id": "likawave-contact-gel",
+      "name": "LiKAWAVE Ultrasound Contact Gel",
+      "nameEn": "LiKAWAVE Ultrasound Contact Gel",
+      "titleAr": "جل توصيل LiKAWAVE",
+      "brand": "LiKAWAVE",
+      "model": "Contact Gel",
+      "category": "consumables",
+      "group": "accessories",
+      "description": "جل توصيل مدرج مع أجهزة LiKAWAVE VARIO، يُوضع بين رأس التطبيق والجلد.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/likawave-accessories/24-kontaktgel.jpg",
+          "width": 640,
+          "height": 480,
+          "role": "product",
+          "alt": {
+            "ar": "جل توصيل LiKAWAVE",
+            "en": "LiKAWAVE Ultrasound Contact Gel"
+          },
+          "sourcePage": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/",
+          "source_image_url": "https://likamed.de/wp-content/uploads/2025/01/24-kontaktgel.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/",
+        "additionalPages": [
+          "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/"
+        ]
+      },
+      "compatibleProductIds": [
+        "likawave-2i",
+        "likawave-3i"
+      ],
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "description": {
+          "ar": "<p>جل توصيل مدرج مع أجهزة LiKAWAVE VARIO، يُوضع بين رأس التطبيق والجلد.</p>",
+          "en": "<p>Coupling gel listed with LiKAWAVE VARIO devices, applied between the applicator and skin.</p>"
+        },
+        "shortDescription": {
+          "ar": "جل توصيل LiKAWAVE",
+          "en": "LiKAWAVE Ultrasound Contact Gel"
+        },
+        "features": {
+          "ar": [],
+          "en": []
+        },
+        "specifications": [],
+        "sortOrder": 96,
+        "metaTitle": {
+          "ar": "جل توصيل LiKAWAVE",
+          "en": "LiKAWAVE Ultrasound Contact Gel"
+        },
+        "metaDescription": {
+          "ar": "جل توصيل مدرج مع أجهزة LiKAWAVE VARIO، يُوضع بين رأس التطبيق والجلد.",
+          "en": "Coupling gel listed with LiKAWAVE VARIO devices, applied between the applicator and skin."
+        }
+      },
+      "catalogueImport": {
+        "batch": "likawave-accessories-20261103",
+        "source": "LiKAMED manufacturer website"
+      }
+    },
+    {
+      "id": "likawave-applicator-s",
+      "name": "LiKAWAVE VARIO Applicator S",
+      "nameEn": "LiKAWAVE VARIO Applicator S",
+      "titleAr": "رأس تطبيق LiKAWAVE VARIO مقاس S",
+      "brand": "LiKAWAVE",
+      "model": "Applicator S",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "رأس تطبيق مقاس S لأجهزة LiKAWAVE VARIO. عمق الاختراق المعلن حتى 55 مم.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/likawave-accessories/3i-s.jpg",
+          "width": 640,
+          "height": 480,
+          "role": "product",
+          "alt": {
+            "ar": "رأس تطبيق LiKAWAVE VARIO مقاس S",
+            "en": "LiKAWAVE VARIO Applicator S"
+          },
+          "sourcePage": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/",
+          "source_image_url": "https://likamed.de/wp-content/uploads/2025/01/3i-s.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/",
+        "additionalPages": [
+          "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/"
+        ]
+      },
+      "compatibleProductIds": [
+        "likawave-2i",
+        "likawave-3i"
+      ],
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "description": {
+          "ar": "<p>رأس تطبيق مقاس S لأجهزة LiKAWAVE VARIO. عمق الاختراق المعلن حتى 55 مم.</p>",
+          "en": "<p>Size S applicator for LiKAWAVE VARIO. Manufacturer-stated penetration depth: up to 55 mm.</p>"
+        },
+        "shortDescription": {
+          "ar": "رأس تطبيق LiKAWAVE VARIO مقاس S",
+          "en": "LiKAWAVE VARIO Applicator S"
+        },
+        "features": {
+          "ar": [
+            "التوافق: LiKAWAVE VARIO 2i / 3i"
+          ],
+          "en": [
+            "Compatibility: LiKAWAVE VARIO 2i / 3i"
+          ]
+        },
+        "specifications": [],
+        "sortOrder": 97,
+        "metaTitle": {
+          "ar": "رأس تطبيق LiKAWAVE VARIO مقاس S",
+          "en": "LiKAWAVE VARIO Applicator S"
+        },
+        "metaDescription": {
+          "ar": "رأس تطبيق مقاس S لأجهزة LiKAWAVE VARIO. عمق الاختراق المعلن حتى 55 مم.",
+          "en": "Size S applicator for LiKAWAVE VARIO. Manufacturer-stated penetration depth: up to 55 mm."
+        }
+      },
+      "catalogueImport": {
+        "batch": "likawave-accessories-20261103",
+        "source": "LiKAMED manufacturer website"
+      }
+    },
+    {
+      "id": "likawave-applicator-l",
+      "name": "LiKAWAVE VARIO Applicator L",
+      "nameEn": "LiKAWAVE VARIO Applicator L",
+      "titleAr": "رأس تطبيق LiKAWAVE VARIO مقاس L",
+      "brand": "LiKAWAVE",
+      "model": "Applicator L",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "رأس تطبيق مقاس L لأجهزة LiKAWAVE VARIO. عمق الاختراق المعلن حتى 25 مم.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/likawave-accessories/3i-l.jpg",
+          "width": 640,
+          "height": 480,
+          "role": "product",
+          "alt": {
+            "ar": "رأس تطبيق LiKAWAVE VARIO مقاس L",
+            "en": "LiKAWAVE VARIO Applicator L"
+          },
+          "sourcePage": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/",
+          "source_image_url": "https://likamed.de/wp-content/uploads/2025/01/3i-l.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/",
+        "additionalPages": [
+          "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/"
+        ]
+      },
+      "compatibleProductIds": [
+        "likawave-2i",
+        "likawave-3i"
+      ],
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "description": {
+          "ar": "<p>رأس تطبيق مقاس L لأجهزة LiKAWAVE VARIO. عمق الاختراق المعلن حتى 25 مم.</p>",
+          "en": "<p>Size L applicator for LiKAWAVE VARIO. Manufacturer-stated penetration depth: up to 25 mm.</p>"
+        },
+        "shortDescription": {
+          "ar": "رأس تطبيق LiKAWAVE VARIO مقاس L",
+          "en": "LiKAWAVE VARIO Applicator L"
+        },
+        "features": {
+          "ar": [
+            "التوافق: LiKAWAVE VARIO 2i / 3i"
+          ],
+          "en": [
+            "Compatibility: LiKAWAVE VARIO 2i / 3i"
+          ]
+        },
+        "specifications": [],
+        "sortOrder": 98,
+        "metaTitle": {
+          "ar": "رأس تطبيق LiKAWAVE VARIO مقاس L",
+          "en": "LiKAWAVE VARIO Applicator L"
+        },
+        "metaDescription": {
+          "ar": "رأس تطبيق مقاس L لأجهزة LiKAWAVE VARIO. عمق الاختراق المعلن حتى 25 مم.",
+          "en": "Size L applicator for LiKAWAVE VARIO. Manufacturer-stated penetration depth: up to 25 mm."
+        }
+      },
+      "catalogueImport": {
+        "batch": "likawave-accessories-20261103",
+        "source": "LiKAMED manufacturer website"
+      }
+    },
+    {
+      "id": "likawave-revision-kit",
+      "name": "LiKAWAVE VARIO Revision Kit",
+      "nameEn": "LiKAWAVE VARIO Revision Kit",
+      "titleAr": "طقم صيانة قبضة LiKAWAVE VARIO",
+      "brand": "LiKAWAVE",
+      "model": "Revision Kit",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "طقم صيانة مدرج لقبضة أجهزة LiKAWAVE VARIO 2i و3i. يُستخدم وفق تعليمات الخدمة الخاصة بإصدار القبضة.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/likawave-accessories/Revisionskit_rz.webp",
+          "width": 1082,
+          "height": 811,
+          "role": "product",
+          "alt": {
+            "ar": "طقم صيانة قبضة LiKAWAVE VARIO",
+            "en": "LiKAWAVE VARIO Revision Kit"
+          },
+          "sourcePage": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/",
+          "source_image_url": "https://likamed.de/wp-content/uploads/2025/08/Revisionskit_rz.webp"
+        }
+      ],
+      "source": {
+        "page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-2i/",
+        "additionalPages": [
+          "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/"
+        ]
+      },
+      "compatibleProductIds": [
+        "likawave-2i",
+        "likawave-3i"
+      ],
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "description": {
+          "ar": "<p>طقم صيانة مدرج لقبضة أجهزة LiKAWAVE VARIO 2i و3i. يُستخدم وفق تعليمات الخدمة الخاصة بإصدار القبضة.</p>",
+          "en": "<p>Service kit listed for LiKAWAVE VARIO 2i and 3i handpieces. Follow the service instructions for the handpiece version.</p>"
+        },
+        "shortDescription": {
+          "ar": "طقم صيانة قبضة LiKAWAVE VARIO",
+          "en": "LiKAWAVE VARIO Revision Kit"
+        },
+        "features": {
+          "ar": [
+            "التوافق: LiKAWAVE VARIO 2i / 3i"
+          ],
+          "en": [
+            "Compatibility: LiKAWAVE VARIO 2i / 3i"
+          ]
+        },
+        "specifications": [],
+        "sortOrder": 99,
+        "metaTitle": {
+          "ar": "طقم صيانة قبضة LiKAWAVE VARIO",
+          "en": "LiKAWAVE VARIO Revision Kit"
+        },
+        "metaDescription": {
+          "ar": "طقم صيانة مدرج لقبضة أجهزة LiKAWAVE VARIO 2i و3i. يُستخدم وفق تعليمات الخدمة الخاصة بإصدار القبضة.",
+          "en": "Service kit listed for LiKAWAVE VARIO 2i and 3i handpieces. Follow the service instructions for the handpiece version."
+        }
+      },
+      "catalogueImport": {
+        "batch": "likawave-accessories-20261103",
+        "source": "LiKAMED manufacturer website"
+      }
+    },
+    {
+      "id": "likawave-applicator-m",
+      "name": "LiKAWAVE VARIO Applicator M",
+      "nameEn": "LiKAWAVE VARIO Applicator M",
+      "titleAr": "رأس تطبيق LiKAWAVE VARIO مقاس M",
+      "brand": "LiKAWAVE",
+      "model": "Applicator M",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "رأس تطبيق مقاس M؛ عمق الاختراق المعلن حتى 35 مم.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/likawave-accessories/3i-m.jpg",
+          "width": 640,
+          "height": 480,
+          "role": "product",
+          "alt": {
+            "ar": "رأس تطبيق LiKAWAVE VARIO مقاس M",
+            "en": "LiKAWAVE VARIO Applicator M"
+          },
+          "sourcePage": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/",
+          "source_image_url": "https://likamed.de/wp-content/uploads/2025/01/3i-m.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/",
+        "additionalPages": [
+          "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/"
+        ]
+      },
+      "compatibleProductIds": [
+        "likawave-2i",
+        "likawave-3i"
+      ],
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "description": {
+          "ar": "<p>رأس تطبيق مقاس M؛ عمق الاختراق المعلن حتى 35 مم.</p>",
+          "en": "<p>Size M applicator; manufacturer-stated penetration depth up to 35 mm.</p>"
+        },
+        "shortDescription": {
+          "ar": "رأس تطبيق LiKAWAVE VARIO مقاس M",
+          "en": "LiKAWAVE VARIO Applicator M"
+        },
+        "features": {
+          "ar": [
+            "التوافق: LiKAWAVE VARIO 2i / 3i"
+          ],
+          "en": [
+            "Compatibility: LiKAWAVE VARIO 2i / 3i"
+          ]
+        },
+        "specifications": [],
+        "sortOrder": 100,
+        "metaTitle": {
+          "ar": "رأس تطبيق LiKAWAVE VARIO مقاس M",
+          "en": "LiKAWAVE VARIO Applicator M"
+        },
+        "metaDescription": {
+          "ar": "رأس تطبيق مقاس M؛ عمق الاختراق المعلن حتى 35 مم.",
+          "en": "Size M applicator; manufacturer-stated penetration depth up to 35 mm."
+        }
+      },
+      "catalogueImport": {
+        "batch": "likawave-accessories-20261103",
+        "source": "LiKAMED manufacturer website"
+      }
+    },
+    {
+      "id": "likawave-accessory-case",
+      "name": "LiKAWAVE VARIO 3i Accessory Case",
+      "nameEn": "LiKAWAVE VARIO 3i Accessory Case",
+      "titleAr": "حقيبة ملحقات LiKAWAVE VARIO 3i",
+      "brand": "LiKAWAVE",
+      "model": "VARIO 3i Accessory Case",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "حقيبة تنظيم ملحقات VARIO 3i. تُحدَّد المحتويات ضمن عرض السعر.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/likawave-accessories/3i-Koffer.jpg",
+          "width": 640,
+          "height": 480,
+          "role": "product",
+          "alt": {
+            "ar": "حقيبة ملحقات LiKAWAVE VARIO 3i",
+            "en": "LiKAWAVE VARIO 3i Accessory Case"
+          },
+          "sourcePage": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/",
+          "source_image_url": "https://likamed.de/wp-content/uploads/2025/01/3i-Koffer.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/",
+        "additionalPages": [
+          "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/"
+        ]
+      },
+      "compatibleProductIds": [
+        "likawave-3i"
+      ],
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "description": {
+          "ar": "<p>حقيبة تنظيم ملحقات VARIO 3i. تُحدَّد المحتويات ضمن عرض السعر.</p>",
+          "en": "<p>VARIO 3i accessory organiser case. Contents are specified in the quotation.</p>"
+        },
+        "shortDescription": {
+          "ar": "حقيبة ملحقات LiKAWAVE VARIO 3i",
+          "en": "LiKAWAVE VARIO 3i Accessory Case"
+        },
+        "features": {
+          "ar": [
+            "التوافق: LiKAWAVE VARIO 3i"
+          ],
+          "en": [
+            "Compatibility: LiKAWAVE VARIO 3i"
+          ]
+        },
+        "specifications": [],
+        "sortOrder": 101,
+        "metaTitle": {
+          "ar": "حقيبة ملحقات LiKAWAVE VARIO 3i",
+          "en": "LiKAWAVE VARIO 3i Accessory Case"
+        },
+        "metaDescription": {
+          "ar": "حقيبة تنظيم ملحقات VARIO 3i. تُحدَّد المحتويات ضمن عرض السعر.",
+          "en": "VARIO 3i accessory organiser case. Contents are specified in the quotation."
+        }
+      },
+      "catalogueImport": {
+        "batch": "likawave-accessories-20261103",
+        "source": "LiKAMED manufacturer website"
+      }
+    },
+    {
+      "id": "likawave-porter",
+      "name": "LiKAWAVE VARIO 3i Porter Trolley",
+      "nameEn": "LiKAWAVE VARIO 3i Porter Trolley",
+      "titleAr": "عربة LiKAWAVE VARIO 3i Porter",
+      "brand": "LiKAWAVE",
+      "model": "VARIO 3i Porter",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "عربة بأربع عجلات وحوامل للقبضة والكابل والجل. الصورة تعرض تجهيزًا مع الجهاز؛ نطاق التوريد ضمن عرض السعر.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/likawave-accessories/3i-Porter.jpg",
+          "width": 640,
+          "height": 960,
+          "role": "product",
+          "alt": {
+            "ar": "عربة LiKAWAVE VARIO 3i Porter",
+            "en": "LiKAWAVE VARIO 3i Porter Trolley"
+          },
+          "sourcePage": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/",
+          "source_image_url": "https://likamed.de/wp-content/uploads/2025/01/3i-Porter.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/",
+        "additionalPages": [
+          "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/"
+        ]
+      },
+      "compatibleProductIds": [
+        "likawave-3i"
+      ],
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "description": {
+          "ar": "<p>عربة بأربع عجلات وحوامل للقبضة والكابل والجل. الصورة تعرض تجهيزًا مع الجهاز؛ نطاق التوريد ضمن عرض السعر.</p>",
+          "en": "<p>Four-wheel trolley with handpiece, cable and gel holders. Image shows an equipped configuration; supply scope is quoted.</p>"
+        },
+        "shortDescription": {
+          "ar": "عربة LiKAWAVE VARIO 3i Porter",
+          "en": "LiKAWAVE VARIO 3i Porter Trolley"
+        },
+        "features": {
+          "ar": [
+            "التوافق: LiKAWAVE VARIO 3i"
+          ],
+          "en": [
+            "Compatibility: LiKAWAVE VARIO 3i"
+          ]
+        },
+        "specifications": [],
+        "sortOrder": 102,
+        "metaTitle": {
+          "ar": "عربة LiKAWAVE VARIO 3i Porter",
+          "en": "LiKAWAVE VARIO 3i Porter Trolley"
+        },
+        "metaDescription": {
+          "ar": "عربة بأربع عجلات وحوامل للقبضة والكابل والجل. الصورة تعرض تجهيزًا مع الجهاز؛ نطاق التوريد ضمن عرض السعر.",
+          "en": "Four-wheel trolley with handpiece, cable and gel holders. Image shows an equipped configuration; supply scope is quoted."
+        }
+      },
+      "catalogueImport": {
+        "batch": "likawave-accessories-20261103",
+        "source": "LiKAMED manufacturer website"
+      }
+    },
+    {
+      "id": "likawave-footswitch",
+      "name": "LiKAWAVE VARIO Footswitch",
+      "nameEn": "LiKAWAVE VARIO Footswitch",
+      "titleAr": "دواسة تحكم LiKAWAVE VARIO",
+      "brand": "LiKAWAVE",
+      "model": "Footswitch",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "دواسة لتغيير شدة العلاج والتبديل بين الأنماط.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/likawave-accessories/3i-pedals.jpg",
+          "width": 640,
+          "height": 480,
+          "role": "product",
+          "alt": {
+            "ar": "دواسة تحكم LiKAWAVE VARIO",
+            "en": "LiKAWAVE VARIO Footswitch"
+          },
+          "sourcePage": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/",
+          "source_image_url": "https://likamed.de/wp-content/uploads/2025/01/3i-pedals.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/",
+        "additionalPages": [
+          "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/"
+        ]
+      },
+      "compatibleProductIds": [
+        "likawave-2i",
+        "likawave-3i"
+      ],
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "description": {
+          "ar": "<p>دواسة لتغيير شدة العلاج والتبديل بين الأنماط.</p>",
+          "en": "<p>Foot control for adjusting treatment intensity and changing modes.</p>"
+        },
+        "shortDescription": {
+          "ar": "دواسة تحكم LiKAWAVE VARIO",
+          "en": "LiKAWAVE VARIO Footswitch"
+        },
+        "features": {
+          "ar": [
+            "التوافق: LiKAWAVE VARIO 2i / 3i"
+          ],
+          "en": [
+            "Compatibility: LiKAWAVE VARIO 2i / 3i"
+          ]
+        },
+        "specifications": [],
+        "sortOrder": 103,
+        "metaTitle": {
+          "ar": "دواسة تحكم LiKAWAVE VARIO",
+          "en": "LiKAWAVE VARIO Footswitch"
+        },
+        "metaDescription": {
+          "ar": "دواسة لتغيير شدة العلاج والتبديل بين الأنماط.",
+          "en": "Foot control for adjusting treatment intensity and changing modes."
+        }
+      },
+      "catalogueImport": {
+        "batch": "likawave-accessories-20261103",
+        "source": "LiKAMED manufacturer website"
+      }
+    },
+    {
+      "id": "likawave-applicators-xl-xxl",
+      "name": "LiKAWAVE VARIO XL / XXL Applicators",
+      "nameEn": "LiKAWAVE VARIO XL / XXL Applicators",
+      "titleAr": "رؤوس تطبيق LiKAWAVE VARIO مقاس XL وXXL",
+      "brand": "LiKAWAVE",
+      "model": "Applicators XL / XXL",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "رؤوس اختيارية: XL حتى 15 مم وXXL حتى 10 مم. يُحدَّد المقاس المطلوب مع الفريق.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/likawave-accessories/3i-xl-xxl.jpg",
+          "width": 640,
+          "height": 480,
+          "role": "product",
+          "alt": {
+            "ar": "رؤوس تطبيق LiKAWAVE VARIO مقاس XL وXXL",
+            "en": "LiKAWAVE VARIO XL / XXL Applicators"
+          },
+          "sourcePage": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/",
+          "source_image_url": "https://likamed.de/wp-content/uploads/2025/01/3i-xl-xxl.jpg"
+        }
+      ],
+      "source": {
+        "page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/",
+        "additionalPages": [
+          "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/"
+        ]
+      },
+      "compatibleProductIds": [
+        "likawave-2i",
+        "likawave-3i"
+      ],
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "description": {
+          "ar": "<p>رؤوس اختيارية: XL حتى 15 مم وXXL حتى 10 مم. يُحدَّد المقاس المطلوب مع الفريق.</p>",
+          "en": "<p>Optional applicators: XL up to 15 mm and XXL up to 10 mm. Specify the required size with the team.</p>"
+        },
+        "shortDescription": {
+          "ar": "رؤوس تطبيق LiKAWAVE VARIO مقاس XL وXXL",
+          "en": "LiKAWAVE VARIO XL / XXL Applicators"
+        },
+        "features": {
+          "ar": [
+            "التوافق: LiKAWAVE VARIO 2i / 3i"
+          ],
+          "en": [
+            "Compatibility: LiKAWAVE VARIO 2i / 3i"
+          ]
+        },
+        "specifications": [],
+        "sortOrder": 104,
+        "metaTitle": {
+          "ar": "رؤوس تطبيق LiKAWAVE VARIO مقاس XL وXXL",
+          "en": "LiKAWAVE VARIO XL / XXL Applicators"
+        },
+        "metaDescription": {
+          "ar": "رؤوس اختيارية: XL حتى 15 مم وXXL حتى 10 مم. يُحدَّد المقاس المطلوب مع الفريق.",
+          "en": "Optional applicators: XL up to 15 mm and XXL up to 10 mm. Specify the required size with the team."
+        }
+      },
+      "catalogueImport": {
+        "batch": "likawave-accessories-20261103",
+        "source": "LiKAMED manufacturer website"
+      }
+    },
+    {
+      "id": "likawave-transport-case",
+      "name": "LiKAWAVE VARIO Transport Case",
+      "nameEn": "LiKAWAVE VARIO Transport Case",
+      "titleAr": "حقيبة نقل LiKAWAVE VARIO",
+      "brand": "LiKAWAVE",
+      "model": "Transport Case",
+      "category": "rehab",
+      "group": "accessories",
+      "description": "حقيبة نقل بعجلات ومقبض سحب للاستخدام المتنقل.",
+      "price": null,
+      "method": "quote",
+      "availability": "confirm",
+      "visible": true,
+      "demoEligible": false,
+      "options": [],
+      "files": [
+        {
+          "file": "assets/products/likawave-accessories/Koffer.png",
+          "width": 446,
+          "height": 445,
+          "role": "product",
+          "alt": {
+            "ar": "حقيبة نقل LiKAWAVE VARIO",
+            "en": "LiKAWAVE VARIO Transport Case"
+          },
+          "sourcePage": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/",
+          "source_image_url": "https://likamed.de/wp-content/uploads/2025/03/Koffer.png"
+        }
+      ],
+      "source": {
+        "page": "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/",
+        "additionalPages": [
+          "https://likamed.de/stosswellentherapiegeraete/likawave-vario-3i/"
+        ]
+      },
+      "compatibleProductIds": [
+        "likawave-2i",
+        "likawave-3i"
+      ],
+      "commerce": {
+        "status": "published",
+        "quoteEnabled": true,
+        "description": {
+          "ar": "<p>حقيبة نقل بعجلات ومقبض سحب للاستخدام المتنقل.</p>",
+          "en": "<p>Wheeled transport case with a pull handle for mobile use.</p>"
+        },
+        "shortDescription": {
+          "ar": "حقيبة نقل LiKAWAVE VARIO",
+          "en": "LiKAWAVE VARIO Transport Case"
+        },
+        "features": {
+          "ar": [
+            "التوافق: LiKAWAVE VARIO 2i / 3i"
+          ],
+          "en": [
+            "Compatibility: LiKAWAVE VARIO 2i / 3i"
+          ]
+        },
+        "specifications": [],
+        "sortOrder": 105,
+        "metaTitle": {
+          "ar": "حقيبة نقل LiKAWAVE VARIO",
+          "en": "LiKAWAVE VARIO Transport Case"
+        },
+        "metaDescription": {
+          "ar": "حقيبة نقل بعجلات ومقبض سحب للاستخدام المتنقل.",
+          "en": "Wheeled transport case with a pull handle for mobile use."
+        }
+      },
+      "catalogueImport": {
+        "batch": "likawave-accessories-20261103",
+        "source": "LiKAMED manufacturer website"
       }
     }
   ],

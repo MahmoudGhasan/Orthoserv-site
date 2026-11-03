@@ -2572,6 +2572,50 @@
       "ge-vscan-air": {
         "section": "assessment",
         "type": "diagnostic-ultrasound"
+      },
+      "likawave-handpiece": {
+        "section": "accessories",
+        "type": ""
+      },
+      "likawave-contact-gel": {
+        "section": "gel-electrodes",
+        "type": ""
+      },
+      "likawave-applicator-s": {
+        "section": "accessories",
+        "type": ""
+      },
+      "likawave-applicator-l": {
+        "section": "accessories",
+        "type": ""
+      },
+      "likawave-revision-kit": {
+        "section": "accessories",
+        "type": ""
+      },
+      "likawave-applicator-m": {
+        "section": "accessories",
+        "type": ""
+      },
+      "likawave-accessory-case": {
+        "section": "accessories",
+        "type": ""
+      },
+      "likawave-porter": {
+        "section": "accessories",
+        "type": ""
+      },
+      "likawave-footswitch": {
+        "section": "accessories",
+        "type": ""
+      },
+      "likawave-applicators-xl-xxl": {
+        "section": "accessories",
+        "type": ""
+      },
+      "likawave-transport-case": {
+        "section": "accessories",
+        "type": ""
       }
     }
   }

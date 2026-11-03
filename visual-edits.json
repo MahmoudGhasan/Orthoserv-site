@@ -650,6 +650,12 @@
       "route": "#home",
       "device": "mobile",
       "hidden": true
+    },
+    {
+      "key": "#main>section:1",
+      "route": "#catalog",
+      "device": "desktop",
+      "backgroundColor": "#ffffff"
     }
   ],
   "widgets": [

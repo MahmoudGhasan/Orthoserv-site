@@ -18,3 +18,8 @@
 .oc-catalogue[data-category=medical] .oc-hero-copy{width:auto;margin:0;padding:16px 18px 20px;height:auto;background:#edf5fd}
 .oc-catalogue[data-category=medical] .oc-hero h1{font-size:21px}
 }
+
+/* Rehab cards: commercial device name first; existing Arabic descriptor below it. */
+.product-card.os-card.os-rehab .os-subtitle{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;height:36px;min-height:36px;flex-shrink:0;font-size:11px;line-height:18px;color:#74849a;margin:0}
+.product-card.os-card.os-rehab .os-options{display:none}
+@media(max-width:650px){.product-card.os-card.os-rehab .os-subtitle{font-size:10px;line-height:17px;height:34px;min-height:34px}}

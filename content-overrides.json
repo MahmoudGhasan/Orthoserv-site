@@ -498,7 +498,7 @@
     {
       "original": "المستهلكات",
       "ar": "المستلزمات الطبية",
-      "en": "Medical supplies"
+      "en": "Medical Supplies"
     },
     {
       "original": "احتياجات العناية اليومية",
@@ -507,8 +507,8 @@
     },
     {
       "original": "منتجات طبية متعددة التخصصات",
-      "ar": "الأجهزة والمستلزمات التخصصية",
-      "en": "Specialist equipment and supplies"
+      "ar": "المنتجات الطبية المتخصصة",
+      "en": "Specialist Medical Products"
     },
     {
       "original": "القساطر والدعامات والأدوات الطبية",
@@ -4259,6 +4259,16 @@
       "original": "مناسب للعيادات والطوارئ",
       "ar": "مناسب للعيادات والطوارئ",
       "en": "For clinics and emergency care"
+    },
+    {
+      "original": "المستلزمات الطبية",
+      "ar": "المستلزمات الطبية",
+      "en": "Medical Supplies"
+    },
+    {
+      "original": "المنتجات الطبية المتخصصة",
+      "ar": "المنتجات الطبية المتخصصة",
+      "en": "Specialist Medical Products"
     }
   ]
 }

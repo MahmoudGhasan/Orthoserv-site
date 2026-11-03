@@ -120,8 +120,8 @@
     "rehab": "العلاج الطبيعي والتأهيل",
     "gym": "اللياقة والتمارين",
     "compression": "الضغط الطبي",
-    "consumables": "المستهلكات",
-    "medical": "منتجات طبية متعددة التخصصات",
+    "consumables": "المستلزمات الطبية",
+    "medical": "المنتجات الطبية المتخصصة",
     "saved": "المفضلة"
   },
   "groups": {
@@ -1523,5 +1523,1048 @@
         ]
       ]
     }
-  ]
+  ],
+  "catalogueNavigation": {
+    "categories": {
+      "rehab": {
+        "title": {
+          "ar": "العلاج الطبيعي والتأهيل",
+          "en": "Physiotherapy & Rehabilitation"
+        },
+        "subtitle": {
+          "ar": "الأجهزة العلاجية وحلول الحركة",
+          "en": "Therapeutic equipment and mobility solutions"
+        },
+        "sections": [
+          {
+            "id": "devices",
+            "title": {
+              "ar": "أجهزة العلاج",
+              "en": "Therapy equipment"
+            },
+            "types": [
+              {
+                "id": "electro-magnetic",
+                "title": {
+                  "ar": "الكهرباء والمغناطيس",
+                  "en": "Electrical & magnetic therapy"
+                }
+              },
+              {
+                "id": "shockwave",
+                "title": {
+                  "ar": "الشوك ويف",
+                  "en": "Shockwave"
+                }
+              },
+              {
+                "id": "laser",
+                "title": {
+                  "ar": "الليزر",
+                  "en": "Laser"
+                }
+              },
+              {
+                "id": "radiofrequency",
+                "title": {
+                  "ar": "التردد الحراري",
+                  "en": "Radiofrequency"
+                }
+              },
+              {
+                "id": "thermal",
+                "title": {
+                  "ar": "التبريد والتسخين",
+                  "en": "Cold & heat therapy"
+                }
+              },
+              {
+                "id": "compression-therapy",
+                "title": {
+                  "ar": "الضغط الهوائي",
+                  "en": "Pneumatic compression"
+                }
+              },
+              {
+                "id": "traction",
+                "title": {
+                  "ar": "الشد",
+                  "en": "Traction"
+                }
+              },
+              {
+                "id": "massage",
+                "title": {
+                  "ar": "المساج",
+                  "en": "Massage"
+                }
+              }
+            ]
+          },
+          {
+            "id": "tables",
+            "title": {
+              "ar": "الترابيزات والتجهيزات",
+              "en": "Treatment tables & furniture"
+            },
+            "types": [
+              {
+                "id": "treatment-tables",
+                "title": {
+                  "ar": "ترابيزات العلاج",
+                  "en": "Treatment tables"
+                }
+              },
+              {
+                "id": "clinic-furniture",
+                "title": {
+                  "ar": "تجهيزات العيادة",
+                  "en": "Clinic furniture"
+                }
+              }
+            ]
+          },
+          {
+            "id": "movement",
+            "title": {
+              "ar": "التأهيل والحركة",
+              "en": "Rehabilitation & movement"
+            },
+            "types": [
+              {
+                "id": "passive-motion",
+                "title": {
+                  "ar": "الحركة المستمرة CPM",
+                  "en": "Continuous passive motion"
+                }
+              },
+              {
+                "id": "robotic-rehab",
+                "title": {
+                  "ar": "التأهيل الروبوتي",
+                  "en": "Robotic rehabilitation"
+                }
+              },
+              {
+                "id": "exercise-cycles",
+                "title": {
+                  "ar": "دراجات التأهيل",
+                  "en": "Rehabilitation cycles"
+                }
+              },
+              {
+                "id": "occupational",
+                "title": {
+                  "ar": "العلاج الوظيفي",
+                  "en": "Occupational therapy"
+                }
+              },
+              {
+                "id": "balance-sensory",
+                "title": {
+                  "ar": "التوازن والتأهيل الحسي",
+                  "en": "Balance & sensory rehabilitation"
+                }
+              },
+              {
+                "id": "walking-standing",
+                "title": {
+                  "ar": "المشي والوقوف",
+                  "en": "Walking & standing"
+                }
+              },
+              {
+                "id": "exercise-tools",
+                "title": {
+                  "ar": "أدوات وأجهزة التمرين",
+                  "en": "Exercise equipment & tools"
+                }
+              }
+            ]
+          },
+          {
+            "id": "assessment",
+            "title": {
+              "ar": "القياس والتقييم",
+              "en": "Assessment & measurement"
+            },
+            "types": [
+              {
+                "id": "body-composition",
+                "title": {
+                  "ar": "تركيب الجسم",
+                  "en": "Body composition"
+                }
+              },
+              {
+                "id": "strength-assessment",
+                "title": {
+                  "ar": "العضلات والقوة",
+                  "en": "Muscle & strength assessment"
+                }
+              },
+              {
+                "id": "balance-assessment",
+                "title": {
+                  "ar": "تقييم التوازن",
+                  "en": "Balance assessment"
+                }
+              },
+              {
+                "id": "cardiopulmonary",
+                "title": {
+                  "ar": "القلب والرئة",
+                  "en": "Cardiopulmonary assessment"
+                }
+              },
+              {
+                "id": "diagnostic-ultrasound",
+                "title": {
+                  "ar": "الموجات فوق الصوتية التشخيصية",
+                  "en": "Diagnostic ultrasound"
+                }
+              }
+            ]
+          },
+          {
+            "id": "accessories",
+            "title": {
+              "ar": "الملحقات",
+              "en": "Accessories"
+            },
+            "types": []
+          },
+          {
+            "id": "other",
+            "title": {
+              "ar": "أخرى",
+              "en": "Other"
+            },
+            "types": []
+          }
+        ],
+        "slides": [
+          {
+            "file": "assets/category-banners/rehab-01.jpg",
+            "alt": {
+              "ar": "غرفة علاج طبيعي مجهزة",
+              "en": "Equipped physiotherapy room"
+            }
+          },
+          {
+            "file": "assets/category-banners/rehab-02.jpg",
+            "alt": {
+              "ar": "تدريب على المشي داخل مركز تأهيل",
+              "en": "Walking training in a rehabilitation centre"
+            }
+          },
+          {
+            "file": "assets/category-banners/rehab-03.jpg",
+            "alt": {
+              "ar": "ترابيزة علاج وتجهيزات العيادة",
+              "en": "Treatment table and clinic furniture"
+            }
+          }
+        ]
+      },
+      "gym": {
+        "title": {
+          "ar": "اللياقة والتمارين",
+          "en": "Fitness & Exercise"
+        },
+        "subtitle": {
+          "ar": "أجهزة التمرين وإعادة التأهيل",
+          "en": "Exercise and rehabilitation equipment"
+        },
+        "sections": [
+          {
+            "id": "cardio",
+            "title": {
+              "ar": "أجهزة الكارديو",
+              "en": "Cardio equipment"
+            },
+            "types": []
+          },
+          {
+            "id": "strength",
+            "title": {
+              "ar": "أجهزة المقاومة",
+              "en": "Strength equipment"
+            },
+            "types": []
+          },
+          {
+            "id": "pilates",
+            "title": {
+              "ar": "بيلاتس",
+              "en": "Pilates"
+            },
+            "types": []
+          },
+          {
+            "id": "accessories",
+            "title": {
+              "ar": "الملحقات",
+              "en": "Accessories"
+            },
+            "types": []
+          },
+          {
+            "id": "other",
+            "title": {
+              "ar": "أخرى",
+              "en": "Other"
+            },
+            "types": []
+          }
+        ],
+        "slides": [
+          {
+            "file": "assets/category-banners/gym-01.jpg",
+            "alt": {
+              "ar": "أجهزة كارديو وتمارين",
+              "en": "Cardio and exercise equipment"
+            }
+          },
+          {
+            "file": "assets/category-banners/gym-02.jpg",
+            "alt": {
+              "ar": "جهاز ريفورمر بيلاتس",
+              "en": "Pilates reformer"
+            }
+          },
+          {
+            "file": "assets/category-banners/gym-03.jpg",
+            "alt": {
+              "ar": "أجهزة مقاومة وقوة",
+              "en": "Strength and resistance equipment"
+            }
+          }
+        ]
+      },
+      "consumables": {
+        "title": {
+          "ar": "المستلزمات الطبية",
+          "en": "Medical Supplies"
+        },
+        "subtitle": {
+          "ar": "مستلزمات العيادة والعناية اليومية",
+          "en": "Clinic supplies and everyday care"
+        },
+        "sections": [
+          {
+            "id": "wound-care",
+            "title": {
+              "ar": "العناية بالجروح",
+              "en": "Wound care"
+            },
+            "types": []
+          },
+          {
+            "id": "gel-electrodes",
+            "title": {
+              "ar": "الجل والأقطاب",
+              "en": "Gel & electrodes"
+            },
+            "types": []
+          },
+          {
+            "id": "clinical-tools",
+            "title": {
+              "ar": "مستلزمات العيادة",
+              "en": "Clinic supplies"
+            },
+            "types": []
+          },
+          {
+            "id": "needles",
+            "title": {
+              "ar": "الإبر والكانيولا",
+              "en": "Needles & cannulas"
+            },
+            "types": []
+          },
+          {
+            "id": "other",
+            "title": {
+              "ar": "أخرى",
+              "en": "Other"
+            },
+            "types": []
+          }
+        ],
+        "slides": [
+          {
+            "file": "assets/category-banners/consumables-01.jpg",
+            "alt": {
+              "ar": "ضمادات ومستلزمات العناية بالجروح",
+              "en": "Dressings and wound-care supplies"
+            }
+          },
+          {
+            "file": "assets/category-banners/consumables-02.jpg",
+            "alt": {
+              "ar": "مستلزمات طبية وتجهيزات يومية للعيادة",
+              "en": "Medical supplies for everyday clinic care"
+            }
+          }
+        ]
+      },
+      "medical": {
+        "title": {
+          "ar": "المنتجات الطبية المتخصصة",
+          "en": "Specialist Medical Products"
+        },
+        "subtitle": {
+          "ar": "الأجهزة والمستلزمات التخصصية",
+          "en": "Specialist equipment and supplies"
+        },
+        "slides": [],
+        "sections": [
+          {
+            "id": "catheters",
+            "title": {
+              "ar": "القساطر",
+              "en": "Catheters"
+            },
+            "types": []
+          },
+          {
+            "id": "guidewires",
+            "title": {
+              "ar": "الأسلاك الإرشادية",
+              "en": "Guidewires"
+            },
+            "types": []
+          },
+          {
+            "id": "stents",
+            "title": {
+              "ar": "الدعامات",
+              "en": "Stents"
+            },
+            "types": []
+          },
+          {
+            "id": "needles",
+            "title": {
+              "ar": "الإبر وأدوات الخزعات",
+              "en": "Needles & biopsy devices"
+            },
+            "types": []
+          },
+          {
+            "id": "dilators",
+            "title": {
+              "ar": "الموسعات وملحقاتها",
+              "en": "Dilators & accessories"
+            },
+            "types": []
+          },
+          {
+            "id": "other",
+            "title": {
+              "ar": "أخرى",
+              "en": "Other"
+            },
+            "types": []
+          }
+        ]
+      }
+    },
+    "assignments": {
+      "highcare-hc19065": {
+        "section": "wound-care",
+        "type": ""
+      },
+      "highcare-hc19067": {
+        "section": "wound-care",
+        "type": ""
+      },
+      "highcare-hc19068": {
+        "section": "wound-care",
+        "type": ""
+      },
+      "highcare-hc19069": {
+        "section": "wound-care",
+        "type": ""
+      },
+      "demo-3": {
+        "section": "clinical-tools",
+        "type": ""
+      },
+      "demo-2": {
+        "section": "clinical-tools",
+        "type": ""
+      },
+      "demo-1": {
+        "section": "gel-electrodes",
+        "type": ""
+      },
+      "demo-0": {
+        "section": "clinical-tools",
+        "type": ""
+      },
+      "btl": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "spirit": {
+        "section": "cardio",
+        "type": ""
+      },
+      "fms": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "rehamoto": {
+        "section": "movement",
+        "type": "exercise-cycles"
+      },
+      "lightforce": {
+        "section": "devices",
+        "type": "laser"
+      },
+      "winback": {
+        "section": "devices",
+        "type": "radiofrequency"
+      },
+      "portable": {
+        "section": "devices",
+        "type": "thermal"
+      },
+      "dolorclast": {
+        "section": "devices",
+        "type": "shockwave"
+      },
+      "med4": {
+        "section": "devices",
+        "type": "thermal"
+      },
+      "sheet-1": {
+        "section": "devices",
+        "type": "thermal"
+      },
+      "sheet-2": {
+        "section": "devices",
+        "type": "thermal"
+      },
+      "sheet-70": {
+        "section": "movement",
+        "type": "passive-motion"
+      },
+      "sheet-112": {
+        "section": "movement",
+        "type": "walking-standing"
+      },
+      "blueneem-inflation-device-interventional-systems": {
+        "section": "dilators",
+        "type": ""
+      },
+      "blueneem-ureteral-catheter-pediatrics": {
+        "section": "catheters",
+        "type": ""
+      },
+      "blueneem-fascial-dilators-set-pediatrics": {
+        "section": "dilators",
+        "type": ""
+      },
+      "blueneem-prime-wire-interventional-systems": {
+        "section": "guidewires",
+        "type": ""
+      },
+      "blueneem-tracer-guidewire-interventional-systems": {
+        "section": "guidewires",
+        "type": ""
+      },
+      "blueneem-twister-guidewire-pediatrics": {
+        "section": "guidewires",
+        "type": ""
+      },
+      "blueneem-ptfe-guidewire-interventionl-systems": {
+        "section": "guidewires",
+        "type": ""
+      },
+      "blueneem-chiba-needle-interventional-systems": {
+        "section": "needles",
+        "type": ""
+      },
+      "blueneem-bluthane-ureteral-stent-pediatrics": {
+        "section": "stents",
+        "type": ""
+      },
+      "blueneem-p-flex-ureteral-stent-urology": {
+        "section": "stents",
+        "type": ""
+      },
+      "blueneem-opticore-biopsy-gun-fully-automatic-interventional-systems": {
+        "section": "needles",
+        "type": ""
+      },
+      "blueneem-duraflex-t-stent": {
+        "section": "stents",
+        "type": ""
+      },
+      "blueneem-primacore-biopsy-gun-semi-automatic": {
+        "section": "needles",
+        "type": ""
+      },
+      "blueneem-sure-puncture-initial-puncture-needle-three-part-interventional-systems": {
+        "section": "needles",
+        "type": ""
+      },
+      "blueneem-initial-puncture-needle-two-part-urology": {
+        "section": "needles",
+        "type": ""
+      },
+      "blueneem-amplatz-extra-stiff-guide-wire-urology": {
+        "section": "guidewires",
+        "type": ""
+      },
+      "blueneem-amplatz-ultra-stiff-guidewire-urology": {
+        "section": "guidewires",
+        "type": ""
+      },
+      "likawave-3i": {
+        "section": "devices",
+        "type": "shockwave"
+      },
+      "likawave-2i": {
+        "section": "devices",
+        "type": "shockwave"
+      },
+      "iv-needel-20g": {
+        "section": "needles",
+        "type": ""
+      },
+      "iv-needel-20g-02bfc7": {
+        "section": "needles",
+        "type": ""
+      },
+      "chattanooga-2307": {
+        "section": "devices",
+        "type": "thermal"
+      },
+      "chattanooga-2806": {
+        "section": "devices",
+        "type": "thermal"
+      },
+      "chattanooga-rpw-lite-mt01": {
+        "section": "devices",
+        "type": "shockwave"
+      },
+      "chattanooga-rpw-2-mobile-mt01": {
+        "section": "devices",
+        "type": "shockwave"
+      },
+      "compex-intl-cx202wl06-wht": {
+        "section": "devices",
+        "type": "massage"
+      },
+      "chattanooga-6001-70001-70000-70002-28902-70006-70003": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "chattanooga-15-1205-15-1210": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "chattanooga-4778-15-1136": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "chattanooga-4778": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "chattanooga-15-1205-15-1136": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "chattanooga-15-1205": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "chattanooga-15-1203": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "chattanooga-15-1203-15-1210-d-040": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "compex-2539960-d-046": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "compex-intl-cx201fb01-l": {
+        "section": "devices",
+        "type": "compression-therapy"
+      },
+      "chinesport-el17061": {
+        "section": "devices",
+        "type": "laser"
+      },
+      "chattanooga-sys-000829-000-00": {
+        "section": "devices",
+        "type": "laser"
+      },
+      "chattanooga-sys-000656-000-00": {
+        "section": "devices",
+        "type": "laser"
+      },
+      "chinesport-el12086": {
+        "section": "devices",
+        "type": "laser"
+      },
+      "chinesport-el12081": {
+        "section": "devices",
+        "type": "laser"
+      },
+      "chinesport-el12079": {
+        "section": "devices",
+        "type": "laser"
+      },
+      "chinesport-el12080": {
+        "section": "devices",
+        "type": "laser"
+      },
+      "chinesport-el17199": {
+        "section": "devices",
+        "type": "radiofrequency"
+      },
+      "chinesport-el12002": {
+        "section": "devices",
+        "type": "radiofrequency"
+      },
+      "artromot-80-00-023": {
+        "section": "movement",
+        "type": "passive-motion"
+      },
+      "artromot-80-00-024": {
+        "section": "movement",
+        "type": "passive-motion"
+      },
+      "artromot-80-00-042": {
+        "section": "movement",
+        "type": "passive-motion"
+      },
+      "artromot-80-00-035": {
+        "section": "movement",
+        "type": "passive-motion"
+      },
+      "chinesport-lv111a2w-ac0031": {
+        "section": "tables",
+        "type": "treatment-tables"
+      },
+      "chinesport-lv121a2w-ac0031": {
+        "section": "tables",
+        "type": "treatment-tables"
+      },
+      "chinesport-lv161a2w-ac0031": {
+        "section": "tables",
+        "type": "treatment-tables"
+      },
+      "chinesport-lb422a2w": {
+        "section": "tables",
+        "type": "treatment-tables"
+      },
+      "chinesport-01260w": {
+        "section": "tables",
+        "type": "treatment-tables"
+      },
+      "chinesport-cs111l2w6": {
+        "section": "tables",
+        "type": "clinic-furniture"
+      },
+      "chinesport-xp852": {
+        "section": "tables",
+        "type": "clinic-furniture"
+      },
+      "chinesport-as14p000-01622": {
+        "section": "movement",
+        "type": "walking-standing"
+      },
+      "chinesport-ar20012-ac1241": {
+        "section": "movement",
+        "type": "exercise-cycles"
+      },
+      "chinesport-01328": {
+        "section": "movement",
+        "type": "walking-standing"
+      },
+      "chinesport-01339-01341-01342": {
+        "section": "movement",
+        "type": "walking-standing"
+      },
+      "chinesport-07405": {
+        "section": "movement",
+        "type": "exercise-tools"
+      },
+      "chinesport-07415": {
+        "section": "movement",
+        "type": "exercise-tools"
+      },
+      "fabrication-enterprises-018025": {
+        "section": "movement",
+        "type": "exercise-tools"
+      },
+      "chinesport-01347": {
+        "section": "movement",
+        "type": "exercise-tools"
+      },
+      "chinesport-09940w-09950w": {
+        "section": "accessories",
+        "type": ""
+      },
+      "chinesport-02650": {
+        "section": "movement",
+        "type": "balance-sensory"
+      },
+      "chinesport-xps22003": {
+        "section": "strength",
+        "type": ""
+      },
+      "chinesport-xps22033": {
+        "section": "strength",
+        "type": ""
+      },
+      "chinesport-xps22053": {
+        "section": "strength",
+        "type": ""
+      },
+      "chinesport-xps22023": {
+        "section": "strength",
+        "type": ""
+      },
+      "chinesport-xps22013": {
+        "section": "strength",
+        "type": ""
+      },
+      "chinesport-xps22060": {
+        "section": "strength",
+        "type": ""
+      },
+      "chinesport-xps22043": {
+        "section": "strength",
+        "type": ""
+      },
+      "chinesport-ar10020": {
+        "section": "movement",
+        "type": "occupational"
+      },
+      "chinesport-ar10019": {
+        "section": "movement",
+        "type": "occupational"
+      },
+      "chinesport-ar10021": {
+        "section": "movement",
+        "type": "occupational"
+      },
+      "chinesport-ar10014": {
+        "section": "movement",
+        "type": "occupational"
+      },
+      "chinesport-ar10049": {
+        "section": "movement",
+        "type": "occupational"
+      },
+      "chinesport-ar10008": {
+        "section": "movement",
+        "type": "occupational"
+      },
+      "chinesport-ar10001": {
+        "section": "movement",
+        "type": "occupational"
+      },
+      "chinesport-ar10002": {
+        "section": "movement",
+        "type": "occupational"
+      },
+      "chinesport-08475": {
+        "section": "movement",
+        "type": "occupational"
+      },
+      "chinesport-08461": {
+        "section": "movement",
+        "type": "occupational"
+      },
+      "chinesport-08477": {
+        "section": "movement",
+        "type": "occupational"
+      },
+      "chinesport-ar10048": {
+        "section": "movement",
+        "type": "occupational"
+      },
+      "chinesport-xru056": {
+        "section": "movement",
+        "type": "exercise-cycles"
+      },
+      "chinesport-xru055": {
+        "section": "movement",
+        "type": "exercise-cycles"
+      },
+      "chinesport-xru057": {
+        "section": "movement",
+        "type": "exercise-cycles"
+      },
+      "chinesport-01757": {
+        "section": "movement",
+        "type": "walking-standing"
+      },
+      "chinesport-av3121a2454g": {
+        "section": "movement",
+        "type": "walking-standing"
+      },
+      "chinesport-av3121a3554g": {
+        "section": "movement",
+        "type": "walking-standing"
+      },
+      "chinesport-av3421b3442c": {
+        "section": "movement",
+        "type": "walking-standing"
+      },
+      "chinesport-av3521b3442c": {
+        "section": "movement",
+        "type": "walking-standing"
+      },
+      "rompa-r012333": {
+        "section": "movement",
+        "type": "balance-sensory"
+      },
+      "compex-2538960": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "chattanooga-5004": {
+        "section": "clinical-tools",
+        "type": ""
+      },
+      "compex-820250": {
+        "section": "gel-electrodes",
+        "type": ""
+      },
+      "compex-intl-cx182bw01": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "btl-6000-high-intensity-laser": {
+        "section": "devices",
+        "type": "laser"
+      },
+      "storz-masterpuls-mp100-ultra": {
+        "section": "devices",
+        "type": "shockwave"
+      },
+      "zimmer-cryo-7": {
+        "section": "devices",
+        "type": "thermal"
+      },
+      "hyperice-normatec-3-legs": {
+        "section": "devices",
+        "type": "compression-therapy"
+      },
+      "hyperice-hypervolt-2-pro": {
+        "section": "devices",
+        "type": "massage"
+      },
+      "inbody-270": {
+        "section": "assessment",
+        "type": "body-composition"
+      },
+      "csmi-humac-norm": {
+        "section": "assessment",
+        "type": "strength-assessment"
+      },
+      "tyromotion-amadeo": {
+        "section": "movement",
+        "type": "robotic-rehab"
+      },
+      "reck-motomed-layson-la": {
+        "section": "movement",
+        "type": "exercise-cycles"
+      },
+      "btl-6000-lymphastim-12-topline": {
+        "section": "devices",
+        "type": "compression-therapy"
+      },
+      "btl-6000-shortwave-200-400": {
+        "section": "devices",
+        "type": "thermal"
+      },
+      "ems-swiss-duoclast": {
+        "section": "devices",
+        "type": "shockwave"
+      },
+      "indiba-at7": {
+        "section": "devices",
+        "type": "radiofrequency"
+      },
+      "chattanooga-triton-dts": {
+        "section": "devices",
+        "type": "traction"
+      },
+      "compex-sp-4-0": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "kinetec-spectra": {
+        "section": "movement",
+        "type": "passive-motion"
+      },
+      "myoton-myotonpro": {
+        "section": "assessment",
+        "type": "strength-assessment"
+      },
+      "hoggan-microfet2": {
+        "section": "assessment",
+        "type": "strength-assessment"
+      },
+      "hur-smartbalance-2031": {
+        "section": "assessment",
+        "type": "balance-assessment"
+      },
+      "tyromotion-diego": {
+        "section": "movement",
+        "type": "robotic-rehab"
+      },
+      "btl-6000-super-inductive-system-elite": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "btl-6000-tr-therapy-pro": {
+        "section": "devices",
+        "type": "radiofrequency"
+      },
+      "remed-salus-talent-pro": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "gymna-combi-400": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "physiomed-deep-oscillation-evident": {
+        "section": "devices",
+        "type": "electro-magnetic"
+      },
+      "align-pilates-c8-pro": {
+        "section": "pilates",
+        "type": ""
+      },
+      "hur-5540-leg-press-rehab": {
+        "section": "movement",
+        "type": "exercise-tools"
+      },
+      "cosmed-quark-cpet": {
+        "section": "assessment",
+        "type": "cardiopulmonary"
+      },
+      "ge-vscan-air": {
+        "section": "assessment",
+        "type": "diagnostic-ultrasound"
+      }
+    }
+  }
 }

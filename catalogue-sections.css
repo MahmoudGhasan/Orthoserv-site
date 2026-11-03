@@ -5,3 +5,16 @@
 .oc-toolbar{display:flex;align-items:flex-end;gap:10px;padding-block:18px;flex-wrap:wrap}.oc-filter{display:grid;gap:4px;font-size:10px;color:#5b7496;min-width:130px}.oc-filter select{font:inherit;font-size:12px;color:#385a87;background:#fff;border:1px solid #dce6f2;border-radius:8px;min-height:44px;max-width:100%;padding:8px 28px 8px 10px}.oc-clear{font:inherit;font-size:11px;border:0;background:transparent;color:#194b9c;min-height:44px;padding:8px;cursor:pointer}.oc-result{font-size:11px;color:#667f9e;margin-inline-start:auto;align-self:center;white-space:nowrap}.oc-catalogue .product-grid{margin:0}.oc-catalogue :is(button,select,a):focus-visible{outline:2px solid #194b9c;outline-offset:2px}.oc-catalogue .oc-tabs :focus-visible{outline-offset:-3px}
 @media(max-width:760px){.oc-catalogue{padding-top:14px}.oc-breadcrumb{font-size:10px;margin-bottom:10px}.oc-hero{height:214px;border-radius:13px}.oc-slide{object-position:16% center}.oc-shade{background:linear-gradient(to left,rgba(241,248,254,.97) 8%,rgba(241,248,254,.88) 46%,rgba(241,248,254,.08) 100%)}.oc-hero-copy{width:71%;margin-right:5%;padding-bottom:35px}.oc-hero h1,.oc-heading h1{font-size:22px;line-height:1.6}.oc-hero p,.oc-heading p{font-size:12px;line-height:1.8;margin-bottom:11px}.oc-eyebrow{font-size:8px}.oc-browse{font-size:11px;min-height:42px;padding:8px 13px}.oc-tabs{gap:4px;scrollbar-width:none;padding-block:12px 10px;scroll-margin-top:210px}.oc-tabs button{font-size:12px;padding:9px 12px}.oc-types{gap:6px;padding-top:11px;scrollbar-width:none}.oc-types button{min-height:44px;font-size:11px;padding:8px 12px}.oc-toolbar{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;padding-block:13px}.oc-filter{min-width:0}.oc-filter select{font-size:12px;width:100%;min-height:44px}.oc-clear{justify-self:start;padding-inline:0}.oc-result{margin:0;justify-self:end;grid-column:2;grid-row:2;align-self:end;padding-bottom:12px}.oc-filter:nth-child(3){grid-column:1}.oc-toolbar>.oc-clear{grid-column:1;grid-row:3}.oc-catalogue .oc-motion{min-height:44px;background:transparent;font-size:11px}}
 @media(prefers-reduced-motion:reduce){.oc-slide{transition:none}}
+
+/* A single supplied medical image: readable overlay on desktop, full image on phones. */
+.oc-single .oc-carousel-controls{display:none}
+.oc-single .oc-hero-copy{padding-bottom:18px}
+.oc-catalogue[data-category=medical] .oc-shade{background:linear-gradient(to left,rgba(239,247,254,.98),rgba(239,247,254,.93) 36%,rgba(239,247,254,.12) 65%,transparent)}
+@media(max-width:760px){
+.oc-catalogue[data-category=medical] .oc-hero{height:auto}
+.oc-catalogue[data-category=medical] .oc-slides{position:relative;height:auto;aspect-ratio:2400/448}
+.oc-catalogue[data-category=medical] .oc-slide{object-fit:contain;object-position:center}
+.oc-catalogue[data-category=medical] .oc-shade{display:none}
+.oc-catalogue[data-category=medical] .oc-hero-copy{width:auto;margin:0;padding:16px 18px 20px;height:auto;background:#edf5fd}
+.oc-catalogue[data-category=medical] .oc-hero h1{font-size:21px}
+}

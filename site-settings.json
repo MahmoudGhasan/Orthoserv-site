@@ -1919,7 +1919,15 @@
           "ar": "الأجهزة والمستلزمات التخصصية",
           "en": "Specialist equipment and supplies"
         },
-        "slides": [],
+        "slides": [
+          {
+            "file": "assets/category-banners/medical-01.jpg",
+            "alt": {
+              "ar": "قساطر وأسلاك إرشادية وأدوات طبية متخصصة",
+              "en": "Catheters, guidewires and specialist medical instruments"
+            }
+          }
+        ],
         "sections": [
           {
             "id": "catheters",

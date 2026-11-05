@@ -25,9 +25,15 @@
   </section>${clientsMarkup?`<section class="intro-clients" aria-labelledby="introClientsTitle"><div class="wrap">${statsMarkup||''}
    <p class="intro-clients-label">${text('مستشفيات ومراكز طبية نعمل معها','Hospitals and medical centres we work with')}</p>
    <div class="intro-clients-logos" role="region" tabindex="0" aria-label="شعارات المستشفيات والمراكز الطبية">${clientsMarkup}</div>
+   <div class="intro-department"><div class="intro-department-image"><img src="assets/campaigns/centre-equipment.webp" width="1536" height="1024" loading="lazy" alt="${escape(document.documentElement.lang==='en'?'Rehabilitation department equipment':'تجهيزات قسم تأهيل وعلاج طبيعي')}" data-no-translate></div>
    <div class="intro-clients-copy"><h2 id="introClientsTitle">${text('نجهّز أقسامًا متكاملة،','We equip complete departments,')}<br><span class="intro-clients-emphasis">${text('لتكون الرعاية في أفضل حالاتها.','so care can be at its best.')}</span></h2>
    <p>${text('من اختيار الأجهزة إلى تجهيز القسم، نعمل مع المستشفيات والمراكز الطبية لتوفير حلول تناسب احتياجاتها.','From selecting equipment to outfitting departments, we work with hospitals and medical centres to deliver solutions suited to their needs.')}</p>
-   <a href="#business">${text('اكتشف حلول تجهيز الأقسام','Explore department equipment solutions')} <span aria-hidden="true">↗</span></a></div>
+   <ul class="intro-department-points">${[
+    ['M4 21V7l8-4 8 4v14ZM8 10h2m4 0h2M8 14h2m4 0h2m-6 7v-4h4v4','تجهيز حسب احتياجك','Equipment tailored to your needs','من جهاز متخصص إلى قسم متكامل.','From specialist equipment to complete departments.'],
+    ['M9 3h6v5h5v6h-5v7H9v-7H4V8h5Z','اختيارات طبية متخصصة','Specialist medical solutions','أجهزة التأهيل والعلاج الطبيعي وحلول الضغط الطبي.','Rehabilitation, physiotherapy and medical compression solutions.'],
+    ['M4 20l1-4a8 8 0 1 1 4 3ZM8 10h8m-8 4h5','تواصل مباشر مع فريقنا','Talk directly with our team','لمناقشة التجهيز والمنتجات والتوفّر.','Discuss your equipment needs, products and availability.']
+   ].map(([icon,ar,en,descriptionAr,descriptionEn],index)=>`<li><a class="intro-department-link" href="${['#business','#catalog','#contact'][index]}"><span class="intro-department-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="${icon}"/></svg></span><div><h3>${text(ar,en)}</h3><p>${text(descriptionAr,descriptionEn)}</p></div><span class="intro-department-arrow" aria-hidden="true">↗</span></a></li>`).join('')}</ul></div></div>
+
   </div></section>`:''}${featuredMarkup||''}`;
   const icons=['M12 3 4 7v14h16V7ZM8 9v2m8-2v2m-8 3v2m8-2v2m-6 5v-4h4v4','M3 21V8l9-5 9 5v13ZM7 10h2m6 0h2M7 14h2m6 0h2m-7 7v-4h4v4','M9 4h6l2 4v4l-5 3-5-3V8ZM9 14l-1 7 4-2 4 2-1-7'];
   main.querySelectorAll('.intro-clients .trust-strip dl>div').forEach((card,index)=>{
@@ -108,6 +114,7 @@
    term.dataset.noTranslate='';
    document.title=en()?'OrthoServ | Medical equipment & rehabilitation':'أورثو سيرف | حلول التأهيل والتجهيز الطبي';
    main.querySelector('.intro-clients-logos')?.setAttribute('aria-label',en()?'Hospital and medical centre logos':'شعارات المستشفيات والمراكز الطبية');
+   main.querySelector('.intro-department-image img')?.setAttribute('alt',en()?'Rehabilitation department equipment':'تجهيزات قسم تأهيل وعلاج طبيعي');
    closePicker();pickers.forEach(renderPicker);updateMotion();updateRail();
   };
   category.addEventListener('change',updateBrands);

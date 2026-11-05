@@ -181,3 +181,30 @@ body.intro-open{overflow-anchor:none}
 .intro-picker-search{padding-inline:9px;gap:5px}
 .intro-picker-option{overflow-wrap:anywhere}
 @media(max-width:650px){.intro-picker-option{gap:8px;font-size:12px;padding-inline:4px}.intro-picker-search{padding-inline:7px}.intro-search .intro-picker-input{font-size:16px;min-width:0}}
+
+/* Department solutions: existing equipment image with three concise benefits. */
+.intro-department{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.12fr);gap:clamp(40px,6vw,90px);align-items:center;padding-top:65px;direction:ltr}
+.intro-department-image{min-width:0;overflow:hidden;border-radius:24px;aspect-ratio:1/1.08;background:var(--pale)}
+.intro-department-image>img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.intro-department .intro-clients-copy{min-width:0;max-width:none;padding-top:0;direction:rtl;text-align:start}
+html[lang=en] .intro-department .intro-clients-copy{direction:ltr}
+.intro-department h2{font-size:clamp(27px,2.4vw,36px);line-height:1.6;letter-spacing:-.6px;margin-bottom:18px}
+.intro-department .intro-clients-copy>p{font-size:14px;line-height:1.95;margin-bottom:22px}
+.intro-department-points{list-style:none;margin:0 0 26px;padding:0}
+.intro-department-points>li{display:flex;align-items:flex-start;gap:18px;padding:21px 0;border-bottom:1px solid color-mix(in srgb,var(--paper) 18%,transparent)}
+.intro-department-points>li:first-child{padding-top:8px}
+.intro-department-icon{display:grid;place-items:center;width:42px;height:42px;flex:none;border:1px solid color-mix(in srgb,var(--paper) 55%,transparent);border-radius:50%;color:var(--paper)}
+.intro-department-icon>svg{width:22px;height:22px}
+.intro-department h3{font-family:inherit;font-size:15px;line-height:1.65;font-weight:600;color:var(--paper);margin:0 0 4px}
+.intro-department-points p{font-size:13px;line-height:1.8;color:color-mix(in srgb,var(--paper) 75%,var(--navy));margin:0}
+.intro-department .intro-department-quote{border:1px solid color-mix(in srgb,var(--paper) 60%,transparent);background:transparent;color:var(--paper);border-radius:30px;font-size:13px;gap:16px;padding:12px 22px}
+@media(max-width:760px){.intro-department{grid-template-columns:1fr;gap:28px;padding-top:35px}.intro-department-image{aspect-ratio:4/3;max-height:350px}.intro-department h2{font-size:29px;line-height:1.6}.intro-department .intro-clients-copy>p{font-size:13px}.intro-department h3{font-size:14px}.intro-department-points p{font-size:12px}.intro-department-points>li{gap:14px;padding-block:18px}}
+
+/* The complete benefit row is one link; no separate buttons. */
+.intro-department-points>li{display:block;padding:0;border-bottom:1px solid color-mix(in srgb,var(--paper) 32%,transparent)}
+.intro-department-points>li:first-child{padding:0}
+.intro-department-link{display:flex;align-items:center;gap:18px;padding:24px 0;color:var(--paper);min-height:100px;text-decoration:none}
+.intro-department-link>div{flex:1;min-width:0}
+.intro-department-arrow{font-size:20px;color:var(--paper);flex:none}
+.intro-department-link:hover h3{text-decoration:underline;text-underline-offset:5px}
+@media(max-width:760px){.intro-department-points>li{padding:0}.intro-department-link{gap:14px;padding-block:20px}}

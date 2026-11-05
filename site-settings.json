@@ -2694,5 +2694,8 @@
         "type": ""
       }
     }
+  },
+  "trustStrip": {
+    "items": []
   }
 }

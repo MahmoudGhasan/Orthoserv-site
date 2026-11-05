@@ -113,3 +113,29 @@ header .logo{height:44px}
 .juzo-piece-figure{display:block;flex:none;width:26px;height:44px;overflow:visible;color:var(--blue,#194b9c)}
 .juzo-piece-figure .juzo-figure-base{fill:#d7dfe9}.juzo-piece-figure .juzo-figure-garment{fill:currentColor}.juzo-piece-figure .juzo-figure-line{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}.juzo-piece-figure .juzo-figure-band{fill:none;stroke:#fff;stroke-width:1.4}
 .juzo-piece-code>span{font-size:9px;line-height:1.2;font-family:inherit}.juzo-piece-code:hover .juzo-piece-figure,.juzo-piece-code[aria-pressed="true"] .juzo-piece-figure{color:#fff}
+
+
+/* Static homepage trust strip. */
+.trust-strip{background:var(--paper);border-block:1px solid var(--line);padding-block:24px;margin-block:20px}
+.trust-strip dl{display:grid;grid-template-columns:repeat(var(--trust-strip-columns),minmax(0,1fr));margin:0}
+.trust-strip dl>div{display:flex;flex-direction:column;justify-content:center;gap:6px;padding-inline:20px;min-width:0;text-align:center}
+.trust-strip dl>div+div{border-inline-start:1px solid var(--line)}
+.trust-strip dt{order:2;font-size:13px;line-height:1.7;color:var(--muted);overflow-wrap:anywhere}
+.trust-strip dd{order:1;margin:0;color:var(--navy);font-size:30px;font-weight:700;line-height:1.3;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.trust-strip .home-section-ar{display:inline}
+.trust-strip .home-section-en{display:none}
+.trust-strip:lang(en) .home-section-ar{display:none}
+.trust-strip:lang(en) .home-section-en{display:inline}
+@media(max-width:650px){
+ .trust-strip{padding-block:20px}
+ .trust-strip dl{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:20px}
+ .trust-strip dl>div{padding-inline:12px}
+ .trust-strip dl>div:nth-child(odd){border-inline-start:0}
+ .trust-strip dl>div:last-child:nth-child(odd){grid-column:1/-1}
+ .trust-strip dl>div:last-child:nth-child(odd):not(:first-child){border-top:1px solid var(--line);padding-top:20px}
+ .trust-strip dd{font-size:26px}
+ .trust-strip dt{font-size:12px}
+}
+
+/* Reserve the final number width while counting. */
+.trust-strip [data-count-to]{display:inline-block;min-width:calc(var(--digits) * 1ch);font-variant-numeric:tabular-nums;direction:ltr;text-align:center}

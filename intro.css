@@ -236,3 +236,8 @@ html[lang=en] .intro-category-card h2{line-height:1.25}
 @media(hover:none),(pointer:coarse){.intro-category-toggle{display:inline-flex}.intro-category-details{max-height:140px;opacity:1;transform:none}}
 @media(max-width:650px){.intro-category-section{padding:32px 0}.intro-category-grid{grid-template-columns:1fr;gap:18px}.intro-category-card{aspect-ratio:1.2}.intro-category-card h2{font-size:25px}.intro-category-copy{inset-inline:22px;bottom:22px}.intro-category-toggle{display:inline-flex}.intro-category-details{max-height:140px;opacity:1;transform:none}.intro-category-details p{font-size:12px}}
 @media(prefers-reduced-motion:reduce){.intro-category-link>img,.intro-category-details{transition:none;transform:none}}
+
+/* Match the reference: 496 × 268 cards with a 24px gutter. */
+.intro-category-grid{max-width:1016px}
+.intro-category-card{aspect-ratio:496/268}
+@media(max-width:650px){.intro-category-card{aspect-ratio:496/268}.intro-category-card h2{font-size:21px}.intro-category-copy{inset-inline:18px;bottom:16px}.intro-category-toggle{top:10px;inset-inline-end:10px}.intro-category-details p{font-size:11px;line-height:1.6;margin-block:6px}.intro-category-explore{font-size:11px;min-height:25px}}

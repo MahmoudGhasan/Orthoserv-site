@@ -137,3 +137,44 @@ body.intro-open>header>.store-navigation .nav-trigger,body.intro-open>header>.st
  body.intro-open>header>.store-navigation:has(.nav-trigger:is(:hover,:focus-visible),>a:is(:hover,:focus-visible))>a{opacity:.42}
  body.intro-open>header>.store-navigation .nav-trigger:is(:hover,:focus-visible),body.intro-open>header>.store-navigation>a:is(:hover,:focus-visible){opacity:1!important;background-color:color-mix(in srgb,var(--paper) 10%,transparent);text-shadow:0 0 14px color-mix(in srgb,var(--paper) 55%,transparent)}
 }
+
+/* Searchable category and brand pickers, using the existing catalogue values. */
+.intro-filter{position:relative;min-width:0;padding:5px 22px;border-inline-end:1px solid var(--line);text-align:start}
+.intro-filter-label{display:block;font-size:11px;font-weight:600;color:var(--muted);margin-bottom:4px}
+.intro-filter-trigger{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:34px;padding:0;border:0;background:transparent;color:var(--navy);font:inherit;font-size:14px;text-align:start}
+.intro-filter-trigger>svg{width:21px;height:21px;flex:none}
+.intro-filter-value{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.intro-filter.is-open{z-index:5}
+.intro-filter.is-open .intro-filter-trigger{color:var(--blue)}
+.intro-picker{position:absolute;bottom:calc(100% + 14px);top:auto;max-width:calc(100vw - 32px);max-height:var(--picker-height,320px);padding:16px 12px 12px;border:1px solid var(--line);border-radius:18px;background:var(--pale);color:var(--navy);box-shadow:0 12px 35px color-mix(in srgb,var(--navy) 18%,transparent);animation:intro-picker-rise .2s ease-out both;text-align:start;z-index:10}
+.intro-picker[hidden]{display:none!important}
+.intro-picker.opens-below{bottom:auto;top:calc(100% + 14px)}
+.intro-picker-search{display:flex;align-items:center;gap:8px;background:var(--paper);border-radius:30px;padding:0 13px;margin:0 3px 10px}
+.intro-picker-search>svg{width:16px;height:16px;flex:none;color:var(--muted)}
+.intro-search .intro-picker-input{font-size:13px;min-height:38px;padding:0;background:transparent;color:var(--navy);border:0;border-radius:30px}
+.intro-picker-list{overflow-y:auto;max-height:calc(var(--picker-height,320px) - 78px);overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:var(--muted) transparent;padding-inline-end:4px}
+.intro-picker-option{display:flex;align-items:center;gap:12px;width:100%;min-height:44px;padding:10px 7px;border:0;border-radius:9px;background:transparent;color:var(--navy);font:inherit;font-size:13px;line-height:1.55;text-align:start}
+.intro-picker-option:hover,.intro-picker-option:focus-visible{background:color-mix(in srgb,var(--blue) 7%,var(--paper));outline:0}
+.intro-picker-radio{flex:none;width:16px;height:16px;border:1px solid color-mix(in srgb,var(--muted) 65%,var(--paper));border-radius:50%;background:transparent}
+.intro-picker-option[aria-selected=true] .intro-picker-radio{border-color:var(--blue);box-shadow:inset 0 0 0 4px var(--pale);background:var(--blue)}
+.intro-picker-empty{padding:12px 7px;margin:0;color:var(--muted);font-size:13px}
+@keyframes intro-picker-rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:1100px){.intro-filter{padding-inline:14px}}
+@media(max-width:650px){.intro-filter{padding:0;border:0}.intro-filter:first-child{padding-inline-end:10px;border-inline-end:1px solid var(--line)}.intro-filter-label{font-size:10px;margin-bottom:5px}.intro-filter-trigger{font-size:14px;min-height:38px}.intro-search .intro-picker-input{font-size:16px}.intro-picker-option{font-size:14px}}
+@media(prefers-reduced-motion:reduce){.intro-picker{animation:none}}
+
+.ortho-intro:has(.intro-filter.is-open){overflow:visible;z-index:3}
+.intro-search .intro-picker-input:focus-visible{outline:0}
+.intro-picker-search:focus-within{box-shadow:0 0 0 2px color-mix(in srgb,var(--blue) 28%,transparent)}
+
+/* Keep the search input stationary while option results change. */
+body.intro-open{overflow-anchor:none}
+.intro-picker{height:var(--picker-height,320px);overflow-anchor:none}
+
+/* Animate the reveal and rows while the focused search field stays in place. */
+.intro-picker{animation:intro-picker-reveal .2s ease-out both}
+.intro-picker-list{animation:intro-picker-rise .2s ease-out both}
+@keyframes intro-picker-reveal{from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.intro-picker,.intro-picker-list{animation:none}}
+
+.intro-picker,.intro-picker.opens-below{position:fixed;bottom:auto}

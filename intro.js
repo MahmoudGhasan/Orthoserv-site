@@ -3,6 +3,7 @@
  const escape=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
  const text=(ar,en)=>`<span class="intro-ar" data-no-translate>${escape(ar)}</span><span class="intro-en" data-no-translate>${escape(en)}</span>`;
  const categoryNames={rehab:['العلاج الطبيعي والتأهيل','Physiotherapy & rehabilitation'],gym:['اللياقة والتمارين','Fitness & exercise'],compression:['الضغط الطبي','Medical compression'],consumables:['المستلزمات الطبية','Medical supplies'],medical:['المنتجات الطبية المتخصصة','Specialist medical products']};
+ const picker=(name,ar,en)=>`<div class="intro-filter" data-intro-filter="${name}"><span class="intro-filter-label" id="intro-${name}-label">${text(ar,en)}</span><select name="${name}" hidden aria-hidden="true" tabindex="-1"></select><button type="button" class="intro-filter-trigger" aria-haspopup="listbox" aria-expanded="false" aria-controls="intro-${name}-panel" aria-labelledby="intro-${name}-label intro-${name}-value"><span id="intro-${name}-value" class="intro-filter-value" data-no-translate></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m8 10 4 4 4-4"/></svg></button><div class="intro-picker" id="intro-${name}-panel" hidden><div class="intro-picker-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><input type="search" class="intro-picker-input" autocomplete="off" maxlength="80" data-no-translate aria-controls="intro-${name}-list"></div><div class="intro-picker-list" role="listbox" id="intro-${name}-list" aria-labelledby="intro-${name}-label"></div><p class="intro-picker-empty" data-no-translate hidden></p></div></div>`;
  window.renderOrthoIntro=(main,{products,categories,clientsMarkup,statsMarkup,featuredMarkup,onSearch})=>{
   window.orthoIntroCleanup?.();
   document.body.classList.add('intro-open');
@@ -13,8 +14,8 @@
     <h1 id="introTitle">${text('من جهاز متخصص','From specialist equipment')}<br>${text('إلى قسم متكامل','to complete departments')}</h1>
     <p class="intro-description">${text('حلول التأهيل والتجهيز الطبي، للمستشفيات والمراكز في السعودية.','Rehabilitation and medical equipment solutions for hospitals and clinics across Saudi Arabia.')}</p>
     <form class="intro-search" id="introSearch" role="search">
-     <label><span>${text('القسم','Category')}</span><select name="category" aria-label="القسم"></select></label>
-     <label><span>${text('العلامة التجارية','Brand')}</span><select name="brand" aria-label="العلامة التجارية"></select></label>
+     ${picker('category','القسم','Category')}
+     ${picker('brand','العلامة التجارية','Brand')}
      <label class="intro-term"><span>${text('اسم المنتج','Product name')}</span><input name="term" type="search" autocomplete="off" maxlength="160" aria-label="اسم المنتج"></label>
      <button type="submit" class="intro-submit">${text('اعرض المنتجات','Find products')}<span aria-hidden="true">↗</span></button>
     </form>
@@ -47,11 +48,50 @@
   updateRail();
   const en=()=>document.documentElement.lang==='en';
   const names=()=>Object.keys(categoryNames).filter(key=>products.some(p=>p.category===key));
+  const pickers=[...form.querySelectorAll('[data-intro-filter]')];
+  let openPicker=null;
+  const closePicker=(restore=false)=>{if(!openPicker)return;const field=openPicker;field.querySelector('.intro-picker').hidden=true;field.querySelector('button').setAttribute('aria-expanded','false');field.classList.remove('is-open');openPicker=null;if(restore)field.querySelector('button').focus({preventScroll:true});};
+  const positionPicker=()=>{
+   if(!openPicker)return;
+   const field=openPicker,panel=field.querySelector('.intro-picker'),rect=field.getBoundingClientRect(),width=Math.min(320,innerWidth-32);
+   const viewportHeight=window.visualViewport?.height||innerHeight,above=rect.top-16,below=viewportHeight-rect.bottom-16;
+   const upwards=above>=220||above>=below;
+   const space=Math.max(130,Math.min(320,(upwards?above:below)-12));
+   panel.classList.toggle('opens-below',!upwards);
+   panel.style.width=width+'px';panel.style.left=Math.max(16,Math.min(rect.left,innerWidth-width-16))+'px';panel.style.top=Math.max(16,upwards?rect.top-space-14:rect.bottom+14)+'px';panel.style.setProperty('--picker-height',space+'px');
+  };
+  const renderPicker=field=>{
+   const select=field.querySelector('select'),input=field.querySelector('.intro-picker-input'),list=field.querySelector('.intro-picker-list'),empty=field.querySelector('.intro-picker-empty');
+   const selected=select.selectedOptions[0],needle=input.value.trim().toLocaleLowerCase();
+   field.querySelector('.intro-filter-value').textContent=selected?.textContent||'';
+   input.placeholder=en()?'Search…':'ابحث…';input.setAttribute('aria-label',en()?(select.name==='category'?'Search categories':'Search brands'):(select.name==='category'?'ابحث في الأقسام':'ابحث في العلامات التجارية'));
+   const rows=[...select.options].filter(option=>!needle||option.textContent.toLocaleLowerCase().includes(needle));
+   list.innerHTML=rows.map(option=>`<button type="button" class="intro-picker-option" role="option" tabindex="-1" aria-selected="${option.selected}" data-value="${escape(option.value)}"><span class="intro-picker-radio" aria-hidden="true"></span><span data-no-translate>${escape(option.textContent)}</span></button>`).join('');
+   empty.hidden=rows.length>0;empty.textContent=en()?'No matching options':'لا توجد خيارات مطابقة';
+  };
+  for(const field of pickers){
+   const trigger=field.querySelector('.intro-filter-trigger'),input=field.querySelector('.intro-picker-input'),list=field.querySelector('.intro-picker-list'),select=field.querySelector('select');
+   trigger.addEventListener('click',()=>{if(openPicker===field){closePicker();return;}closePicker();input.value='';renderPicker(field);openPicker=field;field.querySelector('.intro-picker').hidden=false;field.classList.add('is-open');trigger.setAttribute('aria-expanded','true');positionPicker();input.focus({preventScroll:true});});
+   input.addEventListener('input',()=>renderPicker(field));
+   list.addEventListener('click',event=>{const option=event.target.closest('[role="option"]');if(!option)return;select.value=option.dataset.value;select.dispatchEvent(new Event('change',{bubbles:true}));renderPicker(field);closePicker(true);});
+   field.addEventListener('keydown',event=>{
+    if(!openPicker)return;
+    if(event.key==='Escape'){event.preventDefault();event.stopPropagation();closePicker(true);return;}
+    if(event.key==='Enter'&&event.target===input){event.preventDefault();list.querySelector('[role="option"]')?.click();return;}
+    if(!['ArrowDown','ArrowUp','Home','End'].includes(event.key)||(['Home','End'].includes(event.key)&&event.target===input))return;
+    event.preventDefault();const rows=[...list.querySelectorAll('[role="option"]')];if(!rows.length)return;
+    let index=rows.indexOf(document.activeElement);index=event.key==='Home'?0:event.key==='End'?rows.length-1:event.key==='ArrowDown'?(index+1)%rows.length:(index-1+rows.length)%rows.length;rows[index].focus({preventScroll:true});const itemRect=rows[index].getBoundingClientRect(),listRect=list.getBoundingClientRect();if(itemRect.top<listRect.top)list.scrollTop-=listRect.top-itemRect.top;else if(itemRect.bottom>listRect.bottom)list.scrollTop+=itemRect.bottom-listRect.bottom;
+   });
+  }
+  const closeOutside=event=>{if(openPicker&&!openPicker.contains(event.target))closePicker();};
+  document.addEventListener('pointerdown',closeOutside);document.addEventListener('focusin',closeOutside);
+  window.addEventListener('resize',positionPicker);window.visualViewport?.addEventListener('resize',positionPicker);
   const options=(rows,selected)=>rows.map(([value,label])=>`<option value="${escape(value)}"${value===selected?' selected':''}>${escape(label)}</option>`).join('');
   const updateBrands=()=>{
    const selected=brand.value;
    const brands=[...new Set(products.filter(p=>!category.value||p.category===category.value).map(p=>p.brand).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
    brand.innerHTML=options([['',en()?'All brands':'كل العلامات'],...brands.map(name=>[name,name])],selected);
+   renderPicker(brand.closest('[data-intro-filter]'));
   };
   const updateMotion=()=>{
    const paused=video.paused;
@@ -70,7 +110,7 @@
    term.dataset.noTranslate='';
    document.title=en()?'OrthoServ | Medical equipment & rehabilitation':'أورثو سيرف | حلول التأهيل والتجهيز الطبي';
    main.querySelector('.intro-clients-logos')?.setAttribute('aria-label',en()?'Hospital and medical centre logos':'شعارات المستشفيات والمراكز الطبية');
-   updateMotion();updateRail();
+   closePicker();pickers.forEach(renderPicker);updateMotion();updateRail();
   };
   category.addEventListener('change',updateBrands);
   form.addEventListener('submit',event=>{
@@ -95,7 +135,7 @@
   language();
   if(!reduce.matches&&!saving)play();
   window.orthoIntroCleanup=()=>{
-   disposed=true;railResize.disconnect();observer.disconnect();reduce.removeEventListener('change',motionChange);
+   disposed=true;closePicker();document.removeEventListener('pointerdown',closeOutside);document.removeEventListener('focusin',closeOutside);window.removeEventListener('resize',positionPicker);window.visualViewport?.removeEventListener('resize',positionPicker);railResize.disconnect();observer.disconnect();reduce.removeEventListener('change',motionChange);
    document.removeEventListener('visibilitychange',visibility);
    video.pause();video.removeAttribute('src');video.load();
    document.body.classList.remove('intro-open');window.orthoIntroCleanup=null;

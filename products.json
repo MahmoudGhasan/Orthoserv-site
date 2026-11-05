@@ -776,9 +776,9 @@
       "model": "Winback BACK4",
       "category": "rehab",
       "group": "electro",
-      "description": "من مجموعة أورثو سيرف . تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
-      "price": 1000.0,
-      "method": "buy",
+      "description": "من مجموعة أورثو سيرف. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "price": null,
+      "method": "quote",
       "files": [
         {
           "file": "assets/products/rehab/winback-back4-front-transparent.webp",
@@ -891,9 +891,9 @@
         "quoteEnabled": true,
         "vatIncluded": null,
         "status": "published",
-        "sortOrder": 4,
+        "sortOrder": 4.0,
         "related": [],
-        "updatedAt": "2026-10-21T20:47:36.198634+00:00"
+        "updatedAt": "2026-11-05T11:15:12.179974+00:00"
       }
     },
     {

@@ -1072,9 +1072,9 @@
       "model": "EMS DolorClast",
       "category": "rehab",
       "group": "shockwave",
-      "description": "من مجموعة أورثو سيرف . تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
-      "price": 1000.0,
-      "method": "buy",
+      "description": "من مجموعة أورثو سيرف. تفاصيل التجهيز والسعر والتوفر تُؤكّد مع الفريق.",
+      "price": null,
+      "method": "quote",
       "files": [
         {
           "file": "assets/products/rehab/ems-dolorclast.webp",
@@ -1170,12 +1170,12 @@
         "videoUrl": "",
         "attachments": [],
         "compareAt": null,
-        "quoteEnabled": false,
+        "quoteEnabled": true,
         "vatIncluded": null,
         "status": "published",
-        "sortOrder": 1,
+        "sortOrder": 1.0,
         "related": [],
-        "updatedAt": "2026-10-23T13:25:25.401828+00:00"
+        "updatedAt": "2026-11-05T11:16:41.568571+00:00"
       }
     },
     {
@@ -39687,29 +39687,6 @@
       "type": "percentage",
       "updatedAt": "2026-10-28T11:07:43.015120+00:00",
       "value": 10.0
-    },
-    {
-      "id": "offer-267c6bb98423",
-      "name": {
-        "ar": "عرض",
-        "en": "EMS DolorClast"
-      },
-      "badge": {
-        "ar": "",
-        "en": ""
-      },
-      "type": "fixed",
-      "value": 500.0,
-      "products": [
-        "dolorclast"
-      ],
-      "start": "",
-      "end": "2026-10-28T10:37:41.793012+00:00",
-      "paused": false,
-      "placements": [
-        "cards"
-      ],
-      "updatedAt": "2026-10-28T11:07:55.598869+00:00"
     },
     {
       "accessory": "demo-3",

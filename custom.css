@@ -139,3 +139,8 @@ header .logo{height:44px}
 
 /* Reserve the final number width while counting. */
 .trust-strip [data-count-to]{display:inline-block;min-width:calc(var(--digits) * 1ch);font-variant-numeric:tabular-nums;direction:ltr;text-align:center}
+
+/* Keep catalogue page numbers within their product column at every width. */
+.catalog-main{min-width:0}
+.pagination{display:flex;flex-wrap:wrap;justify-content:center;max-width:100%;gap:8px}
+.pagination button{flex:0 0 44px;max-width:100%}

@@ -299,3 +299,15 @@ body :is(header,footer) a.brand-logo-plate{width:170px;padding:5px 6px;border-ra
 .brand-logo-art{display:block;position:relative;width:100%;aspect-ratio:230/61;overflow:hidden;flex:none;line-height:0}
 body :is(header,footer) a.brand-logo-plate .brand-logo-art>img,body.intro-open>header .brand-logo-plate .brand-logo-art>.logo,body.intro-open>footer .footer-grid .brand-logo-plate .brand-logo-art>img{position:absolute;display:block;left:-7.39130435%;top:-19.67213115%;width:114.34782609%;height:auto;max-width:none;max-height:none;aspect-ratio:263/87;object-fit:contain;box-sizing:content-box;padding:0;margin:0;border:0;border-radius:0;background:transparent;filter:none;mix-blend-mode:normal}
 @media(max-width:650px){body :is(header,footer) a.brand-logo-plate{width:140px;padding:4px 5px}}
+
+/* Slow, seamless hospital-logo rail: 12 pixels per second. */
+.intro-clients-label{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.intro-client-motion{display:inline-flex;align-items:center;min-height:44px;border:0;background:transparent;color:color-mix(in srgb,var(--paper) 75%,transparent);font-size:10px;padding:0 4px}
+.intro-clients-logos.is-moving{display:block;overflow:hidden;padding:4px 0 16px;scrollbar-width:none;direction:ltr}
+.intro-clients-logos.is-moving::-webkit-scrollbar{display:none}
+.intro-client-track{display:flex;width:max-content;animation:intro-client-drift var(--client-duration,180s) linear infinite}
+.intro-client-group{display:flex;align-items:center;gap:16px;padding-inline-end:16px;flex:none;width:max-content}
+.intro-clients-logos:is(:hover,:focus-within,.is-paused) .intro-client-track{animation-play-state:paused}
+@keyframes intro-client-drift{from{transform:translateX(0)}to{transform:translateX(calc(-1 * var(--client-distance)))}}
+@media(max-width:650px){.intro-client-group{gap:12px;padding-inline-end:12px}}
+@media(prefers-reduced-motion:reduce){.intro-clients-logos.is-moving{overflow-x:auto;scrollbar-width:thin}.intro-client-track{animation:none}.intro-client-copy,.intro-client-motion{display:none}}

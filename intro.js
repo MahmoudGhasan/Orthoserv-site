@@ -59,6 +59,22 @@
   const video=main.querySelector('video'),motion=main.querySelector('.intro-motion');
   const reduce=matchMedia('(prefers-reduced-motion: reduce)');
   const saving=Boolean(navigator.connection?.saveData);
+  const clientRail=main.querySelector('.intro-clients-logos');
+  let clientResize=null,clientMotion=null,clientPaused=false;
+  const updateClientMotion=()=>{if(!clientMotion)return;clientMotion.setAttribute('aria-pressed',String(clientPaused));clientMotion.textContent=document.documentElement.lang==='en'?(clientPaused?'Play logos ▷':'Pause logos Ⅱ'):(clientPaused?'تشغيل الشعارات ▷':'إيقاف الشعارات Ⅱ');};
+  if(clientRail){
+   const track=document.createElement('div'),group=document.createElement('div');track.className='intro-client-track';group.className='intro-client-group';
+   while(clientRail.firstChild)group.appendChild(clientRail.firstChild);
+   group.querySelectorAll('img').forEach(img=>img.loading='eager');
+   const clone=group.cloneNode(true);clone.classList.add('intro-client-copy');clone.setAttribute('aria-hidden','true');clone.inert=true;
+   track.append(group,clone);clientRail.append(track);clientRail.classList.add('is-moving');
+   clientMotion=document.createElement('button');clientMotion.type='button';clientMotion.className='intro-client-motion';clientMotion.dataset.noTranslate='';
+   main.querySelector('.intro-clients-label').append(clientMotion);
+   clientMotion.addEventListener('click',()=>{clientPaused=!clientPaused;clientRail.classList.toggle('is-paused',clientPaused);updateClientMotion();});
+   const sizeClients=()=>{const distance=group.getBoundingClientRect().width;clientRail.style.setProperty('--client-distance',distance+'px');clientRail.style.setProperty('--client-duration',Math.max(80,distance/12)+'s');};
+   clientResize=new ResizeObserver(sizeClients);clientResize.observe(group);sizeClients();updateClientMotion();
+  }
+
   let userPaused=false,disposed=false;
   const rail=main.querySelector('.intro-collections-rail');
   const previous=main.querySelector('[data-collection-prev]'),next=main.querySelector('[data-collection-next]');
@@ -132,7 +148,7 @@
    main.querySelector('.intro-clients-logos')?.setAttribute('aria-label',en()?'Hospital and medical centre logos':'شعارات المستشفيات والمراكز الطبية');
    main.querySelector('.intro-department-image img')?.setAttribute('alt',en()?'Rehabilitation department equipment':'تجهيزات قسم تأهيل وعلاج طبيعي');
    main.querySelector('.intro-consultation-photo img')?.setAttribute('alt',en()?'Medical centre equipment':'تجهيزات مركز طبي');
-   closePicker();pickers.forEach(renderPicker);updateMotion();updateRail();
+   closePicker();pickers.forEach(renderPicker);updateMotion();updateRail();updateClientMotion();
   };
   category.addEventListener('change',updateBrands);
   form.addEventListener('submit',event=>{
@@ -157,7 +173,7 @@
   language();
   if(!reduce.matches&&!saving)play();
   window.orthoIntroCleanup=()=>{
-   disposed=true;closePicker();document.removeEventListener('pointerdown',closeOutside);document.removeEventListener('focusin',closeOutside);window.removeEventListener('resize',positionPicker);window.visualViewport?.removeEventListener('resize',positionPicker);railResize.disconnect();observer.disconnect();reduce.removeEventListener('change',motionChange);
+   disposed=true;clientResize?.disconnect();closePicker();document.removeEventListener('pointerdown',closeOutside);document.removeEventListener('focusin',closeOutside);window.removeEventListener('resize',positionPicker);window.visualViewport?.removeEventListener('resize',positionPicker);railResize.disconnect();observer.disconnect();reduce.removeEventListener('change',motionChange);
    document.removeEventListener('visibilitychange',visibility);
    video.pause();video.removeAttribute('src');video.load();
    document.body.classList.remove('intro-open');window.orthoIntroCleanup=null;

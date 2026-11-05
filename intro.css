@@ -289,3 +289,13 @@ body :is(header,footer) a.brand-logo-plate{box-sizing:border-box;display:inline-
 body :is(header,footer) a.brand-logo-plate>img{display:block;box-sizing:content-box;width:100%;height:auto;max-width:100%;max-height:none;aspect-ratio:263/87;object-fit:contain;padding:0;margin:0;border:0;border-radius:0;filter:none;mix-blend-mode:normal;background:transparent}
 body.intro-open>header .brand-logo-plate>.logo,body.intro-open>footer .footer-grid .brand-logo-plate>img{width:100%;height:auto;padding:0;margin:0;aspect-ratio:263/87;object-fit:contain;filter:none;mix-blend-mode:normal;background:transparent;border-radius:0}
 @media(max-width:650px){body :is(header,footer) a.brand-logo-plate{width:170px;padding:12px 18px}}
+
+/* Compact matching logo plates, retaining the full original circle. */
+body :is(header,footer) a.brand-logo-plate{width:190px;padding:6px 10px}
+@media(max-width:650px){body :is(header,footer) a.brand-logo-plate{width:150px;padding:5px 8px}}
+
+/* Trim only transparent margins in presentation; keep the full logo artwork. */
+body :is(header,footer) a.brand-logo-plate{width:170px;padding:5px 6px;border-radius:9px;box-shadow:0 2px 8px color-mix(in srgb,var(--navy) 7%,transparent)}
+.brand-logo-art{display:block;position:relative;width:100%;aspect-ratio:230/61;overflow:hidden;flex:none;line-height:0}
+body :is(header,footer) a.brand-logo-plate .brand-logo-art>img,body.intro-open>header .brand-logo-plate .brand-logo-art>.logo,body.intro-open>footer .footer-grid .brand-logo-plate .brand-logo-art>img{position:absolute;display:block;left:-7.39130435%;top:-19.67213115%;width:114.34782609%;height:auto;max-width:none;max-height:none;aspect-ratio:263/87;object-fit:contain;box-sizing:content-box;padding:0;margin:0;border:0;border-radius:0;background:transparent;filter:none;mix-blend-mode:normal}
+@media(max-width:650px){body :is(header,footer) a.brand-logo-plate{width:140px;padding:4px 5px}}

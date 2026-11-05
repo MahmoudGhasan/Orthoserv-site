@@ -1,6 +1,6 @@
 /* The intro is a normal route; the existing help widget stays above it. */
 body.intro-open{background:var(--navy)}
-body.intro-open>.topline,body.intro-open>footer,body.intro-open>#juzoAd{display:none!important}
+body.intro-open>.topline,body.intro-open>#juzoAd{display:none!important}
 body.intro-open>header{box-shadow:none;position:absolute;inset:0 0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:20px;padding:24px 40px;background:transparent;border:0;z-index:30}
 body.intro-open>header>.head{display:contents}
 body.intro-open>header .head>a{order:1;flex-shrink:0}
@@ -241,3 +241,45 @@ html[lang=en] .intro-category-card h2{line-height:1.25}
 .intro-category-grid{max-width:1016px}
 .intro-category-card{aspect-ratio:496/268}
 @media(max-width:650px){.intro-category-card{aspect-ratio:496/268}.intro-category-card h2{font-size:21px}.intro-category-copy{inset-inline:18px;bottom:16px}.intro-category-toggle{top:10px;inset-inline-end:10px}.intro-category-details p{font-size:11px;line-height:1.6;margin-block:6px}.intro-category-explore{font-size:11px;min-height:25px}}
+
+/* Connected solutions, consultation and the existing company footer. */
+.intro-collaboration,.intro-consultation{background:var(--pale);color:var(--navy);padding:70px 0}
+.intro-collaboration-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:70px;align-items:center}
+.intro-collaboration-copy h2,.intro-consultation h2{font-family:inherit;font-size:clamp(29px,3vw,43px);font-weight:500;line-height:1.6;letter-spacing:-.7px;margin:0 0 20px;color:var(--navy)}
+.intro-collaboration-copy h2>span,.intro-consultation h2>span{color:var(--muted)}
+.intro-collaboration-copy>p,.intro-consultation-copy>p{font-size:14px;line-height:1.95;margin:0 0 30px;max-width:580px;color:var(--navy)}
+.intro-collaboration .button,.intro-consultation .button{border-radius:30px;font-size:13px;min-height:46px}
+.intro-collage{display:grid;grid-template-columns:1.2fr 1fr;grid-template-rows:190px 220px;gap:20px;align-items:center;direction:ltr}
+.intro-collage>img{display:block;width:100%;height:100%;object-fit:cover;object-position:20% center;border-radius:28px}
+.intro-collage-one{grid-column:1;grid-row:1;width:70%!important;justify-self:end}
+.intro-collage-two{grid-column:2;grid-row:1/3;height:210px!important;align-self:center}
+.intro-collage-three{grid-column:1;grid-row:2}
+.intro-consultation{padding-top:20px;padding-bottom:80px}
+.intro-consultation-card{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.3fr);gap:48px;align-items:center;padding:22px;border-radius:36px;background:color-mix(in srgb,var(--blue) 12%,var(--paper));direction:ltr}
+.intro-consultation-photo{align-self:stretch;border-radius:24px;overflow:hidden;min-height:450px;background:var(--paper)}
+.intro-consultation-photo>img{width:100%;height:100%;object-fit:cover;object-position:20% center;display:block}
+.intro-consultation-copy{direction:rtl;padding:22px 18px 22px 0;text-align:start}
+html[lang=en] .intro-consultation-copy{direction:ltr}
+.intro-consultation-label{display:block;font-size:10px;color:var(--muted);margin-bottom:14px}
+.intro-consultation-tags{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}
+.intro-consultation-tags>button{min-height:40px;border:1px solid color-mix(in srgb,var(--navy) 42%,transparent);border-radius:25px;background:transparent;color:var(--navy);font-size:12px;padding:8px 15px}
+.intro-consultation-tags>button:hover{background:var(--paper)}
+.intro-collaboration .intro-en,.intro-consultation .intro-en,.intro-footer-lead .intro-en{display:none}
+html[lang=en] :is(.intro-collaboration,.intro-consultation,.intro-footer-lead) .intro-ar{display:none}
+html[lang=en] :is(.intro-collaboration,.intro-consultation,.intro-footer-lead) .intro-en{display:inline}
+html[lang=en] :is(.intro-collaboration,.intro-consultation) h2{line-height:1.3}
+.intro-footer-lead{display:none}
+body.intro-open>footer{display:block;margin:0;padding:55px 0 24px;border:0;border-radius:36px 36px 0 0;background:var(--navy);color:var(--paper)}
+body.intro-open .intro-footer-lead{display:flex;align-items:center;justify-content:space-between;gap:24px;background:color-mix(in srgb,var(--paper) 7%,var(--navy));border-radius:60px;padding:28px 34px;margin-bottom:55px}
+.intro-footer-lead h2{font-family:inherit;font-size:27px;font-weight:500;line-height:1.5;color:var(--paper);margin:0 0 6px}
+.intro-footer-lead p{font-size:13px;color:color-mix(in srgb,var(--paper) 75%,var(--navy));margin:0}
+.intro-footer-lead>a{display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:46px;padding:10px 24px;border-radius:30px;background:var(--paper);color:var(--navy);font-size:13px;white-space:nowrap}
+body.intro-open>footer .footer-grid img{mix-blend-mode:normal;background:var(--paper);padding:10px 14px;border-radius:10px;width:210px}
+body.intro-open>footer :is(.footer-grid strong,.company-identity h2){color:var(--paper)}
+body.intro-open>footer :is(.footer-grid p,.footer-grid a:not(:has(img)),.footer-grid button,.small,.company-identity .eyebrow,.company-identity .legal-name,.company-address,.company-building,.company-building bdi,.company-records dt,.company-records dd,.company-records bdi,.footer-bottom){color:color-mix(in srgb,var(--paper) 82%,var(--navy))}
+body.intro-open>footer :is(.company-details,.footer-bottom){border-color:color-mix(in srgb,var(--paper) 18%,transparent)}
+body.intro-open>footer .company-records>div{border-color:color-mix(in srgb,var(--paper) 35%,transparent)}
+body.intro-open>footer :is(a,button):focus-visible{outline-color:var(--paper)}
+@media(max-width:760px){.intro-collaboration,.intro-consultation{padding-block:35px}.intro-collaboration-layout{grid-template-columns:1fr;gap:30px}.intro-collage{grid-template-rows:140px 165px;gap:14px}.intro-collage-two{height:170px!important}.intro-collage>img{border-radius:22px}.intro-collaboration-copy>p,.intro-consultation-copy>p{font-size:13px}.intro-consultation-card{grid-template-columns:1fr;gap:18px;padding:15px;border-radius:26px}.intro-consultation-photo{min-height:0;height:235px}.intro-consultation-copy{padding:8px 8px 15px}.intro-consultation h2{font-size:30px}.intro-consultation-tags{gap:8px}.intro-consultation-tags>button{font-size:11px;min-height:44px;padding-inline:12px}body.intro-open>footer{padding-top:28px;border-radius:26px 26px 0 0}body.intro-open .intro-footer-lead{display:block;border-radius:24px;padding:24px;margin-bottom:32px}.intro-footer-lead h2{font-size:24px}.intro-footer-lead p{margin-bottom:18px}.intro-footer-lead>a{font-size:12px}}
+
+.intro-collaboration-copy h2>.intro-ar,.intro-collaboration-copy h2>.intro-en,.intro-consultation h2>.intro-ar,.intro-consultation h2>.intro-en{color:var(--navy)}

@@ -87,7 +87,7 @@
   const options=(rows,selected)=>rows.map(([value,label])=>`<option value="${escape(value)}"${value===selected?' selected':''}>${escape(label)}</option>`).join('');
   const updateBrands=()=>{
    const selected=brand.value;
-   const brands=[...new Set(products.filter(p=>!category.value||p.category===category.value).map(p=>p.brand).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+   const brands=[...new Set(products.filter(p=>!category.value||p.category===category.value).map(p=>p.brand).filter(name=>typeof name==='string'&&name.trim()&&!/^[-–—]+$/.test(name.trim())))].sort((a,b)=>a.localeCompare(b));
    brand.innerHTML=options([['',en()?'All brands':'كل العلامات'],...brands.map(name=>[name,name])],selected);
    renderPicker(brand.closest('[data-intro-filter]'));
   };

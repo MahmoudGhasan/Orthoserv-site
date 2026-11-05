@@ -37836,49 +37836,14 @@
           "ar": "التجهيز: وحدة الجهاز، قبضة Focus واحدة، طقم من 3 وسائد جل، طقم حامل القبضة، عبوتا جل وكابل كهرباء. العربة اختيارية وتُطلب منفصلة.",
           "en": "Configuration: console, one Focus handpiece, three gel pads, handpiece holder kit, two gel bottles and power cord. Cart is optional and ordered separately."
         },
-        "attachments": [
-          {
-            "file": "#product/ems-dolorclast-focus-handpiece",
-            "label": {
-              "ar": "اطلب منفصلًا: قبضة EMS DolorClast Focus",
-              "en": "Order separately: EMS DolorClast Focus Handpiece"
-            }
-          },
-          {
-            "file": "#product/ems-dolorclast-focus-gel-pads",
-            "label": {
-              "ar": "اطلب منفصلًا: طقم وسائد جل EMS DolorClast Focus",
-              "en": "Order separately: EMS DolorClast Focus Gel Pads Kit"
-            }
-          },
-          {
-            "file": "#product/ems-dolorclast-focus-holder",
-            "label": {
-              "ar": "اطلب منفصلًا: طقم حامل قبضة EMS DolorClast Focus",
-              "en": "Order separately: EMS DolorClast Focus Handpiece Holder Kit"
-            }
-          },
-          {
-            "file": "#product/ems-dolorclast-contact-gel",
-            "label": {
-              "ar": "اطلب منفصلًا: جل توصيل EMS DolorClast — عبوتان",
-              "en": "Order separately: EMS DolorClast Contact Gel — 2 Bottles"
-            }
-          },
-          {
-            "file": "#product/ems-dolorclast-focused-power-cord",
-            "label": {
-              "ar": "اطلب منفصلًا: كابل كهرباء EMS DolorClast Focused",
-              "en": "Order separately: EMS DolorClast Focused Power Cord"
-            }
-          },
-          {
-            "file": "#product/ems-dolorclast-focused-cart",
-            "label": {
-              "ar": "اطلب منفصلًا: عربة EMS DolorClast Focused",
-              "en": "Order separately: EMS DolorClast Focused Cart"
-            }
-          }
+        "attachments": [],
+        "related": [
+          "ems-dolorclast-focus-handpiece",
+          "ems-dolorclast-focus-gel-pads",
+          "ems-dolorclast-focus-holder",
+          "ems-dolorclast-contact-gel",
+          "ems-dolorclast-focused-power-cord",
+          "ems-dolorclast-focused-cart"
         ]
       },
       "catalogueImport": {
@@ -38449,21 +38414,10 @@
           "ar": "لفافة تبريد وضغط من Game Ready. للقدم اليمنى أو اليسرى. L: مقاس حذاء الرجال 6–11 والنساء حتى 13؛ XL: الرجال 12–18، وفق مرجع الشركة.",
           "en": "Game Ready cold-and-compression wrap. Either foot. L: men’s shoe sizes 6–11 and women’s up to 13; XL: men’s 12–18, per manufacturer sizing."
         },
-        "attachments": [
-          {
-            "file": "#product/portable",
-            "label": {
-              "ar": "الجهاز المتوافق: GRPro 2.1",
-              "en": "Compatible unit: GRPro 2.1"
-            }
-          },
-          {
-            "file": "#product/med4",
-            "label": {
-              "ar": "الجهاز المتوافق: MED4 Elite",
-              "en": "Compatible unit: MED4 Elite"
-            }
-          }
+        "attachments": [],
+        "related": [
+          "portable",
+          "med4"
         ]
       },
       "catalogueImport": {
@@ -38566,21 +38520,10 @@
           "ar": "لفافة تبريد وضغط من Game Ready. تناسب محيط خصر 22–55 بوصة.",
           "en": "Game Ready cold-and-compression wrap. Fits waist circumferences of 22–55 inches."
         },
-        "attachments": [
-          {
-            "file": "#product/portable",
-            "label": {
-              "ar": "الجهاز المتوافق: GRPro 2.1",
-              "en": "Compatible unit: GRPro 2.1"
-            }
-          },
-          {
-            "file": "#product/med4",
-            "label": {
-              "ar": "الجهاز المتوافق: MED4 Elite",
-              "en": "Compatible unit: MED4 Elite"
-            }
-          }
+        "attachments": [],
+        "related": [
+          "portable",
+          "med4"
         ]
       },
       "catalogueImport": {
@@ -38682,14 +38625,9 @@
           "ar": "لفافة تبريد وضغط من Game Ready. صدر 38–55 بوصة ورقبة 15.75–19.5 بوصة. تعمل مع GRPro 2.1 فقط، ولا تتوافق مع MED4 Elite.",
           "en": "Game Ready cold-and-compression wrap. Chest 38–55 inches; neck 15.75–19.5 inches. GRPro 2.1 only; not compatible with MED4 Elite."
         },
-        "attachments": [
-          {
-            "file": "#product/portable",
-            "label": {
-              "ar": "الجهاز المتوافق: GRPro 2.1",
-              "en": "Compatible unit: GRPro 2.1"
-            }
-          }
+        "attachments": [],
+        "related": [
+          "portable"
         ]
       },
       "catalogueImport": {
@@ -38792,21 +38730,10 @@
           "ar": "لفافة تبريد وضغط من Game Ready. مقاس واحد للذراع اليمنى أو اليسرى، مع ثني 90° أو 135° لمن لا يستطيع فرد الكوع.",
           "en": "Game Ready cold-and-compression wrap. One size for either arm; 90° or 135° flexion for patients unable to straighten the elbow."
         },
-        "attachments": [
-          {
-            "file": "#product/portable",
-            "label": {
-              "ar": "الجهاز المتوافق: GRPro 2.1",
-              "en": "Compatible unit: GRPro 2.1"
-            }
-          },
-          {
-            "file": "#product/med4",
-            "label": {
-              "ar": "الجهاز المتوافق: MED4 Elite",
-              "en": "Compatible unit: MED4 Elite"
-            }
-          }
+        "attachments": [],
+        "related": [
+          "portable",
+          "med4"
         ]
       },
       "catalogueImport": {
@@ -38909,21 +38836,10 @@
           "ar": "لفافة تبريد وضغط من Game Ready. مقاس واحد للذراع اليمنى أو اليسرى.",
           "en": "Game Ready cold-and-compression wrap. One size for either arm."
         },
-        "attachments": [
-          {
-            "file": "#product/portable",
-            "label": {
-              "ar": "الجهاز المتوافق: GRPro 2.1",
-              "en": "Compatible unit: GRPro 2.1"
-            }
-          },
-          {
-            "file": "#product/med4",
-            "label": {
-              "ar": "الجهاز المتوافق: MED4 Elite",
-              "en": "Compatible unit: MED4 Elite"
-            }
-          }
+        "attachments": [],
+        "related": [
+          "portable",
+          "med4"
         ]
       },
       "catalogueImport": {
@@ -39040,21 +38956,10 @@
           "ar": "لفافة تبريد وضغط من Game Ready. للساق اليمنى أو اليسرى. طول الساق الداخلي: M من 27 إلى 33 بوصة؛ L من 33 إلى 37 بوصة.",
           "en": "Game Ready cold-and-compression wrap. Either leg. Inseam: M 27–33 inches; L 33–37 inches."
         },
-        "attachments": [
-          {
-            "file": "#product/portable",
-            "label": {
-              "ar": "الجهاز المتوافق: GRPro 2.1",
-              "en": "Compatible unit: GRPro 2.1"
-            }
-          },
-          {
-            "file": "#product/med4",
-            "label": {
-              "ar": "الجهاز المتوافق: MED4 Elite",
-              "en": "Compatible unit: MED4 Elite"
-            }
-          }
+        "attachments": [],
+        "related": [
+          "portable",
+          "med4"
         ]
       },
       "catalogueImport": {
@@ -39157,21 +39062,10 @@
           "ar": "لفافة تبريد وضغط من Game Ready. للقدم اليمنى أو اليسرى؛ مقاس حذاء الرجال 6–11 والنساء حتى 13، وفق مرجع الشركة.",
           "en": "Game Ready cold-and-compression wrap. Either foot; men’s shoe sizes 6–11 and women’s up to 13, per manufacturer sizing."
         },
-        "attachments": [
-          {
-            "file": "#product/portable",
-            "label": {
-              "ar": "الجهاز المتوافق: GRPro 2.1",
-              "en": "Compatible unit: GRPro 2.1"
-            }
-          },
-          {
-            "file": "#product/med4",
-            "label": {
-              "ar": "الجهاز المتوافق: MED4 Elite",
-              "en": "Compatible unit: MED4 Elite"
-            }
-          }
+        "attachments": [],
+        "related": [
+          "portable",
+          "med4"
         ]
       },
       "catalogueImport": {
@@ -39274,21 +39168,10 @@
           "ar": "لفافة تبريد وضغط من Game Ready. مقاس واحد قابل للضبط لليد اليمنى أو اليسرى، مع دعامة يد قابلة للتعديل.",
           "en": "Game Ready cold-and-compression wrap. One adjustable size for either hand, with an adjustable hand support."
         },
-        "attachments": [
-          {
-            "file": "#product/portable",
-            "label": {
-              "ar": "الجهاز المتوافق: GRPro 2.1",
-              "en": "Compatible unit: GRPro 2.1"
-            }
-          },
-          {
-            "file": "#product/med4",
-            "label": {
-              "ar": "الجهاز المتوافق: MED4 Elite",
-              "en": "Compatible unit: MED4 Elite"
-            }
-          }
+        "attachments": [],
+        "related": [
+          "portable",
+          "med4"
         ]
       },
       "catalogueImport": {
@@ -39405,21 +39288,10 @@
           "ar": "لفافة تبريد وضغط من Game Ready. نسختان لليمين واليسار. يصل محيط الخصر إلى 72 بوصة مع حزام التمديد؛ يُؤكد التجهيز عند الطلب.",
           "en": "Game Ready cold-and-compression wrap. Left and right models. Accommodates waists up to 72 inches with an extender strap; confirm configuration when ordering."
         },
-        "attachments": [
-          {
-            "file": "#product/portable",
-            "label": {
-              "ar": "الجهاز المتوافق: GRPro 2.1",
-              "en": "Compatible unit: GRPro 2.1"
-            }
-          },
-          {
-            "file": "#product/med4",
-            "label": {
-              "ar": "الجهاز المتوافق: MED4 Elite",
-              "en": "Compatible unit: MED4 Elite"
-            }
-          }
+        "attachments": [],
+        "related": [
+          "portable",
+          "med4"
         ]
       },
       "catalogueImport": {
@@ -39522,21 +39394,10 @@
           "ar": "لفافة تبريد وضغط من Game Ready. مقاس واحد للساق اليمنى أو اليسرى، متوافق مع أجهزة الحركة السلبية المستمرة CPM.",
           "en": "Game Ready cold-and-compression wrap. One size for either leg; compatible with continuous passive motion (CPM) machines."
         },
-        "attachments": [
-          {
-            "file": "#product/portable",
-            "label": {
-              "ar": "الجهاز المتوافق: GRPro 2.1",
-              "en": "Compatible unit: GRPro 2.1"
-            }
-          },
-          {
-            "file": "#product/med4",
-            "label": {
-              "ar": "الجهاز المتوافق: MED4 Elite",
-              "en": "Compatible unit: MED4 Elite"
-            }
-          }
+        "attachments": [],
+        "related": [
+          "portable",
+          "med4"
         ]
       },
       "catalogueImport": {
@@ -39639,21 +39500,10 @@
           "ar": "لفافة تبريد وضغط من Game Ready. للساق اليمنى أو اليسرى؛ الطول 17 بوصة، المحيط العلوي 32 بوصة والسفلي 24 بوصة.",
           "en": "Game Ready cold-and-compression wrap. Either leg; length 17 inches, upper circumference 32 inches and lower circumference 24 inches."
         },
-        "attachments": [
-          {
-            "file": "#product/portable",
-            "label": {
-              "ar": "الجهاز المتوافق: GRPro 2.1",
-              "en": "Compatible unit: GRPro 2.1"
-            }
-          },
-          {
-            "file": "#product/med4",
-            "label": {
-              "ar": "الجهاز المتوافق: MED4 Elite",
-              "en": "Compatible unit: MED4 Elite"
-            }
-          }
+        "attachments": [],
+        "related": [
+          "portable",
+          "med4"
         ]
       },
       "catalogueImport": {
@@ -39798,21 +39648,10 @@
           "ar": "لفافة تبريد وضغط من Game Ready. نسخ يمين ويسار. M: صدر 33–45 بوصة؛ L: صدر 40–55 بوصة، وحتى 77 بوصة مع حزام تمديد اختياري.",
           "en": "Game Ready cold-and-compression wrap. Left and right models. M: chest 33–45 inches; L: chest 40–55 inches, up to 77 inches with an optional extender strap."
         },
-        "attachments": [
-          {
-            "file": "#product/portable",
-            "label": {
-              "ar": "الجهاز المتوافق: GRPro 2.1",
-              "en": "Compatible unit: GRPro 2.1"
-            }
-          },
-          {
-            "file": "#product/med4",
-            "label": {
-              "ar": "الجهاز المتوافق: MED4 Elite",
-              "en": "Compatible unit: MED4 Elite"
-            }
-          }
+        "attachments": [],
+        "related": [
+          "portable",
+          "med4"
         ]
       },
       "catalogueImport": {

@@ -311,3 +311,6 @@ body :is(header,footer) a.brand-logo-plate .brand-logo-art>img,body.intro-open>h
 @keyframes intro-client-drift{from{transform:translateX(0)}to{transform:translateX(calc(-1 * var(--client-distance)))}}
 @media(max-width:650px){.intro-client-group{gap:12px;padding-inline-end:12px}}
 @media(prefers-reduced-motion:reduce){.intro-clients-logos.is-moving{overflow-x:auto;scrollbar-width:thin}.intro-client-track{animation:none}.intro-client-copy,.intro-client-motion{display:none}}
+
+/* Blend the animated layer itself so inverted white image backgrounds stay invisible. */
+.intro-client-track{mix-blend-mode:screen}

@@ -1,7 +1,7 @@
 /* The intro is a normal route; the existing help widget stays above it. */
 body.intro-open{background:var(--navy)}
 body.intro-open>.topline,body.intro-open>footer,body.intro-open>#juzoAd{display:none!important}
-body.intro-open>header{position:absolute;inset:0 0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:20px;padding:24px 40px;background:transparent;border:0;z-index:30}
+body.intro-open>header{box-shadow:none;position:absolute;inset:0 0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:20px;padding:24px 40px;background:transparent;border:0;z-index:30}
 body.intro-open>header>.head{display:contents}
 body.intro-open>header .head>a{order:1;flex-shrink:0}
 body.intro-open>header .logo{width:195px;filter:none;mix-blend-mode:normal}

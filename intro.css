@@ -177,4 +177,7 @@ body.intro-open{overflow-anchor:none}
 @keyframes intro-picker-reveal{from{opacity:0}to{opacity:1}}
 @media(prefers-reduced-motion:reduce){.intro-picker,.intro-picker-list{animation:none}}
 
-.intro-picker,.intro-picker.opens-below{position:fixed;bottom:auto}
+.intro-picker,.intro-picker.opens-below{position:absolute;top:auto;bottom:calc(100% + 6px);box-sizing:border-box;padding:12px 8px;border-radius:14px}
+.intro-picker-search{padding-inline:9px;gap:5px}
+.intro-picker-option{overflow-wrap:anywhere}
+@media(max-width:650px){.intro-picker-option{gap:8px;font-size:12px;padding-inline:4px}.intro-picker-search{padding-inline:7px}.intro-search .intro-picker-input{font-size:16px;min-width:0}}

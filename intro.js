@@ -53,12 +53,10 @@
   const closePicker=(restore=false)=>{if(!openPicker)return;const field=openPicker;field.querySelector('.intro-picker').hidden=true;field.querySelector('button').setAttribute('aria-expanded','false');field.classList.remove('is-open');openPicker=null;if(restore)field.querySelector('button').focus({preventScroll:true});};
   const positionPicker=()=>{
    if(!openPicker)return;
-   const field=openPicker,panel=field.querySelector('.intro-picker'),rect=field.getBoundingClientRect(),width=Math.min(320,innerWidth-32);
-   const viewportHeight=window.visualViewport?.height||innerHeight,above=rect.top-16,below=viewportHeight-rect.bottom-16;
-   const upwards=above>=220||above>=below;
-   const space=Math.max(130,Math.min(320,(upwards?above:below)-12));
-   panel.classList.toggle('opens-below',!upwards);
-   panel.style.width=width+'px';panel.style.left=Math.max(16,Math.min(rect.left,innerWidth-width-16))+'px';panel.style.top=Math.max(16,upwards?rect.top-space-14:rect.bottom+14)+'px';panel.style.setProperty('--picker-height',space+'px');
+   const panel=openPicker.querySelector('.intro-picker'),rect=openPicker.getBoundingClientRect();
+   const space=Math.max(90,Math.min(320,rect.top-22));
+   panel.classList.remove('opens-below');
+   panel.style.width=rect.width+'px';panel.style.left=(-openPicker.clientLeft)+'px';panel.style.top='auto';panel.style.bottom='calc(100% + 6px)';panel.style.setProperty('--picker-height',space+'px');
   };
   const renderPicker=field=>{
    const select=field.querySelector('select'),input=field.querySelector('.intro-picker-input'),list=field.querySelector('.intro-picker-list'),empty=field.querySelector('.intro-picker-empty');

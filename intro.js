@@ -7,6 +7,14 @@
  window.renderOrthoIntro=(main,{products,categories,clientsMarkup,statsMarkup,featuredMarkup,onSearch})=>{
   window.orthoIntroCleanup?.();
   document.body.classList.add('intro-open');
+  const categoryCards=[
+   ['rehab','العلاج الطبيعي والتأهيل','Physiotherapy & rehabilitation','اكتشف الأجهزة العلاجية وحلول الحركة والتأهيل.','Explore therapy equipment and solutions for movement and rehabilitation.','assets/category-banners/rehab-01.jpg','assets/campaigns/centre-equipment.webp','#catalog/rehab','20% center','center'],
+   ['fitness','اللياقة والتمارين','Fitness & exercise','تجهيزات للقوة والحركة والتمرين، حسب احتياجك.','Equipment for strength, movement and exercise, tailored to your needs.','assets/category-banners/gym-01.jpg','assets/category-banners/gym-02.jpg','#catalog/gym','20% center','20% center'],
+   ['compression','الضغط الطبي — Juzo','Medical compression — Juzo','استكشف القطعة المناسبة، وخياراتها ودليل قياسها.','Explore compression garments, available options and measurement guides.','assets/campaigns/juzo-lifestyle-hero.jpg','assets/campaigns/juzo-fitting-banner.jpg','#brand/juzo','75% center','75% center'],
+   ['supplies','المستلزمات الطبية','Medical supplies','احتياجات العناية والتجهيز الطبي في مكان واحد.','Everyday care and medical equipment essentials in one place.','assets/category-banners/consumables-01.jpg','assets/category-banners/consumables-02.jpg','#catalog/consumables','20% center','20% center']
+  ];
+  const categoryCardsMarkup=`<article class="intro-category-section" id="introCategories" role="region" aria-label="${escape('تسوّق حسب احتياجك / Shop by your needs')}"><div class="wrap intro-category-grid">${categoryCards.map(([id,ar,en,descriptionAr,descriptionEn,first,second,href,firstPosition,secondPosition])=>`<article class="intro-category-card" id="intro-category-${id}"><a class="intro-category-link" href="${escape(href)}"><img class="intro-category-first" src="${escape(first)}" loading="lazy" alt="" style="object-position:${escape(firstPosition)}"><img class="intro-category-second" src="${escape(second)}" loading="lazy" alt="" style="object-position:${escape(secondPosition)}"><div class="intro-category-copy"><h2>${text(ar,en)}</h2><div class="intro-category-details"><p>${text(descriptionAr,descriptionEn)}</p><span class="intro-category-explore">${text('استكشف القسم','Explore the collection')} <span aria-hidden="true">↗</span></span></div></div></a><button type="button" class="intro-category-toggle" aria-pressed="false" aria-controls="intro-category-${id}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 7v5h-5M4 17v-5h5M6 8a7 7 0 0 1 12-2l2 2M4 16l2 2a7 7 0 0 0 12-2"/></svg>${text('تبديل الصورة','Switch image')}</button></article>`).join('')}</div></article>`;
+
   main.innerHTML=`<section class="ortho-intro" aria-labelledby="introTitle">
    <video class="intro-video" muted loop playsinline preload="none" poster="assets/intro/orthoserv-hero-poster.jpg" aria-hidden="true" tabindex="-1"></video>
    <div class="intro-shade" aria-hidden="true"></div>
@@ -34,7 +42,8 @@
     ['M4 20l1-4a8 8 0 1 1 4 3ZM8 10h8m-8 4h5','تواصل مباشر مع فريقنا','Talk directly with our team','لمناقشة التجهيز والمنتجات والتوفّر.','Discuss your equipment needs, products and availability.']
    ].map(([icon,ar,en,descriptionAr,descriptionEn],index)=>`<li><a class="intro-department-link" href="${['#business','#catalog','#contact'][index]}"><span class="intro-department-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><path d="${icon}"/></svg></span><div><h3>${text(ar,en)}</h3><p>${text(descriptionAr,descriptionEn)}</p></div><span class="intro-department-arrow" aria-hidden="true">↗</span></a></li>`).join('')}</ul></div></div>
 
-  </div></section>`:''}${featuredMarkup||''}`;
+  </div></section>`:''}${categoryCardsMarkup}${featuredMarkup||''}`;
+  main.querySelectorAll('.intro-category-toggle').forEach(button=>button.addEventListener('click',()=>{const active=button.closest('.intro-category-card').classList.toggle('is-alternate');button.setAttribute('aria-pressed',String(active));}));
   const icons=['M12 3 4 7v14h16V7ZM8 9v2m8-2v2m-8 3v2m8-2v2m-6 5v-4h4v4','M3 21V8l9-5 9 5v13ZM7 10h2m6 0h2M7 14h2m6 0h2m-7 7v-4h4v4','M9 4h6l2 4v4l-5 3-5-3V8ZM9 14l-1 7 4-2 4 2-1-7'];
   main.querySelectorAll('.intro-clients .trust-strip dl>div').forEach((card,index)=>{
    card.insertAdjacentHTML('beforeend',`<svg class="intro-stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${icons[index%icons.length]}"></path></svg>`);

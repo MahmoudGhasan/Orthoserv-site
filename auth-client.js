@@ -66,7 +66,13 @@
     const result = await sdk.createUserWithEmailAndPassword(auth,email,password);
     // Creating the account succeeded even if a subsequent email/profile request fails.
     let verificationSent = false;
-    try { await sdk.updateProfile(result.user,{displayName:name.trim()}); } catch {}
+    try {
+      await sdk.updateProfile(result.user,{displayName:name.trim()});
+      if (auth.currentUser === result.user && session.user?.uid === result.user.uid) {
+        session = {...session,user:{...session.user,displayName:result.user.displayName || ''}};
+        notify();
+      }
+    } catch {}
     try { await sdk.sendEmailVerification(result.user); verificationSent = true; } catch {}
     return {verificationSent};
   }

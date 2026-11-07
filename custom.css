@@ -144,3 +144,6 @@ header .logo{height:44px}
 .catalog-main{min-width:0}
 .pagination{display:flex;flex-wrap:wrap;justify-content:center;max-width:100%;gap:8px}
 .pagination button{flex:0 0 44px;max-width:100%}
+
+/* Reserve the initial empty route before its content is rendered. */
+main#main:empty{min-block-size:100svh}

@@ -314,3 +314,20 @@ body :is(header,footer) a.brand-logo-plate .brand-logo-art>img,body.intro-open>h
 
 /* Blend the animated layer itself so inverted white image backgrounds stay invisible. */
 .intro-client-track{mix-blend-mode:screen}
+
+/* Intro header account action. */
+#accountBtn .intro-account-label{display:none}
+body.intro-open>header :is(.nav-all,#cartBtn,#savedBtn,#accountBtn>svg){display:none}
+body.intro-open>header #accountBtn{
+  padding-inline:12px;
+  border:1px solid rgb(255 255 255 / .45);
+  border-radius:22px;
+}
+body.intro-open>header #accountBtn .intro-account-label{
+  display:block;
+  max-inline-size:clamp(80px,22vw,150px);
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  font-size:13px;
+}

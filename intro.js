@@ -172,7 +172,14 @@
   observer.observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
   language();
   if(!reduce.matches&&!saving)play();
+  const loadReveal = () => {
+   import('./reveal.js?v=rebase-20261107').catch(() => {});
+  };
+  if (window.OrthoReveal) window.OrthoReveal.start();
+  else window.addEventListener('scroll', loadReveal, {once:true, passive:true});
   window.orthoIntroCleanup=()=>{
+   window.removeEventListener('scroll', loadReveal);
+   window.OrthoReveal?.stop();
    disposed=true;clientResize?.disconnect();closePicker();document.removeEventListener('pointerdown',closeOutside);document.removeEventListener('focusin',closeOutside);window.removeEventListener('resize',positionPicker);window.visualViewport?.removeEventListener('resize',positionPicker);railResize.disconnect();observer.disconnect();reduce.removeEventListener('change',motionChange);
    document.removeEventListener('visibilitychange',visibility);
    video.pause();video.removeAttribute('src');video.load();

@@ -47,7 +47,7 @@
           seen.add(key);
           return;
         }
-        waiting.set(el, {key, delay: group === 1 || group === 3 ? Math.min(i, 3) * 60 : 0});
+        waiting.set(el, {key, delay: group === 1 || group === 3 ? Math.min(i, 3) * 70 : 0});
         observer.observe(el);
       });
     });
@@ -57,7 +57,9 @@
     frame = requestAnimationFrame(() => { frame = requestAnimationFrame(scan); });
   }
   function ended(event) {
-    if (event.animationName === 'os-rv-in') finish(event.target);
+    if (event.animationName !== 'os-rv-slide') return;
+    const target = event.target.closest('.os-rv');
+    if (target && active.has(target)) finish(target);
   }
   document.addEventListener('animationend', ended);
   document.addEventListener('animationcancel', ended);

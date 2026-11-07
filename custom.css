@@ -149,16 +149,28 @@ header .logo{height:44px}
 main#main:empty{min-block-size:100svh}
 
 /* Scroll reveal for selected intro content. */
-html.os-reveal-on{--os-rv-x:24px}
-html.os-reveal-on[dir=ltr]{--os-rv-x:-24px}
+html.os-reveal-on{--os-rv-distance:clamp(32px,5vw,64px);--os-rv-x:var(--os-rv-distance)}
+html.os-reveal-on[dir=ltr]{--os-rv-x:calc(-1 * var(--os-rv-distance))}
+body.intro-open #main,body.intro-open>footer{overflow-x:clip}
 @media (prefers-reduced-motion:no-preference){
-  html.os-reveal-on .os-rv{
-    animation:os-rv-in 600ms var(--ease,ease-out) var(--os-rv-delay,0ms) backwards;
+  html.os-reveal-on .os-rv:not(.intro-collection-card),
+  html.os-reveal-on .intro-collection-card.os-rv>img,
+  html.os-reveal-on .intro-collection-card.os-rv>.intro-collection-copy{
+    animation:os-rv-slide 700ms cubic-bezier(.25,.46,.45,.94) var(--os-rv-delay,0ms) backwards,
+      os-rv-fade 350ms ease-out var(--os-rv-delay,0ms) backwards;
     will-change:transform,opacity;
   }
-  html.os-reveal-on .os-rv:focus-within{animation:none;will-change:auto}
+  html.os-reveal-on .os-rv:focus-within,
+  html.os-reveal-on .intro-collection-card.os-rv:focus-within>img,
+  html.os-reveal-on .intro-collection-card.os-rv:focus-within>.intro-collection-copy{
+    animation:none;will-change:auto;
+  }
 }
-@keyframes os-rv-in{
-  from{transform:translateX(var(--os-rv-x));opacity:0}
-  to{transform:translateX(0);opacity:1}
+@keyframes os-rv-slide{
+  from{transform:translateX(var(--os-rv-x))}
+  to{transform:translateX(0)}
+}
+@keyframes os-rv-fade{
+  from{opacity:0}
+  to{opacity:1}
 }

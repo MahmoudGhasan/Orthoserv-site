@@ -173,7 +173,7 @@
   language();
   if(!reduce.matches&&!saving)play();
   const loadReveal = () => {
-   import('./reveal.js?v=rebase-20261107').catch(() => {});
+   import('./reveal.js?v=visible-slide-20261107').catch(() => {});
   };
   if (window.OrthoReveal) window.OrthoReveal.start();
   else window.addEventListener('scroll', loadReveal, {once:true, passive:true});

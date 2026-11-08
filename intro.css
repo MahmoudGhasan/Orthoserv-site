@@ -106,32 +106,29 @@ html[lang=en] .intro-clients h2{line-height:1.25}
 @media(max-width:650px){.intro-clients .trust-strip{margin-bottom:32px}.intro-clients .trust-strip dl{grid-template-columns:1fr;gap:14px}.intro-clients .trust-strip dl>div{min-height:132px;padding:20px 24px;border:0;border-radius:24px;grid-column:auto}.intro-clients .trust-strip dd{font-size:56px}.intro-clients .trust-strip dt{font-size:13px}.intro-clients .intro-stat-icon{top:24px;inset-inline-end:24px}}
 
 /* Curated collections use the existing product images and routes. */
-.intro-collections{padding:24px 0 48px;background:var(--navy);color:var(--paper)}
-.intro-collections-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;margin-bottom:24px}
-.intro-collections h2{font-family:inherit;font-size:clamp(26px,2.8vw,38px);font-weight:500;line-height:1.4;color:color-mix(in srgb,var(--paper) 65%,var(--navy));margin:0}
+.intro-collections{padding:24px 0 80px;background:var(--navy);color:var(--paper)}
+.intro-collections-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;margin-bottom:36px}
+.intro-collections h2{font-family:inherit;font-size:clamp(32px,3.5vw,50px);font-weight:500;line-height:1.65;color:color-mix(in srgb,var(--paper) 65%,var(--navy));margin:0}
 .intro-collections h2>span{color:var(--paper)}
 .intro-collections-controls{display:flex;align-items:center;gap:12px;flex-shrink:0}
 .intro-collections-controls button,.intro-collections-controls>a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:9px 20px;border:1px solid color-mix(in srgb,var(--paper) 60%,transparent);border-radius:30px;color:var(--paper);background:transparent;font-size:12px}
 .intro-collections-controls button:disabled{opacity:.35;color:var(--paper);background:transparent}
-.intro-collections-rail{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-inline:contain;padding:0 0 20px;scrollbar-width:thin;scrollbar-color:var(--paper) color-mix(in srgb,var(--paper) 15%,transparent)}
-.intro-collection-card{position:relative;isolation:isolate;flex:0 0 clamp(180px,15vw,200px);min-width:0;height:250px;border-radius:16px;overflow:hidden;scroll-snap-align:start;background:transparent;display:block;color:var(--paper)}
-.intro-collection-surface{position:absolute;inset:0;border-radius:inherit;overflow:hidden;background:var(--paper)}
-.intro-collection-surface>img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:18px 12px 70px}
-.intro-collection-card.is-lifestyle .intro-collection-surface>img{object-fit:cover;padding:0;object-position:center}
-.intro-collection-card[href="#brand/juzo"] .intro-collection-surface>img{object-position:80% center}
-.intro-collection-card[href="#catalog/rehab"] .intro-collection-surface>img{object-position:20% center}
-.intro-collection-surface:after{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(0deg,var(--navy),color-mix(in srgb,var(--navy) 85%,transparent) 18%,transparent 56%);pointer-events:none}
-.intro-collection-copy{position:absolute;inset:auto 14px 16px;z-index:2;padding-inline-end:12px}
-.intro-collections h3{font:600 16px/1.4 Manrope,Plex,Arial,sans-serif;color:var(--paper);margin:0 0 7px;letter-spacing:-.4px}
-.intro-collection-copy p{font-size:11px;line-height:1.65;margin:0;color:var(--paper)}
+.intro-collections-rail{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-inline:contain;padding:0 0 20px;scrollbar-width:thin;scrollbar-color:var(--paper) color-mix(in srgb,var(--paper) 15%,transparent)}
+.intro-collection-card{position:relative;isolation:isolate;flex:0 0 calc((100% - 72px)/4);min-width:0;height:360px;border-radius:22px;overflow:hidden;scroll-snap-align:start;background:var(--paper);display:block;color:var(--paper)}
+.intro-collection-card>img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:25px 20px 110px}
+.intro-collection-card.is-lifestyle>img{object-fit:cover;padding:0;object-position:center}
+.intro-collection-card:after{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(0deg,var(--navy),color-mix(in srgb,var(--navy) 85%,transparent) 18%,transparent 56%);pointer-events:none}
+.intro-collection-copy{position:absolute;inset:auto 22px 24px;z-index:2;padding-inline-end:12px}
+.intro-collections h3{font:600 19px/1.4 Manrope,Plex,Arial,sans-serif;color:var(--paper);margin:0 0 7px;letter-spacing:-.4px}
+.intro-collection-copy p{font-size:12px;line-height:1.8;margin:0;color:var(--paper)}
 .intro-collection-arrow{position:absolute;inset-inline-end:-5px;bottom:0;font-size:19px}
 .intro-collections :focus-visible{outline:3px solid var(--paper);outline-offset:4px}
-.intro-collections .home-section-en,.intro-collections .intro-en{display:none}
-html[lang=en] .intro-collections .home-section-ar,html[lang=en] .intro-collections .intro-ar{display:none}
-html[lang=en] .intro-collections .home-section-en,html[lang=en] .intro-collections .intro-en{display:inline}
+.intro-collections .home-section-en{display:none}
+html[lang=en] .intro-collections .home-section-ar{display:none}
+html[lang=en] .intro-collections .home-section-en{display:inline}
 html[lang=en] .intro-collections h2{line-height:1.3}
-@media(max-width:900px){.intro-collection-card{flex-basis:180px}}
-@media(max-width:650px){.intro-collections{padding:12px 0 48px}.intro-collections-heading{display:block;margin-bottom:24px}.intro-collections h2{font-size:26px;line-height:1.7;margin-bottom:22px}.intro-collections-controls{gap:8px}.intro-collections-controls button,.intro-collections-controls>a{padding:8px 15px;font-size:11px}.intro-collection-card{flex-basis:43%;height:220px}.intro-collections-rail{gap:12px}.intro-collections h3{font-size:15px}}
+@media(max-width:900px){.intro-collection-card{flex-basis:calc((100% - 24px)/2.3)}}
+@media(max-width:650px){.intro-collections{padding:12px 0 48px}.intro-collections-heading{display:block;margin-bottom:24px}.intro-collections h2{font-size:29px;line-height:1.7;margin-bottom:22px}.intro-collections-controls{gap:8px}.intro-collections-controls button,.intro-collections-controls>a{padding:8px 15px;font-size:11px}.intro-collection-card{flex-basis:82%;height:340px}.intro-collections-rail{gap:24px}.intro-collections h3{font-size:20px}}
 
 /* Focus the hovered navigation choice without changing touch behaviour. */
 body.intro-open>header>.store-navigation .nav-trigger,body.intro-open>header>.store-navigation>a{border-radius:7px;transition:opacity .16s ease,background-color .16s ease,text-shadow .16s ease}
@@ -317,20 +314,3 @@ body :is(header,footer) a.brand-logo-plate .brand-logo-art>img,body.intro-open>h
 
 /* Blend the animated layer itself so inverted white image backgrounds stay invisible. */
 .intro-client-track{mix-blend-mode:screen}
-
-/* Intro header account action. */
-#accountBtn .intro-account-label{display:none}
-body.intro-open>header :is(.nav-all,#cartBtn,#savedBtn,#accountBtn>svg){display:none}
-body.intro-open>header #accountBtn{
-  padding-inline:12px;
-  border:1px solid rgb(255 255 255 / .45);
-  border-radius:22px;
-}
-body.intro-open>header #accountBtn .intro-account-label{
-  display:block;
-  max-inline-size:clamp(80px,22vw,150px);
-  overflow:hidden;
-  text-overflow:ellipsis;
-  white-space:nowrap;
-  font-size:13px;
-}

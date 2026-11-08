@@ -98,7 +98,7 @@
    }
    const title=text(info.metaTitle);if(title&&document.title!==title)document.title=title;
    const description=document.querySelector('meta[name="description"]');if(description&&text(info.metaDescription)&&description.content!==text(info.metaDescription))description.content=text(info.metaDescription);
-   const heading=main.querySelector('.detail-copy h1');const name=lang()==='ar'?(p.titleAr||p.name):(p.nameEn||p.name);if(heading&&name&&heading.textContent!==name){heading.dataset.noTranslate='';heading.textContent=name;}
+   const heading=main.querySelector('.detail-copy h1');const name=lang()==='ar'?p.titleAr:p.name;if(heading&&name&&heading.textContent!==name){heading.dataset.noTranslate='';heading.textContent=name;}
    if(typeof info.vatIncluded==='boolean'){
     const note=main.querySelector('.detail-price p');const value=info.vatIncluded?(lang()==='ar'?'شامل الضريبة':'VAT included'):(lang()==='ar'?'غير شامل الضريبة':'VAT excluded');
     if(note&&note.textContent!==value){note.dataset.noTranslate='';note.textContent=value;}
@@ -117,7 +117,7 @@
   if(offers.length){if(!old||old.dataset.signature!==signature){old?.remove();const section=element('section',null,'wrap commerce-home-offers');section.dataset.signature=signature;for(const offer of offers)section.append(offerCard(offer));const a=element('a',lang()==='ar'?'كل العروض':'All offers');a.href='#offers';section.append(a);main.append(section);}}else old?.remove();
  }
  function schedule(){if(!scheduled){scheduled=true;queueMicrotask(enhance);}}
- window.OrthoCommerce={syncCart,lineTotal,renderOffers,renderRich:rich};
+ window.OrthoCommerce={syncCart,lineTotal,renderOffers};
  document.addEventListener('DOMContentLoaded',()=>{
   const main=document.getElementById('main');if(main)new MutationObserver(schedule).observe(main,{childList:true,subtree:true});
   const root=document.documentElement;if(root)new MutationObserver(schedule).observe(root,{attributes:true,attributeFilter:['lang']});schedule();

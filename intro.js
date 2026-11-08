@@ -7,21 +7,6 @@
  window.renderOrthoIntro=(main,{products,categories,clientsMarkup,statsMarkup,featuredMarkup,onSearch})=>{
   window.orthoIntroCleanup?.();
   document.body.classList.add('intro-open');
-  // Compact topic cards reuse approved local photography and existing destinations.
-  const collectionTopics=[
-   ['EMS DolorClast','حلول الموجات التصادمية','Shockwave solutions','assets/products/rehab/ems-dolorclast.webp','#brand/ems',false],
-   ['LiKAWAVE','أجهزة الشوك ويف وملحقاتها','Shockwave devices & accessories','assets/identity/likawave-3i.webp','#brand/likawave',false],
-   ['Game Ready','التبريد والحرارة والضغط','Cold, heat & compression','assets/products/rehab/med4-official/med4-elite-cu-angle.jpg','#product/med4',false],
-   ['Juzo','حلول الضغط الطبي','Medical compression solutions','assets/campaigns/juzo-lifestyle-hero.jpg','#brand/juzo',true],
-   [null,'التأهيل والحركة','Rehabilitation & movement','assets/category-banners/gym-02.jpg','#catalog/rehab',true],
-   [null,'تجهيز المراكز','Medical centre equipment','assets/campaigns/centre-equipment.webp','#business',true]
-  ];
-  if(featuredMarkup){
-   const template=document.createElement('template');template.innerHTML=featuredMarkup;
-   template.content.querySelector('.intro-collections-heading h2').innerHTML=text('اكتشف حلولنا','Discover our solutions');
-   template.content.querySelector('.intro-collections-rail').innerHTML=collectionTopics.map(([name,ar,en,photo,href,lifestyle])=>`<a class="intro-collection-card ${lifestyle?'is-lifestyle':''}" href="${escape(href)}"><div class="intro-collection-surface"><img src="${escape(photo)}" width="480" height="640" loading="lazy" alt="${escape(name||ar)}" data-no-translate><div class="intro-collection-copy"><h3>${name?`<span data-no-translate>${escape(name)}</span>`:text(ar,en)}</h3>${name?`<p>${text(ar,en)}</p>`:''}<span class="intro-collection-arrow" aria-hidden="true">↗</span></div></div></a>`).join('');
-   featuredMarkup=template.innerHTML;
-  }
   const categoryCards=[
    ['rehab','العلاج الطبيعي والتأهيل','Physiotherapy & rehabilitation','اكتشف الأجهزة العلاجية وحلول الحركة والتأهيل.','Explore therapy equipment and solutions for movement and rehabilitation.','assets/category-banners/rehab-01.jpg','assets/campaigns/centre-equipment.webp','#catalog/rehab','20% center','center'],
    ['fitness','اللياقة والتمارين','Fitness & exercise','تجهيزات للقوة والحركة والتمرين، حسب احتياجك.','Equipment for strength, movement and exercise, tailored to your needs.','assets/category-banners/gym-01.jpg','assets/category-banners/gym-02.jpg','#catalog/gym','20% center','20% center'],
@@ -94,7 +79,7 @@
   const rail=main.querySelector('.intro-collections-rail');
   const previous=main.querySelector('[data-collection-prev]'),next=main.querySelector('[data-collection-next]');
   const updateRail=()=>{if(!rail)return;const offset=Math.abs(rail.scrollLeft),max=rail.scrollWidth-rail.clientWidth;previous.disabled=offset<2;next.disabled=offset>=max-2;};
-  const moveRail=step=>{if(!rail)return;const card=rail.firstElementChild,dir=getComputedStyle(rail).direction==='rtl'?-1:1;rail.scrollBy({left:step*dir*(card.getBoundingClientRect().width+parseFloat(getComputedStyle(rail).columnGap)),behavior:reduce.matches?'instant':'smooth'});};
+  const moveRail=step=>{if(!rail)return;const card=rail.firstElementChild,dir=getComputedStyle(rail).direction==='rtl'?-1:1;rail.scrollBy({left:step*dir*(card.getBoundingClientRect().width+24),behavior:reduce.matches?'instant':'smooth'});};
   previous?.addEventListener('click',()=>moveRail(-1));next?.addEventListener('click',()=>moveRail(1));
   rail?.addEventListener('scroll',updateRail,{passive:true});
   const railResize=new ResizeObserver(updateRail);if(rail)railResize.observe(rail);
@@ -187,14 +172,7 @@
   observer.observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
   language();
   if(!reduce.matches&&!saving)play();
-  const loadReveal = () => {
-   import('./reveal.js?v=prepared-compact-20261107').catch(() => {});
-  };
-  if (window.OrthoReveal) window.OrthoReveal.start();
-  else loadReveal();
   window.orthoIntroCleanup=()=>{
-   window.removeEventListener('scroll', loadReveal);
-   window.OrthoReveal?.stop();
    disposed=true;clientResize?.disconnect();closePicker();document.removeEventListener('pointerdown',closeOutside);document.removeEventListener('focusin',closeOutside);window.removeEventListener('resize',positionPicker);window.visualViewport?.removeEventListener('resize',positionPicker);railResize.disconnect();observer.disconnect();reduce.removeEventListener('change',motionChange);
    document.removeEventListener('visibilitychange',visibility);
    video.pause();video.removeAttribute('src');video.load();

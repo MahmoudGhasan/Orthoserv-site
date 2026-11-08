@@ -244,7 +244,7 @@
   host.querySelector('#jzFit')?.addEventListener('change',event=>{st.fit=event.target.value;host.querySelectorAll('[data-jzp-fit]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.jzpFit===st.fit)));ctx.setSelection(selectionText(p,st));});
   host.querySelectorAll('[data-jzp-fit]').forEach(button=>button.addEventListener('click',()=>{const select=host.querySelector('#jzFit');select.value=button.dataset.jzpFit;select.dispatchEvent(new Event('change',{bubbles:true}));}));
   bindGallery(p,st);
-  host.querySelector('#jzGuideButton').onclick=()=>{const guide=host.querySelector('#jzSizeGuide');guide.open=true;guide.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth',block:'center'});guide.querySelector('summary').focus();};
+  host.querySelector('#jzGuideButton').onclick=()=>{const wizard=host.querySelector('[data-jzm-open]');if(wizard){wizard.click();return;}const guide=host.querySelector('#jzSizeGuide');guide.open=true;guide.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth',block:'center'});guide.querySelector('summary').focus();};
   host.querySelector('#jzAddInquiry').onclick=()=>{
    const picked=choices.find(c=>c.id===st.colorId),row={id:p.id,qty:1,colorId:st.colorId,color:picked?.name||'',fit:st.fit,model:st.model,fields:{...st.fields},option:selectionText(p,st),kind:'juzo-enquiry'};
    if(p.method==='buy'){
@@ -254,6 +254,7 @@
    }
    ctx.addEnquiry(row);ctx.toast(t('أُضيف إلى السلة ضمن طلبات عرض السعر','Added to your bag as a quote request'));
   };
+  window.OrthoProductExperience?.render(p);
  }
  function renderFit(){
   host.innerHTML=`<section class="jz-store wrap">${crumb(t('دليل المقاسات','Sizing guide'))}<header class="jz-catalog-head"><h1>${text('المقاس المناسب يبدأ هنا','Find your fit')}</h1><p>${text('اختر المنتج أولًا وراجع جدول مقاسه مع المختص. القياسات تختلف باختلاف الموديل.','Choose your garment first and confirm its size chart with a specialist. Measurements vary by model.')}</p></header><div class="jz-fit-charts">${Object.entries(palette.charts).map(([key,chart])=>`<article><h2>${text(key==='arms'?'أكمام الذراع':'الجوارب الطبية',key==='arms'?'Arm sleeves':'Medical stockings')}</h2><a href="${path(chart.file)}" target="_blank" rel="noopener"><img src="${path(chart.file)}" alt="${e(t('دليل القياس من جوزو','Juzo measurement guide'))}"></a></article>`).join('')}</div><a class="button" href="${link('products')}">${text('اختر منتجك','Choose your garment')} ←</a></section>`;

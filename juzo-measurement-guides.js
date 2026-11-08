@@ -183,7 +183,7 @@
    host.querySelector('.jzm-saved-hint')?.remove();const copy=host.querySelector('.jz-product-copy');if(!copy)return;
    const hint=document.createElement('section');hint.className='jzm-saved-record jzm-saved-hint';hint.setAttribute('data-no-translate','');
    hint.innerHTML=`<strong>${label('عندك مقاسات محفوظة لهذا المنتج','You have saved measurements for this product')}</strong><p>${records.map(r=>escape(sideName(r.side,r.productId))).join(' · ')}</p><button type="button" class="button secondary">${label('راجع مقاساتي المحفوظة','Review my saved measurements')}</button>`;
-   copy.insertBefore(hint,copy.querySelector('.jz-options')||copy.querySelector('#jzSizeGuide'));
+   const anchor=copy.querySelector(':scope>.os-p-config,:scope>.jz-options,:scope>#jzSizeGuide');copy.insertBefore(hint,anchor);
    hint.querySelector('button').onclick=()=>{const details=host.querySelector('#jzSizeGuide');if(details)details.open=true;trigger.click();};
   };
   if(uid!=='guest')window.OrthoAuth.accountRequest('/v1/measurements/'+id).then(r=>showSavedHint(r.records||[])).catch(()=>{});

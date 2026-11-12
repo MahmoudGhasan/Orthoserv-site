@@ -39689,29 +39689,6 @@
       "value": 10.0
     },
     {
-      "id": "offer-267c6bb98423",
-      "name": {
-        "ar": "عرض",
-        "en": "EMS DolorClast"
-      },
-      "badge": {
-        "ar": "",
-        "en": ""
-      },
-      "type": "fixed",
-      "value": 500.0,
-      "products": [
-        "dolorclast"
-      ],
-      "start": "",
-      "end": "2026-10-28T10:37:41.793012+00:00",
-      "paused": false,
-      "placements": [
-        "cards"
-      ],
-      "updatedAt": "2026-10-28T11:07:55.598869+00:00"
-    },
-    {
       "accessory": "demo-3",
       "autoExpire": true,
       "badge": {

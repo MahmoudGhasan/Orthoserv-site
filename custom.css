@@ -117,7 +117,7 @@ header .logo{height:44px}
 
 /* Static homepage trust strip. */
 .trust-strip{background:var(--paper);border-block:1px solid var(--line);padding-block:24px;margin-block:20px}
-.trust-strip dl{display:grid;grid-template-columns:repeat(var(--trust-strip-columns),minmax(0,1fr));margin:0}
+.trust-strip dl{display:grid;grid-template-columns:repeat(var(--trust-strip-columns,3),minmax(0,1fr));margin:0}
 .trust-strip dl>div{display:flex;flex-direction:column;justify-content:center;gap:6px;padding-inline:20px;min-width:0;text-align:center}
 .trust-strip dl>div+div{border-inline-start:1px solid var(--line)}
 .trust-strip dt{order:2;font-size:13px;line-height:1.7;color:var(--muted);overflow-wrap:anywhere}
@@ -138,9 +138,44 @@ header .logo{height:44px}
 }
 
 /* Reserve the final number width while counting. */
-.trust-strip [data-count-to]{display:inline-block;min-width:calc(var(--digits) * 1ch);font-variant-numeric:tabular-nums;direction:ltr;text-align:center}
+.trust-strip [data-count-to]{display:inline-block;min-width:calc(var(--digits,2) * 1ch);font-variant-numeric:tabular-nums;direction:ltr;text-align:center}
 
 /* Keep catalogue page numbers within their product column at every width. */
 .catalog-main{min-width:0}
 .pagination{display:flex;flex-wrap:wrap;justify-content:center;max-width:100%;gap:8px}
 .pagination button{flex:0 0 44px;max-width:100%}
+
+/* Reserve the initial empty route before its content is rendered. */
+main#main:empty{min-block-size:100svh}
+
+/* Scroll reveal for selected intro content. */
+html.os-reveal-on{--os-rv-distance:clamp(32px,5vw,64px);--os-rv-x:var(--os-rv-distance)}
+html.os-reveal-on[dir=ltr]{--os-rv-x:calc(-1 * var(--os-rv-distance))}
+body.intro-open #main,body.intro-open>footer{overflow-x:clip}
+@media (prefers-reduced-motion:no-preference){
+  html.os-reveal-on .os-rv-pending:not(.intro-collection-card),
+  html.os-reveal-on .intro-collection-card.os-rv-pending>.intro-collection-surface{
+    opacity:0;transform:translateX(var(--os-rv-x));
+  }
+  html.os-reveal-on .os-rv:not(.intro-collection-card),
+  html.os-reveal-on .intro-collection-card.os-rv>.intro-collection-surface{
+    animation:os-rv-slide 700ms cubic-bezier(.25,.46,.45,.94) var(--os-rv-delay,0ms) backwards,
+      os-rv-fade 350ms ease-out var(--os-rv-delay,0ms) backwards;
+    will-change:transform,opacity;
+  }
+  html.os-reveal-on .os-rv:focus-within,
+  html.os-reveal-on .intro-collection-card.os-rv:focus-within>.intro-collection-surface{
+    animation:none;will-change:auto;
+  }
+}
+@keyframes os-rv-slide{
+  from{transform:translateX(var(--os-rv-x))}
+  to{transform:translateX(0)}
+}
+@keyframes os-rv-fade{
+  from{opacity:0}
+  to{opacity:1}
+}
+
+/* One existing bilingual family across storefront text; sizes and weights stay local. */
+html body,html body :where(h1,h2,h3,h4,h5,h6,p,a,button,input,select,textarea,option,label,legend,summary,div,span,li,dt,dd,th,td,caption,small,strong,b,em,figcaption,blockquote,time){font-family:Plex,Arial,sans-serif!important}

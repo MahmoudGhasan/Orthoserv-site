@@ -82,7 +82,16 @@
   }
   function sync() {
     const button=document.getElementById('accountBtn');
-    if (button) { button.hidden=!window.OrthoAuth?.enabled(); button.onclick=()=>{location.hash=window.OrthoAuth.state().user?'account':'login';}; }
+    if (!button) return;
+    const auth = window.OrthoAuth;
+    button.hidden = !auth?.enabled();
+    const user = auth?.state().user;
+    const name = user?.displayName?.trim();
+    const label = name || (user ? t('My account','حسابي') : t('Sign in','تسجيل الدخول'));
+    const text = button.querySelector('.intro-account-label');
+    if (text && text.textContent !== label) text.textContent = label;
+    button.setAttribute('aria-label', label);
+    button.onclick = () => { location.hash = auth.state().user ? 'account' : 'login'; };
   }
   function render(route, target) {
     if (!window.OrthoAuth?.enabled()) return false;
@@ -94,5 +103,5 @@
   window.OrthoAccountPreview={enabled:()=>window.OrthoAuth?.enabled()===true,render,sync};
   document.addEventListener('DOMContentLoaded',sync);
   window.addEventListener('orthocms:ready',sync);
-  new MutationObserver(() => { if(!busy)draw(); }).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
+  new MutationObserver(() => { sync(); if(!busy)draw(); }).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
 })();

@@ -1,0 +1,10 @@
+.os-scroll-top{position:fixed;inset-inline-end:20px;bottom:calc(max(20px,env(safe-area-inset-bottom)) + var(--os-scroll-lift,0px));z-index:46;display:grid;place-items:center;width:52px;height:52px;padding:0;border:0;border-radius:50%;background:var(--paper);color:var(--blue);box-shadow:0 4px 18px #102c5314;touch-action:manipulation}
+.os-scroll-top[hidden]{display:none!important}
+.os-scroll-ring{position:absolute;inset:0;width:100%;height:100%;fill:none;stroke-width:2;pointer-events:none}
+.os-scroll-track{stroke:var(--line)}
+.os-scroll-progress{stroke:currentColor;stroke-linecap:round}
+.os-scroll-arrow{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.os-scroll-top:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
+@media(max-width:650px){.os-scroll-top{width:48px;height:48px;inset-inline-end:14px;bottom:calc(max(14px,env(safe-area-inset-bottom)) + var(--os-scroll-lift,0px))}}
+@media(prefers-reduced-motion:no-preference){.os-scroll-top:not([hidden]){animation:os-scroll-enter 160ms var(--ease)}}
+@keyframes os-scroll-enter{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}

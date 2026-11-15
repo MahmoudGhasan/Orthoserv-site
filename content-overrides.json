@@ -361,14 +361,14 @@
       "en": "Switch to Arabic"
     },
     {
-      "original": "تُحدد المدن والرسوم ومواعيد التوصيل مع فريق أورثو سيرف قبل الإطلاق التجاري. لا توجد خدمة شحن فعلية في هذا الموقع.",
-      "ar": "تُحدد المدن والرسوم ومواعيد التوصيل مع فريق أورثو سيرف قبل الإطلاق التجاري. لا توجد خدمة شحن فعلية في هذا الموقع.",
-      "en": "Delivery areas, charges and lead times will be agreed with OrthoServ before commercial launch. This review provides no actual delivery service."
+      "original": "بعد استلام طلبك، سيتواصل معك فريق أورثو سيرف لتأكيد تفاصيل التوصيل والرسوم والموعد المناسب.",
+      "ar": "بعد استلام طلبك، سيتواصل معك فريق أورثو سيرف لتأكيد تفاصيل التوصيل والرسوم والموعد المناسب.",
+      "en": "After receiving your request, the OrthoServ team will contact you to confirm delivery arrangements, charges and timing."
     },
     {
-      "original": "سياسة الاستبدال والإرجاع تُضاف بعد اعتماد شروط المتجر. هذا الموقع لا تُنشئ مشتريات فعلية.",
-      "ar": "سياسة الاستبدال والإرجاع تُضاف بعد اعتماد شروط المتجر. هذا الموقع لا تُنشئ مشتريات فعلية.",
-      "en": "Returns and exchange terms will be added once approved. This review does not create real purchases."
+      "original": "بعد استلام طلب الاستبدال أو الإرجاع، سيتواصل معك فريق أورثو سيرف لمراجعة التفاصيل وتأكيد الإجراءات المناسبة.",
+      "ar": "بعد استلام طلب الاستبدال أو الإرجاع، سيتواصل معك فريق أورثو سيرف لمراجعة التفاصيل وتأكيد الإجراءات المناسبة.",
+      "en": "After receiving your exchange or return request, the OrthoServ team will contact you to review the details and confirm the next steps."
     },
     {
       "original": "متجر أورثو سيرف لأجهزة التأهيل والعلاج الطبيعي والمستلزمات الطبية. أكد تفاصيل المنتج والسعر والتوافر مع الفريق قبل الطلب.",
@@ -1136,9 +1136,9 @@
       "en": "Delivery and services"
     },
     {
-      "original": "في هذا الموقع لا تُحسب مواعيد أو رسوم شحن فعلية. يمكن تحديد المدينة وطلب التركيب أو التدريب ضمن طلب عرض السعر .",
-      "ar": "في هذا الموقع لا تُحسب مواعيد أو رسوم شحن فعلية. يمكن تحديد المدينة وطلب التركيب أو التدريب ضمن طلب عرض السعر .",
-      "en": "This review does not calculate actual shipping charges or delivery dates. Include your city and service requirements in the quote request."
+      "original": "بعد استلام طلبك، سيتواصل معك فريق أورثو سيرف لتأكيد التوصيل وأي خدمات تركيب أو تدريب تحتاجها.",
+      "ar": "بعد استلام طلبك، سيتواصل معك فريق أورثو سيرف لتأكيد التوصيل وأي خدمات تركيب أو تدريب تحتاجها.",
+      "en": "After receiving your request, the OrthoServ team will contact you to confirm delivery and any installation or training services you need."
     },
     {
       "original": "قد يناسبك أيضًا",
@@ -1721,9 +1721,9 @@
       "en": "From the supplied spreadsheet, cell"
     },
     {
-      "original": "تُراجع التفاصيل قبل النشر التجاري.",
-      "ar": "تُراجع التفاصيل قبل النشر التجاري.",
-      "en": "Review details before commercial publication."
+      "original": "سيؤكد فريق أورثو سيرف معك مواصفات المنتج والتجهيز والتوافر عند التواصل.",
+      "ar": "سيؤكد فريق أورثو سيرف معك مواصفات المنتج والتجهيز والتوافر عند التواصل.",
+      "en": "The OrthoServ team will confirm product specifications, configuration and availability with you when you get in touch."
     },
     {
       "original": "العناية بالجروح",
@@ -2398,7 +2398,7 @@
     {
       "original": "منتجات الضغط الطبي من Juzo. راجع الموديل والمقاس والتوافر مع فريق أورثوسيرف.",
       "ar": "منتجات الضغط الطبي من Juzo. راجع الموديل والمقاس والتوافر مع فريق أورثوسيرف.",
-      "en": "store review. No payment and no real order submission. Official images are for the and need brand approval. The moving-leg image is generated for illustration.",
+      "en": "Contact the OrthoServ team to review your chosen model, sizing and availability and confirm the details.",
       "scope": "experiences/juzo/"
     },
     {

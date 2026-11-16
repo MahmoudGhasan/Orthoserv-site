@@ -38,7 +38,35 @@
   }
   function form() {
     const register = mode === 'register', reset = mode === 'reset';
-    main.innerHTML = `<section class="wrap auth-v1" data-no-translate><div class="auth-layout"><div class="auth-form"><span class="eyebrow">ORTHOSERV</span><h1>${reset?t('Reset password','استعادة كلمة المرور'):register?t('Create account','إنشاء حساب'):t('Welcome back','هلا فيك')}</h1><p>${t('One account for your ORTHOSERV experience.','حساب واحد لتجربتك مع أورثو سيرف.')}</p>${reset?'':`<div class="auth-v1-social"><button type="button" class="button outline" id="authGoogle">${google}<span>${t('Continue with Google','المتابعة باستخدام Google')}</span></button><button type="button" class="button outline" data-apple disabled aria-describedby="appleUnavailable">${apple}<span>${t('Continue with Apple','المتابعة باستخدام Apple')}</span></button><small id="appleUnavailable">${t('','')}</small></div><div class="auth-v1-divider">${t('or use your email','أو استخدم بريدك الإلكتروني')}</div>`}<form id="authForm">${register?`<label for="authName">${t('Full name','الاسم الكامل')}<input id="authName" name="name" required maxlength="100" autocomplete="name"></label>`:''}<label for="authEmail">${t('Email address','البريد الإلكتروني')}<input id="authEmail" name="email" type="email" required autocomplete="email" dir="ltr" maxlength="254"></label>${reset?'':`<label for="authPassword">${t('Password','كلمة المرور')}<input id="authPassword" name="password" type="password" required ${register?'minlength="8"':''} autocomplete="${register?'new-password':'current-password'}"></label><label class="auth-v1-remember"><input id="authRemember" type="checkbox">${t('Remember me on this device','تذكرني على هذا الجهاز')}</label>`}<button type="submit" class="button wide">${reset?t('Send reset email','إرسال رابط الاستعادة'):register?t('Create account','إنشاء حساب'):t('Sign in','تسجيل الدخول')}</button></form><p id="authMessage" role="status" aria-live="polite"></p><div class="auth-v1-links"><button type="button" class="text-link" id="authMode">${mode==='login'?t('Create an account','إنشاء حساب جديد'):t('Back to sign in','العودة لتسجيل الدخول')}</button>${mode==='login'?`<button type="button" class="text-link" id="authReset">${t('Forgot password?','نسيت كلمة المرور؟')}</button>`:''}</div></div><div class="auth-art"><img src="assets/orthoserv-logo-symbol.png" alt="ORTHOSERV" width="160" height="160"><h2>${t('Care that moves with you.','رعاية تواكب حركتك.')}</h2><p>${t('Sign in securely to your account.','سجّل دخولك إلى حسابك بأمان.')}</p><a class="text-link" href="#catalog">${t('Continue shopping','متابعة التسوق')}</a></div></div></section>`;
+    const previous = main.querySelector('.os-auth')?.dataset.mode === mode
+      ? [...main.querySelectorAll('#authForm input')].map(input => ({id:input.id,value:input.value,checked:input.checked})) : [];
+    const logo = 'assets/uploads/OrthoServ-logo-transparent-4a2d0a32.png';
+    main.innerHTML = `<section class="auth-v1 os-auth" data-no-translate data-mode="${mode}">
+      <div class="os-auth-pane">
+        <a class="os-auth-mobile-logo" href="#home" aria-label="OrthoServ"><img src="${logo}" width="263" height="87" alt="OrthoServ"></a>
+        <div class="os-auth-tools"><div class="os-auth-language" role="group" aria-label="${t('Language','اللغة')}"><button type="button" data-auth-lang="ar" aria-pressed="${document.documentElement.lang==='ar'}">AR</button><button type="button" data-auth-lang="en" aria-pressed="${document.documentElement.lang==='en'}">EN</button></div><a class="os-auth-back" href="#home" aria-label="${t('Back to the store','العودة للمتجر')}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6M8 12h12"/></svg></a></div>
+        <div class="os-auth-form">
+          <h1>${reset?t('Forgot your password?','نسيت كلمة المرور؟'):register?t('Create an account','إنشاء حساب'):t('Welcome back','مرحبًا بعودتك')}</h1>
+          <p class="os-auth-subtitle">${reset?t('Enter your email to receive a password reset link.','أدخل بريدك الإلكتروني لإرسال رابط الاستعادة.'):register?t('Start your OrthoServ experience.','ابدأ تجربتك مع أورثو سيرف.'):t('Sign in to your OrthoServ account.','سجّل دخولك إلى حساب أورثو سيرف.')}</p>
+          ${reset?'':`<button type="button" class="os-auth-social" id="authGoogle">${google}<span>${t('Continue with Google','المتابعة باستخدام Google')}</span></button><div class="auth-v1-divider">${t('or use your email','أو بالبريد الإلكتروني')}</div>`}
+          <form id="authForm">
+            ${register?`<label for="authName">${t('Full name','الاسم الكامل')}<input id="authName" name="name" required maxlength="100" autocomplete="name" placeholder="${t('Enter your full name','أدخل اسمك الكامل')}"></label>`:''}
+            <label for="authEmail">${t('Email address','البريد الإلكتروني')}<input id="authEmail" name="email" type="email" required autocomplete="email" dir="ltr" maxlength="254" placeholder="name@example.com"></label>
+            ${reset?'':`<label for="authPassword">${t('Password','كلمة المرور')}<span class="os-auth-password"><input id="authPassword" name="password" type="password" required ${register?'minlength="8" aria-describedby="authPasswordHint"':''} autocomplete="${register?'new-password':'current-password'}" placeholder="${t('Enter your password','أدخل كلمة المرور')}"><button type="button" id="authShowPassword" aria-label="${t('Show password','إظهار كلمة المرور')}" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></button></span></label>${register?`<small id="authPasswordHint">${t('At least 8 characters.','٨ أحرف على الأقل.')}</small>`:''}<div class="os-auth-options"><label for="authRemember"><input id="authRemember" type="checkbox">${t('Remember me','تذكرني')}</label>${register?'':`<button type="button" class="os-auth-link" id="authReset">${t('Forgot password?','نسيت كلمة المرور؟')}</button>`}</div>`}
+            <button type="submit" class="os-auth-submit">${reset?t('Send reset link','إرسال رابط الاستعادة'):register?t('Create account','إنشاء حساب'):t('Sign in','تسجيل الدخول')}</button>
+          </form>
+          <p id="authMessage" role="status" aria-live="polite"></p>
+          <div class="os-auth-switch">${reset?'':`<span>${register?t('Already have an account?','لديك حساب بالفعل؟'):t('New to OrthoServ?','ليس لديك حساب؟')}</span>`}<button type="button" class="os-auth-link" id="authMode">${mode==='login'?t('Create an account','إنشاء حساب'):t('Back to sign in','العودة لتسجيل الدخول')}</button></div>
+        </div>
+      </div>
+      <aside class="os-auth-brand"><a class="os-auth-logo" href="#home" aria-label="OrthoServ"><img src="${logo}" width="263" height="87" alt="OrthoServ"></a><div class="os-auth-brand-copy"><h2>${t('Everything you need. One account.','كل احتياجاتك، في حساب واحد.')}</h2><p>${t('Track your orders, and keep your measurements and favourites in one place.','تابع طلباتك، واحفظ مقاساتك واختياراتك.')}</p></div><img class="os-auth-clinic" src="assets/campaigns/centre-equipment.webp" width="1536" height="1024" alt=""><span class="os-auth-secure">${t('Secure account sign-in','تسجيل دخول آمن لحسابك')}</span></aside>
+    </section>`;
+    previous.forEach(value => { const input = main.querySelector('#'+value.id); if(input){input.value=value.value;input.checked=value.checked;} });
+    main.querySelectorAll('[data-auth-lang]').forEach(button => { button.onclick=()=>{if(document.documentElement.lang!==button.dataset.authLang)document.getElementById('languageButton')?.click();}; });
+    main.querySelector('#authShowPassword')?.addEventListener('click', event => {
+      const input=main.querySelector('#authPassword'),button=event.currentTarget,show=input.type==='password';
+      input.type=show?'text':'password';button.setAttribute('aria-pressed',String(show));button.setAttribute('aria-label',show?t('Hide password','إخفاء كلمة المرور'):t('Show password','إظهار كلمة المرور'));
+    });
     main.querySelector('#authMode').onclick = () => { mode = mode==='login'?'register':'login'; draw(); };
     main.querySelector('#authReset')?.addEventListener('click',() => { mode='reset'; draw(); });
     const remember = () => !!main.querySelector('#authRemember')?.checked;
@@ -73,7 +101,8 @@
   function draw() {
     if (!active()) return;
     const state = window.OrthoAuth.state();
-    if (!state.ready) { main.innerHTML=`<section class="wrap auth-v1" data-no-translate><p role="status">${t('Checking your account…','جارٍ التحقق من الحساب…')}</p></section>`; return; }
+    document.body.classList.toggle('os-auth-screen', !state.user);
+    if (!state.ready) { main.innerHTML=`<section class="os-auth-loading" data-no-translate><p role="status">${t('Checking your account…','جارٍ التحقق من الحساب…')}</p></section>`; return; }
     if (state.user) {
       if (view === 'login') { location.hash='account'; return; }
       account(state);
@@ -101,6 +130,7 @@
     return true;
   }
   window.OrthoAccountPreview={enabled:()=>window.OrthoAuth?.enabled()===true,render,sync};
+  window.addEventListener('hashchange', () => { if(!active())document.body.classList.remove('os-auth-screen'); });
   document.addEventListener('DOMContentLoaded',sync);
   window.addEventListener('orthocms:ready',sync);
   new MutationObserver(() => { sync(); if(!busy)draw(); }).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});

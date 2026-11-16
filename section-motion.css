@@ -1,0 +1,8 @@
+/* Route-title prototype; fixed layers never reserve or change document space. */
+.os-page-cover{position:fixed;inset:0;z-index:55;display:grid;place-items:center;background:var(--navy,#102c53);color:var(--paper,#fff);pointer-events:none}
+.os-page-cover-title{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:0 .22em;max-width:calc(100vw - 40px);padding:12px;font:600 clamp(24px,3.4vw,56px)/1.5 Plex,Arial,sans-serif;text-align:center}
+.os-page-word-mask{display:inline-block;overflow:hidden;padding:0 .06em .12em;vertical-align:top;line-height:1.5}
+.os-page-word-mask>span{display:inline-block;will-change:transform}
+.os-motion-preview{position:fixed;inset-inline-start:50%;bottom:84px;transform:translateX(-50%);z-index:58;min-height:44px;max-width:calc(100vw - 140px);padding:8px 16px;border:1px solid var(--line);border-radius:24px;background:var(--paper);color:var(--blue);box-shadow:0 3px 14px #102c531a;font:500 12px/1.6 Plex,Arial,sans-serif;white-space:normal}
+html[dir=rtl] .os-motion-preview{transform:translateX(50%)}
+@media(prefers-reduced-motion:reduce){.os-page-cover{display:none}.os-page-word-mask>span{will-change:auto}}

@@ -33,8 +33,9 @@
     state.element.remove();
     state.resolve(completed);
   }
-  const sectionArt = hash => /^#(?:catalog\/(?:rehab|gym|consumables|medical)|brand\/juzo)$/.test(hash)
-    ? hash.split('/').pop() : null;
+  const sectionArt = hash => hash === '#catalog/compression' ? 'juzo'
+    : /^#(?:catalog\/(?:rehab|gym|consumables|medical)|brand\/juzo)$/.test(hash)
+      ? hash.split('/').pop() : null;
   const artUrl = section => new URL('assets/transitions/'+section+'.webp', stylesheet).href;
   const warmed = new Set();
   const warmArt = event => {

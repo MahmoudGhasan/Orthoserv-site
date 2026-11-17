@@ -4,8 +4,16 @@
   if (!Element.prototype.animate) return;
   const preview = new URLSearchParams(location.search).get('motion-preview') === '1';
   const stylesheet = new URL('section-motion.css?v=20261117-composed', document.currentScript.src);
+  let criticalStyle;
+  function ensureCriticalStyle() {
+    if (criticalStyle) return;
+    criticalStyle=document.createElement('style');
+    criticalStyle.textContent=".os-page-cover{position:fixed;inset:0;z-index:55;display:grid;place-items:center;background:var(--navy,#102c53);color:var(--paper,#fff);pointer-events:none;overflow:clip;isolation:isolate}.os-page-cover-title{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:0 .22em;max-width:calc(100vw - 40px);padding:12px;font:600 clamp(24px,3.4vw,56px)/1.5 Plex,Arial,sans-serif;text-align:center}.os-page-word-mask{display:inline-block;overflow:hidden;padding:0 .06em .12em;vertical-align:top;line-height:1.5}.os-page-word-mask>span{display:inline-block;will-change:transform}.os-cover-objects{position:absolute;inset:0;z-index:-1;pointer-events:none}.os-cover-object{position:absolute}";
+    document.head.append(criticalStyle);
+  }
   let cssReady;
   function loadStyles() {
+    ensureCriticalStyle();
     return cssReady ||= new Promise(resolve => {
       const link = document.createElement('link');
       link.rel = 'stylesheet';
@@ -15,7 +23,7 @@
       document.head.append(link);
     });
   }
-  let root = null, generation = 0, cover = null;
+  let cover = null;
   function closeCover(completed = false) {
     const state = cover;
     if (!state) return;
@@ -35,6 +43,7 @@
     const section = sectionArt(new URL(link.href, location.href).hash);
     if (!section || warmed.has(section) || reduced.matches) return;
     warmed.add(section);
+    void loadStyles();
     const image = new Image();image.decoding='async';image.fetchPriority='low';image.src=artUrl(section);
   };
   ['pointerover','pointerdown','focusin'].forEach(type => document.addEventListener(type,warmArt,{passive:true}));
@@ -57,17 +66,17 @@
     }
     return layer;
   }
-  function showTitle(title) {
+  function showTitle(title, section, hash) {
     return new Promise(resolve => {
       const element = document.createElement('div');
       element.className = 'os-page-cover';
-      element.dataset.section = sectionArt(location.hash);
+      element.dataset.section = section;
       element.setAttribute('aria-hidden', 'true');
       element.dataset.noTranslate = '';
       element.dir = document.documentElement.dir;
       const heading = document.createElement('div');
       heading.className = 'os-page-cover-title';
-      const state = {element, animations: [], resolve, timer: null};
+      const state = {element, hash, animations: [], resolve, timer: null};
       cover = state;
       title.trim().split(/\s+/).forEach((word, i) => {
         const mask = document.createElement('span'), inner = document.createElement('span');
@@ -83,7 +92,6 @@
       });
       element.append(artwork(element.dataset.section),heading);
       document.body.append(element);
-      state.animations.push(element.animate([{opacity: 0}, {opacity: 1}], {duration: 90}));
       state.timer = setTimeout(() => {
         if (cover !== state) return;
         const exit = element.animate([{opacity: 1}, {opacity: 0}],
@@ -93,31 +101,45 @@
       }, 760);
     });
   }
-  function stop() {
-    generation++;
-    closeCover();
-    root = null;
+  function stop() { closeCover(); }
+  const titles = {
+    rehab:{ar:'العلاج الطبيعي والتأهيل',en:'Physiotherapy & Rehabilitation'},
+    gym:{ar:'اللياقة والتمارين',en:'Fitness & Exercise'},
+    consumables:{ar:'المستلزمات الطبية',en:'Medical consumables'},
+    medical:{ar:'المنتجات الطبية المتخصصة',en:'Specialist medical products'},
+    juzo:{ar:'عالم جوزو',en:'World of Juzo'}
+  };
+  function sectionTitle(hash = location.hash) {
+    const section=sectionArt(hash);
+    if (!section) return '';
+    const lang=document.documentElement.lang === 'en' ? 'en' : 'ar';
+    const title=window.OrthoCMS?.settings?.catalogueNavigation?.categories?.[section]?.title;
+    return (typeof title === 'string' ? title : title?.[lang] || title?.ar) || titles[section][lang];
   }
-  function sectionHeading() {
-    if (!/^#(?:catalog\/(?:rehab|gym|consumables|medical)|brand\/juzo)$/.test(location.hash)) return null;
-    const scope = document.getElementById('main');
-    return [...(scope?.querySelectorAll('h1') || []), ...(scope?.querySelectorAll('h2') || [])]
-      .find(heading => heading.getClientRects().length && heading.innerText.trim());
+  function beginTransition(hash) {
+    stop();
+    if (reduced.matches) return;
+    const title=sectionTitle(hash);
+    if (!title) return;
+    ensureCriticalStyle();
+    showTitle(title,sectionArt(hash),hash);
+    void loadStyles();
   }
   function routeChanged() {
-    stop();
-    const current = generation;
-    queueMicrotask(async () => {
-      if (current !== generation || reduced.matches) return;
-      root = sectionHeading();
-      if (!root) return;
-      if (!await loadStyles() || current !== generation || !root?.isConnected) return;
-      const title = location.hash === '#brand/juzo' ? (document.documentElement.lang === 'en' ? 'World of Juzo' : 'عالم جوزو') : root.innerText.trim();
-      if (!title || !await showTitle(title) || current !== generation || !root?.isConnected) return;
-
-    });
+    if (cover?.hash !== location.hash) beginTransition(location.hash);
   }
-  addEventListener('hashchange', routeChanged);
+  // Cover a normal link activation before its default hash navigation renders content.
+  document.addEventListener('click', event => {
+    if (event.defaultPrevented || event.button > 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const link=event.target.closest?.('a[href]');
+    if (!link || link.hasAttribute('download') || link.target && link.target !== '_self') return;
+    const next=new URL(link.href,location.href);
+    if (next.origin !== location.origin || next.pathname !== location.pathname || next.search !== location.search || next.hash === location.hash || !sectionArt(next.hash)) return;
+    beginTransition(next.hash);
+    queueMicrotask(() => { if (event.defaultPrevented && location.hash !== next.hash && cover?.hash === next.hash) stop(); });
+  }, {capture:true});
+  // Synchronous fallback also handles back/forward and programmatic hash changes.
+  addEventListener('hashchange', routeChanged, {capture:true});
   addEventListener('pagehide', stop);
   addEventListener('pageshow', event => { if (event.persisted) stop(); });
   reduced.addEventListener('change', () => { if (reduced.matches) stop(); });
@@ -133,7 +155,7 @@
       ? 'Replay section transition' : 'إعادة عرض حركة القسم'; };
     label();
     replay.addEventListener('click', () => {
-      if (sectionHeading()) routeChanged();
+      if (sectionTitle()) routeChanged();
       else location.hash = 'catalog/rehab';
     });
     document.body.append(replay);
@@ -143,7 +165,7 @@
     });
     const main = document.getElementById('main');
     const ready = () => {
-      if (!sectionHeading()) return false;
+      if (!sectionTitle() || !main?.querySelector('h1')) return false;
       observer.disconnect();
       routeChanged();
       return true;

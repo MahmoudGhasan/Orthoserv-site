@@ -3,12 +3,13 @@
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   if (!Element.prototype.animate) return;
   const preview = new URLSearchParams(location.search).get('motion-preview') === '1';
-  const stylesheet = new URL('section-motion.css?v=20261117-composed', document.currentScript.src);
+  const stylesheet = new URL('section-motion.css?v=20261117-department-curtain-1500', document.currentScript.src);
   let criticalStyle;
   function ensureCriticalStyle() {
     if (criticalStyle) return;
     criticalStyle=document.createElement('style');
     criticalStyle.textContent=".os-page-cover{position:fixed;inset:0;z-index:55;display:grid;place-items:center;background:var(--navy,#102c53);color:var(--paper,#fff);pointer-events:none;overflow:clip;isolation:isolate}.os-page-cover-title{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:0 .22em;max-width:calc(100vw - 40px);padding:12px;font:600 clamp(24px,3.4vw,56px)/1.5 Plex,Arial,sans-serif;text-align:center}.os-page-word-mask{display:inline-block;overflow:hidden;padding:0 .06em .12em;vertical-align:top;line-height:1.5}.os-page-word-mask>span{display:inline-block;will-change:transform}.os-cover-objects{position:absolute;inset:0;z-index:-1;pointer-events:none}.os-cover-object{position:absolute}";
+    criticalStyle.textContent+="/* Click-only rehab prototype. Text is counter-translated, never stretched. */\n.os-rehab-stage .os-rehab-surface{position:absolute;inset:0;background:var(--navy,#102c53);opacity:0;transform-origin:center;z-index:0}\n.os-rehab-strip{position:absolute;left:0;right:0;top:50%;margin-top:calc(var(--os-strip-height,96px)*-.5);height:var(--os-strip-height,96px);overflow:hidden;z-index:2}\n.os-rehab-strip-inner{width:100%;height:100%;display:grid;place-items:center;background:var(--navy,#102c53)}\n.os-rehab-heading{max-width:calc(100vw - 48px);margin:0;box-sizing:border-box}\n.os-rehab-word-window{display:inline-block;overflow:hidden;line-height:1.5}\n.os-rehab-word{display:block}\n.os-rehab-stage .os-rehab-art{z-index:1;opacity:0}\n";
     document.head.append(criticalStyle);
   }
   let cssReady;
@@ -67,6 +68,38 @@
     }
     return layer;
   }
+  function showSectionCurtain(title, hash, navigate) {
+    return new Promise(resolve => {
+      const element=document.createElement('div');element.className='os-page-cover os-rehab-stage';
+      element.dataset.section=sectionArt(hash);element.dataset.noTranslate='';element.setAttribute('aria-hidden','true');element.dir=document.documentElement.dir;
+      element.style.background='transparent';
+      const surface=document.createElement('div');surface.className='os-rehab-surface';
+      const strip=document.createElement('div');strip.className='os-rehab-strip';
+      const inner=document.createElement('div');inner.className='os-rehab-strip-inner';
+      const heading=document.createElement('div');heading.className='os-page-cover-title os-rehab-heading';
+      const words=title.trim().split(/\s+/).map(word=>{const mask=document.createElement('span'),text=document.createElement('span');mask.className='os-rehab-word-window';text.className='os-rehab-word';text.textContent=word;mask.append(text);heading.append(mask);return text;});
+      inner.append(heading);strip.append(inner);
+      const art=artwork(sectionArt(hash));art.classList.add('os-rehab-art');
+      const side=document.documentElement.dir==='rtl'?1:-1;
+      strip.style.transform='translateX('+(side*100)+'%)';inner.style.transform='translateX('+(-side*100)+'%)';
+      element.append(surface,art,strip);
+      const state={element,hash,animations:[],resolve,timer:null};cover=state;
+      document.body.append(element);
+      const stripHeight=Math.ceil(heading.getBoundingClientRect().height+24);
+      element.style.setProperty('--os-strip-height',stripHeight+'px');
+      const ratio=Math.min(1,stripHeight/element.getBoundingClientRect().height),ease='cubic-bezier(.22,.61,.36,1)';
+      const animate=(node,frames,options)=>{const animation=node.animate(frames,options);state.animations.push(animation);return animation;};
+      animate(strip,[{transform:'translateX('+(side*100)+'%)'},{transform:'translateX(0)'}],{duration:200,easing:ease,fill:'forwards'});
+      animate(inner,[{transform:'translateX('+(-side*100)+'%)'},{transform:'translateX(0)'}],{duration:200,easing:ease,fill:'forwards'});
+      const expand=animate(surface,[{transform:'scaleY('+ratio+')',opacity:1},{transform:'scaleY(1)',opacity:1}],{delay:200,duration:220,easing:ease,fill:'forwards'});
+      expand.finished.then(()=>{if(cover!==state)return;inner.style.background='transparent';navigate?.();},()=>{});
+      animate(art,[{opacity:0},{opacity:1}],{delay:420,duration:100,easing:'ease-out',fill:'forwards'});
+      words.forEach((word,i)=>animate(word,[{transform:'translateY(0)'},{transform:'translateY(-110%)'}],{delay:1000+Math.min(i,3)*30,duration:200,easing:ease,fill:'forwards'}));
+      const exit=animate(element,[{transform:'translateY(0)'},{transform:'translateY(-100%)'}],{delay:1220,duration:280,easing:ease,fill:'forwards'});
+      exit.finished.then(()=>{if(cover===state)closeCover(true);},()=>{});
+    });
+  }
+
   function showTitle(title, section, hash) {
     return new Promise(resolve => {
       const element = document.createElement('div');
@@ -117,13 +150,14 @@
     const title=window.OrthoCMS?.settings?.catalogueNavigation?.categories?.[section]?.title;
     return (typeof title === 'string' ? title : title?.[lang] || title?.ar) || titles[section][lang];
   }
-  function beginTransition(hash) {
+  function beginTransition(hash, navigate) {
     stop();
     if (reduced.matches) return;
     const title=sectionTitle(hash);
     if (!title) return;
     ensureCriticalStyle();
-    showTitle(title,sectionArt(hash),hash);
+    if(navigate||preview)showSectionCurtain(title,hash,navigate);
+    else showTitle(title,sectionArt(hash),hash);
     void loadStyles();
   }
   function routeChanged() {
@@ -136,6 +170,7 @@
     if (!link || link.hasAttribute('download') || link.target && link.target !== '_self') return;
     const next=new URL(link.href,location.href);
     if (next.origin !== location.origin || next.pathname !== location.pathname || next.search !== location.search || next.hash === location.hash || !sectionArt(next.hash)) return;
+    if(!reduced.matches){event.preventDefault();beginTransition(next.hash,()=>{location.hash=next.hash;});return;}
     beginTransition(next.hash);
     queueMicrotask(() => { if (event.defaultPrevented && location.hash !== next.hash && cover?.hash === next.hash) stop(); });
   }, {capture:true});
@@ -157,7 +192,7 @@
     label();
     replay.addEventListener('click', () => {
       if (sectionTitle()) routeChanged();
-      else location.hash = 'catalog/rehab';
+      else document.querySelector('a[href="#catalog/rehab"]')?.click();
     });
     document.body.append(replay);
     loadStyles().then(loaded => { replay.hidden = !loaded; });

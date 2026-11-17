@@ -34,7 +34,7 @@
     state.element.remove();
     state.resolve(completed);
   }
-  const sectionArt = hash => hash === '#catalog/compression' ? 'juzo'
+  const sectionArt = hash => hash === '#business' ? 'business' : hash === '#contact' ? 'contact' : hash === '#catalog/compression' ? 'juzo'
     : /^#(?:catalog\/(?:rehab|gym|consumables|medical)|brand\/juzo)$/.test(hash)
       ? hash.split('/').pop() : null;
   const artUrl = section => new URL('assets/transitions/'+section+'.webp', stylesheet).href;
@@ -43,7 +43,7 @@
     const link = event.target.closest?.('a[href]');
     if (!link) return;
     const section = sectionArt(new URL(link.href, location.href).hash);
-    if (!section || warmed.has(section) || reduced.matches) return;
+    if (!section || !objects[section] || warmed.has(section) || reduced.matches) return;
     warmed.add(section);
     void loadStyles();
     const image = new Image();image.decoding='async';image.fetchPriority='low';image.src=artUrl(section);
@@ -141,7 +141,9 @@
     gym:{ar:'اللياقة والتمارين',en:'Fitness & Exercise'},
     consumables:{ar:'المستلزمات الطبية',en:'Medical consumables'},
     medical:{ar:'المنتجات الطبية المتخصصة',en:'Specialist medical products'},
-    juzo:{ar:'عالم جوزو',en:'World of Juzo'}
+    juzo:{ar:'عالم جوزو',en:'World of Juzo'},
+    business:{ar:'تجهيز المراكز',en:'Centre Equipment'},
+    contact:{ar:'تواصل معنا',en:'Contact Us'}
   };
   function sectionTitle(hash = location.hash) {
     const section=sectionArt(hash);

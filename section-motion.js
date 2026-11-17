@@ -66,9 +66,8 @@
     root = null;
   }
   function sectionHeading() {
-    const view = (location.hash.slice(1) || 'home').split('/')[0];
-    if (!['home', 'intro', 'catalog', 'brand', 'offers', 'business', 'partners', 'contact', 'store'].includes(view)) return null;
-    const scope = document.querySelector(view === 'business' ? '#main #business' : view === 'partners' ? '#main #ourPartners' : '#main');
+    if (!/^#(?:catalog\/(?:rehab|gym|consumables|medical)|brand\/juzo)$/.test(location.hash)) return null;
+    const scope = document.getElementById('main');
     return [...(scope?.querySelectorAll('h1') || []), ...(scope?.querySelectorAll('h2') || [])]
       .find(heading => heading.getClientRects().length && heading.innerText.trim());
   }
